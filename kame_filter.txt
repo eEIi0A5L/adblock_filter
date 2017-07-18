@@ -1,0 +1,58 @@
+[Adblock Plus 2.0]
+! Title: 亀フィルタ（ウイルスサイトブロック）
+! Description: ウイルスサイトをブロックする
+!
+! Last modified: 2017/03/25 12:00 JST
+! Expires: 6 hours (update frequency)
+! Homepage: http://mars2.esy.es/kame.html
+
+
+! ウイルスサイトの可能性があるサイト START--------------------------
+||cn^
+||kr^
+||sk^
+||gu-ru.net^
+||www.amazon.co.jp.com-w.win^
+||com-w.win^
+||win^
+!フィッシング詐欺に多用されているドメイン
+||xyz^
+||xxx^
+||clubs^
+||club^
+||click^
+||link^
+||com-w.win^
+||site^
+||work^
+!ほかの優良なサイトもブロックされてしまうのでコメント化。
+!||it^
+||top^
+!||world^
+!２ちゃんねるの荒らしが誘導しているサイト。http://xn--t8jvd4grbu0c31aw745c.biz/bihada/1091.html
+!ほかの優良なサイトもブロックされてしまうのでコメント化。
+!||biz^
+!２ちゃんねるの荒らしが誘導しているサイト
+||livebby.b2.valueserver.jp^
+||edax.getamonkey.com^
+!miomioはマルウェアの疑いがあるため全面禁止
+||www.miomio.tv^
+! ウイルスサイトの可能性があるサイト END--------------------------
+
+!悪質なまとめサイト
+||blog.livedoor.jp/ringotomomin/
+
+!例外-------------------------------------------------
+!住所でぽん
+@@||jpon.xyz^
+!!twitterから外部への短縮URLで使われる
+!@@||dlvr.it^
+!!reddit
+!@@||redd.it^
+!@@||cnn.it^
+!!livedoorの個人サイト
+!@@||livedoor.biz^
+!END--------------------------------------------------
+
+
+! END
