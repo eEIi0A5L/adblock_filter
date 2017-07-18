@@ -11,4 +11,4 @@ I get 10 times more traffic from [Google][] than from
 <abp://subscribe/?location=https://github.com/eEIi0A5L/adblock_filter/blob/master/mochi_filter.txt&amp;title=もちフィルタ（広告ブロック）>
 
 
-[もちフィルタ購読](abp://subscribe/?location=https://github.com/eEIi0A5L/adblock_filter/blob/master/mochi_filter.txt&amp;title=もちフィルタ（広告ブロック）)
+[もちフィルタ購読](abp://subscribe/?location=https://github.com/eEIi0A5L/adblock_filter/blob/master/mochi_filter.txt&amp;title=もちフィルタ（広告ブロック） "もちフィルタ")
