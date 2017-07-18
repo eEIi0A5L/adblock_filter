@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>広告ブロックフィルタ</title>
+
+
+<script type="text/javascript">
+<!--
+
+var baseurl = "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/";
+
+function set( id, filename, filtername, comment) {
+	var element=document.getElementById(id);
+	var url4abp = "abp://subscribe/?location=" + baseurl + filename + "&amp;title=" + filtername + comment;
+	var html1 = filtername + "：<a href=\"" + url4abp + "\">フィルタを購読する</a>";
+	var html2 = "（<a href=\"" + baseurl + filename + "\">中身を見る</a>）";
+	var html = html1 + html2;
+	element.innerHTML = html;
+}
+
+function show() {
+	set("mochi", "mochi_filter.txt", "もちフィルタ", "（広告ブロック）");
+	set("mochi_extended", "mochi_filter_extended.txt", "もち拡張フィルタ", "（広告ブロック拡張）");
+	set("negi", "negi_filter.txt", "ねぎフィルタ", "（広告以外の不要要素ブロック）");
+	set("kame", "kame_filter.txt", "亀フィルタ", "（ウイルスサイトブロック）");
+	set("kotori", "kotori_filter.txt", "ことりフィルタ", "（SNSボタンブロック）");
+	set("ichigo", "ichigo_filter.txt", "いちごフィルタ", "（Xサイト広告ブロック）");
+
+}
+// -->
+</script>
+
+
+</head>
+
+<body onload="show()">
+
+<ul class="cbox filter">
+
+	<li id="mochi"/>
+	<li id="mochi_extended"/>
+	<li id="negi"/>
+	<li id="kame"/>
+	<li id="kotori"/>
+	<li id="ichigo"/>
+
+
+
+
+</ul>
+
+</body>
+
+</html>
