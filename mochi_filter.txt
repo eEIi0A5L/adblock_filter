@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 02 Jul 2017 12:00 JST
+! Last modified: 31 Jul 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://mars2.esy.es/mochi.html
 ! 
@@ -329,6 +329,9 @@ review.kakaku.com##.mTop10.mBtm10.alignC
 ||thumbnail.image.rakuten.co.jp/@0_mall/$domain=~rakuten.co.jp|~rakuten.ne.jp
 ||thumbnail.image.rakuten.co.jp/@0_gold/$domain=~rakuten.co.jp|~rakuten.ne.jp
 
+!楽天サイト自体の広告ブロック
+rakuten.co.jp###footer-floating-bnr
+
 !Amazon（他サイトに出る広告のブロック）
 ||amazon.co.jp^$domain=~amazon.co.jp
 !google検索結果のタイトルも消えてしまう
@@ -432,6 +435,7 @@ oshiete.goo.ne.jp###gheader
 ||itpro.nikkeibp.co.jp/js/n/itpro/2016/welcome2011.js
 ||itpro.nikkeibp.co.jp/js/n/itpro/2016/welcome2011_schedule.js
 ||bizad.nikkeibp.co.jp/NBP_AD/itpro/parts/itp_welcome_schedule.js?
+itpro.nikkeibp.co.jp##.list_G
 
 !産経
 ||www.sankei.com/apr_news/js/others/adGpt.js
@@ -632,8 +636,11 @@ www.axfc.net##.bnf
 !downdetector
 downdetector.jp##.ad
 
-!gigazine
+!GIGAZINE
 gigazine.net###EndFooter
+||i.gzn.jp/images/
+gigazine.net###G_EF2ND
+gigazine.net###G_EF
 
 !excite
 excite.co.jp##.yadsOverlay
@@ -683,6 +690,13 @@ www.accuweather.com##.column-2-world
 
 !bing
 bing.com##.b_ad
+
+!ちくわニコ生ランキング
+||www.chikuwachan.com/live/img/ad/
+www.chikuwachan.com##.c
+
+!matome33.work
+||fam-ad.com^
 
 !START ------------------------------------------------------------
 ! JPN: ABP Japanese filters (日本用フィルタ) の不具合対策

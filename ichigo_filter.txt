@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 31 May 2017 12:00 JST
+! Last modified: 24 Jul 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://mars2.esy.es/ichigo.html
 ! 
@@ -65,6 +65,9 @@ javfor.me##.adv
 ||puhtml.com^
 ||js.users.51.la^
 @@||www.2121.club^
+||88files.net/resources/js/bootstrap.min.js
+||dioimg.net/images/
+||mws3034.tk^
 
 !imagetwist.com
 .com/ga.js
