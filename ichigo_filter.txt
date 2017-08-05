@@ -2,7 +2,7 @@
 ! Title: いちごフィルタ（Xサイト広告ブロック）
 ! Last modified: 24 Jul 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
-! Homepage: http://mars2.esy.es/ichigo.html
+! Homepage: http://pokapoka.s1002.xrea.com/ichigo.html
 ! 
 ! 
 

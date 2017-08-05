@@ -2,7 +2,7 @@
 ! Title: もちフィルタ（広告ブロック）
 ! Last modified: 31 Jul 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
-! Homepage: http://mars2.esy.es/mochi.html
+! Homepage: http://pokapoka.s1002.xrea.com/mochi.html
 ! 
 ! 
 

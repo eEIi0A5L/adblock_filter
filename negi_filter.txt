@@ -2,7 +2,7 @@
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
 ! Last modified: 2017/06/06 12:00 JST
 ! Expires: 6 hours (update frequency)
-! Homepage: http://mars2.esy.es/negi.html
+! Homepage: http://pokapoka.s1002.xrea.com/negi.html
 
 
 !Youtubeに最初にアクセスしたときに上部に出る「Chromeでアクセスしますか？」のチッカー
