@@ -39,10 +39,12 @@ youtube.com##.ytp-ad-progress-list
 ||www.youtube.com/pagead/
 ||youtube-nocookie.com/gen_204?
 ||youtube.com/ptracking?
-!||s.youtube.com^
 ||youtube.com/get_midroll_info?
 ||www.google.co.jp/pagead/lvz?
 ||google.com/uds/api/ads/
+!playbackを例外にすれば視聴履歴は残る
+||s.youtube.com^
+@@||s.youtube.com/api/stats/playback?
 !END-----------------------------------------------
 
 !Youtubeのページレイアウト上の広告
