@@ -39,6 +39,10 @@ youtube.com##.ytp-ad-progress-list
 ||www.youtube.com/pagead/
 ||youtube-nocookie.com/gen_204?
 ||youtube.com/ptracking?
+||s.youtube.com^
+||youtube.com/get_midroll_info?
+||www.google.co.jp/pagead/lvz?
+||google.com/uds/api/ads/
 !END-----------------------------------------------
 
 !Youtubeのページレイアウト上の広告
@@ -364,6 +368,7 @@ ejje.weblio.jp##.prmmSrvc + .mainBlock + .mainBlock
 ejje.weblio.jp##.exclusive-benefits-banner
 weblio.jp###numberLimitCntdwn
 weblio.jp##.sideAd
+||weblio.hs.llnwd.net/e7/img/ad/
 !Weblioをちょっとでも早くしようともがいた結果-----------------
 ||cdn.optimizely.com/js/$domain=weblio.jp
 ||www.facebook.com/plugins/like.php?$domain=weblio.jp
@@ -436,6 +441,7 @@ oshiete.goo.ne.jp###gheader
 ||itpro.nikkeibp.co.jp/js/n/itpro/2016/welcome2011_schedule.js
 ||bizad.nikkeibp.co.jp/NBP_AD/itpro/parts/itp_welcome_schedule.js?
 itpro.nikkeibp.co.jp##.list_G
+itpro.nikkeibp.co.jp##ul.list_G
 
 !産経
 ||www.sankei.com/apr_news/js/others/adGpt.js
@@ -685,6 +691,9 @@ accuweather.com###header-davek
 https://vortex.accuweather.com/adc2010/images/misc/Ad_
 www.accuweather.com##.column-2-world
 
+!weathernews
+//mwsgvs.weathernews.jp/weekend-explorer/banner.jpg
+
 !atwiki
 ||img.atwikiimg.com/common/_js/atheadbar.js
 
@@ -697,6 +706,13 @@ www.chikuwachan.com##.c
 
 !matome33.work
 ||fam-ad.com^
+
+!xrea.com
+||cache1.value-domain.com/vd_468x60.png
+xrea.com###vdbanner
+!###vdbanner
+||cache1.value-domain.com/xrea_header.js
+
 
 !START ------------------------------------------------------------
 ! JPN: ABP Japanese filters (日本用フィルタ) の不具合対策
