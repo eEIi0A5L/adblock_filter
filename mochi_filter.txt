@@ -64,6 +64,9 @@ www.youtube.com##.iv-branding
 !下記はアノテーションを全て消す
 !www.youtube.com##.annotation
 
+!新しいデザインの YouTube https://www.youtube.com/new
+www.youtube.com###masthead-ad
+
 !Google
 !gmail
 mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB
