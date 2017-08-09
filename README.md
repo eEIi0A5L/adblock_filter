@@ -12,6 +12,6 @@
 
 いちごフィルタ（アダルトサイト広告ブロック）
 
-Homepage http://pokapoka.s1002.xrea.com/
+Homepage http://pokapoka.eu.pn/
 
 
