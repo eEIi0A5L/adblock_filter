@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 31 Jul 2017 12:00 JST
+! Last modified: 13 Aug 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
-! Homepage: http://pokapoka.s1002.xrea.com/mochi.html
+! Homepage: http://pokapoka.eu.pn/mochi.html
 ! 
 ! 
 
