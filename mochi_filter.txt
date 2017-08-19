@@ -63,6 +63,8 @@ www.youtube.com##.iv-promo
 www.youtube.com##.iv-branding
 !下記はアノテーションを全て消す
 !www.youtube.com##.annotation
+!Youtubeの動画最後に入る、次動画のサムネイルを非表示にする
+!www.youtube.com##.ytp-ce-element
 
 !新しいデザインの YouTube https://www.youtube.com/new
 www.youtube.com###masthead-ad
@@ -94,6 +96,8 @@ news.yahoo.co.jp##.lrec
 search.yahoo.co.jp##.ad
 search.yahoo.co.jp##.ss
 search.yahoo.co.jp##.cmm
+!Yahooトップあなたにおすすめ
+www.yahoo.co.jp###commercebox
 !Yahoo辞書に出てくる広告
 dic.yahoo.co.jp##.ss
 yahoo.co.jp##div[id^="yads"]
@@ -145,6 +149,9 @@ yahoo.co.jp###rma-pdv
 !Yahoo!News高速化
 ||yads.yahoo.co.jp/js/yads.js
 ||yjtag.yahoo.co.jp/csx?
+
+!microsoft下部の「このページは役に立ちましたか」
+microsoft.com###standardRating
 
 !Gyao
 !Gyao動画上の広告ブロック------------------------------
