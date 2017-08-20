@@ -198,7 +198,8 @@ live.nicovideo.jp###tanimachi-ranking
 !||nicolive.cdn.nimg.jp/live/simg/img/
 
 !Abema Fresh
-||imasdk.googleapis.com^
+!下記をブロックするとGyaoが見れない
+!||imasdk.googleapis.com^
 ||sy.ameblo.jp^
 ||s.yjtag.jp^
 ^adrequest^$domain=freshlive.tv
@@ -635,6 +636,7 @@ blog.so-net.ne.jp###seesaa-bnr
 
 !seesaa
 seesaa.net###seesaa-bnr
+seesaawiki.jp###seesaa-bnr
 
 !窓の杜で検索したときのgoogle広告
 ||cse.google.com/cse_v2/ads?
