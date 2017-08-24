@@ -105,7 +105,8 @@ yahoo.co.jp##div[id^="yads"]
 ||s.yimg.jp/images/listing/tool/yads/uadf/yads_
 ||yjtag.yahoo.co.jp/tag?
 ||yahoo.co.jp/tag/?ad
-yahoo.co.jp##.mainWrp > div:first-child
+!下記はYahoo路線図が表示されなくなるのでOFF
+!yahoo.co.jp##.mainWrp > div:first-child
 yahoo.co.jp###sidebnr
 mail.yahoo.co.jp###theAd
 mail.yahoo.co.jp###jp_ads_im_msglisttop
@@ -149,6 +150,8 @@ yahoo.co.jp###rma-pdv
 !Yahoo!News高速化
 ||yads.yahoo.co.jp/js/yads.js
 ||yjtag.yahoo.co.jp/csx?
+!Yahooトップのカード入会
+www.yahoo.co.jp##.Personalbox__noticeItem--card
 
 !microsoft下部の「このページは役に立ちましたか」
 microsoft.com###standardRating
