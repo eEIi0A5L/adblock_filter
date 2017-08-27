@@ -213,6 +213,12 @@ live.nicovideo.jp###tanimachi-ranking
 ||pebed.dm.gg^
 ||deployads.com^
 ||ad.afy11.net^
+||taboola.com^
+||a.teads.tv^
+||basebanner.com^
+||revsci.net^
+||cdn.krxd.net^
+||criteo.com^
 dailymotion.com###top_banner
 !右上のなにか
 dailymotion.com##.hidden-sm.hidden-md
