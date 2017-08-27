@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ことりフィルタ（SNSボタンブロック）
-! Last modified: 13 Aug 2017 12:00 JST
+! Last modified: 28 Aug 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.eu.pn/kotori.html
 ! 
@@ -65,6 +65,9 @@ yahoo.co.jp###rbnr
 ||s.yimg.jp/images/weather/top_module/twitter_top.png
 !||s.yimg.jp/images/sports/
 ||s.yimg.jp/images/weather/promo/
+
+!Yahoo映像トピックス
+videotopics.yahoo.co.jp###sns-mod
 
 !LineBlog
 ||parts.lineblog.me/img/usr/lineblog/common/sns_buttons.png
