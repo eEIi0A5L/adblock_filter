@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 28 Aug 2017 12:00 JST
+! Last modified: 01 Sep 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.eu.pn/mochi.html
 ! 
@@ -156,6 +156,10 @@ www.yahoo.co.jp##.Personalbox__noticeItem--card
 videotopics.yahoo.co.jp###async_lrec
 !Yahooショッピング右上の広告
 ||i.vcimg.jp/d/dpimg
+!Yahooトップのテキスト
+www.yahoo.co.jp###toptxt
+!Yahooトップ[PR]
+www.yahoo.co.jp###tct
 
 !microsoft下部の「このページは役に立ちましたか」
 microsoft.com###standardRating
@@ -223,6 +227,19 @@ live.nicovideo.jp###tanimachi-ranking
 ||revsci.net^
 ||cdn.krxd.net^
 ||criteo.com^
+||ads.stickyadstv.com^
+||b.scorecardresearch.com^
+||dailymotion.com/logger/
+||logger-04.vty.dailymotion.com^
+||beacon.krxd.net^
+||dmcdn.net/pxl/$domain=dailymotion.com
+||cdn.petametrics.com^
+||dailymotion-ams.gravityrd-services.com^
+||js.revsci.net^
+||dailymotion.com/masscast/
+||sync.adaptv.advertising.com^
+||cloudfront.net/dm.js$domain=dailymotion.com
+||static1.dmcdn.net/js/gen/lib/dm/ga.js
 dailymotion.com###top_banner
 !右上のなにか
 dailymotion.com##.hidden-sm.hidden-md
@@ -337,6 +354,8 @@ review.kakaku.com##.mTop10.mBtm10.alignC
 ||cas.criteo.com^
 ||pix.hk.as.criteo.net^
 kakaku.com##.c-ad
+!価格ドットコムのDELLのバナー
+||i.dell.com/images/jp/banners/banners_l/kakaku_180_60.gif
 
 !楽天（他サイトに出る広告のブロック）
 ||affiliate.rakuten.co.jp^$domain=~rakuten.co.jp
@@ -761,6 +780,8 @@ xrea.com###vdbanner
 !Peter Lowe’s Ad and tracking server list
 !Yahoo映像トピックスのTVer動画が見れない問題の対策
 @@||2mdn.net^
+!GoogleMapでLocalGuideをExitしたときに引っかかる
+@@_campaign=$document
 !END---------------------------------------------------------------------
 
 ! END
