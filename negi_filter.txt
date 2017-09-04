@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2017/09/01 12:00 JST
+! Last modified: 2017/09/04 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.eu.pn/negi.html
 
@@ -220,6 +220,8 @@ www.dospara.co.jp###chatIcon
 
 !goo
 oshiete.goo.ne.jp###are_search_footer_popup
+!教えてgooで文字列選択でポップアップするQ&A検索
+oshiete.goo.ne.jp###searchBtn_popup
 
 !slashdot
 slashdot.org###announcement

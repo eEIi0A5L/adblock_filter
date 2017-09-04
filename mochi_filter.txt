@@ -160,6 +160,8 @@ videotopics.yahoo.co.jp###async_lrec
 www.yahoo.co.jp###toptxt
 !Yahooトップ[PR]
 www.yahoo.co.jp###tct
+!Yahooトップ右上の広告が新しくなった
+www.yahoo.co.jp##.yjads_priority_4
 
 !microsoft下部の「このページは役に立ちましたか」
 microsoft.com###standardRating
