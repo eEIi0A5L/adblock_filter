@@ -72,7 +72,8 @@ www.yahoo.co.jp###eventPromo
 www.yahoo.co.jp###event
 www.yahoo.co.jp###ultra
 www.yahoo.co.jp###PopHead
-news.yahoo.co.jp###msthdtp
+!Yahooトップに戻るリンクが最上部に出るようになったので表示させる
+!news.yahoo.co.jp###msthdtp
 !Yahooニュースで文字列を選択した時に出る「Yahoo検索」ポップアップを邪魔なので消す
 yahoo.co.jp###yjSearchPop
 weather.yahoo.co.jp###msthdFifth
