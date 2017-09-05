@@ -49,8 +49,8 @@
 www.support.microsoft21013ajpmschf8356.com.s3-website-ap-northeast-1.amazonaws.com
 
 !例外-------------------------------------------------
-!住所でぽん
-@@||jpon.xyz^
+!住所でぽん→xyz自体をはずした
+!@@||jpon.xyz^
 !!twitterから外部への短縮URLで使われる
 !@@||dlvr.it^
 !!reddit

@@ -784,6 +784,9 @@ xrea.com###vdbanner
 @@||2mdn.net^
 !GoogleMapでLocalGuideをExitしたときに引っかかる
 @@_campaign=$document
+!キャンペーンサイトで表示されない対策
+@@_campaign=$popup
+@@_campaign=$document
 !END---------------------------------------------------------------------
 
 ! END
