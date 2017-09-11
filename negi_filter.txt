@@ -116,6 +116,10 @@ gyao.yahoo.co.jp###nav
 twitter.com##.GalleryNav
 !ツイッターのユーザページの詳細設定をクリックする時にツールチップが邪魔なので消す
 twitter.com##.tooltip-inner
+!Twitter ライブビデオ
+||twitter.com/i/live_video_stream/
+||p-va-1.ft.e.lv.twimg.com/x/out/
+twitter.com##.LiveVideoHomePageModuleContainer
 
 !Wikipedia
 wikipedia.org###siteNotice

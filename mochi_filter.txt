@@ -166,6 +166,9 @@ www.yahoo.co.jp##.yjads_priority_4
 !microsoft下部の「このページは役に立ちましたか」
 microsoft.com###standardRating
 
+!outlook betaの右側の広告
+outlook.live.com##:xpath(//div[@aria-label="advertisement"]/parent::div)
+
 !Gyao
 !Gyao動画上の広告ブロック------------------------------
 ||ad.auditude.com/adserver/
@@ -594,6 +597,8 @@ slashdot.org###firehose iframe
 !豆腐トップページ
 tofukko.r.ribbon.to##p[align="center"]
 tofukko.r.ribbon.to##iframe
+!豆腐ブログスポンサーサイト
+tofukko.blog113.fc2.com###title
 
 !Oricon
 ||contents.oricon.co.jp/pc/img/_parts/manual/os-ad
@@ -766,6 +771,9 @@ xrea.com###vdbanner
 !###vdbanner
 ||cache1.value-domain.com/xrea_header.js
 
+!4gamer 右上広告
+www.4gamer.net##.sidetop
+
 
 !START ------------------------------------------------------------
 ! JPN: ABP Japanese filters (日本用フィルタ) の不具合対策
@@ -791,6 +799,8 @@ xrea.com###vdbanner
 !キャンペーンサイトで表示されない対策
 @@_campaign=$popup
 @@_campaign=$document
+!malwarelistに入っている
+@@||navitime.co.jp^
 !END---------------------------------------------------------------------
 
 ! END
