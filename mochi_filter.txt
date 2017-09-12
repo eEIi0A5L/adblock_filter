@@ -162,6 +162,8 @@ www.yahoo.co.jp###toptxt
 www.yahoo.co.jp###tct
 !Yahooトップ右上の広告が新しくなった
 www.yahoo.co.jp##.yjads_priority_4
+!Yahooトップの右上2017.09.12
+www.yahoo.co.jp##:xpath(//img[@id="multilink-image"]/parent::div)
 
 !microsoft下部の「このページは役に立ちましたか」
 microsoft.com###standardRating
