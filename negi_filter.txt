@@ -127,6 +127,7 @@ wiktionary.org###siteNotice
 wikibooks.org###siteNotice
 !wikimedia.commons
 commons.wikimedia.org###siteNotice
+||meta.wikimedia.org/w/index.php?title=Special:BannerLoader&campaign=
 
 !音泉
 www.onsen.ag###fixFooter
