@@ -2,7 +2,7 @@
 ! Title: いちごフィルタ（Xサイト広告ブロック）
 ! Last modified: 20 Aug 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
-! Homepage: http://pokapoka.eu.pn/ichigo.html
+! Homepage: http://pokapoka.html.xdomain.jp/ichigo.html
 ! 
 ! 
 

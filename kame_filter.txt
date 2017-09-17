@@ -4,7 +4,7 @@
 !
 ! Last modified: 2017/09/03 12:00 JST
 ! Expires: 6 hours (update frequency)
-! Homepage: http://pokapoka.eu.pn/kame.html
+! Homepage: http://pokapoka.html.xdomain.jp/kame.html
 
 
 ! ウイルスサイトの可能性があるサイト START--------------------------

@@ -1,0 +1,37 @@
+[Adblock Plus 2.0]
+! Title: もち２軍フィルタ - Experimental
+! Last modified: 17 Sep 2017 12:00 JST
+! Expires: 6 hours (update frequency)
+! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
+! 
+! 
+
+
+!２軍フィルタ
+
+!もち----------------------------------------------
+
+
+!navitime
+www.navitime.co.jp###under-advertisement
+
+
+
+
+
+!ねぎ---------------------------------------------------
+
+
+
+!Amazonサインイン吹き出し。必要な人だけONにする
+!www.amazon.co.jp###nav-flyout-anchor
+
+
+
+
+
+
+
+
+
+!END

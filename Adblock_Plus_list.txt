@@ -2,7 +2,7 @@
 ! Title: 豆腐フィルタ
 ! Homepage: http://tofukko.r.ribbon.to/abp.html
 !
-! 最終更新 8:24 2017/08/26
+! 最終更新 20:56 2017/09/17
 !
 !--------通販サイト--------!
 amazon.co$third-party,~xmlhttprequest,domain=~amazon.co.jp|~amazon.com|~amazon.co.uk|~amazon.de|~aucfan.com|~book.akahoshitakuya.com|~book.asahi.com|~booklog.jp|~bookmeter.com|~bookvinegar.jp|~mail.google.com|~javari.jp|~kakaku.com|~nicovideo.jp|~comic.pixiv.net|~novel.pixiv.net
@@ -168,6 +168,7 @@ _ads.php
 
 .biz/ad/
 .biz/ads/
+.ch/ads/
 .co/ads/
 .com/ad/
 .com/ads/
@@ -590,6 +591,8 @@ xvideos.com##.sponsor-popup
 ||pron.tv/js/xp/pt.js?*
 
 
+||jqueryserve.com^$domain=spankwire.com
+
 
 ||n1198adserv.xyz^
 
@@ -845,7 +848,7 @@ $script,third-party,domain=jpidols.tv
 ! bbc.co.uk音出ない
 ! dropbox.com　リンク取得後縮小画像が見えない
 ! radiko.jp 上部メニューが出ない
-/logger.js$domain=~bbc.co.uk|~dropbox.com|~radiko.jp
+/logger.js$domain=~bbc.co.uk|~bbc.com|~dropbox.com|~radiko.jp
 /logking.cgi?
 /logset.cgi?
 /logwrite.cgi?
@@ -1403,6 +1406,7 @@ new-akiba.com##.top-column-product
 new-akiba.com##.top-column-sidelist2
 ura-akiba.jp##.dlg
 ura-akiba.jp##a[href^="http://dl.getchu.com/ura_akiba/"]
+navitime.co.jp###under-advertisement
 news.mixi.jp##.adsenseBannerArea
 nicofinder.net###video-ichiba
 nikkansports.com##[id^="sideAd"]
@@ -1579,7 +1583,7 @@ blog.goo.ne.jp###mod-goo-recommends
 !------------楽天------------!
 ||afl.rakuten.co.jp^$domain=~afl.rakuten.co.jp
 ||dynamic.rakuten.co.jp^
-||ias.rakuten.co.jp^
+||ias.rakuten.co.jp^$domain=~event.rakuten.co.jp
 ||thumbnail.image.rakuten.co.jp^$domain=~rakuten.co.jp|~kakaku.com
 ||xml.affiliate.rakuten.co.jp^
 ||infoseek.rakuten.co.jp/content/news/bunner/

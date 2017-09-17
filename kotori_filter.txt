@@ -2,7 +2,7 @@
 ! Title: ことりフィルタ（SNSボタンブロック）
 ! Last modified: 28 Aug 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
-! Homepage: http://pokapoka.eu.pn/kotori.html
+! Homepage: http://pokapoka.html.xdomain.jp/kotori.html
 ! 
 ! 
 
