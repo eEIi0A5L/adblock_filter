@@ -12,6 +12,6 @@
 
 いちごフィルタ（アダルトサイト広告ブロック）
 
-Homepage http://pokapoka.eu.pn/
+Homepage http://pokapoka.html.xdomain.jp/
 
 
