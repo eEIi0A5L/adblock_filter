@@ -33,6 +33,8 @@ news.nicovideo.jp###comment-post-window
 www.nicovideo.jp##.summer2017Area
 
 !Google
+!ポップアップ「こちらによくアクセスする方は Google をホームページに」
+www.google.co.jp##div[role="dialog"]
 google.co.jp##div[aria-label="promo"]
 !Googleトップの目障りなJS削除
 /logos/$domain=google.co.jp,google.com
