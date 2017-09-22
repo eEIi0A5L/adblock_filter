@@ -7,6 +7,8 @@
 
 !Youtubeに最初にアクセスしたときに上部に出る「Chromeでアクセスしますか？」のチッカー
 www.youtube.com###ticker-content
+!動画右上のSuggests白いバー
+www.youtube.com##.ytp-chrome-top-buttons
 
 !ニコ生＋ニコ動
 www.nicovideo.jp##.Marquee-item
@@ -112,6 +114,10 @@ lohaco.jp##.bannerArea
 !Gyao
 gyao.yahoo.co.jp###premium_bnr
 gyao.yahoo.co.jp###nav
+
+!microsoft
+!Edge Promotion Block。マイクロソフトのサイト上部に出てくる「Try Edge」の文言
+microsoft.com###epb
 
 !twitter
 !ツイートポップアップ時にこれがあると右クリックで画像表示できないので消す
@@ -222,6 +228,8 @@ itmedia.co.jp##.colBoxBreakingNews
 !サインインのポップアップ
 !ポップアップで強調されたほうが良い、未ログインでもカートにアイテム追加→レジまで進めてしまうので
 !amazon.co.jp##.nav-signin-tt
+!Amazonサインイン吹き出し。必要な人だけONにする
+!www.amazon.co.jp###nav-flyout-anchor
 
 !ドスパラ
 www.dospara.co.jp###chatIcon
