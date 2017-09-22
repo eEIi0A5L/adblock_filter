@@ -36,7 +36,8 @@ www.nicovideo.jp##.summer2017Area
 
 !Google
 !ポップアップ「こちらによくアクセスする方は Google をホームページに」
-www.google.co.jp##div[role="dialog"]
+!www.google.co.jp##div[role="dialog"]
+www.google.co.jp##:xpath(//a[@title="No thanks"]/parent::div/parent::div)
 google.co.jp##div[aria-label="promo"]
 !Googleトップの目障りなJS削除
 /logos/$domain=google.co.jp,google.com
