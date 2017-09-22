@@ -36,8 +36,11 @@ www.nicovideo.jp##.summer2017Area
 
 !Google
 !ポップアップ「こちらによくアクセスする方は Google をホームページに」
+!googlemapで誤爆する
 !www.google.co.jp##div[role="dialog"]
-www.google.co.jp##:xpath(//a[@title="No thanks"]/parent::div/parent::div)
+!uBlockOrigin専用表記なのでできるだけ使いたくない
+!www.google.co.jp##:xpath(//a[@title="No thanks"]/parent::div/parent::div)
+www.google.co.jp##div[role="dialog"][style="behavior:url(#default#userData)"]
 google.co.jp##div[aria-label="promo"]
 !Googleトップの目障りなJS削除
 /logos/$domain=google.co.jp,google.com
