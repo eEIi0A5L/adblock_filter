@@ -780,6 +780,10 @@ xrea.com###vdbanner
 !4gamer 右上広告
 www.4gamer.net##.sidetop
 
+!greasyfork
+greasyfork.org###script-show-info-ad
+greasyfork.org##.ad
+
 
 !START ------------------------------------------------------------
 ! JPN: ABP Japanese filters (日本用フィルタ) の不具合対策
