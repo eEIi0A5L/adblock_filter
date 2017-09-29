@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: モバイルフィルタ（mobile filter）
-! Last modified: 28 Sep 2017 12:00 JST
+! Last modified: 29 Sep 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mobile.html
 ! 
@@ -15,5 +15,11 @@
 
 !impress
 impress.co.jp###sp-floating-layer
+
+!Yahoo!Japan
+news.yahoo.co.jp###peron
+
+!その他
+enechange.jp##.e__float_try
 
 ! END
