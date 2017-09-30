@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 10 Sep 2017 12:00 JST
+! Last modified: 30 Sep 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -220,6 +220,8 @@ live.nicovideo.jp###tanimachi-ranking
 !ニコ生の背景
 !ニコ生トップのサムネイルが消えてしまう
 !||nicolive.cdn.nimg.jp/live/simg/img/
+!ニコ動広告の黄色いバーを消す
+www.nicovideo.jp##.SeekBarContainer-videoAdMarker
 
 !ニコニコ大百科
 dic.nicovideo.jp##.ad-bannar-maincolumn-top

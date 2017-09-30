@@ -19,7 +19,12 @@ impress.co.jp###sp-floating-layer
 !Yahoo!Japan
 news.yahoo.co.jp###peron
 
+!goo
+goo.ne.jp##div[id^="gooad"]
+
+
 !その他
 enechange.jp##.e__float_try
+www.tainavi-switch.com##.bn-01
 
 ! END

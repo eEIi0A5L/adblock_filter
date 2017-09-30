@@ -251,3 +251,4 @@ slashdot.org###announcement
 !日経
 www.nikkei.com##.JSID_yudoMotion_closeAction
 
+!END
