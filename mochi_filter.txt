@@ -170,6 +170,8 @@ www.yahoo.co.jp##:xpath(//img[@id="multilink-image"]/parent::div)
 weather.yahoo.co.jp###ad-lrec
 !ソフトバンクセール
 www.yahoo.co.jp###windowShade
+!ヘッドライン右上の広告
+headlines.yahoo.co.jp###lrec
 
 !microsoft下部の「このページは役に立ちましたか」
 microsoft.com###standardRating
@@ -263,31 +265,33 @@ dailymotion.com###top_banner
 !右上のなにか
 dailymotion.com##.hidden-sm.hidden-md
 
-!２ちゃんねる
-2ch.net,bbspink.com##.banner
+!５ちゃんねる、２ちゃんねる
+5ch.net,2ch.net,bbspink.com##.banner
 menu.2ch.net##body > a
-/bannar/$domain=2ch.net,bbspink.com
-2ch.net,bbspink.com##body > iframe
-2ch.net,bbspink.com##body > div > img
-2ch.net,bbspink.com##body > div + br + div
-2ch.net,bbspink.com##.js--ad--bottom
-2ch.net,bbspink.com###js--banners--thread
-2ch.net,bbspink.com##.ad--bottom
+menu.5ch.net##body > a
+/bannar/$domain=5ch.net,2ch.net,bbspink.com
+5ch.net,2ch.net,bbspink.com##body > iframe
+5ch.net,2ch.net,bbspink.com##body > div > img
+5ch.net,2ch.net,bbspink.com##body > div + br + div
+5ch.net,2ch.net,bbspink.com##.js--ad--bottom
+5ch.net,2ch.net,bbspink.com###js--banners--thread
+5ch.net,2ch.net,bbspink.com##.ad--bottom
 pinktower.com##div > ul
-2ch.net,bbspink.com##.ad--right
-2ch.net,bbspink.com###banner
-2ch.net,bbspink.com##body > div + br + div + iframe + iframe + div
-2ch.net,bbspink.com##body > div + br + div + iframe + iframe + div + div
-2ch.net,bbspink.com##script + table + div[align="center"]
+5ch.net,2ch.net,bbspink.com##.ad--right
+5ch.net,2ch.net,bbspink.com###banner
+5ch.net,2ch.net,bbspink.com##body > div + br + div + iframe + iframe + div
+5ch.net,2ch.net,bbspink.com##body > div + br + div + iframe + iframe + div + div
+5ch.net,2ch.net,bbspink.com##script + table + div[align="center"]
 menu.2ch.net##body > div:first-child
-2ch.net,bbspink.com,pinktower.com##iframe
-2ch.net,bbspink.com##div[align='center'] + table + br + table + div
-2ch.net,bbspink.com##div[align='center'] + table + br + table
-2ch.net,bbspink.com##table + br + center
-2ch.net##body > div + table + br + table
-2ch.net##body > div + table + br + table + div
-2ch.net##.ADVERTISE_AREA
-2ch.net##.ADVERTISE_AREA + div
+menu.5ch.net##body > div:first-child
+5ch.net,2ch.net,bbspink.com,pinktower.com##iframe
+5ch.net,2ch.net,bbspink.com##div[align='center'] + table + br + table + div
+5ch.net,2ch.net,bbspink.com##div[align='center'] + table + br + table
+5ch.net,2ch.net,bbspink.com##table + br + center
+5ch.net,2ch.net##body > div + table + br + table
+5ch.net,2ch.net##body > div + table + br + table + div
+5ch.net,2ch.net##.ADVERTISE_AREA
+5ch.net,2ch.net##.ADVERTISE_AREA + div
 ||google.com/pagead/
 ||i2ad.jp^
 ||microad.net^
@@ -300,10 +304,16 @@ menu.2ch.net##body > div:first-child
 ||2ch.net/snow/index.js
 ||2ch.net/snow/bebe.js
 ||2ch.net/snow/2chtop.js
+||5ch.net/css/ad.css
+||5ch.net/js/ad.js
+||5ch.net/snow/index.js
+||5ch.net/snow/bebe.js
+||5ch.net/snow/2chtop.js
 ||bbspink.com/js/ad.js?
 ||bbspink.com/css/ad.css
 ||headline.bbspink.com/newsbbspink/marquee/marqueepele.php
 ||stimgc.iand2ch.net/bbs-ad/
+||stimgc.iand5ch.net/bbs-ad/
 ||switch-app.net/images/bnr/
 ||stab.thench.net/jump/line_
 ||stab.thench.net/jump/bottom_
@@ -315,13 +325,15 @@ menu.2ch.net##body > div:first-child
 ||stab.thench.net/threads/thread_bottom_left_
 ||stab.thench.net/threads/thread_bottom_right_
 ||stimg.iand2ch.net/bbs-ad/
-2ch.net,bbspink.com##div[class^="banner_area_"]
-2ch.net,bbspink.com###top_banner
-2ch.net,bbspink.com##.ticker
+||stimg.iand5ch.net/bbs-ad/
+5ch.net,2ch.net,bbspink.com##div[class^="banner_area_"]
+5ch.net,2ch.net,bbspink.com###top_banner
+5ch.net,2ch.net,bbspink.com##.ticker
 ||stbp.thench.net/subback/mercury/banner
 ||stbp.thench.net/toppage/common-
-!2ch携帯
+!5ch, 2ch携帯
 ||stimg.iand2ch.net^
+||stimg.iand5ch.net^
 
 !Ameba, ameblo
 ameblo.jp##.subAdBannerHeader

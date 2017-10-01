@@ -148,10 +148,10 @@ www.onsen.ag###fixFooter
 !右のナビ。
 www.onsen.ag###programNavi
 
-!２ちゃんねる
-2ch.net,bbspink.com##div[align='center'] + table + br + table + div
-2ch.net,bbspink.com##div[align='center'] + table + br + table
-2ch.net,bbspink.com##table + br + center
+!５ちゃんねる、２ちゃんねる
+5ch.net,2ch.net,bbspink.com##div[align='center'] + table + br + table + div
+5ch.net,2ch.net,bbspink.com##div[align='center'] + table + br + table
+5ch.net,2ch.net,bbspink.com##table + br + center
 !↓お絵かき表示をOFFにする場合
 !||o.8ch.net^
 
