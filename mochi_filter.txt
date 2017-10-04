@@ -74,6 +74,9 @@ www.youtube.com###masthead-ad
 !Google
 !gmail
 mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB
+!google, githubで検索すると広告が表示される
+###taw
+##:xpath(//div[@id="tads"]/parent::div/parent::div)
 
 !Yahoo!Japan
 www.yahoo.co.jp###brandpanel
@@ -173,6 +176,9 @@ www.yahoo.co.jp###windowShade
 !ヘッドライン右上の広告
 headlines.yahoo.co.jp###lrec
 news.yahoo.co.jp###lrec
+!Yahoo右上に新規広告の枠だけ出るようになった
+||s.yimg.jp/images/advertising/common/js/iicon.min.js
+###sub > div[style="margin: 0px auto 10px"]
 
 !microsoft下部の「このページは役に立ちましたか」
 microsoft.com###standardRating
@@ -613,6 +619,8 @@ slashdot.org###firehose iframe
 ||analytics.slashdotmedia.com/sd.js
 ||slashdot.org/images/js.gif?
 ||www.googletagservices.com/tag/js/gpt.js
+!注：:has()を使う場合は、ドメインを指定しないと機能しない
+slashdot.org##article:has(div[class="ntv-sponsored-disclaimer"])
 
 !Naverまとめ
 ||api.unthem.com/js/pcad.js?

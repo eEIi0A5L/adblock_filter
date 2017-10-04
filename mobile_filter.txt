@@ -25,6 +25,13 @@ goo.ne.jp##div[id^="gooad"]
 !Wikipedia
 ||meta.wikimedia.org/w/index.php?title=Special:BannerLoader&campaign=
 
+!j-cast
+www.j-cast.com##.gmossp_ad_frame
+
+!Twitter
+!未ログインで見てるとログインを促す全画面ポップアップ
+mobile.twitter.com##header[role="banner"] + div > div
+
 !その他
 enechange.jp##.e__float_try
 www.tainavi-switch.com##.bn-01

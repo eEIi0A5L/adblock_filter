@@ -69,6 +69,8 @@ ejje.weblio.jp###turbo-hot-word-wrap
 abema.tv##div[class^="styles__twitter-panel"]
 !Abema画面左下に出てくるおすすめ
 abema.tv##:xpath(//img[@alt="オススメ"]/parent::div/parent::div/parent::div/parent::div/parent::div)
+!お使いのブラウザは推奨環境外のため、正しく動画が再生されない可能性があります。快適に視聴するために、最新版のGoogle Chromeをご利用ください。
+abema.tv##.pw_e
 
 !Yahoo!Japan
 yahoo.co.jp###promoarea

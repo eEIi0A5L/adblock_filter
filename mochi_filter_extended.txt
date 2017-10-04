@@ -171,6 +171,8 @@ answers.yahoo.com###tgtMAST
 yahoo.com##.js-stream-ad
 mail.yahoo.com##.mb
 ||bats.video.yahoo.com^
+!米Yahooメール先頭の広告
+mg.mail.yahoo.com##li[role="rowgroup"]:has(a[data-test-id="pencil-ad"])
 
 !モカ
 moca-news.net###container-child > div[align="center"] > div > img
