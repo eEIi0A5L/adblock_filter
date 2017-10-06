@@ -75,8 +75,9 @@ www.youtube.com###masthead-ad
 !gmail
 mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB
 !google, githubで検索すると広告が表示される
-###taw
-##:xpath(//div[@id="tads"]/parent::div/parent::div)
+www.google.co.jp###taw
+www.google.co.jp##:xpath(//div[@id="tads"]/parent::div/parent::div)
+www.google.co.jp###bottomads
 
 !Yahoo!Japan
 www.yahoo.co.jp###brandpanel
@@ -178,7 +179,7 @@ headlines.yahoo.co.jp###lrec
 news.yahoo.co.jp###lrec
 !Yahoo右上に新規広告の枠だけ出るようになった
 ||s.yimg.jp/images/advertising/common/js/iicon.min.js
-###sub > div[style="margin: 0px auto 10px"]
+www.yahoo.co.jp###sub > div[style="margin: 0px auto 10px"]
 
 !microsoft下部の「このページは役に立ちましたか」
 microsoft.com###standardRating
