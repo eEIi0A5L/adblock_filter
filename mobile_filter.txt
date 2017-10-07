@@ -18,14 +18,15 @@
 ||ssl-stat.amebame.com/pub/ads/
 ||adt.measure.ameblo.jp^
 
-!Youtube
+!Youtube  https://m.youtube.com/
 ||www.google.co.jp/pagead/
 ||www.youtube.com/api/stats/ads?
 ||m.youtube.com/csi_204?
 ||www.youtube.com/pagead/
 !Youtube,Home最上部の広告動画
 !###koya_child_5 > div:first-child
-###koya_child_6
+!###koya_child_6
+m.youtube.com##a[onclick^="return koya.onEvent(arguments[0]||window.event,'"] + div
 
 !google検索結果の広告
 www.google.co.jp##li[data-hveid]:has(> div.ads-ad)
