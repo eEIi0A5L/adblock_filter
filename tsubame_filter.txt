@@ -39,6 +39,7 @@ twitter.com##.promoted-trend
 mobile.twitter.com##div[role="article"]:has-text(によるプロモーション)
 !未ログインで見てるとログインを促す全画面ポップアップ
 mobile.twitter.com##header[role="banner"] + div > div
+||pbs.twimg.com/ad_img/
 
 !impress
 impress.co.jp###sp-floating-layer
@@ -70,6 +71,14 @@ enechange.jp##.e__float_try
 ||cdn.adnwif.smt.docomo.ne.jp^
 ||t.co/i/adsct?
 ||analytics.twitter.com/i/adsct?
+
+!斧
+||bn.maist.jp^
+||cd.ladsp.com^
+www.axfc.net##a[href^="http://click.ad-stir.com/"]
+www.axfc.net##.bnf
+||js.ad-stir.com^
+||d.href.asia/nw/d/ajs.php?zoneid=
 
 !その他
 www.tainavi-switch.com##.bn-01
