@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Title: ツバメフィルタ（mobile filter）
+! Title: たまごフィルタ（mobile filter）
 ! Last modified: 07 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
-! Homepage: http://pokapoka.html.xdomain.jp/tsubame.html
+! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
 ! 
 
