@@ -30,6 +30,14 @@
 !google検索結果の広告
 www.google.co.jp##li[data-hveid]:has(> div.ads-ad)
 
+!Twitter
+twitter.com##.promoted-tweet
+twitter.com##.promoted-trend
+!モバイル版では上記のクラス名がランダム化されてるので下記で代用する
+mobile.twitter.com##div[role="article"]:has-text(によるプロモーション)
+!未ログインで見てるとログインを促す全画面ポップアップ
+mobile.twitter.com##header[role="banner"] + div > div
+
 !impress
 impress.co.jp###sp-floating-layer
 
@@ -45,9 +53,6 @@ goo.ne.jp##div[id^="gooad"]
 !j-cast
 www.j-cast.com##.gmossp_ad_frame
 
-!Twitter
-!未ログインで見てるとログインを促す全画面ポップアップ
-mobile.twitter.com##header[role="banner"] + div > div
 
 !その他
 enechange.jp##.e__float_try
