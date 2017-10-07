@@ -8,10 +8,27 @@
 
 !ameblo
 ||cdn.amanad.adtdp.com^
+||adsd-sync.amanad.adtdp.com^
+||adn-d.sp.gmossp-sp.jp^
+||ad.amanad.adtdp.com^
+||ameblo.jp/_api/adIds;
+||ameblo.jp/_api/officialAdTags;
+||cdn.as.amanad.adtdp.com/sdk/asot-v2.js
+||ad.pr.ameba.jp^
+||ssl-stat.amebame.com/pub/ads/
+||adt.measure.ameblo.jp^
 
+!Youtube
+||www.google.co.jp/pagead/
+||www.youtube.com/api/stats/ads?
+||m.youtube.com/csi_204?
+||www.youtube.com/pagead/
 !Youtube,Home最上部の広告動画
 !###koya_child_5 > div:first-child
 ###koya_child_6
+
+!google検索結果の広告
+www.google.co.jp##li[data-hveid]:has(> div.ads-ad)
 
 !impress
 impress.co.jp###sp-floating-layer
