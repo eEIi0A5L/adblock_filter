@@ -40,12 +40,21 @@ mobile.twitter.com##header[role="banner"] + div > div
 
 !impress
 impress.co.jp###sp-floating-layer
+||in.treasuredata.com^
+||microad.jp^
 
 !Yahoo!Japan
 news.yahoo.co.jp###peron
 
 !goo
 goo.ne.jp##div[id^="gooad"]
+||adcdn.goo.ne.jp^
+||s.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js
+||yads.c.yimg.jp^
+||lodeo-adnw.adtdp.com^
+||yads.c.yimg.jp/js/yads.js
+||adcdn.goo.ne.jp/images/js/smarttag-news-news.js
+news.goo.ne.jp##div[style*="fixed"]
 
 !Wikipedia
 ||meta.wikimedia.org/w/index.php?title=Special:BannerLoader&campaign=
@@ -53,9 +62,14 @@ goo.ne.jp##div[id^="gooad"]
 !j-cast
 www.j-cast.com##.gmossp_ad_frame
 
+!enechange.jp
+enechange.jp##.e__float_try
+||static.ads-twitter.com^
+||cdn.adnwif.smt.docomo.ne.jp^
+||t.co/i/adsct?
+||analytics.twitter.com/i/adsct?
 
 !その他
-enechange.jp##.e__float_try
 www.tainavi-switch.com##.bn-01
 
 ! END
