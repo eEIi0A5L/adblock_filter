@@ -31,6 +31,7 @@ m.youtube.com##a[onclick^="return koya.onEvent(arguments[0]||window.event,'"] > 
 
 !google検索結果の広告
 www.google.co.jp##li[data-hveid]:has(> div.ads-ad)
+||google.co.jp/gen_204?$other
 
 !Twitter
 twitter.com##.promoted-tweet
@@ -62,6 +63,21 @@ news.goo.ne.jp##div[style*="fixed"]
 
 !Wikipedia
 ||meta.wikimedia.org/w/index.php?title=Special:BannerLoader&campaign=
+
+!５ちゃんねるスマホ用http://itest.5ch.net/
+||static.adroute.focas.jp^
+||i2ad.jp^
+||static.adroute.focas.jp^
+||i2ad.jp^
+||j.amoad.com^
+itest.5ch.net##.ad
+||static.zucks.net.zimg.jp^
+||cr-p17.ladsp.com^
+||sprout-ad.genieesspv.jp^
+||js.sprout-ad.com^
+itest.5ch.net###res_ad
+itest.5ch.net##.sproutad_frame
+||itest.5ch.net/assets/img/ronin_premium_640x100.png
 
 !j-cast
 www.j-cast.com##.gmossp_ad_frame

@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Experimental
-! Last modified: 02 Oct 2017 12:00 JST
+! Last modified: 09 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -15,6 +15,8 @@
 !navitime
 www.navitime.co.jp###under-advertisement
 
+!痛いニュース
+||blog.livedoor.jp/dqnplus/settings/ad.js
 
 
 
@@ -27,10 +29,10 @@ www.navitime.co.jp###under-advertisement
 !www.amazon.co.jp###nav-flyout-anchor
 
 !ニコ動のマイリストの連続再生ボタンと宣伝ボタン
-www.nicovideo.jp##.buttonOuter
-www.nicovideo.jp##.SYS_box_item_buttons
-||nicovideo.cdn.nimg.jp/web/img/common/tilebtn/playlist.png
-||nicovideo.cdn.nimg.jp/web/img/common/tilebtn/uad.png
+!www.nicovideo.jp##.buttonOuter
+!www.nicovideo.jp##.SYS_box_item_buttons
+!||nicovideo.cdn.nimg.jp/web/img/common/tilebtn/playlist.png
+!||nicovideo.cdn.nimg.jp/web/img/common/tilebtn/uad.png
 
 !５ちゃんねるのモナー
 ||agree.5ch.net/mona.png

@@ -67,6 +67,8 @@ www.youtube.com##.iv-branding
 !www.youtube.com##.ytp-ce-element
 !Youtube検索の広告
 youtube.com##.ytd-search-pyv-renderer
+!adっぽいのでついでに追加
+||www.youtube.com/yts/jsbin/www-pagead-id-
 
 !新しいデザインの YouTube https://www.youtube.com/new
 www.youtube.com###masthead-ad
@@ -78,6 +80,7 @@ mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB
 www.google.co.jp###taw
 www.google.co.jp##:xpath(//div[@id="tads"]/parent::div/parent::div)
 www.google.co.jp###bottomads
+||google.co.jp/gen_204?$other
 
 !Yahoo!Japan
 www.yahoo.co.jp###brandpanel
@@ -373,7 +376,8 @@ www.hatena.ne.jp###pc-billboard-ad
 
 !価格.com
 kakaku.com###mainLeft > script
-kakaku.com###mainLeft > script + div
+!下記をONにすると解説バルーンが表示されなくなってしまう
+!kakaku.com###mainLeft > script + div
 kakaku.com##.bnrBb
 kakaku.com##.bnSuper
 kakaku.com###boxPR300
