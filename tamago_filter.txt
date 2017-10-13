@@ -1,10 +1,26 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 07 Oct 2017 12:00 JST
+! Last modified: 13 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
 ! 
+
+
+! FilterProxyからの成果 START ----------------------
+||tpc.googlesyndication.com^
+||pagead2.googlesyndication.com^
+||pubads.g.doubleclick.net^
+||.nend.net^
+||.socdm.com^
+||.amazon-adsystem.com^
+||googleads.g.doubleclick.net^
+||ads.mopub.com/m/ad
+||settings.crashlytics.com^
+||reports.radiotime.com^
+||ad.doubleclick.net^
+! END-----------------------------
+
 
 !ameblo
 ||cdn.amanad.adtdp.com^
@@ -89,6 +105,18 @@ enechange.jp##.e__float_try
 ||t.co/i/adsct?
 ||analytics.twitter.com/i/adsct?
 
+!Buzzfeed
+!Buzzfeed下部のSNS枠
+www.buzzfeed.com##.action-bar--position-floating
+||taboola.com^
+||doubleclick.net
+buzzfeed.com###mod-action-bar-1
+||scorecardresearch.com^
+||google-analytics.com^
+||quantserve.com^
+||crwdcntrl.net^
+||www.buzzfeed.com/static/js/advertiser/ads.js
+
 !斧
 ||bn.maist.jp^
 ||cd.ladsp.com^
@@ -99,5 +127,6 @@ www.axfc.net##.bnf
 
 !その他
 www.tainavi-switch.com##.bn-01
+mobareco.jp##.footer-article
 
 ! END
