@@ -43,6 +43,16 @@
 ||ad.pr.ameba.jp^
 ||ssl-stat.amebame.com/pub/ads/
 ||adt.measure.ameblo.jp^
+||www.google.com/ads/
+|stats.g.doubleclick.net^
+ameblo.jp##.skinBody2 > div:first-child
+||stat100.ameba.jp/ad/dfp/js/dfp.js?20170215
+||www.googletagmanager.com^
+||click.amanad.adtdp.com^
+||ad.caprofitx.adtdp.com^
+ameblo.jp##iframe
+ameblo.jp##div[data-amn-unit]
+
 
 !Youtube  https://m.youtube.com/
 ||www.google.co.jp/pagead/
