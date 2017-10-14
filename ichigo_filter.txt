@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 20 Aug 2017 12:00 JST
+! Last modified: 14 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/ichigo.html
 ! 
@@ -74,9 +74,9 @@ javfor.me##.adv
 ||ads.exoclick.com^
 /adblock_detector2.
 ||www.statcounter.com^
-###adbdiv
-##[href^="http://www.sex.com/pics/?utm_"]
-##[href^="http://www.sex.com/videos/?utm_"]
+imagetwist.com###adbdiv
+imagetwist.com##[href^="http://www.sex.com/pics/?utm_"]
+imagetwist.com##[href^="http://www.sex.com/videos/?utm_"]
 ||bongacams.com^
 
 !imgchili.net
@@ -85,15 +85,15 @@ javfor.me##.adv
 ||imgchili.net/js/showa.js
 ||cloudfront.net^$script,domain=4archive.org|4chanarchives.cu.cc|addic7ed.com|animeflv.net|animehaven.to|auroravid.to|bdupload.info|biology-online.org|bitvid.sx|chronos.to|cloudtime.to|coreimg.net|dailyuploads.net|divxatope.com|downloadming.io|downloadming.tv|extratorrent.cc|extremetech.com|eztv.ag|frendz4m.com|fullstuff.co|goodvideohost.com|imgchili.net|kannadamovies.biz|linksprotection.com|media1fire.com|mirrorcreator.com|mp3goo.com|multiup.org|mystream.la|nachostime.net|nitroflare.com|noslocker.com|nowvideo.li|nowvideo.sx|nowvideo.to|omghype.com|onhax.me|openload.co|ouo.io|reevown.com|sadeempc.com|scambiofile.info|sceper.ws|sparknotes.com|streamplay.to|thevideobee.to|tinypaste.me|torrentproject.se|tsumino.com|tubeoffline.com|tvlivenow.com|upload.so|uplod.ws|usersfiles.com|vidlox.tv|vidshare.us|vshare.eu|watchers.to|watchfomny.tv|wholecloud.net|world4ufree.be|yahmaib3ai.com|yourvideohost.com
 /?&pid=*&subid=$image
-##.horizontalAd
-##.share-btn
+imgchili.net##.horizontalAd
+imgchili.net##.share-btn
 !freshの動画部分が非表示になる
 !##[class$="Ad"]:not(body)
-##[href^="http://reddit.com/submit"]
-##[href^="http://twitter.com/share?"]
-##[href^="http://www.linkedin.com/shareArticle?"]
-##[href^="http://www.stumbleupon.com/submit?url"]
-##[href^="http://www.tumblr.com/share/"]
+imgchili.net##[href^="http://reddit.com/submit"]
+imgchili.net##[href^="http://twitter.com/share?"]
+imgchili.net##[href^="http://www.linkedin.com/shareArticle?"]
+imgchili.net##[href^="http://www.stumbleupon.com/submit?url"]
+imgchili.net##[href^="http://www.tumblr.com/share/"]
 ||main.exoclick.com^
 ||main.exoclick.com^
 ||syndication.exoclick.com/ads
@@ -116,15 +116,16 @@ imgbabes.com##div[style="width:604px; height:250px; background:#241521; padding:
 /topads.
 ||imgflare.com/exo.html
 imgflare.com###fadeinbox
-##.f_social
-##.t_social
+imgflare.com##.f_social
+imgflare.com##.t_social
 imgflare.com##div[style^="width:604px; height:250px;"]
 
 !88files.net
 ||js.users.51.la^
-##.ad1
+88files.net##.ad1
 ||bmw999888.com^
 ||jxf0088.com^
+||wx1.sinaimg.cn^
 
 !dioguitar23s.jd233...p
 ||diopic.net/images/
@@ -149,7 +150,7 @@ pornhum.com##[class*="-ads-"]
 pornhum.com##[class^="ad-"]
 pornhub.com##[href^="http://ads.genericlink.com/"]
 pornhub.com###abAlert
-##a[href*="://ads."]
+pornhub.com##a[href*="://ads."]
 @@||phncdn.com/vortex-simple-*.js|$script
 pornhum.com##iframe
 pornhum.com##.nonesuch

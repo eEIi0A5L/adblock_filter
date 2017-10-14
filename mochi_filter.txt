@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 11 Oct 2017 12:00 JST
+! Last modified: 14 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -183,6 +183,8 @@ news.yahoo.co.jp###lrec
 !Yahoo右上に新規広告の枠だけ出るようになった
 ||s.yimg.jp/images/advertising/common/js/iicon.min.js
 www.yahoo.co.jp###sub > div[style="margin: 0px auto 10px"]
+||s.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js
+||s.yimg.jp/images/top/sp2/event/iikaimono2016/js/sugoikuji.js
 
 !microsoft下部の「このページは役に立ちましたか」
 microsoft.com###standardRating
@@ -345,6 +347,10 @@ menu.5ch.net##body > div:first-child
 !5ch, 2ch携帯
 ||stimg.iand2ch.net^
 ||stimg.iand5ch.net^
+||stab.thench.net^
+!奇妙なjsをブロックしておく（なんとなく）
+||proparm.jp/ssp/p/js1?
+||proparm.jp/ssp/p/js?
 
 !Ameba, ameblo
 ameblo.jp##.subAdBannerHeader

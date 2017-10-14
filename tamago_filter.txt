@@ -1,10 +1,20 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 13 Oct 2017 12:00 JST
+! Last modified: 15 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
 ! 
+
+
+!共通
+||google.com/pagead/
+||clients5.google.com/pagead/drt/dn/
+##div[id^="div-gpt-ad"]
+##.adsbygoogle
+||ad-api-v01.uliza.jp^
+||jp-ads.mediaforge.com^
+
 
 
 ! FilterProxyからの成果 START ----------------------
@@ -76,6 +86,14 @@ goo.ne.jp##div[id^="gooad"]
 ||yads.c.yimg.jp/js/yads.js
 ||adcdn.goo.ne.jp/images/js/smarttag-news-news.js
 news.goo.ne.jp##div[style*="fixed"]
+
+!LINE blog
+lineblog.me##footer
+lineblog.me##.extlink
+||tpc.googlesyndication.com/daca_images/simgad/
+||tpc.googlesyndication.com/simgad/
+||pagead2.googlesyndication.com/pagead/
+lineblog.me##.lineblog_ad
 
 !Wikipedia
 ||meta.wikimedia.org/w/index.php?title=Special:BannerLoader&campaign=
