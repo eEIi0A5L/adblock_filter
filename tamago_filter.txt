@@ -52,6 +52,12 @@ ameblo.jp##.skinBody2 > div:first-child
 ||ad.caprofitx.adtdp.com^
 ameblo.jp##iframe
 ameblo.jp##div[data-amn-unit]
+||btstatic.com^
+||yjtag.yahoo.co.jp^
+!https://ln.ameba.jp/v2/
+!https://ameblo.jp/_api
+||rapi.blogtag.ameba.jp/hashtag/api/v2/article/tag/
+||s.yjtag.jp/tag.js
 
 
 !Youtube  https://m.youtube.com/
