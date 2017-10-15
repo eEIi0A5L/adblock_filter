@@ -159,6 +159,10 @@ www.axfc.net##.bnf
 ||js.ad-stir.com^
 ||d.href.asia/nw/d/ajs.php?zoneid=
 
+!livedoor.biz
+||api.unthem.com/js/spad.js?
+||adntokyo.gunosy.com^
+
 !その他
 www.tainavi-switch.com##.bn-01
 mobareco.jp##.footer-article
