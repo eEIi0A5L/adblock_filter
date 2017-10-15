@@ -16,23 +16,7 @@
 ||jp-ads.mediaforge.com^
 
 
-
-! FilterProxyからの成果 START ----------------------
-||tpc.googlesyndication.com^
-||pagead2.googlesyndication.com^
-||pubads.g.doubleclick.net^
-||.nend.net^
-||.socdm.com^
-||.amazon-adsystem.com^
-||googleads.g.doubleclick.net^
-||ads.mopub.com/m/ad
-||settings.crashlytics.com^
-||reports.radiotime.com^
-||ad.doubleclick.net^
-! END-----------------------------
-
-
-!ameblo
+!アメブロ
 ||cdn.amanad.adtdp.com^
 ||adsd-sync.amanad.adtdp.com^
 ||adn-d.sp.gmossp-sp.jp^
@@ -74,6 +58,7 @@ m.youtube.com##a[onclick^="return koya.onEvent(arguments[0]||window.event,'"] > 
 !google検索結果の広告
 www.google.co.jp##li[data-hveid]:has(> div.ads-ad)
 ||google.co.jp/gen_204?$other
+||cdn.ampproject.org^
 
 !Twitter
 twitter.com##.promoted-tweet
@@ -92,6 +77,16 @@ impress.co.jp###sp-floating-layer
 
 !Yahoo!Japan
 news.yahoo.co.jp###peron
+||s.yimg.jp/images/listing/tool/yads/
+||smartads.mobile.yahoo.co.jp/MobileAds/
+||www.jiji.com/smp/common/css/yads.css
+||i.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js
+||s.yimg.jp/bdv/prem/
+m.yahoo.co.jp##.PremiumFirst
+weather.yahoo.co.jp##.mdStickyFooter
+headlines.yahoo.co.jp###peronArea
+||s.yimg.jp/images/news/promo/
+headlines.yahoo.co.jp##.bnrMod
 
 !goo
 goo.ne.jp##div[id^="gooad"]
@@ -163,8 +158,72 @@ www.axfc.net##.bnf
 ||api.unthem.com/js/spad.js?
 ||adntokyo.gunosy.com^
 
+!sankei
+||www.sankei.com/apr_news/js/others/adGpt.js
+||sankei2ad.durasite.net^
+www.sankei.com###footerFloatingMenu
+
+!asahi
+||img.ak.impact-ad.jp^
+||i.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js
+||assets.adobedtm.com^
+||www.asahicom.jp/ad/js/sp/top.js
+||www.asahicom.jp/and/js/and_infeedad.js
+||www.asahi.com/ad/count.htm
+||sp.gmossp-sp.jp^
+||www.asahicom.jp/ad/
+
+!Yomiuri
+||www.yomiuri.co.jp/cont2/ad/js/sp_ad_home.js
+||cdn.gmossp-sp.jp^
+||as.yl.impact-ad.jp^
+||www.yomiuri.co.jp/cont2/ad/
+
+!Nikkei
+||mw.nikkei.com/ad/
+mw.nikkei.com###sticky_region_forSNS
+
+!Mainichi
+||cf.ad-v.jp^
+||i.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js
+||web-jp.ad-v.jp^
+||b97.yahoo.co.jp/pagead/conversion_async.js
+||s-adserver.cxad.cxense.com^
+||yads.yahoo.co.jp/js/yads.js
+||img.ak.impact-ad.jp^
+||s.yimg.jp/images/listing/tool/yads/uadf/yads_vimps-1.5.0.js
+||yads.yjtag.yahoo.co.jp^
+||sp.gmossp-sp.jp^
+||img.ak.impact-ad.jp/ic/pone/tags/
+mainichi.jp###bottom-share
+
+!時事通信
+||js.mtburn.com/advs-instream.js
+||sp.gmossp-sp.jp/ads/
+||www.jiji.com/smp/common/css/yads2.css
+||us-ads.openx.net^
+||rd.adingo.jp^
+||i.adingo.jp^
+www.jiji.com##.adingoFluctOverlay
+
+
 !その他
 www.tainavi-switch.com##.bn-01
 mobareco.jp##.footer-article
+
+
+! FilterProxyからの成果 START ----------------------
+||tpc.googlesyndication.com^
+||pagead2.googlesyndication.com^
+||pubads.g.doubleclick.net^
+||.nend.net^
+||.socdm.com^
+||.amazon-adsystem.com^
+||googleads.g.doubleclick.net^
+||ads.mopub.com/m/ad
+||settings.crashlytics.com^
+||reports.radiotime.com^
+||ad.doubleclick.net^
+! END-----------------------------
 
 ! END
