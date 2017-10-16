@@ -365,12 +365,13 @@ ameblo.jp##.subAdBannerHeader
 ||ameba.jp/adcross/pub/js/adLoader-
 !today's topicが消えてしまう
 !||ad.pr.ameba.jp^
+||ad.pr.ameba.jp^
+@@||ad.pr.ameba.jp/tpc/list/
 ||cnt.fout.jp^
 ameblo.jp##div[amb-component="entryAd"]
 ||js.fout.jp/beacon.html
 ||aff.i-mobile.co.jp^
 ||stat100.ameba.jp/adwords/adwords.js
-||ad.pr.ameba.jp^
 ||cdn.amanad.adtdp.com^
 
 !LINE blog
