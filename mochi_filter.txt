@@ -374,9 +374,14 @@ ameblo.jp##div[amb-component="entryAd"]
 ||stat100.ameba.jp/adwords/adwords.js
 ||cdn.amanad.adtdp.com^
 
+!Amebaニュース
+||apvdr.com/v2/cs.php
+||socdm.com^
+||cdn.as.amanad.adtdp.com^
+
 !LINE blog
 settings/ad.js$domain=lineblog.me
-||hayabusa.io^
+!||hayabusa.io^
 
 !fc2.com
 fc2.com##iframe
