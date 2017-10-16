@@ -190,6 +190,8 @@ www.yahoo.co.jp###sub > div[style="margin: 0px auto 10px"]
 !Yahooくじ
 ||s.yimg.jp/images/top/sp2/event/iikaimono2017/kuji/bnr_kuji_easy.png
 www.yahoo.co.jp##.SimpleKuji
+www.yahoo.co.jp##.Kuji
+||s.yimg.jp/images/top/sp2/event/iikaimono2017/$domain=www.yahoo.co.jp
 
 !microsoft下部の「このページは役に立ちましたか」
 microsoft.com###standardRating
