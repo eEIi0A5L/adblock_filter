@@ -209,6 +209,25 @@ mainichi.jp###bottom-share
 ||i.adingo.jp^
 www.jiji.com##.adingoFluctOverlay
 
+!zdnet
+||img.ak.impact-ad.jp^
+||www.aiasahi.jp/ads/
+||japan.zdnet.com/parts/frame/ad_tieup_control_sp.htm
+||japan.zdnet.com/parts/frame/ad_sp_list_a_n.htm
+||l.logly.co.jp/lift_widget.js?adspot_id=
+||japan.zdnet.com/media/ad/
+japan.zdnet.com##.ad-text
+
+
+!SPA
+||yads.yahoo.co.jp/js/yads.js
+||s.yimg.jp/images/listing/tool/yads/
+||yads.yjtag.yahoo.co.jp^
+||mediamsmbsoftbank.genieesspv.jp/yie/ld/nad?
+||adn-i.sp.gmossp-sp.jp^
+nikkan-spa.jp##.top_post
+||mediamsmbsoftbank.genieesspv.jp^
+
 
 !その他
 www.tainavi-switch.com##.bn-01

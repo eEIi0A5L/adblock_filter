@@ -124,6 +124,9 @@ www.foxnews.com##.social-count
 
 !ABCNews
 abcnews.go.com##.ad-slot
+||abcnews.go.com/assets/static/ads/
+||adm.fwmrm.net^
+||a.abcnews.com/assets/js/adCallOverride.js
 
 !afp
 www.afpbb.com##aside.ad
