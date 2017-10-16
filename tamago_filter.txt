@@ -87,6 +87,9 @@ weather.yahoo.co.jp##.mdStickyFooter
 headlines.yahoo.co.jp###peronArea
 ||s.yimg.jp/images/news/promo/
 headlines.yahoo.co.jp##.bnrMod
+!Yahooのビーコン
+||yahoo.co.jp/b?
+
 
 !goo
 goo.ne.jp##div[id^="gooad"]

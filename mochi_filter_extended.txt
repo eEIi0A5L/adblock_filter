@@ -63,6 +63,8 @@ cnn.co.jp###ad_pr_info
 ||platform.twitter.com/js/button.$domain=cnn.co.jp
 ||www.cnn.co.jp/js/ga_social_tracking.js
 !END-----------------------------
+||click.speee-ad.jp^
+||speee-ad.akamaized.net^
 
 !cnn.com
 ||global.ssl.fastly.net/ad/
@@ -112,6 +114,8 @@ cnn.com##.m-share
 ||cdn.gigya.com/js/gigya.js?
 ||static.chartbeat.com/js/chartbeat_mab.js
 !END----------------------------------------------
+||ssl.cdn.turner.com/ads/
+||edition.i.cdn.cnn.com/.a/bundles/adzones.
 
 !FoxNews
 ||global.fncstatic.com/static/v/all/js/ads.js

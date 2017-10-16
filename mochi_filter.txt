@@ -369,9 +369,13 @@ ameblo.jp##.subAdBannerHeader
 ameblo.jp##div[amb-component="entryAd"]
 ||js.fout.jp/beacon.html
 ||aff.i-mobile.co.jp^
+||stat100.ameba.jp/adwords/adwords.js
+||ad.pr.ameba.jp^
+||cdn.amanad.adtdp.com^
 
 !LINE blog
 settings/ad.js$domain=lineblog.me
+||hayabusa.io^
 
 !fc2.com
 fc2.com##iframe
