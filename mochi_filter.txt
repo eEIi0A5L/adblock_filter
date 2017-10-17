@@ -192,6 +192,12 @@ www.yahoo.co.jp###sub > div[style="margin: 0px auto 10px"]
 www.yahoo.co.jp##.SimpleKuji
 www.yahoo.co.jp##.Kuji
 ||s.yimg.jp/images/top/sp2/event/iikaimono2017/$domain=www.yahoo.co.jp
+finance.yahoo.co.jp###top_promo
+finance.yahoo.co.jp###promo
+||s.yimg.jp/images/map/promo/renewal/bnr/
+map.yahoo.co.jp###topbnr
+||s.yimg.jp/images/transit/pc/v2/img/promo/banner/
+transit.yahoo.co.jp###appbnr
 
 !microsoft下部の「このページは役に立ちましたか」
 microsoft.com###standardRating
@@ -245,6 +251,8 @@ live.nicovideo.jp###tanimachi-ranking
 !||nicolive.cdn.nimg.jp/live/simg/img/
 !ニコ動広告の黄色いバーを消す
 www.nicovideo.jp##.SeekBarContainer-videoAdMarker
+!ニコ動HTML5プレイヤーのコメント欄下部の広告枠を消す
+www.nicovideo.jp##.CommentPanelContainer:style(bottom: 0px !important)
 
 !ニコニコ大百科
 dic.nicovideo.jp##.ad-bannar-maincolumn-top
@@ -684,6 +692,8 @@ www.itmedia.co.jp##.colBox.colBoxArtTopRcm
 !itmedia検索時の広告
 ||www.google.com/afs/ads?
 itmedia.co.jp###ads_content_top
+||www.itmedia.co.jp/js/pcuser/ad.js
+||www.itmedia.co.jp/css/pcuser/ad.css
 
 !wikia
 wikia.com###WikiaArticleBottomAd
