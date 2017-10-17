@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 15 Oct 2017 12:00 JST
+! Last modified: 17 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -42,6 +42,8 @@ ameblo.jp##div[data-amn-unit]
 !https://ameblo.jp/_api
 ||rapi.blogtag.ameba.jp/hashtag/api/v2/article/tag/
 ||s.yjtag.jp/tag.js
+!ameblo読み込み中に下にスクロールしていると、読み込み完了時にTOPに戻されてしまう対策
+||btstatic.com^
 
 
 !Youtube  https://m.youtube.com/
@@ -227,6 +229,26 @@ japan.zdnet.com##.ad-text
 ||adn-i.sp.gmossp-sp.jp^
 nikkan-spa.jp##.top_post
 ||mediamsmbsoftbank.genieesspv.jp^
+
+!techcrunch
+||o.aolcdn.com^
+||adingo.jp^
+jp.techcrunch.com###stcky-footer
+
+
+!itmedia
+||dlv.itmedia.jp/adsv/
+||image.itmedia.co.jp/images/ad/
+
+!mynavi
+||microad.net^
+||logly.co.jp^
+||aladdin.genieesspv.jp^
+||mynavi.jp/img/cardloan_head_select.jpg
+||adjust-net.jp^
+||mynv.jp/img/cardloan_ad_banner.jpg
+mynavi.jp##.l-header-ad
+||mynv.jp/img/bear_header_T.gif
 
 
 !その他
