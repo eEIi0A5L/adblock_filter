@@ -81,6 +81,7 @@ www.google.co.jp###taw
 www.google.co.jp##:xpath(//div[@id="tads"]/parent::div/parent::div)
 www.google.co.jp###bottomads
 ||google.co.jp/gen_204?$other
+google.co.jp##.commercial-unit-desktop-rhs
 
 !Yahoo!Japan
 www.yahoo.co.jp###brandpanel
