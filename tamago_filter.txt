@@ -257,7 +257,8 @@ tenki.jp##.tenki-ad-lite-pd
 tenki.jp##.tenki-ad-lite-footer
 ||ads.rubiconproject.com^
 ||adservice.google.com^
-||static.tenki.jp/storage/static-images/top-ad/
+!台風情報のサムネイルが消えてしまう
+!||static.tenki.jp/storage/static-images/top-ad/
 ||odb.outbrain.com^
 tenki.jp##div[class^="_taxel_ad_article_"]
 ||match.adsrvr.org^
