@@ -849,6 +849,13 @@ www.4gamer.net##.sidetop
 greasyfork.org###script-show-info-ad
 greasyfork.org##.ad
 
+!tenki.jp
+tenki.jp##.tenki-ad-pd
+tenki.jp##.tenki-ad-pc-ct
+
+!その他
+||ads.pipaffiliates.com^
+
 
 !START ------------------------------------------------------------
 ! JPN: ABP Japanese filters (日本用フィルタ) の不具合対策

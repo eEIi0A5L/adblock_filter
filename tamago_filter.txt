@@ -250,10 +250,34 @@ jp.techcrunch.com###stcky-footer
 mynavi.jp##.l-header-ad
 ||mynv.jp/img/bear_header_T.gif
 
+!tenki.jp
+tenki.jp##.tenki-ad-lite-north
+tenki.jp##.tenki-ad-lite-mid
+tenki.jp##.tenki-ad-lite-pd
+tenki.jp##.tenki-ad-lite-footer
+||ads.rubiconproject.com^
+||adservice.google.com^
+||static.tenki.jp/storage/static-images/top-ad/
+||odb.outbrain.com^
+tenki.jp##div[class^="_taxel_ad_article_"]
+||match.adsrvr.org^
+||jwa-d.openx.net^
+||sync-dsp.ad-m.asia^
+||cs.r-ad.ne.jp^
+||ums.adtechjp.com^
+||pixel.advertising.com^
+||c1.adform.net^
+||ib.adnxs.com^
+||pixel.tapad.com^
+tenki.jp###tenki-ad-SM_PD
+tenki.jp###tenki-ad-SM_north
+tenki.jp###tenki-ad-SM_mid
+
 
 !その他
 www.tainavi-switch.com##.bn-01
 mobareco.jp##.footer-article
+||spad.i-mobile.co.jp^
 
 
 ! FilterProxyからの成果 START ----------------------
