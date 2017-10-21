@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 17 Oct 2017 12:00 JST
+! Last modified: 21 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -273,6 +273,18 @@ tenki.jp##div[class^="_taxel_ad_article_"]
 tenki.jp###tenki-ad-SM_PD
 tenki.jp###tenki-ad-SM_north
 tenki.jp###tenki-ad-SM_mid
+
+!モデルプレス
+||spnativeapi-tls.i-mobile.co.jp^
+||spcdnsp.i-mobile.co.jp^
+||aud.adjust-net.jp^
+||d.adlpo.com^
+||spdeliverp.i-mobile.co.jp^
+||t.adlpo.com^
+||imp-adedge.i-mobile.co.jp^
+||discoveryplus.popin.cc^
+||liftapi.logly.co.jp^
+||b.logly.co.jp^
 
 
 !その他

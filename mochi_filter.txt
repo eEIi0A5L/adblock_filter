@@ -200,11 +200,13 @@ map.yahoo.co.jp###topbnr
 ||s.yimg.jp/images/transit/pc/v2/img/promo/banner/
 transit.yahoo.co.jp###appbnr
 
+
 !microsoft下部の「このページは役に立ちましたか」
 microsoft.com###standardRating
 
 !outlook betaの右側の広告
-outlook.live.com##:xpath(//div[@aria-label="advertisement"]/parent::div)
+!outlook.live.com##:xpath(//div[@aria-label="advertisement"]/parent::div)
+outlook.live.com##:xpath(//div[@aria-label="advertisement"]/parent::div/parent::div)
 
 !Gyao
 !Gyao動画上の広告ブロック------------------------------
@@ -218,6 +220,11 @@ gyao.yahoo.co.jp##.adPV
 gyao.yahoo.co.jp###cam1001
 !高速化
 ||i.yimg.jp/images/premium/mhd/gyao/css/style_promo_mhd.css?
+gyao.yahoo.co.jp###bnr
+||s.yimg.jp/images/streaming/gyao-store/special/2017_1111campaign/promotion/gyao/bnr_gyao_pc.jpg
+||metrics.brightcove.com^
+||s.yimg.jp/images/streaming/gyao-store/special/2017_1111campaign/promotion/peron.jpg
+streaming.yahoo.co.jp##.con_btm
 
 !Twitter
 twitter.com##.promoted-tweet
