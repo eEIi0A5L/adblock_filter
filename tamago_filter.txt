@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 21 Oct 2017 12:00 JST
+! Last modified: 23 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -285,6 +285,60 @@ tenki.jp###tenki-ad-SM_mid
 ||discoveryplus.popin.cc^
 ||liftapi.logly.co.jp^
 ||b.logly.co.jp^
+
+!価格.com
+kakaku.com###headerAd
+
+!共同通信
+||cast-cs-j.adtdp.com^
+||rs.adapf.com^
+||p.adsymptotic.com^
+
+!クックパッド
+||img5-ak.cpcdn.com/platform/display/3.11.1/cookpadAds.js
+||assets.cpcdn.com/assets/extensions/sp_ads_animation/
+||assets.cpcdn.com/assets/CookpadSymbols.ttf
+||a.cookpad-ads.com^
+cookpad.com##.ext_ad4_spweb_floating_ad
+cookpad.com##.ext_ad4_spweb_floating_ad-floating_ad
+!プレミア
+cookpad.com##.popular_recipe_items
+cookpad.com###default_ps_lead
+cookpad.com##.ps_adm_banner_original
+cookpad.com##.pro_recipes_wrapper
+!広告
+cookpad.com##.tieup_links
+
+
+!huffpost
+||a.teads.tv^
+!ロガー
+||pixel.parsely.com^
+m.huffingtonpost.jp##.shareBarBottom
+m.huffingtonpost.jp##.advertisement
+
+!東京スポーツ
+||assets.gunosy.com/adnet/
+!||rlog.popin.cc^
+www.tokyo-sports.co.jp##._popIn_infinite_ad
+||popin.cc^
+www.tokyo-sports.co.jp##div[class^="_taxel_ad_article_"]
+www.tokyo-sports.co.jp##:xpath(//div[class^="_taxel_ad_article_"]/parent::li/parent::ul/parent::li)
+
+!biglobeニュース
+||speee-ad.akamaized.net^
+||cse.google.com/adsense/search/async-ads.js
+||p.adsymptotic.com^
+news.biglobe.ne.jp###footer
+news.biglobe.ne.jp###cto_w
+news.biglobe.ne.jp##.yahoo_nad_list
+
+!carnnyマガジン
+||carnny.jp/wp-content/themes/carnny_jp_pc/images/f_banner_02.png
+carnny.jp##.footer_menu
+
+!オール５
+www.all5.jp###fixBanner
 
 
 !その他

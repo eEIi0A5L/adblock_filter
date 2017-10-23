@@ -319,5 +319,10 @@ wear.jp###gbl_ad
 ||liftapi.logly.co.jp^
 ||b.logly.co.jp^
 
+!livedoor
+||i.popincdn.com^
+||api.popin.cc^
+||news.livedoor.com/js/ads.0.5.js
+
 
 ! END

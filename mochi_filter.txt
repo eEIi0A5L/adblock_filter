@@ -585,9 +585,12 @@ www.asahi.com##.AdMod
 ||www.asahi.com/ad/
 
 !読売
-||www.yomiuri.co.jp/cont2/ad/js/ad_world.js
+!||www.yomiuri.co.jp/cont2/ad/js/ad_world.js
 ||impact-ad.jp^
 ||adserver.adtechjp.com^
+||www.yomiuri.co.jp/cont2/ad/
+!文字列選択したときのポップアップ？
+||api.popin.cc^
 
 !NHK
 !広告じゃなかった
