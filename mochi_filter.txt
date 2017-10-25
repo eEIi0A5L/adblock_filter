@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 16 Oct 2017 12:00 JST
+! Last modified: 25 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -883,6 +883,11 @@ tenki.jp##.tenki-ad-pc-ct
 
 !navitime
 www.navitime.co.jp###under-advertisement
+||www.navitime.co.jp/static/pc/l/3.2.9/js/lib/jquery.adcount.js
+||www.navitime.co.jp/static/pc/l/3.2.9/js/view/transfer/resultAd.js
+||www.navitime.co.jp/naviad/
+||api-pc-img.cld.navitime.jp/images/http://www.navitime.co.jp/advertize_image/
+www.navitime.co.jp##.ad-frame
 
 !その他
 ||ads.pipaffiliates.com^
