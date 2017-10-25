@@ -12,8 +12,7 @@
 !もち----------------------------------------------
 
 
-!navitime
-www.navitime.co.jp###under-advertisement
+
 
 !痛いニュース
 ||blog.livedoor.jp/dqnplus/settings/ad.js
@@ -37,6 +36,9 @@ www.navitime.co.jp###under-advertisement
 !５ちゃんねるのモナー
 ||agree.5ch.net/mona.png
 
+!楽天：検索結果のプレミアム、学割、最安ショップを見るを消す
+!search.rakuten.co.jp##.content.tags
+!search.rakuten.co.jp##.extra.content
 
 
 

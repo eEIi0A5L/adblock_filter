@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 23 Oct 2017 12:00 JST
+! Last modified: 24 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -61,6 +61,9 @@ m.youtube.com##a[onclick^="return koya.onEvent(arguments[0]||window.event,'"] > 
 www.google.co.jp##li[data-hveid]:has(> div.ads-ad)
 ||google.co.jp/gen_204?$other
 ||cdn.ampproject.org^
+!google広告
+www.google.co.jp###taw
+www.google.co.jp##.commercial-unit-mobile-bottom
 
 !Twitter
 twitter.com##.promoted-tweet
@@ -102,6 +105,7 @@ goo.ne.jp##div[id^="gooad"]
 ||yads.c.yimg.jp/js/yads.js
 ||adcdn.goo.ne.jp/images/js/smarttag-news-news.js
 news.goo.ne.jp##div[style*="fixed"]
+blog.goo.ne.jp##.global_footer + style + div
 
 !LINE blog
 lineblog.me##footer
@@ -332,6 +336,19 @@ www.tokyo-sports.co.jp##:xpath(//div[class^="_taxel_ad_article_"]/parent::li/par
 news.biglobe.ne.jp###footer
 news.biglobe.ne.jp###cto_w
 news.biglobe.ne.jp##.yahoo_nad_list
+
+!日刊スポーツ
+||as.ik.impact-ad.jp^
+||jp.popin.cc^
+
+!朝日芸能
+www.asagei.com##.pearAd
+www.asagei.com###for-nonred-frame
+www.asagei.com##div[class^="pfxAd_"]
+asajo.jp##div[class^="pfxAd_"]
+asajo.jp##li[class^="pfxAd_"]
+asajo.jp##.ad-area-upper
+
 
 !carnnyマガジン
 ||carnny.jp/wp-content/themes/carnny_jp_pc/images/f_banner_02.png

@@ -288,6 +288,7 @@ tunein.com###div[component="Wizard"]
 ||carambo.la^
 ||cdn.spoutable.com^
 ||mc.yandex.ru^
+!twitchでカウントが増え続ける問題
 ||scorecardresearch.com/beacon.js$important,script
 lyricsfreak.com##.fb-like
 lyricsfreak.com##.subhdr

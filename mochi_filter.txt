@@ -560,6 +560,18 @@ oshiete.goo.ne.jp##.pr-unit
 oshiete.goo.ne.jp###gooad-long
 oshiete.goo.ne.jp###gheader
 ||goo.ne.jp/oshiete/ad_loader.js
+dictionary.goo.ne.jp##.NR-ad
+||pulsar.xlisting.jp^
+
+!livedoor
+||news.livedoor.com/js/ads.0.5.js
+||popin.cc^
+
+!ZAKZAK
+||www.zakzak.co.jp/common/js/popin/loadPopIn.js
+!ビーコン
+||b.ranking.apis.sankei-digital.co.jp/zak/ranking/img/beacon.gif
+
 
 !日経新聞
 ||nikkei.com/fh/showad_
@@ -591,6 +603,10 @@ www.asahi.com##.AdMod
 ||www.yomiuri.co.jp/cont2/ad/
 !文字列選択したときのポップアップ？
 ||api.popin.cc^
+!||www.yomiuri.co.jp/cont2/ad/js/ad_home.js
+||www.yomiuri.co.jp/adv/
+||www.yomiuri.co.jp/cont2/ad/
+www.yomiuri.co.jp##.subhead
 
 !NHK
 !広告じゃなかった
@@ -821,6 +837,8 @@ ign.com##.preShell
 
 !Tumblr
 dempagumi.dearstage.com##.sticky-lrec-wrapper
+||www.tumblr.com/assets/src/scripts/tumblr/dashboard/showads.js
+www.tumblr.com##.dfp-ad-container
 
 !住所でポン
 ||sda.seesaa.jp^
@@ -863,6 +881,9 @@ greasyfork.org##.ad
 tenki.jp##.tenki-ad-pd
 tenki.jp##.tenki-ad-pc-ct
 
+!navitime
+www.navitime.co.jp###under-advertisement
+
 !その他
 ||ads.pipaffiliates.com^
 
@@ -893,6 +914,11 @@ tenki.jp##.tenki-ad-pc-ct
 @@_campaign=$document
 !malwarelistに入っている
 @@||navitime.co.jp^
+!twitchでカウントが増え続ける問題の解法
+@@||scorecardresearch.com^
+||scorecardresearch.com^$domain=~twitch.tv
+@@||mixpanel.com^
+||mixpanel.com^$domain=~twitch.tv
 !END---------------------------------------------------------------------
 
 ! END
