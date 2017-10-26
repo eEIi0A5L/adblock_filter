@@ -77,6 +77,7 @@ mobile.twitter.com##header[role="banner"] + div > div
 
 !impress
 impress.co.jp###sp-floating-layer
+impress.co.jp###floating-social-buttons
 ||in.treasuredata.com^
 ||microad.jp^
 
@@ -349,9 +350,18 @@ asajo.jp##div[class^="pfxAd_"]
 asajo.jp##li[class^="pfxAd_"]
 asajo.jp##.ad-area-upper
 
+!fc2のPRバー
+fc2.com###ad_div
+fc2.com##.ad_footer
+fc2.com###ad_header
+
 !netgeek
 ||bar.aid-ad.jp^
 ||ad.ad-arata.com^
+
+!Weblio
+weblio.jp##.ad_fixed_imgHigh
+weblio.jp##.adBkOverlayClr
 
 !carnnyマガジン
 ||carnny.jp/wp-content/themes/carnny_jp_pc/images/f_banner_02.png
@@ -365,7 +375,12 @@ www.all5.jp###fixBanner
 www.tainavi-switch.com##.bn-01
 mobareco.jp##.footer-article
 ||spad.i-mobile.co.jp^
+www.denkou.info##.f_popup
 
+
+!５ちゃんねるの荒らしが誘導しているサイト---------
+||aqeen.sasakure.biz^
+!END---------------------------------------------
 
 ! FilterProxyからの成果 START ----------------------
 ||tpc.googlesyndication.com^
