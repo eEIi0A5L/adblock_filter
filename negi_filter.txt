@@ -195,6 +195,14 @@ kakaku.com###historyContainer
 
 !楽天
 rakuten.co.jp###rakutenLimitedId_cartParts
+!固定バナー
+item.rakuten.co.jp###tate_left
+item.rakuten.co.jp###tate_right
+item.rakuten.co.jp###tate_right2
+!右下に出てくる買い物カゴ。なくても問題ない。
+item.rakuten.co.jp###floatingCartContainer
+item.rakuten.co.jp###floatButton1
+
 
 !まんたんウェブ
 mantan-web.jp##.back-to-top

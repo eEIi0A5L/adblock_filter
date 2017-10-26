@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 21 Oct 2017 12:00 JST
+! Last modified: 26 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -251,6 +251,12 @@ nexusmods.com###ad-right
 ||curse-d.openx.net^
 ||optimizedby.brealtime.com/jpt?
 ||secure-us.imrworldwide.com^
+!Nexus新レイアウト
+||rd.nexusmods.com/contents/Scripts/advert.js
+||0914.global.ssl.fastly.net/ad2/script/x.js
+||0914.global.ssl.fastly.net/ad2/img/x.gif
+||www.summerhamster.com^
+rd.nexusmods.com##.agroup.clearfix
 
 !twitis.me
 twitis.me##iframe
