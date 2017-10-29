@@ -385,6 +385,31 @@ www.fnn-news.com###overLay
 ||www.fnn-news.com/material/img/downloadnow.png
 www.fnn-news.com##.appinfo
 
+!西日本新聞
+||cdn.apvdr.com/js/VastAdUnit.min.js
+||apvdr.com/v2/cs.php
+||tr.quant.jp^
+||cdn.treasuredata.com/sdk/1.7.1/td.min.js
+||static.quant.jp/lait.js
+www.nishinippon.co.jp##.recommend
+||www.nishinippon.co.jp/mobile/common/img/bn_epaper_header_1anniv.png
+||widgets.outbrain.com^
+
+!Daily News Online
+||ds.advg.jp^
+||img.adplan-ds.com^
+
+!スポーツ報知
+||cdn-guile.akamaized.net/video-ad/
+||impact-ad.jp^
+www.hochi.co.jp###footerArea
+
+!毎日新聞
+||api.cxense.com^
+mainichi.jp##.recommend
+mainichi.jp###page-top
+mainichi.jp##.ad
+
 
 !carnnyマガジン
 ||carnny.jp/wp-content/themes/carnny_jp_pc/images/f_banner_02.png
