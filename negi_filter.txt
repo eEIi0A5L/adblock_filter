@@ -9,6 +9,8 @@
 www.youtube.com###ticker-content
 !動画右上のSuggests白いバー
 www.youtube.com##.ytp-chrome-top-buttons
+!Youtube動画再生して最後に出てくるチャンネル動画サムネイルを消す場合
+!www.youtube.com##.ytp-ce-element
 
 !ニコ生＋ニコ動
 www.nicovideo.jp##.Marquee-item

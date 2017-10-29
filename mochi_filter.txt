@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 25 Oct 2017 12:00 JST
+! Last modified: 29 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -46,6 +46,8 @@ youtube.com##.ytp-ad-progress-list
 ||s.youtube.com^
 @@||s.youtube.com/api/stats/playback?
 !END-----------------------------------------------
+!Youtube動画再生して最後に出てくるチャンネル動画サムネイルを消す場合
+!www.youtube.com##.ytp-ce-element
 
 !Youtubeのページレイアウト上の広告
 youtube.com###ad_creative_3
@@ -111,8 +113,16 @@ www.yahoo.co.jp###commercebox
 !Yahoo辞書に出てくる広告
 dic.yahoo.co.jp##.ss
 yahoo.co.jp##div[id^="yads"]
-||yads.c.yimg.jp/js/yads.js
-||s.yimg.jp/images/listing/tool/yads/uadf/yads_
+!||yads.c.yimg.jp/js/yads.js
+!||s.yimg.jp/images/listing/tool/yads/uadf/yads_
+!Yahoo
+!下記は右上の広告用スクリプトだと思われるが確定ではないので一か月ほど様子を見る
+||s.yimg.jp/bdv/yahoo/javascript/brandpanel/0.5.1/brandpanel.js
+||s.yimg.jp/bdv/yahoo/javascript/brandpanelvision/0.0.1/brandpanelvision.js
+||s.yimg.jp/bdv/yahoo/javascript/yfa_gyj_cls_retina.js
+||logql.yahoo.co.jp/v1/public/yql
+||s.yimg.jp/images/listing/tool/yads/
+||yads.c.yimg.jp^
 ||yjtag.yahoo.co.jp/tag?
 ||yahoo.co.jp/tag/?ad
 !下記はYahoo路線図が表示されなくなるのでOFF
