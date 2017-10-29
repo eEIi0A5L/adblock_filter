@@ -2,7 +2,7 @@
 ! Title: 亀フィルタ（ウイルスサイトブロック）
 ! Description: ウイルスサイトをブロックする
 !
-! Last modified: 2017/10/17 12:00 JST
+! Last modified: 2017/10/29 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/kame.html
 
@@ -31,12 +31,13 @@
 !||it^
 ||top^
 !||world^
-!２ちゃんねるの荒らしが誘導しているサイト。http://xn--t8jvd4grbu0c31aw745c.biz/bihada/1091.html
+!５ちゃんねるの荒らしが誘導しているサイト。http://xn--t8jvd4grbu0c31aw745c.biz/bihada/1091.html
 !ほかの優良なサイトもブロックされてしまうのでコメント化。
 !||biz^
-!２ちゃんねるの荒らしが誘導しているサイト
+!５ちゃんねるの荒らしが誘導しているサイト
 ||livebby.b2.valueserver.jp^
 ||edax.getamonkey.com^
+||derx.stanciu.biz^
 !miomioはマルウェアの疑いがあるため全面禁止
 ||www.miomio.tv^
 ! ウイルスサイトの可能性があるサイト END--------------------------
