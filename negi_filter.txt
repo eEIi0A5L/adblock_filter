@@ -40,6 +40,7 @@ www.nicovideo.jp##.summer2017Area
 !www.google.co.jp##div[role="dialog"]
 !uBlockOrigin専用表記なのでできるだけ使いたくない
 !www.google.co.jp##:xpath(//a[@title="No thanks"]/parent::div/parent::div)
+!なんかABPできかなかった。。。よくわからない。。。
 www.google.co.jp##div[role="dialog"][style="behavior:url(#default#userData)"]
 google.co.jp##div[aria-label="promo"]
 !Googleトップの目障りなJS削除
@@ -202,6 +203,12 @@ item.rakuten.co.jp###tate_right2
 !右下に出てくる買い物カゴ。なくても問題ない。
 item.rakuten.co.jp###floatingCartContainer
 item.rakuten.co.jp###floatButton1
+!楽天右側の固定枠
+rakuten.co.jp###riSDTopBtnWrap
+rakuten.co.jp##.tab_item
+rakuten.co.jp###douji01
+rakuten.co.jp##.sale_item
+
 
 
 !まんたんウェブ

@@ -298,9 +298,10 @@ dic.nicovideo.jp##.box + img + div
 ||sync.adaptv.advertising.com^
 ||cloudfront.net/dm.js$domain=dailymotion.com
 ||static1.dmcdn.net/js/gen/lib/dm/ga.js
-dailymotion.com###top_banner
-!右上のなにか
-dailymotion.com##.hidden-sm.hidden-md
+!dailymotionのレイアウトデザインが変更になったので下記はもう不要になった。2017.10.28
+!dailymotion.com###top_banner
+!!右上のなにか
+!dailymotion.com##.hidden-sm.hidden-md
 
 !５ちゃんねる、２ちゃんねる
 5ch.net,2ch.net,bbspink.com##.banner
@@ -536,6 +537,7 @@ weblio.jp##.sideAd
 !END------------------------------------------------------------
 !小窓モード高速化
 ||www.google.com/recaptcha/api.js$domain=weblio.jp
+||weblio.hs.llnwd.net/e7/jsad/cp824.js
 
 !alc
 eow.alc.co.jp###AreaUpperRight

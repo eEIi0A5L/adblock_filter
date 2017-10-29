@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 26 Oct 2017 12:00 JST
+! Last modified: 28 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -363,6 +363,29 @@ fc2.com###ad_header
 weblio.jp##.ad_fixed_imgHigh
 weblio.jp##.adBkOverlayClr
 
+!共同通信
+this.kiji.is##.page__ad
+this.kiji.is##.page__sub
+||nordot-connect.genieesspv.jp^
+
+!現代ビジネス
+||gendai.ismcdn.jp/resources/gb/js/v3/gb_change_ad_margin.js
+||gendai.ismcdn.jp/resources/gb/js/v3/gb_load_inArticle_ad.js
+||rt.rtoaster.jp^
+||gendai.ismedia.jp/list/v3-ad-inArticle/
+||comcluster.cxense.com^
+gendai.ismedia.jp##.ad-in-article
+
+!FNN
+||www.fnn-news.com/sp/news/data/uliza/ad_exclude_sitejack.json
+||aka-secure-img.uliza.jp/html5/fnn/ad/
+||fistag2.fis.fujitv.co.jp/pc/space.gif
+www.fnn-news.com###footAd
+www.fnn-news.com###overLay
+||www.fnn-news.com/material/img/downloadnow.png
+www.fnn-news.com##.appinfo
+
+
 !carnnyマガジン
 ||carnny.jp/wp-content/themes/carnny_jp_pc/images/f_banner_02.png
 carnny.jp##.footer_menu
@@ -376,7 +399,7 @@ www.tainavi-switch.com##.bn-01
 mobareco.jp##.footer-article
 ||spad.i-mobile.co.jp^
 www.denkou.info##.f_popup
-
+sp.recordchina.co.jp##.ad250
 
 !５ちゃんねるの荒らしが誘導しているサイト---------
 ||aqeen.sasakure.biz^
