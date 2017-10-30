@@ -35,7 +35,7 @@ xhamster.com##.sponsorB
 xhamster.com##.sponsorTitle
 ||xhamster.com^$subdocument
 ||trafficstars.com^$third-party
-/banner.stats?
+/banner.stats?$domain=xhamster.com
 xhamster.com##div > noscript + div[style
 xhamster.com##div[style^="width: 330px"]
 
