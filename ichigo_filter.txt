@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 24 Oct 2017 12:00 JST
+! Last modified: 31 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/ichigo.html
 ! 
@@ -19,7 +19,7 @@ xvideos.com##.subscribe-feed
 !xHamster
 *$websocket,domain=24video.cc|24video.in|24video.me|24video.sex|24video.xxx|pornhub.com|redtube.com|redtube.com.br|russian-porn.me|tube8.com|tube8.es|tube8.fr|xhamster.com|xtube.com|xvideos.com|youporn.com|youporngay.com
 @@||xhcdn.com^$script,domain=xhamster.com
-/advideo.
+/advideo.$domain=xhamster.com
 ||rotator.trafficstars.com^
 ||cdn.trafficstars.com^
 ||xhamster.com/cnt.php?
@@ -72,7 +72,7 @@ javfor.me##.adv
 !imagetwist.com
 .com/ga.js
 ||ads.exoclick.com^
-/adblock_detector2.
+/adblock_detector2.$domain=imagetwist.com
 ||www.statcounter.com^
 imagetwist.com###adbdiv
 imagetwist.com##[href^="http://www.sex.com/pics/?utm_"]
@@ -109,13 +109,13 @@ imgchili.net##[href^="http://www.tumblr.com/share/"]
 ||creative.wwwpromoter.com^
 ||imgbabes.com/element.js
 ||imgbabes.com^*/splash.php
-/topads.
+/topads.$domain=imgbabes.com
 imgbabes.com##div[style="width:604px; height:250px; background:#241521; padding:4px 3px 4px 3px; margin-top:-5px; margin-bottom:-8px; -moz-border-radius:2px; border-radius:2px; -webkit-border-radius:2px;"]
 ||syndication.exoclick.com^
 
 !imgflare.com
 ||imgflare.com^*/splash.php
-/topads.
+/topads.$domain=imgflare.com
 ||imgflare.com/exo.html
 imgflare.com###fadeinbox
 imgflare.com##.f_social
