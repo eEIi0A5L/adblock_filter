@@ -117,8 +117,11 @@ yahoo.co.jp##div[id^="yads"]
 !||s.yimg.jp/images/listing/tool/yads/uadf/yads_
 !Yahoo
 !下記は右上の広告用スクリプトだと思われるが確定ではないので一か月ほど様子を見る
-||s.yimg.jp/bdv/yahoo/javascript/brandpanel/0.5.1/brandpanel.js
-||s.yimg.jp/bdv/yahoo/javascript/brandpanelvision/0.0.1/brandpanelvision.js
+!||s.yimg.jp/bdv/yahoo/javascript/brandpanel/0.5.1/brandpanel.js
+!||s.yimg.jp/bdv/yahoo/javascript/brandpanelvision/0.0.1/brandpanelvision.js
+||s.yimg.jp/images/volunteer/banners/team_b_40b.gif
+||s.yimg.jp/bdv/yahoo/javascript/brandpanel/
+||s.yimg.jp/bdv/yahoo/javascript/brandpanelvision/
 ||s.yimg.jp/bdv/yahoo/javascript/yfa_gyj_cls_retina.js
 ||logql.yahoo.co.jp/v1/public/yql
 ||s.yimg.jp/images/listing/tool/yads/
