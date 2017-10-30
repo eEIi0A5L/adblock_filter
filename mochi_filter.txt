@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 29 Oct 2017 12:00 JST
+! Last modified: 30 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -212,6 +212,7 @@ finance.yahoo.co.jp###promo
 map.yahoo.co.jp###topbnr
 ||s.yimg.jp/images/transit/pc/v2/img/promo/banner/
 transit.yahoo.co.jp###appbnr
+||s.yimg.jp/bdv/yahoo/javascript/svsgplayer/1.0.0/premiumvision.js
 
 
 !microsoft下部の「このページは役に立ちましたか」
@@ -891,6 +892,8 @@ www.4gamer.net##.sidetop
 !greasyfork
 greasyfork.org###script-show-info-ad
 greasyfork.org##.ad
+!多分トラッキング
+||js-agent.newrelic.com/nr-1044.min.js
 
 !tenki.jp
 tenki.jp##.tenki-ad-pd
@@ -903,6 +906,9 @@ www.navitime.co.jp###under-advertisement
 ||www.navitime.co.jp/naviad/
 ||api-pc-img.cld.navitime.jp/images/http://www.navitime.co.jp/advertize_image/
 www.navitime.co.jp##.ad-frame
+
+!pixiv
+www.pixiv.net##.ad-footer
 
 !その他
 ||ads.pipaffiliates.com^
