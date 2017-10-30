@@ -38,6 +38,7 @@
 ||livebby.b2.valueserver.jp^
 ||edax.getamonkey.com^
 ||derx.stanciu.biz^
+||qsnews.ndra.biz^
 !miomioはマルウェアの疑いがあるため全面禁止
 ||www.miomio.tv^
 ! ウイルスサイトの可能性があるサイト END--------------------------

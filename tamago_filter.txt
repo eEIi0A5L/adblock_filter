@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 28 Oct 2017 12:00 JST
+! Last modified: 30 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -410,6 +410,29 @@ mainichi.jp##.recommend
 mainichi.jp###page-top
 mainichi.jp##.ad
 
+!日経テクノロジーオンライン
+||techon.nikkeibp.co.jp/css/n/SP/2016/ad.css
+||techon.nikkeibp.co.jp/images/n/SP/2016/ad.png
+||image2.pubmatic.com/AdServer/
+||beacon.krxd.net/pixel.gif
+techon.nikkeibp.co.jp##.article-bottom-actions
+
+!cnn.co.jp
+||www.cnn.co.jp/media/cnn/images/mini/ad_bg.png
+||z.moatads.com^
+||smetrics.cnn.com/b/ss/cnn-adbp-offsite-domestic/
+!||bea4.v.fwmrm.net/ad/
+www.cnn.co.jp##.ad
+
+!sputniknews.com
+||content.adriver.ru^
+jp.sputniknews.com##.social-likes-pane
+||ads.adfox.ru^
+||yastatic.net/pcode/adfox/loader.js
+||jp.sputniknews.com/min/js/libs/adriver.core.2.js
+||jp.sputniknews.com/min/js/libs/adfox.asyn.code.ver3-scroll.js
+jp.sputniknews.com###smartbanner
+
 
 !carnnyマガジン
 ||carnny.jp/wp-content/themes/carnny_jp_pc/images/f_banner_02.png
@@ -428,6 +451,7 @@ sp.recordchina.co.jp##.ad250
 
 !５ちゃんねるの荒らしが誘導しているサイト---------
 ||aqeen.sasakure.biz^
+||qsnews.ndra.biz^
 !END---------------------------------------------
 
 ! FilterProxyからの成果 START ----------------------
