@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 30 Oct 2017 12:00 JST
+! Last modified: 31 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -48,6 +48,8 @@ youtube.com##.ytp-ad-progress-list
 !END-----------------------------------------------
 !Youtube動画再生して最後に出てくるチャンネル動画サムネイルを消す場合
 !www.youtube.com##.ytp-ce-element
+!なんかこれがないとダメらしい。よくわからん。。。
+###player-ads
 
 !Youtubeのページレイアウト上の広告
 youtube.com###ad_creative_3
@@ -931,8 +933,9 @@ www.pixiv.net##.ad-footer
 !Peter Loweのフィルタでブロックされているが日本人の利用者が多いので許可
 @@||xrea.com^
 !Peter Lowe’s Ad and tracking server list
-!Yahoo映像トピックスのTVer動画が見れない問題の対策
-@@||2mdn.net^
+!!Yahoo映像トピックスのTVer動画が見れない問題の対策
+!Youtubeで動画が見れなくなるので一旦コメント化。2017.10.31
+!@@||2mdn.net^
 !GoogleMapでLocalGuideをExitしたときに引っかかる
 @@_campaign=$document
 !キャンペーンサイトで表示されない対策
