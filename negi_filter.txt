@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2017/10/31 12:00 JST
+! Last modified: 2017/10/26 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/negi.html
 
 
 !Youtubeに最初にアクセスしたときに上部に出る「Chromeでアクセスしますか？」のチッカー
-!www.youtube.com###ticker-content
+www.youtube.com###ticker-content
 !動画右上のSuggests白いバー
-!www.youtube.com##.ytp-chrome-top-buttons
+www.youtube.com##.ytp-chrome-top-buttons
 !Youtube動画再生して最後に出てくるチャンネル動画サムネイルを消す場合
 !www.youtube.com##.ytp-ce-element
 

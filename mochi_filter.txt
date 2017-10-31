@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 31 Oct 2017 12:00 JST
+! Last modified: 30 Oct 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -20,11 +20,11 @@
 =adunit&$domain=youtube.com
 ||www.youtube.com/api/stats/ads?
 /googleads.$domain=doubleclick.net
-!youtube.com###watch-channel-brand-div
-!youtube.com###watch7-sidebar-ads
-!youtube.com##.ad-container
-!youtube.com##.video-ads
-!youtube.com##.ytp-ad-progress-list
+youtube.com###watch-channel-brand-div
+youtube.com###watch7-sidebar-ads
+youtube.com##.ad-container
+youtube.com##.video-ads
+youtube.com##.ytp-ad-progress-list
 /pagead/lvz?$domain=google.co.jp,google.com
 /pagead2.$domain=googlesyndication.com
 @@||google.com/jsapi$third-party,script
@@ -50,25 +50,25 @@
 !www.youtube.com##.ytp-ce-element
 
 !Youtubeのページレイアウト上の広告
-!youtube.com###ad_creative_3
-!youtube.com###feed-pyv-container
-!youtube.com###footer-ads
-!youtube.com##.ad-div
-!www.youtube.com###header
+youtube.com###ad_creative_3
+youtube.com###feed-pyv-container
+youtube.com###footer-ads
+youtube.com##.ad-div
+www.youtube.com###header
 ||pubads.g.doubleclick.net^
 ||www.youtube.com/csi_204?v=2&s=youtube&action=glo&yt_sts=n&yt_ad
 /pagead/lvz?$domain=youtube.com
 /log_interaction?$domain=youtube.com
 !Youtubeの横から出てくるアノテーション
-!www.youtube.com##.iv-promo
+www.youtube.com##.iv-promo
 !Youtubeのチャンネルアノテーション
-!www.youtube.com##.iv-branding
+www.youtube.com##.iv-branding
 !下記はアノテーションを全て消す
 !www.youtube.com##.annotation
 !Youtubeの動画最後に入る、次動画のサムネイルを非表示にする
 !www.youtube.com##.ytp-ce-element
 !Youtube検索の広告
-!youtube.com##.ytd-search-pyv-renderer
+youtube.com##.ytd-search-pyv-renderer
 !adっぽいのでついでに追加
 ||www.youtube.com/yts/jsbin/www-pagead-id-
 
