@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 31 Oct 2017 12:00 JST
+! Last modified: 02 Nov 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -17,21 +17,23 @@
 
 !Youtube
 !一旦全面見直した。2017.10.31
--pagead-id.$domain=youtube.com
+||www.youtube.com/yts/jsbin/www-pagead-id-
 ||googleads.g.doubleclick.net^
 ||youtube.com/get_midroll_
-/pagead2.$domain=googlesyndication.com
+||pagead2.googlesyndication.com^
 youtube.com##.ad-container
 youtube.com##.video-ads
 youtube.com##.ytp-ad-progress-list
-/pagead/lvz?$domain=google.co.jp
-/ad_status.$domain=doubleclick.net
+||www.google.co.jp/pagead/lvz?
+||static.doubleclick.net/instream/ad_status.js
 youtube.com###player-ads
 ||pubads.g.doubleclick.net^
 ||youtube.com/pagead/
-.com/ads/$image,$domain=youtube.com
-/securepubads.$domain=doubleclick.net
+www.youtube.com/ads/$image
+securepubads.g.doubleclick.net
 =adunit&$domain=youtube.com
+!Peter Lowe’s Ad and tracking server listで一括ブロックされている
+||doubleclick.net^
 
 !Youtubeトップバナー
 youtube.com###masthead-ad
