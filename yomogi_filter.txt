@@ -1,0 +1,13 @@
+[Adblock Plus 2.0]
+! Title: よもぎフィルタ（マイニングブロック）
+! Last modified: 31 Oct 2017 12:00 JST
+! Expires: 6 hours (update frequency)
+! Homepage: http://pokapoka.html.xdomain.jp/yomogi.html
+! 
+! 
+
+!下記を購読してください
+!https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
+
+
+! END
