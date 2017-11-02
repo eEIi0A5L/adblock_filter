@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 01 Nov 2017 12:00 JST
+! Last modified: 02 Nov 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -470,17 +470,24 @@ eiga.com###rect_ad
 www.gamer.ne.jp##.jackBanner
 www.gamer.ne.jp##.background
 
+!マイクロソフト
+support.microsoft.com##.survey-background
+
 !その他
 www.tainavi-switch.com##.bn-01
 mobareco.jp##.footer-article
 ||spad.i-mobile.co.jp^
 www.denkou.info##.f_popup
 sp.recordchina.co.jp##.ad250
+kinisuru.com##.a2a_floating_style
+
 
 !５ちゃんねるの荒らしが誘導しているサイト---------
 ||aqeen.sasakure.biz^
 ||qsnews.ndra.biz^
 ||www.girlkah.shop^
+https://goo.gl/En6m3D 
+http://www.bityet.us/s7b47si.jpg
 !END---------------------------------------------
 
 ! FilterProxyからの成果 START ----------------------

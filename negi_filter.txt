@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2017/10/31 12:00 JST
+! Last modified: 2017/11/02 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/negi.html
 
@@ -29,12 +29,18 @@ nicovideo.jp##.user-ad-block
 nicovideo.jp##.bourbon-block
 ||enquete.nicovideo.jp^$domain=~enquete.nicovideo.jp
 ||urc.live.nicovideo.jp^
-/marqueeplayer.$domain=live.nicovideo.jp|www.nicovideo.jp
+/marqueeplayer.$domain=live.nicovideo.jp|www.nicovideo.jp|nicovideo.cdn.nimg.jp
 !ニコニコニュースの下部のコメント欄が邪魔
 !news.nicovideo.jp###COMMENT
 news.nicovideo.jp###comment-post-window
 !ニコ動マイページのニコニコ君
 www.nicovideo.jp##.summer2017Area
+!時報
+||nicovideo.cdn.nimg.jp/html5jiho/
+! プレイヤー上部のニュース枠
+||flapi.nicovideo.jp/api/getmarquee_new
+||nicovideo.jp/marquee/*
+!||nicovideo.jp##.MarqueeContainer
 
 !Google
 !ポップアップ「こちらによくアクセスする方は Google をホームページに」

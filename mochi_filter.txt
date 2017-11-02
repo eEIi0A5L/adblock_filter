@@ -55,6 +55,9 @@ google.co.jp##.commercial-unit-desktop-rhs
 ||www.google.com/ads/
 ||google.*/gen_204?$other
 
+
+
+
 !Yahoo!Japan
 www.yahoo.co.jp###brandpanel
 www.yahoo.co.jp###brandpanelCp
@@ -183,6 +186,11 @@ map.yahoo.co.jp###topbnr
 ||s.yimg.jp/images/transit/pc/v2/img/promo/banner/
 transit.yahoo.co.jp###appbnr
 ||s.yimg.jp/bdv/yahoo/javascript/svsgplayer/1.0.0/premiumvision.js
+!なにをやってるスクリプトかわからないがいらないような気がするので、試験中→誤爆が怖いのでブロックはやめとく。2017.11.2
+!||s.yimg.jp/bdv/yahoo/javascript/csc/20060824/lib2obf_b4.js
+!||s.yimg.jp/bdv/yahoo/javascript/csc/20060824/lib2obf_b6.js
+!||cdn-ycd.c.yimg.jp/libtrc/impl.279-209-RELEASE.js
+!||s.yimg.jp/images/ds/rapid/1.5.0/ult.inc.js
 
 
 !microsoft下部の「このページは役に立ちましたか」
@@ -618,6 +626,10 @@ mainichi.jp##.header-box
 www.sponichi.co.jp###ad
 www.sponichi.co.jp##div[id^="crt"]
 
+!日刊スポーツ
+www.nikkansports.com###sideAd1
+www.nikkansports.com###sideAd2
+
 !mediad2
 ||mediad2.jp^
 
@@ -749,9 +761,15 @@ wikiwiki.jp###title + br + br + div[id^="div-gpt-ad"] + br + br
 
 !msn
 ||www.msn.com/advertisement.ad.js
-||o.aolcdn.com/ads/
+||aolcdn.com/ads/
 ||ads.linkedin.com^
-www.msn.com##li[class*='ad']
+!誤爆
+!www.msn.com##li[class*='ad']
+www.msn.com##.widead
+www.msn.com##.ad
+www.msn.com##.OUTBRAIN
+www.msn.com##.logo
+www.msn.com###eubanner
 
 !shinobi
 ||shinobi.jp/encount
