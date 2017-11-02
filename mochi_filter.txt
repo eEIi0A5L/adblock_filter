@@ -34,7 +34,10 @@ securepubads.g.doubleclick.net
 =adunit&$domain=youtube.com
 !Peter Lowe’s Ad and tracking server listで一括ブロックされている
 ||doubleclick.net^
+||2mdn.net^
 ||s0.2mdn.net/ads
+
+!下記は多分いらないけど念のため
 ||flashtalking.com$domain=youtube.com
 ||www.youtube.com/api/stats
 ||www.youtube.com/ptracking
@@ -927,9 +930,9 @@ www.pixiv.net##.ad-footer
 !!Yahoo映像トピックスのTVer動画が見れない問題の対策
 !Youtubeで動画が見れなくなるので一旦コメント化。2017.10.31
 !2mdn.netを例外にするとyoutubeで広告が流れる
-!したがって、gyaoだけで例外にする。
-@@||2mdn.net^
-||2mdn.net^$domain=~gyao.yahoo.co.jp
+!したがって、gyao(yahoo)だけで例外にする。
+@@||2mdn.net^$domain=yahoo.co.jp
+!||2mdn.net^$domain=~gyao.yahoo.co.jp
 !GoogleMapでLocalGuideをExitしたときに引っかかる
 @@_campaign=$document
 !キャンペーンサイトで表示されない対策
