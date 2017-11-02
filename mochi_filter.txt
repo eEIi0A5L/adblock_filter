@@ -921,7 +921,7 @@ www.pixiv.net##.ad-footer
 !Peter Lowe’s Ad and tracking server list
 !!Yahoo映像トピックスのTVer動画が見れない問題の対策
 !Youtubeで動画が見れなくなるので一旦コメント化。2017.10.31
-!@@||2mdn.net^
+@@||2mdn.net^
 !GoogleMapでLocalGuideをExitしたときに引っかかる
 @@_campaign=$document
 !キャンペーンサイトで表示されない対策
