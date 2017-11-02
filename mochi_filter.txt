@@ -34,6 +34,9 @@ securepubads.g.doubleclick.net
 =adunit&$domain=youtube.com
 !Peter Lowe’s Ad and tracking server listで一括ブロックされている
 ||doubleclick.net^
+||s0.2mdn.net/ads
+||flashtalking.com$domain=youtube.com
+
 
 !Youtubeトップバナー
 youtube.com###masthead-ad
