@@ -34,8 +34,14 @@ securepubads.g.doubleclick.net
 =adunit&$domain=youtube.com
 !Peter Lowe’s Ad and tracking server listで一括ブロックされている
 ||doubleclick.net^
+!||2mdn.net^は'Peter Lowe’s Ad and tracking server list'に登録されているが、
+!2mdn.net全体をブロックするとGyaoが見れなくなる
+!したがって2mdn.net全体は例外（下記）にし、
+!||s0.2mdn.net/adsをブロックする。
 ||s0.2mdn.net/ads
 ||flashtalking.com$domain=youtube.com
+||www.youtube.com/api/stats
+||www.youtube.com/ptracking
 
 
 !Youtubeトップバナー
