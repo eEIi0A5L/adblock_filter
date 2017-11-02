@@ -34,10 +34,6 @@ securepubads.g.doubleclick.net
 =adunit&$domain=youtube.com
 !Peter Lowe’s Ad and tracking server listで一括ブロックされている
 ||doubleclick.net^
-!||2mdn.net^は'Peter Lowe’s Ad and tracking server list'に登録されているが、
-!2mdn.net全体をブロックするとGyaoが見れなくなる
-!したがって2mdn.net全体は例外（下記）にし、
-!||s0.2mdn.net/adsをブロックする。
 ||s0.2mdn.net/ads
 ||flashtalking.com$domain=youtube.com
 ||www.youtube.com/api/stats
@@ -930,6 +926,8 @@ www.pixiv.net##.ad-footer
 !Peter Lowe’s Ad and tracking server list
 !!Yahoo映像トピックスのTVer動画が見れない問題の対策
 !Youtubeで動画が見れなくなるので一旦コメント化。2017.10.31
+!2mdn.netを例外にするとyoutubeで広告が流れる
+!したがって、gyaoだけで例外にする。
 @@||2mdn.net^
 ||2mdn.net^$domain=~gyao.yahoo.co.jp
 !GoogleMapでLocalGuideをExitしたときに引っかかる
@@ -940,10 +938,10 @@ www.pixiv.net##.ad-footer
 !malwarelistに入っている
 @@||navitime.co.jp^
 !twitchでカウントが増え続ける問題の解法
-@@||scorecardresearch.com^
-||scorecardresearch.com^$domain=~twitch.tv
-@@||mixpanel.com^
-||mixpanel.com^$domain=~twitch.tv
+@@||scorecardresearch.com^$domain=twitch.tv
+!||scorecardresearch.com^$domain=~twitch.tv
+@@||mixpanel.com^$domain=twitch.tv
+!||mixpanel.com^$domain=~twitch.tv
 !END---------------------------------------------------------------------
 
 ! END
