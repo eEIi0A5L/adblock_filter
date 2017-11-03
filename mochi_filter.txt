@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 02 Nov 2017 12:00 JST
+! Last modified: 03 Nov 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -932,7 +932,6 @@ www.pixiv.net##.ad-footer
 !2mdn.netを例外にするとyoutubeで広告が流れる
 !したがって、gyao(yahoo)だけで例外にする。
 @@||2mdn.net^$domain=yahoo.co.jp
-!||2mdn.net^$domain=~gyao.yahoo.co.jp
 !GoogleMapでLocalGuideをExitしたときに引っかかる
 @@_campaign=$document
 !キャンペーンサイトで表示されない対策
@@ -942,9 +941,7 @@ www.pixiv.net##.ad-footer
 @@||navitime.co.jp^
 !twitchでカウントが増え続ける問題の解法
 @@||scorecardresearch.com^$domain=twitch.tv
-!||scorecardresearch.com^$domain=~twitch.tv
 @@||mixpanel.com^$domain=twitch.tv
-!||mixpanel.com^$domain=~twitch.tv
 !END---------------------------------------------------------------------
 
 ! END
