@@ -304,30 +304,7 @@ dic.nicovideo.jp##.box + img + div
 !dailymotion.com##.hidden-sm.hidden-md
 
 !５ちゃんねる、２ちゃんねる
-5ch.net,2ch.net,bbspink.com##.banner
-menu.2ch.net##body > a
-menu.5ch.net##body > a
 /bannar/$domain=5ch.net,2ch.net,bbspink.com
-5ch.net,2ch.net,bbspink.com##body > iframe
-5ch.net,2ch.net,bbspink.com##body > div > img
-5ch.net,2ch.net,bbspink.com##body > div + br + div
-5ch.net,2ch.net,bbspink.com##.js--ad--bottom
-5ch.net,2ch.net,bbspink.com###js--banners--thread
-5ch.net,2ch.net,bbspink.com##.ad--bottom
-pinktower.com##div > ul
-5ch.net,2ch.net,bbspink.com##.ad--right
-5ch.net,2ch.net,bbspink.com###banner
-5ch.net,2ch.net,bbspink.com##body > div + br + div + iframe + iframe + div
-5ch.net,2ch.net,bbspink.com##body > div + br + div + iframe + iframe + div + div
-5ch.net,2ch.net,bbspink.com##script + table + div[align="center"]
-menu.2ch.net##body > div:first-child
-menu.5ch.net##body > div:first-child
-5ch.net,2ch.net,bbspink.com,pinktower.com##iframe
-5ch.net,2ch.net,bbspink.com##div[align='center'] + table + br + table + div
-5ch.net,2ch.net,bbspink.com##div[align='center'] + table + br + table
-5ch.net,2ch.net,bbspink.com##table + br + center
-5ch.net,2ch.net##body > div + table + br + table
-5ch.net,2ch.net##body > div + table + br + table + div
 5ch.net,2ch.net##.ADVERTISE_AREA
 5ch.net,2ch.net##.ADVERTISE_AREA + div
 ||google.com/pagead/
@@ -364,9 +341,6 @@ menu.5ch.net##body > div:first-child
 ||stab.thench.net/threads/thread_bottom_right_
 ||stimg.iand2ch.net/bbs-ad/
 ||stimg.iand5ch.net/bbs-ad/
-5ch.net,2ch.net,bbspink.com##div[class^="banner_area_"]
-5ch.net,2ch.net,bbspink.com###top_banner
-5ch.net,2ch.net,bbspink.com##.ticker
 ||stbp.thench.net/subback/mercury/banner
 ||stbp.thench.net/toppage/common-
 !5ch, 2ch携帯
@@ -376,6 +350,7 @@ menu.5ch.net##body > div:first-child
 !奇妙なjsをブロックしておく（なんとなく）
 ||proparm.jp/ssp/p/js1?
 ||proparm.jp/ssp/p/js?
+||stimg.thench.net/bbs-ad/
 
 !Ameba, ameblo
 ameblo.jp##.subAdBannerHeader
