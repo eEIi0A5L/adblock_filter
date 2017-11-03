@@ -351,6 +351,11 @@ dic.nicovideo.jp##.box + img + div
 ||proparm.jp/ssp/p/js1?
 ||proparm.jp/ssp/p/js?
 ||stimg.thench.net/bbs-ad/
+||contents.purelovers.com/banner/ad/
+bbspink.com###top_banner
+bbspink.com##.ranking_banner
+bbspink.com##.loading
+bbspink.com##div[class^="banner_area_"]
 
 !Ameba, ameblo
 ameblo.jp##.subAdBannerHeader
