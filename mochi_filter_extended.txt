@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 26 Oct 2017 12:00 JST
+! Last modified: 03 Nov 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -64,7 +64,7 @@ cnn.co.jp###ad_pr_info
 ||www.cnn.co.jp/js/ga_social_tracking.js
 !END-----------------------------
 ||click.speee-ad.jp^
-||speee-ad.akamaized.net^
+!||speee-ad.akamaized.net^
 
 !cnn.com
 ||global.ssl.fastly.net/ad/
@@ -94,7 +94,7 @@ cnn.com##.m-share
 ||b.scorecardresearch.com^
 !cnn高速化---------------------------------------
 ||cdn.optimizely.com/js/
-||cdn.turner.com/analytics/cnnexpan/jsmd.min.js
+!||cdn.turner.com/analytics/cnnexpan/jsmd.min.js
 ||connect.facebook.net^$domain=cnn.com
 ||www.decenthat.com/bcn?
 ||beacon.krxd.net/pixel.gif?
