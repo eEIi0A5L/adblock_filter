@@ -1,0 +1,23 @@
+[Adblock Plus 2.0]
+! Title: Youtubeの広告をとにかくブロックするフィルタ
+! Last modified: 04 Nov 2017 12:00 JST
+! Expires: 6 hours (update frequency)
+! Homepage: http://pokapoka.html.xdomain.jp/
+! 
+! 
+
+www.youtube.com/ads/$image
+youtube.com##.ad-container
+youtube.com##.video-ads
+youtube.com##.ytp-ad-progress-list
+youtube.com##.ytd-search-pyv-renderer
+youtube.com###player-ads
+youtube.com###masthead-ad
+=adunit&$domain=youtube.com
+||www.youtube.com/yts/jsbin/www-pagead-id-
+||youtube.com/get_midroll_
+||pagead2.googlesyndication.com^
+||www.google.co.jp/pagead/lvz?
+||youtube.com/pagead/
+||doubleclick.net^
+||2mdn.net^
