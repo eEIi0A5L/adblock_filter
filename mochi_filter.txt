@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 03 Nov 2017 12:00 JST
+! Last modified: 04 Nov 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -39,8 +39,9 @@ securepubads.g.doubleclick.net
 
 !下記は多分いらないけど念のため
 ||flashtalking.com$domain=youtube.com
-||www.youtube.com/api/stats
-||www.youtube.com/ptracking
+!下記をブロックするとヒストリーに残らなくなる
+!||www.youtube.com/api/stats
+!||www.youtube.com/ptracking
 
 
 !Youtubeトップバナー
