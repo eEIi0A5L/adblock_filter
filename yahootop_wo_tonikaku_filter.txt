@@ -1,0 +1,60 @@
+[Adblock Plus 2.0]
+! Title: Yahoo!Japanトップの広告をとにかくブロックするフィルタ
+! Last modified: 05 Nov 2017 12:00 JST
+! Expires: 6 hours (update frequency)
+! Homepage: http://pokapoka.html.xdomain.jp/
+! 
+! 
+
+
+!Yahoo!Japan--------------------------------------
+!Yahooトップ-------
+!ワンクリックでYahooJapanを開くには
+www.yahoo.co.jp###PopHead
+
+!右上の広告
+||s.yimg.jp/bdv/prem/
+||s.yimg.jp/images/listing/tool/yads/
+www.yahoo.co.jp###brandpanel
+
+
+!いい買い物の日
+||s.yimg.jp/bdv/adtest/
+||s.yimg.jp/images/top/sp2/event/iikaimono2017/
+||s.yimg.jp/images/ticket/pc/img/date/171031/w11usj/no8_760x110.png
+www.yahoo.co.jp##.Kaimono
+
+!中段のPR
+yahoo.co.jp##div[id^="yads"]
+
+!Yahooトップのカード入会
+www.yahoo.co.jp##.Personalbox__noticeItem--card
+
+!キャラの吹き出し
+www.yahoo.co.jp###js-ninjyo
+
+!プレミアムの宣伝枠
+www.yahoo.co.jp###yjidbox
+
+!その他ネットワーク通信ログからad関連の通信をブロック
+||yads.c.yimg.jp/js/yads.js
+||s.yimg.jp/images/advertising/
+||s.yimg.jp/images/advertising/common/js/iicon.min.js
+||yads.c.yimg.jp/js/yads-async.js
+||yj.p.adnxs.com^
+||yjtag.yahoo.co.jp/tag?
+!||giwiz-quriosity.c.yimg.jp^
+
+!ビーコン
+||b3.yahoo.co.jp/b?
+
+!トラッカー
+||logql.yahoo.co.jp/v1/public/yql?
+
+
+
+!END--------------
+
+
+
+!END----------------------------------------------
