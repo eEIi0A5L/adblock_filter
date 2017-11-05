@@ -409,6 +409,8 @@ ameblo.jp##div[amb-component="entryAd"]
 ||aff.i-mobile.co.jp^
 ||stat100.ameba.jp/adwords/adwords.js
 ||cdn.amanad.adtdp.com^
+ameblo.jp##.bfl-snews__outer
+||ssl-stat.amebame.com/pub/ads/
 
 !Amebaニュース
 ||apvdr.com/v2/cs.php
