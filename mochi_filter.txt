@@ -82,7 +82,9 @@ www.yahoo.co.jp###toptxt
 ||s.yimg.jp/bdv/prem/
 ||s.yimg.jp/images/listing/tool/yads/
 www.yahoo.co.jp###brandpanel
+!セミコロン有りと無しの２パターンある
 www.yahoo.co.jp###sub > div[style="margin: 0px auto 10px;"]
+www.yahoo.co.jp###sub > div[style="margin: 0px auto 10px"]
 
 !右上の広告：ぐわーんと全画面に拡大してくるやつ
 ||s.yimg.jp/bdv/yahoo/javascript/brandpanelvision/0.0.1/brandpanelvision.js
