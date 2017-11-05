@@ -7,15 +7,22 @@
 ! 
 
 
-!Yahoo!Japan--------------------------------------
-!Yahooトップ-------
+!Yahooトップ---------------------------------------
 !ワンクリックでYahooJapanを開くには
 www.yahoo.co.jp###PopHead
+
+!検索枠と本体の間の一行広告
+www.yahoo.co.jp###toptxt
 
 !右上の広告
 ||s.yimg.jp/bdv/prem/
 ||s.yimg.jp/images/listing/tool/yads/
 www.yahoo.co.jp###brandpanel
+www.yahoo.co.jp###sub > div[style="margin: 0px auto 10px"]
+
+!右上の広告：ぐわーんと全画面に拡大してくるやつ
+||s.yimg.jp/bdv/yahoo/javascript/brandpanelvision/0.0.1/brandpanelvision.js
+!www.yahoo.co.jp##:xpath(//img[@id="multilink-image"]/parent::div)
 
 
 !いい買い物の日
@@ -27,6 +34,9 @@ www.yahoo.co.jp##.Kaimono
 !中段のPR
 yahoo.co.jp##div[id^="yads"]
 
+!なにか空白がでた
+www.yahoo.co.jp###bpComposite
+
 !Yahooトップのカード入会
 www.yahoo.co.jp##.Personalbox__noticeItem--card
 
@@ -35,6 +45,8 @@ www.yahoo.co.jp###js-ninjyo
 
 !プレミアムの宣伝枠
 www.yahoo.co.jp###yjidbox
+
+
 
 !その他ネットワーク通信ログからad関連の通信をブロック
 ||yads.c.yimg.jp/js/yads.js
@@ -47,13 +59,106 @@ www.yahoo.co.jp###yjidbox
 
 !ビーコン
 ||b3.yahoo.co.jp/b?
+||b4.yahoo.co.jp/b?
+!b3とかb4とか面倒なのでまとめてブロック
+||yahoo.co.jp/b?
 
 !トラッカー
 ||logql.yahoo.co.jp/v1/public/yql?
 
 
+!これはブロックしてもいいのか？→ブロックすると100msぐらい速くなる
+!ブロックしたら下部のあなたへのおすすめが全部消えてしまった
+!||s.yimg.jp/images/top/sp2/js/8.0.18/fp_base_bd_ga_8.0.18.js
 
-!END--------------
+
+!END---------------------------------------------
+
+
+!Yahoo映像トピックス-------------------------------------------
+
+!動画開始時の動画広告ブロック
+||adserver-apne.tidaltv.com^
+
+
+!END--------------------------------------------------------
+
+
+!Yahooニュース------------------------------------
+
+
+
+!その他ネットワーク通信ログからad関連の通信をブロック
+||ib.adnxs.com^
+
+!ビーコン
+||sb.scorecardresearch.com/b?
+
+
+
+
+!END----------------------------------------------
+
+
+!Yahooショッピング--------------------------------
+!全面広告
+shopping.yahoo.co.jp##.mdOverlayCrm
+shopping.yahoo.co.jp##.uiDialogCrm
+
+
+!その他ネットワーク通信ログからad関連の通信をブロック
+||yj.adnxs.com^
+||acdn.adnxs.com^
+
+
+!END----------------------------------------------
+
+!Yahoo検索--------------------------------
+!検索結果上部の広告
+search.yahoo.co.jp###So1
+
+!Yahooニュースの宣伝
+||amd.c.yimg.jp^$domain=search.yahoo.co.jp
+search.yahoo.co.jp##.cmm
+
+
+!Naverまとめの宣伝
+||iwiz-search-matome.c.yimg.jp^$domain=search.yahoo.co.jp
+
+
+
+!Yahooショッピングの宣伝
+||item-shopping.c.yimg.jp/$domain=search.yahoo.co.jp
+
+
+!検索結果下部の広告
+search.yahoo.co.jp###So2
+
+!JWordの宣伝
+search.yahoo.co.jp###WS2aj
+
+
+
+!END----------------------------------------------
+
+
+!Yahoo天気--------------------------------
+
+
+
+
+
+!END----------------------------------------------
+
+
+
+!ヤフオク--------------------------------
+
+!上部広告
+auctions.yahoo.co.jp###So1
+!下部広告
+auctions.yahoo.co.jp###So2
+
 
 
 
