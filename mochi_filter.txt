@@ -43,6 +43,9 @@ youtube.com###masthead-ad
 !Youtube検索結果の広告
 youtube.com##.ytd-search-pyv-renderer
 
+!Youtubeの横から出てくるアノテーション
+www.youtube.com##.iv-promo
+
 
 
 !Google
