@@ -86,6 +86,11 @@ www.yahoo.co.jp###sub > div[style="margin: 0px auto 10px;"]
 !www.yahoo.co.jp##:xpath(//img[@id="multilink-image"]/parent::div)
 
 
+!Yahooトップ全画面の左右の大きなバックグラウンド広告
+||s.yimg.jp/bdv/yahoo/javascript/gyj/1.1.0/premiumvision-gyj.js
+www.yahoo.co.jp##div[id^="gyj"]
+
+
 !いい買い物の日
 ||s.yimg.jp/bdv/adtest/
 ||s.yimg.jp/images/top/sp2/event/iikaimono2017/
