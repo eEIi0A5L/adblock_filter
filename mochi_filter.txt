@@ -128,7 +128,8 @@ www.yahoo.co.jp###yjidbox
 
 
 !これはブロックしてもいいのか？→ブロックすると100msぐらい速くなる
-||s.yimg.jp/images/top/sp2/js/8.0.18/fp_base_bd_ga_8.0.18.js
+!ブロックしたら下部のあなたへのおすすめが全部消えてしまった
+!||s.yimg.jp/images/top/sp2/js/8.0.18/fp_base_bd_ga_8.0.18.js
 
 
 !END---------------------------------------------
