@@ -80,6 +80,10 @@ www.yahoo.co.jp###toptxt
 ||s.yimg.jp/images/listing/tool/yads/
 www.yahoo.co.jp###brandpanel
 
+!右上の広告：ぐわーんと全画面に拡大してくるやつ
+||s.yimg.jp/bdv/yahoo/javascript/brandpanelvision/0.0.1/brandpanelvision.js
+!www.yahoo.co.jp##:xpath(//img[@id="multilink-image"]/parent::div)
+
 
 !いい買い物の日
 ||s.yimg.jp/bdv/adtest/
@@ -115,9 +119,17 @@ www.yahoo.co.jp###yjidbox
 
 !ビーコン
 ||b3.yahoo.co.jp/b?
+||b4.yahoo.co.jp/b?
+!b3とかb4とか面倒なのでまとめてブロック
+||yahoo.co.jp/b?
 
 !トラッカー
 ||logql.yahoo.co.jp/v1/public/yql?
+
+
+!これはブロックしてもいいのか？→ブロックすると100msぐらい速くなる
+||s.yimg.jp/images/top/sp2/js/8.0.18/fp_base_bd_ga_8.0.18.js
+
 
 !END---------------------------------------------
 
@@ -139,6 +151,11 @@ www.yahoo.co.jp###yjidbox
 
 
 !Yahooショッピング--------------------------------
+!全面広告
+shopping.yahoo.co.jp##.mdOverlayCrm
+shopping.yahoo.co.jp##.uiDialogCrm
+
+
 !その他ネットワーク通信ログからad関連の通信をブロック
 ||yj.adnxs.com^
 ||acdn.adnxs.com^
@@ -182,6 +199,22 @@ search.yahoo.co.jp###WS2aj
 
 
 !END----------------------------------------------
+
+
+
+!ヤフオク--------------------------------
+
+!上部広告
+auctions.yahoo.co.jp###So1
+!下部広告
+auctions.yahoo.co.jp###So2
+
+
+
+
+!END----------------------------------------------
+
+
 
 
 
