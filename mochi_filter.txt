@@ -91,6 +91,7 @@ www.yahoo.co.jp##div[style="position: absolute; width: 950px; height: 600px; bac
 !Yahooトップ全画面の左右の大きなバックグラウンド広告
 ||s.yimg.jp/bdv/yahoo/javascript/gyj/1.1.0/premiumvision-gyj.js
 www.yahoo.co.jp##div[id^="gyj"]
+www.yahoo.co.jp###topImpact
 
 
 !いい買い物の日
