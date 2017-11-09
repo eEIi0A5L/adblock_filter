@@ -60,6 +60,8 @@ google.co.jp##.commercial-unit-desktop-rhs
 ||www.google.com/ads/
 ||google.*/gen_204?$other
 
+!gmail
+mail.google.com##.aKB
 
 
 
