@@ -11,6 +11,7 @@
 ||clients5.google.com/pagead/drt/dn/
 ##div[id^="div-gpt-ad"]
 ##.adsbygoogle
+##ins.adsbygoogle
 ||ad-api-v01.uliza.jp^
 ||jp-ads.mediaforge.com^
 
@@ -241,6 +242,19 @@ auctions.yahoo.co.jp###So2
 
 
 !END----------------------------------------------
+
+
+!Yahooファイナンス--------------------------------
+
+
+!右上のバナー
+finance.yahoo.co.jp##.marB10
+finance.yahoo.co.jp###promo
+
+
+
+!END----------------------------------------------
+
 
 
 
@@ -687,6 +701,11 @@ www.sponichi.co.jp##div[id^="crt"]
 !日刊スポーツ
 www.nikkansports.com###sideAd1
 www.nikkansports.com###sideAd2
+
+!ロイター
+||www.reuters.com/reuters_ads_framework.js
+!トラッキング
+||qsearch.media.net/log?
 
 !mediad2
 ||mediad2.jp^
