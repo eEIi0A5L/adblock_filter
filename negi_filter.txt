@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2017/11/02 12:00 JST
+! Last modified: 2017/11/10 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/negi.html
 
@@ -118,6 +118,11 @@ videotopics.yahoo.co.jp###s_combnr1
 store.shopping.yahoo.co.jp###floatbtn
 store.shopping.yahoo.co.jp##.fixog
 
+!Yahoo知恵袋
+!ビーコンっぽい
+||ybx.yahoo.co.jp/p?
+||yahoo.co.jp/s?
+
 !financeのグラフが消えてしまう
 !.yahoo.co.jp##.marB10
 ||s.yimg.jp/images/finance/bnr/
@@ -218,6 +223,29 @@ item.rakuten.co.jp###tate_right2
 !rakuten.co.jp##.tab_item
 !rakuten.co.jp###douji01
 !rakuten.co.jp##.sale_item
+
+!産経
+!ビーコン
+||m.ranking.sankei-digital.co.jp/sankei/ranking/js/beacon_m.jpg?
+||b.ranking.apis.sankei-digital.co.jp/sankei/ranking/img/beacon.gif?
+||b.ranking.sankei-digital.co.jp/sankei/ranking/js/beacon.jpg?
+!下部のSNS固定バー枠
+www.sankei.com###footerFloatingMenu
+
+!読売
+!トラッキング
+||rtoaster.com^
+||rtoaster.jp^
+
+!Slashdot
+!タグ
+||tag.1rx.io^
+
+!朝日
+!ビーコン、トラッキング：１０秒ごとにビーコンが発信されてうざい
+||pixel.parsely.com^
+||static.parsely.com^
+
 
 
 

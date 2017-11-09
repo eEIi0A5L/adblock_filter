@@ -350,5 +350,9 @@ wear.jp###gbl_ad
 ||api.popin.cc^
 ||news.livedoor.com/js/ads.0.5.js
 
+!Flickr
+www.flickr.com##.ad-iframe-shim
+||y-flickr.yahoo.com/ad?
+
 
 ! END

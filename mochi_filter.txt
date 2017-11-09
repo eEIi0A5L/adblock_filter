@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 06 Nov 2017 12:00 JST
+! Last modified: 09 Nov 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -305,6 +305,8 @@ live.nicovideo.jp###tanimachi-ranking
 www.nicovideo.jp##.SeekBarContainer-videoAdMarker
 !ニコ動HTML5プレイヤーのコメント欄下部の広告枠を消す
 www.nicovideo.jp##.CommentPanelContainer:style(bottom: 0px !important)
+!ABPの場合は下記で消す
+!https://userstyles.org/styles/149736/nicovideo-remove-adwaku
 
 !ニコニコ大百科
 dic.nicovideo.jp##.ad-bannar-maincolumn-top
@@ -419,6 +421,7 @@ ameblo.jp##div[amb-component="entryAd"]
 ||cdn.amanad.adtdp.com^
 ameblo.jp##.bfl-snews__outer
 ||ssl-stat.amebame.com/pub/ads/
+ameblo.jp##.skin-entryAd
 
 !Amebaニュース
 ||apvdr.com/v2/cs.php
@@ -488,6 +491,8 @@ kakaku.com##.c-ad
 ||static.affiliate.rakuten.co.jp/widget/html/pc_pcview_all.html?rakuten_design=slide&
 ||thumbnail.image.rakuten.co.jp/@0_mall/$domain=~rakuten.co.jp|~rakuten.ne.jp
 ||thumbnail.image.rakuten.co.jp/@0_gold/$domain=~rakuten.co.jp|~rakuten.ne.jp
+!楽天の広告がhttp://hktdouga.blog.jp/で出る
+||afl.rakuten.co.jp^
 
 !楽天サイト自体の広告ブロック
 rakuten.co.jp###footer-floating-bnr
@@ -618,11 +623,20 @@ itpro.nikkeibp.co.jp##ul.list_G
 ||www.sankei.com/apr_west/js/others/adsense_m3.js
 ||www.sankei.com/apr_west/css/v1/common/ad.css
 ||sankei2ad.durasite.net^
+!記事の右上の広告
+www.sankei.com###adToprectangle
+!popin（モバイル広告）
+||www.sankei.com/apr_common/js/others/popin.js
+!広告
+||www.sankei.com/apr_news/js/others/adEx_display1.js
+||www.sankei.com/apr_news/js/others/adsense_m3.js
+
 
 !朝日
 www.asahi.com##.AdMod
 ||ad.yieldlab.net^
 ||www.asahi.com/ad/
+||www.asahicom.jp/ad/
 
 !読売
 !||www.yomiuri.co.jp/cont2/ad/js/ad_world.js
@@ -635,13 +649,22 @@ www.asahi.com##.AdMod
 ||www.yomiuri.co.jp/adv/
 ||www.yomiuri.co.jp/cont2/ad/
 www.yomiuri.co.jp##.subhead
+||smrtpxl.advertising.com^
 
 !NHK
 !広告じゃなかった
 !||nhk.or.jp/news/gad/
 
+
+!日テレNews24
+||www.ntv.co.jp/ad-navi/
+||www.news24.jp/css/adjust.css
+www.news24.jp###adText01
+
 !TBS
 ||web-jp.ad-v.jp^
+news.tbs.co.jp##.md-banner300x250
+||aka-cdn-ns.adtechus.com^
 
 !毎日
 ||cdn.mainichi.jp/vol1/ad/
@@ -753,6 +776,7 @@ www.itmedia.co.jp##.colBox.colBoxArtTopRcm
 itmedia.co.jp###ads_content_top
 ||www.itmedia.co.jp/js/pcuser/ad.js
 ||www.itmedia.co.jp/css/pcuser/ad.css
+||static.ads-twitter.com/uwt.js
 
 !wikia
 wikia.com###WikiaArticleBottomAd
@@ -968,6 +992,13 @@ www.pixiv.net##.ad-footer
 !twitchでカウントが増え続ける問題の解法
 @@||scorecardresearch.com^$domain=twitch.tv
 @@||mixpanel.com^$domain=twitch.tv
+!http://hktdouga.blog.jp/でPowered by livedoor 相互RSSの枠内が全部消えてしまう
+@@||blogroll.livedoor.net^
+!Gyaoが見れない
+@@/ima3.js$domain=gyao.yahoo.co.jp
+@@||brightcove.net^
+@@||brightcove.com^
+@@|https:*?*&ip=$third-party
 !END---------------------------------------------------------------------
 
 ! END

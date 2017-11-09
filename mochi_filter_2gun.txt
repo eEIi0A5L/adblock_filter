@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 26 Oct 2017 12:00 JST
+! Last modified: 10 Nov 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -16,6 +16,21 @@
 
 !痛いニュース
 ||blog.livedoor.jp/dqnplus/settings/ad.js
+
+!アルファモザイク
+||cse.google.com/adsense/search/async-ads.js
+||blogmaterial.nicoblomaga.jp/material/279/bromaga_AdTimer_PC.js
+||blogmaterial.nicoblomaga.jp/material/279/PC_alfaad.js
+
+!ニュー速クオリティ
+||js.blozoo.info/js/amatool/blogparts.js
+
+!ハムスター速報
+||blog.livedoor.jp/hamusoku/amazon_ranking.js
+||blog.livedoor.jp/hamusoku/amazon_ranking_side.js
+||blog.livedoor.jp/hamusoku6/amazon.js
+!下記のdomainをはずすと、amazon.co.jpで全部画像が消えてしまうので注意すること
+||images-fe.ssl-images-amazon.com/images/$third-party,domain=hamusoku.com
 
 
 
