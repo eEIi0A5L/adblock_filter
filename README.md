@@ -7,6 +7,6 @@
 * ことりフィルタ（SNSボタンブロック）
 * いちごフィルタ（アダルトサイト広告ブロック）
 
-* Homepage http://pokapoka.html.xdomain.jp/
+Homepage http://pokapoka.html.xdomain.jp/
 
 
