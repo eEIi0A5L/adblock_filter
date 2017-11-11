@@ -309,5 +309,13 @@ slashdot.org###announcement
 
 !日経
 www.nikkei.com##.JSID_yudoMotion_closeAction
+!日経新聞
+!トラッカー
+||metrics.brightcove.com^
+||atlas-endpoint.data.n8s.jp^
+||nikkei.d1.sc.omtrdc.net/b/
+||tr.webantenna.info^
+
+
 
 !END

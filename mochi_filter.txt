@@ -95,7 +95,8 @@ www.yahoo.co.jp###sub > div[style^="margin: 0px auto 10px"]
 ||s.yimg.jp/bdv/yahoo/javascript/brandpanelvision/0.0.1/brandpanelvision.js
 www.yahoo.co.jp##:xpath(//img[@id="multilink-image"]/parent::div)
 !xpathが効かない時の保険。ABPとか。
-www.yahoo.co.jp##div[style="position: absolute; width: 950px; height: 600px; background: rgb(0, 0, 0); opacity: 1; right: 0px; overflow: hidden; z-index: 9; transition-property: all; transition-duration: 0.5s; transition-timing-function: ease;"]
+www.yahoo.co.jp###multilink-image
+www.yahoo.co.jp##div[style^="position: absolute; width: 950px; height: 600px"]
 
 
 !Yahooトップ全画面の左右の大きなバックグラウンド広告
@@ -252,6 +253,7 @@ auctions.yahoo.co.jp###So2
 !右上のバナー
 finance.yahoo.co.jp##.marB10
 finance.yahoo.co.jp###promo
+finance.yahoo.co.jp##p.cafxBanner
 
 
 
@@ -616,6 +618,7 @@ dictionary.goo.ne.jp##.NR-ad
 !livedoor
 ||news.livedoor.com/js/ads.0.5.js
 ||popin.cc^
+||js.cocoad.jp^
 
 !ZAKZAK
 ||www.zakzak.co.jp/common/js/popin/loadPopIn.js

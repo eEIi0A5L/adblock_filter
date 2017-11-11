@@ -29,8 +29,6 @@
 ||blog.livedoor.jp/hamusoku/amazon_ranking.js
 ||blog.livedoor.jp/hamusoku/amazon_ranking_side.js
 ||blog.livedoor.jp/hamusoku6/amazon.js
-!下記のdomainをはずすと、amazon.co.jpで全部画像が消えてしまうので注意すること
-||images-fe.ssl-images-amazon.com/images/$third-party,domain=hamusoku.com
 
 
 
