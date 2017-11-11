@@ -1,0 +1,50 @@
+[Adblock Plus 2.0]
+! Title: FIXフィルタ（各種フィルタの対策）
+! Last modified: 12 Nov 2017 12:00 JST
+! Expires: 6 hours (update frequency)
+! Homepage: http://pokapoka.html.xdomain.jp/fix.html
+! 
+! 
+
+!START ------------------------------------------------------------
+! JPN: ABP Japanese filters (日本用フィルタ) の不具合対策
+!ヤフオクトップのクジが表示されないので例外にする
+@@^promo^
+!googleシートで同期エラーダイアログが出るので例外にする
+@@^logimpressions^
+!Yahooのポイントを見ようとリンククリックしたときにフィルタされてしまうので例外化
+@@/click/$document
+!Amebafreshの動画が見れない
+#@#[class$="Ad"]:not(body)
+!園芸板用あぷろだ。xrea.com全体がPete'sのフィルタでブロックされるので。
+@@||engei2ch.s252.xrea.com^
+!Google Sheetでなにか編集するたびにエラーダイアログが表示されてしまう対策
+@@_analytics.
+!Peter Loweのフィルタでブロックされているが日本人の利用者が多いので許可
+@@||xrea.com^
+!Peter Lowe’s Ad and tracking server list
+!!Yahoo映像トピックスのTVer動画が見れない問題の対策
+!Youtubeで動画が見れなくなるので一旦コメント化。2017.10.31
+!2mdn.netを例外にするとyoutubeで広告が流れる
+!したがって、gyao(yahoo)だけで例外にする。
+@@||2mdn.net^$domain=yahoo.co.jp
+!GoogleMapでLocalGuideをExitしたときに引っかかる
+@@_campaign=$document
+!キャンペーンサイトで表示されない対策
+@@_campaign=$popup
+@@_campaign=$document
+!malwarelistに入っている
+@@||navitime.co.jp^
+!twitchでカウントが増え続ける問題の解法
+@@||scorecardresearch.com^$domain=twitch.tv
+@@||mixpanel.com^$domain=twitch.tv
+!http://hktdouga.blog.jp/でPowered by livedoor 相互RSSの枠内が全部消えてしまう
+@@||blogroll.livedoor.net^
+!Gyaoが見れない
+@@/ima3.js$domain=gyao.yahoo.co.jp
+@@||brightcove.net^
+@@||brightcove.com^
+@@|https:*?*&ip=$third-party
+!END---------------------------------------------------------------------
+
+! END
