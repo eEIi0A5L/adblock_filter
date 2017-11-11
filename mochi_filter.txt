@@ -68,6 +68,8 @@ mail.google.com##.aKB
 !Yahoo共通-------------------------------------------
 !最上部の一行広告
 yahoo.co.jp###msthdShpPr
+yahoo.co.jp##.compo > p
+yahoo.co.jp##.compo > a
 
 !カードの勧誘
 yahoo.co.jp###msthdPrBox

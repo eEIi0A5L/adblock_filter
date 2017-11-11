@@ -45,6 +45,10 @@
 2chan.net##div[style="width:728px;height:90px;margin:2px auto;"]
 
 
+!とぅげったー
+togetter.com##.ad_list_top
+togetter.com##.ad_list_bottom
+||speee-ad.akamaized.net^
 
 
 

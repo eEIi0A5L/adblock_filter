@@ -108,6 +108,8 @@ goo.ne.jp##div[id^="gooad"]
 ||adcdn.goo.ne.jp/images/js/smarttag-news-news.js
 news.goo.ne.jp##div[style*="fixed"]
 blog.goo.ne.jp##.global_footer + style + div
+blog.goo.ne.jp##.userblog_title
+oshiete.goo.ne.jp##.theAppLink
 
 !LINE blog
 lineblog.me##footer
@@ -192,9 +194,14 @@ www.asahi.com###OutbrainRec
 ||as.yl.impact-ad.jp^
 ||www.yomiuri.co.jp/cont2/ad/
 
-!Nikkei
+!日経
 ||mw.nikkei.com/ad/
 mw.nikkei.com###sticky_region_forSNS
+||r.nikkei.com/.resources/static/advert/
+||atlas-endpoint.data.n8s.jp^
+||r.nikkei.com/.resources/tracking/
+||beacon.krxd.net/pixel.gif
+||js.rtoaster.jp^
 
 !Mainichi
 ||cf.ad-v.jp^
@@ -460,8 +467,7 @@ netgeek.biz##.showcase-location-header
 ||chartbeat.com^
 jp.reuters.com##div[data-template="footer"]
 
-!goo
-blog.goo.ne.jp##.userblog_title
+
 
 !映画.com
 ||www.googleadservices.com^
@@ -502,6 +508,10 @@ www.oricon.co.jp##.top-inline-banner
 ||passaro-de-fogo.genieesspv.jp^
 ||deliver.rossoad.com^
 
+!とぅげったー
+togetter.com###ad_list_top
+togetter.com###ad_list_bottom
+togetter.com###fixed_social_footer
 
 
 !その他
