@@ -60,6 +60,9 @@ http://www.bityet.us/s7b47si.jpg
 ||exioer5.missouriprobate.biz^
 ||imgur.com.rude.li^
 ||rude.li^
+||i.imgur.com.my.to^
+||imgur.com.my.to^
+||my.to^
 !END-----------------------------------------------------------
 
 !例外-------------------------------------------------
