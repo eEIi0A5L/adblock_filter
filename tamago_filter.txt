@@ -513,6 +513,15 @@ togetter.com###ad_list_top
 togetter.com###ad_list_bottom
 togetter.com###fixed_social_footer
 
+!デイリー
+www.daily.co.jp##.adv
+||jpmarket-d.openx.net^
+
+!したらば
+||spad.i-mobile.co.jp^
+||a.adimg.net^
+
+
 
 !その他
 www.tainavi-switch.com##.bn-01
@@ -529,6 +538,8 @@ kinisuru.com##.a2a_floating_style
 ||www.girlkah.shop^
 https://goo.gl/En6m3D 
 http://www.bityet.us/s7b47si.jpg
+||imgur.com.rude.li^
+||rude.li^
 !END---------------------------------------------
 
 ! FilterProxyからの成果 START ----------------------

@@ -993,6 +993,12 @@ www.navitime.co.jp##.ad-frame
 !pixiv
 www.pixiv.net##.ad-footer
 
+
+!したらば
+||spad.i-mobile.co.jp^
+||a.adimg.net^
+
+
 !その他
 ||ads.pipaffiliates.com^
 
