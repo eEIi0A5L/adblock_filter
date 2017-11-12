@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 11 Nov 2017 12:00 JST
+! Last modified: 13 Nov 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -724,8 +724,7 @@ www.nikkansports.com###sideAd2
 !トラッキング
 ||qsearch.media.net/log?
 
-!mediad2
-||mediad2.jp^
+
 
 !まんたんウェブ
 ||adresult.jp^
@@ -960,9 +959,6 @@ bing.com##.b_ad
 ||www.chikuwachan.com/live/img/ad/
 www.chikuwachan.com##.c
 
-!matome33.work
-||fam-ad.com^
-
 !xrea.com
 ||cache1.value-domain.com/vd_468x60.png
 xrea.com###vdbanner
@@ -998,10 +994,16 @@ www.pixiv.net##.ad-footer
 ||spad.i-mobile.co.jp^
 ||a.adimg.net^
 
+!imgur
+||s.imgur.com/min/advertising.js
+
 
 !その他
 ||ads.pipaffiliates.com^
-
+||fam-ad.com^
+||speee-ad.akamaized.net^
+||amoad.com^
+||static.adroute.focas.jp^
 
 
 

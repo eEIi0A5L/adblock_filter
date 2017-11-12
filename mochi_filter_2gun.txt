@@ -51,6 +51,12 @@ togetter.com##.ad_list_bottom
 ||speee-ad.akamaized.net^
 
 
+!matome33.work
+||fam-ad.com^
+
+!mediad2
+||mediad2.jp^
+
 
 
 !ねぎ---------------------------------------------------
