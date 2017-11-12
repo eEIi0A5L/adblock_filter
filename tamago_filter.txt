@@ -520,7 +520,12 @@ www.daily.co.jp##.adv
 !したらば
 ||spad.i-mobile.co.jp^
 ||a.adimg.net^
-
+jbbs.shitaraba.net##iframe[id^="ox_"]
+jbbs.shitaraba.net##.ad-320_50
+||blog.seesaa.jp/oem_contents/popular_article_ads/jbbs.js
+||aktrack.pubmatic.com/AdServer/
+||ads.pubmatic.com^
+||oxjapan-d.openx.net^
 
 
 !その他
