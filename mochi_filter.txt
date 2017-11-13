@@ -363,7 +363,7 @@ dic.nicovideo.jp##.box + img + div
 ||cdn.krxd.net^
 ||criteo.com^
 ||ads.stickyadstv.com^
-||b.scorecardresearch.com^
+||b.scorecardresearch.com/b?
 ||dailymotion.com/logger/
 ||logger-04.vty.dailymotion.com^
 ||beacon.krxd.net^
@@ -820,7 +820,7 @@ wikia.com###WikiaRailWrapper
 wikia.com###recirculation-footer-index-container
 _analytics_$domain=wikia.com
 -beacon.$domain=wikia.com
-||scorecardresearch.com^
+||b.scorecardresearch.com/beacon.js
 ||quantserve.com^
 ||fandommetrics.com^$third-party
 wikia.com###PREFOOTER_LEFT_BOXAD
