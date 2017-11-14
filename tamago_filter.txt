@@ -527,6 +527,12 @@ jbbs.shitaraba.net##.ad-320_50
 ||ads.pubmatic.com^
 ||oxjapan-d.openx.net^
 
+!GreasyFork
+||cdn.carbonads.com^
+greasyfork.org##.ad
+
+
+
 
 !その他
 www.tainavi-switch.com##.bn-01

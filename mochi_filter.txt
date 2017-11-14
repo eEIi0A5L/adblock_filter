@@ -279,6 +279,19 @@ finance.yahoo.co.jp##p.cafxBanner
 
 
 
+!Yahoo知恵袋--------------------------------
+
+
+!右上の広告
+detail.chiebukuro.yahoo.co.jp###sub-top
+
+
+!END----------------------------------------------
+
+
+
+
+
 
 
 
