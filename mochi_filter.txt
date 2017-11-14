@@ -547,6 +547,8 @@ rakuten.co.jp###footer-floating-bnr
 www.famitsu.com##iframe
 www.famitsu.com###adTop
 ||ssl.webtracker.jp/ad/
+www.famitsu.com##.ad-header-video
+||www.famitsu.com/js/1411/ad.js
 
 !impress
 watch.impress.co.jp##.ad
