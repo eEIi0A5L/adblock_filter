@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: 12 Nov 2017 12:00 JST
+! Last modified: 16 Nov 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/fix.html
 ! 
@@ -45,6 +45,9 @@
 @@||brightcove.net^
 @@||brightcove.com^
 @@|https:*?*&ip=$third-party
+!ニコ生の検索が表示されない
+live.nicovideo.jp#@#[id$="-ad"]:not(html):not(body)
+live.nicovideo.jp#@#[id$="-ad"]
 !END---------------------------------------------------------------------
 
 ! END
