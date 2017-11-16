@@ -48,6 +48,8 @@
 !ニコ生の検索が表示されない
 live.nicovideo.jp#@#[id$="-ad"]:not(html):not(body)
 live.nicovideo.jp#@#[id$="-ad"]
+!ニコ動ランキングが２１位以降が見れない
+@@||nimg.jp^*/uad$script,domain=~uad.nicovideo.jp
 !END---------------------------------------------------------------------
 
 ! END
