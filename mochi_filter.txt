@@ -374,6 +374,7 @@ www.nicovideo.jp##.CommentPanelContainer:style(bottom: 0px !important)
 ||nicolive.cdn.nimg.jp/relive/playerbanner/
 live2.nicovideo.jp###user-ad-block
 live2.nicovideo.jp##aside[class^="___banner-panel"]
+||spcdnpc.i-mobile.co.jp/ad_creative.ashx
 
 
 
