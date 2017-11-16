@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 15 Nov 2017 12:00 JST
+! Last modified: 16 Nov 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -370,6 +370,12 @@ www.nicovideo.jp##.SeekBarContainer-videoAdMarker
 www.nicovideo.jp##.CommentPanelContainer:style(bottom: 0px !important)
 !ABPの場合は下記で消す
 !https://userstyles.org/styles/149736/nicovideo-remove-adwaku
+!ユーザ生放送(live2.nicovideo.jp)
+||nicolive.cdn.nimg.jp/relive/playerbanner/
+live2.nicovideo.jp###user-ad-block
+live2.nicovideo.jp##aside[class^="___banner-panel"]
+
+
 
 !ニコニコ大百科
 dic.nicovideo.jp##.ad-bannar-maincolumn-top
