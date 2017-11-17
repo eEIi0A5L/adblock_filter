@@ -11,7 +11,9 @@
 ||clients5.google.com/pagead/drt/dn/
 ##div[id^="div-gpt-ad"]
 ##.adsbygoogle
-##ins.adsbygoogle
+!下記はいらないでしょう。上でクラスブロックしているんだから。。。
+!なんかボケてた。。。
+!##ins.adsbygoogle
 ||ad-api-v01.uliza.jp^
 ||jp-ads.mediaforge.com^
 
