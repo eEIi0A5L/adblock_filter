@@ -543,6 +543,14 @@ review.kakaku.com##.mTop10.mBtm10.alignC
 kakaku.com##.c-ad
 !価格ドットコムのDELLのバナー
 ||i.dell.com/images/jp/banners/banners_l/kakaku_180_60.gif
+!トラッキング
+||bigminging.com^
+||cdn.bigmining.com^
+||jp-u.openx.net^
+||kakakucom-d.openx.net^
+||fp.kakaku.com/tracker.py/
+
+
 
 !楽天（他サイトに出る広告のブロック）
 ||affiliate.rakuten.co.jp^$domain=~rakuten.co.jp
