@@ -483,6 +483,10 @@ bbspink.com##div[class^="banner_area_"]
 www.logsoku.com##.ad_area
 www.logsoku.com##.thread_header_view + .thread-box
 www.logsoku.com##dl[id="1"] > div
+www.logsoku.com##.ad_bottom_space
+www.logsoku.com###fixed_area
+www.logsoku.com##div[style="text-align:left;margin:10px;min-height:90px;"]
+www.logsoku.com##div[style="text-align:center;margin:5px;min-height:90px;"]
 
 
 !Ameba, ameblo
