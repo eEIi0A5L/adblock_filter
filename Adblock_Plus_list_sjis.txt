@@ -2,7 +2,7 @@
 ! Title: 豆腐フィルタ
 ! Homepage: http://tofukko.r.ribbon.to/abp.html
 !
-! 最終更新 20:56 2017/09/17
+! 最終更新 13:09 2017/11/16
 !
 !--------通販サイト--------!
 amazon.co$third-party,~xmlhttprequest,domain=~amazon.co.jp|~amazon.com|~amazon.co.uk|~amazon.de|~aucfan.com|~book.akahoshitakuya.com|~book.asahi.com|~booklog.jp|~bookmeter.com|~bookvinegar.jp|~mail.google.com|~javari.jp|~kakaku.com|~nicovideo.jp|~comic.pixiv.net|~novel.pixiv.net
@@ -287,6 +287,7 @@ _ads.php
 ||glam.jp^$third-party
 ||gmodmp.jp^$third-party
 ||googleadservices.com^$third-party
+||iid-network.jp^$third-party
 ||impact-ad.jp^$third-party
 ||infocart.jp^$third-party
 ||infolinks.com^$third-party
@@ -399,6 +400,7 @@ _ads.php
 ||visiblemeasures.com^$third-party
 ||webantenna.info^$third-party
 ||weborama.fr^$third-party
+||webpush.jp^$third-party
 ||whaleads.com^$third-party
 ||wyunion.com^$third-party
 ||xfuckbook.com^$third-party
@@ -494,6 +496,7 @@ _ads.php
 ||trafficforce.com^$third-party
 ||trafficstars.com^$third-party
 ||trw12.com^$third-party
+||tsyndicate.com^$third-party
 ||veohclick.net^$third-party
 ||video-people.com^$third-party
 ||videoegg.com^$third-party
@@ -528,6 +531,7 @@ _ads.php
 ||open2ch.net/image/banner/
 ||pagead2.googlesyndication.com^
 ||partner*.become.co.jp^
+||rdp.pro.ne.jp^$third-party
 !http://latexcapacity.com/
 ||latexbizarramb.info^
 
@@ -542,6 +546,7 @@ _ads.php
 !pornhub
 ||phncdn.com/www-static/js/ph-tracking.js?
 ||phncdn.com/www-static/js/htmlPauseRoll/
+pornhub.com##none
 !redtube
 ||redtube.com/_status/
 !xtube.com
@@ -644,6 +649,7 @@ $script,third-party,domain=jpidols.tv
 ||alc.co.jp/content/js/mc.js?
 ||anitube.se/player/anitubeJWOverlay/
 ||antivirus-news.net/image/*_bnn*.png
+||artstation.com/p/c_assets/
 ||asg.to/ad/
 ||ashemaletube.com/ast/b/
 ||ashemaletube.com/ast/www/*.min.js?url=
@@ -657,6 +663,8 @@ $script,third-party,domain=jpidols.tv
 ||chem-station.com^*/adrotate-pro/
 ||chixi.jp/img.php?filename=b
 ||cinematoday.jp^*affiliate
+	!2017/10/16 不具合あるかも
+||cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js$domain=dlbooks.to
 ||cookpad.com/iframe/
 ||cosp.jp/images/spacer.gif
 ||diced.jp/webs/
@@ -669,6 +677,7 @@ $script,third-party,domain=jpidols.tv
 ||fod.fujitv.co.jp/pc/image/wbhjfr/
 ||fod.fujitv.co.jp/mz/*
 ||free-video-movie.com^$domain=2dbook.com
+||gamespark.jp/feature/advertising/
 ||getchu.com/mbanner/$~image
 ||gigazine.net/pw/p.js
 ||gnst.jp/c/atb/segment.js$domain=gnavi.co.jp
@@ -705,6 +714,7 @@ $script,third-party,domain=jpidols.tv
 ||komachi.yomiuri.co.jp/scripts/g_connect.js
 ||kooss.com/*.htm$subdocument
 ||labaq.com/user/json/lq_amarray.js?
+||linkage.kakaku.com^$domain=~kakaku.com
 ||majo.co.jp/jwd.js$domain=ribbon.to
 ||majo.co.jp/alpc.js$domain=ribbon.to
 ||mangaz.com/virgo/adv/
@@ -872,7 +882,7 @@ $script,third-party,domain=jpidols.tv
 /s_code.$domain=~books.rakuten.co.jp|~dmm.co.jp|~hikaritv.net|~hotel.travel.rakuten.co.jp|~loppi.jp|~mora.jp|~mydocomo.com|~saisoncard.co.jp
 !yahooショッピング カートに入れるボタンが押せない
 ! playstation.com next押しても反応無し
-/s_code_*.js$domain=~dmm.co.jp|~adobe.com|~shopping.yahoo.co.jp|~saisoncard.co.jp|~locate.apple.com|~playstation.com
+/s_code_*.js$domain=~dmm.co.jp|~dmm.com|~adobe.com|~shopping.yahoo.co.jp|~saisoncard.co.jp|~locate.apple.com|~playstation.com
 /sextans.cgi?log
 /sfa.php
 /sfga.js
@@ -919,8 +929,7 @@ $script,third-party,domain=jpidols.tv
 ||afv.jp^$third-party
 ||al.l--l.jp^$third-party
 ||amung.us^$third-party
-||analytics.qlook.net^$third-party
-||analytics.edgesuite.net$third-party,domain=ustream.tv
+||analytics.$third-party,domain=ustream.tv
 ||ashia.to^$third-party
 ||auriq.com^$third-party
 ||awasete.com^$third-party
@@ -976,6 +985,7 @@ $script,third-party,domain=jpidols.tv
 ||inpros.net^$third-party
 ||japanmetrix.jp^$third-party
 ||jscount.com^$third-party
+||juicer.cc^$third-party
 ||just-now.net^$third-party
 ||kaffik.com^$third-party
 ||kantan-access.com^$third-party
@@ -1054,6 +1064,7 @@ $script,third-party,domain=jpidols.tv
 
 !---gaico
 ||bidswitch.net^$third-party
+||f-tra.com^$third-party
 ||hanaprop.com^$third-party
 ||mathtag.com^$third-party
 ||newrelic.com^$third-party
@@ -1313,9 +1324,7 @@ coliss.com###sponsorsTop
 d.hatena.ne.jp###amazon
 d.hatena.ne.jp##.hotamazon-left
 dl8x.com##[class^="dx-banner-"]
-dropbooks.tv##.t_news
-!smh版
-dropbooks.tv###book_adbox_cookie
+dlbooks.to##[id^="div_fam_async_"] + div[style="margin-top: 0px;"]
 dtiblog.com###meerkat-wrap
 e-typing.ne.jp##[class^="ad"][class*="00"]
 e0166.blog89.fc2.com###side > .module:nth-of-type(3)
@@ -1664,7 +1673,8 @@ jump.2ch.net##div
 ||enquete.nicovideo.jp/static/
 ||nicovideo.jp/api/getad
 ||nicovideo.jp/js/lib/ads-
-||live.nicovideo.jp/img/nicolive/bnr_
+!ニコ生
+||nimg.jp/relive/playerbanner/
 !13.02.07 動画見れない 2015/05/14 解除
 !@@||ads.nicovideo.jp/assets/js/ads-
 !2015/08/29 ニコニコニュースコメント読み込めない
@@ -1745,7 +1755,7 @@ dic.pixiv.net###amazon-aws-outer
 pixiv.net##.hover-item
 pixiv.net##._ui-tooltip[href^="https://booth.pm/ja/search/"]
 !検索プレミア
-pixiv.net##a[href*="/premium.php?ref=popular_d_body"]
+pixiv.net##.popular-introduction-overlay
 !jama--
 pixiv.net###pauser
 comic.pixiv.net##._dialog_overlay
@@ -1925,6 +1935,11 @@ minnano-av.com##.type-fuzoku
 ||bipblog.com/js/amatop.js
 ||bipblog.com/aa/ABtest/
 
+!fig速
+||figsoku.net/rank/load.php?
+figsoku.net##.ama > .ssm:last-child
+figsoku.net##.gad
+
 !α波
 ||alfalfalfa.com/*.js|
 @@||blogmaterial.nicoblomaga.jp/material/279/js/comment.js?$domain=alfalfalfa.com
@@ -1990,7 +2005,7 @@ $domain=warotanikki.com,third-party
 
 !--------ホワイトリスト--------!
 	!動画シーク
-	!@@||2mdn.net/instream/html5/ima3.js$domain=tver.jp
+@@||2mdn.net/instream/html5/ima3.js$domain=tver.jp
 	!動画未練
 @@||ad.afreecatv.com/crossdomain.xml$domain=play.afreeca.com
 	!動画見れない
@@ -2019,6 +2034,8 @@ $domain=warotanikki.com,third-party
 	! 動画見れない
 @@||nhkonline.hb.omtrdc.net/settings/*-adobeorg.xml?$domain=www3.nhk.or.jp
 @@||nytimes.com^$elemhide
+	! 右側の勝率などの欄が非表示
+@@||opgg-static.akamaized.net/js3/tracker.js?*$domain=op.gg
 	!変なの出る
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sekai-kabuka.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=sekai-kabuka.com
@@ -2036,6 +2053,7 @@ $domain=warotanikki.com,third-party
 @@||vidoza.net/js/ads.js$domain=vidoza.net
 @@||vidoza.net/js/pop.js$domain=vidoza.net
 @@||yimg.jp^*/lib2obf_*.js
+@@||yimg.jp/bdv/yahoo/darla/*/darla-secure-beacons-min.js$domain=mail.yahoo.co.jp
 @@||yimg.jp/bdv/yahoo/darla/*/darla-dynamic-beacons-min.js$domain=mail.yahoo.co.jp
 @@||yimg.jp/bdv/yahoo/darla/*/darla-dynamic-rotation-min.js$domain=box.yahoo.co.jp
 @@||yimg.jp/bdv/yahoo/javascript/gyao/clover.js?
@@ -2059,6 +2077,8 @@ appget.com#@#[class$="_ad"]:not(html):not(body):not(.p_no_ad)
 appmk2.net#@#.advertisement
 	!動画見れない
 ashemaletube.com#@#[class$="-ads"]:not(html):not(body)
+	!プロフィール辺り
+cam4.com#@#[class$="-ads"]:not(html):not(body)
 	!top全部
 cinematoday.jp#@#[class$="-ad"]:not(html):not(body)
 	!サイド 広告だから消しても良い気もする
@@ -2067,6 +2087,8 @@ cookpad.com#@#[id^="ad_"]:not(html):not(body):not(#ad_table)
 cookpad.com#@#[id*="_ad_"]:not(html):not(body)
 	!top崩れる
 eiga.com#@#[id$="_ad"]:not(html):not(body)
+	!動画消える NGCだけ？ https://freshlive.tv/ngc/156675
+freshlive.tv#@#[class$="Ad"]:not(html):not(body)
 	!動画見れない
 gogoanime.to#@#[class$="-ads"]:not(html):not(body)
 	!編集画面にて終日のチェックボックスが消える
@@ -2123,8 +2145,13 @@ my.gamecity.ne.jp#@#[id$="_ad"]:not(html):not(body)
 	!news24.jp#@#[class*="-ad-"]:not(html):not(body):not([class*="vjs-"])
 	!GINZA コメント欄が消える
 www.nicovideo.jp#@#[class$="_ads"]:not(html):not(body)
+	!検索 ランキングの「宣伝」部分が消える
+www.nicovideo.jp#@#.ads
 	!ニコニコ広告部分
 live.nicovideo.jp,live2.nicovideo.jp#@#[class*="-ad-"]:not(html):not(body):not([class*="vjs-"])
+live2.nicovideo.jp#@#[id*="-ad-"]:not(html):not(body)
+	!検索結果
+live.nicovideo.jp#@#[id$="-ad"]:not(html):not(body)
 	!タグ登録できない
 nijie.info#@#[id$="-ad"]:not(html):not(body)
 	! 動画見れない
@@ -2184,6 +2211,7 @@ youtube.com#@#[class*="-ad-"]:not(html):not(body):not([class*="vjs-"])
 ||caprofitx.com^$third-party
 ||focas.jp^$third-party
 ||formulas.jp^$third-party
+||genieedmp.com^$third-party
 ||i-mobile.co.jp^$third-party
 ||lead-ad.jp^$third-party
 ||media-rep.com^$third-party
@@ -2193,7 +2221,7 @@ youtube.com#@#[class*="-ad-"]:not(html):not(body):not([class*="vjs-"])
 ||trax-ad.jp^$third-party
 ||unitedblades.co.jp^$third-party
 ||yicha.jp^$third-party
-||zucks.net^$third-party
+||zucks.net$third-party
 
 ||amazonaws.com/ad-arata/$domain=fc2.com
 ||ad1-click.com^$domain=fc2.com
@@ -2204,6 +2232,7 @@ youtube.com#@#[class*="-ad-"]:not(html):not(body):not([class*="vjs-"])
 ero-video.net##script:contains(showPopUpBanner)
 
 *$csp=script-src 'self' * data: 'unsafe-inline' 'unsafe-eval',domain=pornhub.com
+clipconverter.cc##script:contains(window)
 youporn.com##script:contains(ChromePopMouseDownHandler)
 redtube.com##script:contains(var rAb=)
 redtube.com##script:contains(tj_ads)
