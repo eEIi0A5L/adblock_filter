@@ -535,6 +535,18 @@ greasyfork.org##.ad
 !LINEQ
 lineq.jp###floatingAppLauncher
 
+!UrbanDictionary
+www.urbandictionary.com##.ad-panel
+www.urbandictionary.com##.dfp
+||d2gatte9o95jao.cloudfront.net/assets/mug-ad-
+www.urbandictionary.com##.new-mug-ad
+
+!ログ速
+||js.passaro-de-fogo.biz^
+||ads.logsoku.com^
+
+
+
 
 
 !その他
