@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 18 Nov 2017 12:00 JST
+! Last modified: 20 Nov 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -297,9 +297,28 @@ detail.chiebukuro.yahoo.co.jp###sub-top
 
 !広告
 ||s.yimg.jp/bdv/wqp_ijq1pd_vopdneies/
+||s.yimg.jp/bdv/$image,domain=login.yahoo.co.jp
+login.yahoo.co.jp##img[src^="https://s.yimg.jp/bdv/"]
+
 
 
 !END----------------------------------------------
+
+
+
+!Yahooメール--------------------------------
+
+
+
+!右側の広告
+||s.yimg.jp/bdv/$image,domain=mail.yahoo.co.jp
+mail.yahoo.co.jp##iframe
+
+
+
+!END----------------------------------------------
+
+
 
 
 

@@ -94,6 +94,9 @@ togetter.com##.ad_list_bottom
 !||nicovideo.cdn.nimg.jp/web/img/common/tilebtn/playlist.png
 !||nicovideo.cdn.nimg.jp/web/img/common/tilebtn/uad.png
 
+!ユーザ広告枠：動画画面上部の「ニコニ広告で宣伝」の横帯
+!live2.nicovideo.jp###user-ad-block
+
 !５ちゃんねるのモナー
 ||agree.5ch.net/mona.png
 
