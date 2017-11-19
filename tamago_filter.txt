@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 17 Nov 2017 12:00 JST
+! Last modified: 19 Nov 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -97,6 +97,8 @@ headlines.yahoo.co.jp###peronArea
 headlines.yahoo.co.jp##.bnrMod
 !Yahooのビーコン
 ||yahoo.co.jp/b?
+||s.yimg.jp/images/mobile/yjapp/promo/
+m.yahoo.co.jp##.List__item--relaxBorder
 
 
 !goo
@@ -544,6 +546,15 @@ www.urbandictionary.com##.new-mug-ad
 !ログ速
 ||js.passaro-de-fogo.biz^
 ||ads.logsoku.com^
+
+!weddingpark.net
+||v6.advg.jp^
+||cdn.vt.open8.com/ad-server
+||wpcontents.weddingpark.net/image/ad
+||ads.weddingpark.net^
+||advg.jp^
+||js.mtburn.com^
+||video-log.vt.open8.com/img/advideo.gif
 
 
 
