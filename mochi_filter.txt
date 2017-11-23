@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 22 Nov 2017 12:00 JST
+! Last modified: 24 Nov 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -1095,6 +1095,15 @@ www.pixiv.net##.ad-footer
 
 !imgur
 ||s.imgur.com/min/advertising.js
+
+
+!BIGLOBE
+||top.bcdn.jp/i/hd_banner/
+www.biglobe.ne.jp###h_bar
+www.biglobe.ne.jp##.bl-top-square
+news.biglobe.ne.jp##.news-ad-square-a
+news.biglobe.ne.jp##.news-ad-square-box
+
 
 
 !その他
