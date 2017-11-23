@@ -52,7 +52,7 @@ live.nicovideo.jp#@#[id$="-ad"]
 @@||nimg.jp^*/uad$script,domain=~uad.nicovideo.jp
 !http://nazolog.com/ でAdblockを無効にしてくださいと出る
 @@||nazolog.com^$generichide
-!豆腐でGyaoが見れない
+!豆腐でGyaoで広告が入る
 ||adserver-apne.tidaltv.com^
 !豆腐でナシュジオが見れない
 #@#[class^="ad-"]:not(html):not(body)
