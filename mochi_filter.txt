@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 20 Nov 2017 12:00 JST
+! Last modified: 22 Nov 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -310,6 +310,11 @@ login.yahoo.co.jp##img[src^="https://s.yimg.jp/bdv/"]
 
 
 
+!!画面上部の帯
+!mail.yahoo.co.jp###slot_UHD8
+!mail.yahoo.co.jp###jp_ads_SPN
+
+
 !右側の広告
 ||s.yimg.jp/bdv/$image,domain=mail.yahoo.co.jp
 mail.yahoo.co.jp##iframe
@@ -353,6 +358,7 @@ gyao.yahoo.co.jp###bnr
 ||metrics.brightcove.com^
 ||s.yimg.jp/images/streaming/gyao-store/special/2017_1111campaign/promotion/peron.jpg
 streaming.yahoo.co.jp##.con_btm
+||s.yimg.jp/images/gyao/common/images/bnr_store_promotion_
 
 !Twitter
 twitter.com##.promoted-tweet
@@ -499,6 +505,7 @@ bbspink.com###top_banner
 bbspink.com##.ranking_banner
 bbspink.com##.loading
 bbspink.com##div[class^="banner_area_"]
+bbspink.com##.ticker
 
 
 !ログ速
@@ -879,6 +886,7 @@ tofukko.blog113.fc2.com###title
 
 !Oricon
 ||contents.oricon.co.jp/pc/img/_parts/manual/os-ad
+www.oricon.co.jp##.block-header-banner
 
 !itmedia
 www.itmedia.co.jp###globalHeaderMiddle
