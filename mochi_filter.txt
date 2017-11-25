@@ -84,6 +84,12 @@ yahoo.co.jp###msthdPrBox
 www.yahoo.co.jp###windowShade
 
 
+
+!左上のピックアップ
+www.yahoo.co.jp###pickupservice
+
+
+
 !ワンクリックでYahooJapanを開くには
 www.yahoo.co.jp###PopHead
 
