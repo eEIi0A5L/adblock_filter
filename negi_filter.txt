@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2017/11/10 12:00 JST
+! Last modified: 2017/11/25 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/negi.html
 
@@ -149,6 +149,8 @@ gyao.yahoo.co.jp###nav
 !microsoft
 !Edge Promotion Block。マイクロソフトのサイト上部に出てくる「Try Edge」の文言
 microsoft.com###epb
+!https://support.microsoft.com/en-us/helpにでてくる最下部のwas this information helpful? Yes/No
+support.microsoft.com##.survey-background
 
 !twitter
 !ツイートポップアップ時にこれがあると右クリックで画像表示できないので消す
