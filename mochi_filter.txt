@@ -353,6 +353,7 @@ microsoft.com###standardRating
 !outlook betaの右側の広告
 !outlook.live.com##:xpath(//div[@aria-label="advertisement"]/parent::div)
 outlook.live.com##:xpath(//div[@aria-label="advertisement"]/parent::div/parent::div)
+outlook.live.com##:xpath(//i[@data-icon-name="OutlookLogo"]/parent::div/parent::div/parent::div)
 
 !Gyao
 !Gyao動画上の広告ブロック------------------------------
@@ -800,7 +801,8 @@ www.yomiuri.co.jp##.subhead
 
 
 !日テレNews24
-||www.ntv.co.jp/ad-navi/
+!http://www.ntv.co.jp/fcwc/index.htmlが見れない
+!||www.ntv.co.jp/ad-navi/
 ||www.news24.jp/css/adjust.css
 www.news24.jp###adText01
 
