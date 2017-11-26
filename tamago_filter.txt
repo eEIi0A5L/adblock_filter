@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 20 Nov 2017 12:00 JST
+! Last modified: 27 Nov 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -205,6 +205,8 @@ mw.nikkei.com###sticky_region_forSNS
 ||r.nikkei.com/.resources/tracking/
 ||beacon.krxd.net/pixel.gif
 ||js.rtoaster.jp^
+r.nikkei.com##.nui-ad
+r.nikkei.com##.nui-share
 
 !Mainichi
 ||cf.ad-v.jp^
@@ -571,6 +573,17 @@ mdpr.jp##.ath-container
 ||eu-u.openx.net^
 ||teads.tv^
 ||as.vt.open8.com^
+
+!Slashdot
+||adserver.adtechus.com^
+||secure.adnxs.com^
+||bid.contextweb.com^
+||ads.pro-market.net^
+||adserver-us.adtech.advertising.com^
+m.slashdot.org##.ad-on
+
+
+
 
 
 
