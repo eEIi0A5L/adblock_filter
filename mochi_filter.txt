@@ -95,7 +95,8 @@ www.yahoo.co.jp###pickupservice
 !再度Yahooトップを開いてももう表示されない
 !あれは夢か幻だったのか……
 ||s.yimg.jp/bdv/*.mp4$domain=www.yahoo.co.jp
-
+!また出た！夢じゃなかった！
+www.yahoo.co.jp###rma-pdv
 
 
 
