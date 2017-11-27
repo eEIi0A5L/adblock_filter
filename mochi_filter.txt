@@ -1140,6 +1140,7 @@ news.biglobe.ne.jp##.news-ad-square-box
 ||speee-ad.akamaized.net^
 ||amoad.com^
 ||static.adroute.focas.jp^
+||nend.net^
 
 
 
