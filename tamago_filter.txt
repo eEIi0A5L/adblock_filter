@@ -582,6 +582,10 @@ mdpr.jp##.ath-container
 ||adserver-us.adtech.advertising.com^
 m.slashdot.org##.ad-on
 
+!animatetimes
+||www.animatetimes.com/ad/
+||cdn.fivecdm.com/adsbyfive.js
+||api.flipdesk.jp^
 
 
 
