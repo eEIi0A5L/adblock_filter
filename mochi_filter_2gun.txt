@@ -51,6 +51,8 @@
 !はいほー速報・改
 ||nend.net^
 
+!IT速報
+||blog.livedoor.jp/itsoku/settings/ad.js
 
 
 

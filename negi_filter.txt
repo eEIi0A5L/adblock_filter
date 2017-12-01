@@ -93,6 +93,7 @@ www.yahoo.co.jp###yjidbox
 www.yahoo.co.jp###eventPromo
 www.yahoo.co.jp###event
 www.yahoo.co.jp###ultra
+!初回右上「Yahoo!Japanをホームページにしよう」
 www.yahoo.co.jp###PopHead
 !Yahooトップに戻るリンクが最上部に出るようになったので表示させる
 !news.yahoo.co.jp###msthdtp
@@ -117,6 +118,10 @@ videotopics.yahoo.co.jp###s_combnr1
 !右下のカートに入れるがうざすぎる
 store.shopping.yahoo.co.jp###floatbtn
 store.shopping.yahoo.co.jp##.fixog
+!右欄のYahoo!ニュースからのお知らせ
+!headlines.yahoo.co.jp##.subAnnounce
+!右欄のYahoo!ニュース タイアップ
+!headlines.yahoo.co.jp##.rma_responsive_small
 
 
 !Yahoo天気
