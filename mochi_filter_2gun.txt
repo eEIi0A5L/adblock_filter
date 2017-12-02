@@ -13,7 +13,7 @@
 
 !共通----------
 !このパターンがやたら多い。2017.12.2
-||.jp/settings/ad.js
+/settings/ad.js$domain=jp
 !END------------
 
 
