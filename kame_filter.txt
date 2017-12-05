@@ -21,7 +21,7 @@
 !||xyz^
 ||xxx^
 ||clubs^
-||club^
+!||club^
 ||click^
 ||link^
 ||com-w.win^
