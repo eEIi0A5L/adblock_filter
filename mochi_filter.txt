@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 27 Nov 2017 12:00 JST
+! Last modified: 05 Dec 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -449,33 +449,26 @@ dic.nicovideo.jp##.box + img + div
 !埋め込みインスタが消えてしまう
 !abematimes.com##iframe
 
-!dailymotion
-||pebed.dm.gg^
-||deployads.com^
-||ad.afy11.net^
-||taboola.com^
-||a.teads.tv^
-||basebanner.com^
-||revsci.net^
-||cdn.krxd.net^
-||criteo.com^
+!dailymotion（2017.11月リニューアル後用）-----------
 ||ads.stickyadstv.com^
-||b.scorecardresearch.com/b?
-||dailymotion.com/logger/
-||logger-04.vty.dailymotion.com^
-||beacon.krxd.net^
-||dmcdn.net/pxl/$domain=dailymotion.com
-||cdn.petametrics.com^
-||dailymotion-ams.gravityrd-services.com^
-||js.revsci.net^
-||dailymotion.com/masscast/
+||pebed.dm.gg^
+||cdn.taboola.com^
+||dsp.adfarm1.adition.com^
+||sync.mathtag.com^
+||sync.adotmob.com^
+||dyntrk.com^
+||www.google.co.jp/ads/
 ||sync.adaptv.advertising.com^
-||cloudfront.net/dm.js$domain=dailymotion.com
-||static1.dmcdn.net/js/gen/lib/dm/ga.js
-!dailymotionのレイアウトデザインが変更になったので下記はもう不要になった。2017.10.28
-!dailymotion.com###top_banner
-!!右上のなにか
-!dailymotion.com##.hidden-sm.hidden-md
+||de17a.com^
+||sync-tm.everesttech.net^
+||dmx.sync.yume.com^
+||l2.visiblemeasures.com^
+||a.tribalfusion.com^
+||sync.ipredictive.com^
+||scorecardresearch.com^
+||logger-04.vty.dailymotion.com^
+||doubleclick.net^
+||beacon.krxd.net^
 
 !５ちゃんねる、２ちゃんねる
 /bannar/$domain=5ch.net,2ch.net,bbspink.com
