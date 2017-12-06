@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 05 Dec 2017 12:00 JST
+! Last modified: 06 Dec 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -575,6 +575,7 @@ blog.fc2.com##.pankuzu + h2 + .mainbox
 ||ad.ad-arata.com^
 ||img.shinobi.jp/analyze/dumbo/ads2/ad_1_left_0.gif
 fc2.com###fc2_bottom_bnr
+blog.fc2.com###sh_fc2blogheadbar_link_box
 
 !はてな
 www.hatena.ne.jp###pc-billboard-ad
@@ -655,6 +656,7 @@ www.famitsu.com###adTop
 ||ssl.webtracker.jp/ad/
 www.famitsu.com##.ad-header-video
 ||www.famitsu.com/js/1411/ad.js
+www.famitsu.com##.adArticleBottomWrap
 
 !impress
 watch.impress.co.jp##.ad
