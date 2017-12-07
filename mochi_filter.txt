@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 06 Dec 2017 12:00 JST
+! Last modified: 07 Dec 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -633,10 +633,11 @@ kakaku.com##.c-ad
 ||static.affiliate.rakuten.co.jp/widget/html/javascripts/front_merged.js?
 ||xml.affiliate.rakuten.co.jp/widget/conf/getMWConf.php?time=
 ||static.affiliate.rakuten.co.jp/widget/html/pc_pcview_all.html?rakuten_design=slide&
-||thumbnail.image.rakuten.co.jp/@0_mall/$domain=~rakuten.co.jp|~rakuten.ne.jp
-||thumbnail.image.rakuten.co.jp/@0_gold/$domain=~rakuten.co.jp|~rakuten.ne.jp
+!価格ドットコムの検索でサムネが表示されないので除外した
+||thumbnail.image.rakuten.co.jp/@0_mall/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
+||thumbnail.image.rakuten.co.jp/@0_gold/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
 !楽天の広告がhttp://hktdouga.blog.jp/で出る
-||afl.rakuten.co.jp^
+||afl.rakuten.co.jp^$domain~=kakaku.com
 
 !楽天サイト自体の広告ブロック
 rakuten.co.jp###footer-floating-bnr
