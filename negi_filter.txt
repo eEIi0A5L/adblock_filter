@@ -98,6 +98,15 @@ www.yahoo.co.jp###PopHead
 !Yahooトップに戻るリンクが最上部に出るようになったので表示させる
 !news.yahoo.co.jp###msthdtp
 !Yahooニュースで文字列を選択した時に出る「Yahoo検索」ポップアップを邪魔なので消す
+!あなたにおすすめ、おすすめコンテンツ（提供リンク）
+news.yahoo.co.jp,headlines.yahoo.co.jp##.ycdMod
+!こんな記事も読まれています
+headlines.yahoo.co.jp###taboola-below-article-thumbnails-p4
+!おすすめの有料記事（10円から）
+headlines.yahoo.co.jp##.noPrice
+!おすすめコンテンツ（提供リンク）
+headlines.yahoo.co.jp###taboola-below-article-thumbnails-p4-sc
+
 yahoo.co.jp###yjSearchPop
 !weather.yahoo.co.jp###msthdFifth
 shopping.yahoo.co.jp##.uiStickyCrm
