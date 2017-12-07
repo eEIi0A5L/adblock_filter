@@ -207,11 +207,28 @@ www.yahoo.co.jp###yjidbox
 headlines.yahoo.co.jp###lrec
 news.yahoo.co.jp###lrec
 
+!あなたにおすすめ、おすすめコンテンツ（提供リンク）
+news.yahoo.co.jp,headlines.yahoo.co.jp##.ycdMod
+!こんな記事も読まれています
+headlines.yahoo.co.jp###taboola-below-article-thumbnails-p4
+!おすすめの有料記事（10円から）
+headlines.yahoo.co.jp##.noPrice
+!おすすめコンテンツ（提供リンク）
+headlines.yahoo.co.jp###taboola-below-article-thumbnails-p4-sc
+!ニュースをより深く　有料配信
+headlines.yahoo.co.jp###ycd-module
+
+
+
+
+
 !その他ネットワーク通信ログからad関連の通信をブロック
 ||ib.adnxs.com^
 
 !ビーコン
 ||sb.scorecardresearch.com/b?
+
+
 
 
 
