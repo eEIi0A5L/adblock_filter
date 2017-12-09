@@ -49,13 +49,16 @@
 !フィッシング詐欺
 ||linewg.cn^
 
+!Text Link Plusがマルウェア化しました
+||piet2eix3l.com^
+
 !５ちゃんねるの荒らしが誘導しているサイト---------------------
 ||livebby.b2.valueserver.jp^
 ||edax.getamonkey.com^
 ||derx.stanciu.biz^
 ||qsnews.ndra.biz^
-https://goo.gl/En6m3D 
-http://www.bityet.us/s7b47si.jpg
+|https://goo.gl/En6m3D 
+|http://www.bityet.us/s7b47si.jpg
 .fc2.com/p/F0Nll5V-?.gif
 ||exioer5.missouriprobate.biz^
 ||imgur.com.rude.li^
