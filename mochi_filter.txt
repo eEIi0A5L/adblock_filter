@@ -224,6 +224,10 @@ headlines.yahoo.co.jp###ycd-module
 
 
 
+!https://news.yahoo.co.jp/pickup/6264266とかでたまにtaboolaが接続重くなって映像が見れないのではじいておく。Peter Lowe’s Ad and tracking server list​​​​​​​​​でブロック済。
+||taboola.com^
+
+
 
 
 !その他ネットワーク通信ログからad関連の通信をブロック
