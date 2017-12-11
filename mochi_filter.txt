@@ -150,6 +150,10 @@ yahoo.co.jp##div[id^="yads"]
 !PR
 www.yahoo.co.jp###tct
 
+!話題なう←これはあっていい
+!www.yahoo.co.jp###realtime
+
+
 
 !注目の商品ランキング、あなたはどれを買う？
 www.yahoo.co.jp###commercebox
@@ -849,7 +853,8 @@ news.tbs.co.jp##.md-banner300x250
 ||adgm.mainichi.jp^
 mainichi.jp##.ad
 mainichi.jp##.fixbtm-banner
-mainichi.jp##.header-box
+!毎日新聞の記事のタイトルが消える
+!mainichi.jp##.header-box
 ||cf.ad-v.jp^
 ||a.teads.tv^
 mainichi.jp##.ads
@@ -866,6 +871,15 @@ www.sponichi.co.jp##div[id^="crt"]
 !日刊スポーツ
 www.nikkansports.com###sideAd1
 www.nikkansports.com###sideAd2
+||beacon.nikkansports.com^
+
+!東スポ
+!gif広告がちかちかしてうざい
+||www.tokyo-sports.co.jp/wp-content/themes/tospo/images/common/banner_reqruit_140526.gif
+||www.tokyo-sports.co.jp/wp-content/uploads/2012/02/003.gif
+www.tokyo-sports.co.jp##.adsbygoogle
+||www.tokyo-sports.co.jp/wp-content/themes/tospo/images/common/miyasaka.gif
+
 
 !ロイター
 ||www.reuters.com/reuters_ads_framework.js
@@ -1164,6 +1178,9 @@ news.biglobe.ne.jp##.news-ad-square-box
 ||g2.gumgum.com^
 mdpr.jp##span[id^="ad_is_"]
 ||moatads.com^
+
+!TVerでテレ東だけが見れない
+@@||pubads.g.doubleclick.net^$domain=tver.jp
 
 
 

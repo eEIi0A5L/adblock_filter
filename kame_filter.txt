@@ -6,6 +6,12 @@
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/kame.html
 
+!---------------------------------------------------------------
+!ウイルスブロックしたい人は
+!Peter Lowe’s Ad and tracking server listも購読してください
+!Text Link Plusのマルウェア化にまっさきに対応してくれました
+!---------------------------------------------------------------
+
 
 ! ウイルスサイトの可能性があるサイト START--------------------------
 !cn,kr,skをまるごとブロックするのはさすがにやりすぎた
