@@ -2,7 +2,7 @@
 ! Title: 亀フィルタ（ウイルスサイトブロック）
 ! Description: ウイルスサイトをブロックする
 !
-! Last modified: 2017/12/09 12:00 JST
+! Last modified: 2017/12/12 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/kame.html
 
@@ -29,7 +29,7 @@
 ||clubs^
 !||club^
 ||click^
-||link^
+!||link^
 ||com-w.win^
 !||site^
 ||work^

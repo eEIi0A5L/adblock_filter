@@ -594,6 +594,16 @@ m.slashdot.org##.ad-on
 ||api.flipdesk.jp^
 
 
+!Bloomberg
+www.bloomberg.co.jp##.page-ad
+||assets.bwbx.io/s3/javelin/public/javelin/css/body/basic/outstream_ad-
+||adservice.google.co.jp^
+||nav.bloomberg.com/public/images/ad_choices-
+||r.dlx.addthis.com/e/getdata.xgi?
+||assets.bwbx.io/s3/javelin/public/javelin/css/body/basic/mobile_ads-
+||assets.bwbx.io/s3/javelin/public/javelin/js/ads/
+||assets.bwbx.io/s3/javelin/public/javelin/css/body/basic/in_article_ad-
+||assets.bwbx.io/s3/javelin/public/javelin/css/ads/
 
 
 
