@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 07 Dec 2017 12:00 JST
+! Last modified: 14 Dec 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -604,7 +604,23 @@ www.bloomberg.co.jp##.page-ad
 ||assets.bwbx.io/s3/javelin/public/javelin/js/ads/
 ||assets.bwbx.io/s3/javelin/public/javelin/css/body/basic/in_article_ad-
 ||assets.bwbx.io/s3/javelin/public/javelin/css/ads/
+||aa.agkn.com/adscores/
+||adservice.google.co.jp^
+||addthis.com^
 
+!www.denwakanyuken-navi.com
+||spcnv.i-mobile.co.jp/script/adv.js
+denwakanyuken-navi.com###foot-container
+denwakanyuken-navi.com###bottom-tap
+
+!grapee.jp
+||lodeo-adnw.adtdp.com^
+grapee.jp##.mod-ads-area-top
+grapee.jp##div[id^="ad_is_"]
+grapee.jp##.mod-ads-area-page
+grapee.jp##.mod-ads-area-footer
+||gumgum.com^
+||sync.im-apps.net^
 
 
 
@@ -624,13 +640,15 @@ kinisuru.com##.a2a_floating_style
 ||aqeen.sasakure.biz^
 ||qsnews.ndra.biz^
 ||www.girlkah.shop^
-https://goo.gl/En6m3D 
-http://www.bityet.us/s7b47si.jpg
+|https://goo.gl/En6m3D 
+|http://www.bityet.us/s7b47si.jpg
 ||imgur.com.rude.li^
 ||rude.li^
 ||i.imgur.com.my.to^
 ||imgur.com.my.to^
 ||my.to^
+!http://rxrtp.ventureswest.com/rkYYyPJ.png
+||ventureswest.com^
 !END---------------------------------------------
 
 ! FilterProxyからの成果 START ----------------------

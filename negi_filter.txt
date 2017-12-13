@@ -340,7 +340,6 @@ www.nikkei.com##.JSID_yudoMotion_closeAction
 ||tr.webantenna.info^
 
 !web.archive.org
-web.archive.org###donate_banner
 archive.org###donate_banner
 
 !END
