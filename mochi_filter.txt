@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 14 Dec 2017 12:00 JST
+! Last modified: 15 Dec 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -433,7 +433,8 @@ www.nicovideo.jp##.playerTabAds
 www.nicovideo.jp##.nicoSpotAds
 www.nicovideo.jp##.NicoSpotAdContainer
 www.nicovideo.jp##.MiniBannerAdContainer
-www.nicovideo.jp##iframe
+!zenzawatchでコメント欄が非表示になってしまうのでやめた
+!www.nicovideo.jp##iframe
 ||ads.nicovideo.jp^
 ||res.nimg.jp/scripts/pages/watch/assets/uad.mp3
 !ニコニ広告の動画が見れなくなるのでOFF
@@ -506,6 +507,9 @@ dic.nicovideo.jp##.box + img + div
 ||logger-04.vty.dailymotion.com^
 ||doubleclick.net^
 ||beacon.krxd.net^
+||sync.tidaltv.com^
+||dailymotion.com/vast/video/*.xml$xmlhttprequest,domain=dailymotion.com
+
 
 !５ちゃんねる、２ちゃんねる
 /bannar/$domain=5ch.net,2ch.net,bbspink.com
@@ -562,6 +566,19 @@ bbspink.com##.loading
 bbspink.com##div[class^="banner_area_"]
 bbspink.com##.ticker
 5ch.net,2ch.net###js--banners--thread
+
+
+!したらば
+||spad.i-mobile.co.jp^
+||a.adimg.net^
+jbbs.shitaraba.net##iframe[id^="ox_"]
+jbbs.shitaraba.net##.ad-320_50
+||blog.seesaa.jp/oem_contents/popular_article_ads/jbbs.js
+||aktrack.pubmatic.com/AdServer/
+||ads.pubmatic.com^
+||oxjapan-d.openx.net^
+!下部広告
+jbbs.shitaraba.net###footer-menu + br + table + hr + table[width="640"]
 
 
 !ログ速
