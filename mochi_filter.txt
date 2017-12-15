@@ -508,6 +508,7 @@ dic.nicovideo.jp##.box + img + div
 ||doubleclick.net^
 ||beacon.krxd.net^
 ||sync.tidaltv.com^
+!http://egg.5ch.net/test/read.cgi/software/1510382303/625
 ||dailymotion.com/vast/video/*.xml$xmlhttprequest,domain=dailymotion.com
 
 
