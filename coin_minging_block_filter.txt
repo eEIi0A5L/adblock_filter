@@ -1,0 +1,15 @@
+[Adblock Plus 2.0]
+! Title: coin_minging_block_filter.txt
+! Last modified: 2017/12/15 12:00 JST
+! Expires: 6 hours (update frequency)
+
+!#include https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
+
+||coin-hive.com^$third-party
+||coinhive.com^$third-party
+||cnhv.co^$third-party
+!http://egg.5ch.net/test/read.cgi/software/1475377484/588
+!http://egg.5ch.net/test/read.cgi/software/1475377484/680
+||staticset.com^$third-party
+
+!END

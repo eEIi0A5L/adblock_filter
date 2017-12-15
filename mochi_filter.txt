@@ -1180,9 +1180,7 @@ www.navitime.co.jp##.ad-frame
 www.pixiv.net##.ad-footer
 
 
-!したらば
-||spad.i-mobile.co.jp^
-||a.adimg.net^
+
 
 !imgur
 ||s.imgur.com/min/advertising.js

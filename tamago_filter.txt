@@ -82,6 +82,7 @@ impress.co.jp###floating-social-buttons
 ||in.treasuredata.com^
 ||microad.jp^
 watch.impress.co.jp##.ad
+||cdn.cxense.com/cx.js
 
 !Yahoo!Japan
 news.yahoo.co.jp###peron
@@ -622,6 +623,11 @@ grapee.jp##.mod-ads-area-footer
 ||gumgum.com^
 ||sync.im-apps.net^
 
+!http://axtuki216.wp.xdomain.jp/2016-10-27-niconico-viewpage-html5-release/
+||ad.xdomain.ne.jp^
+||adm.shinobi.jp^
+
+
 
 
 
@@ -650,6 +656,7 @@ kinisuru.com##.a2a_floating_style
 !http://rxrtp.ventureswest.com/rkYYyPJ.png
 ||ventureswest.com^
 !END---------------------------------------------
+
 
 ! FilterProxyからの成果 START ----------------------
 ||tpc.googlesyndication.com^
