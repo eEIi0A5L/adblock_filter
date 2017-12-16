@@ -565,7 +565,7 @@ www.urbandictionary.com##.new-mug-ad
 ||js.mtburn.com^
 ||video-log.vt.open8.com/img/advideo.gif
 
-!スラ土
+!スラド
 srad.jp###tophat
 
 !モデルプレス

@@ -13,3 +13,6 @@
 !#include https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kame_filter.txt
 !#include https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kotori_filter.txt
 !#include https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/ichigo_filter.txt
+
+
+!END
