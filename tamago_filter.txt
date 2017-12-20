@@ -628,6 +628,12 @@ grapee.jp##.mod-ads-area-footer
 ||adm.shinobi.jp^
 
 
+!PAPPINS
+pappins.tokyo###gn_interstitial_area
+
+!businessinsider.jp
+businessinsider.jp##.p-post-share
+
 
 
 
