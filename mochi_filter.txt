@@ -334,8 +334,8 @@ auctions.yahoo.co.jp###So2
 finance.yahoo.co.jp###promo
 finance.yahoo.co.jp##p.cafxBanner
 finance.yahoo.co.jp###top_promo
-finance.yahoo.co.jp###sub > .marB10
-
+!finance.yahoo.co.jp###sub > .marB10
+finance.yahoo.co.jp###sub > .marB10 > a > img
 
 !END----------------------------------------------
 
