@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: coin_mining_block_filter.txt
-! Last modified: 2017/12/15 12:00 JST
+! Last modified: 2017/12/26 12:00 JST
 ! Expires: 6 hours (update frequency)
 
 !#include https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
@@ -11,5 +11,22 @@
 !http://egg.5ch.net/test/read.cgi/software/1475377484/588
 !http://egg.5ch.net/test/read.cgi/software/1475377484/680
 ||staticset.com^$third-party
+
+!http://egg.5ch.net/test/read.cgi/software/1512653892/229
+!https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Trojan:HTML/Brocoiner
+||coinhive.com^
+||coin-hive.com^
+||crypto-loot.com^
+||camillesanz.com^
+||oinblind.com^
+||jquerystatistics.org^
+||etacontent.com^
+||cazala.github[.]io^
+||eruuludam.mn^
+||playerhd2.pw^
+
+
+
+
 
 !END

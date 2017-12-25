@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 20 Dec 2017 12:00 JST
+! Last modified: 26 Dec 2017 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -778,6 +778,9 @@ weblio.jp##.sideAd
 ||weblio.hs.llnwd.net/e7/img/icons/userinfo-non-member-button.png
 ejje.weblio.jp##.premium-service-button
 !||weblio.hs.llnwd.net/e7/img/icons/hideAd.png
+!全面プレミアム広告
+weblio.jp###simplemodal-overlay
+weblio.jp###premium-house-ad-on-load-modal-container
 
 !alc
 eow.alc.co.jp###AreaUpperRight
