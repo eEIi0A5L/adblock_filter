@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Title: coin_mining_block_filter.txt
+! Title: クジラフィルタ（コインマイニングブロック）
 ! Last modified: 2017/12/26 12:00 JST
 ! Expires: 6 hours (update frequency)
 
