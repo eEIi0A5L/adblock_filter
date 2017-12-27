@@ -680,7 +680,7 @@ kakaku.com##.c-ad
 !google検索結果のタイトルも消えてしまう
 !~rakuten.co.jp##a[href^="http://www.rakuten.co.jp"]
 !例：http://taisy0.com/2017/03/24/80957.html
-##iframe[id^='rakuten']
+!##iframe[id^='rakuten']
 ||xml.affiliate.rakuten.co.jp/widget/js/rakuten_widget.js
 ||affiliate.rakuten.co.jp/?rakuten_design=slide&
 ||static.affiliate.rakuten.co.jp/widget/html/stylesheets/pc_pcview_all.css?

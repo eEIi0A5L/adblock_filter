@@ -14,16 +14,16 @@
 
 !http://egg.5ch.net/test/read.cgi/software/1512653892/229
 !https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Trojan:HTML/Brocoiner
-||coinhive.com^
-||coin-hive.com^
-||crypto-loot.com^
-||camillesanz.com^
-||oinblind.com^
-||jquerystatistics.org^
-||etacontent.com^
-||cazala.github[.]io^
-||eruuludam.mn^
-||playerhd2.pw^
+||coinhive.com^$third-party
+||coin-hive.com^$third-party
+||crypto-loot.com^$third-party
+||camillesanz.com^$third-party
+||oinblind.com^$third-party
+||jquerystatistics.org^$third-party
+||etacontent.com^$third-party
+||cazala.github.io^$third-party
+||eruuludam.mn^$third-party
+||playerhd2.pw^$third-party
 
 
 
