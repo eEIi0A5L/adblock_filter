@@ -4,6 +4,8 @@
 ! Expires: 6 hours (update frequency)
 
 !#include https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
+!#include https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
+
 
 ||coin-hive.com^$third-party
 ||coinhive.com^$third-party
