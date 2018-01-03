@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ことりフィルタ（SNSボタンブロック）
-! Last modified: 11 Nov 2017 12:00 JST
+! Last modified: 04 Jan 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/kotori.html
 ! 
@@ -39,7 +39,8 @@
 
 !はてなボタンの表示が遅いので消す
 !st-hatena.com$third-party,domain=~hatena.ne.jp
-b.st-hatena.com$domain=~hatena.ne.jp|~hatenablog.jp
+!http://news4vip.livedoor.biz/archives/52259560.htmlで、http://cdn.b.st-hatena.com/images/users/gif/normal/00000.gifがブロックされてしまうので、コメント化。2018.1.4
+!||b.st-hatena.com$domain=~hatena.ne.jp|~hatenablog.jp
 
 !google+の数字をブロック
 ||apis.google.com/js/platform.js$third-party

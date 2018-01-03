@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: クジラフィルタ（コインマイニングブロック）
-! Last modified: 2017/12/26 12:00 JST
+! Last modified: 2018/1/4 12:00 JST
 ! Expires: 6 hours (update frequency)
 
 !#include https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
@@ -27,7 +27,8 @@
 ||eruuludam.mn^$third-party
 ||playerhd2.pw^$third-party
 
-
+!やたらCMがうざい
+||sun-mining.com^$third-party
 
 
 

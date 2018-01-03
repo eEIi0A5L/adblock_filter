@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 11 Dec 2017 12:00 JST
+! Last modified: 04 Jan 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -374,6 +374,15 @@ www.urbandictionary.com##.new-mug-ad
 !LINEQ
 ||api.unthem.com/js/spad.js?
 lineq.jp##.content_banner_wrap
+
+
+
+!kensc.com
+||blog.seesaa.jp/contents/js/ad_plugin.js
+||blog.seesaa.jp/js/insert-ad-legacy.min.js
+||js.ad-stir.com^
+kensc.com###seesaa-bnr
+
 
 
 !まとめサイト----------
