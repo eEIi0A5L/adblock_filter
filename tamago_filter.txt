@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 03 Jan 2018 12:00 JST
+! Last modified: 06 Jan 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -34,7 +34,8 @@ ameblo.jp##.skinBody2 > div:first-child
 ||www.googletagmanager.com^
 ||click.amanad.adtdp.com^
 ||ad.caprofitx.adtdp.com^
-ameblo.jp##iframe
+!埋め込み動画が消えてしまう
+!ameblo.jp##iframe
 ameblo.jp##div[data-amn-unit]
 ||btstatic.com^
 ||yjtag.yahoo.co.jp^
@@ -140,6 +141,66 @@ itest.5ch.net##.ad
 itest.5ch.net###res_ad
 itest.5ch.net##.sproutad_frame
 ||itest.5ch.net/assets/img/ronin_premium_640x100.png
+
+
+!５ちゃんねる、２ちゃんねる
+/bannar/$domain=5ch.net,2ch.net,bbspink.com
+5ch.net,2ch.net##.ADVERTISE_AREA
+5ch.net,2ch.net##.ADVERTISE_AREA + div
+||google.com/pagead/
+||i2ad.jp^
+||microad.net^
+||spdeliver.i-mobile.co.jp^
+||gmossp-sp.jp/ads/
+||microad.jp^
+||cdn.ad.maist.jp/ad/
+||2ch.net/css/ad.css
+||2ch.net/js/ad.js
+||2ch.net/snow/index.js
+||2ch.net/snow/bebe.js
+||2ch.net/snow/2chtop.js
+||5ch.net/css/ad.css
+||5ch.net/js/ad.js
+||5ch.net/snow/index.js
+||5ch.net/snow/bebe.js
+||5ch.net/snow/2chtop.js
+||bbspink.com/js/ad.js?
+||bbspink.com/css/ad.css
+||headline.bbspink.com/newsbbspink/marquee/marqueepele.php
+||stimgc.iand2ch.net/bbs-ad/
+||stimgc.iand5ch.net/bbs-ad/
+||switch-app.net/images/bnr/
+||stab.thench.net/jump/line_
+||stab.thench.net/jump/bottom_
+||img.bbchat.tv/images/bannar/
+||stab.thench.net/threads/thread_top_left_
+||stab.thench.net/threads/thread_top_right_
+||stab.thench.net/threads/rightside_top_
+||stab.thench.net/threads/rightside_bottom_
+||stab.thench.net/threads/thread_bottom_left_
+||stab.thench.net/threads/thread_bottom_right_
+||stimg.iand2ch.net/bbs-ad/
+||stimg.iand5ch.net/bbs-ad/
+||stbp.thench.net/subback/mercury/banner
+||stbp.thench.net/toppage/common-
+!5ch, 2ch携帯
+||stimg.iand2ch.net^
+||stimg.iand5ch.net^
+||stab.thench.net^
+!奇妙なjsをブロックしておく（なんとなく）
+||proparm.jp/ssp/p/js1?
+||proparm.jp/ssp/p/js?
+||stimg.thench.net/bbs-ad/
+||contents.purelovers.com/banner/ad/
+bbspink.com###top_banner
+bbspink.com##.ranking_banner
+bbspink.com##.loading
+bbspink.com##div[class^="banner_area_"]
+bbspink.com##.ticker
+5ch.net,2ch.net###js--banners--thread
+
+
+
 
 !j-cast
 www.j-cast.com##.gmossp_ad_frame

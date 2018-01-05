@@ -383,6 +383,17 @@ lineq.jp##.content_banner_wrap
 ||js.ad-stir.com^
 kensc.com###seesaa-bnr
 
+!bilibili.com
+||static.hdslb.com/ad-images
+bilibili.com##.bilibili-player-promote-wrap
+
+!PCgamer
+www.pcgamer.com##div[style^="position: relative; box-sizing: border-box; height: auto;"]
+www.pcgamer.com###sidebar > div[style^="position: relative;"]
+
+
+
+
 
 
 !まとめサイト----------
