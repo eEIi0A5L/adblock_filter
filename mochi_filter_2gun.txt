@@ -100,6 +100,25 @@ matome-plus.net##a[href^="http://www.amazon.co.jp"]
 ||antennash.com^
 ||rc5.i2i.jp^
 
+!トレンドニュース速報
+||our-trend.com/wp-content/plugins/uji-popup/js/popups.js?
+||meerkat.jarodtaylor.com/download/jquery.meerkat.1.3.min.js
+
+!ねぎ速
+||pc.clickmedias.info/js/ad.js
+||ac8.i2i.jp^
+
+!全力疾走
+||kaz335b.sakura.ne.jp/bana/
+||kaz335b.sakura.ne.jp/banae/quickade.html
+
+!魔王ブログ
+||share-videos.se/static/load.js
+||rcm.shinobi.jp/r/
+||adc02.media-rep.com/vi2.php?adId=
+||s.liveads.jp^
+
+
 !まとめその他
 ||track.bannerbridge.net/adtserv.php
 
