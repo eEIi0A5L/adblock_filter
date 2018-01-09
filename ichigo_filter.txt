@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 08 Jan 2018 12:00 JST
+! Last modified: 09 Jan 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/ichigo.html
 ! 
@@ -68,6 +68,7 @@ javfor.me##.adv
 ||88files.net/resources/js/bootstrap.min.js
 ||dioimg.net/images/
 ||mws3034.tk^
+||crpt.livejasmin.com＾
 
 !99files.net
 ||wx2.sinaimg.cn/large/
@@ -84,6 +85,7 @@ imagetwist.com###adbdiv
 imagetwist.com##[href^="http://www.sex.com/pics/?utm_"]
 imagetwist.com##[href^="http://www.sex.com/videos/?utm_"]
 ||bongacams.com^
+||imagetwist.com$inline-script
 
 !imgchili.net
 ||exoclick.com/ad_track.js
