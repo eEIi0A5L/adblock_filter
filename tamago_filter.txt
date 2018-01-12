@@ -45,6 +45,7 @@ ameblo.jp##div[data-amn-unit]
 ||s.yjtag.jp/tag.js
 !ameblo読み込み中に下にスクロールしていると、読み込み完了時にTOPに戻されてしまう対策
 ||btstatic.com^
+ameblo.jp##amp-ad
 
 
 !Youtube  https://m.youtube.com/
