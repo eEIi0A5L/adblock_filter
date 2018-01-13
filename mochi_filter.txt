@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 04 Jan 2018 12:00 JST
+! Last modified: 14 Jan 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -786,6 +786,8 @@ ejje.weblio.jp##.premium-service-button
 !全面プレミアム広告
 weblio.jp###simplemodal-overlay
 weblio.jp###premium-house-ad-on-load-modal-container
+!広告を消すボタン
+weblio.jp##td.linkTagRClrAd
 
 !alc
 eow.alc.co.jp###AreaUpperRight
@@ -884,6 +886,11 @@ www.news24.jp###adText01
 ||web-jp.ad-v.jp^
 news.tbs.co.jp##.md-banner300x250
 ||aka-cdn-ns.adtechus.com^
+
+!テレビ朝日
+!tv-asahi.co.jp##.init-ad-wrapper
+tv-asahi.co.jp##.init-ad
+||www.tv-asahi.co.jp/Top16/pc/scripts/adtech-desktop.js
 
 !毎日
 ||cdn.mainichi.jp/vol1/ad/
@@ -1217,6 +1224,8 @@ mdpr.jp##span[id^="ad_is_"]
 !TVerでテレ東だけが見れない
 @@||pubads.g.doubleclick.net^$domain=tver.jp
 
+!Spotify
+open.spotify.com##.ads-container
 
 
 !その他

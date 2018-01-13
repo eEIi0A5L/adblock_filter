@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2017/12/12 12:00 JST
+! Last modified: 2018/01/14 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/negi.html
 
@@ -55,6 +55,7 @@ google.co.jp##div[aria-label="promo"]
 /logos/$domain=google.co.jp,google.com
 !Googleトップのロゴ画像削除
 google.co.jp###hplogo
+google.co.jp##^#hplogo
 !下記をブロックするとChrome新規タブの表示がくずれる
 !www.google.co.jp,google.com###lga
 www.google.co.jp,google.com###prm-pt

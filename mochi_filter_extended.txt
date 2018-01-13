@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 04 Jan 2018 12:00 JST
+! Last modified: 14 Jan 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -228,6 +228,7 @@ koepota.jp###ad_footer
 ||133.130.53.202/js/adlink.js
 ||www.assoc-amazon.jp/s/ads.js
 ||www.koepota.jp/img/ad/
+||www.koepota.jp/js/amazon.js
 
 !anitube
 www.anitube.se##div[id^="compass_ad_"]
@@ -391,7 +392,10 @@ bilibili.com##.bilibili-player-promote-wrap
 www.pcgamer.com##div[style^="position: relative; box-sizing: border-box; height: auto;"]
 www.pcgamer.com###sidebar > div[style^="position: relative;"]
 
-
+!www.azlyrics.com洋楽歌詞サイト
+||srv.clickfuse.com/showads/adunit.php
+||srv.clickfuse.com/showads/js/cf.min.js
+||tracking.musixmatch.com^
 
 
 
