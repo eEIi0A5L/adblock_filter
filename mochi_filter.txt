@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 14 Jan 2018 12:00 JST
+! Last modified: 16 Jan 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -10,10 +10,9 @@
 ||google.com/pagead/
 ||clients5.google.com/pagead/drt/dn/
 ##div[id^="div-gpt-ad"]
+##^div[id^="div-gpt-ad"]
 ##.adsbygoogle
-!下記はいらないでしょう。上でクラスブロックしているんだから。。。
-!なんかボケてた。。。
-!##ins.adsbygoogle
+##^.adsbygoogle
 ||ad-api-v01.uliza.jp^
 ||jp-ads.mediaforge.com^
 
@@ -205,6 +204,13 @@ www.yahoo.co.jp###yjidbox
 
 
 !Yahoo映像トピックス-------------------------------------------
+
+!Yahoo映像トピックス
+!右側の広告
+videotopics.yahoo.co.jp###async_lrec_ad
+videotopics.yahoo.co.jp##^#async_lrec_ad
+videotopics.yahoo.co.jp/videolist/lrec?crb=
+
 
 !動画開始時の動画広告ブロック
 ||adserver-apne.tidaltv.com^
