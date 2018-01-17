@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 16 Jan 2018 12:00 JST
+! Last modified: 17 Jan 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -637,7 +637,8 @@ settings/ad.js$domain=lineblog.me
 !||hayabusa.io^
 
 !fc2.com
-fc2.com##iframe
+!Youtube埋め込み動画までブロックされてしまう
+!fc2.com##iframe
 blog.fc2.com###fc2_bottom_bnr
 blog.fc2.com##.pankuzu + h2
 blog.fc2.com##.pankuzu + h2 + .mainbox
@@ -721,7 +722,8 @@ rakuten.co.jp###footer-floating-bnr
 
 !ファミ通
 ||www.famitsu.com/ad/
-www.famitsu.com##iframe
+!Youtube埋め込み動画までブロックされてしまう
+!www.famitsu.com##iframe
 www.famitsu.com###adTop
 ||ssl.webtracker.jp/ad/
 www.famitsu.com##.ad-header-video
