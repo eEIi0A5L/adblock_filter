@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 06 Jan 2018 12:00 JST
+! Last modified: 20 Jan 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -14,6 +14,13 @@
 !共通----------
 !このパターンがやたら多い。2017.12.2
 /settings/ad.js|
+
+
+!Amazonアフィリエイトの削除
+!影響範囲が大きいのでしばらく様子をみる。2018.1.17 start
+~amazon.co.jp##a[href*="amazon.co.jp"][href*="-22"]
+~amazon.co.jp##^a[href*="amazon.co.jp"][href*="-22"]
+
 !END------------
 
 
@@ -199,6 +206,37 @@ adSystem$domain=tv.naver.com
 !startpage.com
 startpage.com###sponsored_csa1
 startpage.com###sponsored_csa2
+
+
+
+!japanese.engadget.com
+||advertising.com^
+||s.yimg.com/av/curveball/ads/
+||ads.yap.yahoo.com^
+||b.aol.com/ping?
+||b.aol.com/vanity/?ts=
+!EasyListから
+@@||aolcdn.com^*/adswrapper.$domain=aol.com|engadget.com|games.com|huffingtonpost.com|mapquest.com|stylelist.ca
+
+!http://brow2ing.doorblog.jp
+||www.sbs-jp-ad.com^
+||sbs-jp-ad.com^
+||bannerbridge.net^
+||crwetworks.com^
+||brow2ing.doorblog.jp/slide_ad.js
+doorblog.jp##a[href^="http://moudamepo.com/pick.cgi?code="]
+doorblog.jp##a[href^="http://2ch-c.net/?gt="]
+doorblog.jp##a[href^="http://blog-news.doorblog.jp/archives/"]
+doorblog.jp##a[href^=" http://clcount.com/gunsoku/a3.php?data="]
+doorblog.jp##a[href^="http://clcount.com/gunsoku/a3.php?data="]
+
+!DMM英会話
+eikaiwa.dmm.com##.bnr_area
+eikaiwa.dmm.com##.bnr_area + .total-wrap:style(margin-top: 0px !important)
+||eikaiwa.dmm.com/blog/wp-content/uploads/2018/01/banner_blog.jpg
+
+
+
 
 
 !その他

@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 17 Jan 2018 12:00 JST
+! Last modified: 20 Jan 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -383,7 +383,21 @@ login.yahoo.co.jp##img[src^="https://s.yimg.jp/bdv/"]
 
 !右側の広告
 ||s.yimg.jp/bdv/$image,domain=mail.yahoo.co.jp
-mail.yahoo.co.jp##iframe
+!mail.yahoo.co.jp##iframe
+!#@#iframe
+!↓これはいいか？Yahoomailには埋め込み動画あるのか？
+!mail.yahoo.co.jp#@#iframe#tgtMON
+!mail.yahoo.co.jp#@#iframe
+mail.yahoo.co.jp###tgtMON
+||yads.yahoo.co.jp^
+!||jp.mg5.mail.yahoo.co.jp/darla/php/fc.php?trace=
+!||s.yimg.jp/bdv/yahoo/darla/2-2-4_7/js/darla-secure-beacons-min.js
+mail.yahoo.co.jp###theAd
+
+
+!Yahooメールのスレッド一覧上部の広告を消した後の空白を消す
+mail.yahoo.co.jp###shellcontent:style(top: 56px !important;)
+mail.yahoo.co.jp###msg-list:style(top: 0px !important;)
 
 
 
@@ -485,7 +499,8 @@ www.nicovideo.jp##.ad_row
 !検索結果に関係ない動画が表示される
 !ニコニ広告というシステムらしい
 www.nicovideo.jp##.nicoadVideoItem
-
+!ニコニコ動画のコメント下部の広告を消した後の空白を消す
+www.nicovideo.jp##.CommentPanelContainer(bottom: 0px !important;)
 
 
 !ニコニコ大百科
