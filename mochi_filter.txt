@@ -500,7 +500,7 @@ www.nicovideo.jp##.ad_row
 !ニコニ広告というシステムらしい
 www.nicovideo.jp##.nicoadVideoItem
 !ニコニコ動画のコメント下部の広告を消した後の空白を消す
-www.nicovideo.jp##.CommentPanelContainer(bottom: 0px !important;)
+www.nicovideo.jp##.CommentPanelContainer:style(bottom: 0px !important;)
 
 
 !ニコニコ大百科
