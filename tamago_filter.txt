@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 15 Jan 2018 12:00 JST
+! Last modified: 20 Jan 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -122,6 +122,11 @@ news.goo.ne.jp##div[style*="fixed"]
 blog.goo.ne.jp##.global_footer + style + div
 blog.goo.ne.jp##.userblog_title
 oshiete.goo.ne.jp##.theAppLink
+!goo
+!ranking.goo.ne.jp###NR-wrapper
+ranking.goo.ne.jp###NR-sub
+ranking.goo.ne.jp###NR-sub-in
+
 
 !LINE blog
 lineblog.me##footer

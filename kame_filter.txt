@@ -81,6 +81,10 @@
 !http://aqwrf.showmyhomes.com/rkYYyPJ.png←アフィサイトへの偽装画像
 ||showmyhomes.com/
 ||5stock.utdnews.com^
+||milky.geocities.jp/fkdsjlaginea/
+!http://i.imgur.com.2ch.today/H8w.png←ウイルス
+||i.imgur.com.2ch.today^
+||2ch.today^
 !END-----------------------------------------------------------
 
 !例外-------------------------------------------------
