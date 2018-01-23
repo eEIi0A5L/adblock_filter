@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 20 Jan 2018 12:00 JST
+! Last modified: 23 Jan 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -765,6 +765,13 @@ blog.fc2.com###unitedblades_div
 
 !英語ライフ
 kiwi-english.net##.a2a_floating_style
+
+!tocana.jp
+||tocana.jp/i/js/adframes.js
+||tocana.jp/i/inc/ad_text_content.html
+||glssp.net/GL_AD/manager/goodlifes_ADManager.js
+||glssp.net/GL_AD/
+||tocana.jp/i/inc/adframe/
 
 
 

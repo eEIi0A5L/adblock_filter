@@ -811,6 +811,7 @@ weblio.jp###simplemodal-overlay
 weblio.jp###premium-house-ad-on-load-modal-container
 !広告を消すボタン
 weblio.jp##td.linkTagRClrAd
+uwl.weblio.jp###induction-to-premium-member-for-vt-area
 
 !alc
 eow.alc.co.jp###AreaUpperRight
@@ -1065,6 +1066,8 @@ wikia.com##.wikia-ad
 ||rpts.org^$third-party
 ||amazonaws.com/ki.js/
 wikia.com###LEFT_SKYSCRAPER_2
+!トラッキング
+||petametrics.com^
 
 !StackOverflow
 ||ssum-sec.casalemedia.com^
