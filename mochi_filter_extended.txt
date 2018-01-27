@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 14 Jan 2018 12:00 JST
+! Last modified: 28 Jan 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -146,6 +146,12 @@ abcnews.go.com##.ad-slot
 ||abcnews.go.com/assets/static/ads/
 ||adm.fwmrm.net^
 ||a.abcnews.com/assets/js/adCallOverride.js
+||mssl.fwmrm.net/p/abc_live/AdManager.js
+||adserver-us.adtech.advertising.com^
+||bam.nr-data.net^
+!なんかトラッキングぽいの
+||tags.bluekai.com^
+||vra.outbrain.com^
 
 !afp
 www.afpbb.com##aside.ad
@@ -241,6 +247,8 @@ www.anitube.se##iframe
 ||anigrupo.engine.adglare.net^
 ||static.anitube.se/player/anitubeJWOverlay/anitubeJWOverlay.js
 ||static.anitube.se/photo/
+||imasdk.googleapis.com/flash/core/3.266.0/adsapi.swf
+||imasdk.googleapis.com/flash/sdkloader/adsapi_3.swf
 
 !ひまわり
 himado.in###player_ad_window
@@ -282,6 +290,10 @@ rd.nexusmods.com##.agroup.clearfix
 ||www.nexusmods.com/contents/Scripts/advert.js
 www.nexusmods.com##.ads
 www.nexusmods.com##.areplacer
+||d10lpsik1i8c69.cloudfront.net/js/clickstream.js
+||settings.luckyorange.net/?u=
+||cdn3.optimizely.com/js/geo2.js?cb=
+||www.google-analytics.com^$domain=nexusmods.com
 
 !twitis.me
 twitis.me##iframe

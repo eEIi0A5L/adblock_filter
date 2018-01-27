@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 23 Jan 2018 12:00 JST
+! Last modified: 28 Jan 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/ichigo.html
 ! 
@@ -285,5 +285,16 @@ pornhub.com###pb_template
 /static.javhd.com/h5/files/.*/160x600.html/
 ||en.ero-video.net/advert/bannerFrame.html?id=
 ||en.ero-video.net/advert
+
+!www5.javmost.com
+||popmyads.com^
+||adsco.re^
+||adserver.juicyads.com^
+||popads.net^
+
+!rocks
+||rocks/htmm/2020.php$popup
+!グラブルが起動しなくなる
+!about:blank$popup
 
 ! END
