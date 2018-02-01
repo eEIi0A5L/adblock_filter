@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 28 Jan 2018 12:00 JST
+! Last modified: 02 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -19,7 +19,7 @@
 !Amazonアフィリエイトの削除
 !影響範囲が大きいのでしばらく様子をみる。2018.1.17 start
 ~amazon.co.jp##a[href*="amazon.co.jp"][href*="-22"]
-~amazon.co.jp##^a[href*="amazon.co.jp"][href*="-22"]
+!~amazon.co.jp##^a[href*="amazon.co.jp"][href*="-22"]
 
 !END------------
 
@@ -86,6 +86,13 @@ jin115.com##.dix_ad_n
 jin115.com##.ent_ad_md
 jin115.com##.jin-ads
 jin115.com##.footer_social_ad
+||jin115.com/js/amazon_videogames1.js
+||jin115.com/js/amazon_videogames2.js
+!jin115.com##^a[href*="amazon.co.jp"][href*="-22"]
+!jin115.com##^a[href*="amazon.co.jp"]
+!jin115.com##^a
+!下記がなぜか効かない。バグなのか仕様なのか。。。うーん
+!jin115.com##^a[href^="http://www.amazon.co.jp"]
 
 !まとめサイト速報＋
 matome-plus.net##a[href^="http://www.amazon.co.jp"]
@@ -244,7 +251,10 @@ eikaiwa.dmm.com##.bnr_area
 eikaiwa.dmm.com##.bnr_area + .total-wrap:style(margin-top: 0px !important)
 ||eikaiwa.dmm.com/blog/wp-content/uploads/2018/01/banner_blog.jpg
 
-
+!coingecko.com
+||servedby-buysellads.com^
+||ads.servebom.com^
+||cdn-s2s.buysellads.net^
 
 
 

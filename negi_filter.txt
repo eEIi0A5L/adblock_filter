@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2018/01/14 12:00 JST
+! Last modified: 2018/02/02 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/negi.html
 
@@ -123,6 +123,10 @@ store.shopping.yahoo.co.jp##.fixog
 !headlines.yahoo.co.jp##.subAnnounce
 !右欄のYahoo!ニュース タイアップ
 !headlines.yahoo.co.jp##.rma_responsive_small
+!YahooJAPANの映像トピックスのビデオを再生後に自動的に５秒後に次の動画に勝手に移行されてしまうのを抑制する。
+!uBlock Origin 1.14.25rc1以降の「##^」拡張機能が必要。
+!ない場合は、ユーザースクリプトで要素を削除すればよい。
+videotopics.yahoo.co.jp##^#nvideo
 
 
 !Yahoo天気

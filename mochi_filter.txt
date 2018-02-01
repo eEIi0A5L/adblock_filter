@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 28 Jan 2018 12:00 JST
+! Last modified: 02 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -10,11 +10,15 @@
 ||google.com/pagead/
 ||clients5.google.com/pagead/drt/dn/
 ##div[id^="div-gpt-ad"]
-##^div[id^="div-gpt-ad"]
 ##.adsbygoogle
-##^.adsbygoogle
 ||ad-api-v01.uliza.jp^
 ||jp-ads.mediaforge.com^
+!Genericだと##^がきかないのでドメインを列挙する
+!これだけあればとりあえず十分でしょう
+!足りなければ後で追加する。
+!##^でremoveすることで中身の画像を取得しなくなるので高速化が期待できる
+.jp,.net,.com,.org,.me,.tv,.biz,.info##^div[id^="div-gpt-ad"]
+.jp,.net,.com,.org,.me,.tv,.biz,.info##^.adsbygoogle
 
 
 !Youtube
@@ -60,6 +64,9 @@ www.google.co.jp###bottomads
 google.co.jp##.commercial-unit-desktop-rhs
 ||www.google.com/ads/
 ||google.*/gen_204?$other
+!下記で画像の遷移が動作しない
+!http://natgeo.nikkeibp.co.jp/atcl/gallery/013000131/
+||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js
 
 !gmail
 mail.google.com##.aKB
@@ -539,7 +546,12 @@ dic.nicovideo.jp##.box + img + div
 ||sync.tidaltv.com^
 !http://egg.5ch.net/test/read.cgi/software/1510382303/625
 ||dailymotion.com/vast/video/*.xml$xmlhttprequest,domain=dailymotion.com
-
+||deployads.com^
+||tags-cdn.deployads.com^
+||c.us1.dyntrk.com^
+|webed.dm.gg^$third-party
+||dmxleo.dailymotion.com^
+||c.eu1.dyntrk.com^
 
 !５ちゃんねる、２ちゃんねる
 /bannar/$domain=5ch.net,2ch.net,bbspink.com
@@ -677,7 +689,7 @@ kakaku.com##.prTitle
 kakaku.com###listingPr2
 !価格.com「ログインで最安お知らせ機能」バナー
 ||img1.kakaku.k-img.com/images/id/id_benefit/bnr/bnr_id_benefit01_740x50.png
-##.mTop10.mBtm10
+kakaku.com##.mTop10.mBtm10
 !右下の固定フロート広告
 ||kakaku.k-img.com/images/ad/
 kakaku.com##.fixedRightAdContainer
@@ -701,7 +713,9 @@ kakaku.com##.c-ad
 
 !楽天（他サイトに出る広告のブロック）
 ||affiliate.rakuten.co.jp^$domain=~rakuten.co.jp
-##iframe[id^="rakuten"]$domain=.jp
+!##iframe[id^="rakuten"]$domain=.jp
+.jp,.net,.com,.org,.me,.tv,.biz,.info##iframe[id^="rakuten"]
+!.jp,.net,.com,.org,.me,.tv,.biz,.info##^iframe[id^="rakuten"]
 !infoseekでサムネイルが消えてしまうので許可
 !||rakuten.co.jp^$domain=~rakuten.co.jp
 !google検索結果のタイトルも消えてしまう
@@ -719,10 +733,14 @@ kakaku.com##.c-ad
 ||xml.affiliate.rakuten.co.jp/widget/conf/getMWConf.php?time=
 ||static.affiliate.rakuten.co.jp/widget/html/pc_pcview_all.html?rakuten_design=slide&
 !価格ドットコムの検索でサムネが表示されないので除外した
-||thumbnail.image.rakuten.co.jp/@0_mall/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
-||thumbnail.image.rakuten.co.jp/@0_gold/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
+!下記サイトで画像が表示されないので、やめた
+!https://yamahack.com/503
+!||thumbnail.image.rakuten.co.jp/@0_mall/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
+!||thumbnail.image.rakuten.co.jp/@0_gold/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
 !楽天の広告がhttp://hktdouga.blog.jp/で出る
 ||afl.rakuten.co.jp^$domain~=kakaku.com
+||hbb.afl.rakuten.co.jp^
+||hb.afl.rakuten.co.jp^
 
 !楽天サイト自体の広告ブロック
 rakuten.co.jp###footer-floating-bnr
@@ -949,6 +967,8 @@ www.nikkansports.com###sideAd2
 www.tokyo-sports.co.jp##.adsbygoogle
 ||www.tokyo-sports.co.jp/wp-content/themes/tospo/images/common/miyasaka.gif
 
+!サンスポ
+www.sanspo.com##.adRectangleBanner
 
 !ロイター
 ||www.reuters.com/reuters_ads_framework.js
@@ -1010,6 +1030,7 @@ slashdot.org##article:has(div[class="ntv-sponsored-disclaimer"])
 
 !Naverまとめ
 ||api.unthem.com/js/pcad.js?
+||cdn-matome.line-apps.com/n/matome/js/nj.matome.ad.yahooim.floating_
 
 !豆腐トップページ
 tofukko.r.ribbon.to##p[align="center"]
@@ -1253,6 +1274,11 @@ mdpr.jp##span[id^="ad_is_"]
 
 !Spotify
 open.spotify.com##.ads-container
+
+!Buzzfeed
+||www.buzzfeed.com/static/js/advertiser/
+||abeagle-public.buzzfeed.com^
+
 
 
 !その他
