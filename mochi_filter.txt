@@ -17,8 +17,8 @@
 !これだけあればとりあえず十分でしょう
 !足りなければ後で追加する。
 !##^でremoveすることで中身の画像を取得しなくなるので高速化が期待できる
-.jp,.net,.com,.org,.me,.tv,.biz,.info##^div[id^="div-gpt-ad"]
-.jp,.net,.com,.org,.me,.tv,.biz,.info##^.adsbygoogle
+!.jp,.net,.com,.org,.me,.tv,.biz,.info##^div[id^="div-gpt-ad"]
+!.jp,.net,.com,.org,.me,.tv,.biz,.info##^.adsbygoogle
 
 
 !Youtube
@@ -215,7 +215,7 @@ www.yahoo.co.jp###yjidbox
 !Yahoo映像トピックス
 !右側の広告
 videotopics.yahoo.co.jp###async_lrec_ad
-videotopics.yahoo.co.jp##^#async_lrec_ad
+!videotopics.yahoo.co.jp##^#async_lrec_ad
 videotopics.yahoo.co.jp/videolist/lrec?crb=
 
 
