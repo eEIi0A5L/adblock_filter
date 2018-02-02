@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 29 Jan 2018 12:00 JST
+! Last modified: 03 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -11,9 +11,9 @@
 ||google.com/pagead/
 ||clients5.google.com/pagead/drt/dn/
 ##div[id^="div-gpt-ad"]
-##^div[id^="div-gpt-ad"]
+!##^div[id^="div-gpt-ad"]
 ##.adsbygoogle
-##^.adsbygoogle
+!##^.adsbygoogle
 ||ad-api-v01.uliza.jp^
 ||jp-ads.mediaforge.com^
 
@@ -32,7 +32,7 @@
 ||www.google.com/ads/
 |stats.g.doubleclick.net^
 ameblo.jp##.skinBody2 > div:first-child
-ameblo.jp##^.skinBody2 > div:first-child
+!ameblo.jp##^.skinBody2 > div:first-child
 ||stat100.ameba.jp/ad/dfp/js/dfp.js?20170215
 ||www.googletagmanager.com^
 ||click.amanad.adtdp.com^
@@ -40,7 +40,7 @@ ameblo.jp##^.skinBody2 > div:first-child
 !埋め込み動画が消えてしまう
 !ameblo.jp##iframe
 ameblo.jp##div[data-amn-unit]
-ameblo.jp##^div[data-amn-unit]
+!ameblo.jp##^div[data-amn-unit]
 ||btstatic.com^
 ||yjtag.yahoo.co.jp^
 !https://ln.ameba.jp/v2/
@@ -50,7 +50,7 @@ ameblo.jp##^div[data-amn-unit]
 !ameblo読み込み中に下にスクロールしていると、読み込み完了時にTOPに戻されてしまう対策
 ||btstatic.com^
 ameblo.jp##amp-ad
-ameblo.jp##^amp-ad
+!ameblo.jp##^amp-ad
 
 
 !Youtube  https://m.youtube.com/
@@ -87,7 +87,7 @@ mobile.twitter.com##header[role="banner"] + div > div
 !impress
 impress.co.jp###sp-floating-layer
 impress.co.jp###floating-social-buttons
-impress.co.jp##^#floating-social-buttons
+!impress.co.jp##^#floating-social-buttons
 ||in.treasuredata.com^
 ||microad.jp^
 watch.impress.co.jp##.ad
@@ -452,20 +452,20 @@ fc2.com###ad_header
 
 !Weblio
 weblio.jp##.ad_fixed_imgHigh
-weblio.jp##^.ad_fixed_imgHigh
+!weblio.jp##^.ad_fixed_imgHigh
 weblio.jp##.adBkOverlayClr
-weblio.jp##^.adBkOverlayClr
+!weblio.jp##^.adBkOverlayClr
 ||weblio.hs.llnwd.net/e7/img/camp_bnr.png
 ||connect.facebook.net/en_US/fbadnw55.js
 ||weblio.hs.llnwd.net/e7/jsad/cp404.js
 ||www.facebook.com/impression.php^$domain=ejje.weblio.jp
 ||www.facebook.com/v2.5/plugins/page.php?adapt_container_width=$domain=ejje.weblio.jp
 ejje.weblio.jp##.adBannerHdWrp
-ejje.weblio.jp##^.adBannerHdWrp
+!ejje.weblio.jp##^.adBannerHdWrp
 ejje.weblio.jp##amp-sidebar
-ejje.weblio.jp##^amp-sidebar
+!ejje.weblio.jp##^amp-sidebar
 ejje.weblio.jp##.hideAdRnwWrp
-ejje.weblio.jp##^.hideAdRnwWrp
+!ejje.weblio.jp##^.hideAdRnwWrp
 
 !共同通信
 this.kiji.is##.page__ad
