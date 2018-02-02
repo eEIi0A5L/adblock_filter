@@ -17,6 +17,8 @@
 !これだけあればとりあえず十分でしょう
 !足りなければ後で追加する。
 !##^でremoveすることで中身の画像を取得しなくなるので高速化が期待できる
+!2018.2.2 文字化けする問題あり
+!https://github.com/gorhill/uBlock/issues/3399
 !.jp,.net,.com,.org,.me,.tv,.biz,.info##^div[id^="div-gpt-ad"]
 !.jp,.net,.com,.org,.me,.tv,.biz,.info##^.adsbygoogle
 
