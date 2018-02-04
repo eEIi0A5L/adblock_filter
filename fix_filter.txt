@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: 08 Jan 2018 12:00 JST
+! Last modified: 04 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/fix.html
 ! 
@@ -9,17 +9,17 @@
 !START ------------------------------------------------------------
 ! JPN: ABP Japanese filters (日本用フィルタ) の不具合対策
 !ヤフオクトップのクジが表示されないので例外にする
-@@^promo^
+@@^promo^$domain=yahoo.co.jp
 !googleシートで同期エラーダイアログが出るので例外にする
-@@^logimpressions^
+@@^logimpressions^$domain=google.com
 !Yahooのポイントを見ようとリンククリックしたときにフィルタされてしまうので例外化
-@@/click/$document
+@@/click/$document,$domain=yahoo.co.jp
 !Amebafreshの動画が見れない
-#@#[class$="Ad"]:not(body)
+freshlive.tv#@#[class$="Ad"]:not(body)
 !園芸板用あぷろだ。xrea.com全体がPete'sのフィルタでブロックされるので。
 @@||engei2ch.s252.xrea.com^
 !Google Sheetでなにか編集するたびにエラーダイアログが表示されてしまう対策
-@@_analytics.
+@@_analytics.$domain=google.com
 !Peter Loweのフィルタでブロックされているが日本人の利用者が多いので許可
 @@||xrea.com^
 !Peter Lowe’s Ad and tracking server list
@@ -29,10 +29,10 @@
 !したがって、gyao(yahoo)だけで例外にする。
 @@||2mdn.net^$domain=yahoo.co.jp
 !GoogleMapでLocalGuideをExitしたときに引っかかる
-@@_campaign=$document
+@@_campaign=$document,$domain=google.com
 !キャンペーンサイトで表示されない対策
-@@_campaign=$popup
-@@_campaign=$document
+!@@_campaign=$popup
+!@@_campaign=$document
 !malwarelistに入っている
 @@||navitime.co.jp^
 !twitchでカウントが増え続ける問題の解法
@@ -55,13 +55,13 @@ live.nicovideo.jp#@#[id$="-ad"]
 !豆腐でGyaoで広告が入る
 ||adserver-apne.tidaltv.com^
 !豆腐でナシュジオが見れない
-#@#[class^="ad-"]:not(html):not(body)
+http://natgeotv.jp#@#[class^="ad-"]:not(html):not(body)
 !http://www.ntv.co.jp/fcwc/index.htmlが見れない
-@@|http:*^ad-
+@@|http:*^ad-$domain=ntv.co.jp
 !https://www.amazon.co.jp/dp/B00PSPDQQC/で視聴ページが真っ白になる
 @@||chocomaru.com^
 !http://iroyaku.livedoor.biz/archives/73473612.html#commentsでコメントが見れない
-#@#[class$="-ads"]:not(html):not(body)
+livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 !https://www3.nhk.or.jp/news/html/20171216/k10011261091000.html?utm_int=news_contents_news-main_001が見れない
 !http://egg.5ch.net/test/read.cgi/software/1510382303/676
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$script,domain=www3.nhk.or.jp
