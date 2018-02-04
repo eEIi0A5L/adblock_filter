@@ -44,7 +44,7 @@ freshlive.tv#@#[class$="Ad"]:not(body)
 @@/ima3.js$domain=gyao.yahoo.co.jp
 @@||brightcove.net^$domain=gyao.yahoo.co.jp
 @@||brightcove.com^$domain=gyao.yahoo.co.jp
-@@|https:*?*&ip=$third-party,$domain=gyao.yahoo.co.jp
+@@|https:*?*&ip=$third-party
 !ニコ生の検索が表示されない
 live.nicovideo.jp#@#[id$="-ad"]:not(html):not(body)
 live.nicovideo.jp#@#[id$="-ad"]
