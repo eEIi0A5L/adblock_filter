@@ -73,7 +73,7 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 !下記の動画が見れない
 !https://www3.nhk.or.jp/news/html/20180108/k10011281771000.html?utm_int=news-new_contents_list-items_001
 !EasyPrivacyの誤爆
-@@||analytics.edgekey.net/html5/akamaihtml5-min.js
+@@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
 !END---------------------------------------------------------------------
 
 ! END
