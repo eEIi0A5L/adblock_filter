@@ -55,7 +55,7 @@ live.nicovideo.jp#@#[id$="-ad"]
 !豆腐でGyaoで広告が入る
 ||adserver-apne.tidaltv.com^
 !豆腐でナシュジオが見れない
-http://natgeotv.jp#@#[class^="ad-"]:not(html):not(body)
+natgeotv.jp#@#[class^="ad-"]:not(html):not(body)
 !http://www.ntv.co.jp/fcwc/index.htmlが見れない
 @@|http:*^ad-$domain=ntv.co.jp
 !https://www.amazon.co.jp/dp/B00PSPDQQC/で視聴ページが真っ白になる
