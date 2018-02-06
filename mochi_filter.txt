@@ -675,6 +675,7 @@ blog.fc2.com##.pankuzu + h2 + .mainbox
 ||img.shinobi.jp/analyze/dumbo/ads2/ad_1_left_0.gif
 fc2.com###fc2_bottom_bnr
 blog.fc2.com###sh_fc2blogheadbar_link_box
+web.fc2.com###fc2_ad_box
 
 !はてな
 www.hatena.ne.jp###pc-billboard-ad
