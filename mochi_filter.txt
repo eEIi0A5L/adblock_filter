@@ -737,8 +737,10 @@ kakaku.com##.c-ad
 !価格ドットコムの検索でサムネが表示されないので除外した
 !下記サイトで画像が表示されないので、やめた
 !https://yamahack.com/503
-!||thumbnail.image.rakuten.co.jp/@0_mall/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
-!||thumbnail.image.rakuten.co.jp/@0_gold/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
+!やっぱりONで。広告が出てうざいサイトが多すぎる。2018.2.6
+!http://kodomofukutuuhan.web.fc2.com/category3/kyowakaban-10000740.html
+||thumbnail.image.rakuten.co.jp/@0_mall/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
+||thumbnail.image.rakuten.co.jp/@0_gold/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
 !楽天の広告がhttp://hktdouga.blog.jp/で出る
 ||afl.rakuten.co.jp^$domain~=kakaku.com
 ||hbb.afl.rakuten.co.jp^
