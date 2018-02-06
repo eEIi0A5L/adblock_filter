@@ -13,7 +13,7 @@
 !googleシートで同期エラーダイアログが出るので例外にする
 @@^logimpressions^$domain=google.com
 !Yahooのポイントを見ようとリンククリックしたときにフィルタされてしまうので例外化
-@@/click/$document,$domain=yahoo.co.jp
+@@/click/$document,domain=yahoo.co.jp
 !Amebafreshの動画が見れない
 freshlive.tv#@#[class$="Ad"]:not(body)
 !園芸板用あぷろだ。xrea.com全体がPete'sのフィルタでブロックされるので。
@@ -29,7 +29,7 @@ freshlive.tv#@#[class$="Ad"]:not(body)
 !したがって、gyao(yahoo)だけで例外にする。
 @@||2mdn.net^$domain=yahoo.co.jp
 !GoogleMapでLocalGuideをExitしたときに引っかかる
-@@_campaign=$document,$domain=google.com
+@@_campaign=$document,domain=google.com
 !キャンペーンサイトで表示されない対策
 !@@_campaign=$popup
 !@@_campaign=$document
@@ -44,7 +44,7 @@ freshlive.tv#@#[class$="Ad"]:not(body)
 @@/ima3.js$domain=gyao.yahoo.co.jp
 @@||brightcove.net^$domain=gyao.yahoo.co.jp
 @@||brightcove.com^$domain=gyao.yahoo.co.jp
-@@|https:*?*&ip=$third-party
+@@|https:*?*&ip=$third-party,domain=gyao.yahoo.co.jp
 !ニコ生の検索が表示されない
 live.nicovideo.jp#@#[id$="-ad"]:not(html):not(body)
 live.nicovideo.jp#@#[id$="-ad"]

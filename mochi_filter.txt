@@ -69,7 +69,7 @@ google.co.jp##.commercial-unit-desktop-rhs
 !下記で画像の遷移が動作しない
 !http://natgeo.nikkeibp.co.jp/atcl/gallery/013000131/
 !||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js
-||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,$domain=nikkeibp.co.jp
+||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,domain=nikkeibp.co.jp
 
 !gmail
 mail.google.com##.aKB
@@ -557,7 +557,7 @@ dic.nicovideo.jp##.box + img + div
 ||c.eu1.dyntrk.com^
 
 !５ちゃんねる、２ちゃんねる
-/bannar/$domain=5ch.net,2ch.net,bbspink.com
+/bannar/$domain=5ch.net|2ch.net|bbspink.com
 5ch.net,2ch.net##.ADVERTISE_AREA
 5ch.net,2ch.net##.ADVERTISE_AREA + div
 ||google.com/pagead/
