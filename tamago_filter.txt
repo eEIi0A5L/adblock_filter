@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 03 Feb 2018 12:00 JST
+! Last modified: 06 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -778,6 +778,8 @@ kiwi-english.net##.a2a_floating_style
 !wired.jp
 wired.jp###social-share
 
+!automaton
+||jp.automaton.am/wp-content/plugins/ad-inserter/
 
 
 
