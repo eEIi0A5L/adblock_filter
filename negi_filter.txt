@@ -52,7 +52,7 @@ www.nicovideo.jp##.summer2017Area
 www.google.co.jp##div[role="dialog"][style="behavior:url(#default#userData)"]
 google.co.jp##div[aria-label="promo"]
 !Googleトップの目障りなJS削除
-/logos/$domain=google.co.jp,google.com
+/logos/$domain=google.co.jp|google.com
 !Googleトップのロゴ画像削除
 google.co.jp###hplogo
 google.co.jp##^#hplogo

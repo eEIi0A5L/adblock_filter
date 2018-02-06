@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 28 Jan 2018 12:00 JST
+! Last modified: 07 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -326,7 +326,7 @@ www.uesp.net###p-googlead
 tunein.com###div[component="Wizard"]
 
 !www.lyricsfreak.com:歌詞表示して30秒後に不快画像を全画面に出す悪質サイト
-/prebid_$script,$domain=lyricsfreak.com
+/prebid_$script,domain=lyricsfreak.com
 ||pixel.watch^
 ||jmn.jangonetwork.com^
 ||carambo.la^

@@ -158,7 +158,7 @@ itest.5ch.net##.sproutad_frame
 
 
 !５ちゃんねる、２ちゃんねる
-/bannar/$domain=5ch.net,2ch.net,bbspink.com
+/bannar/$domain=5ch.net|2ch.net|bbspink.com
 5ch.net,2ch.net##.ADVERTISE_AREA
 5ch.net,2ch.net##.ADVERTISE_AREA + div
 ||google.com/pagead/
