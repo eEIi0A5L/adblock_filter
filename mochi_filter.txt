@@ -569,14 +569,16 @@ dic.nicovideo.jp##.box + img + div
 ||cdn.ad.maist.jp/ad/
 ||2ch.net/css/ad.css
 ||2ch.net/js/ad.js
-||2ch.net/snow/index.js
-||2ch.net/snow/bebe.js
-||2ch.net/snow/2chtop.js
+!||2ch.net/snow/index.js
+!||2ch.net/snow/bebe.js
+!||2ch.net/snow/2chtop.js
 ||5ch.net/css/ad.css
 ||5ch.net/js/ad.js
-||5ch.net/snow/index.js
-||5ch.net/snow/bebe.js
-||5ch.net/snow/2chtop.js
+!beメニューが消えてた
+!http://matsuri.5ch.net/campus/
+!||5ch.net/snow/index.js
+!||5ch.net/snow/bebe.js
+!||5ch.net/snow/2chtop.js
 ||bbspink.com/js/ad.js?
 ||bbspink.com/css/ad.css
 ||headline.bbspink.com/newsbbspink/marquee/marqueepele.php
@@ -611,6 +613,7 @@ bbspink.com##.loading
 bbspink.com##div[class^="banner_area_"]
 bbspink.com##.ticker
 5ch.net,2ch.net###js--banners--thread
+||sync-dsp.ad-m.asia^
 
 
 !したらば
