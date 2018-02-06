@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2018/02/02 12:00 JST
+! Last modified: 2018/02/06 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/negi.html
 
@@ -243,8 +243,9 @@ item.rakuten.co.jp###tate_right
 item.rakuten.co.jp###tate_right2
 !右下に出てくる買い物カゴ。なくても問題ない。
 !ショップによってレイアウトが違うので止めた。
-!item.rakuten.co.jp###floatingCartContainer
-!item.rakuten.co.jp###floatButton1
+!→買い物かごはショップ共通なのでやっぱりブロック
+item.rakuten.co.jp###floatingCartContainer
+item.rakuten.co.jp###floatButton1
 !楽天右側の固定枠
 !ショップによってレイアウトが違うので止めた。
 !rakuten.co.jp###riSDTopBtnWrap

@@ -207,6 +207,7 @@ mail.yahoo.com##.mb
 mg.mail.yahoo.com##li[role="rowgroup"]:has(a[data-test-id="pencil-ad"])
 ||www.yahoo.com/lib/metro/g/myy/advertisement_0.0.1.js
 finance.yahoo.com###mrt-node-Lead-1-Ad
+||s.yimg.com/av/moneyball/ads/
 
 !モカ
 moca-news.net###container-child > div[align="center"] > div > img
