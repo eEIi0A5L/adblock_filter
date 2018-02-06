@@ -244,8 +244,9 @@ item.rakuten.co.jp###tate_right2
 !右下に出てくる買い物カゴ。なくても問題ない。
 !ショップによってレイアウトが違うので止めた。
 !→買い物かごはショップ共通なのでやっぱりブロック
-item.rakuten.co.jp###floatingCartContainer
-item.rakuten.co.jp###floatButton1
+!楽天を見るということはショッピング目的なのでブロックしないほうがいい。2018.2.6
+!item.rakuten.co.jp###floatingCartContainer
+!item.rakuten.co.jp###floatButton1
 !楽天右側の固定枠
 !ショップによってレイアウトが違うので止めた。
 !rakuten.co.jp###riSDTopBtnWrap
