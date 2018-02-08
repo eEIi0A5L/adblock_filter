@@ -1,0 +1,28 @@
+!BETA--------------------------------------------------------------------------
+!影響範囲が大きいのでしばらく様子をみる。2018.1.17 start
+!~amazon.co.jp##a[href*="amazon.co.jp"][href*="-22"]
+!~amazon.co.jp##^a[href*="amazon.co.jp"][href*="-22"]
+
+
+!.jp,.net,.com,.org,.me,.tv,.biz,.info##^a[href*="amazon.co.jp"][href*="-22"]
+!#@#a[href*="amazon.co.jp"][href*="-22"]
+!試験運用開始2018.2.8
+!.jp,.net,.com,.org,.me,.tv,.biz,.info,~amazon.co.jp##^a[href*="amazon.co.jp"][href*="-22"]
+!.jp,.net,.com,.org,.me,.tv,.biz,.info,~rakuten.co.jp##^iframe[id^="rakuten"]
+~amazon.co.jp##^a[href*="amazon.co.jp"][href*="-22"]
+~rakuten.co.jp##^iframe[id^="rakuten"]
+
+!下記をONにすると下記で文字化け2018.2.2 uBlock Origin 1.15.0
+!https://github.com/gorhill/uBlock/issues/3399
+!http://www.wowkorea.jp/starnews/400626.html
+!.jp,.net,.com,.org,.me,.tv,.biz,.info##^div[id^="div-gpt-ad"]
+!.jp,.net,.com,.org,.me,.tv,.biz,.info##^.adsbygoogle
+
+
+!楽天
+!なんかGlobalが効かないので.jpを付けてみる
+!.jp##a[href^="http://hb.afl.rakuten.co.jp/"]
+!楽天の広告に出会うまでコメント化しておく2018.2.6
+!##a[href^="http://hb.afl.rakuten.co.jp/"]
+
+!END------------------------------------------------------------------------------

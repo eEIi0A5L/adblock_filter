@@ -235,6 +235,30 @@ adSystem$domain=tv.naver.com
 startpage.com###sponsored_csa1
 startpage.com###sponsored_csa2
 
+!trend.aamto.com
+trend.aamto.com##.modal
+rcm.shinobi.jp/js/imp.js
+trend.aamto.com###topcontrol + div
+
+!newsen.com
+||ad.about.co.kr^
+||ad.adinc.kr^
+||ad.tjtune.com^
+||adexview.new-star.co.kr^
+||img.adinc.co.kr^
+||adop.cc^
+||www.dreamsearch.or.kr/servlet/adbnMobileBanner
+||ad4989.co.kr^
+
+!imbc.com
+||ads.imbc.com^
+
+!genie.co.kr
+||admixer.co.kr
+||adlc-exchange.toast.com^
+
+
+
 
 
 !japanese.engadget.com

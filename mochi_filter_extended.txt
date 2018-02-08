@@ -156,6 +156,13 @@ abcnews.go.com##.ad-slot
 !afp
 www.afpbb.com##aside.ad
 
+!washingtonpost
+!www.washingtonpost.com###pb-root
+www.washingtonpost.com###top-furniture
+||www.washingtonpost.com/wp-stat/advertising/
+||www.washingtonpost.com/pb/resources/img/sprites/ad-sprite.png
+||www.washingtonpost.com/wp-stat/ad/
+
 !Reddit
 www.reddit.com##.promoted
 www.reddit.com###siteTable_organic

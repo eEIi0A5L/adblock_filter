@@ -410,6 +410,10 @@ mail.yahoo.co.jp###shellcontent:style(top: 56px !important;)
 mail.yahoo.co.jp###msg-list:style(top: 0px !important;)
 
 
+!メール送信後に出る右広告
+mail.yahoo.co.jp###slot_MON_sent
+
+
 
 !END----------------------------------------------
 
@@ -840,6 +844,8 @@ weblio.jp###premium-house-ad-on-load-modal-container
 weblio.jp##td.linkTagRClrAd
 uwl.weblio.jp###induction-to-premium-member-for-vt-area
 ||weblio.hs.llnwd.net/e7/script/include/house_ad_on_load_modal_pc.js
+!プレミア
+uwl.weblio.jp##.take_cnt_mid_v2
 
 !alc
 eow.alc.co.jp###AreaUpperRight
