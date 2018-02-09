@@ -257,7 +257,43 @@ trend.aamto.com###topcontrol + div
 ||admixer.co.kr
 ||adlc-exchange.toast.com^
 
+!allkpop.com
+!下記はアンチアドブロッカーを起動させてしまうのでドメインで除外する
+||www.aduoso.com^$domain=~allkpop.com
+||lb.statsevent.com/stats/adonis_event
+||hb2.vertamedia.com/adunit
+||ad.afy11.net^
+||adserver.xpanama.net^
 
+!http://sports.khan.co.kr
+||t1.daumcdn.net/clix_adserving
+||adtechjp.com^
+||ad-exchange.toast.com^
+||cdn-exchange.toastoven.net/cdn/adc
+||ad.khan.co.kr
+||adv.khan.co.kr^
+||adv.imadrep.co.kr^
+||adv.imadrep.co.kr^
+||ads.mncmedia.co.kr^
+||sports.khan.co.kr/htdocs/ad/
+||ds.interworksmedia.co.kr/RealMedia/ads/
+||cm.interworksmedia.co.kr/adTagRequest.htm
+sports.khan.co.kr###scrollDiv
+||img2.keywordsconnect.com/iconAdImgKhan_36_60_01.gif
+||img.khan.co.kr/spko/sub_2014/img_ad_info_i.png
+
+!http://www.nocutnews.co.kr
+||jqueryscript.net^
+||www.nocutnews.co.kr/ad/
+||js2.keywordsconnect.com^
+||nad.cbs.co.kr^
+/realmedia/ads/$domain=~m.danawa.com
+||adv.mediaharbor.co.kr/nad/
+||adv.imadrep.co.kr^
+||adgrp1.ad4989.co.kr/cgi-bin/pelicanc.dll^
+||sunnyworks.co.kr/data/sw*.html^
+||livere.co.kr^
+||compass.adop.cc/rd/
 
 
 
