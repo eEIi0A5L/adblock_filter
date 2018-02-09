@@ -1,19 +1,19 @@
 [Adblock Plus 2.0]
 ! Title: 鏡もちフィルタ（全部入り）
-! Last modified: 16 Dec 2017 12:00 JST
+! Last modified: 09 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/
 
 
 
 
-!#include https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter.txt
-!#include https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter_extended.txt
-!#include https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/negi_filter.txt
-!#include https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kame_filter.txt
-!#include https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kotori_filter.txt
-!#include https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/ichigo_filter.txt
-!#include https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kujira_filter.txt
+!#include mochi_filter.txt
+!#include mochi_filter_extended.txt
+!#include negi_filter.txt
+!#include kame_filter.txt
+!#include kotori_filter.txt
+!#include ichigo_filter.txt
+!#include kujira_filter.txt
 
 
 !END

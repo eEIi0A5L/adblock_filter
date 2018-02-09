@@ -1,10 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: クジラフィルタ（コインマイニングブロック）
-! Last modified: 2018/1/4 12:00 JST
+! Last modified: 2018/2/9 12:00 JST
 ! Expires: 6 hours (update frequency)
 
-!#include https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
-!#include https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
+!【下記の購読が必要】
+! https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
+! https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
 
 
 ||coin-hive.com^$third-party
