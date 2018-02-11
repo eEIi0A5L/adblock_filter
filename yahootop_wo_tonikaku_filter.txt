@@ -52,6 +52,7 @@ www.yahoo.co.jp##div[style^="position: absolute; width: 100%;"]
 
 
 !Yahooニュース
-news.yahoo.co.jp##.lrec
+headlines.yahoo.co.jp###lrec
+news.yahoo.co.jp###lrec
 
 !END----------------------------------------------
