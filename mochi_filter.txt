@@ -440,6 +440,8 @@ microsoft.com###standardRating
 !outlook.live.com##:xpath(//div[@aria-label="advertisement"]/parent::div)
 outlook.live.com##:xpath(//div[@aria-label="advertisement"]/parent::div/parent::div)
 outlook.live.com##:xpath(//i[@data-icon-name="OutlookLogo"]/parent::div/parent::div/parent::div)
+!Otherメール最上部の広告
+!outlook.live.com##:xpath(//div[contains(@class, 'fbAdLink')]/parent::div/parent::div/parent::div/parent::div/parent::div)
 
 !Gyao
 !Gyao動画上の広告ブロック------------------------------
