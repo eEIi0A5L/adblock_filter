@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 28 Jan 2018 12:00 JST
+! Last modified: 13 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/ichigo.html
 ! 
@@ -36,7 +36,7 @@ xhamster.com##.sponsorTitle
 ||xhamster.com^$subdocument
 ||trafficstars.com^$third-party
 /banner.stats?$domain=xhamster.com
-xhamster.com##div > noscript + div[style
+!xhamster.com##div > noscript + div[style
 xhamster.com##div[style^="width: 330px"]
 
 !javfor.me
@@ -235,7 +235,7 @@ pornhub.com##iframe
 @@||phncdn.com/www-static/js/premium/$script
 @@||phncdn.com/www-static/js/ph-footer.js$script
 @@||phncdn.com/www-static/js/footer.js$script
-@@||phncdn.com/www-static/js/gif-$scrip
+@@||phncdn.com/www-static/js/gif-$script
 @@||phncdn.com/www-static/js/playlist/$script
 @@||phncdn.com/www-static/js/phub.$script
 @@||phncdn.com/www-static/js/header.js$script

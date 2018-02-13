@@ -18,6 +18,7 @@
 
 !Amazonアフィリエイトの削除
 !影響範囲が大きいのでしばらく様子をみる。2018.1.17 start
+!ニコニコ市場も消える←これはいいのか悪いのか？
 ~amazon.co.jp##a[href*="amazon.co.jp"][href*="-22"]
 !~amazon.co.jp##^a[href*="amazon.co.jp"][href*="-22"]
 

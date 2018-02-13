@@ -471,6 +471,7 @@ twitter.com##.promoted-trend
 !||pbs.twimg.com/ad_img/
 !||twitter.com/i/cards/tfw/v1/
 !?advertiser_name=$domain=twitter.com
+twitter.com##li.has-profile-promoted-tweet
 
 !ニコニコ動画＋ニコ生
 www.nicovideo.jp##.playerTabAds
@@ -753,7 +754,7 @@ kakaku.com##.c-ad
 ||thumbnail.image.rakuten.co.jp/@0_mall/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
 ||thumbnail.image.rakuten.co.jp/@0_gold/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
 !楽天の広告がhttp://hktdouga.blog.jp/で出る
-||afl.rakuten.co.jp^$domain~=kakaku.com
+||afl.rakuten.co.jp^$domain=~kakaku.com
 ||hbb.afl.rakuten.co.jp^
 ||hb.afl.rakuten.co.jp^
 
@@ -1011,7 +1012,7 @@ slashdot.org##.adwrap
 slashdot.org##.ad-blocked-newsletter
 slashdot.org##.advertisement
 slashdot.org###slashdot_deals
-slashdot.org##article:has(div[class*='sponsored']
+slashdot.org##article:has(div[class*='sponsored'])
 slashdot.org###firehose iframe
 ||m.xp1.ru4.com^
 !||a.fsdn.com^

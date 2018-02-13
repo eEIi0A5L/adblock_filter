@@ -16,7 +16,7 @@ cdn.mxpnl.com/libs/mixpanel-
 ustream.tv##.banner
 ustream.tv##.banner-wrapper
 ||ustream.tv/rgw/viewer/getadverts? 
-##.adHolder$domain=ustream.tv
+ustream.tv##.adHolder
 
 !cnn.co.jp
 !iframeを消すと動画エリアが消えてしまう
