@@ -152,9 +152,14 @@ abcnews.go.com##.ad-slot
 !なんかトラッキングぽいの
 ||tags.bluekai.com^
 ||vra.outbrain.com^
+||s.abcnews.com/assets/js/adCallOverride.js
 
 !afp
 www.afpbb.com##aside.ad
+www.afpbb.com###bnr-pc_1st_728x90
+www.afpbb.com###bnr-pc_1st_rec
+www.afpbb.com###bnr-pc_2nd_rec
+www.afpbb.com##.pr-text
 
 !washingtonpost
 !www.washingtonpost.com###pb-root
@@ -416,6 +421,19 @@ www.pcgamer.com###sidebar > div[style^="position: relative;"]
 ||srv.clickfuse.com/showads/adunit.php
 ||srv.clickfuse.com/showads/js/cf.min.js
 ||tracking.musixmatch.com^
+
+!歌詞サイトgenius.com
+||assets.genius.com/javascripts/compiled/ads-
+||librato-collector.genius.com/v1/metrics
+genius.com##.u-noselect
+!genius.com##.column_layout-column_span--secondary
+genius.com###song-page-sidebar-multi-placement
+
+!歌詞サイトhttp://www.metrolyrics.com
+||srv.tonefuse.com/showads/showad.js
+
+
+
 
 
 

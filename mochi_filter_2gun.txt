@@ -329,6 +329,13 @@ eikaiwa.dmm.com##.bnr_area + .total-wrap:style(margin-top: 0px !important)
 ||ads.servebom.com^
 ||cdn-s2s.buysellads.net^
 
+!studyinternational.com
+||advertising.oriel.io^
+||hm732.com/adverts/
+||s.po.st^
+||adsensecustomsearchads.com^
+
+
 
 
 !その他
