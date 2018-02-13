@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Title: 鏡もちフィルタ（全部入り）
+! Title: もち系全フィルタ（全部入り）
 ! Last modified: 09 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/
