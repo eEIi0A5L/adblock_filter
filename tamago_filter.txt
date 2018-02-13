@@ -419,7 +419,7 @@ m.huffingtonpost.jp##.advertisement
 www.tokyo-sports.co.jp##._popIn_infinite_ad
 ||popin.cc^
 www.tokyo-sports.co.jp##div[class^="_taxel_ad_article_"]
-www.tokyo-sports.co.jp##:xpath(//div[class^="_taxel_ad_article_"]/parent::li/parent::ul/parent::li)
+www.tokyo-sports.co.jp##:xpath(//div[contains(@class, '_taxel_ad_article_')]/parent::li/parent::ul/parent::li)
 
 !biglobeニュース
 ||speee-ad.akamaized.net^
