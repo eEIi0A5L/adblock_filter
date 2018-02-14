@@ -658,8 +658,9 @@ ameblo.jp##.subAdBannerHeader
 ||ameba.jp/adcross/pub/js/adLoader-
 !today's topicが消えてしまう
 !||ad.pr.ameba.jp^
-||ad.pr.ameba.jp^
-@@||ad.pr.ameba.jp/tpc/list/
+!なんか白くなる
+!||ad.pr.ameba.jp^
+!@@||ad.pr.ameba.jp/tpc/list/
 ||cnt.fout.jp^
 ameblo.jp##div[amb-component="entryAd"]
 ||js.fout.jp/beacon.html
@@ -667,7 +668,8 @@ ameblo.jp##div[amb-component="entryAd"]
 ||stat100.ameba.jp/adwords/adwords.js
 ||cdn.amanad.adtdp.com^
 ameblo.jp##.bfl-snews__outer
-||ssl-stat.amebame.com/pub/ads/
+!なんか白くなる
+!||ssl-stat.amebame.com/pub/ads/
 ameblo.jp##.skin-entryAd
 
 !Amebaニュース
