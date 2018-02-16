@@ -1,11 +1,17 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 06 Feb 2018 12:00 JST
+! Last modified: 16 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
 ! 
 
+!-----------------------
+!uBlock Origin の機能で亀フィルタも読み込む
+!セキュリティ対策のフィルタはPCとモバイルで共通なので。
+!→ユーザが意識しないフィルタを勝手にincludeすると混乱するのでやめた。
+!!!!!!!!!#include kame_filter.txt
+!-----------------------
 
 !共通
 ||google.com/pagead/
@@ -780,6 +786,9 @@ wired.jp###social-share
 
 !automaton
 ||jp.automaton.am/wp-content/plugins/ad-inserter/
+
+!enigma.co.jp
+enigma.co.jp##.sns_block_left
 
 
 

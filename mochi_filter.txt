@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 14 Feb 2018 12:00 JST
+! Last modified: 17 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -917,6 +917,69 @@ www.sankei.com###adToprectangle
 ||www.sankei.com/apr_news/js/others/adEx_display1.js
 ||www.sankei.com/apr_news/js/others/adsense_m3.js
 
+!時事ドットコム
+!列挙してみたが、数が多いので別の道を考える
+!www.jiji.com###v04-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###v04-2
+!www.jiji.com###v04-3
+!www.jiji.com###eco-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###eco-2
+!www.jiji.com###eco-3
+!www.jiji.com###pol-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###pol-2
+!www.jiji.com###pol-3
+!www.jiji.com###soc-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###soc-2
+!www.jiji.com###soc-3
+!www.jiji.com###int-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###int-2
+!www.jiji.com###int-3
+!www.jiji.com###afp-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###afp-2
+!www.jiji.com###afp-3
+!www.jiji.com###obt-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###obt-2
+!www.jiji.com###obt-3
+!www.jiji.com###etc-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###etc-2
+!www.jiji.com###etc-3
+!www.jiji.com###spo-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###spo-2
+!www.jiji.com###spo-3
+!www.jiji.com###pho-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###pho-2
+!www.jiji.com###pho-3
+!www.jiji.com###phl-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###phl-2
+!www.jiji.com###phl-3
+!www.jiji.com###movie-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###movie-2
+!www.jiji.com###movie-3
+!www.jiji.com###spe01-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###spe01-2
+!www.jiji.com###spe01-3
+!www.jiji.com###spe02-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###spe02-2
+!www.jiji.com###spe02-3
+!www.jiji.com###spe03-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###spe03-2
+!www.jiji.com###spe03-3
+!www.jiji.com###spe04-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###spe04-2
+!www.jiji.com###spe04-3
+!www.jiji.com###ent-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###ent-2
+!www.jiji.com###ent-3
+!www.jiji.com###akb-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###akb-2
+!www.jiji.com###akb-3
+!www.jiji.com###jfn-0 + script + div[style="width:300px;height:600px;"]
+!www.jiji.com###jfn-2
+!www.jiji.com###jfn-3
+!別の道
+www.jiji.com##div[style="width:300px;height:600px;"]
+www.jiji.com##div[style="width:300px; height:250px;"]
+
 
 !朝日
 www.asahi.com##.AdMod
@@ -977,11 +1040,16 @@ mainichi.jp##.ads
 ||ad.jp.ap.valuecommerce.com^
 www.sponichi.co.jp###ad
 www.sponichi.co.jp##div[id^="crt"]
+www.sponichi.co.jp###content-sub > p + div[style="width:300px;height:600px;"]
+www.sponichi.co.jp###annex_pc_entertainment_mid_rect
+www.sponichi.co.jp##.banner03
 
 !日刊スポーツ
 www.nikkansports.com###sideAd1
 www.nikkansports.com###sideAd2
 ||beacon.nikkansports.com^
+www.nikkansports.com##.ad-area
+||www.nikkansports.com/advertising/
 
 !東スポ
 !gif広告がちかちかしてうざい
@@ -989,6 +1057,13 @@ www.nikkansports.com###sideAd2
 ||www.tokyo-sports.co.jp/wp-content/uploads/2012/02/003.gif
 www.tokyo-sports.co.jp##.adsbygoogle
 ||www.tokyo-sports.co.jp/wp-content/themes/tospo/images/common/miyasaka.gif
+
+!NEWSポストセブン
+!gifアニメがうざい
+www.news-postseven.com##.banner
+www.news-postseven.com##.inner-ad
+!www.news-postseven.com###mailmag2
+||www.news-postseven.com/img3_renew/common/blomaga_20160131.gif
 
 !サンスポ
 www.sanspo.com##.adRectangleBanner
@@ -1064,6 +1139,15 @@ tofukko.blog113.fc2.com###title
 !Oricon
 ||contents.oricon.co.jp/pc/img/_parts/manual/os-ad
 www.oricon.co.jp##.block-header-banner
+!PRの行のgifアニメがうざいので消す
+!www.oricon.co.jp##:xpath(//div[contains(@class, 'pr')]/parent::a/parent::li)
+!右欄のやつ
+www.oricon.co.jp##:xpath(//div[@class='wrap-text pr']/parent::a/parent::li)
+!ページ下部のやつ
+www.oricon.co.jp##:xpath(//div[@class='wrap-text pr']/parent::a/parent::article)
+!人気のフォトギャラリーがくるくる変わるのがうざい
+www.oricon.co.jp##.block-sub-gallery
+
 
 !itmedia
 www.itmedia.co.jp###globalHeaderMiddle
