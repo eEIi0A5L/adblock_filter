@@ -161,6 +161,16 @@ www.afpbb.com###bnr-pc_1st_rec
 www.afpbb.com###bnr-pc_2nd_rec
 www.afpbb.com##.pr-text
 
+!TIME
+||www.zergnet.com^
+||d1z2jf7jlzjs58.cloudfront.net^
+||js-agent.newrelic.com^
+||cdn.comparecards.com^$domain=fortune.com|time.com
+||stats.wp.com^
+||tia.timeinc.net^
+||minute.ly^$domain=time.com
+time.com##.ad-wrapper
+
 !washingtonpost
 !www.washingtonpost.com###pb-root
 www.washingtonpost.com###top-furniture

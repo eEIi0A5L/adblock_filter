@@ -785,7 +785,8 @@ www.famitsu.com##.ad-header-video
 www.famitsu.com##.adArticleBottomWrap
 
 !impress
-watch.impress.co.jp##.ad
+!watch.impress.co.jp##.ad
+watch.impress.co.jp##.ad.billboard
 
 !weblio
 weblio.jp##.topic + .subMenuTop + .mainBlock
@@ -986,6 +987,9 @@ www.asahi.com##.AdMod
 ||ad.yieldlab.net^
 ||www.asahi.com/ad/
 ||www.asahicom.jp/ad/
+www.asahi.com##.Pr
+www.asahi.com##.OutbrainAdMod
+www.asahi.com##.PrTextMod
 
 !読売
 !||www.yomiuri.co.jp/cont2/ad/js/ad_world.js
@@ -1051,6 +1055,10 @@ www.nikkansports.com###sideAd2
 www.nikkansports.com##.ad-area
 ||www.nikkansports.com/advertising/
 
+!スポーツ報知
+www.hochi.co.jp##.ad_rectangle + script + div
+||www.hochi.co.jp/h_common/img/ad/nsk_banner_2017.gif
+
 !東スポ
 !gif広告がちかちかしてうざい
 ||www.tokyo-sports.co.jp/wp-content/themes/tospo/images/common/banner_reqruit_140526.gif
@@ -1065,6 +1073,10 @@ www.news-postseven.com##.inner-ad
 !www.news-postseven.com###mailmag2
 ||www.news-postseven.com/img3_renew/common/blomaga_20160131.gif
 
+!女性自身
+!あなたにオススメ全部広告
+jisin.jp##.rmd_reccomend
+
 !サンスポ
 www.sanspo.com##.adRectangleBanner
 
@@ -1072,6 +1084,13 @@ www.sanspo.com##.adRectangleBanner
 ||www.reuters.com/reuters_ads_framework.js
 !トラッキング
 ||qsearch.media.net/log?
+
+!西日本新聞
+||luxa.sslcs.cdngc.net/dynimg/
+!www.nishinippon.co.jp##.NP-subContentsSection
+||s3-ap-northeast-1.amazonaws.com/luxa/banner/nnp_widget.html
+||www.nishinippon.co.jp/bn/images/bn_epaper_billboard.jpg
+||www.nishinippon.co.jp/mobile/common/img/bn_eppaper_header.jpg
 
 
 

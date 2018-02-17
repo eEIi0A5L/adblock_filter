@@ -265,6 +265,9 @@ trend.aamto.com###topcontrol + div
 ||hb2.vertamedia.com/adunit
 ||ad.afy11.net^
 ||adserver.xpanama.net^
+www.allkpop.com##.ad-space
+www.allkpop.com###div-insticator-ad-1
+www.allkpop.com###div-insticator-ad-2
 
 !http://sports.khan.co.kr
 ||t1.daumcdn.net/clix_adserving
