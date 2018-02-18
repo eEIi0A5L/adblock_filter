@@ -2,10 +2,10 @@
 ! Title: 豆腐フィルタ
 ! Homepage: http://tofukko.r.ribbon.to/abp.html
 !
-! 最終更新 13:09 2017/11/16
+! 最終更新 19:59 2018/02/16
 !
 !--------通販サイト--------!
-amazon.co$third-party,~xmlhttprequest,domain=~amazon.co.jp|~amazon.com|~amazon.co.uk|~amazon.de|~aucfan.com|~book.akahoshitakuya.com|~book.asahi.com|~booklog.jp|~bookmeter.com|~bookvinegar.jp|~mail.google.com|~javari.jp|~kakaku.com|~nicovideo.jp|~comic.pixiv.net|~novel.pixiv.net
+amazon.co$third-party,~xmlhttprequest,domain=~amazon.co.jp|~amazon.com|~amazon.co.uk|~amazon.de|~aucfan.com|~book.akahoshitakuya.com|~book.asahi.com|~booklog.jp|~bookmeter.com|~bookvinegar.jp|~google.com|~javari.jp|~kakaku.com|~nicovideo.jp|~comic.pixiv.net|~novel.pixiv.net
 ||amiami.jp^$third-party
 ||amiami.com^$third-party
 ||animemerchant.com^$third-party
@@ -156,6 +156,7 @@ _ads.php
 !||adnico.jp^$third-party
 !||advision-adnw.jp^$third-party
 !||click-plus.net^$third-party
+!||cocoad.jp^$third-party
 !下にも
 !他あり||gsspcln.jp^
 !||medi-8.net^$third-party
@@ -288,7 +289,8 @@ _ads.php
 ||gmodmp.jp^$third-party
 ||googleadservices.com^$third-party
 ||iid-network.jp^$third-party
-||impact-ad.jp^$third-party
+	!tjapan.jp 画像
+||impact-ad.jp^$third-party,domain=~tjapan.jp
 ||infocart.jp^$third-party
 ||infolinks.com^$third-party
 ||infotop.$third-party
@@ -392,6 +394,7 @@ _ads.php
 ||trafficsway.net^$third-party
 ||triver.jp^$third-party
 ||trustclick.ne.jp^$third-party
+||tunnel-vision.info^$third-party
 ||tyrellsys.com^$third-party
 ||utarget.co.uk^$third-party
 ||valueclick.ne.jp^$third-party
@@ -468,6 +471,7 @@ _ads.php
 ||iwanttodeliver.com^$third-party
 ||jlist.com^$third-party
 ||jlisting.jp^$third-party
+||ladsp.com^$third-party
 ||liveadexchanger.com^$third-party
 ||m2pub.com^$third-party
 ||madadsmedia.com^$third-party
@@ -490,13 +494,16 @@ _ads.php
 ||sexart.com^$third-party
 ||slendastic.com^$third-party
 ||speednetwork14.com^$third-party
+||superfastcdn.com^$third-party
 ||teads.tv^$third-party
 ||toponclick.com^$third-party
+||tradeadexchange.com^$third-party
 ||trafficfactory.biz^$third-party
 ||trafficforce.com^$third-party
 ||trafficstars.com^$third-party
 ||trw12.com^$third-party
 ||tsyndicate.com^$third-party
+||velocecdn.com^$third-party
 ||veohclick.net^$third-party
 ||video-people.com^$third-party
 ||videoegg.com^$third-party
@@ -519,6 +526,7 @@ _ads.php
 ||r18.com$popup
 
 !----third-party
+||antena-maker.nekotool.com
 ||auone-net.jp/~$image,third-party
 ||bbchat.tv^*/bannar/
 ||dietnavi.com/pc/banner/
@@ -526,6 +534,7 @@ _ads.php
 ||gunosy.com/adnet/
 ||idea-unlimited.com/adsimg/
 ||imagefreak*.com^
+||javhd.com/sb/$third-party
 ||mgstage.com/afscript/
 ||mkd777.net/pd/
 ||open2ch.net/image/banner/
@@ -579,6 +588,8 @@ xhamster.com##.avdo.fr
 ||xvideos.com/in.php?
 !popup
 ||www.xvideos.com/video$xmlhttprequest
+!コメント見る用
+@@||www.xvideos.com/video-get-comments/
 !外部プレイヤー用
 ||flashservice.xvideos.com/embedframe/$xmlhttprequest
 
@@ -589,6 +600,19 @@ xvideos.com##.sponsor-popup
 !-----------openload.co
 ||cloudflare.com/cdn-cgi/nexp/$domain=openload.co
 ||openload.co/assets/js/license.5.js
+
+!-----------avgle.com
+||pussl48.com^
+||avgle.com/images.php
+||avgle.com/avideos.js
+
+	!anti adblock
+@@||ads.exosrv.com/ads.js$domain=avgle.com
+@@||exosrv.com/ads-iframe-display.php?callback=$domain=avgle.com
+
+avgle.com###player_3x2_container
+avgle.com##.vjs-poster
+avgle.com###aoverlay
 
 !-----------pron.tv
 ||ox2.pron.tv^$domain=pron.tv
@@ -628,6 +652,7 @@ heavy-r.com##.hd-ban
 @@||gelbooru.com/ads.js
 
 $script,third-party,domain=jpidols.tv
+/kok/*$domain=movie.eroterest.net
 |http://$subdocument,third-party,domain=adf.ly
 |http://$script,third-party,domain=youtube-mp3.org
 ||youtube-mp3.org^$subdocument,domain=youtube-mp3.org
@@ -670,6 +695,7 @@ $script,third-party,domain=jpidols.tv
 ||diced.jp/webs/
 ||dl8x.com/banner/
 ||dl8x.com/product?
+||dlbooks.to/img/special/ab.js
 ||dlsite.com/js/blog/DLsiteBlogBanner.js
 ||e-typing.ne.jp/app/ad_
 ||exploader.net/images/nls/
@@ -686,6 +712,7 @@ $script,third-party,domain=jpidols.tv
 ||google.com/uds/api/ads/
 ||gotporn.com/desktop/js/popunder-
 ||gotporn.com/main/js/exo-loader/
+||gum.dlbooks.to^$domain=dlbooks.to
 ||tsyndicate.com/iframes2/*$domain=gotporn.com
 ||grupo.jp/ad_loader/$domain=pitamo.jp
 ||hentai-foundry.com/themes/default/js/activebar.js
@@ -717,6 +744,7 @@ $script,third-party,domain=jpidols.tv
 ||linkage.kakaku.com^$domain=~kakaku.com
 ||majo.co.jp/jwd.js$domain=ribbon.to
 ||majo.co.jp/alpc.js$domain=ribbon.to
+||mangamura.org/showads.js
 ||mangaz.com/virgo/adv/
 ||match.seesaa.jp^
 ||mgstage.com/js/mgs_Widget.js?
@@ -744,12 +772,15 @@ $script,third-party,domain=jpidols.tv
 ||relart.fresheye.com^
 ||ribbon.to/alpc.js
 ||sanspo.com^*/adsence_
+||savevideo.me/ads-fallback/
 ||sea-saw.com^$domain=2dbook.com
 ||seesaa.jp/frame/
 ||share-videos.se/js/pjs.js
 ||shopping.sponichi.co.jp/scripts/sannex_banner_auction.js
 ||tatituteto.net/images/banner/
 ||thisav.com/index.js
+||thisav.com/player/video-js-banner/
+||xywdvhd.com^$domain=thisav.com
 ||tokyo-porn-tube.com/media/player/ads_
 ||tsumanne.net/amz/
 ||tsumanne.net/rakutensearch.php?
@@ -929,6 +960,7 @@ $script,third-party,domain=jpidols.tv
 ||afv.jp^$third-party
 ||al.l--l.jp^$third-party
 ||amung.us^$third-party
+||analysiswebtool.com^$third-party
 ||analytics.$third-party,domain=ustream.tv
 ||ashia.to^$third-party
 ||auriq.com^$third-party
@@ -1050,8 +1082,9 @@ $script,third-party,domain=jpidols.tv
 ||ugo2.jp^$third-party
 ||vizury.com^$third-party
 ||wa-track.com^$third-party
-||web-stats.jp^$third-party
+||web-analysis.click^$third-party
 ||web-kaiseki.net^$third-party
+||web-stats.jp^$third-party
 ||webdeki-analyze.com^$third-party
 ||webscouter.net^$third-party
 ||webtracker.jp^$third-party
@@ -1295,6 +1328,8 @@ $script,third-party,domain=jpidols.tv
 
 
 141tube.com###adultwarningmask
+2ch.vet###search_results ~ center > [href^="http://line.me/"] ~ [href^="https://"]
+2ch.vet##.thead-dark
 adultlog.net,btblog.jp##.story_box:first-child
 adultlog.net,btblog.jp##td.inside
 asageifuzoku.com###search
@@ -1310,7 +1345,7 @@ atwiki.jp##div[style="width: 160px;height:600px"]
 b.hatena.ne.jp##[data-track-section="related_product"]
 b9dm.com###ad4
 basso.to,nazca.co.jp##span[style="font-size:12px; line-height:120%;"]:first-child:last-child
-bing.com##.b_ad
+bing.com##[class^="b_ad"]
 biz-journal.jp##[id^="adEntry"]
 biz-journal.jp###forYouRecommend
 buttobi.net##div[style="position: relative; z-index:255;"]
@@ -1563,6 +1598,10 @@ tok2.com###tok2_footer
 ||yimg.jp/images/auc*promotion$domain=auctions.yahoo.co.jp
 ||yimg.jp/images/*300_60$domain=blogs.yahoo.co.jp
 ||yimg.jp/images/blog/smartphone/v2/img/bnr_
+
+!GYAOとか動画前広告
+||adserver-apne.tidaltv.com
+
 blogs.yahoo.co.jp###bottomAdBannerArea + div + div[style="width:950px;margin:0 auto 10px;"]
 blogs.yahoo.co.jp##.interestMatchWrap
 search.yahoo.co.jp##.ss
@@ -1836,6 +1875,8 @@ natgeo.nikkeibp.co.jp##.sideSubscriptionBanner
 
 !------------youtube------------!
 ||youtube.com^*=adunit&
+||youtube.com/get_midroll_
+||youtube.com/yts/jsbin/www-pagead-id-
 
 ||youtube.com/player_204?
 ||youtube.com/ptracking?
@@ -1998,10 +2039,13 @@ pirori2ch.com##.box162
 $domain=warotanikki.com,third-party
 @@||ajax.cloudflare.com/cdn-cgi/nexp/dok3v=e982913d31/cloudflare.min.js$domain=warotanikki.com
 @@||youtube.com/embed/*$domain=warotanikki.com
+
 !1000
 1000mg.jp##.main
 1000mg.jp##.title
 1000mg.jp###text-3
+
+burusoku-vip.com##.article-body-more > DIV:last-child
 
 !--------ホワイトリスト--------!
 	!動画シーク
@@ -2011,6 +2055,8 @@ $domain=warotanikki.com,third-party
 	!動画見れない
 	!http://www.tbs.co.jp/muryou-douga/
 @@||ad.auditude.com/adserver/$xmlhttprequest,domain=tver.jp|www.tbs.co.jp
+	!全消し 2018/02/16様子見
+@@||ad.pr.ameba.jp/tpc/
 @@||ad-link.jp*/index.php?
 @@||bc.geocities.yahoo.co.jp/js/bbs/
 @@||bing.com/fd/ls/*$ping
@@ -2029,16 +2075,16 @@ $domain=warotanikki.com,third-party
 @@||linkbucks.com/scripts/intermissionLink.
 	! https://downdetector.jp/shougai/ocn/mappu map消える
 @@||maps.gstatic.com/maps-api-v3/api/js/19/13/intl/ja_ALL/adsense.js
-	! あちこち 面倒だから大サービスで全部許可 例：スケジュール https://www.mlb.com/rangers/schedule/
+	! あちこち 面倒だから大サービスで全部許可 例：スケジュール
+	! https://www.mlb.com/rangers/schedule/
 @@||mlb.com^$elemhide
 	! 動画見れない
 @@||nhkonline.hb.omtrdc.net/settings/*-adobeorg.xml?$domain=www3.nhk.or.jp
 @@||nytimes.com^$elemhide
 	! 右側の勝率などの欄が非表示
 @@||opgg-static.akamaized.net/js3/tracker.js?*$domain=op.gg
-	!変なの出る
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sekai-kabuka.com
-@@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=sekai-kabuka.com
+	!ポイント貯めるサイト
+@@||pointi.jp^$elemhide
 @@||pointservice.com^$elemhide
 	!動画見れ
 @@||popads.net/pop.js$domain=jav4.me
@@ -2077,6 +2123,8 @@ appget.com#@#[class$="_ad"]:not(html):not(body):not(.p_no_ad)
 appmk2.net#@#.advertisement
 	!動画見れない
 ashemaletube.com#@#[class$="-ads"]:not(html):not(body)
+
+bookmeter.com#@#.sidebar a[href*="amazon.co.jp"]
 	!プロフィール辺り
 cam4.com#@#[class$="-ads"]:not(html):not(body)
 	!top全部
@@ -2091,10 +2139,8 @@ eiga.com#@#[id$="_ad"]:not(html):not(body)
 freshlive.tv#@#[class$="Ad"]:not(html):not(body)
 	!動画見れない
 gogoanime.to#@#[class$="-ads"]:not(html):not(body)
-	!編集画面にて終日のチェックボックスが消える
-calendar.google.com#@#[id$="-ad"]:not(html):not(body)
-	!予定が消える
-calendar.google.com#@#[class*="-ad-"]:not(html):not(body):not([class*="vjs-"])
+	!通知設定辺り
+calendar.google.com#@#[class$="Ad"]:not(html):not(body)
 	!ヘッダー 検索バー
 news.google.com#@#[class$="Ad"]:not(html):not(body)
 	!画像消え https://gyazo.com/c6dbfd4f056d5bfd8ed1db25c1e66f4d
@@ -2114,6 +2160,8 @@ huffingtonpost.jp#@#[class^="ad_"]:not(html):not(body)
 inbox.google.com#@#.ad
 	!inoreaderエントリ記事右上の日付表示が消える
 inoreader.com#@#[id^="ad_"]:not(html):not(body):not(#ad_table)
+	!検索結果 URL
+ixquick.com#@#[class^="ads_"]:not(html):not(body)
 	!本文
 jp.wsj.com#@#[id$="_ads"]:not(html):not(body)
 	!top body直下
@@ -2141,6 +2189,8 @@ mondotv.jp#@#[class*="_ad_"]:not(html):not(body)
 moneyforward.com#@#[class$="-ad"]:not(html):not(body)
 	! my.gamecity.ne.jp ログイン後アバター部分が消える
 my.gamecity.ne.jp#@#[id$="_ad"]:not(html):not(body)
+	!全消し
+nationalgeographic.com#@#[class^="ad-"]:not(html):not(body)
 	!動画を再生すると消える
 	!news24.jp#@#[class*="-ad-"]:not(html):not(body):not([class*="vjs-"])
 	!GINZA コメント欄が消える
@@ -2161,10 +2211,15 @@ openload.co#@#[class$="-ad"]:not(html):not(body)
 optifine.net#@#[class$="Ads"]:not(html):not(body)
 	! http://www.paw.hi-ho.ne.jp/milbesos/apldl.shtml
 paw.hi-ho.ne.jp#@#[class^="ad_"]:not(html):not(body)
+	!本文
+pcgamingwiki.com#@#[class$="-ads"]:not(html):not(body)
 	!投稿欄
 plus.google.com#@#[class$="Ad"]:not(html):not(body)
 	!右側サイドバー全部
 qanda.rakuten.ne.jp#@#[id*="_ad_"]:not(html):not(body)
+	!エントリーパッケージ云々
+	!https://mobile.rakuten.co.jp/select/?l-id=top_carousel_pc_select
+mobile.rakuten.co.jp#@#a[href*="ac.ebis.ne.jp/tr_set.php?"]
 	!記事本文
 rollingstonejapan.com#@#[class$="-ad"]:not(html):not(body)
 	!一部画像が消える
@@ -2172,10 +2227,14 @@ sai-zen-sen.jp#@#[class*="-ad "]:not(html):not(body)
 sai-zen-sen.jp#@#[class$="-ad"]:not(html):not(body)
 	!変なの出る
 sekai-kabuka.com#@#.adsbygoogle
+	!検索結果 urlが消える
+startpage.com#@#[class^="ads_"]:not(html):not(body)
 	!anti adblock
 thisav.com#@#[id$="_ad"]:not(html):not(body)
-	!検索次へ
+	!検索次へ 
+	!2018/01/31 URL一本化されてた
 touch.pixiv.net#@#[class^="ads-"]:not(html):not(body)
+pixiv.net#@#[class^="ads-"]:not(html):not(body)
 	!本文
 tofukko.com#@#[class$="_ad"]:not(html):not(body):not(.p_no_ad)
 	!ヘッダー辺り
@@ -2199,6 +2258,18 @@ wiimk2.net#@#.advertisement
 www.paw.hi-ho.ne.jp#@#[class^="ad_"]:not(html):not(body)
 	!top
 youtube.com#@#[class*="-ad-"]:not(html):not(body):not([class*="vjs-"])
+
+
+!-------------------anti adblock-------------------------!
+	!変なの出る
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sekai-kabuka.com
+@@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=sekai-kabuka.com
+	!anti adblock
+@@||9ketsuki.info^$elemhide
+@@||battlecats-db.com^$elemhide
+@@||pagead2.googlesyndication.com/pagead/$domain=9ketsuki.info|battlecats-db.com
+	!503を返す
+k05.biz,z0i.net#@#.adsbygoogle
 
 !-------------------Mobile用(オマケ)---------------------!
 ||ad-stir.com^$third-party
@@ -2237,7 +2308,6 @@ youporn.com##script:contains(ChromePopMouseDownHandler)
 redtube.com##script:contains(var rAb=)
 redtube.com##script:contains(tj_ads)
 pornhub.com##script:contains(tj_ads)
-thisav.com##script:contains(jsPopunder)
 tube8.*##script:contains(adblock)
 txxx.com##script:contains(ad_sub)
 xhamster.com##script:contains(dataPopUnder)
