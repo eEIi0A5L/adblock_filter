@@ -157,6 +157,8 @@ matome-plus.net##a[href^="http://www.amazon.co.jp"]
 !http://deaiman.net/wp/wp-content/themes/houou/css/modal.css
 ||deaiman.net/wp/wp-content/themes/houou/js/modalConfirm.js
 
+!まとめるん
+||ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js$domain=wakuloobe.jeez.jp
 
 
 !まとめその他

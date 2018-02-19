@@ -906,6 +906,22 @@ dictionary.goo.ne.jp##.NR-ad
 itpro.nikkeibp.co.jp##.list_G
 itpro.nikkeibp.co.jp##ul.list_G
 
+!-----------------------------------------------------------------------
+!http://natgeo.nikkeibp.co.jp
+!下記動画の先頭に動画広告の空白秒１０秒が入る
+!http://natgeo.nikkeibp.co.jp/atcl/news/18/021600072/?P=2
+||ads.freewheel.tv^
+||demdex.net^
+/b/ss/*&aqe=
+||omtrdc.net^
+||b97.yahoo.co.jp/pagead/
+||b92.yahoo.co.jp/search/?
+||s.yimg.jp/images/listing/tool/cv/conversion.js
+||imrworldwide.com^
+||1c6e2.v.fwmrm.net/ad/
+@@||adm.fwmrm.net^*/admanager.js$script
+!-----------------------------------------------------------------------
+
 !産経
 ||www.sankei.com/apr_news/js/others/adGpt.js
 ||www.sankei.com/apr_west/js/others/adEx_display1.js
