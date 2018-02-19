@@ -22,3 +22,4 @@ youtube.com###masthead-ad
 ||youtube.com/pagead/
 ||doubleclick.net^
 ||2mdn.net^
+
