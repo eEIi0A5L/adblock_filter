@@ -217,7 +217,8 @@ mg.mail.yahoo.com###slot_MB
 www.yahoo.com###sherlock
 vplayer.nbcsports.com#sherlock
 !Yahoo Answers
-answers.yahoo.com##div[id*='-textads']
+answers.yahoo.com##div[id$='-textads']
+answers.yahoo.com###ya-darla-LDRB
 answers.yahoo.com###dmRosAdWrapper-After1st
 !answers.yahoo.com##iframe
 !answers.yahoo.com##.Answers.r-question
@@ -362,7 +363,7 @@ lyricsfreak.com##.twitter-share-button
 lyricsfreak.com##.vbanner_lyrics
 lyricsfreak.com##[id^="ad_"]:not(#ad_table):not(body)
 lyricsfreak.com##[lazy-ad="lefttop_banner"]
-lyricsfreak.com##[style*="width:728px;"][style*="height:90px;"]
+!lyricsfreak.com##[style*="width:728px;"][style*="height:90px;"]
 
 !fakename
 ||cdn15.acloudimages.com/

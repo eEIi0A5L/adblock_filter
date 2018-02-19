@@ -30,7 +30,8 @@
 
 !やたらCMがうざい
 ||sun-mining.com^$third-party
-
+!CMがやたらうざい２
+||icerockmining.io^$third-party
 
 
 !END

@@ -22,6 +22,9 @@
 !→重いのでやめた
 !~amazon.co.jp##a[href*="amazon.co.jp"][href*="-22"]
 !~amazon.co.jp##^a[href*="amazon.co.jp"][href*="-22"]
+!Amazonアフィリエイト
+!例
+!http://hamusoku.com/
 
 !END------------
 
@@ -149,6 +152,10 @@ matome-plus.net##a[href^="http://www.amazon.co.jp"]
 ||rdp.pro.ne.jp^
 ||bitflyer.jp^$third-party
 
+!pinkまとめんばー
+!deaiman.net##^.modal
+!http://deaiman.net/wp/wp-content/themes/houou/css/modal.css
+||deaiman.net/wp/wp-content/themes/houou/js/modalConfirm.js
 
 
 

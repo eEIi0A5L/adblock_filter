@@ -126,7 +126,8 @@ goo.ne.jp##div[id^="gooad"]
 ||lodeo-adnw.adtdp.com^
 ||yads.c.yimg.jp/js/yads.js
 ||adcdn.goo.ne.jp/images/js/smarttag-news-news.js
-news.goo.ne.jp##div[style*="fixed"]
+!news.goo.ne.jp##div[style*="fixed"]
+news.goo.ne.jp##div[style^="height: 50px; position: fixed;"]
 blog.goo.ne.jp##.global_footer + style + div
 blog.goo.ne.jp##.userblog_title
 oshiete.goo.ne.jp##.theAppLink
