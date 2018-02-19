@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 07 Feb 2018 12:00 JST
+! Last modified: 19 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -220,6 +220,9 @@ vplayer.nbcsports.com#sherlock
 answers.yahoo.com##div[id$='-textads']
 answers.yahoo.com###ya-darla-LDRB
 answers.yahoo.com###dmRosAdWrapper-After1st
+answers.yahoo.com###dmRosAdWrapper-After5th
+answers.yahoo.com###ya-trending-now
+answers.yahoo.com###ya-darla-LREC
 !answers.yahoo.com##iframe
 !answers.yahoo.com##.Answers.r-question
 answers.yahoo.com###tgtMAST
