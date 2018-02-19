@@ -1106,12 +1106,12 @@ srad.jp###tophat
 srad.jp###gpt-sd_index_rec
 
 !Slashdot
-slashdot.org##article[class*='sponsored']
+!slashdot.org##article[class*='sponsored']
 slashdot.org##.adwrap
 slashdot.org##.ad-blocked-newsletter
 slashdot.org##.advertisement
 slashdot.org###slashdot_deals
-slashdot.org##article:has(div[class*='sponsored'])
+!slashdot.org##article:has(div[class*='sponsored'])
 slashdot.org###firehose iframe
 ||m.xp1.ru4.com^
 !||a.fsdn.com^

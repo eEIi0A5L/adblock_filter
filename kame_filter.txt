@@ -75,6 +75,7 @@
 ||imgur.com.mine.bz^
 ||imgur.com.
 ||afi.click^
+!https://egg.5ch.net/test/read.cgi/software/1475377484/654
 !つい最近ブラウザがnewtab.clubに感染しました
 !設定をリセットしても消えないし、プログラムから検索しても該当する項目が見つかりません
 ||newtab.club^
@@ -90,6 +91,12 @@
 !http://cococo.indforever.net/20180214/0203d02dgd09.html
 ||cococo.indforever.net^
 !END-----------------------------------------------------------
+
+!START-------------------------------------
+!架空請求業者
+||ero-japan.net^
+||eroeroxhamster8.pw^
+!END---------------------------------------
 
 !例外-------------------------------------------------
 !住所でぽん→xyz自体をはずした

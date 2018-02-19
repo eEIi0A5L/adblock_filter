@@ -67,7 +67,7 @@ www.google.co.jp###sbfrm_l + div
 !weblio
 weblio.jp###footFixBar
 weblio.jp##.indexSideAdTop
-weblio.jp##div[id*='div-gpt-ad']
+!weblio.jp##div[id*='div-gpt-ad']
 weblio.jp##.premiumEntry
 ejje.weblio.jp##iframe
 weblio.jp##.prmmSrvc
