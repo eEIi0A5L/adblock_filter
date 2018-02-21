@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 20 Feb 2018 12:00 JST
+! Last modified: 22 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -525,11 +525,17 @@ www.nicovideo.jp##.CommentPanelContainer:style(bottom: 0px !important;)
 www.nicovideo.jp##:xpath(//div[@id="web_pc_premium"]/parent::div)
 blog.nicovideo.jp###web_pc_prime
 www.nicovideo.jp##.sideAd
+www.nicovideo.jp###web_pc_prime
+www.nicovideo.jp###head_ads
 
 
 !ニコニコ大百科
 dic.nicovideo.jp##.ad-bannar-maincolumn-top
 dic.nicovideo.jp##.box + img + div
+
+!Twitch
+!twitchでカウントが増え続ける問題の解法
+@@||sb.scorecardresearch.com/p?$image,domain=twitch.tv
 
 !Abema Fresh
 !下記をブロックするとGyaoが見れない
@@ -569,6 +575,9 @@ dic.nicovideo.jp##.box + img + div
 |webed.dm.gg^$third-party
 ||dmxleo.dailymotion.com^
 ||c.eu1.dyntrk.com^
+!dailymotionでカウントが増え続ける問題の解法
+@@||logger-04.vty.dailymotion.com/dm/desktop-windows/player_data/a/$image,domain=www.dailymotion.com
+@@||b.scorecardresearch.com/p?c1=2&$image,domain=www.dailymotion.com
 
 !５ちゃんねる、２ちゃんねる
 /bannar/$domain=5ch.net|2ch.net|bbspink.com
@@ -788,6 +797,9 @@ www.famitsu.com##.ad-header-video
 ||www.famitsu.com/js/1411/ad.js
 www.famitsu.com##.adArticleBottomWrap
 
+!電撃オンライン
+dengekionline.com###rectangleBanner
+
 !impress
 !watch.impress.co.jp##.ad
 watch.impress.co.jp##.ad.billboard
@@ -859,6 +871,7 @@ uwl.weblio.jp###induction-to-premium-member-for-vt-area
 ||weblio.hs.llnwd.net/e7/script/include/house_ad_on_load_modal_pc.js
 !プレミア
 uwl.weblio.jp##.take_cnt_mid_v2
+||weblio.hs.llnwd.net/e7/img/theme_learning_banner1.png
 
 !alc
 eow.alc.co.jp###AreaUpperRight
@@ -1067,6 +1080,8 @@ www.sponichi.co.jp##div[id^="crt"]
 www.sponichi.co.jp###content-sub > p + div[style="width:300px;height:600px;"]
 www.sponichi.co.jp###annex_pc_entertainment_mid_rect
 www.sponichi.co.jp##.banner03
+www.sponichi.co.jp###annex_pc_baseball_mid_rect
+www.sponichi.co.jp###annex_pc_baseball_foot_rect
 
 !日刊スポーツ
 www.nikkansports.com###sideAd1
@@ -1345,11 +1360,11 @@ www.tumblr.com##.dfp-ad-container
 
 !AccuWeather
 accuweather.com###header-davek
-https://vortex.accuweather.com/adc2010/images/misc/Ad_
+||vortex.accuweather.com/adc2010/images/misc/Ad_
 www.accuweather.com##.column-2-world
 
 !weathernews
-//mwsgvs.weathernews.jp/weekend-explorer/banner.jpg
+||mwsgvs.weathernews.jp/weekend-explorer/banner.jpg
 
 !atwiki
 ||img.atwikiimg.com/common/_js/atheadbar.js
@@ -1436,7 +1451,7 @@ open.spotify.com##.ads-container
 ||nend.net^
 ||adingo.jp^
 ||gsspcln.jp^
-
+||aspm.jp^
 
 
 ! END

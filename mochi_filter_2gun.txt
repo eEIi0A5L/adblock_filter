@@ -160,6 +160,16 @@ matome-plus.net##a[href^="http://www.amazon.co.jp"]
 !まとめるん
 ||ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js$domain=wakuloobe.jeez.jp
 
+!草アンテナ
+||aspm.jp^
+
+!buzz-cafe.net
+buzz-cafe.net###ist_overlay2
+
+!ラビット速報
+||matigaeta.com/cubesan/syncs_article_in.js
+||rabitsokuhou.2chblog.jp/images/img/img/adJS/
+
 
 !まとめその他
 ||track.bannerbridge.net/adtserv.php

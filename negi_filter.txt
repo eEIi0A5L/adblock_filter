@@ -85,8 +85,10 @@ abema.tv##:xpath(//p[contains(text(), "お使いのブラウザは推奨環境")
 !:ifで書き直した
 !→:ifの方が重いような気がするのでやめた。
 !abema.tv##div:if(> div > p:has-text(お使いのブラウザは推奨環境))
+!abema.tv##div#main > div > div + header + div:if(> div > p:has-text(お使いのブラウザは推奨環境))
 abema.tv##:xpath(//span[contains(text(), "最大4ヶ月プレミアムプランが実質無料")]/parent::p/parent::a/parent::h1)
 !abema.tv##h1:if(> a > p > span:has-text(最大4ヶ月プレミアムプランが実質無料))
+!abema.tv##div#main div > main > div > section > h1:if(> a > p > span:has-text(最大4ヶ月プレミアムプランが実質無料))
 
 !Yahoo!Japan
 yahoo.co.jp###promoarea
@@ -229,6 +231,9 @@ www.nikkansports.com##.special_newsflash
 !huffingtonpost.jp
 !メールマガジン登録枠が毎回でてめざわり
 www.huffingtonpost.jp##.newsletter-toaster
+
+!MailOnline
+www.dailymail.co.uk##.floating-buttons
 
 !Instagram
 instagram.com##footer + div
