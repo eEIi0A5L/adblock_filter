@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 02 Feb 2018 12:00 JST
+! Last modified: 23 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -10,6 +10,7 @@
 !２軍フィルタ
 
 !もち----------------------------------------------
+
 
 !共通----------
 !このパターンがやたら多い。2017.12.2
@@ -40,6 +41,49 @@
 
 !ニュー速クオリティ
 ||js.blozoo.info/js/amatool/blogparts.js
+news4vip.livedoor.biz##.google-2ad-m
+news4vip.livedoor.biz##.google-2ad-b
+!pickupが邪魔
+!news4vip.livedoor.biz##.article-body-more > div
+!news4vip.livedoor.biz##.article-body-more > div + b > a
+!news4vip.livedoor.biz##.article-body-more > div + b > a > b > b > a
+!news4vip.livedoor.biz##a[href^="http://matomeantena.com/feed/"]
+!news4vip.livedoor.biz##a[href^="http://new-soku.net/v.php?md=new&id="]
+!news4vip.livedoor.biz##a[href^="http://2ch-c.net/?gt="]
+!news4vip.livedoor.biz##a[href^="http://newser.cc/date-"]
+!news4vip.livedoor.biz##a[href^="http://blog.livedoor.jp/rbkyn844/archives/"]
+!news4vip.livedoor.biz##a[href^="http://moudamepo.com/pick.cgi?code=2142&date="]
+!news4vip.livedoor.biz##a[href^="http://tokkaban.com/?article_id="]
+!news4vip.livedoor.biz##a[href^="http://2ch.logpo.jp/news"]
+news4vip.livedoor.biz##.article-body-more > div[style="background-color: white; padding: 5px; margin: 5px; line-height: 1.9; border: 1px solid rgb(105, 105, 105);"]
+news4vip.livedoor.biz##.article-body-more a
+||cdn-ak.b.st-hatena.com/images/users/gif/normal/00000.gif
+news4vip.livedoor.biz##.google-2ad
+!最後の空白を消そうとしたけど複雑すぎるのでやめた
+!news4vip.livedoor.biz##div.article-body-more > b > b:nth-last-child(2) > b > b > b:last-child
+!ニュー速クオリティ
+||ip.affiliate.dmm.com^
+||rcv.a-i-ad.com^
+||track.affiliate-b.com^
+||js.gsspcln.jp/l/rtct_adp_lib_min.js?
+||pc.tunnel-vision.info/js/tad.js
+||cs.gssprt.jp^
+||js.click-plus.net^
+
+!---------------------------------------------------------------------------------------
+!この手のまとめサイトを書いていたらきりがないのでコメント化
+!!たんたん
+!http://kavchanvv.topaz.ne.jp/fhlwe/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=4.5.13
+!
+!!!旬なネタ帳
+!||blues.plovdivtv.com/wp-content/themes/sp_shenron/js/modalConfirm.js
+!!リンクをクリックするとポップアップが開く
+!!→ブロック方法不明
+!||japangoo.red$popup
+!||blues.plovdivtv.com$popup
+!||luyuan-sp.com$popup
+!!https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-popups
+!---------------------------------------------------------------------------------------
 
 !ハムスター速報
 ||blog.livedoor.jp/hamusoku/amazon_ranking.js
@@ -56,6 +100,8 @@
 ||sync.adotmob.com^
 ||js1.ziyu.net/txt_ad.js
 ||a.tribalfusion.com^
+||images-fe.ssl-images-amazon.com/images/$domain=blog.livedoor.jp
+blog.livedoor.jp##.kar_wraper
 
 !やらおん
 ||pics.dmm.com/af/dmmad/pure_ads/
@@ -63,6 +109,9 @@
 ||blog.livelog.biz/script/js/yon_adsense.js
 ||accesstrade.net^
 ||mmmzy.jp^
+yaraon-blog.com##a[href^="http://ad.dmm.com/ad/"]
+||images-fe.ssl-images-amazon.com/images/$domain=yaraon-blog.com
+yaraon-blog.com##.yon_ga_box
 
 !はいほー速報・改
 ||nend.net^
@@ -98,20 +147,15 @@ jin115.com##.footer_social_ad
 !jin115.com##^a
 !下記がなぜか効かない。バグなのか仕様なのか。。。うーん
 !jin115.com##^a[href^="http://www.amazon.co.jp"]
+jin115.com##table:has(a)
+||images-fe.ssl-images-amazon.com/images/$domain=jin115.com
 
 !まとめサイト速報＋
 matome-plus.net##a[href^="http://www.amazon.co.jp"]
 
 
 
-!ニュー速クオリティ
-||ip.affiliate.dmm.com^
-||rcv.a-i-ad.com^
-||track.affiliate-b.com^
-||js.gsspcln.jp/l/rtct_adp_lib_min.js?
-||pc.tunnel-vision.info/js/tad.js
-||cs.gssprt.jp^
-||js.click-plus.net^
+
 
 !ゲハ速
 ||js.adnico.jp^
@@ -122,10 +166,17 @@ matome-plus.net##a[href^="http://www.amazon.co.jp"]
 !広告代理業者っぽい
 ||antennash.com^
 ||rc5.i2i.jp^
+||images-fe.ssl-images-amazon.com/images/$domain=gehasoku.com
+||ecx.images-amazon.com/images/$domain=gehasoku.com
 
 !トレンドニュース速報
 ||our-trend.com/wp-content/plugins/uji-popup/js/popups.js?
 ||meerkat.jarodtaylor.com/download/jquery.meerkat.1.3.min.js
+
+!はちま起稿
+||images-fe.ssl-images-amazon.com/images/$domain=blog.esuteru.com
+||ecx.images-amazon.com/images/$domain=blog.esuteru.com
+blog.esuteru.com##.amazlet-box
 
 !ねぎ速
 ||pc.clickmedias.info/js/ad.js

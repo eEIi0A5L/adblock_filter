@@ -62,7 +62,8 @@ www.youtube.com##.iv-promo
 www.google.co.jp###taw
 www.google.co.jp##:xpath(//div[@id="tads"]/parent::div/parent::div)
 www.google.co.jp###bottomads
-||google.co.jp/gen_204?$other
+!下に書いてある
+!||google.co.jp/gen_204?$other
 google.co.jp##.commercial-unit-desktop-rhs
 ||www.google.com/ads/
 ||google.*/gen_204?$other
@@ -249,7 +250,8 @@ headlines.yahoo.co.jp###ycd-module
 
 
 !https://news.yahoo.co.jp/pickup/6264266とかでたまにtaboolaが接続重くなって映像が見れないのではじいておく。Peter Lowe’s Ad and tracking server list​​​​​​​​​でブロック済。
-||taboola.com^
+!http://www.afpbb.comで→こんな記事も読まれていますが消えてしまう
+!||taboola.com^
 
 !ここで本編前に広告動画が表示された
 !https://headlines.yahoo.co.jp/videonews/jnn?a=20180219-00000025-jnn-soci
@@ -338,6 +340,9 @@ auctions.yahoo.co.jp###So1
 !下部広告
 auctions.yahoo.co.jp###So2
 
+
+!ヤフオク右上の広告
+auctions.yahoo.co.jp##.acMdAdPr
 
 
 
@@ -901,7 +906,8 @@ dictionary.goo.ne.jp##.NR-ad
 
 !livedoor
 ||news.livedoor.com/js/ads.0.5.js
-||popin.cc^
+!http://www.afpbb.com/であわせて読みたいが消えてしまう
+!||popin.cc^
 ||js.cocoad.jp^
 
 !ZAKZAK
@@ -1030,7 +1036,8 @@ www.asahi.com##.PrTextMod
 ||adserver.adtechjp.com^
 ||www.yomiuri.co.jp/cont2/ad/
 !文字列選択したときのポップアップ？
-||api.popin.cc^
+!http://www.afpbb.com/であわせて読みたいが消えてしまう
+!||api.popin.cc^
 !||www.yomiuri.co.jp/cont2/ad/js/ad_home.js
 ||www.yomiuri.co.jp/adv/
 ||www.yomiuri.co.jp/cont2/ad/
@@ -1219,7 +1226,8 @@ dlv.itmedia.jp/adsv/
 http://www.itmedia.co.jp/news/files/20160914/file_bit_article_bottom_ad.html
 www.itmedia.co.jp##.colBox.colBoxArtTopRcm
 ||widgets.outbrain.com/outbrain.js
-||cdn.cxense.com/cx.js
+!http://www.afpbb.comで、話題の記事が消えてしまう
+!||cdn.cxense.com/cx.js
 ||beacon.watch.impress.co.jp/measure
 !itmedia検索時の広告
 ||www.google.com/afs/ads?

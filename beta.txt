@@ -9,8 +9,9 @@
 !試験運用開始2018.2.8
 !.jp,.net,.com,.org,.me,.tv,.biz,.info,~amazon.co.jp##^a[href*="amazon.co.jp"][href*="-22"]
 !.jp,.net,.com,.org,.me,.tv,.biz,.info,~rakuten.co.jp##^iframe[id^="rakuten"]
-~amazon.co.jp##^a[href*="amazon.co.jp"][href*="-22"]
-~rakuten.co.jp##^iframe[id^="rakuten"]
+!→重い
+!~amazon.co.jp##^a[href*="amazon.co.jp"][href*="-22"]
+!~rakuten.co.jp##^iframe[id^="rakuten"]
 
 !下記をONにすると下記で文字化け2018.2.2 uBlock Origin 1.15.0
 !https://github.com/gorhill/uBlock/issues/3399

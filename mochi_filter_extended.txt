@@ -398,8 +398,9 @@ wear.jp###gbl_ad
 
 
 !livedoor
-||i.popincdn.com^
-||api.popin.cc^
+!http://www.afpbb.com/であわせて読みたいが消えてしまう
+!||i.popincdn.com^
+!||api.popin.cc^
 ||news.livedoor.com/js/ads.0.5.js
 
 !Flickr
