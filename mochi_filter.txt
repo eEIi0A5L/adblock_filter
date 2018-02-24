@@ -1134,6 +1134,8 @@ www.sanspo.com##.adRectangleBanner
 ||www.nishinippon.co.jp/bn/images/bn_epaper_billboard.jpg
 ||www.nishinippon.co.jp/mobile/common/img/bn_eppaper_header.jpg
 
+!神戸新聞
+www.kobe-np.co.jp##.newsfeedList_new > .native
 
 
 !まんたんウェブ
@@ -1211,7 +1213,8 @@ www.oricon.co.jp##.block-sub-gallery
 
 
 !itmedia
-www.itmedia.co.jp###globalHeaderMiddle
+!レイアウトが崩れる
+!www.itmedia.co.jp###globalHeaderMiddle
 www.itmedia.co.jp###ISACB
 www.itmedia.co.jp###ITOT
 www.itmedia.co.jp###ITRR

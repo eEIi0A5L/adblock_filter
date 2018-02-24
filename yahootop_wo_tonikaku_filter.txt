@@ -24,30 +24,29 @@ www.yahoo.co.jp###js-ninjyo
 www.yahoo.co.jp###yjidbox
 www.yahoo.co.jp###ultra
 www.yahoo.co.jp###cb
+www.yahoo.co.jp###sub > div[style^="margin: 0px auto 10px"]
+www.yahoo.co.jp###commercebox
+www.yahoo.co.jp##:xpath(//img[@id="multilink-image"]/parent::div)
 www.yahoo.co.jp##.Personalbox__noticeItem--card
 www.yahoo.co.jp##div[style^="position: absolute; width: 950px; height: 600px"]
 www.yahoo.co.jp##div[id^="gyj"]
-www.yahoo.co.jp##:xpath(//img[@id="multilink-image"]/parent::div)
 www.yahoo.co.jp##div[class^="yjads"]
-www.yahoo.co.jp###sub > div[style^="margin: 0px auto 10px"]
-www.yahoo.co.jp###commercebox
 www.yahoo.co.jp##div[style^="position: absolute; width: 100%;"]
 ||yahoo.co.jp/b?
 ||yj.p.adnxs.com^
-||s.yimg.jp/bdv/prem/
 ||yjtag.yahoo.co.jp/tag?
 ||yads.c.yimg.jp/js/yads.js
-!||giwiz-quriosity.c.yimg.jp^
-||s.yimg.jp/images/advertising/
 ||yads.c.yimg.jp/js/yads-async.js
 ||logql.yahoo.co.jp/v1/public/yql?
+||secure-ds.serving-sys.com/BurstingRes/
+||s.yimg.jp/bdv/prem/
+||s.yimg.jp/images/advertising/
 ||s.yimg.jp/images/listing/tool/yads/
 ||s.yimg.jp/images/advertising/common/js/iicon.min.js
 ||s.yimg.jp/bdv/yahoo/javascript/gyj/1.1.0/premiumvision-gyj.js
 ||s.yimg.jp/bdv/yahoo/javascript/brandpanelvision/0.0.1/brandpanelvision.js
 ||s.yimg.jp/bdv/*.mp4$domain=www.yahoo.co.jp
 ||s.yimg.jp/images/sh/cms/promotion/year_end/2017/bnr/201_410_50.png
-||secure-ds.serving-sys.com/BurstingRes/
 ||s.yimg.jp/bdv/adtest/
 
 
@@ -56,6 +55,5 @@ headlines.yahoo.co.jp###lrec
 news.yahoo.co.jp###lrec
 ||headlines.yahoo.co.jp/adframe?
 ||tidaltv.com^
-||taboola.com^
 
 !END----------------------------------------------

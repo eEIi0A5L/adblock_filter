@@ -89,6 +89,7 @@ news4vip.livedoor.biz##.google-2ad
 ||blog.livedoor.jp/hamusoku/amazon_ranking.js
 ||blog.livedoor.jp/hamusoku/amazon_ranking_side.js
 ||blog.livedoor.jp/hamusoku6/amazon.js
+||images-fe.ssl-images-amazon.com/images/$domain=hamusoku.com
 
 !暇人速報
 ||himasoku.com/settings/ad.js

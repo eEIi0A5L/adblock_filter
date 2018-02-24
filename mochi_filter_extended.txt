@@ -239,6 +239,26 @@ mg.mail.yahoo.com##li[role="rowgroup"]:has(a[data-test-id="pencil-ad"])
 finance.yahoo.com###mrt-node-Lead-1-Ad
 ||s.yimg.com/av/moneyball/ads/
 
+!米Yahoo.comメール
+mail.yahoo.com##li[data-test-id="infinite-scroll-AD"]
+!Starredとかで広告動画が表示される
+||yahoo.com/beacon/
+||geo.yahoo.com^
+||yahoo.com/sdarla/
+||adserver.yahoo.com^
+||ima3vpaid.appspot.com/?adTagUrl=
+!mail.yahoo.com##div[id="shellcontent"]:style(right: 0px!important;)
+!mail.yahoo.com##.pc.panescroll:style(top: 0px !important;)
+!mail.yahoo.com##.pc.panescroll #theAd:style(top: 0px !important;)
+!mail.yahoo.com##.pc.panescroll #shellcontent:style(top: 0px !important;)
+!mail.yahoo.com##.panescroll #toolbar:style(right:0 !important;)
+!mail.yahoo.com###yuhead-bucket:style(max-width: 2560px !important;)
+!mail.yahoo.com###yucs:style(max-width: 2560px !important;)
+!mail.yahoo.com###shellcontent:style(right: 0px !important;)
+!mail.yahoo.com###main:style(max-width: 2560px !important;)
+||s.yimg.com/rx/builds/*/iframe-controller-page.html$domain=mail.yahoo.com
+mail.yahoo.com##div[data-test-id="video-container"]
+
 !モカ
 moca-news.net###container-child > div[align="center"] > div > img
 moca-news.net##DIV[style="position:relative; width:742px; max-width:100%; padding-top:30%;"]

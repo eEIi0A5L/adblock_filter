@@ -298,4 +298,13 @@ pornhub.com###pb_template
 !グラブルが起動しなくなる
 !about:blank$popup
 
+!TOKYOMOTION
+www.tokyomotion.net###nuevoa
+
+!ero-video.net
+||affiliate.dtiserv.com/image/carib/
+ero-video.net###scroll-cont
+ero-video.net##.base__adverts
+
+
 ! END
