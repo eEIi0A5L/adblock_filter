@@ -144,7 +144,11 @@ www.foxnews.com##.social-count
 !ABCNews
 abcnews.go.com##.ad-slot
 ||abcnews.go.com/assets/static/ads/
-||adm.fwmrm.net^
+!下記で動画前に空白１０秒が入る
+!Adguard Base Filtersに下記例外あり
+!@@||adm.fwmrm.net/p/fox_live/admanager.js^
+!http://natgeo.nikkeibp.co.jp/atcl/news/18/021600072/?P=2
+!||adm.fwmrm.net^
 ||a.abcnews.com/assets/js/adCallOverride.js
 ||mssl.fwmrm.net/p/abc_live/AdManager.js
 ||adserver-us.adtech.advertising.com^
