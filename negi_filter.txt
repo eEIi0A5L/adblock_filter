@@ -39,7 +39,7 @@ www.nicovideo.jp##.summer2017Area
 ||nicovideo.cdn.nimg.jp/html5jiho/
 ! プレイヤー上部のニュース枠
 ||flapi.nicovideo.jp/api/getmarquee_new
-||nicovideo.jp/marquee/*
+||nicovideo.jp/marquee/
 !||nicovideo.jp##.MarqueeContainer
 
 !Google

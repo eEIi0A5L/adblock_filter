@@ -66,7 +66,8 @@ www.google.co.jp###bottomads
 !||google.co.jp/gen_204?$other
 google.co.jp##.commercial-unit-desktop-rhs
 ||www.google.com/ads/
-||google.*/gen_204?$other
+||google.co.jp/gen_204?$other
+||google.com/gen_204?$other
 !下記で画像の遷移が動作しない
 !http://natgeo.nikkeibp.co.jp/atcl/gallery/013000131/
 !||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js
@@ -104,7 +105,9 @@ www.yahoo.co.jp###pickupservice
 !ある日突然headerとcontentsの間に動画広告が出た
 !再度Yahooトップを開いてももう表示されない
 !あれは夢か幻だったのか……
+!Adblock Plusには$mediaトークンがないので、*.mp4で代用する。重いと思うがしょうがない。
 ||s.yimg.jp/bdv/*.mp4$domain=www.yahoo.co.jp
+!||s.yimg.jp/bdv/$media,domain=www.yahoo.co.jp
 !また出た！夢じゃなかった！
 www.yahoo.co.jp###rma-pdv
 

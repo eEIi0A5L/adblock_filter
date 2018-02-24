@@ -79,7 +79,7 @@ cnn.co.jp###ad_pr_info
 cnn.com##.ad
 cnn.com##.user-msg
 ||odb.outbrain.com^
-/affiliate.linker/*$domain=cnn.com
+/affiliate.linker/$domain=cnn.com
 |googletagservices.com/tag/js/gpt.js$important,script,domain=cnn.com
 ||bat.bing.com^
 ||z.cdn.cnn.com/ads/
