@@ -11,7 +11,7 @@
 !Ustream
 ||adap.tv^
 ||googletagmanager.com^$third-party
-cdn.mxpnl.com/libs/mixpanel-
+||cdn.mxpnl.com/libs/mixpanel-
 ||chie8oo.com^
 ustream.tv##.banner
 ustream.tv##.banner-wrapper
@@ -39,7 +39,7 @@ www.cnn.co.jp###right-column > .row:nth-child(3)
 ||www.cnn.co.jp/ad/
 ||img.ak.impact-ad.jp^
 ||adingo.jp/?
-https://img.ak.impact-ad.jp/yc/ai/
+||img.ak.impact-ad.jp/yc/ai/
 ||treasuredata.com^
 ||aiasahi.jp^
 ||cdn-fluct.sh.adingo.jp^
@@ -118,22 +118,22 @@ cnn.com##.m-share
 ||edition.i.cdn.cnn.com/.a/bundles/adzones.
 .com/ad/$first-party,domain=~blogs.technet.microsoft.com|~channel4.com|~cspace.com|~linkedin.com|~mediaplex.com|~online.wsj.com
 ||nexac.com^$third-party
-/googleads.
-.net/ad/$image
+/googleads.$domain=cnn.com
+||.net/ad/$image,domain=cnn.com
 ||amazon-adsystem.com^$third-party
 ||ml314.com^$third-party
 ||tapad.com^$third-party
-ads.undertone.com
+||ads.undertone.com
 ||scanscout.com^$third-party
 ||spotxchange.com^$third-party
 ||adsrvr.org^$third-party
 ||rubiconproject.com^$third-party
 ||casalemedia.com^$third-party
-/securepubads.
-/adservice.
+/securepubads.$domain=cnn.com
+/adservice.$domain=cnn.com
 ||adsafeprotected.com^$third-party
 ||sharethrough.com^$third-party
-/affiliate.linker/
+/affiliate.linker/$domain=cnn.com
 ||postrelease.com^$third-party
 
 !FoxNews
@@ -181,6 +181,12 @@ www.washingtonpost.com###top-furniture
 !MailOnline
 www.dailymail.co.uk##.billboard_wrapper
 ||scripts.dailymail.co.uk/static/mol-adverts/718/mol-adverts.js
+
+!JAMA
+||jamanetwork.com/AMA/AdTag
+||jamanetwork.com/AMA/JobsAd
+jamanetwork.com##.leader-ad
+jamanetwork.com##.footer-ad
 
 !Reddit
 www.reddit.com##.promoted
@@ -367,7 +373,7 @@ lang-8.com##.adsbygoogle
 
 !www.uesp.net
 www.uesp.net###content > .center
-stats.g.doubleclick.net/dc.js
+||stats.g.doubleclick.net/dc.js
 www.uesp.net###p-googlead
 
 !tunein

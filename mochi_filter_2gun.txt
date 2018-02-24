@@ -282,7 +282,7 @@ togetter.com##.ad_list_bottom
 !PAPPINS
 pappins.tokyo###gn_interstitial_area
 !右クリック、文字列選択を動作させるためにインラインスクリプトを動かないようにする
-pappins.tokyo$inline-script
+||pappins.tokyo$inline-script
 
 !全力疾走
 ||zucks.net.zimg.jp^
@@ -310,7 +310,7 @@ startpage.com###sponsored_csa2
 
 !trend.aamto.com
 trend.aamto.com##.modal
-rcm.shinobi.jp/js/imp.js
+||rcm.shinobi.jp/js/imp.js
 trend.aamto.com###topcontrol + div
 
 !newsen.com

@@ -450,7 +450,7 @@ microsoft.com###standardRating
 outlook.live.com##:xpath(//div[@aria-label="advertisement"]/parent::div/parent::div)
 outlook.live.com##:xpath(//i[@data-icon-name="OutlookLogo"]/parent::div/parent::div/parent::div)
 !Otherメール最上部の広告
-!outlook.live.com##:xpath(//div[contains(@class, 'fbAdLink')]/parent::div/parent::div/parent::div/parent::div/parent::div)
+outlook.live.com##:xpath(//div[contains(@class, 'fbAdLink')]/parent::div/parent::div/parent::div/parent::div/parent::div)
 
 !Gyao
 !Gyao動画上の広告ブロック------------------------------
@@ -933,14 +933,14 @@ itpro.nikkeibp.co.jp##ul.list_G
 !http://natgeo.nikkeibp.co.jp/atcl/news/18/021600072/?P=2
 ||ads.freewheel.tv^
 ||demdex.net^
-/b/ss/*&aqe=
+/b/ss/*&aqe=$domain=nikkeibp.co.jp
 ||omtrdc.net^
 ||b97.yahoo.co.jp/pagead/
 ||b92.yahoo.co.jp/search/?
 ||s.yimg.jp/images/listing/tool/cv/conversion.js
 ||imrworldwide.com^
 ||1c6e2.v.fwmrm.net/ad/
-@@||adm.fwmrm.net^*/admanager.js$script
+@@||adm.fwmrm.net^*/admanager.js$script,domain=nikkeibp.co.jp
 !-----------------------------------------------------------------------
 
 !産経
@@ -956,6 +956,10 @@ www.sankei.com###adToprectangle
 !広告
 ||www.sankei.com/apr_news/js/others/adEx_display1.js
 ||www.sankei.com/apr_news/js/others/adsense_m3.js
+
+!サンケイビジネス
+www.sankeibiz.jp###adRectangleBanner01
+
 
 !時事ドットコム
 !列挙してみたが、数が多いので別の道を考える
@@ -1137,6 +1141,10 @@ www.sanspo.com##.adRectangleBanner
 !神戸新聞
 www.kobe-np.co.jp##.newsfeedList_new > .native
 
+!河北新聞
+www.kahoku.co.jp##ul.bnr
+
+
 
 !まんたんウェブ
 ||adresult.jp^
@@ -1214,6 +1222,7 @@ www.oricon.co.jp##.block-sub-gallery
 
 !itmedia
 !レイアウトが崩れる
+!http://www.itmedia.co.jp/enterprise/articles/1801/18/news060.html
 !www.itmedia.co.jp###globalHeaderMiddle
 www.itmedia.co.jp###ISACB
 www.itmedia.co.jp###ITOT
@@ -1224,9 +1233,9 @@ www.itmedia.co.jp###ITT
 ||www.itmedia.co.jp/css/news/ad.css
 ||www.itmedia.co.jp/js/ad.js
 ||www.itmedia.co.jp/js/news/ad.js
-dlv.itmedia.jp/adsv/
+||dlv.itmedia.jp/adsv/
 ||adserver.cxad.cxense.com^
-http://www.itmedia.co.jp/news/files/20160914/file_bit_article_bottom_ad.html
+||www.itmedia.co.jp/news/files/20160914/file_bit_article_bottom_ad.html
 www.itmedia.co.jp##.colBox.colBoxArtTopRcm
 ||widgets.outbrain.com/outbrain.js
 !http://www.afpbb.comで、話題の記事が消えてしまう
@@ -1238,6 +1247,7 @@ itmedia.co.jp###ads_content_top
 ||www.itmedia.co.jp/js/pcuser/ad.js
 ||www.itmedia.co.jp/css/pcuser/ad.css
 ||static.ads-twitter.com/uwt.js
+www.itmedia.co.jp###body_insert_ad
 
 !wikia
 wikia.com###WikiaArticleBottomAd
@@ -1339,7 +1349,7 @@ excite.co.jp##.ex-crt-wrapper
 excite.co.jp###pageFeatures
 
 !Asciiデジタル
-i.t.webtracker.jp^
+||i.t.webtracker.jp^
 ascii.jp##div[class^="ad"]
 
 !m-on

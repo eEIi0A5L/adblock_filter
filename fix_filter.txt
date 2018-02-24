@@ -9,9 +9,9 @@
 !START ------------------------------------------------------------
 ! JPN: ABP Japanese filters (日本用フィルタ) の不具合対策
 !ヤフオクトップのクジが表示されないので例外にする
-@@^promo^$domain=yahoo.co.jp
+@@^promo^$domain=auctions.yahoo.co.jp
 !googleシートで同期エラーダイアログが出るので例外にする
-@@^logimpressions^$domain=google.com
+@@^logimpressions^$domain=docs.google.com
 !Yahooのポイントを見ようとリンククリックしたときにフィルタされてしまうので例外化
 @@/click/$document,domain=yahoo.co.jp
 !Amebafreshの動画が見れない
@@ -19,7 +19,7 @@ freshlive.tv#@#[class$="Ad"]:not(body)
 !園芸板用あぷろだ。xrea.com全体がPete'sのフィルタでブロックされるので。
 @@||engei2ch.s252.xrea.com^
 !Google Sheetでなにか編集するたびにエラーダイアログが表示されてしまう対策
-@@_analytics.$domain=google.com
+@@_analytics.$domain=docs.google.com
 !Peter Loweのフィルタでブロックされているが日本人の利用者が多いので許可
 @@||xrea.com^
 !Peter Lowe’s Ad and tracking server list
@@ -29,7 +29,7 @@ freshlive.tv#@#[class$="Ad"]:not(body)
 !したがって、gyao(yahoo)だけで例外にする。
 @@||2mdn.net^$domain=yahoo.co.jp
 !GoogleMapでLocalGuideをExitしたときに引っかかる
-@@_campaign=$document,domain=google.com
+@@_campaign=$document,domain=www.google.com
 !キャンペーンサイトで表示されない対策
 !@@_campaign=$popup
 !@@_campaign=$document
