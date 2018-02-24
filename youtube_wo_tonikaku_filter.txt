@@ -6,7 +6,7 @@
 ! 
 ! 
 
-www.youtube.com/ads/$image
+||www.youtube.com/ads/$image
 youtube.com##.ad-container
 youtube.com##.video-ads
 youtube.com##.ytp-ad-progress-list

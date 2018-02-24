@@ -84,7 +84,7 @@ javfor.me##.adv
 
 
 !imagetwist.com
-.com/ga.js
+||.com/ga.js
 ||ads.exoclick.com^
 /adblock_detector2.$domain=imagetwist.com
 ||www.statcounter.com^
@@ -99,7 +99,7 @@ imagetwist.com##[href^="http://www.sex.com/videos/?utm_"]
 ||ads.exoclick.com^
 ||imgchili.net/js/showa.js
 ||cloudfront.net^$script,domain=4archive.org|4chanarchives.cu.cc|addic7ed.com|animeflv.net|animehaven.to|auroravid.to|bdupload.info|biology-online.org|bitvid.sx|chronos.to|cloudtime.to|coreimg.net|dailyuploads.net|divxatope.com|downloadming.io|downloadming.tv|extratorrent.cc|extremetech.com|eztv.ag|frendz4m.com|fullstuff.co|goodvideohost.com|imgchili.net|kannadamovies.biz|linksprotection.com|media1fire.com|mirrorcreator.com|mp3goo.com|multiup.org|mystream.la|nachostime.net|nitroflare.com|noslocker.com|nowvideo.li|nowvideo.sx|nowvideo.to|omghype.com|onhax.me|openload.co|ouo.io|reevown.com|sadeempc.com|scambiofile.info|sceper.ws|sparknotes.com|streamplay.to|thevideobee.to|tinypaste.me|torrentproject.se|tsumino.com|tubeoffline.com|tvlivenow.com|upload.so|uplod.ws|usersfiles.com|vidlox.tv|vidshare.us|vshare.eu|watchers.to|watchfomny.tv|wholecloud.net|world4ufree.be|yahmaib3ai.com|yourvideohost.com
-/?&pid=*&subid=$image
+/?&pid=*&subid=$image,domain=imgchili.net
 imgchili.net##.horizontalAd
 imgchili.net##.share-btn
 !freshの動画部分が非表示になる
@@ -282,8 +282,8 @@ pornhub.com###pb_template
 
 !en.ero-video.net
 !バナー
-/static.javhd.com/h5/files/.*/728x90.html/
-/static.javhd.com/h5/files/.*/160x600.html/
+||static.javhd.com/h5/files/.*/728x90.html
+||static.javhd.com/h5/files/.*/160x600.html
 ||en.ero-video.net/advert/bannerFrame.html?id=
 ||en.ero-video.net/advert
 

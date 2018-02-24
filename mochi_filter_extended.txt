@@ -80,7 +80,7 @@ cnn.com##.ad
 cnn.com##.user-msg
 ||odb.outbrain.com^
 /affiliate.linker/*$domain=cnn.com
-|googletagservices.com/tag/js/gpt.js$important,script
+|googletagservices.com/tag/js/gpt.js$important,script,domain=cnn.com
 ||bat.bing.com^
 ||z.cdn.cnn.com/ads/
 @@||outbrain.com/outbrain.js$domain=cnn.com|damnyouautocorrect.com|ninemsn.com.au|slate.com
@@ -229,7 +229,7 @@ gma.yahoo.com##.ad-wrap
 ||ads.yahoo.com^
 mg.mail.yahoo.com###slot_MB
 www.yahoo.com###sherlock
-vplayer.nbcsports.com#sherlock
+vplayer.nbcsports.com###sherlock
 !Yahoo Answers
 answers.yahoo.com##div[id$='-textads']
 answers.yahoo.com###ya-darla-LDRB

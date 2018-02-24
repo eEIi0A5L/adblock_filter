@@ -36,7 +36,7 @@
 ||ssl-stat.amebame.com/pub/ads/
 ||adt.measure.ameblo.jp^
 ||www.google.com/ads/
-|stats.g.doubleclick.net^
+||stats.g.doubleclick.net^
 ameblo.jp##.skinBody2 > div:first-child
 !ameblo.jp##^.skinBody2 > div:first-child
 ||stat100.ameba.jp/ad/dfp/js/dfp.js?20170215

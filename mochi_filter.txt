@@ -37,8 +37,8 @@ youtube.com##.ytp-ad-progress-list
 youtube.com###player-ads
 ||pubads.g.doubleclick.net^
 ||youtube.com/pagead/
-www.youtube.com/ads/$image
-securepubads.g.doubleclick.net
+||www.youtube.com/ads/$image
+||securepubads.g.doubleclick.net
 =adunit&$domain=youtube.com
 !Peter Lowe’s Ad and tracking server listで一括ブロックされている
 ||doubleclick.net^
@@ -220,7 +220,7 @@ www.yahoo.co.jp###yjidbox
 !右側の広告
 videotopics.yahoo.co.jp###async_lrec_ad
 !videotopics.yahoo.co.jp##^#async_lrec_ad
-videotopics.yahoo.co.jp/videolist/lrec?crb=
+||videotopics.yahoo.co.jp/videolist/lrec?crb=
 
 
 !動画開始時の動画広告ブロック
@@ -577,7 +577,7 @@ dic.nicovideo.jp##.box + img + div
 ||deployads.com^
 ||tags-cdn.deployads.com^
 ||c.us1.dyntrk.com^
-|webed.dm.gg^$third-party
+||webed.dm.gg^$third-party
 ||dmxleo.dailymotion.com^
 ||c.eu1.dyntrk.com^
 !dailymotionでカウントが増え続ける問題の解法
