@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 22 Feb 2018 12:00 JST
+! Last modified: 28 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -191,6 +191,9 @@ www.dailymail.co.uk##.billboard_wrapper
 ||jamanetwork.com/AMA/JobsAd
 jamanetwork.com##.leader-ad
 jamanetwork.com##.footer-ad
+
+!neowin
+www.neowin.net##.header-banner-ads
 
 !Reddit
 www.reddit.com##.promoted

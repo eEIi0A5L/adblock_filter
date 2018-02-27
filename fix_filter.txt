@@ -18,6 +18,9 @@
 !→されない
 !@@/click/$document,domain=yahoo.co.jp
 
+!Yahooトップに戻るとき
+@@||rdsig.yahoo.co.jp/mh/click/ytop/RV=1/$document,domain=yahoo.co.jp
+
 !Amebafreshの動画が見れない
 !→見れる
 !freshlive.tv#@#[class$="Ad"]:not(body)
