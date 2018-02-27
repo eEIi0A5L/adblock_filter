@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 14 Feb 2018 12:00 JST
+! Last modified: 28 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/ichigo.html
 ! 
@@ -29,7 +29,7 @@ xhamster.com##.avdo
 xhamster.com##.socials-container
 xhamster.com##[id$="Ads"]:not(body)
 ||trafficstars.com^$third-party
-||xhcdn.com^*/ads_
+||xhcdn.com^*/ads_$domain=xhamster.com
 @@||cdn.trafficstars.com/sdk/v1/bi.js$domain=xhamster.com
 ^sponsor-$domain=static-ec.xhcdn.com
 xhamster.com##.sponsorB
@@ -124,13 +124,13 @@ imgchili.net##[href^="http://www.tumblr.com/share/"]
 ||c1.popads.net^
 ||creative.wwwpromoter.com^
 ||imgbabes.com/element.js
-||imgbabes.com^*/splash.php
+||imgbabes.com^*/splash.php$domain=www.imgbabes.com
 /topads.$domain=imgbabes.com
 imgbabes.com##div[style="width:604px; height:250px; background:#241521; padding:4px 3px 4px 3px; margin-top:-5px; margin-bottom:-8px; -moz-border-radius:2px; border-radius:2px; -webkit-border-radius:2px;"]
 ||syndication.exoclick.com^
 
 !imgflare.com
-||imgflare.com^*/splash.php
+||imgflare.com^*/splash.php$domain=imgflare.com
 /topads.$domain=imgflare.com
 ||imgflare.com/exo.html
 imgflare.com###fadeinbox
@@ -147,7 +147,7 @@ imgflare.com##div[style^="width:604px; height:250px;"]
 ||www.fhyl04.com^
 
 !rocks
-||wx3.sinaimg.cn/large/*.gif
+||wx3.sinaimg.cn/large/*.gif$domain=rocks
 ||wx3.sinaimg.cn^
 ||www.7893com.com/img/amdc.gif
 ||www.7893com.com^
@@ -177,12 +177,11 @@ pornhum.com##[class^="ad-"]
 pornhub.com##[href^="http://ads.genericlink.com/"]
 pornhub.com###abAlert
 pornhub.com##a[href*="://ads."]
-@@||phncdn.com/vortex-simple-*.js|$script
+@@||phncdn.com/vortex-simple-*.js|$script,domain=pornhum.com
 pornhum.com##iframe
 pornhum.com##.nonesuch
 @@||phncdn.com/www-static/js/htmlpauseroll/$script
 @@||phncdn.com/jquery/$script
-@@||phncdn.com/vortex-simple-*.js|$script
 @@||phncdn.com/swfobject-$script
 @@||phncdn.com^$image,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
 @@||phncdn.com/tubes-$script
@@ -213,7 +212,6 @@ pornhub.com##.ad-link
 pornhub.com##.removeAdsStyle
 @@||phncdn.com/jquery/$script
 @@||phncdn.com/swfobject-$script
-@@||phncdn.com/vortex-simple-*.js|$script
 @@||pornhub.com/svvt/add?$xmlhttprequest
 pornhub.com###abAlert
 pornhub.com##.video-wrapper > #player + [class]
@@ -232,7 +230,7 @@ pornhub.com##iframe
 @@||phncdn.com/www-static/js/video-$script
 @@||phncdn.com/www-static/js/htmlpauseroll/$script
 @@||phncdn.com/www-static/js/widgets-comments.js$script
-@@||phncdn.com/www-static/*/jquery.$script
+@@||phncdn.com/www-static/*/jquery.$script,domain=phncdn.com
 @@||phncdn.com/www-static/js/quality-$script
 @@||phncdn.com/www-static/js/premium/$script
 @@||phncdn.com/www-static/js/ph-footer.js$script
@@ -257,7 +255,7 @@ pornhub.com##iframe
 @@||phncdn.com/www-static/js/mg_flipbook-$script
 @@||phncdn.com/www-static/js/mg_modal-$script
 @@||phncdn.com/www-static/js/dropdown.js$script
-@@||phncdn.com/www-static/*/autocomplete.$script
+@@||phncdn.com/www-static/*/autocomplete.$script,domain=phncdn.com
 @@||phncdn.com/www-static/js/phub-nojquery.js$script
 ||trafficjunky.net^$important,third-party
 pornhub.com###pb_template
@@ -275,7 +273,7 @@ pornhub.com###pb_template
 
 !img588
 ||img588.net/imgads/
-||img588.net/images/*.gif
+||img588.net/images/*.gif$domain=img588.net
 
 !rmdown.com
 ||www.856789.com/images/
@@ -283,8 +281,8 @@ pornhub.com###pb_template
 
 !en.ero-video.net
 !バナー
-||static.javhd.com/h5/files/.*/728x90.html
-||static.javhd.com/h5/files/.*/160x600.html
+||static.javhd.com/h5/files/.*/728x90.html$domain=en.ero-video.net
+||static.javhd.com/h5/files/.*/160x600.html$domain=en.ero-video.net
 ||en.ero-video.net/advert/bannerFrame.html?id=
 ||en.ero-video.net/advert
 
