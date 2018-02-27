@@ -99,6 +99,30 @@ impress.co.jp###floating-social-buttons
 watch.impress.co.jp##.ad
 ||cdn.cxense.com/cx.js
 ||adservice.google.co.jp^
+!------------------------------------------------------
+!impress下部のソーシャルの消し方がマジでわからない
+!#floating-social-buttons
+!#sp-floating-layer
+||d7x5nblzs94me.cloudfront.net/v1/j/shared.js
+||d7x5nblzs94me.cloudfront.net/v1/j/button.js
+
+!下記で消えるが画像も消えてしまった
+!$script,domain=pc.watch.impress.co.jp
+
+!下記で消えるが画像も消えてしまった
+!https://pc.watch.impress.co.jp/js/pcw/p02/ipc.watch.js?v=2018021302
+
+||js.ptengine.jp/pts.js
+||js.ptengine.jp/pta.js
+||api.popin.cc/searchbox/impress.js
+||b.st-hatena.com/js/bookmark_button.js?
+||widgets.getpocket.com/v1/j/btn.js?v=1
+||cdn.cxense.com/cx.js
+||platform.twitter.com/js/button.
+||d-cache.microad.jp/js/td_iw_access.js
+watch.impress.co.jp###floating-social-buttons
+watch.impress.co.jp###sp-floating-layer
+!------------------------------------------------------------
 
 !Yahoo!Japan
 news.yahoo.co.jp###peron
@@ -795,6 +819,45 @@ enigma.co.jp##.sns_block_left
 !www.traicy.com
 www.traicy.com##.floating_banner
 
+!excite
+||ad-wisteria.excite.co.jp^
+||image.excite.co.jp/jp/ad/wisteria/segmentA.js
+||adimp.excite.co.jp^
+||image.excite.co.jp/jp/ad/
+||wisteria-js.excite.co.jp/admage.js
+||wisteria-js.excite.co.jp/tracking/pixel.gif
+!このまま次を読むが効かない問題の調査
+!@@||gumgum.com^
+!@@||adservice.google.co.jp^
+!@@||yads.c.yimg.jp^
+!@@||crwdcntrl.net^
+!@@||stags.bluekai.com^
+!@@||addthis.com^
+!@@||adservice.google.com^
+!@@||doubleclick.net^
+!@@||tpc.googlesyndication.com^
+!@@||adjust-net.jp^
+!@@||.socdm.com^
+!@@||cr-p17.ladsp.com^
+!@@||apvdr.com/v2/cs.php
+!@@||img.ak.impact-ad.jp^
+!@@||google-analytics.com^
+!#@#.adsbygoogle
+!@@||pagead2.googlesyndication.com^
+!下記を書くとやっと次ページに移行できるようになった
+@@||www.googletagmanager.com^$domain=excite.co.jp
+
+!jcast
+!www.j-cast.com##iframe[data-kiosked-adframe="outer"]
+www.j-cast.com##div[id^="kskdk_"]
+
+!スポニチ
+www.sponichi.co.jp##.shareButton-fixed
+||affiliate.rakuten.co.jp^$domain=sponichi.co.jp
+
+!IZA
+www.iza.ne.jp###SiteFooter
+||prt.iza.ne.jp/common/js/ad/adGpt.js
 
 
 
@@ -809,18 +872,7 @@ kinisuru.com##.a2a_floating_style
 
 
 !５ちゃんねるの荒らしが誘導しているサイト---------
-||aqeen.sasakure.biz^
-||qsnews.ndra.biz^
-||www.girlkah.shop^
-|https://goo.gl/En6m3D 
-|http://www.bityet.us/s7b47si.jpg
-||imgur.com.rude.li^
-||rude.li^
-||i.imgur.com.my.to^
-||imgur.com.my.to^
-||my.to^
-!http://rxrtp.ventureswest.com/rkYYyPJ.png
-||ventureswest.com^
+! →この部分は亀フィルタに移した。
 !END---------------------------------------------
 
 

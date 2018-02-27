@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 22 Feb 2018 12:00 JST
+! Last modified: 27 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -805,6 +805,9 @@ www.famitsu.com##.ad-header-video
 ||www.famitsu.com/js/1411/ad.js
 www.famitsu.com##.adArticleBottomWrap
 
+!ファミ通APP
+app.famitsu.com###widget-ad-rect
+
 !電撃オンライン
 dengekionline.com###rectangleBanner
 
@@ -1147,6 +1150,13 @@ www.kobe-np.co.jp##.newsfeedList_new > .native
 !河北新聞
 www.kahoku.co.jp##ul.bnr
 
+!リアルライブ
+npn.co.jp##.ad300x250
+npn.co.jp##.ad300x250x2
+
+!THE ANSWER
+the-ans.jp##div[class="box box-center side-box side-box-top"]
+
 
 
 !まんたんウェブ
@@ -1199,6 +1209,7 @@ slashdot.org###firehose iframe
 ||www.googletagservices.com/tag/js/gpt.js
 !注：:has()を使う場合は、ドメインを指定しないと機能しない
 slashdot.org##article:has(div[class="ntv-sponsored-disclaimer"])
+||um2.eqads.com^
 
 !Naverまとめ
 ||api.unthem.com/js/pcad.js?
@@ -1463,6 +1474,10 @@ open.spotify.com##.ads-container
 !Buzzfeed
 ||www.buzzfeed.com/static/js/advertiser/
 ||abeagle-public.buzzfeed.com^
+
+!スクエニのサイトでニュースが表示されない
+!http://egg.5ch.net/test/read.cgi/software/1518498170/338
+@@||www.googleadservices.com/pagead/conversion_async.js$domain=www.jp.square-enix.com
 
 
 

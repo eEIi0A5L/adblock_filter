@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 23 Feb 2018 12:00 JST
+! Last modified: 27 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -221,6 +221,88 @@ buzz-cafe.net###ist_overlay2
 !ラビット速報
 ||matigaeta.com/cubesan/syncs_article_in.js
 ||rabitsokuhou.2chblog.jp/images/img/img/adJS/
+
+
+!カナ速
+kanasoku.info##.adset-Cover
+||blogmaterial.nicoblomaga.jp/material/27/bromaga_AdTimer_PC.js
+||blogmaterial.nicoblomaga.jp/material/27/Pc_adc.js
+kanasoku.info##span[style="font-size:10px"]
+
+!BIPブログ
+||images-fe.ssl-images-amazon.com/images/$domain=bipblog.com
+
+!無題のドキュメント
+!||marticleimage.nicoblomaga.jp/$third-party,image
+www.mudainodocument.com##a[href="https://recott.me/about/"]
+||images-na.ssl-images-amazon.com/images/$domain=www.mudainodocument.com
+www.mudainodocument.com##.adset-Cleft
+www.mudainodocument.com##.adset-Cover
+www.mudainodocument.com##a[href^="http://s.liveads.jp/cc.php"]
+www.mudainodocument.com##a[href^="https://s.liveads.jp/cc.php"]
+www.mudainodocument.com##a[href="https://recott.me/"]
+
+!暇人速報
+himasoku.com##iframe[src="http://himasoku.com/ueko.htm"]
+himasoku.com##iframe[src="http://himasoku.com/ueko2017.htm"]
+||im.c.yimg.jp/res/ydnstorage-media/$image,domain=himasoku.com
+himasoku.com##span[style="color: #0000FF; font-weight: bold; font-size: 16px;"]
+himasoku.com##a[href^="https://smart-c.jp/"]
+himasoku.com##iframe[src="http://himasoku.com/akutore.html"]
+himasoku.com##iframe[src="http://himasoku.com/sitako.htm"]
+himasoku.com##a[href^="http://h.accesstrade.net/sp/cc?"]
+
+!ぶる速-VIP
+burusoku-vip.com##div[style="margin: 10px; padding: 10px; background: #fff8dc; border: 1px dashed #808080;"]
+burusoku-vip.com##div[id^="blogroll-"]
+burusoku-vip.com##.google-2ad
+||cdn.rossoad.com/js/ads/loader_v1.js
+||blog.seesaa.jp/js/insert-ad.min.js
+burusoku-vip.com##.google-adbox
+
+!【2ch】コピペ情報局
+news.2chblog.jp##table[width="750"][height="320"][align="center"]
+news.2chblog.jp##table[width="750"][height="300"][align="center"]
+
+!もみあげチャ～シュ～
+||rcm-images.amazon.com/images/$domain=michaelsan.livedoor.biz
+
+!2chコピペ保存道場
+2chcopipe.com##a[href^="http://www.amazon.co.jp/"]
+2chcopipe.com##a[href^="http://amazon.co.jp/"]
+2chcopipe.com##a[href^="https://zaif.jp?ac="]
+2chcopipe.com###royFrame
+
+!まとめたニュース
+||images-fe.ssl-images-amazon.com/images/$domain=matometanews.com
+||ec1.images-amazon.com/images/$domain=matometanews.com
+matometanews.com##a[href^="http://www.amazon.co.jp/"]
+
+!マジキチ速報
+||img.dlsite.jp/resize/images2/$domain=majikichi.com
+majikichi.com###left_menu
+majikichi.com##a[href^="http://www.dlsite.com/"]
+
+!キニ速
+||js.kau.li/yad.js
+||blog.livedoor.jp/kinisoku/adroute1.html
+
+!カオスちゃんねる
+||parts.blog.livedoor.jp/js/blog_ads/promo_ad.js
+chaos2ch.com##a[href^="http://www.amazon.co.jp/exec/"]
+
+!watch@2ちゃんねる
+www.watch2chan.com##.ama_emphasize-link
+
+!ブラブラブラウジング
+||dtscout.rtb.adx1.com^
+||p.multiquicks.net/js/mad.js
+brow2ing.doorblog.jp##div[style="padding: 18px; margin-left: 16px; margin-right: 16px; border: 2px solid rgb(240, 196, 15); line-height: 1.42; font-size: 15px; background: rgb(255, 255, 240);"]
+brow2ing.doorblog.jp##blockquote[class="copy"]
+brow2ing.doorblog.jp##div[style="padding: 18px; line-height: 1.42; background: rgb(255, 255, 240); margin-left: 13px; margin-right: 13px; border: 1px solid rgb(240, 196, 15);"]
+
+!げ～せわニュース速報！！
+||pics.dmm.com/af/$domain=ge-sewa-news.blog.jp
 
 
 !まとめその他
