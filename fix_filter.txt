@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: 22 Feb 2018 12:00 JST
+! Last modified: 27 Feb 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/fix.html
 ! 
@@ -9,60 +9,90 @@
 !START ------------------------------------------------------------
 ! JPN: ABP Japanese filters (日本用フィルタ) の不具合対策
 !ヤフオクトップのクジが表示されないので例外にする
-@@^promo^$domain=auctions.yahoo.co.jp
+@@||s.yimg.jp/images/auct/cms/promo/$domain=auctions.yahoo.co.jp
+
 !googleシートで同期エラーダイアログが出るので例外にする
-@@^logimpressions^$domain=docs.google.com
+@@/logImpressions?$domain=docs.google.com
+
 !Yahooのポイントを見ようとリンククリックしたときにフィルタされてしまうので例外化
-@@/click/$document,domain=yahoo.co.jp
+!→されない
+!@@/click/$document,domain=yahoo.co.jp
+
 !Amebafreshの動画が見れない
-freshlive.tv#@#[class$="Ad"]:not(body)
+!→見れる
+!freshlive.tv#@#[class$="Ad"]:not(body)
+
 !園芸板用あぷろだ。xrea.com全体がPete'sのフィルタでブロックされるので。
-@@||engei2ch.s252.xrea.com^
+!→下でxrea.com全体を例外にした
+!@@||engei2ch.s252.xrea.com^
+
 !Google Sheetでなにか編集するたびにエラーダイアログが表示されてしまう対策
-@@_analytics.$domain=docs.google.com
+@@||docs.google.com/static/spreadsheets2/client/js/3533117528-ritz_waffle_i18n_analytics.js|$domain=docs.google.com
+
 !Peter Loweのフィルタでブロックされているが日本人の利用者が多いので許可
 @@||xrea.com^
+
 !Peter Lowe’s Ad and tracking server list
 !!Yahoo映像トピックスのTVer動画が見れない問題の対策
 !Youtubeで動画が見れなくなるので一旦コメント化。2017.10.31
 !2mdn.netを例外にするとyoutubeで広告が流れる
 !したがって、gyao(yahoo)だけで例外にする。
-@@||2mdn.net^$domain=yahoo.co.jp
+@@||s0.2mdn.net/instream/video/client.js$domain=gyao.yahoo.co.jp
+
 !GoogleMapでLocalGuideをExitしたときに引っかかる
-@@_campaign=$document,domain=www.google.com
+!@@_campaign=$document,domain=www.google.com
+
 !キャンペーンサイトで表示されない対策
 !@@_campaign=$popup
 !@@_campaign=$document
+
 !malwarelistに入っている
 @@||navitime.co.jp^
+
 !twitchでカウントが増え続ける問題の解法
 @@||sb.scorecardresearch.com/p?$image,domain=twitch.tv
 @@||api.mixpanel.com/track?data=$xmlhttprequest,domain=twitch.tv
 @@||countess.twitch.tv/ping.gif?u=$xmlhttprequest,domain=twitch.tv
 @@||spade.twitch.tv^$xmlhttprequest,domain=twitch.tv
+
 !http://hktdouga.blog.jp/でPowered by livedoor 相互RSSの枠内が全部消えてしまう
 @@||blogroll.livedoor.net^
+
 !Gyaoが見れない
-@@/ima3.js$domain=gyao.yahoo.co.jp
-@@||brightcove.net^$domain=gyao.yahoo.co.jp
-@@||brightcove.com^$domain=gyao.yahoo.co.jp
-@@|https:*?*&ip=$third-party,domain=gyao.yahoo.co.jp
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gyao.yahoo.co.jp
+@@||players.brightcove.net^$domain=gyao.yahoo.co.jp
+@@||metrics.brightcove.com/v2/tracker?domain=$domain=gyao.yahoo.co.jp
+@@||gyao.yahooapis.jp/rio/checkVisible?appid=$third-party,domain=gyao.yahoo.co.jp
+
 !ニコ生の検索が表示されない
-live.nicovideo.jp#@#[id$="-ad"]
+!→される
+!live.nicovideo.jp#@#[id="main-for-following-ad"]
+
 !ニコ動ランキングが２１位以降が見れない
-@@||nimg.jp^*/uad$script,domain=~uad.nicovideo.jp
+!→見れる
+!@@||nimg.jp^*/uad$script,domain=~uad.nicovideo.jp
+
 !http://nazolog.com/ でAdblockを無効にしてくださいと出る
-@@||nazolog.com^$generichide
+!→利用者なし
+!@@||nazolog.com^$generichide
+
 !豆腐でGyaoで広告が入る
-||adserver-apne.tidaltv.com^
+!→入らない
+!||adserver-apne.tidaltv.com^
+
 !豆腐でナシュジオが見れない
-natgeotv.jp#@#[class^="ad-"]:not(html):not(body)
+!→見れる
+!natgeotv.jp#@#[class^="ad-"]:not(html):not(body)
+
 !http://www.ntv.co.jp/fcwc/index.htmlが見れない
-@@|http:*^ad-$domain=ntv.co.jp
+@@||www.ntv.co.jp/ad-navi/$domain=ntv.co.jp
+
 !https://www.amazon.co.jp/dp/B00PSPDQQC/で視聴ページが真っ白になる
 @@||chocomaru.com^
+
 !http://iroyaku.livedoor.biz/archives/73473612.html#commentsでコメントが見れない
 livedoor.biz#@#[class$="-ads"]:not(html):not(body)
+
 !https://www3.nhk.or.jp/news/html/20171216/k10011261091000.html?utm_int=news_contents_news-main_001が見れない
 !http://egg.5ch.net/test/read.cgi/software/1510382303/676
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$script,domain=nhk.or.jp
@@ -91,5 +121,8 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 !http://egg.5ch.net/test/read.cgi/software/1515404854/569,570,571
 @@||pubads.g.doubleclick.net/gampad/ads$xmlhttprequest,domain=tver.jp
 
+!スクエニのサイトでニュースが表示されない
+!http://egg.5ch.net/test/read.cgi/software/1518498170/338
+@@||www.googleadservices.com/pagead/conversion_async.js$domain=www.jp.square-enix.com
 
 ! END
