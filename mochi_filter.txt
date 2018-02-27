@@ -1159,6 +1159,13 @@ the-ans.jp##div[class="box box-center side-box side-box-top"]
 
 !Engadget 日本版
 japanese.engadget.com###ldrBoardAd
+||advertising.com^
+||s.yimg.com/av/curveball/ads/
+||ads.yap.yahoo.com^
+||b.aol.com/ping?
+||b.aol.com/vanity/?ts=
+!EasyListから
+@@||aolcdn.com^*/adswrapper.$domain=aol.com|engadget.com|games.com|huffingtonpost.com|mapquest.com|stylelist.ca
 
 !聯合ニュース
 m.yna.co.kr##.foreign-ad01

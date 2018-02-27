@@ -449,20 +449,13 @@ sports.khan.co.kr###scrollDiv
 ||adv.mediaharbor.co.kr/nad/
 ||adv.imadrep.co.kr^
 ||adgrp1.ad4989.co.kr/cgi-bin/pelicanc.dll^
-||sunnyworks.co.kr/data/sw*.html^
+||sunnyworks.co.kr/data/sw*.html^$domain=www.nocutnews.co.kr
 ||livere.co.kr^
 ||compass.adop.cc/rd/
 
 
 
-!japanese.engadget.com
-||advertising.com^
-||s.yimg.com/av/curveball/ads/
-||ads.yap.yahoo.com^
-||b.aol.com/ping?
-||b.aol.com/vanity/?ts=
-!EasyListから
-@@||aolcdn.com^*/adswrapper.$domain=aol.com|engadget.com|games.com|huffingtonpost.com|mapquest.com|stylelist.ca
+
 
 !http://brow2ing.doorblog.jp
 ||www.sbs-jp-ad.com^
