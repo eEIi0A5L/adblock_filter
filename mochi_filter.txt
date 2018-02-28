@@ -270,7 +270,10 @@ headlines.yahoo.co.jp###ycd-module
 ||sb.scorecardresearch.com/b?
 
 
-
+!Yahooニュース高速化
+!→やっぱり誤爆が怖いのでやめた
+!||yjtag.yahoo.co.jp/csx?tp=
+!||s.yimg.jp/images/ycd/lib/ycdloader/4.0.2/ycdloader.min.js
 
 
 

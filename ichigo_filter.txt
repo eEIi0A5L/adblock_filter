@@ -16,6 +16,12 @@ xvideos.com###main > [id]:has(a[href^="https://main.trafficfactory.biz/"])
 ||xvideos.com/in.php?
 xvideos.com###page.video-page > [id]:has(a[href^="https://main.trafficfactory.biz/"])
 xvideos.com##.subscribe-feed
+||www.mmaaxx.com^
+|https://$third-party,script,domain=xvideos.com
+xvideos.com##script:inject(abort-on-property-write.js, openpop)
+xvideos.com##script:inject(nowebrtc.js)
+xvideos.com##script:inject(xvideos.com.js)
+@@||xvideos-cdn.com^$xmlhttprequest,domain=xvideos.com
 
 !xHamster
 *$websocket,domain=24video.cc|24video.in|24video.me|24video.sex|24video.xxx|pornhub.com|redtube.com|redtube.com.br|russian-porn.me|tube8.com|tube8.es|tube8.fr|xhamster.com|xtube.com|xvideos.com|youporn.com|youporngay.com
@@ -40,6 +46,7 @@ xhamster.com##.sponsorTitle
 !xhamster.com##div > noscript + div[style
 xhamster.com##div[style^="width: 330px"]
 xhamster.com##.player-ad-overlay
+xhamster.com##.banner-container
 
 !javfor.me
 ||ads.exoclick.com^
@@ -55,13 +62,14 @@ javfor.me,jav4.me##[id^="ads_"]:not(body)
 .gif$domain=javfor.me|jav4.me
 javfor.me,jav4.me##a[href^="http://media.r18.com"]
 ||r18.com^
-javfor.me##a[href^="http://media.r18.com/"]
+!javfor.me##a[href^="http://media.r18.com/"]
 ||genieesspv.jp^
 javfor.me##.adv
 !javfor.me画像をクリックした時にr18新規ウィンドウが開くのをブロック。##script:contains(window.open)はFirefoxでしか機能しないので、$inline-scriptでブロック。
 ||javfor.me/category/$inline-script
 ||javfor.me/actress/$inline-script
-||javfor.me^$inline-script
+!||javfor.me^$inline-script
+||javfor.me##script:contains(window.open)
 
 !おらばうと
 ||puhtml.com^
