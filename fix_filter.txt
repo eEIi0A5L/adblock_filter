@@ -12,7 +12,7 @@
 @@||s.yimg.jp/images/auct/cms/promo/$domain=auctions.yahoo.co.jp
 
 !googleシートで同期エラーダイアログが出るので例外にする
-@@/logImpressions?$domain=docs.google.com
+@@||docs.google.com/spreadsheets/d/*/logImpressions?$domain=docs.google.com
 
 !Yahooのポイントを見ようとリンククリックしたときにフィルタされてしまうので例外化
 !→されない
