@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 28 Feb 2018 12:00 JST
+! Last modified: 05 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/ichigo.html
 ! 
@@ -313,7 +313,7 @@ www.tokyomotion.net###nuevoa
 ero-video.net###scroll-cont
 ero-video.net##.base__adverts
 
-!動画エロタレスト
+!6movie.blog.fc2.com
 ||mediad2.jp/ad/js/pjs.js
 ||adv.livelog.biz^
 6movie.blog.fc2.com##.ad
@@ -335,5 +335,7 @@ tube8.*##^script:has-text(adblock)
 @@||es.t8cdn.com^
 tube8.com###pb_template
 
+!babycondom.com
+babycondom.com###overlay-advertising
 
 ! END
