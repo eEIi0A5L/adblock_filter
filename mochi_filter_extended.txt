@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 28 Feb 2018 12:00 JST
+! Last modified: 03 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -135,11 +135,21 @@ cnn.com##.m-share
 ||sharethrough.com^$third-party
 /affiliate.linker/$domain=cnn.com
 ||postrelease.com^$third-party
+!cnn.com
+||mms.cnn.com^
+||edition.i.cdn.cnn.com/.a/2.69.0/js/cnn-analytics.min.js
+||static.ads-twitter.com^
+||cdn.adsafeprotected.com^
 
 !FoxNews
 ||global.fncstatic.com/static/v/all/js/ads.js
 www.foxnews.com##.addthis_toolbox
 www.foxnews.com##.social-count
+www.foxnews.com##.ad-container
+||metrics.foxnews.com^
+||analytics.edgesuite.net^
+||z.moatads.com^
+www.foxnews.com##.ad-container
 
 !ABCNews
 abcnews.go.com##.ad-slot
@@ -157,6 +167,13 @@ abcnews.go.com##.ad-slot
 ||tags.bluekai.com^
 ||vra.outbrain.com^
 ||s.abcnews.com/assets/js/adCallOverride.js
+abcnews.go.com##.ad-center
+abcnews.go.com##.ad-slot
+abcnews.go.com##.ad-slot-banner
+abcnews.go.com##.ad-wrapper
+||stats.pusher.com^
+||merlin.abc.go.com^
+||www.googleadservices.com^
 
 !afp
 www.afpbb.com##aside.ad
@@ -447,7 +464,10 @@ www.urbandictionary.com##.dfp
 ||d2gatte9o95jao.cloudfront.net/assets/mug-ad-
 www.urbandictionary.com##.new-mug-ad
 
-
+!AOL
+mail.aol.com,www.aol.com,www.aol.jp##.topAd
+mail.aol.com,www.aol.com,www.aol.jp###m-ad__banner
+www.aol.jp###rightContainer
 
 !LINEQ
 ||api.unthem.com/js/spad.js?

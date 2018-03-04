@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 27 Feb 2018 12:00 JST
+! Last modified: 02 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -198,6 +198,10 @@ www.yahoo.co.jp###yjidbox
 ||yj.p.adnxs.com^
 ||yjtag.yahoo.co.jp/tag?
 !||giwiz-quriosity.c.yimg.jp^
+
+!これは全部広告っぽい
+||adx.adnxs.com^
+||adnxs.com^
 
 !ビーコン
 !||b3.yahoo.co.jp/b?
@@ -807,6 +811,8 @@ www.famitsu.com###adTop
 www.famitsu.com##.ad-header-video
 ||www.famitsu.com/js/1411/ad.js
 www.famitsu.com##.adArticleBottomWrap
+www.famitsu.com##.adTc
+||ssl.webtracker.jp
 
 !ファミ通APP
 app.famitsu.com###widget-ad-rect
@@ -912,6 +918,7 @@ oshiete.goo.ne.jp###gheader
 ||goo.ne.jp/oshiete/ad_loader.js
 dictionary.goo.ne.jp##.NR-ad
 ||pulsar.xlisting.jp^
+blog.goo.ne.jp###top_app
 
 !livedoor
 ||news.livedoor.com/js/ads.0.5.js
@@ -1132,6 +1139,9 @@ www.news-postseven.com##.inner-ad
 !あなたにオススメ全部広告
 jisin.jp##.rmd_reccomend
 
+!J-Cast
+www.j-cast.com##.adunit
+
 !サンスポ
 www.sanspo.com##.adRectangleBanner
 
@@ -1238,6 +1248,11 @@ slashdot.org###firehose iframe
 !注：:has()を使う場合は、ドメインを指定しないと機能しない
 slashdot.org##article:has(div[class="ntv-sponsored-disclaimer"])
 ||um2.eqads.com^
+||www.stack-sonar.com/ping.js
+||slashdot.org/adbanner.gif
+||d3tglifpd8whs6.cloudfront.net^
+||slashdot.org/purple.gif
+||licdn.com/li.lms-analytics/
 
 !Naverまとめ
 ||api.unthem.com/js/pcad.js?
@@ -1314,6 +1329,8 @@ wikia.com##.wikia-ad
 wikia.com###LEFT_SKYSCRAPER_2
 !トラッキング
 ||petametrics.com^
+!ビデオ
+!wikia.com##div[itemprop="video"]
 
 !StackOverflow
 ||ssum-sec.casalemedia.com^
@@ -1503,10 +1520,15 @@ open.spotify.com##.ads-container
 ||www.buzzfeed.com/static/js/advertiser/
 ||abeagle-public.buzzfeed.com^
 
+!Nifty
+!検索結果の広告
+search.nifty.com###lst1
+search.nifty.com###lst2
+
+
 !スクエニのサイトでニュースが表示されない
 !http://egg.5ch.net/test/read.cgi/software/1518498170/338
 @@||www.googleadservices.com/pagead/conversion_async.js$domain=www.jp.square-enix.com
-
 
 
 !その他

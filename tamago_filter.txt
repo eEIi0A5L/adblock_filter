@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 20 Feb 2018 12:00 JST
+! Last modified: 01 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -140,6 +140,16 @@ headlines.yahoo.co.jp##.bnrMod
 ||yahoo.co.jp/b?
 ||s.yimg.jp/images/mobile/yjapp/promo/
 m.yahoo.co.jp##.List__item--relaxBorder
+m.yahoo.co.jp###rsab
+!||s.yimg.jp/bdv/yahoo/javascript/smartphone/SmartBanner/1.0.0/yahoo-stw-sync/smartbanner.js
+
+!Yahoo天気
+!||logql.yahoo.co.jp/p?s=
+!||logql.yahoo.co.jp/v1/public/yql?
+
+!Yahoo路線
+transit.yahoo.co.jp###rsab
+transit.yahoo.co.jp###posNM
 
 
 !goo
@@ -315,6 +325,8 @@ mw.nikkei.com###sticky_region_forSNS
 ||js.rtoaster.jp^
 r.nikkei.com##.nui-ad
 r.nikkei.com##.nui-share
+www.nikkei.com##.m-olmM05
+||nkispa.nikkei.com/fh/showad_
 
 !Mainichi
 ||cf.ad-v.jp^
@@ -338,6 +350,12 @@ mainichi.jp###bottom-share
 ||rd.adingo.jp^
 ||i.adingo.jp^
 www.jiji.com##.adingoFluctOverlay
+!時事ドットコム
+||ad.rfp.fout.jp^
+||imp.rfp.fout.jp^
+![PR]おすすめ情報
+www.jiji.com##._taxel_recommend_header
+www.jiji.com##.taxel_ul_wrap
 
 !zdnet
 ||img.ak.impact-ad.jp^
@@ -444,6 +462,8 @@ cookpad.com##.tieup_links
 ||pixel.parsely.com^
 m.huffingtonpost.jp##.shareBarBottom
 m.huffingtonpost.jp##.advertisement
+!Huffpost下部SNSナビ
+m.huffpost.com###bottom-nav
 
 !東京スポーツ
 ||assets.gunosy.com/adnet/
@@ -568,6 +588,7 @@ jp.sputniknews.com##.social-likes-pane
 ||jp.sputniknews.com/min/js/libs/adriver.core.2.js
 ||jp.sputniknews.com/min/js/libs/adfox.asyn.code.ver3-scroll.js
 jp.sputniknews.com###smartbanner
+!jp.sputniknews.com##html:style(margin-top: 0px;)
 
 
 !carnnyマガジン
@@ -681,6 +702,7 @@ www.urbandictionary.com##.new-mug-ad
 
 !スラド
 srad.jp###tophat
+it.srad.jp###ads-article-left
 
 !モデルプレス
 mdpr.jp##aside[class^="ad"]
@@ -694,6 +716,14 @@ mdpr.jp##.ath-container
 ||eu-u.openx.net^
 ||teads.tv^
 ||as.vt.open8.com^
+
+!日刊現代
+www.nikkan-gendai.com##.gunosy-ads-spot
+www.nikkan-gendai.com###rect_ad_01
+www.nikkan-gendai.com##.banner
+www.nikkan-gendai.com###_popIn_recommend
+www.nikkan-gendai.com###_popIn_recommend_2
+
 
 !Slashdot
 ||adserver.adtechus.com^

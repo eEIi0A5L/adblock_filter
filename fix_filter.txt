@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: 27 Feb 2018 12:00 JST
+! Last modified: 04 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/fix.html
 ! 
@@ -127,5 +127,15 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 !スクエニのサイトでニュースが表示されない
 !http://egg.5ch.net/test/read.cgi/software/1518498170/338
 @@||www.googleadservices.com/pagead/conversion_async.js$domain=www.jp.square-enix.com
+
+!読売オンラインでフォントが出ない
+!http://www.yomiuri.co.jp/stream/?id=08212
+@@||ssl.p.jwpcdn.com/player/v/7.12.8/jw-icons.woff$domain=www.yomiuri.co.jp
+
+!j-castトップで最新ニュースが消える
+@@||scdn.cxense.com/cx.js$domain=j-cast.com
+@@||api.cxense.com/public/widget/data?$domain=j-cast.com
+@@||comcluster.cxense.com/dmp/push?callback$domain=j-cast.com
+@@||api.cxense.com/public/widget/click/$domain=j-cast.com
 
 ! END

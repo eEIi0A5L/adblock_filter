@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2018/02/19 12:00 JST
+! Last modified: 2018/03/02 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/negi.html
 
@@ -115,6 +115,8 @@ shopping.yahoo.co.jp##.mdItemInfoCartCount
 shopping.yahoo.co.jp###glonavi
 shopping.yahoo.co.jp##div[style="position:fixed; top:100px; right:0;"]
 shopping.yahoo.co.jp##.mdFloatingButton
+!Yahooショッピング右下のお知らせを含むcrmのブロック
+||s.yimg.jp/images/commerce/js/service/shp/crm/crm1.6.js
 !カート削除
 shopping.yahoo.co.jp##.mdCartAnchorLink
 auctions.yahoo.co.jp###js-PromotionFrame
