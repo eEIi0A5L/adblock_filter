@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 27 Feb 2018 12:00 JST
+! Last modified: 02 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -33,11 +33,22 @@
 !痛いニュース
 ||blog.livedoor.jp/dqnplus/settings/ad.js
 ||amaprop.net/js/amazon-ranking-app-2.js
+blog.livedoor.jp##a[href^="http://www.amazon.co.jp/exec/"]
+blog.livedoor.jp###poweredAdsBy
+blog.livedoor.jp##.amazlet-box
 
 !アルファモザイク
 ||cse.google.com/adsense/search/async-ads.js
 ||blogmaterial.nicoblomaga.jp/material/279/bromaga_AdTimer_PC.js
 ||blogmaterial.nicoblomaga.jp/material/279/PC_alfaad.js
+alfalfalfa.com###mainmore
+alfalfalfa.com##.article_bodyfooter
+alfalfalfa.com###related-title
+alfalfalfa.com##.section-rss
+alfalfalfa.com##.chumoku_article
+alfalfalfa.com##.main_article_footer_ads
+alfalfalfa.com##.ads_box
+alfalfalfa.com##.sponsored_in
 
 !ニュー速クオリティ
 ||js.blozoo.info/js/amatool/blogparts.js
@@ -103,6 +114,7 @@ news4vip.livedoor.biz##.google-2ad
 ||a.tribalfusion.com^
 ||images-fe.ssl-images-amazon.com/images/$domain=blog.livedoor.jp
 blog.livedoor.jp##.kar_wraper
+blog.livedoor.jp##.google-user-ad
 
 !やらおん
 ||pics.dmm.com/af/dmmad/pure_ads/
@@ -200,9 +212,20 @@ blog.esuteru.com##.amazlet-box
 ||static.fc2.com/js/blog/headbar_ad_load.js
 
 
-!2ch.vet
+!２ちゃんねるブックマーク
 ||rdp.pro.ne.jp^
 ||bitflyer.jp^$third-party
+2ch.vet##a[href^="https://clicks.pipaffiliates.com/"]
+!||rdp.pro.ne.jp/img/
+||bitflyer.jp/Images/Affiliate/
+!2ch.vet##.bs-component
+||a8.net^$third-party
+!||static.zucks.net.zimg.jp^
+||medi-8.net^
+||gssprt.jp^
+||zucks.net^
+||zucks.net.zimg.jp^
+2ch.vet##thead
 
 !pinkまとめんばー
 !deaiman.net##^.modal
@@ -228,6 +251,9 @@ kanasoku.info##.adset-Cover
 ||blogmaterial.nicoblomaga.jp/material/27/bromaga_AdTimer_PC.js
 ||blogmaterial.nicoblomaga.jp/material/27/Pc_adc.js
 kanasoku.info##span[style="font-size:10px"]
+kanasoku.info##.cent
+kanasoku.info##.headline_middle
+kanasoku.info###headrank2
 
 !BIPブログ
 ||images-fe.ssl-images-amazon.com/images/$domain=bipblog.com
@@ -303,6 +329,38 @@ brow2ing.doorblog.jp##div[style="padding: 18px; line-height: 1.42; background: r
 
 !げ～せわニュース速報！！
 ||pics.dmm.com/af/$domain=ge-sewa-news.blog.jp
+
+!プリ画像
+prcm.jp###ad-rectangle
+prcm.jp##.ad-rectangle
+
+!黒マッチョニュース
+||ecx.images-amazon.com/images/$domain=kuromacyo.livedoor.biz
+||images-fe.ssl-images-amazon.com/images/$domain=kuromacyo.livedoor.biz
+
+!デジタルニューススレッド
+digital-thread.com##.top-contents-ad-base
+||counter2.blog.livedoor.com/c?
+
+!ねたAtoZ
+||ecx.images-amazon.com/images/$domain=netaatoz.jp
+netaatoz.jp##a[href^="http://www.amazon.co.jp/"]
+
+!ガハろぐNews
+||images-fe.ssl-images-amazon.com/images/$domain=gahalog.2chblog.jp
+||solty.biz/amazon.js
+
+!ライフハックちゃんねる弐式
+||images-na.ssl-images-amazon.com/images/$domain=lifehack2ch.livedoor.biz
+lifehack2ch.livedoor.biz##a[href^="http://www.amazon.co.jp/"]
+
+!チラ速
+||pics.dmm.com/digital/video/$domain=blog.livedoor.jp
+blog.livedoor.jp##a[href^="http://www.dmm.com/"]
+blog.livedoor.jp##a[href^="http://www.amazon.co.jp/"]
+blog.livedoor.jp##a[href^="https://www.amazon.co.jp/"]
+
+
 
 
 !まとめその他

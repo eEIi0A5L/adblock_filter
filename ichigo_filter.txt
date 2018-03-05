@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 28 Feb 2018 12:00 JST
+! Last modified: 05 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/ichigo.html
 ! 
@@ -313,5 +313,29 @@ www.tokyomotion.net###nuevoa
 ero-video.net###scroll-cont
 ero-video.net##.base__adverts
 
+!6movie.blog.fc2.com
+||mediad2.jp/ad/js/pjs.js
+||adv.livelog.biz^
+6movie.blog.fc2.com##.ad
+||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js
+6movie.blog.fc2.com##.video-wrap0
+
+!tube8
+tube8.*##script:inject(pornhub-popup-defuser.js)
+tube8.com##script:inject(abort-on-property-write.js, AdDelivery)
+tube8.com##script:inject(abort-on-property-write.js, IS_ADBLOCK)
+tube8.com##script:inject(abort-on-property-write.js, loadAdFromHeaderTab)
+||etahub.com^$third-party
+||trafficjunky.net^$important,third-party
+tube8.com###right_side_ad_wrapper
+@@||t8cdn.com^$image,domain=tube8.com|tube8.es|tube8.fr
+tube8.*##^script:has-text(adblock)
+@@||t8cdn.com^$media,domain=tube8.com|tube8.es|tube8.fr
+@@||tube8.com/ajax2/$xmlhttprequest
+@@||es.t8cdn.com^
+tube8.com###pb_template
+
+!babycondom.com
+babycondom.com###overlay-advertising
 
 ! END

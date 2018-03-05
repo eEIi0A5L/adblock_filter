@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Yahoo!Japanトップの広告をとにかくブロックするフィルタ
-! Last modified: 21 Feb 2018 12:00 JST
+! Last modified: 03 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/
 ! 
@@ -33,21 +33,21 @@ www.yahoo.co.jp##div[id^="gyj"]
 www.yahoo.co.jp##div[class^="yjads"]
 www.yahoo.co.jp##div[style^="position: absolute; width: 100%;"]
 ||yahoo.co.jp/b?
-||yj.p.adnxs.com^
+||adnxs.com^
 ||yjtag.yahoo.co.jp/tag?
 ||yads.c.yimg.jp/js/yads.js
 ||yads.c.yimg.jp/js/yads-async.js
 ||logql.yahoo.co.jp/v1/public/yql?
 ||secure-ds.serving-sys.com/BurstingRes/
-||s.yimg.jp/bdv/prem/
 ||s.yimg.jp/images/advertising/
 ||s.yimg.jp/images/listing/tool/yads/
 ||s.yimg.jp/images/advertising/common/js/iicon.min.js
+||s.yimg.jp/images/sh/cms/promotion/year_end/2017/bnr/201_410_50.png
 ||s.yimg.jp/bdv/yahoo/javascript/gyj/1.1.0/premiumvision-gyj.js
 ||s.yimg.jp/bdv/yahoo/javascript/brandpanelvision/0.0.1/brandpanelvision.js
 ||s.yimg.jp/bdv/*.mp4$domain=www.yahoo.co.jp
-||s.yimg.jp/images/sh/cms/promotion/year_end/2017/bnr/201_410_50.png
 ||s.yimg.jp/bdv/adtest/
+||s.yimg.jp/bdv/prem/
 
 
 !Yahooニュース
