@@ -338,4 +338,26 @@ tube8.com###pb_template
 !babycondom.com
 babycondom.com###overlay-advertising
 
+!video.fc2
+||video.fc2.com/adPlayer.php?
+||video.fc2.com/a/pagead/
+||mediad2.jp/ad/
+||media.fc2.com^
+||cdn.ad.maist.jp^
+||aimg.fc2.com^
+!video.fc2.com###content_ad_head_wide
+video.fc2.com##.ad_head_wide
+video.fc2.com##div.main_ad_head_wide:style(padding-top: 0px !important;)
+!video.fc2.com###ad_side_wrap2
+!video.fc2.com###ad_side_wrap2:style(padding-top: 0px !important;)
+video.fc2.com###ad_side_wrap2
+
+!youav.com
+||www.youav.com$popup
+||www.youav.com$popunder
+||popads.net/pop.js^$important
+||addthis.com^$important,third-party
+||ads.adxpansion.com^
+||jwpltx.com^
+
 ! END
