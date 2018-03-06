@@ -54,7 +54,7 @@ google.co.jp##div[aria-label="promo"]
 !Googleトップの目障りなJS削除
 /logos/$domain=google.co.jp|google.com
 !Googleトップのロゴ画像削除
-google.co.jp###hplogo
+!google.co.jp###hplogo
 !google.co.jp##^#hplogo
 !下記をブロックするとChrome新規タブの表示がくずれる
 !www.google.co.jp,google.com###lga
