@@ -7,6 +7,6 @@
 ! 
 
 google.co.jp###hplogo
-google.co.jp##^hplogo
+google.co.jp##^#hplogo
 
 ! END
