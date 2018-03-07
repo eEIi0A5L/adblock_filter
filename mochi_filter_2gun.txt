@@ -360,6 +360,14 @@ blog.livedoor.jp##a[href^="http://www.dmm.com/"]
 blog.livedoor.jp##a[href^="http://www.amazon.co.jp/"]
 blog.livedoor.jp##a[href^="https://www.amazon.co.jp/"]
 
+!ニコニコVIP2ch
+||ad-feed.com^
+||ad-management.biz^
+||blog.livedoor.jp/nicovip2ch/ad_ran
+blog.livedoor.jp##.entry_box110
+blog.livedoor.jp##div[style="padding: 1px; margin-top: 0px; margin-bottom: 20px; overflow:hidden; font-weight:bold; border: 5px solid #9e4f2d;"]
+blog.livedoor.jp##.entry_box101
+
 
 
 

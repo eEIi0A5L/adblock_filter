@@ -51,15 +51,17 @@ www.nicovideo.jp##.summer2017Area
 !なんかABPできかなかった。。。よくわからない。。。
 www.google.co.jp##div[role="dialog"][style="behavior:url(#default#userData)"]
 google.co.jp##div[aria-label="promo"]
-!Googleトップの目障りなJS削除
-/logos/$domain=google.co.jp|google.com
+!!Googleトップの目障りなJS削除
+!→google_hplogo_block.txtに移動 2018.3.8
+!/logos/$domain=google.co.jp|google.com
 !Googleトップのロゴ画像削除
 !→ロゴは出た方がいいのでブロックはやめた
 !google.co.jp###hplogo
 !google.co.jp##^#hplogo
 !下記をブロックするとChrome新規タブの表示がくずれる
 !www.google.co.jp,google.com###lga
-www.google.co.jp,google.com###prm-pt
+!下記は出ていい 2018.3.8
+!www.google.co.jp,google.com###prm-pt
 !Googleを規定の検索エンジンにしよう
 www.google.co.jp##.pdp-psy
 !"Looking for results in English? 引き続き日本語を使用"
@@ -365,5 +367,11 @@ www.nikkei.com##.JSID_yudoMotion_closeAction
 
 !web.archive.org
 archive.org###donate_banner
+
+!pixiv
+www.pixiv.net##._premium-lead-tag-search-bar
+!pixivから指定ユーザを消す
+!http://egg.5ch.net/test/read.cgi/software/1515404854/681-685
+!www.pixiv.net##div:if(> figure:has-text(名無しさん))
 
 !END

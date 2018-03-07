@@ -889,6 +889,8 @@ www.sponichi.co.jp##.shareButton-fixed
 www.iza.ne.jp###SiteFooter
 ||prt.iza.ne.jp/common/js/ad/adGpt.js
 
+!wowkorea
+||kt.wowkorea.jp/images/ad/
 
 
 
