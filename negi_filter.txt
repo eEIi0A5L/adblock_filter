@@ -367,4 +367,10 @@ www.nikkei.com##.JSID_yudoMotion_closeAction
 !web.archive.org
 archive.org###donate_banner
 
+!pixiv
+www.pixiv.net##._premium-lead-tag-search-bar
+!pixivから指定ユーザを消す
+!http://egg.5ch.net/test/read.cgi/software/1515404854/681-685
+!www.pixiv.net##div:if(> figure:has-text(名無しさん))
+
 !END

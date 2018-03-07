@@ -1305,6 +1305,40 @@ itmedia.co.jp###ads_content_top
 ||www.itmedia.co.jp/css/pcuser/ad.css
 ||static.ads-twitter.com/uwt.js
 www.itmedia.co.jp###body_insert_ad
+itmedia.co.jp##iframe[id^="cxWidget_"]
+
+!@IT
+!www.atmarkit.co.jp###cxensereRectangle
+!www.atmarkit.co.jp##.dmp-area
+!www.atmarkit.co.jp###rrec
+!www.atmarkit.co.jp###body_insert_ad
+!#body_insert_adでiframeで読み込まれる広告
+!||cdn.cxpublic.com^$domain=www.atmarkit.co.jp
+!||api.popin.cc^$domain=www.atmarkit.co.jp
+!||cse.google.com/adsense/search/async-ads.js
+!||www.atmarkit.co.jp/js/ait/ex_adRequest.js
+!||www.atmarkit.co.jp/js/ad.js
+!||www.atmarkit.co.jp/js/ait/ad.js
+!||comcluster.cxense.com^$domain=www.atmarkit.co.jp
+!www.atmarkit.co.jp###dmp
+!www.atmarkit.co.jp###ISALC
+!www.atmarkit.co.jp###header_ad
+!||cdn.cxense.com/cx.js$domain=www.atmarkit.co.jp
+!@@||dlv.itmedia.jp/adsv/$domain=www.atmarkit.co.jp
+
+!やり直し
+!まず@TI Specialは消す。PRなので
+www.atmarkit.co.jp###ISALC
+www.atmarkit.co.jp###cxensereRectangle
+www.atmarkit.co.jp###body_insert_ad
+www.atmarkit.co.jp###rrec
+www.atmarkit.co.jp##.dmp-area
+www.atmarkit.co.jp###dmp
+||cse.google.com/adsense/search/async-ads.js
+||www.atmarkit.co.jp/js/ait/ex_adRequest.js
+||www.atmarkit.co.jp/js/ad.js
+||www.atmarkit.co.jp/js/ait/ad.js
+
 
 !wikia
 wikia.com###WikiaArticleBottomAd
@@ -1379,6 +1413,7 @@ seesaawiki.jp###seesaa-bnr
 
 !a8.net
 ||a8.net/svt/bgt?
+||a8.net^$third-party
 
 !斧
 ||bn.maist.jp^
@@ -1485,7 +1520,11 @@ www.navitime.co.jp##.ad-frame
 
 !pixiv
 www.pixiv.net##.ad-footer
-
+www.pixiv.net##.ads_area_no_margin
+www.pixiv.net##.multi-ads-area
+||ads.doko.jp^
+||d.pixiv.org/file?format=default&ad_group_id=
+www.pixiv.net##section.ad
 
 
 
