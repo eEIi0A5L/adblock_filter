@@ -60,7 +60,8 @@ google.co.jp##div[aria-label="promo"]
 !google.co.jp##^#hplogo
 !下記をブロックするとChrome新規タブの表示がくずれる
 !www.google.co.jp,google.com###lga
-www.google.co.jp,google.com###prm-pt
+!下記は出ていい 2018.3.8
+!www.google.co.jp,google.com###prm-pt
 !Googleを規定の検索エンジンにしよう
 www.google.co.jp##.pdp-psy
 !"Looking for results in English? 引き続き日本語を使用"
