@@ -9,5 +9,6 @@
 /logos/$domain=google.co.jp|google.com
 google.co.jp###hplogo
 google.co.jp##^#hplogo
+google.co.jp###prm
 
 ! END
