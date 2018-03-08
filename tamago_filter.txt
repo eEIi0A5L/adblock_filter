@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 01 Mar 2018 12:00 JST
+! Last modified: 08 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -892,6 +892,9 @@ www.iza.ne.jp###SiteFooter
 !wowkorea
 ||kt.wowkorea.jp/images/ad/
 
+!gigazine
+!広告エリア
+gigazine.net###G_EF
 
 
 !その他

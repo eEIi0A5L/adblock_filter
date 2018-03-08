@@ -368,6 +368,11 @@ blog.livedoor.jp##.entry_box110
 blog.livedoor.jp##div[style="padding: 1px; margin-top: 0px; margin-bottom: 20px; overflow:hidden; font-weight:bold; border: 5px solid #9e4f2d;"]
 blog.livedoor.jp##.entry_box101
 
+!芸能人ニュース速報
+blog.livedoor.jp##.main-container-ads
+||livedoor.blogimg.jp/sky_wing2010-geinou/imgs/7/2/72d3165a.png
+blog.livedoor.jp##iframe[src^="http://api.unthem.com/cast?zname="]
+
 
 
 
