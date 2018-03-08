@@ -96,6 +96,9 @@
 !gl-search.comというブラウザハイジャッカーにやられた
 !http://egg.5ch.net/test/read.cgi/software/1475377484/810
 ||gl-search.com^
+!http://egg.5ch.net/test/read.cgi/software/1513787330/897
+!電子マネー千円貰えた(*^o^*)
+||pointi.jp^
 !END-----------------------------------------------------------
 
 !START-------------------------------------
