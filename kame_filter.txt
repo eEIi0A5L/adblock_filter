@@ -2,7 +2,7 @@
 ! Title: 亀フィルタ（ウイルスサイトブロック）
 ! Description: ウイルスサイトをブロックする
 !
-! Last modified: 2018/02/27 12:00 JST
+! Last modified: 2018/03/08 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/kame.html
 
@@ -58,6 +58,8 @@
 !Text Link Plusがマルウェア化しました
 ||piet2eix3l.com^
 
+
+
 !５ちゃんねるの荒らしが誘導しているサイト---------------------
 ||livebby.b2.valueserver.jp^
 ||edax.getamonkey.com^
@@ -91,6 +93,9 @@
 !http://cococo.indforever.net/20180214/0203d02dgd09.html
 ||cococo.indforever.net^
 ||waz.sarah-lai.com^
+!gl-search.comというブラウザハイジャッカーにやられた
+!http://egg.5ch.net/test/read.cgi/software/1475377484/810
+||gl-search.com^
 !END-----------------------------------------------------------
 
 !START-------------------------------------
