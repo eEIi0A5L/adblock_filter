@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 02 Mar 2018 12:00 JST
+! Last modified: 09 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -400,6 +400,7 @@ futalog.com##:xpath(//table[(.//script or .//iframe) and .//blockquote])
 ||futalog.com/if_ad.php
 ||adingo.jp^
 ||gsspcln.jp^
+||dec.2chan.net/ad/
 
 !とぅげったー
 togetter.com##.ad_list_top
