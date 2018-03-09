@@ -896,6 +896,14 @@ www.iza.ne.jp###SiteFooter
 !広告エリア
 gigazine.net###G_EF
 
+!scmp
+m.scmp.com##.share-buttons-fixed-container
+
+!西日本新聞
+||www.nishinippon.co.jp/mobile/common/img/bn_eppaper_header.jpg
+www.nishinippon.co.jp##a[href^="http://ac.ebis.ne.jp/tr_set.php?argument="]
+
+
 
 !その他
 www.tainavi-switch.com##.bn-01

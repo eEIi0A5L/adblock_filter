@@ -374,6 +374,51 @@ blog.livedoor.jp##.main-container-ads
 blog.livedoor.jp##iframe[src^="http://api.unthem.com/cast?zname="]
 
 
+!ぐら速 -声優まとめ速報-
+||images-fe.ssl-images-amazon.com/images/$domain=grasoku.com
+grasoku.com##.google-2ad
+grasoku.com##.google-2ad-m
+
+!JUMP速報
+||images-jp.amazon.com/images/$domain=jumpsokuhou.com
+||ecx.images-amazon.com/images/$domain=jumpsokuhou.com
+||images-fe.ssl-images-amazon.com/images/$domain=jumpsokuhou.com
+||jumpsokuhou.com/js/amazon_side_jump.js
+jumpsokuhou.com##.ad_tb
+
+!MAG速
+magsoku.blomaga.jp##a[href^="http://www.amazon.co.jp/"]
+
+!虹神速報-にじそく
+||images-fe.ssl-images-amazon.com/images/$domain=nizigami.com
+nizigami.com##.smac_ad
+nizigami.com##.rss-blogroll-body
+nizigami.com###horizontalrank
+nizigami.com##table[style="font-size:12px;text-decoration:none;"]
+
+!声豚速報
+||images-fe.ssl-images-amazon.com/images/$domain=koebuta.ldblog.jp
+
+!オタク.com
+||assets.gunosy.com/adnet/
+||images-fe.ssl-images-amazon.com/images/$domain=otakomu.jp
+||wp.com/images-fe.ssl-images-amazon.com/images/$domain=otakomu.jp
+
+!おたくみくす
+otakumix.doorblog.jp##.t_r
+
+!にじいろ＠名無しびより
+||images-fe.ssl-images-amazon.com/images/$domain=niziiro.livedoor.biz
+niziiro.livedoor.biz##iframe[src="http://niziiro.livedoor.biz/nizi.html"]
+||livedoor.blogimg.jp/niziiro315/imgs/5/b/5b86a0ba-s.jpg
+
+!声優速報
+aniran.blog.jp##div[id^="blz_rss_"]
+aniran.blog.jp##table[width="450"][height="350"][border="1"][cellspacing="0"]
+###article-options > table
+
+
+
 
 
 !まとめその他

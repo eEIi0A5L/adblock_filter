@@ -504,6 +504,14 @@ genius.com###song-page-sidebar-multi-placement
 !歌詞サイトhttp://www.metrolyrics.com
 ||srv.tonefuse.com/showads/showad.js
 
+!アニメアニメ
+animeanime.jp##.sidebox-ad
+||api.triver.jp^
+
+!Web Cartop
+||www.webcartop.jp/wp-content/themes/cartop/images/banners/
+www.webcartop.jp##.sidebar-banner
+
 
 
 
