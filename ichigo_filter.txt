@@ -271,6 +271,14 @@ pornhub.com###pb_template
 ||doublepimpssl.com^$third-party
 @@/videos/$domain=pornhub.com
 @@||pornhub.com/svvt/add?$xmlhttprequest
+pornhub.com##script:inject(pornhub-popup-defuser.js)
+pornhub.com##script:inject(pornhub-sanitizer.js)
+pornhub.com##script:inject(abort-on-property-write.js, AdDelivery)
+pornhub.com##script:inject(abort-on-property-write.js, rAb)
+pornhub.com##script:inject(csp.js, img-src 'self' *; media-src 'self' *)
+pornhub.com##script:inject(abort-on-property-write.js, UAParser)
+pornhub.com##script:inject(abort-on-property-write.js, isAdblockOn)
+pornhub.com##^script:has-text(tj_ads)
 
 !bobx.com
 ||img.bobx.com/x_images/vids4.jpg
@@ -351,6 +359,11 @@ video.fc2.com##div.main_ad_head_wide:style(padding-top: 0px !important;)
 !video.fc2.com###ad_side_wrap2
 !video.fc2.com###ad_side_wrap2:style(padding-top: 0px !important;)
 video.fc2.com###ad_side_wrap2
+video.fc2.com###videoplayer_ad
+video.fc2.com##.cont_v2_ad
+||textad.net/cgi-bin/manager.cgi
+video.fc2.com##.c-ad-103
+video.fc2.com##.u-hasAd-101_adArea
 
 !youav.com
 ||www.youav.com$popup
