@@ -417,6 +417,39 @@ aniran.blog.jp##div[id^="blz_rss_"]
 aniran.blog.jp##table[width="450"][height="350"][border="1"][cellspacing="0"]
 ###article-options > table
 
+!わんこーる速報
+onecall2ch.com##.google-2ad
+onecall2ch.com##.google-2ad-m
+onecall2ch.com##.google-2ad-b
+
+!アニゲー速報
+www.anige-sokuhouvip.com###top_center
+www.anige-sokuhouvip.com###top_center5
+www.anige-sokuhouvip.com##.t_h
+www.anige-sokuhouvip.com##.t_c
+www.anige-sokuhouvip.com##div[style="margin-left:-15px;"]
+www.anige-sokuhouvip.com##.relate_dl
+!www.anige-sokuhouvip.com##.entry-body3
+www.anige-sokuhouvip.com##.komentitiran
+www.anige-sokuhouvip.com###modernentryrank
+
+!デジタルニューススレッド
+digital-thread.com##.google-2ad
+digital-thread.com##.article-headline
+digital-thread.com##.ad-article01
+digital-thread.com##.article-news01
+digital-thread.com##.article-news02
+digital-thread.com##.article-news03
+
+!ああいえばForYou
+aaieba.livedoor.biz##section[id^="PERMALINK_SYSTEM_"]
+aaieba.livedoor.biz##iframe[src="http://aaieba.livedoor.biz/aa1.html"]
+aaieba.livedoor.biz##a[href^="https://www.amazon.co.jp/"]
+aaieba.livedoor.biz##iframe[src="http://aaieba.livedoor.biz/bb1.html"]
+aaieba.livedoor.biz##.aaieba-e
+aaieba.livedoor.biz##.aaieba-a
+
+
 
 
 
