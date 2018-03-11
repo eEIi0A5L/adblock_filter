@@ -373,6 +373,16 @@ blog.livedoor.jp##.main-container-ads
 ||livedoor.blogimg.jp/sky_wing2010-geinou/imgs/7/2/72d3165a.png
 blog.livedoor.jp##iframe[src^="http://api.unthem.com/cast?zname="]
 
+!魔王ブログ
+||img.adpon.net^
+||ru.adpon.net^
+||shinobi.jp/track?
+||sync.shinobi.jp^
+beelzeboulxxx.com##a[name="more"] + aside
+beelzeboulxxx.com##iframe[src="http://beelzeboulxxx.com/rss_html.html"]
+beelzeboulxxx.com##.maob_adbox
+||49.212.219.243^
+
 
 !声優まとめ--------------------------------------------------------------------
 !ぐら速 -声優まとめ速報-
