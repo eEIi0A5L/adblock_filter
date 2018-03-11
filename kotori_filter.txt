@@ -65,6 +65,9 @@ news.yahoo.co.jp,headlines.yahoo.co.jp##.twBtn
 news.yahoo.co.jp,headlines.yahoo.co.jp##.fbBtn
 ||platform.twitter.com/jot.html$domain=yahoo.co.jp
 ||syndication.twitter.com/i/jot$domain=yahoo.co.jp
+||platform.twitter.com/widgets/widget_iframe$domain=yahoo.co.jp
+||syndication.twitter.com/settings$domain=yahoo.co.jp
+||platform.twitter.com/widgets.js$domain=yahoo.co.jp
 
 !Yahoo天気
 yahoo.co.jp###rbnr
