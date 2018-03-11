@@ -56,14 +56,7 @@ www.yahoo.co.jp#@##rma-pdv
 
 
 !ことり----------------------------------------------------
-yahoo.co.jp#@#.twBtn
-yahoo.co.jp#@#.fbBtn
 
-news.yahoo.co.jp,headlines.yahoo.co.jp##.twBtn
-news.yahoo.co.jp,headlines.yahoo.co.jp##.fbBtn
-
-||platform.twitter.com/jot.html$domain=yahoo.co.jp
-||syndication.twitter.com/i/jot$domain=yahoo.co.jp
 
 
 !END------------------------------------------------------------------------------

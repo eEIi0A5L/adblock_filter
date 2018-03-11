@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ことりフィルタ（SNSボタンブロック）
-! Last modified: 27 Feb 2018 12:00 JST
+! Last modified: 12 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/kotori.html
 ! 
@@ -58,9 +58,13 @@ ameblo.jp##ul[amb-component="entryShare"]
 
 !Yahooニュース
 ||i.yimg.jp/lib/news/socialModule/
-yahoo.co.jp##.snsButton
-yahoo.co.jp##.twBtn
-yahoo.co.jp##.fbBtn
+!yahoo.co.jp##.snsButton
+!yahoo.co.jp##.twBtn
+!yahoo.co.jp##.fbBtn
+news.yahoo.co.jp,headlines.yahoo.co.jp##.twBtn
+news.yahoo.co.jp,headlines.yahoo.co.jp##.fbBtn
+||platform.twitter.com/jot.html$domain=yahoo.co.jp
+||syndication.twitter.com/i/jot$domain=yahoo.co.jp
 
 !Yahoo天気
 yahoo.co.jp###rbnr
