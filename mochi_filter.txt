@@ -259,6 +259,8 @@ headlines.yahoo.co.jp###ycd-module
 
 !https://news.yahoo.co.jp/pickup/6264266とかでたまにtaboolaが接続重くなって映像が見れないのではじいておく。Peter Lowe’s Ad and tracking server list​​​​​​​​​でブロック済。
 !http://www.afpbb.comで→こんな記事も読まれていますが消えてしまう
+!→$domain=yahoo.co.jpをつけてヤフーでだけブロックすればいいのでは？
+!→taboolaでおすすめ管理されているのでブロックするかどうかは考える
 !||taboola.com^
 
 !ここで本編前に広告動画が表示された
@@ -1163,6 +1165,17 @@ www.kobe-np.co.jp##.newsfeedList_new > .native
 
 !河北新聞
 www.kahoku.co.jp##ul.bnr
+
+!日刊大衆
+taishu.jp###ad01
+taishu.jp##.standard2
+taishu.jp##.toptxt
+
+
+!IZA
+www.iza.ne.jp##.ad-rectangle-banner
+www.iza.ne.jp##div[style="width:300px;height:600px;"]
+
 
 !リアルライブ
 npn.co.jp##.ad300x250

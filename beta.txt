@@ -1,31 +1,69 @@
 !BETA--------------------------------------------------------------------------
-!影響範囲が大きいのでしばらく様子をみる。2018.1.17 start
-!~amazon.co.jp##a[href*="amazon.co.jp"][href*="-22"]
-!~amazon.co.jp##^a[href*="amazon.co.jp"][href*="-22"]
+
+!Yahoo高速化 2018.3.11
+!一旦例外化して
+www.yahoo.co.jp#@#div[style^="position: absolute; width: 950px; height: 600px"]
+yahoo.co.jp#@#.compo > p
+yahoo.co.jp#@#.compo > a
+@@||s.yimg.jp/images/top/sp2/event/iikaimono2017/
+@@||s.yimg.jp/images/ticket/pc/img/date/171031/w11usj/no8_760x110.png
+www.yahoo.co.jp#@#.Kaimono
+www.yahoo.co.jp#@#.Personalbox__noticeItem--card
+headlines.yahoo.co.jp#@#.noPrice
+news.yahoo.co.jp,headlines.yahoo.co.jp#@#.ycdMod
+headlines.yahoo.co.jp#@#.noPrice
 
 
-!.jp,.net,.com,.org,.me,.tv,.biz,.info##^a[href*="amazon.co.jp"][href*="-22"]
-!#@#a[href*="amazon.co.jp"][href*="-22"]
-!試験運用開始2018.2.8
-!.jp,.net,.com,.org,.me,.tv,.biz,.info,~amazon.co.jp##^a[href*="amazon.co.jp"][href*="-22"]
-!.jp,.net,.com,.org,.me,.tv,.biz,.info,~rakuten.co.jp##^iframe[id^="rakuten"]
-!→重い
-!~amazon.co.jp##^a[href*="amazon.co.jp"][href*="-22"]
-!~rakuten.co.jp##^iframe[id^="rakuten"]
+!Yahooトップ全画面の左右の大きなバックグラウンド広告
+!一旦許可して上位のIDを調べなおす
+!@@||s.yimg.jp/bdv/yahoo/javascript/gyj/1.1.0/premiumvision-gyj.js
+www.yahoo.co.jp#@#div[id^="gyj"]
+www.yahoo.co.jp#@##topImpact
+www.yahoo.co.jp#@#div[style^="position: absolute; width: 100%;"]
 
-!下記をONにすると下記で文字化け2018.2.2 uBlock Origin 1.15.0
-!https://github.com/gorhill/uBlock/issues/3399
-!http://www.wowkorea.jp/starnews/400626.html
-!.jp,.net,.com,.org,.me,.tv,.biz,.info##^div[id^="div-gpt-ad"]
-!.jp,.net,.com,.org,.me,.tv,.biz,.info##^.adsbygoogle
+!新しい高速フィルタを書く
+yahoo.co.jp###msthdUhd > .compo > p
+!yahoo.co.jp###msthdtp .compo > a
+www.yahoo.co.jp###personalbox > .Personalbox__notice > .Personalbox__noticeList > .Personalbox__noticeItem--card
+!news.yahoo.co.jp,headlines.yahoo.co.jp###contentsBody .ycdMod
+!news.yahoo.co.jp,headlines.yahoo.co.jp###taboola-below-article-thumbnails-pc-paid
+!news.yahoo.co.jp,headlines.yahoo.co.jp###rma-pdv
 
 
-!楽天
-!なんかGlobalが効かないので.jpを付けてみる
-!.jp##a[href^="http://hb.afl.rakuten.co.jp/"]
-!楽天の広告に出会うまでコメント化しておく2018.2.6
-!##a[href^="http://hb.afl.rakuten.co.jp/"]
+!Yahooトップ全画面の左右の大きなバックグラウンド広告
+||s.yimg.jp/bdv/yahoo/javascript/gyj/1.1.0/premiumvision-gyj.js
+||s.yimg.jp/bdv/yahoo/javascript/yfa_gyj_cls_retina.js
+||bs.serving-sys.com/serving/adServer.bs
 
-!コメント
+!taboolaが重すぎる
+||taboola.com^$third-party,domain=~afpbb.com
+!ここからtaboolaが起動されている
+!Japaneseフィルタでブロック済
+||s.yimg.jp/images/ycd/lib/ycdloader/4.0.2/ycdloader.min.js
+
+!新規
+!Yahooメール
+!広告のような気がする
+||yjtag.yahoo.co.jp/csx?tp=
+
+!調査用に一旦例外化
+headlines.yahoo.co.jp#@##ycd-module
+||images-ycd.c.yimg.jp/taboola/image/fetch/
+
+!調査用に一旦例外化
+!中の動画がブロックされていないっぽい
+www.yahoo.co.jp#@##rma-pdv
+
+
+!ことり----------------------------------------------------
+yahoo.co.jp#@#.twBtn
+yahoo.co.jp#@#.fbBtn
+
+yahoo.co.jp###main .twBtn
+yahoo.co.jp###main .fbBtn
+
+||platform.twitter.com/jot.html$domain=yahoo.co.jp
+||syndication.twitter.com/i/jot$domain=yahoo.co.jp
+
 
 !END------------------------------------------------------------------------------

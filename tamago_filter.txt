@@ -518,6 +518,13 @@ ejje.weblio.jp##amp-sidebar
 !ejje.weblio.jp##^amp-sidebar
 ejje.weblio.jp##.hideAdRnwWrp
 !ejje.weblio.jp##^.hideAdRnwWrp
+||cdn.ampproject.org/v0/amp-ad-0.1.js
+||cdn.ampproject.org/v0/amp-sticky-ad-1.0.js
+||weblio.hs.llnwd.net/e7/script/include/house_ad_on_load_modal_smp.js
+ejje.weblio.jp##.free-prem-reg-banner
+||weblio.hs.llnwd.net/e7/img/muryo_banner_
+||weblio.hs.llnwd.net/e7/img/theme_learning_banner
+ejje.weblio.jp##.theme-learning-banner
 
 !共同通信
 this.kiji.is##.page__ad
