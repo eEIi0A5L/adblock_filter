@@ -203,6 +203,9 @@ www.washingtonpost.com###top-furniture
 www.dailymail.co.uk##.billboard_wrapper
 ||scripts.dailymail.co.uk/static/mol-adverts/718/mol-adverts.js
 
+!bloomberg
+www.bloomberg.com##.leaderboard-container
+
 !JAMA
 ||jamanetwork.com/AMA/AdTag
 ||jamanetwork.com/AMA/JobsAd
@@ -404,6 +407,8 @@ www.uesp.net###p-googlead
 ||synchroscript.deliveryengine.adswizz.com^
 ||aa.agkn.com/adscores/
 tunein.com###div[component="Wizard"]
+||ad.crwdcntrl.net^
+||adadvisor.net^
 
 !www.lyricsfreak.com:歌詞表示して30秒後に不快画像を全画面に出す悪質サイト
 /prebid_$script,domain=lyricsfreak.com

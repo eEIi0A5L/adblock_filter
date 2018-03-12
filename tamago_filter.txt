@@ -357,6 +357,9 @@ www.jiji.com##.adingoFluctOverlay
 www.jiji.com##._taxel_recommend_header
 www.jiji.com##.taxel_ul_wrap
 
+!神戸新聞NEXT
+||taxel.jp^
+
 !zdnet
 ||img.ak.impact-ad.jp^
 ||www.aiasahi.jp/ads/

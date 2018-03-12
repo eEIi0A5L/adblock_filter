@@ -478,9 +478,9 @@ gyao.yahoo.co.jp###cam1001
 !高速化
 ||i.yimg.jp/images/premium/mhd/gyao/css/style_promo_mhd.css?
 gyao.yahoo.co.jp###bnr
-||s.yimg.jp/images/streaming/gyao-store/special/2017_1111campaign/promotion/gyao/bnr_gyao_pc.jpg
+!||s.yimg.jp/images/streaming/gyao-store/special/2017_1111campaign/promotion/gyao/bnr_gyao_pc.jpg
 ||metrics.brightcove.com^
-||s.yimg.jp/images/streaming/gyao-store/special/2017_1111campaign/promotion/peron.jpg
+!||s.yimg.jp/images/streaming/gyao-store/special/2017_1111campaign/promotion/peron.jpg
 streaming.yahoo.co.jp##.con_btm
 ||s.yimg.jp/images/gyao/common/images/bnr_store_promotion_
 

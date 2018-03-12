@@ -375,4 +375,25 @@ video.fc2.com##.u-hasAd-101_adArea
 ||ads.adxpansion.com^
 ||jwpltx.com^
 
+!thisav
+||www.thisav.com/cdn-cgi/apps/head/$first-party,script
+||ads.exosrv.com^
+||s10.histats.com^
+thisav.com##.ads
+thisav.com##a[href*="click.dtiserv2.com"]
+||popads.net/pop.js^$important
+||thisav.com/player/video-js-banner/
+||cdn.thisav.com/player/video-js-vast-vpaid/videojs_5.vast.vpaid.js?4
+||javhd.com^$third-party
+||addthis.com^$important,third-party
+||ads.adxpansion.com^
+||thisav.com/index.js
+||www.zbecpoboc.com/jxc.js
+thisav.com###share_to
+||chaturbate.com^
+!全画面pop
+||hxwxxhfydbifuq.com^$third-party
+
+
+
 ! END

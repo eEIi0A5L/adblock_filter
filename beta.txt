@@ -54,6 +54,46 @@ headlines.yahoo.co.jp#@##ycd-module
 !中の動画がブロックされていないっぽい
 www.yahoo.co.jp#@##rma-pdv
 
+!3/13追加分---------------------------------------------------------------------
+!Yahoo
+||s.yimg.jp/bdv/yahoo/javascript/csc/20060824/lib2obf_b4.js
+!/bdv/は全部切ってもいいのか？
+!前に試したときはなにか不具合があったような気がしてやめたけど
+!問題ないかも
+!→メールで問題があった
+!→メールは例外にしてさらに、/bdv/はトップサイトとニュースのみに限定して予防線を貼った。
+||s.yimg.jp/bdv/$domain=www.yahoo.co.jp|news.yahoo.co.jp|headlines.yahoo.co.jp
+@@||s.yimg.jp/bdv/$domain=mail.yahoo.co.jp
+
+!あなたへのおすすめ
+!https://s.yimg.jp/images/top/sp2/js/8.0.26/fp_base_bd_ga_8.0.26.js
+
+!https://s.yimg.jp/images/ds/ult/toppage/rapidjp-1.0.0.js
+
+
+||follow.yahoo.co.jp/plugin/sticker/list/?tids
+
+
+||crmapis.shopping.yahoo.co.jp/crm/v1/contents/pages/$domain=news.yahoo.co.jp|headlines.yahoo.co.jp
+
+||api.yun.yahoo.co.jp/Yun/V1/getNotifications?output=json&crumb$domain=news.yahoo.co.jp|headlines.yahoo.co.jp
+
+!ココがポイントのサムネイルが消える
+!||s.yimg.jp/images/follow/website/plugin/external/js/sticker-1.0.0.min.js
+
+!ポップサーチ
+!https://headlines.yahoo.co.jp/article?a=20180313-00163149-diamond-bus_all
+||s.yimg.jp/images/search/slink/popup/pc/1.0.0/js/popsearch.min.js
+
+!ビーコン
+||s.yimg.jp/images/clear.gif
+!ねぎ-----------------------------------------------------------
+!Yahooショッピング
+shopping.yahoo.co.jp###msthd > .elAccount > li > span.elRegistration
+!END----------------
+
+
+
 
 !ことり----------------------------------------------------
 
