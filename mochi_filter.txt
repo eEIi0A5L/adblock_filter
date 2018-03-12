@@ -73,6 +73,7 @@ google.co.jp##.commercial-unit-desktop-rhs
 !http://natgeo.nikkeibp.co.jp/atcl/gallery/013000131/
 !||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,domain=nikkeibp.co.jp
+||adservice.google.co.jp^
 
 !gmail
 mail.google.com##.aKB
