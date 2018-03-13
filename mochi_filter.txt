@@ -315,7 +315,8 @@ news.yahoo.co.jp###lrec
 
 ||follow.yahoo.co.jp/plugin/sticker/list/?tids
 ||crmapis.shopping.yahoo.co.jp/crm/v1/contents/pages/$domain=news.yahoo.co.jp|headlines.yahoo.co.jp
-||api.yun.yahoo.co.jp/Yun/V1/getNotifications?output=json&crumb$domain=news.yahoo.co.jp|headlines.yahoo.co.jp
+!ポイントが消える
+!||api.yun.yahoo.co.jp/Yun/V1/getNotifications?output=json&crumb$domain=news.yahoo.co.jp|headlines.yahoo.co.jp
 
 
 
