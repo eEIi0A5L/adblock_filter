@@ -3,16 +3,20 @@
 ! Last modified: 2018/2/9 12:00 JST
 ! Expires: 6 hours (update frequency)
 
-!【下記の購読が必要】
+!【下記の購読も必要】
 ! https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
 ! https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
 
-
+!有名どころ
 ||coin-hive.com^$third-party
 ||coinhive.com^$third-party
 ||cnhv.co^$third-party
+
+!ImageSparkがstaticset.comでマイニングする
 !http://egg.5ch.net/test/read.cgi/software/1475377484/588
 !http://egg.5ch.net/test/read.cgi/software/1475377484/680
+!http://egg.5ch.net/test/read.cgi/software/1519004649/118
+!https://productforums.google.com/forum/#!topic/chrome/duWfVj3h24E
 ||staticset.com^$third-party
 
 !http://egg.5ch.net/test/read.cgi/software/1512653892/229

@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 02 Mar 2018 12:00 JST
+! Last modified: 09 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -368,6 +368,122 @@ blog.livedoor.jp##.entry_box110
 blog.livedoor.jp##div[style="padding: 1px; margin-top: 0px; margin-bottom: 20px; overflow:hidden; font-weight:bold; border: 5px solid #9e4f2d;"]
 blog.livedoor.jp##.entry_box101
 
+!芸能人ニュース速報
+blog.livedoor.jp##.main-container-ads
+||livedoor.blogimg.jp/sky_wing2010-geinou/imgs/7/2/72d3165a.png
+blog.livedoor.jp##iframe[src^="http://api.unthem.com/cast?zname="]
+
+!魔王ブログ
+||img.adpon.net^
+||ru.adpon.net^
+||shinobi.jp/track?
+||sync.shinobi.jp^
+beelzeboulxxx.com##a[name="more"] + aside
+beelzeboulxxx.com##iframe[src="http://beelzeboulxxx.com/rss_html.html"]
+beelzeboulxxx.com##.maob_adbox
+||49.212.219.243^
+
+!VIPワイドガイド
+news4wide.livedoor.biz###niee
+
+!声優まとめ--------------------------------------------------------------------
+!ぐら速 -声優まとめ速報-
+||images-fe.ssl-images-amazon.com/images/$domain=grasoku.com
+grasoku.com##.google-2ad
+grasoku.com##.google-2ad-m
+
+!JUMP速報
+||images-jp.amazon.com/images/$domain=jumpsokuhou.com
+||ecx.images-amazon.com/images/$domain=jumpsokuhou.com
+||images-fe.ssl-images-amazon.com/images/$domain=jumpsokuhou.com
+||jumpsokuhou.com/js/amazon_side_jump.js
+jumpsokuhou.com##.ad_tb
+
+!MAG速
+magsoku.blomaga.jp##a[href^="http://www.amazon.co.jp/"]
+
+!虹神速報-にじそく
+||images-fe.ssl-images-amazon.com/images/$domain=nizigami.com
+nizigami.com##.smac_ad
+nizigami.com##.rss-blogroll-body
+nizigami.com###horizontalrank
+nizigami.com##table[style="font-size:12px;text-decoration:none;"]
+
+!声豚速報
+||images-fe.ssl-images-amazon.com/images/$domain=koebuta.ldblog.jp
+
+!オタク.com
+||assets.gunosy.com/adnet/
+||images-fe.ssl-images-amazon.com/images/$domain=otakomu.jp
+||wp.com/images-fe.ssl-images-amazon.com/images/$domain=otakomu.jp
+
+!おたくみくす
+otakumix.doorblog.jp##.t_r
+
+!にじいろ＠名無しびより
+||images-fe.ssl-images-amazon.com/images/$domain=niziiro.livedoor.biz
+niziiro.livedoor.biz##iframe[src="http://niziiro.livedoor.biz/nizi.html"]
+||livedoor.blogimg.jp/niziiro315/imgs/5/b/5b86a0ba-s.jpg
+
+!声優速報
+aniran.blog.jp##div[id^="blz_rss_"]
+aniran.blog.jp##table[width="450"][height="350"][border="1"][cellspacing="0"]
+###article-options > table
+
+!わんこーる速報
+onecall2ch.com##.google-2ad
+onecall2ch.com##.google-2ad-m
+onecall2ch.com##.google-2ad-b
+
+!アニゲー速報
+www.anige-sokuhouvip.com###top_center
+www.anige-sokuhouvip.com###top_center5
+www.anige-sokuhouvip.com##.t_h
+www.anige-sokuhouvip.com##.t_c
+www.anige-sokuhouvip.com##div[style="margin-left:-15px;"]
+www.anige-sokuhouvip.com##.relate_dl
+!www.anige-sokuhouvip.com##.entry-body3
+www.anige-sokuhouvip.com##.komentitiran
+www.anige-sokuhouvip.com###modernentryrank
+
+!デジタルニューススレッド
+digital-thread.com##.google-2ad
+digital-thread.com##.article-headline
+digital-thread.com##.ad-article01
+digital-thread.com##.article-news01
+digital-thread.com##.article-news02
+digital-thread.com##.article-news03
+
+!ああいえばForYou
+aaieba.livedoor.biz##section[id^="PERMALINK_SYSTEM_"]
+aaieba.livedoor.biz##iframe[src="http://aaieba.livedoor.biz/aa1.html"]
+aaieba.livedoor.biz##a[href^="https://www.amazon.co.jp/"]
+aaieba.livedoor.biz##iframe[src="http://aaieba.livedoor.biz/bb1.html"]
+aaieba.livedoor.biz##.aaieba-e
+aaieba.livedoor.biz##.aaieba-a
+!END--------------------------------------------------------------------
+
+
+!野球まとめ----------------------------------------------------------------
+!まとめロッテ
+||images-fe.ssl-images-amazon.com/images/$domain=matomelotte.com
+||ecx.images-amazon.com/images/$domain=matomelotte.com
+matomelotte.com##.google-2ad-m
+matomelotte.com##.google-2ad-b
+
+!なんJまとめアンテナ
+||nanj.an-matome.com/inc/nanj.js
+
+!MLB NEWS@なんJ
+||blogroll.livedoor.net/blogroll/banner/
+blog.livedoor.jp##.google-2ad
+
+!かもめそく
+||ecx.images-amazon.com/images/$domain=nanj-atarimae.doorblog.jp
+
+!高校野球まとめ速報
+kokoyakyumatomesokuho.blog.jp##.google-2ad
+!END--------------------------------------------------------------------
 
 
 
@@ -395,6 +511,7 @@ futalog.com##:xpath(//table[(.//script or .//iframe) and .//blockquote])
 ||futalog.com/if_ad.php
 ||adingo.jp^
 ||gsspcln.jp^
+||dec.2chan.net/ad/
 
 !とぅげったー
 togetter.com##.ad_list_top

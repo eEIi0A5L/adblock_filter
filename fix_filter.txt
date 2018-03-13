@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: 04 Mar 2018 12:00 JST
+! Last modified: 08 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/fix.html
 ! 
@@ -137,5 +137,19 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 @@||api.cxense.com/public/widget/data?$domain=j-cast.com
 @@||comcluster.cxense.com/dmp/push?callback$domain=j-cast.com
 @@||api.cxense.com/public/widget/click/$domain=j-cast.com
+
+!下記で動画が見れない
+!https://sports.nhk.or.jp/video/element/video=36971.html
+@@||sports.nhk.or.jp/components/script/customer/diva-analytics.js$domain=nhk.or.jp
+
+!日テレNEWSが見れない
+!http://www.news24.jp/articles/2018/03/11/04387734.html
+@@||players.brightcove.net$domain=www.news24.jp
+@@||edge.api.brightcove.com/playback/$domain=www.news24.jp
+
+!MSN記事ページが見れない
+!http://egg.5ch.net/test/read.cgi/software/1515576375/654
+!@@|https:*^ad-
+@@||static-entertainment-eas-s-msn-com.akamaized.net^
 
 ! END

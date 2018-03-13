@@ -22,6 +22,7 @@ xvideos.com##script:inject(abort-on-property-write.js, openpop)
 xvideos.com##script:inject(nowebrtc.js)
 xvideos.com##script:inject(xvideos.com.js)
 @@||xvideos-cdn.com^$xmlhttprequest,domain=xvideos.com
+xvideos.com##script:inject(window.open-defuser.js)
 
 !xHamster
 *$websocket,domain=24video.cc|24video.in|24video.me|24video.sex|24video.xxx|pornhub.com|redtube.com|redtube.com.br|russian-porn.me|tube8.com|tube8.es|tube8.fr|xhamster.com|xtube.com|xvideos.com|youporn.com|youporngay.com
@@ -47,6 +48,7 @@ xhamster.com##.sponsorTitle
 xhamster.com##div[style^="width: 330px"]
 xhamster.com##.player-ad-overlay
 xhamster.com##.banner-container
+xhamster.com##script:inject(abort-on-property-write.js, dataPopUnder)
 
 !javfor.me
 ||ads.exoclick.com^
@@ -271,6 +273,14 @@ pornhub.com###pb_template
 ||doublepimpssl.com^$third-party
 @@/videos/$domain=pornhub.com
 @@||pornhub.com/svvt/add?$xmlhttprequest
+pornhub.com##script:inject(pornhub-popup-defuser.js)
+pornhub.com##script:inject(pornhub-sanitizer.js)
+pornhub.com##script:inject(abort-on-property-write.js, AdDelivery)
+pornhub.com##script:inject(abort-on-property-write.js, rAb)
+pornhub.com##script:inject(csp.js, img-src 'self' *; media-src 'self' *)
+pornhub.com##script:inject(abort-on-property-write.js, UAParser)
+pornhub.com##script:inject(abort-on-property-write.js, isAdblockOn)
+pornhub.com##^script:has-text(tj_ads)
 
 !bobx.com
 ||img.bobx.com/x_images/vids4.jpg
@@ -301,7 +311,7 @@ pornhub.com###pb_template
 ||popads.net^
 
 !rocks
-||rocks/htmm/2020.php$popup
+||.rocks/htmm/2020.php$popup
 !グラブルが起動しなくなる
 !about:blank$popup
 
@@ -351,6 +361,11 @@ video.fc2.com##div.main_ad_head_wide:style(padding-top: 0px !important;)
 !video.fc2.com###ad_side_wrap2
 !video.fc2.com###ad_side_wrap2:style(padding-top: 0px !important;)
 video.fc2.com###ad_side_wrap2
+video.fc2.com###videoplayer_ad
+video.fc2.com##.cont_v2_ad
+||textad.net/cgi-bin/manager.cgi
+video.fc2.com##.c-ad-103
+video.fc2.com##.u-hasAd-101_adArea
 
 !youav.com
 ||www.youav.com$popup
@@ -359,5 +374,26 @@ video.fc2.com###ad_side_wrap2
 ||addthis.com^$important,third-party
 ||ads.adxpansion.com^
 ||jwpltx.com^
+
+!thisav
+||www.thisav.com/cdn-cgi/apps/head/$first-party,script
+||ads.exosrv.com^
+||s10.histats.com^
+thisav.com##.ads
+thisav.com##a[href*="click.dtiserv2.com"]
+||popads.net/pop.js^$important
+||thisav.com/player/video-js-banner/
+||cdn.thisav.com/player/video-js-vast-vpaid/videojs_5.vast.vpaid.js?4
+||javhd.com^$third-party
+||addthis.com^$important,third-party
+||ads.adxpansion.com^
+||thisav.com/index.js
+||www.zbecpoboc.com/jxc.js
+thisav.com###share_to
+||chaturbate.com^
+!全画面pop
+||hxwxxhfydbifuq.com^$third-party
+
+
 
 ! END
