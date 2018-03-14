@@ -276,7 +276,8 @@ news.yahoo.co.jp###lrec
 !headlines.yahoo.co.jp###taboola-below-article-thumbnails-p4-sc
 !ニュースをより深く　有料配信
 !headlines.yahoo.co.jp###ycd-module
-||images-ycd.c.yimg.jp/taboola/image/fetch/
+!||images-ycd.c.yimg.jp/taboola/image/fetch/
+||images-ycd.c.yimg.jp/taboola/image/fetch/$domain=~afpbb.com
 
 
 !https://news.yahoo.co.jp/pickup/6264266とかでたまにtaboolaが接続重くなって映像が見れないのではじいておく。Peter Lowe’s Ad and tracking server list​​​​​​​​​でブロック済。
@@ -622,7 +623,8 @@ dic.nicovideo.jp##.box + img + div
 !dailymotion（2017.11月リニューアル後用）-----------
 ||ads.stickyadstv.com^
 ||pebed.dm.gg^
-||cdn.taboola.com^
+!||cdn.taboola.com^
+||cdn.taboola.com^$domain=~afpbb.com
 ||dsp.adfarm1.adition.com^
 ||sync.mathtag.com^
 ||sync.adotmob.com^
