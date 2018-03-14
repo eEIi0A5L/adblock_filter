@@ -1045,7 +1045,6 @@ www.mudainodocument.com##a[href="https://recott.me/"]
 !（なし）
 
 !ぶる速-VIP
-!→全面ポップアップの消し方不明
 ||rossoad.com^
 ||rcm.shinobi.jp^
 burusoku-vip.com###gn_interstitial_area
