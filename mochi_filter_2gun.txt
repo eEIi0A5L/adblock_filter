@@ -486,6 +486,20 @@ kokoyakyumatomesokuho.blog.jp##.google-2ad
 !END--------------------------------------------------------------------
 
 
+!サッカーまとめ---------------------------------------------------------
+!サッカーコラム J3 Plus+　
+||i2i.jp^
+||gejigeji.jp^
+||counter1-cdn.fc2.com^
+||st.shinobi.jp/img/analyze/s.gif
+||tudura.com^
+||counter1.fc2.com^
+llabtooflatot.blog102.fc2.com##center:if(> ins.adsbygoogle)
+!END--------------------------------------------------------------------
+
+
+
+
 
 !まとめその他
 ||track.bannerbridge.net/adtserv.php
