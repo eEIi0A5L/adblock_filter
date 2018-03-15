@@ -332,7 +332,9 @@ news.yahoo.co.jp###lrec
 
 
 !ビーコン
-||s.yimg.jp/images/clear.gif
+!これをブロックしているとYahoo画像検索で２０枚目からサムネイルが表示されない
+!https://search.yahoo.co.jp/image/search?p=%E6%9D%B1%E4%BA%AC&ei=UTF-8&fr=top_ga1_sa
+!||s.yimg.jp/images/clear.gif
 
 
 
