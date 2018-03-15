@@ -93,14 +93,15 @@ yahoo.co.jp###msthdPrBox
 
 
 !Yahoo
-||s.yimg.jp/bdv/yahoo/javascript/csc/20060824/lib2obf_b4.js
+!→/bdv/全体をブロックした
+!||s.yimg.jp/bdv/yahoo/javascript/csc/20060824/lib2obf_b4.js
 !/bdv/は全部切ってもいいのか？
 !前に試したときはなにか不具合があったような気がしてやめたけど
 !問題ないかも
 !→メールで問題があった
 !→メールは例外にしてさらに、/bdv/はトップサイトとニュースのみに限定して予防線を貼った。
 ||s.yimg.jp/bdv/$domain=www.yahoo.co.jp|news.yahoo.co.jp|headlines.yahoo.co.jp
-@@||s.yimg.jp/bdv/$domain=mail.yahoo.co.jp
+@@||s.yimg.jp/bdv/$script,domain=mail.yahoo.co.jp
 
 
 
@@ -125,7 +126,8 @@ yahoo.co.jp###msthdPrBox
 !再度Yahooトップを開いてももう表示されない
 !あれは夢か幻だったのか……
 !Adblock Plusには$mediaトークンがないので、*.mp4で代用する。重いと思うがしょうがない。
-||s.yimg.jp/bdv/*.mp4$domain=www.yahoo.co.jp
+!→/bdv/全体をブロックした
+!||s.yimg.jp/bdv/*.mp4$domain=www.yahoo.co.jp
 !||s.yimg.jp/bdv/$media,domain=www.yahoo.co.jp
 !また出た！夢じゃなかった！
 !www.yahoo.co.jp###rma-pdv
@@ -140,7 +142,8 @@ www.yahoo.co.jp###PopHead
 www.yahoo.co.jp###toptxt
 
 !右上の広告
-||s.yimg.jp/bdv/prem/
+!→/bdv/全体をブロックした
+!||s.yimg.jp/bdv/prem/
 ||s.yimg.jp/images/listing/tool/yads/
 www.yahoo.co.jp###brandpanel
 www.yahoo.co.jp##div[class^="yjads"]
@@ -158,8 +161,9 @@ www.yahoo.co.jp###multilink-image
 
 
 !Yahooトップ全画面の左右の大きなバックグラウンド広告
-||s.yimg.jp/bdv/yahoo/javascript/gyj/1.1.0/premiumvision-gyj.js
-||s.yimg.jp/bdv/yahoo/javascript/yfa_gyj_cls_retina.js
+!→/bdv/全体をブロックした
+!||s.yimg.jp/bdv/yahoo/javascript/gyj/1.1.0/premiumvision-gyj.js
+!||s.yimg.jp/bdv/yahoo/javascript/yfa_gyj_cls_retina.js
 ||bs.serving-sys.com/serving/adServer.bs
 !www.yahoo.co.jp##div[id^="gyj"]
 !www.yahoo.co.jp###topImpact
@@ -167,7 +171,8 @@ www.yahoo.co.jp###multilink-image
 
 
 !いい買い物の日
-||s.yimg.jp/bdv/adtest/
+!→/bdv/全体をブロックした
+!||s.yimg.jp/bdv/adtest/
 !||s.yimg.jp/images/top/sp2/event/iikaimono2017/
 !||s.yimg.jp/images/ticket/pc/img/date/171031/w11usj/no8_760x110.png
 !www.yahoo.co.jp##.Kaimono
@@ -215,7 +220,7 @@ www.yahoo.co.jp###yjidbox
 !その他ネットワーク通信ログからad関連の通信をブロック
 ||yads.c.yimg.jp/js/yads.js
 ||s.yimg.jp/images/advertising/
-||s.yimg.jp/images/advertising/common/js/iicon.min.js
+!||s.yimg.jp/images/advertising/common/js/iicon.min.js
 ||yads.c.yimg.jp/js/yads-async.js
 ||yj.p.adnxs.com^
 ||yjtag.yahoo.co.jp/tag?
@@ -450,7 +455,8 @@ detail.chiebukuro.yahoo.co.jp###sub-top
 
 
 !広告
-||s.yimg.jp/bdv/wqp_ijq1pd_vopdneies/
+!→/bdv/全体をブロックした
+!||s.yimg.jp/bdv/wqp_ijq1pd_vopdneies/
 ||s.yimg.jp/bdv/$image,domain=login.yahoo.co.jp
 login.yahoo.co.jp##img[src^="https://s.yimg.jp/bdv/"]
 
