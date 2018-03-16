@@ -914,6 +914,13 @@ m.scmp.com##.share-buttons-fixed-container
 www.nishinippon.co.jp##a[href^="http://ac.ebis.ne.jp/tr_set.php?argument="]
 
 
+!タウンワークマガジン
+||r-ad.ne.jp^
+townwork.net###jsi-share-box
+
+
+
+
 !まとめサイト-----------------------------------------------------------
 !共通
 /settings/lite2/ads.js|
@@ -1038,9 +1045,13 @@ www.mudainodocument.com##a[href="https://recott.me/"]
 !（なし）
 
 !ぶる速-VIP
-!→全面ポップアップの消し方不明
 ||rossoad.com^
 ||rcm.shinobi.jp^
+burusoku-vip.com###gn_interstitial_area
+burusoku-vip.com##body:style(position: static !important;)
+burusoku-vip.com##div[style="margin: 10px; padding: 10px; background: #fff8dc; border: 1px dashed #808080;"]
+||permalink-system.com^
+||blogroll.livedoor.net^
 
 !【2ch】コピペ情報局
 news.2chblog.jp##.btn-ldb-bottomAdd
@@ -1066,7 +1077,16 @@ blog.livedoor.jp##div[id^="socrun_div_area_nc_"]
 ||social-runner.net/adloader.js
 
 
-
+!サッカーまとめ---------------------------------------------------------
+!サッカーコラム J3 Plus+　
+||i2i.jp^
+||gejigeji.jp^
+||counter1-cdn.fc2.com^
+||st.shinobi.jp/img/analyze/s.gif
+||tudura.com^
+||counter1.fc2.com^
+llabtooflatot.blog102.fc2.com##center:if(> ins.adsbygoogle)
+!END--------------------------------------------------------------------
 
 
 
@@ -1076,6 +1096,8 @@ blog.livedoor.jp##div[id^="socrun_div_area_nc_"]
 !END--------------------------------------------------------------------
 
 
+!ドラドラ動画
+||www.drive-drive.jp/assets/images/dr_308_62_20171108.jpg
 
 
 

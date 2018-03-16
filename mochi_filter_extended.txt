@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 03 Mar 2018 12:00 JST
+! Last modified: 15 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -517,6 +517,8 @@ animeanime.jp##.sidebox-ad
 ||www.webcartop.jp/wp-content/themes/cartop/images/banners/
 www.webcartop.jp##.sidebar-banner
 
+!ドラドラ動画
+||www.drive-drive.jp/assets/images/doradora_347_70_20171108.jpg
 
 
 

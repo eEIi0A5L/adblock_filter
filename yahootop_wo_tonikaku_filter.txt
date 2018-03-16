@@ -1,59 +1,59 @@
 [Adblock Plus 2.0]
 ! Title: Yahoo!Japanトップの広告をとにかくブロックするフィルタ
-! Last modified: 03 Mar 2018 12:00 JST
+! Last modified: 16 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/
 ! 
 ! 
 
-yahoo.co.jp##.compo > p
-yahoo.co.jp##.compo > a
-yahoo.co.jp##div[id^="yads"]
-yahoo.co.jp###msthdPrBox
 yahoo.co.jp###msthdShpPr
+yahoo.co.jp###msthdUhd > .compo > p
+yahoo.co.jp###msthdPrBox
+yahoo.co.jp##div[id^="yads"]
+www.yahoo.co.jp##div[class^="yjads"]
+www.yahoo.co.jp##:xpath(//img[@id="multilink-image"]/parent::div)
 www.yahoo.co.jp###PopHead
 www.yahoo.co.jp###toptxt
 www.yahoo.co.jp###brandpanel
-www.yahoo.co.jp###windowShade
+www.yahoo.co.jp###sub > div[style^="margin: 0px auto 10px"]
 www.yahoo.co.jp###multilink-image
-www.yahoo.co.jp###pickupservice
-www.yahoo.co.jp###topImpact
-www.yahoo.co.jp###rma-pdv
+www.yahoo.co.jp###tct
+www.yahoo.co.jp###commercebox
 www.yahoo.co.jp###bpComposite
+www.yahoo.co.jp###personalbox > .Personalbox__notice > .Personalbox__noticeList > .Personalbox__noticeItem--card
 www.yahoo.co.jp###js-ninjyo
 www.yahoo.co.jp###yjidbox
-www.yahoo.co.jp###ultra
-www.yahoo.co.jp###cb
-www.yahoo.co.jp###sub > div[style^="margin: 0px auto 10px"]
-www.yahoo.co.jp###commercebox
-www.yahoo.co.jp##:xpath(//img[@id="multilink-image"]/parent::div)
-www.yahoo.co.jp##.Personalbox__noticeItem--card
-www.yahoo.co.jp##div[style^="position: absolute; width: 950px; height: 600px"]
-www.yahoo.co.jp##div[id^="gyj"]
-www.yahoo.co.jp##div[class^="yjads"]
-www.yahoo.co.jp##div[style^="position: absolute; width: 100%;"]
-||yahoo.co.jp/b?
-||adnxs.com^
-||yjtag.yahoo.co.jp/tag?
+||s.yimg.jp/bdv/$domain=www.yahoo.co.jp|news.yahoo.co.jp|headlines.yahoo.co.jp|login.yahoo.co.jp
+||s.yimg.jp/images/top/sp_promo/premium_
+||s.yimg.jp/images/listing/tool/yads/
+||s.yimg.jp/images/advertising/
+||bs.serving-sys.com/serving/adServer.bs
 ||yads.c.yimg.jp/js/yads.js
 ||yads.c.yimg.jp/js/yads-async.js
+||yj.p.adnxs.com^
+||yjtag.yahoo.co.jp/tag?
+||adx.adnxs.com^
+||adnxs.com^
+||yahoo.co.jp/b?
 ||logql.yahoo.co.jp/v1/public/yql?
-||secure-ds.serving-sys.com/BurstingRes/
-||s.yimg.jp/images/advertising/
-||s.yimg.jp/images/listing/tool/yads/
-||s.yimg.jp/images/advertising/common/js/iicon.min.js
-||s.yimg.jp/images/sh/cms/promotion/year_end/2017/bnr/201_410_50.png
-||s.yimg.jp/bdv/yahoo/javascript/gyj/1.1.0/premiumvision-gyj.js
-||s.yimg.jp/bdv/yahoo/javascript/brandpanelvision/0.0.1/brandpanelvision.js
-||s.yimg.jp/bdv/*.mp4$domain=www.yahoo.co.jp
-||s.yimg.jp/bdv/adtest/
-||s.yimg.jp/bdv/prem/
 
 
-!Yahooニュース
+!News
 headlines.yahoo.co.jp###lrec
 news.yahoo.co.jp###lrec
+||s.yimg.jp/images/ycd/lib/ycdloader/4.0.2/ycdloader.min.js
+||s.yimg.jp/images/search/slink/popup/pc/1.0.0/js/popsearch.min.js
+||taboola.com^$third-party,domain=~afpbb.com
+||images-ycd.c.yimg.jp/taboola/image/fetch/$domain=~afpbb.com
 ||headlines.yahoo.co.jp/adframe?
 ||tidaltv.com^
+||ib.adnxs.com^
+||sb.scorecardresearch.com/b?
+||follow.yahoo.co.jp/plugin/sticker/list/?tids
+||crmapis.shopping.yahoo.co.jp/crm/v1/contents/pages/$domain=news.yahoo.co.jp|headlines.yahoo.co.jp
+
+!メール
+||s.yimg.jp/bdv/$domain=mail.yahoo.co.jp
+@@||s.yimg.jp/bdv/$script,domain=mail.yahoo.co.jp
 
 !END----------------------------------------------
