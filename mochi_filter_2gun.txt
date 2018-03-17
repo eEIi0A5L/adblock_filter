@@ -27,6 +27,9 @@
 !例
 !http://hamusoku.com/
 
+
+||amazon-adsystem.com^
+
 !END------------
 
 
@@ -36,6 +39,7 @@
 blog.livedoor.jp##a[href^="http://www.amazon.co.jp/exec/"]
 blog.livedoor.jp###poweredAdsBy
 blog.livedoor.jp##.amazlet-box
+
 
 !アルファモザイク
 ||cse.google.com/adsense/search/async-ads.js
