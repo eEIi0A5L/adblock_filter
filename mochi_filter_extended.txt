@@ -271,6 +271,25 @@ mg.mail.yahoo.com##li[role="rowgroup"]:has(a[data-test-id="pencil-ad"])
 ||www.yahoo.com/lib/metro/g/myy/advertisement_0.0.1.js
 finance.yahoo.com###mrt-node-Lead-1-Ad
 ||s.yimg.com/av/moneyball/ads/
+!www.yahoo.com##div[id^="yui_"]:if(> #hl-ad-LREC-0)
+!www.yahoo.com###defaultLREC-wrapper
+!||s.yimg.com/os/yc/js/react-adblock-promo.
+!||s.yimg.com/os/yaft/yaft-plugin-aftnoad-
+!これをブロックするとサムネイルが抜ける
+!||s.yimg.com/os/yc/js/td-ads.
+||ad.360yield.com^
+||beap-bc.yahoo.com^
+/moneyball/ads/$domain=yahoo.com
+@@||yimg.com/rq/darla/*/g-r-min.js$domain=yahoo.com
+yahoo.com##.Feedback
+yahoo.com##.ads_wrapper
+yahoo.com##.darla-container
+yahoo.com##a[href^="https://beap.gemini.yahoo.com/mbclk?"][target="_blank"]
+yahoo.com##a[target="_blank"][href^="https://beap.gemini.yahoo.com/mbclk?"]
+yahoo.com##.lrec-before-loading
+yahoo.com##div[data-ad-story-beacon]
+
+
 
 !米Yahoo.comメール
 mail.yahoo.com##li[data-test-id="infinite-scroll-AD"]

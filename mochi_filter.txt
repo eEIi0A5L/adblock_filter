@@ -100,7 +100,8 @@ yahoo.co.jp###msthdPrBox
 !問題ないかも
 !→メールで問題があった
 !→メールは例外にしてさらに、/bdv/はトップサイトとニュースのみに限定して予防線を貼った。
-||s.yimg.jp/bdv/$domain=www.yahoo.co.jp|news.yahoo.co.jp|headlines.yahoo.co.jp
+!||s.yimg.jp/bdv/$domain=www.yahoo.co.jp|news.yahoo.co.jp|headlines.yahoo.co.jp|videotopics.yahoo.co.jp|gyao.yahoo.co.jp|map.yahoo.co.jp
+||s.yimg.jp/bdv/$domain=yahoo.co.jp
 @@||s.yimg.jp/bdv/$script,domain=mail.yahoo.co.jp
 
 
