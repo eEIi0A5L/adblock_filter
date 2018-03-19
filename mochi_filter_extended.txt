@@ -89,7 +89,8 @@ cnn.com##.gig-share-bar-container
 cnn.com##.m-footer__follow__content
 cnn.com##.m-share
 /aspenanalytics.$domain=cnn.com
-||aax.amazon-adsystem.com^
+!||aax.amazon-adsystem.com^
+||aax.amazon-adsystem.com^$domain=cnn.com
 ||bea4.cnn.com/ad/
 ||b.scorecardresearch.com^
 !cnn高速化---------------------------------------
@@ -120,7 +121,9 @@ cnn.com##.m-share
 ||nexac.com^$third-party
 /googleads.$domain=cnn.com
 ||.net/ad/$image,domain=cnn.com
-||amazon-adsystem.com^$third-party
+!domain指定しないとamazon.co.jpでもきいてしまう
+!||amazon-adsystem.com^$third-party
+||amazon-adsystem.com^$domain=cnn.com
 ||ml314.com^$third-party
 ||tapad.com^$third-party
 ||ads.undertone.com
@@ -224,7 +227,9 @@ www.reddit.com###ad_2
 www.reddit.com##.dfp-ad-container
 ||www.redditstatic.com/ad-dependencies.
 ||zkcdn.net/ados.js?
-||amazon-adsystem.com^$domain=~amazon.co.jp|~amazon.com
+!なんか~指定がきいていない。2018.3.17
+!||amazon-adsystem.com^$domain=~amazon.co.jp|~amazon.com
+||amazon-adsystem.com^$domain=reddit.com
 ||www.redditmedia.com/ads/
 @@||i.redd.it^
 !reddit高速化----------------------------------------
@@ -271,6 +276,25 @@ mg.mail.yahoo.com##li[role="rowgroup"]:has(a[data-test-id="pencil-ad"])
 ||www.yahoo.com/lib/metro/g/myy/advertisement_0.0.1.js
 finance.yahoo.com###mrt-node-Lead-1-Ad
 ||s.yimg.com/av/moneyball/ads/
+!www.yahoo.com##div[id^="yui_"]:if(> #hl-ad-LREC-0)
+!www.yahoo.com###defaultLREC-wrapper
+!||s.yimg.com/os/yc/js/react-adblock-promo.
+!||s.yimg.com/os/yaft/yaft-plugin-aftnoad-
+!これをブロックするとサムネイルが抜ける
+!||s.yimg.com/os/yc/js/td-ads.
+||ad.360yield.com^
+||beap-bc.yahoo.com^
+/moneyball/ads/$domain=yahoo.com
+@@||yimg.com/rq/darla/*/g-r-min.js$domain=yahoo.com
+yahoo.com##.Feedback
+yahoo.com##.ads_wrapper
+yahoo.com##.darla-container
+yahoo.com##a[href^="https://beap.gemini.yahoo.com/mbclk?"][target="_blank"]
+yahoo.com##a[target="_blank"][href^="https://beap.gemini.yahoo.com/mbclk?"]
+yahoo.com##.lrec-before-loading
+yahoo.com##div[data-ad-story-beacon]
+
+
 
 !米Yahoo.comメール
 mail.yahoo.com##li[data-test-id="infinite-scroll-AD"]

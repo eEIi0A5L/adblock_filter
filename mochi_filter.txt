@@ -100,7 +100,8 @@ yahoo.co.jp###msthdPrBox
 !問題ないかも
 !→メールで問題があった
 !→メールは例外にしてさらに、/bdv/はトップサイトとニュースのみに限定して予防線を貼った。
-||s.yimg.jp/bdv/$domain=www.yahoo.co.jp|news.yahoo.co.jp|headlines.yahoo.co.jp
+!||s.yimg.jp/bdv/$domain=www.yahoo.co.jp|news.yahoo.co.jp|headlines.yahoo.co.jp|videotopics.yahoo.co.jp|gyao.yahoo.co.jp|map.yahoo.co.jp
+||s.yimg.jp/bdv/$domain=yahoo.co.jp
 @@||s.yimg.jp/bdv/$script,domain=mail.yahoo.co.jp
 
 
@@ -285,6 +286,13 @@ news.yahoo.co.jp###lrec
 !headlines.yahoo.co.jp###ycd-module
 !||images-ycd.c.yimg.jp/taboola/image/fetch/
 ||images-ycd.c.yimg.jp/taboola/image/fetch/$domain=~afpbb.com
+
+
+!右上のYahooニュースタイアップ
+!/bdv/を消したらこれのサムネイルも消えてしまったので、もういっそのこと全部消すことにした
+headlines.yahoo.co.jp,news.yahoo.co.jp##div[id^="spocon"]
+
+
 
 
 !https://news.yahoo.co.jp/pickup/6264266とかでたまにtaboolaが接続重くなって映像が見れないのではじいておく。Peter Lowe’s Ad and tracking server list​​​​​​​​​でブロック済。
@@ -870,7 +878,7 @@ rakuten.co.jp###footer-floating-bnr
 !~amazon.co.jp##a[href^="http://www.amazon.co.jp"]
 !imdb.comの画像も消えてしまう
 !||ssl-images-amazon.com^$domain=~amazon.com|~amazon.co.jp
-
+||amazon-adsystem.com^
 
 !ファミ通
 ||www.famitsu.com/ad/

@@ -673,6 +673,13 @@ togetter.com###fixed_social_footer
 !デイリー
 www.daily.co.jp##.adv
 ||jpmarket-d.openx.net^
+||www.daily.co.jp/ad/
+
+!まいじつ
+myjitsu.jp##.sp-single-below-sns-buttons
+myjitsu.jp##ifram[data-kiosked-adframe]
+myjitsu.jp##div[id^="kskdk_"]
+
 
 !したらば
 ||spad.i-mobile.co.jp^

@@ -144,7 +144,7 @@ videotopics.yahoo.co.jp##^#nvideo
 
 !Yahoo天気
 !ビーコン
-||ybx.yahoo.co.jp/clear.gif
+!||ybx.yahoo.co.jp/clear.gif
 
 !Yahoo知恵袋
 !ビーコンっぽい
