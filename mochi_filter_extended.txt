@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 15 Mar 2018 12:00 JST
+! Last modified: 22 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -195,6 +195,9 @@ www.afpbb.com##.pr-text
 ||minute.ly^$domain=time.com
 time.com##.ad-wrapper
 
+!forbes
+forbesjapan.com###boxer
+
 !washingtonpost
 !www.washingtonpost.com###pb-root
 www.washingtonpost.com###top-furniture
@@ -351,7 +354,7 @@ www.anitube.se###anitubeBannerOverlay
 www.anitube.se###pageAdvert
 www.anitube.se###footerAdvert
 www.anitube.se###anitubeBoxOverlay
-www.anitube.se##iframe
+!www.anitube.se##iframe
 ||anigrupo.engine.adglare.net^
 ||static.anitube.se/player/anitubeJWOverlay/anitubeJWOverlay.js
 ||static.anitube.se/photo/
@@ -363,11 +366,37 @@ himado.in###player_ad_window
 himado.in##div[class^="ad_sideWall"]
 himado.in##.l-cnt-100_box10
 
+
+!Pandora
+||prism.pandora.tv^
+||cdn.pandora.tv/_adv_img/
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=pandora.tv
+||ziyu.net^
+||pvk.jp^
+||log.sv.pandora.tv/viewchk2^
+pandora.tv##.ad_footer
+pandora.tv##.ad_small
+pandora.tv##.advertisement
+||jp.channel.pandora.tv/channel/view_ad.ptv
+
 !miomio
 www.miomio.tv###upad
 www.miomio.tv##.alist
 www.miomio.tv###gs_player_ovad
 www.miomio.tv##.go
+||genieessp.com^
+||go.oclasrv.com/apu.php
+||hm.baidu.com^
+||www.miomio.tv/statics/images/ad/
+www.miomio.tv###topad
+www.miomio.tv##.yulu
+
+!video.9tsu.com
+||video.9tsu.com/js/ads_
+||jsc.mgid.com^
+video.9tsu.com###sidebar-ads
+||cse.google.com/adsense/search/async-ads.js
+||udmlkmzjkob.co^
 
 !Nexus
 nexusmods.com###horizontalpub
@@ -404,7 +433,7 @@ www.nexusmods.com##.areplacer
 ||www.google-analytics.com^$domain=nexusmods.com
 
 !twitis.me
-twitis.me##iframe
+!twitis.me##iframe
 ||affiliate.ashiato.rakuten.co.jp/?
 ||shinobi.jp/admax/ads/
 ||adm.shinobi.jp/
@@ -544,7 +573,9 @@ www.webcartop.jp##.sidebar-banner
 !ドラドラ動画
 ||www.drive-drive.jp/assets/images/doradora_347_70_20171108.jpg
 
-
+!IGN
+www.ign.com##.ign-pre-grid
+||static.adziff.com^
 
 
 

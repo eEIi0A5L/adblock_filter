@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 05 Mar 2018 12:00 JST
+! Last modified: 22 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/ichigo.html
 ! 
@@ -393,6 +393,57 @@ thisav.com###share_to
 ||chaturbate.com^
 !全画面pop
 ||hxwxxhfydbifuq.com^$third-party
+
+!movie.eroterest.net
+||eroimg.net/images/kok/u-next_300250.gif
+!movie.eroterest.net##.row
+movie.eroterest.net##.kokArea
+||eroimg.net/images/kok/
+movie.eroterest.net##.adAreaNativ
+movie.eroterest.net##.row:has(> .col-md-6.adAreaNativeDmm)
+||static.eroterest.net/kok/
+movie.eroterest.net##.adMgsBanner
+
+!http://play.movie-time.net
+||rcm.shinobi.jp^
+||shinobi.jp/ufo/
+||kok.eroterest.net^
+
+!http://kyonyu-satisfaction.com
+kyonyu-satisfaction.com##.sponsored
+kyonyu-satisfaction.com##.post-thumbnail
+||static.share-videos.se/js/pjs.js
+||d2swpuhpwp3khd.cloudfront.net^
+embed.share-videos.se###ad_html
+embed.share-videos.se###logo
+
+!Javynow
+||ads.medi-8.net^
+||koukoku.red^
+||ams.exad.jp/ad/js/pjs.js
+||ams.exad.jp^
+||js.aaddcount.com^
+lovechat777.blog.fc2.com##.eroterest_partsv2
+lovechat777.blog.fc2.com##.contentsboxin a
+lovechat777.blog.fc2.com###leftside
+lovechat777.blog.fc2.com###rightside
+
+!http://kaikangakuen.xyz/
+||for-ward.jp^
+||eroterest.net^$third-party
+||fam-ad.com^
+||js.sprout-ad.com^
+||rcm.shinobi.jp^
+||kok.eroterest.net/mgsRecommend/?affid=
+||js.octopuspop.com^
+||js.click-plus.net^
+||aaddcount.com^
+
+!www.tokyo-tube.com
+||pic.tokyo-tube-ad.com^
+
+!http://beautyandbig.blog.fc2.com
+||ad.duga.jp^
 
 
 

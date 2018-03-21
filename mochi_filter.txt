@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 13 Mar 2018 12:00 JST
+! Last modified: 22 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -409,6 +409,8 @@ weather.yahoo.co.jp###ad-ct
 !weather.yahoo.co.jp##source[src$=".mp4"]
 
 
+!広告消した後の空白
+typhoon.yahoo.co.jp###pos-lrec
 
 
 !END----------------------------------------------
@@ -891,6 +893,7 @@ www.famitsu.com##.ad-header-video
 www.famitsu.com##.adArticleBottomWrap
 www.famitsu.com##.adTc
 ||ssl.webtracker.jp
+www.famitsu.com##.adNative
 
 !ファミ通APP
 app.famitsu.com###widget-ad-rect
@@ -1249,6 +1252,11 @@ taishu.jp###ad01
 taishu.jp##.standard2
 taishu.jp##.toptxt
 
+!日刊ゲンダイ
+www.nikkan-gendai.com##.ad-box
+www.nikkan-gendai.com###_pr_1st
+www.nikkan-gendai.com##.pr
+
 
 !IZA
 www.iza.ne.jp##.ad-rectangle-banner
@@ -1556,11 +1564,13 @@ imepic.jp###eroido_pagelist
 
 !IGN
 ign.com##.preShell
+jp.ign.com###adkit_billboard
 
 !Tumblr
 dempagumi.dearstage.com##.sticky-lrec-wrapper
 ||www.tumblr.com/assets/src/scripts/tumblr/dashboard/showads.js
 www.tumblr.com##.dfp-ad-container
+www.tumblr.com###sidebar-ad
 
 !住所でポン
 ||sda.seesaa.jp^
@@ -1660,6 +1670,15 @@ search.nifty.com###lst2
 !スクエニのサイトでニュースが表示されない
 !http://egg.5ch.net/test/read.cgi/software/1518498170/338
 @@||www.googleadservices.com/pagead/conversion_async.js$domain=www.jp.square-enix.com
+
+!popinについて
+!おすすめ記事をつけるシステム
+!不愉快ではないのでそのままにする
+!taboolaについて
+!popinと同じ感じ
+!Yahooについては特別に速度を重視するので切った
+
+
 
 
 !その他
