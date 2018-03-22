@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 09 Mar 2018 12:00 JST
+! Last modified: 22 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -686,6 +686,12 @@ eikaiwa.dmm.com##.bnr_area + .total-wrap:style(margin-top: 0px !important)
 ||s.po.st^
 ||adsensecustomsearchads.com^
 
+!NYTimes
+!無料だと一月三記事しか見れない
+www.nytimes.com##.ad
+||static01.nyt.com/ads/
+www.nytimes.com##div[class^="ResponsiveAd-topAd"]
+www.nytimes.com##div[class^="ResponsiveAd-storyBodyAd"]
 
 
 

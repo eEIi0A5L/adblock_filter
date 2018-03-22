@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 08 Mar 2018 12:00 JST
+! Last modified: 20 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -79,6 +79,7 @@ www.google.co.jp##li[data-hveid]:has(> div.ads-ad)
 www.google.co.jp###taw
 www.google.co.jp##.commercial-unit-mobile-bottom
 www.google.co.jp###tvcap
+www.google.co.jp##div[id]:if(> ol > li.ads-ad)
 
 !Twitter
 twitter.com##.promoted-tweet
@@ -589,6 +590,13 @@ techon.nikkeibp.co.jp##.article-bottom-actions
 ||smetrics.cnn.com/b/ss/cnn-adbp-offsite-domestic/
 !||bea4.v.fwmrm.net/ad/
 www.cnn.co.jp##.ad
+
+!NYTimes
+||static01.nyt.com/ads/
+mobile.nytimes.com##div[class^="BlockAdvert"]
+mobile.nytimes.com##div[id^="story-ad-"]
+mobile.nytimes.com##div[class^="Dock-dock"]
+mobile.nytimes.com##.ad
 
 !sputniknews.com
 ||content.adriver.ru^
@@ -1105,6 +1113,15 @@ llabtooflatot.blog102.fc2.com##center:if(> ins.adsbygoogle)
 
 !ドラドラ動画
 ||www.drive-drive.jp/assets/images/dr_308_62_20171108.jpg
+
+
+!今日何食べる.com
+今日何食べる.com##.page-top
+
+!NAVERまとめ
+||cdn-matome.line-apps.com/n/matome_sp/js/nj.matome.ad.
+||cdn-matome.line-apps.com/n/matome_sp/js/nj.mtmsp.component.floatingAdSp_
+||cdn-matome.line-apps.com/n/matome_sp/js/nj.matome.innerAd_
 
 
 

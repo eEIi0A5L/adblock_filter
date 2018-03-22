@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: 08 Mar 2018 12:00 JST
+! Last modified: 22 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/fix.html
 ! 
@@ -30,7 +30,8 @@
 !@@||engei2ch.s252.xrea.com^
 
 !Google Sheetでなにか編集するたびにエラーダイアログが表示されてしまう対策
-@@||docs.google.com/static/spreadsheets2/client/js/3533117528-ritz_waffle_i18n_analytics.js|$domain=docs.google.com
+!@@||docs.google.com/static/spreadsheets2/client/js/3533117528-ritz_waffle_i18n_analytics.js|$domain=docs.google.com
+@@||docs.google.com/static/spreadsheets2/client/js/$domain=docs.google.com
 
 !Peter Loweのフィルタでブロックされているが日本人の利用者が多いので許可
 @@||xrea.com^
