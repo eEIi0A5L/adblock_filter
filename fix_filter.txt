@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: 22 Mar 2018 12:00 JST
+! Last modified: 27 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/fix.html
 ! 
@@ -152,5 +152,11 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 !http://egg.5ch.net/test/read.cgi/software/1515576375/654
 !@@|https:*^ad-
 @@||static-entertainment-eas-s-msn-com.akamaized.net^
+
+!Youtubeliveで延々とブロック数が増える問題の解法
+!@@||youtube.com/api/stats/qoe?$domain=youtube.com
+!@@||www.youtube.com/live_204?$domain=youtube.com
+!@@||www.youtube.com/youtubei/v1/log_interaction?$domain=youtube.com
+!@@||www.youtube.com/youtubei/v1/log_event?$domain=youtube.com
 
 ! END

@@ -101,6 +101,13 @@
 ||pointi.jp^
 !http://fate.5ch.net/test/read.cgi/cryptocoin/1520014490/158
 ||miffy.me^
+!http://hayabusa9.5ch.net/test/read.cgi/mnewsplus/1521947131/172
+||xephaoma.com^
+!件名「Microsoftアカウントの不審なサインイン」という偽メールが拡散中
+!https://internet.watch.impress.co.jp/docs/news/1113028.html
+!https://www.antiphishing.jp/news/alert/microsoft_20180322.html
+!||recovery-support-
+!||rec0very-supp0rt-
 !END-----------------------------------------------------------
 
 !START-------------------------------------
