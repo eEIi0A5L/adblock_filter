@@ -190,7 +190,8 @@ www.afpbb.com##.pr-text
 ||d1z2jf7jlzjs58.cloudfront.net^
 ||js-agent.newrelic.com^
 ||cdn.comparecards.com^$domain=fortune.com|time.com
-||stats.wp.com^
+!wp.comはpopin,taboole系なのでブロックするのはやめた
+!||stats.wp.com^
 ||tia.timeinc.net^
 ||minute.ly^$domain=time.com
 time.com##.ad-wrapper

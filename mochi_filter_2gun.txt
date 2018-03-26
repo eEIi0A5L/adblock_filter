@@ -144,7 +144,9 @@ yaraon-blog.com##.yon_ga_box
 
 !あたたアンテナ
 !アダルトバナー
-||i1.wp.com^
+!wp.comはpopin,taboole系なのでブロックするのはやめた
+!||i1.wp.com^
+||i1.wp.com/aspm.jp/banner
 
 !オレ的ゲーム速報@刃
 ||jin115.com/js/amazon_
