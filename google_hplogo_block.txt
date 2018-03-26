@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Googleのロゴを消すフィルタ
-! Last modified: 22 Mar 2018 12:00 JST
+! Last modified: 27 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/google_hplogo_block.html
 ! 
@@ -8,8 +8,11 @@
 
 /logos/$domain=google.co.jp|google.com
 google.co.jp###hplogo
+!##^にいぜんバグあり
+!suspendTabsUntilReady=trueでホームがgoogleの時に、##^でテキストがとりこぼしになる。そして##^があると###hplogoが無視されるので、テキストが表示されたままになってしまう
 !google.co.jp##^#hplogo
 google.co.jp###prm
 ||www.google.co.jp/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png
+||www.google.co.jp/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
 
 ! END

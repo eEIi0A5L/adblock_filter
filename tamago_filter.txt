@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 20 Mar 2018 12:00 JST
+! Last modified: 27 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -90,6 +90,8 @@ mobile.twitter.com##div[role="article"]:has-text(Promoted by)
 !未ログインで見てるとログインを促す全画面ポップアップ
 mobile.twitter.com##header[role="banner"] + div > div
 ||pbs.twimg.com/ad_img/
+twitter.com##.promoted-tweet
+mobile.twitter.com##div[role="article"]:has-text(Promoted)
 
 !impress
 impress.co.jp###sp-floating-layer
@@ -198,6 +200,24 @@ itest.5ch.net###res_ad
 itest.5ch.net##.sproutad_frame
 ||itest.5ch.net/assets/img/ronin_premium_640x100.png
 
+!5ch
+itest.5ch.net##.js-ads-content-top_news
+itest.5ch.net##.js-ads-content-top_popular
+itest.5ch.net##.js-ads-content-top_rectangle
+itest.5ch.net###js-bottom-ad-300x250
+itest.5ch.net###instant_ad
+itest.5ch.net###js-special-adnetwork-320x200
+itest.5ch.net###ad_network
+itest.5ch.net###ads
+
+itest.bbspink.com##.ad
+itest.bbspink.com###instant_ad
+itest.bbspink.com###res_ad
+itest.bbspink.com##.sproutad_frame
+itest.bbspink.com###js-bottom-ad-300x250
+itest.bbspink.com##.js-ad_iframe
+itest.bbspink.com###ad_network
+itest.bbspink.com###ads
 
 !５ちゃんねる、２ちゃんねる
 /bannar/$domain=5ch.net|2ch.net|bbspink.com
@@ -357,6 +377,16 @@ www.jiji.com##.adingoFluctOverlay
 ![PR]おすすめ情報
 www.jiji.com##._taxel_recommend_header
 www.jiji.com##.taxel_ul_wrap
+www.jiji.com##.RectangleAd
+www.jiji.com##iframe[id^="cxWidget_"]
+||acuityplatform.com/Adserver/rds
+||ads.creative-serving.com^
+
+!Vivaldi
+vivaldi.com###dpsp-mobile-sticky
+
+!Nifty
+news.nifty.com##.mod_ad
 
 !神戸新聞NEXT
 ||taxel.jp^
@@ -597,6 +627,28 @@ mobile.nytimes.com##div[class^="BlockAdvert"]
 mobile.nytimes.com##div[id^="story-ad-"]
 mobile.nytimes.com##div[class^="Dock-dock"]
 mobile.nytimes.com##.ad
+
+!Business Journal
+||biz-journal.jp/i/inc/adframe
+||biz-journal.jp/i/inc/ad_thumbText.php
+||biz-journal.jp/i/js/adsense.js
+||biz-journal.jp/i/js/adframes.js
+biz-journal.jp###ad-middle01
+biz-journal.jp###ad-middle02
+biz-journal.jp###ad-middle03
+biz-journal.jp###ad-header
+biz-journal.jp###ad-footer
+
+!Solomon
+!popin, taboola系
+!||wp.com^
+solomon-review.net##.heateor_sss_sharing_container
+
+!bloomberg
+www.bloomberg.com##amp-ad
+
+!wordpress.com
+linuxnorth.wordpress.com##.wpcnt
 
 !sputniknews.com
 ||content.adriver.ru^
@@ -1083,6 +1135,9 @@ news.2chblog.jp##.btn-ldb-bottomAdd
 !キニ速
 !（なし）
 
+!ラビット速報
+!（なし）
+
 !ニコニコVIP2ch
 !→異常な量の広告が読み込まれる
 blog.livedoor.jp##.plugin-ad
@@ -1123,6 +1178,13 @@ llabtooflatot.blog102.fc2.com##center:if(> ins.adsbygoogle)
 ||cdn-matome.line-apps.com/n/matome_sp/js/nj.mtmsp.component.floatingAdSp_
 ||cdn-matome.line-apps.com/n/matome_sp/js/nj.matome.innerAd_
 
+!fenrir
+search.fenrir-inc.com##.ch.a_change
+
+!www.pcgamer.com
+www.pcgamer.com##div[style="position: relative; box-sizing: border-box; height: auto; margin: 0px auto 20px; text-align: center; display: block; pointer-events: none; transform: none; width: 300px; background-color: rgb(237, 237, 237); padding-bottom: 10px;"]:has-text(Advertisement)
+www.pcgamer.com##div[style="position: relative; box-sizing: border-box; height: auto; margin: 0px auto 20px; text-align: center; display: block; pointer-events: none; transform: none; width: 300px; background-color: rgb(237, 237, 237); padding-bottom: 10px; clear: both;"]:has-text(Advertisement)
+||0914.global.ssl.fastly.net/ad2/
 
 
 

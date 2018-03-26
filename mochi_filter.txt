@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 22 Mar 2018 12:00 JST
+! Last modified: 27 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -259,6 +259,10 @@ www.yahoo.co.jp###yjidbox
 videotopics.yahoo.co.jp###async_lrec_ad
 !videotopics.yahoo.co.jp##^#async_lrec_ad
 ||videotopics.yahoo.co.jp/videolist/lrec?crb=
+
+!Yahoo映像トピックス 右上の広告
+videotopics.yahoo.co.jp###async_lrec
+videotopics.yahoo.co.jp##.banner
 
 
 !動画開始時の動画広告ブロック
@@ -800,6 +804,13 @@ blog.fc2.com##.pankuzu + h2 + .mainbox
 fc2.com###fc2_bottom_bnr
 blog.fc2.com###sh_fc2blogheadbar_link_box
 web.fc2.com###fc2_ad_box
+
+!fc2blog
+!右上のぐるぐる回るチッカー
+!http://destron.blog6.fc2.com/blog-entry-277.html
+fc2.com###sh_fc2blogheadbar_link_box
+!↓これは誤爆の可能性があるのでコメント化
+!||ecx.images-amazon.com/images/$domain=fc2.com
 
 !はてな
 www.hatena.ne.jp###pc-billboard-ad
@@ -1541,6 +1552,7 @@ excite.co.jp##.yadsOverlay
 excite.co.jp##div[class^='ad']
 excite.co.jp##.ex-crt-wrapper
 excite.co.jp###pageFeatures
+www.excite.co.jp###gpt_pc_news_banner
 
 !Asciiデジタル
 ||i.t.webtracker.jp^
@@ -1678,6 +1690,19 @@ search.nifty.com###lst2
 !popinと同じ感じ
 !Yahooについては特別に速度を重視するので切った
 
+!DuckDuckGo
+duckduckgo.com###ads
+duckduckgo.com##.js-sidebar-ads
+duckduckgo.com##.results--ads
+||duckduckgo.com/t/ad_amazon
+
+!マイナビ
+news.mynavi.jp##.ad-text
+news.mynavi.jp##.site-notice
+
+!cnetjapan
+japan.cnet.com##.inner-pr
+japan.cnet.com##.right-ad-block
 
 
 

@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 22 Mar 2018 12:00 JST
+! Last modified: 27 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -144,7 +144,8 @@ yaraon-blog.com##.yon_ga_box
 
 !あたたアンテナ
 !アダルトバナー
-||i1.wp.com^
+!wp.comはpopin,taboole系なのでブロックするのはやめた
+!||i1.wp.com^
 
 !オレ的ゲーム速報@刃
 ||jin115.com/js/amazon_
@@ -390,6 +391,119 @@ beelzeboulxxx.com##.maob_adbox
 !VIPワイドガイド
 news4wide.livedoor.biz###niee
 
+
+
+
+!ツイッター速報
+||api.samuraiclick.com^
+||www.samuraiclick.com^
+
+!なんじぇいスタジアム
+blog.livedoor.jp##.article-body-more > blockquote:has-text(1000 ：)
+
+!ポケモンGOまとめ最速速報！！
+||okinawanohoshi.com^
+||hapitas.jp^
+||sedori3.com^
+!サムネイルをクリックしたときに小窓が開くのを抑制する
+||bubblecleansing.com^$inline-script
+
+!coco
+!トップページを開いてすぐ表示される全面広告
+matchwarai.net##^#itro_popup
+matchwarai.net##^#itro_opaco
+
+!季節ch
+!トップページを開いてすぐ表示される全面広告
+gowisdom.spawn.jp##^#itro_popup
+gowisdom.spawn.jp##^#itro_opaco
+
+!旬なネタ帳
+!||blues.plovdivtv.com^$inline-script
+!blues.plovdivtv.com##^.modal
+
+!日本Ｂ級ニュース速報
+||ninexengine.com^
+||trend.aamto.com^$inline-script
+
+!じゃぱそく！
+||adcrops.net^
+||kill.jp^
+||link-a.net^
+
+!流行速報Ⅱ
+||luyuan-sp.com/wp-content/themes/sp_shenron/js/modalConfirm.js
+
+!芸能人の気になる噂"
+||vis1.shinobi.jp^
+||zenback.jp^
+
+!あんてか
+||ecx.images-amazon.com/images/$domain=anteka.info
+
+!ラビット速報
+||ecx.images-amazon.com/images/$domain=rabitsokuhou.2chblog.jp
+||ootugomori.com^
+||antennasync.me^
+||omt.shinobi.jp^
+||www.linkwithin.com^
+
+!http://bitcoin-oshiete.com/?p=54139
+!wp.comはpopin,taboole系なのでブロックするのはやめた
+!||i0.wp.com^
+!||pixel.wp.com^
+!||wp.com^
+||bitcoin-oshiete.com/wp-content/themes/monoreap/js/modalConfirm.js
+
+!コイン速報
+||j-a-net.jp^
+||with2.net^
+||d2p8taqyjofgrq.cloudfront.net^
+||fx-on.com^$third-party
+||gogojungle.co.jp^
+!blog.livedoor.jp##.article-body-more > a
+
+!ちまたの話題を覗きみ 
+||www.2ch-mmsite.com^$script
+||www.2ch-mmsite.com^$inline-script
+
+!VIPPER速報
+||torimochi.line-apps.com^
+vippers.jp##.ad
+||s3-ap-northeast-1.amazonaws.com/adv-img.zucks.jp
+||d.line-cdn.net/n/_4/torimochi.js/public/v1/release/stable/min/torimochi.js
+!||vippers.jp^$inline-script
+
+!話題のNewsまとめ速報
+!wp.comはpopin,taboole系なのでブロックするのはやめた
+!@@||i1.wp.com^
+
+!NEWSまとめもりー
+www.akb48matomemory.com##.google-2ad
+
+!モンスト速報
+monst-sokuhou.blog.jp##.google-2ad-mid
+monst-sokuhou.blog.jp##.google-2ad-bottom
+||cdn.x-lift.jp^
+||social-runner.net^
+!monst-sokuhou.blog.jp##.article-body-more > .t_h:first-child
+
+!しゃこ速
+blog.livedoor.jp##.article-sub-category
+blog.livedoor.jp##.popularArticlesWithImage
+
+!2log-ch
+2logch.com##.rtrankbox
+
+!2chまとめブログ
+www.akb48matomemory.com##.google-2ad
+www.akb48matomemory.com##.antenna-text-list
+www.akb48matomemory.com##section[id^="PERMALINK_SYSTEM_"]
+||permalink-system.com^
+www.akb48matomemory.com##.article_body_more > span
+
+
+
 !声優まとめ--------------------------------------------------------------------
 !ぐら速 -声優まとめ速報-
 ||images-fe.ssl-images-amazon.com/images/$domain=grasoku.com
@@ -501,6 +615,10 @@ kokoyakyumatomesokuho.blog.jp##.google-2ad
 llabtooflatot.blog102.fc2.com##center:if(> ins.adsbygoogle)
 !END--------------------------------------------------------------------
 
+!nakanohito.jp
+!よくわからない
+!shinobi
+!よくわからない
 
 
 
@@ -692,6 +810,12 @@ www.nytimes.com##.ad
 ||static01.nyt.com/ads/
 www.nytimes.com##div[class^="ResponsiveAd-topAd"]
 www.nytimes.com##div[class^="ResponsiveAd-storyBodyAd"]
+
+!中央日報
+japanese.joins.com##.ad
+japanese.joins.com##.pr_area
+||japanese.joins.com/include/html/ad/
+||japanese.joins.com/_include/javascript/Glam_SmartPhoneAd.js
 
 
 
