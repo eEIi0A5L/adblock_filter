@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 27 Mar 2018 12:00 JST
+! Last modified: 30 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -316,6 +316,11 @@ www.axfc.net##.bnf
 ||www.sankei.com/apr_news/js/others/adGpt.js
 ||sankei2ad.durasite.net^
 www.sankei.com###footerFloatingMenu
+
+!sankei-biz
+www.sankeibiz.jp##.ad
+!||cdn.ampproject.org/v0.js
+!||cdn.ampproject.org/v0/amp-analytics-0.1.js
 
 !asahi
 ||img.ak.impact-ad.jp^
@@ -659,6 +664,8 @@ jp.sputniknews.com##.social-likes-pane
 ||jp.sputniknews.com/min/js/libs/adfox.asyn.code.ver3-scroll.js
 jp.sputniknews.com###smartbanner
 !jp.sputniknews.com##html:style(margin-top: 0px;)
+!jp.sputniknews.com##html:style(margin-top: 0px;)
+||jp.sputniknews.com/min/js/plugins/jquery.smartbanner.js
 
 
 !carnnyマガジン
@@ -1186,6 +1193,9 @@ www.pcgamer.com##div[style="position: relative; box-sizing: border-box; height: 
 www.pcgamer.com##div[style="position: relative; box-sizing: border-box; height: auto; margin: 0px auto 20px; text-align: center; display: block; pointer-events: none; transform: none; width: 300px; background-color: rgb(237, 237, 237); padding-bottom: 10px; clear: both;"]:has-text(Advertisement)
 ||0914.global.ssl.fastly.net/ad2/
 
+!panpan
+!アダルトサイト
+||adpon.net^
 
 
 !その他

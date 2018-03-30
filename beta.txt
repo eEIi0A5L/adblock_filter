@@ -1,1 +1,9 @@
 ! beta.txt 
+
+!Amazonの画像非表示 START 2018.3.30
+! original url
+! http://andraste.info/g/steins_gate/02-endings-06-true.html
+! attract block
+!<a href="http://www.amazon.co.jp/exec/obidos/ASIN/B077GYXFPF/andraste010-22/ref=nosim/" target="_blank" rel="nofollow"><img src="https://images-fe.ssl-images-amazon.com/images/I/61ycYB-2VCL.jpg" alt=""></a>
+! filter
+~amazon.co.jp##a[href^="http://www.amazon.co.jp/exec/obidos/"][href$="-22/ref=nosim/"]

@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 27 Mar 2018 12:00 JST
+! Last modified: 30 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -783,6 +783,9 @@ ameblo.jp##.bfl-snews__outer
 !なんか白くなる
 !||ssl-stat.amebame.com/pub/ads/
 ameblo.jp##.skin-entryAd
+!Amebloが直っているみたいだ。2018.3.30
+||ssl-stat.amebame.com/pub/ads/
+||ad.pr.ameba.jp^
 
 !Amebaニュース
 ||apvdr.com/v2/cs.php
@@ -1158,6 +1161,14 @@ www.asahi.com##.PrTextMod
 ||www.yomiuri.co.jp/cont2/ad/
 www.yomiuri.co.jp##.subhead
 ||smrtpxl.advertising.com^
+!gif動画がちらついてうざい
+!||www.yomiuri.co.jp/cont2/g2/m_pr_chuo.gif
+!||www.yomiuri.co.jp/cont2/g2/m_pr_gakushuin.gif
+!www.yomiuri.co.jp##a[href^="http://www.yomiuri.co.jp/adv/"]
+!||www.yomiuri.co.jp/cont2/g2/m_pr_waseda.gif
+!||www.yomiuri.co.jp/cont2/g2/m_pr_sophia.gif
+!||www.yomiuri.co.jp/cont2/g2/m_pr_hosei.gif
+||www.yomiuri.co.jp/cont2/g2/m_pr_
 
 !NHK
 !広告じゃなかった

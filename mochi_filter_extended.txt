@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 27 Mar 2018 12:00 JST
+! Last modified: 30 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -212,6 +212,18 @@ www.dailymail.co.uk##.billboard_wrapper
 
 !bloomberg
 www.bloomberg.com##.leaderboard-container
+
+!HUFFPOST
+www.huffingtonpost.com##.advertisement
+||udc.yahoo.com^
+||cdn.taboola.com^
+||cdn.at.atwola.com^
+||s.skimresources.com^
+||ads.yap.yahoo.com^
+||o.aolcdn.com^
+||yimg.com/wi/ytc.js
+||plugin.mediavoice.com^
+huffingtonpost.com##script:inject(abort-on-property-write.js, _sp_)
 
 !JAMA
 ||jamanetwork.com/AMA/AdTag
@@ -543,6 +555,8 @@ kensc.com###seesaa-bnr
 !bilibili.com
 ||static.hdslb.com/ad-images
 bilibili.com##.bilibili-player-promote-wrap
+!プレイヤー上部のスライド
+www.bilibili.com##.bilibili-player-video-message-ul
 
 !PCgamer
 www.pcgamer.com##div[style^="position: relative; box-sizing: border-box; height: auto;"]
@@ -578,6 +592,15 @@ www.webcartop.jp##.sidebar-banner
 !IGN
 www.ign.com##.ign-pre-grid
 ||static.adziff.com^
+
+!OSDN
+mag.osdn.jp###div-gpt-osdn_mag_header
+mag.osdn.jp###div-gpt-osdn_mag_rec-article-middle
+mag.osdn.jp###div-gpt-osdn_mag_rec
+
+
+!電撃APP
+dengekionline.com###banner_rectangle_1
 
 
 

@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 22 Mar 2018 12:00 JST
+! Last modified: 30 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/ichigo.html
 ! 
@@ -366,6 +366,8 @@ video.fc2.com##.cont_v2_ad
 ||textad.net/cgi-bin/manager.cgi
 video.fc2.com##.c-ad-103
 video.fc2.com##.u-hasAd-101_adArea
+!fc2動画アダルト
+!video.fc2.com##.c-ad-101
 
 !youav.com
 ||www.youav.com$popup
@@ -445,6 +447,11 @@ lovechat777.blog.fc2.com###rightside
 !http://beautyandbig.blog.fc2.com
 ||ad.duga.jp^
 
+!XNXX
+||iwanttodeliver.com^$popup
+@@||xvideos.com^$third-party
+||xnxx.com/in.php?referer
+xnxx.com##script:inject(xvideos.com.js)
 
 
 ! END

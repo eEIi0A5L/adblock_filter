@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 27 Mar 2018 12:00 JST
+! Last modified: 30 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -84,6 +84,7 @@ news4vip.livedoor.biz##.google-2ad
 ||pc.tunnel-vision.info/js/tad.js
 ||cs.gssprt.jp^
 ||js.click-plus.net^
+!news4vip.livedoor.biz##.article-body-more > b:if(> a)
 
 !---------------------------------------------------------------------------------------
 !この手のまとめサイトを書いていたらきりがないのでコメント化
@@ -200,6 +201,8 @@ blog.esuteru.com##.amazlet-box
 !ねぎ速
 ||pc.clickmedias.info/js/ad.js
 ||ac8.i2i.jp^
+||images-fe.ssl-images-amazon.com/images/$domain=www.negisoku.com
+||www.amazones-tools.com/amazones_core.php?AffiliateId=
 
 !全力疾走
 ||kaz335b.sakura.ne.jp/bana/
@@ -210,6 +213,16 @@ blog.esuteru.com##.amazlet-box
 ||rcm.shinobi.jp/r/
 ||adc02.media-rep.com/vi2.php?adId=
 ||s.liveads.jp^
+beelzeboulxxx.com##.article-body-more > a
+beelzeboulxxx.com##.article-body-more > table
+||img.adpon.net^
+||ru.adpon.net^
+||shinobi.jp/track?
+||sync.shinobi.jp^
+beelzeboulxxx.com##a[name="more"] + aside
+beelzeboulxxx.com##iframe[src="http://beelzeboulxxx.com/rss_html.html"]
+beelzeboulxxx.com##.maob_adbox
+||49.212.219.243^
 
 !ゲハを斬る
 ||static.fc2.com/js/blog/headbar_ad_rotate.js
@@ -373,21 +386,17 @@ blog.livedoor.jp##a[href^="https://www.amazon.co.jp/"]
 blog.livedoor.jp##.entry_box110
 blog.livedoor.jp##div[style="padding: 1px; margin-top: 0px; margin-bottom: 20px; overflow:hidden; font-weight:bold; border: 5px solid #9e4f2d;"]
 blog.livedoor.jp##.entry_box101
+blog.livedoor.jp##.entry_box102
+||namekuji.jp^
+||rankc1.apserver.net^
+
 
 !芸能人ニュース速報
 blog.livedoor.jp##.main-container-ads
 ||livedoor.blogimg.jp/sky_wing2010-geinou/imgs/7/2/72d3165a.png
 blog.livedoor.jp##iframe[src^="http://api.unthem.com/cast?zname="]
 
-!魔王ブログ
-||img.adpon.net^
-||ru.adpon.net^
-||shinobi.jp/track?
-||sync.shinobi.jp^
-beelzeboulxxx.com##a[name="more"] + aside
-beelzeboulxxx.com##iframe[src="http://beelzeboulxxx.com/rss_html.html"]
-beelzeboulxxx.com##.maob_adbox
-||49.212.219.243^
+
 
 !VIPワイドガイド
 news4wide.livedoor.biz###niee
@@ -502,6 +511,49 @@ www.akb48matomemory.com##.antenna-text-list
 www.akb48matomemory.com##section[id^="PERMALINK_SYSTEM_"]
 ||permalink-system.com^
 www.akb48matomemory.com##.article_body_more > span
+||checkmate-blog.com/wp-content/uploads/2017/12/side_ama_02.jpg
+||checkmate-blog.com/wp-content/uploads/2017/08/side_ama_03.jpg
+||checkmate-blog.com/wp-content/uploads/2018/02/side_ama_01-1.jpg
+||query.yahooapis.com^$xmlhttprequest,domain=checkmate-blog.com
+
+!暇つぶしニュース
+||js.gsspcln.jp^
+||cs.gssprt.jp^
+||aladdin.genieesspv.jp^
+||adm.shinobi.jp^
+||d.href.asia/nw/d/afr.php
+||img.gsspat.jp^
+blog.livedoor.jp##.article-body-more > .link2
+!blog.livedoor.jp##.pickup2
+blog.livedoor.jp##.article-content > div > iframe[src="http://blog.livedoor.jp/rbkyn844/ftp/rss.html"]
+
+!ニュー即ブログν
+newsoku.blog###pc_text-34
+||unitedblades-d.openx.net^
+||api.push7.jp^
+||i2.wp.com/rranking7.ziyu.net
+||ptengine.jp^
+newsoku.blog###the-content > ul.blogroll-list-wrap
+newsoku.blog###widget-in-article
+
+!芸能ネタはこれだけでおｋ
+koredakedeok.blog.jp##.taxel_ul_wrap > li:has-text(Sponsored)
+||taxel.jp^
+
+!かいがいん
+||xr.shinobi.jp^
+
+!アダルト
+||affiliate.dtiserv.com^
+||blogparts.dmm.com/ranking
+||www.ppc-direct.com/index109.html?affid=
+
+!まろやかTIME 
+||image.d-064.com/af_banner
+
+!ぶっ飛び☆アンテナ
+||www.gamefeat.net/webapi/v1/requestImg?ad_id=
+||file.gamefeat.net/app/banner/
 
 
 
@@ -679,7 +731,11 @@ togetter.com##.ad_list_bottom
 ||veta.naver.com^
 &adlink=$domain=tv.naver.com
 ||cc.naver.com/cc?a=
-
+adSystem$domain=tv.naver.com
+!||tvcast1.phinf.naver.net^
+!||tvcast2.phinf.naver.net^
+!||tvcast.p.naverrmc.edgesuite.net/global/read
+!||common.like.naver.com^
 
 !PAPPINS
 pappins.tokyo###gn_interstitial_area
@@ -699,12 +755,7 @@ chew.jp###itro_popup
 ||adingo.jp/
 ||bibincom.com/ad/
 
-!Naver tv
-adSystem$domain=tv.naver.com
-!||tvcast1.phinf.naver.net^
-!||tvcast2.phinf.naver.net^
-!||tvcast.p.naverrmc.edgesuite.net/global/read
-!||common.like.naver.com^
+
 
 !startpage.com
 startpage.com###sponsored_csa1
@@ -817,6 +868,9 @@ japanese.joins.com##.ad
 japanese.joins.com##.pr_area
 ||japanese.joins.com/include/html/ad/
 ||japanese.joins.com/_include/javascript/Glam_SmartPhoneAd.js
+
+!Naver
+||blog.naver.com/AdPostInjectAsync.nhn
 
 
 
