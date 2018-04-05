@@ -738,10 +738,10 @@ guitar.plovdivtv.com##^.modal
 ||guitar.plovdivtv.com/wp-content/themes/sp_shenron/js/modalConfirm.js
 
 !http://tamacoco.mokuren.ne.jp
-||tamacoco.mokuren.ne.jp/ucha/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=4.5.14
+||tamacoco.mokuren.ne.jp/ucha/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=
 
 !http://kavchanvv.topaz.ne.jp
-||kavchanvv.topaz.ne.jp/juaeo/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=4.5.14
+||kavchanvv.topaz.ne.jp/juaeo/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=
 
 !http://fusigiisekai.com
 ||fusigiisekai.com/wp-content/themes/sp_shenron/js/modalConfirm.js
@@ -750,7 +750,7 @@ guitar.plovdivtv.com##^.modal
 ||skijump-db.net^$popup
 
 !http://cochi8to.nyanta.jp
-||cochi8to.nyanta.jp/taki/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=4.5.14
+||cochi8to.nyanta.jp/taki/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=
 
 !http://cabonews.cabochanews.com
 ||banners.host.bannerflow.com^
@@ -767,7 +767,7 @@ guitar.plovdivtv.com##^.modal
 ||extra-other.com^
 
 !http://lifecocom.net
-||lifecocom.net/maito/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=4.5.14
+||lifecocom.net/maito/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=
 
 !http://yamahiro-invest.com
 !||i1.wp.com/www.infotop.jp/img/banner1_71359.jpg
@@ -779,6 +779,12 @@ guitar.plovdivtv.com##^.modal
 !http://www.yonason9841.net
 ||www.kaiseki-website.com/getstats.js.php
 ||www.kaiseki-website.com/getstats.php
+
+!http://kavchanvv.topaz.ne.jp/fhlwe/
+http://kavchanvv.topaz.ne.jp/fhlwe/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=
+
+!http://blues.plovdivtv.com/
+||blues.plovdivtv.com/wp-content/themes/sp_shenron/js/modalConfirm.js
 
 
 !---------------------------------------------------------------------------------------
