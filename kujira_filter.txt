@@ -46,4 +46,12 @@
 !マイニング３
 ||swissborg.com^$third-party
 
+
+!Webrootによると、2017年9月以降、5000以上のウェブサイトに仮想通貨採掘ツール「CoinHive」が仕込まれているという。
+!https://headlines.yahoo.co.jp/hl?a=20180327-35116730-cnetj-sci&pos=2
+!http://www.itmedia.co.jp/news/articles/1803/30/news119.html
+!http://www.itmedia.co.jp/news/articles/1803/30/news102.html
+
+
+
 !END

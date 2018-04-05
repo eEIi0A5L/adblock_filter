@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Youtubeの広告をとにかくブロックするフィルタ
-! Last modified: 05 Nov 2017 12:00 JST
+! Last modified: 03 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/
 ! 
@@ -22,5 +22,5 @@ youtube.com###video-masthead
 ||www.google.co.jp/pagead/lvz?
 ||youtube.com/pagead/
 ||doubleclick.net^
-||2mdn.net^
+||2mdn.net^$domain=youtube.com
 

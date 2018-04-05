@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 30 Mar 2018 12:00 JST
+! Last modified: 06 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -256,6 +256,24 @@ www.reddit.com##.dfp-ad-container
 ||events.redditmedia.com/v1?
 ||pixel.redditmedia.com/pixel/of_defenestration.png?
 !END---------------------------------------------------
+
+!reddit
+!新デザイン 2018.4.1---------------------------------------------
+!www.reddit.com###sidebar-atf
+www.reddit.com##:xpath(//div[@id="sidebar-atf"]/parent::div/parent::div/parent::div)
+www.reddit.com##:xpath(//div[@id="sidebar-btf"]/parent::div/parent::div/parent::div)
+www.reddit.com##:xpath(//div[@id="overlay-sidebar-atf"]/parent::div/parent::div/parent::div)
+www.reddit.com##:xpath(//div[@id="overlay-sidebar-btf"]/parent::div/parent::div/parent::div)
+www.reddit.com##:xpath(//div[@id="sidebar-btf-1"]/parent::div/parent::div/parent::div)
+www.reddit.com##:xpath(//div[@id="sidebar-btf-2"]/parent::div/parent::div/parent::div)
+www.reddit.com##:xpath(//div[@id="sidebar-btf-3"]/parent::div/parent::div/parent::div)
+www.reddit.com##:xpath(//div[@id="sidebar-btf-4"]/parent::div/parent::div/parent::div)
+!www.reddit.com##div[promotedlink]
+reddit.com##.promotedlink
+
+!redditの浮くやつ
+!www.reddit.com##:xpath(//a[@href="https://about.reddit.com/advertise/"]/parent::div/parent::div/parent::div/parent::div)
+!END--------------------------------------------------------------
 
 !Yahoo.com
 !iframeをフィルタすると動画が見れなくなる
@@ -592,6 +610,18 @@ www.webcartop.jp##.sidebar-banner
 !IGN
 www.ign.com##.ign-pre-grid
 ||static.adziff.com^
+www.ign.com##.ad-container
+||zdbb.net/core/ad-block
+||ign.com/core/ad-block
+||betrad.com^
+||static.ziffdavis.com^
+||c.amazon-adsystem.com^
+||gurgle.zdbb.net^
+||static.ziffdavis.com^
+||consent.truste.com^
+||static.ziffprod.com/cse/js/5.0.0/zdcse.min.js?referrer=
+||cdn.ziffstatic.com^
+||cdn.static.zdbb.net^
 
 !OSDN
 mag.osdn.jp###div-gpt-osdn_mag_header

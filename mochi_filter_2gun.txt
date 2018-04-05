@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 30 Mar 2018 12:00 JST
+! Last modified: 06 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -86,20 +86,7 @@ news4vip.livedoor.biz##.google-2ad
 ||js.click-plus.net^
 !news4vip.livedoor.biz##.article-body-more > b:if(> a)
 
-!---------------------------------------------------------------------------------------
-!この手のまとめサイトを書いていたらきりがないのでコメント化
-!!たんたん
-!http://kavchanvv.topaz.ne.jp/fhlwe/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=4.5.13
-!
-!!!旬なネタ帳
-!||blues.plovdivtv.com/wp-content/themes/sp_shenron/js/modalConfirm.js
-!!リンクをクリックするとポップアップが開く
-!!→ブロック方法不明
-!||japangoo.red$popup
-!||blues.plovdivtv.com$popup
-!||luyuan-sp.com$popup
-!!https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-popups
-!---------------------------------------------------------------------------------------
+
 
 !ハムスター速報
 ||blog.livedoor.jp/hamusoku/amazon_ranking.js
@@ -139,15 +126,6 @@ yaraon-blog.com##.yon_ga_box
 
 !高身長女子速報
 ||tallgirl.blog.jp/settings/ad.js
-
-!http://omoroi.site
-||coincheck.com^$third-party
-
-!あたたアンテナ
-!アダルトバナー
-!wp.comはpopin,taboole系なのでブロックするのはやめた
-!||i1.wp.com^
-||i1.wp.com/aspm.jp/banner
 
 !オレ的ゲーム速報@刃
 ||jin115.com/js/amazon_
@@ -246,16 +224,12 @@ beelzeboulxxx.com##.maob_adbox
 ||zucks.net.zimg.jp^
 2ch.vet##thead
 
-!pinkまとめんばー
-!deaiman.net##^.modal
-!http://deaiman.net/wp/wp-content/themes/houou/css/modal.css
-||deaiman.net/wp/wp-content/themes/houou/js/modalConfirm.js
+
 
 !まとめるん
 ||ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js$domain=wakuloobe.jeez.jp
 
-!草アンテナ
-||aspm.jp^
+
 
 !buzz-cafe.net
 buzz-cafe.net###ist_overlay2
@@ -263,6 +237,7 @@ buzz-cafe.net###ist_overlay2
 !ラビット速報
 ||matigaeta.com/cubesan/syncs_article_in.js
 ||rabitsokuhou.2chblog.jp/images/img/img/adJS/
+rabitsokuhou.2chblog.jp###topads
 
 
 !カナ速
@@ -418,15 +393,7 @@ blog.livedoor.jp##.article-body-more > blockquote:has-text(1000 ：)
 !サムネイルをクリックしたときに小窓が開くのを抑制する
 ||bubblecleansing.com^$inline-script
 
-!coco
-!トップページを開いてすぐ表示される全面広告
-matchwarai.net##^#itro_popup
-matchwarai.net##^#itro_opaco
 
-!季節ch
-!トップページを開いてすぐ表示される全面広告
-gowisdom.spawn.jp##^#itro_popup
-gowisdom.spawn.jp##^#itro_opaco
 
 !旬なネタ帳
 !||blues.plovdivtv.com^$inline-script
@@ -448,8 +415,7 @@ gowisdom.spawn.jp##^#itro_opaco
 ||vis1.shinobi.jp^
 ||zenback.jp^
 
-!あんてか
-||ecx.images-amazon.com/images/$domain=anteka.info
+
 
 !ラビット速報
 ||ecx.images-amazon.com/images/$domain=rabitsokuhou.2chblog.jp
@@ -458,12 +424,7 @@ gowisdom.spawn.jp##^#itro_opaco
 ||omt.shinobi.jp^
 ||www.linkwithin.com^
 
-!http://bitcoin-oshiete.com/?p=54139
-!wp.comはpopin,taboole系なのでブロックするのはやめた
-!||i0.wp.com^
-!||pixel.wp.com^
-!||wp.com^
-||bitcoin-oshiete.com/wp-content/themes/monoreap/js/modalConfirm.js
+
 
 !コイン速報
 ||j-a-net.jp^
@@ -551,9 +512,20 @@ koredakedeok.blog.jp##.taxel_ul_wrap > li:has-text(Sponsored)
 !まろやかTIME 
 ||image.d-064.com/af_banner
 
-!ぶっ飛び☆アンテナ
-||www.gamefeat.net/webapi/v1/requestImg?ad_id=
-||file.gamefeat.net/app/banner/
+!めぐ速
+||js.passaro-de-fogo.biz^
+||genieesspv.jp^
+||rtax.criteo.com^
+
+!http://damage0.com
+||imgad.net^
+
+!スコールちゃんねる
+squallchannel.com##.shi_antena
+squallchannel.com##.ad_space
+squallchannel.com##.google-2ad-m
+squallchannel.com##iframe[src="http://squallchannel.doorblog.jp/RSSbottom.html"]
+squallchannel.com##.article-body-more > div[style="background-color: white; padding: 5px; margin: 5px; line-height: 1.9; border: 1px solid rgb(105, 105, 105);"]
 
 
 
@@ -668,10 +640,148 @@ kokoyakyumatomesokuho.blog.jp##.google-2ad
 llabtooflatot.blog102.fc2.com##center:if(> ins.adsbygoogle)
 !END--------------------------------------------------------------------
 
+
 !nakanohito.jp
 !よくわからない
 !shinobi
 !よくわからない
+
+
+
+!二次まとめサイト（一次まとめへの誘導サイト）------------------------------
+!
+!この手のまとめサイトを書いていたらきりがないのでコメント化
+!!たんたん
+!http://kavchanvv.topaz.ne.jp/fhlwe/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=4.5.13
+!
+!!!旬なネタ帳
+!||blues.plovdivtv.com/wp-content/themes/sp_shenron/js/modalConfirm.js
+!!リンクをクリックするとポップアップが開く
+!!→ブロック方法不明
+!||japangoo.red$popup
+!||blues.plovdivtv.com$popup
+!||luyuan-sp.com$popup
+!!https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-popups
+
+!coco
+!トップページを開いてすぐ表示される全面広告
+matchwarai.net##^#itro_popup
+matchwarai.net##^#itro_opaco
+
+!季節ch
+!トップページを開いてすぐ表示される全面広告
+gowisdom.spawn.jp##^#itro_popup
+gowisdom.spawn.jp##^#itro_opaco
+
+!あたたアンテナ
+!アダルトバナー
+!wp.comはpopin,taboole系なのでブロックするのはやめた
+!||i1.wp.com^
+||i1.wp.com/aspm.jp/banner
+
+!ぶっ飛び☆アンテナ
+||www.gamefeat.net/webapi/v1/requestImg?ad_id=
+||file.gamefeat.net/app/banner/
+
+!草アンテナ
+||aspm.jp^
+
+!pinkまとめんばー
+!deaiman.net##^.modal
+!http://deaiman.net/wp/wp-content/themes/houou/css/modal.css
+||deaiman.net/wp/wp-content/themes/houou/js/modalConfirm.js
+
+!http://bitcoin-oshiete.com/?p=54139
+!wp.comはpopin,taboole系なのでブロックするのはやめた
+!||i0.wp.com^
+!||pixel.wp.com^
+!||wp.com^
+||bitcoin-oshiete.com/wp-content/themes/monoreap/js/modalConfirm.js
+
+!あんてか
+||ecx.images-amazon.com/images/$domain=anteka.info
+
+!この手のまとめ誘導サイトが山ほどあってツイッターをスパムしている
+!http://www.itmedia.co.jp/news/articles/1802/22/news065.html
+!スペシャルな話題 
+||alltyomm.noob.jp^$script
+
+!芸能裏ネタばらしをします
+||felmat.net^
+!||www.infotop.jp/img/banner1_
+||www.infotop.jp^
+||www.image-rentracks.com^
+||rentracks.jp^
+||monetrack.com:8000/banner/
+
+!http://otajapan.com
+||oneclck.net^
+||banner.jp.jskypro.com^
+
+!http://infotakusan.net
+||infotakusan.net/img/banner
+infotakusan.net##[href^="http://www.infotop.jp/click.php"]
+||okashik.atype.jp/ads_html_type/images/
+
+!http://infotakusan.net/
+!DMMアフィリエイト
+!<a href="http://www.dmm.com/lp/game/aigis/index001_html/=/navi=none/hikkapyon-002" target="_blank"><img src="http://pics.dmm.com/af/c_olg010/300_250.jpg" alt="千年戦争アイギス　オンラインゲーム" width="300" height="250" border="0"></a>
+||pics.dmm.com/af/$third-party
+
+!http://pyonsacoon.thyme.jp
+!トップページを開いてすぐ表示される全面広告
+pyonsacoon.thyme.jp##^#itro_popup
+pyonsacoon.thyme.jp##^#itro_opaco
+
+!http://guitar.plovdivtv.com
+guitar.plovdivtv.com##^.modal
+||guitar.plovdivtv.com/wp-content/themes/sp_shenron/js/modalConfirm.js
+
+!http://tamacoco.mokuren.ne.jp
+||tamacoco.mokuren.ne.jp/ucha/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=4.5.14
+
+!http://kavchanvv.topaz.ne.jp
+||kavchanvv.topaz.ne.jp/juaeo/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=4.5.14
+
+!http://fusigiisekai.com
+||fusigiisekai.com/wp-content/themes/sp_shenron/js/modalConfirm.js
+!||fusigiisekai.com^$popup
+!||fusigiisekai.com^$popunder
+||skijump-db.net^$popup
+
+!http://cochi8to.nyanta.jp
+||cochi8to.nyanta.jp/taki/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=4.5.14
+
+!http://cabonews.cabochanews.com
+||banners.host.bannerflow.com^
+||cdn.bannerflow.com^
+
+!http://sougoutyanneru.com
+||pics.dmm.com^$domain=sougoutyanneru.com
+
+!http://gacha.blog.jp
+.gif|$domain=gacha.blog.jp
+
+!http://blog.livedoor.jp/iqbannrdilrgo/
+||livedoor.4.blogimg.jp/itaihanashi/imgs/a/1/a1c893d6.gif
+||extra-other.com^
+
+!http://lifecocom.net
+||lifecocom.net/maito/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=4.5.14
+
+!http://yamahiro-invest.com
+!||i1.wp.com/www.infotop.jp/img/banner1_71359.jpg
+||i1.wp.com/www.infotop.jp/img/banner1_
+!https://i2.wp.com/www.infotop.jp/img/banner2_71770.gif
+||i2.wp.com/www.infotop.jp/img/banner2_
+!||www.namaeuranai.com/luckyparts.php
+
+!http://www.yonason9841.net
+||www.kaiseki-website.com/getstats.js.php
+||www.kaiseki-website.com/getstats.php
+
+
+!---------------------------------------------------------------------------------------
 
 
 

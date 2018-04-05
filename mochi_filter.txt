@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 30 Mar 2018 12:00 JST
+! Last modified: 06 Aor 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -850,6 +850,9 @@ kakaku.com##.c-ad
 ||kakakucom-d.openx.net^
 ||fp.kakaku.com/tracker.py/
 
+!価格.comマガジン
+kakakumag.com##.side-ad-top
+kakakumag.com##.fixedRightAdContainer
 
 
 !楽天（他サイトに出る広告のブロック）
@@ -1614,7 +1617,8 @@ bing.com##.b_ad
 
 !ちくわニコ生ランキング
 ||www.chikuwachan.com/live/img/ad/
-www.chikuwachan.com##.c
+!www.chikuwachan.com##.c
+www.chikuwachan.com###live_index > .c
 
 !xrea.com
 ||cache1.value-domain.com/vd_468x60.png

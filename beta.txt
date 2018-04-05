@@ -3,7 +3,14 @@
 !Amazonの画像非表示 START 2018.3.30
 ! original url
 ! http://andraste.info/g/steins_gate/02-endings-06-true.html
-! attract block
+! remarked block
 !<a href="http://www.amazon.co.jp/exec/obidos/ASIN/B077GYXFPF/andraste010-22/ref=nosim/" target="_blank" rel="nofollow"><img src="https://images-fe.ssl-images-amazon.com/images/I/61ycYB-2VCL.jpg" alt=""></a>
 ! filter
 ~amazon.co.jp##a[href^="http://www.amazon.co.jp/exec/obidos/"][href$="-22/ref=nosim/"]
+
+!ニコニコ動画の場合
+!http://www.nicovideo.jp/watch/sm32874272
+!<a style="cursor:pointer;" href="http://www.amazon.co.jp/dp/B00BBVVJM0/ref=nosim/?tag=nicovideo07_st1-22&amp;creative=380333&amp;creativeASIN=B00BBVVJM0&amp;linkCode=asn&amp;ascsubtag=7_vi_B00BBVVJM0_sm32874272_XDWkp1D2Aks]_1522686168_18be2e" 
+
+
+!END

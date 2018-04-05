@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 30 Mar 2018 12:00 JST
+! Last modified: 06 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -172,6 +172,7 @@ oshiete.goo.ne.jp##.theAppLink
 !ranking.goo.ne.jp###NR-wrapper
 ranking.goo.ne.jp###NR-sub
 ranking.goo.ne.jp###NR-sub-in
+ranking.goo.ne.jp##.foot_fixed_ad
 
 
 !LINE blog
@@ -316,6 +317,10 @@ www.axfc.net##.bnf
 ||www.sankei.com/apr_news/js/others/adGpt.js
 ||sankei2ad.durasite.net^
 www.sankei.com###footerFloatingMenu
+www.sankei.com##.ad
+!||cdn.ampproject.org/v0.js
+!||cdn.ampproject.org/v0/amp-analytics-0.1.js
+www.sankei.com##amp-embed
 
 !sankei-biz
 www.sankeibiz.jp##.ad
@@ -333,6 +338,7 @@ www.sankeibiz.jp##.ad
 ||www.asahicom.jp/ad/
 www.asahi.com###NativePr
 www.asahi.com###OutbrainRec
+www.asahi.com##.PrInfoBlock
 
 !Yomiuri
 ||www.yomiuri.co.jp/cont2/ad/js/sp_ad_home.js
@@ -618,6 +624,9 @@ mainichi.jp##.ad
 ||image2.pubmatic.com/AdServer/
 ||beacon.krxd.net/pixel.gif
 techon.nikkeibp.co.jp##.article-bottom-actions
+
+!日経TECH
+tech.nikkeibp.co.jp##.footer_nav
 
 !cnn.co.jp
 ||www.cnn.co.jp/media/cnn/images/mini/ad_bg.png
@@ -1198,6 +1207,23 @@ www.pcgamer.com##div[style="position: relative; box-sizing: border-box; height: 
 ||adpon.net^
 
 
+!太陽光 http://taiyoukou-navi.info
+||aojiru-mania.com/ga/anlz.php?
+taiyoukou-navi.info###menu
+
+!まとめまとめ http://matomame.jp
+!matomame.jp##iframe[id^="ox_"]
+matomame.jp##.uk-text-center
+
+!http://masterwiki.net/
+||ad.pitta.ne.jp^
+||st.shinobi.jp/img/services/admaxdsp
+||ecx.images-amazon.com/images/$domain=masterwiki.net
+||accesstrade.net^
+
+
+
+
 !その他
 www.tainavi-switch.com##.bn-01
 mobareco.jp##.footer-article
@@ -1225,5 +1251,104 @@ kinisuru.com##.a2a_floating_style
 ||reports.radiotime.com^
 ||ad.doubleclick.net^
 ! END-----------------------------
+!FilterProxyからの成果-----------------------------------------------------------------
+!# FilterProxy's setting text
+||.adsymptotic.com^
+||.amazon-adsystem.com^
+||.exoclick.com^
+||.fbcdn.net^
+||.fivecdm.com^
+||.ipinyou.com^
+||.kxcdn.com^
+||.outbrain.com^
+||.popin.cc^
+||.remerge.io^
+||.uncn.jp^
+||.zucks.net.zimg.jp^
+!/counter/
+||aax-fe-sin.amazon-adsystem.com^
+||ad-arata.s3.amazonaws.com^
+||ad.ad-arata.com^
+||ad.ad-stir.com^
+||ad.ad-stir.com/ad
+||ad.appier.net^
+||ad.ca-conv.jp^
+||ad.caprofitx.adtdp.com^
+||ad.doubleclick.net^
+||ad.pr.ameba.jp^
+||adimp.excite.co.jp^
+||adm.shinobi.jp^
+||adntokyo.gunosy.com/adn/web/impression
+||ads.mopub.com/m/ad
+||ads.nicovideo.jp^
+||adsafeprotected.com^
+||adservice.google.co.jp^
+||adt.measure.ameblo.jp^
+||affiliate
+||aladdin.genieesspv.jp/yie/ld/jsk
+||amoad.com^
+||ap.tapone.jp^
+||arm.c.appier.net/arm
+||banner.dspcdn.com^
+||beacon.watch.impress.co.jp/measure
+||bs.serving-sys.com^
+||build-cdn.liftoff.io^
+||cd.ladsp.com^
+||cdn.liftoff.io^
+||coinhive.com^
+||cs.adingo.jp^
+||discoveryplus.popin.cc^
+||dsp.send.microad.jp^
+||fls-fe.amazon.co.jp^
+||fms.ipinyou.com^
+||geo.moatads.com^
+||goldspotmedia^
+||googleads.g.doubleclick.net^
+||graph.facebook.com^
+||haggler-supership001-ap-ne1-ec2.liftoff.io^
+||iasds01.com^
+||ib.adnxs.com^
+||img.applovin.com^
+||imp.amanad.adtdp.com^
+||inrecsys.popin.cc/PopinService/Logs/other
+||js.mtburn.com/advs-instream.js
+||microad.net^
+||nend.net^
+||ocsp.digicert.com^
+||oscar2.rtb.appier.net^
+||pagead#.googlesyndication.com/
+||passaro-de-fogo.genieesspv.jp^
+||pc.watch.impress.co.jp/include/auto/pcw/page_components/recommend.utf
+||pc.watch.impress.co.jp/include/auto/watch/page_components/special-sites.utf
+||penta.a.one.impact-ad.jp/combo
+||prod-a.applovin.com^
+||pubads.g.doubleclick.net^
+||r.popin.cc^
+||reports.radiotime.com^
+||res1.applovin.com^
+||rlog.popin.cc^
+||settings.crashlytics.com^
+||sgbid.prod.sift.co^
+||sh.adingo.jp^
+||sift-campaign-creatives.s3.amazonaws.com^
+||smartads.mobile.yahoo.co.jp^
+||socdm.com^
+||sp.gmossp-sp.jp/ads/loader.js
+||spad.i-mobile.co.jp^
+||spad.i-mobile.co.jp^
+||static.zucks.net.zimg.jp
+||tapone.jp^
+||tpc.googlesyndication.com^
+||translate.google.com/translate_a/element.js
+||txn.ingest.crittercism.com^
+||uncn.jp^
+||vt.ipinyou.com^
+||widgets.getpocket.com^
+||www.googleadservices.com^
+||www.gstatic.com^
+||yads.c.yimg.jp^
+||yads.yahoo.co.jp^
+||yt3.ggpht.com^
+!END--------------------------------------------------------------
 
 ! END
