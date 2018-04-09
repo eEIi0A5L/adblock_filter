@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 06 Apr 2018 12:00 JST
+! Last modified: 10 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -31,6 +31,21 @@
 ||amazon-adsystem.com^
 
 !END------------
+!共通
+!ポップアップブロックSTART----------------------------------------
+!下記のフィルタ
+!http://cochi8to.nyanta.jp/nik/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=4.5.14
+/itro-scripts.js\?ver=[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2}$/
+!下記のフィルタ
+!||kasegou.link/wp-content/themes/sp_shenron/js/modalConfirm.js
+/js/modalConfirm.js|
+!下記のフィルタ
+!http://www.amihna.com/wp/wp-content/plugins/uji-popup/js/popups.js?ver=1.1
+!http://www.amihna.com/wp/wp-content/plugins/uji-popup/modal/jquery.modal.min.js?ver=0.5.5
+/js/popups.js\?ver=[0-9]{1,2}\.[0-9]{1,2}$/
+/modal/jquery.modal.min.js\?ver=[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2}$/
+!END-----------------------------------------------------------------
+
 
 
 !痛いニュース
@@ -168,13 +183,14 @@ matome-plus.net##a[href^="http://www.amazon.co.jp"]
 ||ecx.images-amazon.com/images/$domain=gehasoku.com
 
 !トレンドニュース速報
-||our-trend.com/wp-content/plugins/uji-popup/js/popups.js?
+!||our-trend.com/wp-content/plugins/uji-popup/js/popups.js?
 ||meerkat.jarodtaylor.com/download/jquery.meerkat.1.3.min.js
 
 !はちま起稿
 ||images-fe.ssl-images-amazon.com/images/$domain=blog.esuteru.com
 ||ecx.images-amazon.com/images/$domain=blog.esuteru.com
 blog.esuteru.com##.amazlet-box
+blog.esuteru.com##a[href^="http://rcv.ixd.dmm.com/api/surl?urid="]
 
 !ねぎ速
 ||pc.clickmedias.info/js/ad.js
@@ -527,6 +543,26 @@ squallchannel.com##.google-2ad-m
 squallchannel.com##iframe[src="http://squallchannel.doorblog.jp/RSSbottom.html"]
 squallchannel.com##.article-body-more > div[style="background-color: white; padding: 5px; margin: 5px; line-height: 1.9; border: 1px solid rgb(105, 105, 105);"]
 
+!http://kurumachannel.com/
+kurumachannel.com##.google-2ad-h
+kurumachannel.com##.google-2ad-m
+kurumachannel.com##.google-2ad-b
+
+!http://blog.livedoor.jp/akbip/
+blog.livedoor.jp###center-ad
+
+!大炎上 http://daienjo.blog.jp/
+||a-ads.com^
+
+!smtkagi-t.com
+||wp.com/asp.crypto-click.com/
+||asp.crypto-click.com^$third-party
+||wp.com/bitflyer.jp/Images/Affiliate/
+||wp.com/coincheck.com/images/affiliates/
+
+!coinmatome
+||livedoor.blogimg.jp/coinmatome/imgs/0/d/0d32432c.jpg
+
 
 
 !声優まとめ--------------------------------------------------------------------
@@ -665,13 +701,13 @@ llabtooflatot.blog102.fc2.com##center:if(> ins.adsbygoogle)
 
 !coco
 !トップページを開いてすぐ表示される全面広告
-matchwarai.net##^#itro_popup
-matchwarai.net##^#itro_opaco
+!matchwarai.net##^#itro_popup
+!matchwarai.net##^#itro_opaco
 
 !季節ch
 !トップページを開いてすぐ表示される全面広告
-gowisdom.spawn.jp##^#itro_popup
-gowisdom.spawn.jp##^#itro_opaco
+!gowisdom.spawn.jp##^#itro_popup
+!gowisdom.spawn.jp##^#itro_opaco
 
 !あたたアンテナ
 !アダルトバナー
@@ -689,14 +725,14 @@ gowisdom.spawn.jp##^#itro_opaco
 !pinkまとめんばー
 !deaiman.net##^.modal
 !http://deaiman.net/wp/wp-content/themes/houou/css/modal.css
-||deaiman.net/wp/wp-content/themes/houou/js/modalConfirm.js
+!||deaiman.net/wp/wp-content/themes/houou/js/modalConfirm.js
 
 !http://bitcoin-oshiete.com/?p=54139
 !wp.comはpopin,taboole系なのでブロックするのはやめた
 !||i0.wp.com^
 !||pixel.wp.com^
 !||wp.com^
-||bitcoin-oshiete.com/wp-content/themes/monoreap/js/modalConfirm.js
+!||bitcoin-oshiete.com/wp-content/themes/monoreap/js/modalConfirm.js
 
 !あんてか
 ||ecx.images-amazon.com/images/$domain=anteka.info
@@ -730,27 +766,28 @@ infotakusan.net##[href^="http://www.infotop.jp/click.php"]
 
 !http://pyonsacoon.thyme.jp
 !トップページを開いてすぐ表示される全面広告
-pyonsacoon.thyme.jp##^#itro_popup
-pyonsacoon.thyme.jp##^#itro_opaco
+!pyonsacoon.thyme.jp##^#itro_popup
+!pyonsacoon.thyme.jp##^#itro_opaco
 
 !http://guitar.plovdivtv.com
 guitar.plovdivtv.com##^.modal
-||guitar.plovdivtv.com/wp-content/themes/sp_shenron/js/modalConfirm.js
+!||guitar.plovdivtv.com/wp-content/themes/sp_shenron/js/modalConfirm.js
 
 !http://tamacoco.mokuren.ne.jp
-||tamacoco.mokuren.ne.jp/ucha/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=
+!||tamacoco.mokuren.ne.jp/ucha/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=
 
 !http://kavchanvv.topaz.ne.jp
-||kavchanvv.topaz.ne.jp/juaeo/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=
+!||kavchanvv.topaz.ne.jp/juaeo/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=
 
 !http://fusigiisekai.com
-||fusigiisekai.com/wp-content/themes/sp_shenron/js/modalConfirm.js
+!||fusigiisekai.com/wp-content/themes/sp_shenron/js/modalConfirm.js
 !||fusigiisekai.com^$popup
 !||fusigiisekai.com^$popunder
 ||skijump-db.net^$popup
+||fusigiisekai.com^$inline-script
 
 !http://cochi8to.nyanta.jp
-||cochi8to.nyanta.jp/taki/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=
+!||cochi8to.nyanta.jp/taki/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=
 
 !http://cabonews.cabochanews.com
 ||banners.host.bannerflow.com^
@@ -767,7 +804,7 @@ guitar.plovdivtv.com##^.modal
 ||extra-other.com^
 
 !http://lifecocom.net
-||lifecocom.net/maito/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=
+!||lifecocom.net/maito/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=
 
 !http://yamahiro-invest.com
 !||i1.wp.com/www.infotop.jp/img/banner1_71359.jpg
@@ -781,13 +818,93 @@ guitar.plovdivtv.com##^.modal
 ||www.kaiseki-website.com/getstats.php
 
 !http://kavchanvv.topaz.ne.jp/fhlwe/
-http://kavchanvv.topaz.ne.jp/fhlwe/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=
+!http://kavchanvv.topaz.ne.jp/fhlwe/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=
 
 !http://blues.plovdivtv.com/
-||blues.plovdivtv.com/wp-content/themes/sp_shenron/js/modalConfirm.js
+!||blues.plovdivtv.com/wp-content/themes/sp_shenron/js/modalConfirm.js
 
+!http://amihna.com/
+!||www.amihna.com/wp/wp-content/plugins/uji-popup/js/popups.js
 
-!---------------------------------------------------------------------------------------
+!http://saikouresw.halfmoon.jp
+!||saikouresw.halfmoon.jp/toe2z/wp-content/plugins/itro-popup/scripts/itro-scripts.js
+
+!http://zet22wint.rdy.jp
+!||zet22wint.rdy.jp/wcka/wp-content/plugins/itro-popup/scripts/itro-scripts.js
+
+!http://mdrmbk.xsrv.jp
+||wp.com/pics.dmm.com/af/
+||wp.com/www.infotop.jp/img/banner1_
+||wp.com/pcmax.jp/image/affiliate/
+||img.happymail.co.jp/img/
+||wp.com/blog.with2.net/img/banner/
+
+!http://hikiyosehiroba.com
+||coincheck.com/images/affiliates/
+
+!http://kavchanvv.topaz.ne.jp
+!||kavchanvv.topaz.ne.jp/naon/wp-content/plugins/itro-popup/scripts/itro-scripts.js
+
+!http://夢のビットコイン.club
+||wp.com/www.image-rentracks.com/
+||wp.com/we-are-games.com/
+
+!http://ziohopcc.crap.jp/
+!||ziohopcc.crap.jp/prk0kf/wp-content/plugins/itro-popup/scripts/itro-scripts.js
+
+!http://choneta.xyz
+!||choneta.xyz/wp-content/plugins/uji-popup-pro/js/popups.js
+!||choneta.xyz/wp-content/plugins/uji-popup-pro/modal/jquery.modal.js
+
+!http://lifecocom.net/
+!||lifecocom.net/iin/wp-content/plugins/itro-popup/scripts/itro-scripts.js
+
+!http://iihana0co.websozai.jp
+!||iihana0co.websozai.jp/zzxd/wp-content/plugins/itro-popup/scripts/itro-scripts.js
+
+!http://kavchanvv.topaz.ne.jp
+!||kavchanvv.topaz.ne.jp/zh7l/wp-content/plugins/itro-popup/scripts/itro-scripts.js
+
+!http://meeto.cs81.link
+meeto.cs81.link##div[id^="_ad_"]
+
+!http://olympictokyo2020.jpn.com
+!||olympictokyo2020.jpn.com/wp-content/themes/sp_shenron/js/modalConfirm.js
+
+!http://labo.tv/2chnews/
+||ec2.images-amazon.com/images/$domain=labo.tv
+
+!http://lifecocom.net/omjo
+!||lifecocom.net/omjo/wp-content/plugins/itro-popup/scripts/itro-scripts.js
+
+!http://kasegou.link
+!||kasegou.link/wp-content/themes/sp_shenron/js/modalConfirm.js
+
+!http://cochi8to.nyanta.jp
+!http://cochi8to.nyanta.jp/nik/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=4.5.14
+!||cochi8to.nyanta.jp/nik/wp-content/plugins/itro-popup/scripts/itro-scripts.js
+
+!olympictokyo2020.jpn.com
+!||2020tokyoolympic.jpn.com^$popup
+!||ninexengine.com^$popup
+||olympictokyo2020.jpn.com^$inline-script
+
+!http://azuhiro.futoka.jp
+!||azuhiro.futoka.jp/wp-content/themes/houou/js/modalConfirm.js
+||affil.jp^
+||wp.com/www.infotop.jp/
+
+!http://blues.plovdivtv.com
+!||japangoo.red^$popup
+||blues.plovdivtv.com^$inline-script
+
+!akb.48and46.info
+!https://akb.48and46.info/wp-content/plugins/uji-popup-pro/js/popups.js?ver=1.1
+
+!http://luyuan-sp.com/?p=119342
+||luyuan-sp.com^$inline-script
+
+!END二次------------------------------------------------------------------------------
 
 
 

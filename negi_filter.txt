@@ -66,6 +66,10 @@ google.co.jp##div[aria-label="promo"]
 www.google.co.jp##.pdp-psy
 !"Looking for results in English? 引き続き日本語を使用"
 www.google.co.jp###sbfrm_l + div
+!「他の人はこちらも検索」を消す
+!www.google.com##div[jsl][data-ved]:if(h4:has-text(People also search for))
+!www.google.co.jp##div[jsl][data-ved]:if(h4:has-text(他の人はこちらも検索))
+!www.google.com,www.google.co.jp##.exp-outline
 
 !weblio
 weblio.jp###footFixBar

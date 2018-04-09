@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 06 Apr 2018 12:00 JST
+! Last modified: 10 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -200,6 +200,7 @@ itest.5ch.net##.ad
 itest.5ch.net###res_ad
 itest.5ch.net##.sproutad_frame
 ||itest.5ch.net/assets/img/ronin_premium_640x100.png
+itest.5ch.net###js-header-320x50
 
 !5ch
 itest.5ch.net##.js-ads-content-top_news
@@ -627,6 +628,26 @@ techon.nikkeibp.co.jp##.article-bottom-actions
 
 !日経TECH
 tech.nikkeibp.co.jp##.footer_nav
+
+!ユルクヤル http://yurukuyaru.com
+!||images-fe.ssl-images-amazon.com/images/$domain=yurukuyaru.com
+yurukuyaru.com###article-contents > table[style="text-align:left;margin-left:0;margin-right:0;"]
+
+
+
+!週刊実話 wjn.jp
+||wjn.jp/images/advertisement/
+||count.oct-pass.net/gw/viewable_adunit_imp
+||static.oct-pass.net^
+||img.oct-pass.net^
+wjn.jp##.ad320x100
+wjn.jp##div[class^="Oct-pass_ad_"]
+wjn.jp##.ad300x250
+wjn.jp##.ad_button
+
+!東京グラフィティ
+tokyograffiti.grfft.jp##.fixbtn
+
 
 !cnn.co.jp
 ||www.cnn.co.jp/media/cnn/images/mini/ad_bg.png
@@ -1251,8 +1272,11 @@ kinisuru.com##.a2a_floating_style
 ||reports.radiotime.com^
 ||ad.doubleclick.net^
 ! END-----------------------------
-!FilterProxyからの成果-----------------------------------------------------------------
+!FilterProxyからの成果----------------------------------------------------
 !# FilterProxy's setting text
+||app-measurement.com^
+||yt.moatads.com^
+||ad.appier.net^
 ||.adsymptotic.com^
 ||.amazon-adsystem.com^
 ||.exoclick.com^
