@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 10 Apr 2018 12:00 JST
+! Last modified: 16 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -776,6 +776,7 @@ www.daily.co.jp##.adv
 myjitsu.jp##.sp-single-below-sns-buttons
 myjitsu.jp##ifram[data-kiosked-adframe]
 myjitsu.jp##div[id^="kskdk_"]
+myjitsu.jp##.ad-header-box
 
 
 !したらば
@@ -905,6 +906,11 @@ techcrunch.com##.header-ad
 
 !engadget.com
 engadget.com###stcky-footer
+||a01.korrelate.net/a/e/d2us.ads
+||uip.semasio.net/adaptv
+||advertising.com^
+||aolcdn.com/ads/
+japanese.engadget.com###ldrBoardAd
 
 !jbpress.ismedia.jp
 ||b10.nakanohito.jp^
@@ -1274,6 +1280,7 @@ kinisuru.com##.a2a_floating_style
 ! END-----------------------------
 !FilterProxyからの成果----------------------------------------------------
 !# FilterProxy's setting text
+||tag.ladsp.com^
 ||app-measurement.com^
 ||yt.moatads.com^
 ||ad.appier.net^

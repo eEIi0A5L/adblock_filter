@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 06 Apr 2018 12:00 JST
+! Last modified: 16 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -177,6 +177,8 @@ abcnews.go.com##.ad-wrapper
 ||stats.pusher.com^
 ||merlin.abc.go.com^
 ||www.googleadservices.com^
+||s.abcnews.com/assets/js/prebid.min.js
+abcnews.go.com##.ad_300
 
 !afp
 www.afpbb.com##aside.ad
@@ -350,6 +352,10 @@ mail.yahoo.com##li[data-test-id="infinite-scroll-AD"]
 !mail.yahoo.com###main:style(max-width: 2560px !important;)
 ||s.yimg.com/rx/builds/*/iframe-controller-page.html$domain=mail.yahoo.com
 mail.yahoo.com##div[data-test-id="video-container"]
+
+!ZDnet Japan
+japan.zdnet.com##.ad_container
+||japan.zdnet.com/parts/frame/ad_tieup_control_sp.htm
 
 !モカ
 moca-news.net###container-child > div[align="center"] > div > img

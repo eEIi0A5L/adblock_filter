@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 10 Apr 2018 12:00 JST
+! Last modified: 16 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -563,6 +563,23 @@ blog.livedoor.jp###center-ad
 !coinmatome
 ||livedoor.blogimg.jp/coinmatome/imgs/0/d/0d32432c.jpg
 
+!ダメージ０
+damage0.com##.rsswaku7waku
+
+!GOSSIP速報（ゴシップ速報）
+gossip1.net##div[style="padding: 5px; border-radius: 5px; margin: 5px; border: 1px dashed rgb(105, 105, 105); background-color: rgb(255, 255, 255); text-indent: 0px;"]
+
+!http://momokuroz.2chblog.jp
+momokuroz.2chblog.jp##div[id^="_tangan_"]
+
+!アニはつ -アニメ発信場 http://anihatsu.com
+anihatsu.com##.pickup-link
+
+!非常識＠なんJ http://absurd.blogo.jp
+absurd.blogo.jp##.headlinerss:if(iframe[src="http://absurd.blogo.jp/imghl0.html"])
+absurd.blogo.jp##.rss13
+absurd.blogo.jp##.google-2ad
+
 
 
 !声優まとめ--------------------------------------------------------------------
@@ -904,6 +921,14 @@ meeto.cs81.link##div[id^="_ad_"]
 !http://luyuan-sp.com/?p=119342
 ||luyuan-sp.com^$inline-script
 
+!animan.neta.tokyo
+||animan.neta.tokyo^$inline-script
+
+!http://matomesite.work/
+||wp.com/matomesite.work/
+
+!http://2020tokyoolympic.jpn.com
+||2020tokyoolympic.jpn.com^$inline-script
 !END二次------------------------------------------------------------------------------
 
 

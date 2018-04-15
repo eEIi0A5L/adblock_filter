@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ことりフィルタ（SNSボタンブロック）
-! Last modified: 12 Mar 2018 12:00 JST
+! Last modified: 16 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/kotori.html
 ! 
@@ -45,7 +45,9 @@
 
 !google+の数字をブロック
 ||apis.google.com/js/platform.js$third-party
-||apis.google.com/js/plusone.js
+!下記をブロックしていると下記で画像が表示されない2018.4.16
+!https://abcnews.go.com/Lifestyle/photos/photos-amazing-animals-8537483/image-rare-white-moose-spotted-sweden-49213587?cid=social_twitter_gma
+!||apis.google.com/js/plusone.js
 
 !line
 /iineButton-$domain=ameblo.jp
