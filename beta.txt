@@ -14,18 +14,18 @@
 !END------------------------------------------------------------------------
 
 !if文--------------------------------------------------------------------------
-abema.tv#@#:xpath(//p[contains(text(), "お使いのブラウザは推奨環境")]/parent::div/parent::div)
+
 !#if ext_firefox
 abema.tv##:xpath(//p[contains(text(), "お使いのブラウザは推奨環境")]/parent::div/parent::div)
 !#endif
 
-www.youtube.com#@##ticker-content
+
 !#if !ext_chromium
 !Youtubeに最初にアクセスしたときに上部に出る「Chromeでアクセスしますか？」のチッカー
 www.youtube.com###ticker-content
 !#endif
 
-microsoft.com#@##epb
+
 !#if !ext_edge
 !Edge Promotion Block。マイクロソフトのサイト上部に出てくる「Try Edge」の文言
 microsoft.com###epb
