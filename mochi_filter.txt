@@ -829,6 +829,8 @@ web.fc2.com###fc2_ad_box
 fc2.com###sh_fc2blogheadbar_link_box
 !↓これは誤爆の可能性があるのでコメント化
 !||ecx.images-amazon.com/images/$domain=fc2.com
+!一か月広告
+fc2.com##.entry_table:has(iframe)
 
 !はてな
 www.hatena.ne.jp###pc-billboard-ad

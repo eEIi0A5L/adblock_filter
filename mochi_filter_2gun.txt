@@ -580,6 +580,35 @@ absurd.blogo.jp##.headlinerss:if(iframe[src="http://absurd.blogo.jp/imghl0.html"
 absurd.blogo.jp##.rss13
 absurd.blogo.jp##.google-2ad
 
+!http://exawarosu.net
+exawarosu.net##.article-body-after > iframe
+exawarosu.net##.article-body-after > a
+exawarosu.net##.ad-list
+exawarosu.net##.article-body > .rss
+!||nxcount.com/AdImpression/JEzYFhyJ/
+||nxcount.com^
+
+!http://nnews1.com/
+nnews1.com##.article-single .blogroll-channel
+
+!http://vipsister23.com
+vipsister23.com##.entry-body > blockquote
+
+!http://nadarenews.com
+nadarenews.com###more > blockquote
+nadarenews.com###more > b
+nadarenews.com###more > a
+
+!http://aramame.net/
+aramame.net##.article-body-middle
+||images-fe.ssl-images-amazon.com/images/$domain=aramame.net
+
+!http://akbakb0048.doorblog.jp
+akbakb0048.doorblog.jp###more a
+akbakb0048.doorblog.jp###more b > a + br
+akbakb0048.doorblog.jp###more b > a + br + br
+akbakb0048.doorblog.jp###blog-header01
+
 
 
 !声優まとめ--------------------------------------------------------------------
@@ -929,6 +958,18 @@ meeto.cs81.link##div[id^="_ad_"]
 
 !http://2020tokyoolympic.jpn.com
 ||2020tokyoolympic.jpn.com^$inline-script
+
+!http://sedori.space
+sedori.space##.su-animate
+||sedori.space^$popup
+||sedori.space^$inline-script
+
+!http://matchwarai.net
+matchwarai.net###kes
+matchwarai.net##div[style="float:none;margin:10px 0 10px 0;text-align:center;"]
+
+!http://ghdnewzealandshopc.com
+||img.mobee2.jp^$third-party
 !END二次------------------------------------------------------------------------------
 
 
@@ -999,6 +1040,7 @@ adSystem$domain=tv.naver.com
 pappins.tokyo###gn_interstitial_area
 !右クリック、文字列選択を動作させるためにインラインスクリプトを動かないようにする
 ||pappins.tokyo$inline-script
+pappins.tokyo##script:inject(abort-on-property-write.js, disableSelection)
 
 !全力疾走
 ||zucks.net.zimg.jp^
@@ -1081,6 +1123,14 @@ sports.khan.co.kr###scrollDiv
 ||sunnyworks.co.kr/data/sw*.html^$domain=www.nocutnews.co.kr
 ||livere.co.kr^
 ||compass.adop.cc/rd/
+
+!KStyle
+||static.kstyle.com/kstyle/js/nj.kNews.ad.googlead_
+!広告が抜けた後の空欄
+news.kstyle.com##div[style="display:block; width:640px; padding:0; height:253px;"]
+
+!wowkorea
+www.wowkorea.jp##div[style="width:300px;height:250px;"]
 
 
 
