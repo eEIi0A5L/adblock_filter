@@ -99,7 +99,8 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 
 !https://www3.nhk.or.jp/news/html/20171216/k10011261091000.html?utm_int=news_contents_news-main_001が見れない
 !http://egg.5ch.net/test/read.cgi/software/1510382303/676
-@@||analytics.edgekey.net/html5/akamaihtml5-min.js$script,domain=nhk.or.jp
+!→直った
+!@@||analytics.edgekey.net/html5/akamaihtml5-min.js$script,domain=nhk.or.jp
 
 !http://www6.nhk.or.jp/nhkpr/post/trailer.html?i=12747が見れない
 !http://egg.5ch.net/test/read.cgi/software/1510382303/684

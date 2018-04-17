@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 16 Apr 2018 12:00 JST
+! Last modified: 17 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -60,7 +60,8 @@ www.youtube.com##.iv-promo
 
 !Google
 !google, githubで検索すると広告が表示される
-www.google.co.jp###taw
+!→Google画像検索で上部のタグが表示されない
+!www.google.co.jp###taw
 www.google.co.jp##:xpath(//div[@id="tads"]/parent::div/parent::div)
 www.google.co.jp###bottomads
 !下に書いてある

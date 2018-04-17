@@ -609,6 +609,14 @@ akbakb0048.doorblog.jp###more b > a + br
 akbakb0048.doorblog.jp###more b > a + br + br
 akbakb0048.doorblog.jp###blog-header01
 
+!http://nogizaka46matome.2chblog.jp
+nogizaka46matome.2chblog.jp###if_02
+nogizaka46matome.2chblog.jp###if_04
+nogizaka46matome.2chblog.jp##.article-body iframe[src="http://nogizaka46matome.2chblog.jp/rssa.html"]
+
+!http://nomusoku.blomaga.jp
+nomusoku.blomaga.jp##.set100x
+
 
 
 !声優まとめ--------------------------------------------------------------------
