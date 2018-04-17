@@ -191,6 +191,8 @@ matome-plus.net##a[href^="http://www.amazon.co.jp"]
 ||ecx.images-amazon.com/images/$domain=blog.esuteru.com
 blog.esuteru.com##.amazlet-box
 blog.esuteru.com##a[href^="http://rcv.ixd.dmm.com/api/surl?urid="]
+blog.esuteru.com###g_floating_area1
+blog.esuteru.com###g_floating_area2
 
 !ねぎ速
 ||pc.clickmedias.info/js/ad.js
