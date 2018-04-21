@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: 27 Mar 2018 12:00 JST
+! Last modified: 20 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/fix.html
 ! 
@@ -51,7 +51,8 @@
 !@@_campaign=$document
 
 !malwarelistに入っている
-@@||navitime.co.jp^
+!→直った
+!@@||navitime.co.jp^
 
 !twitchでカウントが増え続ける問題の解法
 @@||sb.scorecardresearch.com/p?$image,domain=twitch.tv

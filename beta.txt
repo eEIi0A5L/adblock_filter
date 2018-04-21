@@ -15,24 +15,6 @@
 !<a style="cursor:pointer;" href="http://www.amazon.co.jp/dp/B00BBVVJM0/ref=nosim/?tag=nicovideo07_st1-22&amp;creative=380333&amp;creativeASIN=B00BBVVJM0&amp;linkCode=asn&amp;ascsubtag=7_vi_B00BBVVJM0_sm32874272_XDWkp1D2Aks]_1522686168_18be2e" 
 !END------------------------------------------------------------------------
 
-!if文--------------------------------------------------------------------------
 
-!#if ext_firefox
-abema.tv##:xpath(//p[contains(text(), "お使いのブラウザは推奨環境")]/parent::div/parent::div)
-!#endif
-
-
-!#if !ext_chromium
-!Youtubeに最初にアクセスしたときに上部に出る「Chromeでアクセスしますか？」のチッカー
-www.youtube.com###ticker-content
-!#endif
-
-
-!#if !ext_edge
-!Edge Promotion Block。マイクロソフトのサイト上部に出てくる「Try Edge」の文言
-microsoft.com###epb
-!#endif
-
-!END-----------------------------------------------------------------------
 
 !END
