@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 16 Apr 2018 12:00 JST
+! Last modified: 27 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -143,6 +143,20 @@ cnn.com##.m-share
 ||edition.i.cdn.cnn.com/.a/2.69.0/js/cnn-analytics.min.js
 ||static.ads-twitter.com^
 ||cdn.adsafeprotected.com^
+!cnn.com
+||adyield.co^
+||ad-srv.co^
+||mnet-ad.net^
+!//になっているが間違いではない
+||ssl.cdn.turner.com//ads/
+!下記をブロックすると動画が見れなくなる
+!https://edition.cnn.com/2018/04/24/politics/melania-trump-white-house/index.html
+!||cdn.cnn.com/analytics/cnnexpan/jsmd.min.js
+/js/cnn-analytics.min.js|
+||js-sec.indexww.com^
+||contextual.media.net^
+||tag.bounceexchange.com^
+
 
 !FoxNews
 ||global.fncstatic.com/static/v/all/js/ads.js
@@ -559,6 +573,10 @@ www.urbandictionary.com##.ad-panel
 www.urbandictionary.com##.dfp
 ||d2gatte9o95jao.cloudfront.net/assets/mug-ad-
 www.urbandictionary.com##.new-mug-ad
+www.urbandictionary.com##div[data-ad-slot]
+
+!PCmag
+||pcmag.com/core/ad-block
 
 !AOL
 mail.aol.com,www.aol.com,www.aol.jp##.topAd
@@ -638,6 +656,12 @@ mag.osdn.jp###div-gpt-osdn_mag_rec
 
 !電撃APP
 dengekionline.com###banner_rectangle_1
+
+!NaviTime
+!→下記で空白が消えない。謎。
+!www.navitime.co.jp##div[id^="div-gpt-ad-"]
+!www.navitime.co.jp###757860
+!www.navitime.co.jp##a[href="https://www.navitime.co.jp/ad/?from=about_ad_link"]
 
 
 

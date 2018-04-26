@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 16 Apr 2018 12:00 JST
+! Last modified: 27 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -49,6 +49,7 @@
 
 
 !痛いニュース
+!http://blog.livedoor.jp/dqnplus/
 ||blog.livedoor.jp/dqnplus/settings/ad.js
 ||amaprop.net/js/amazon-ranking-app-2.js
 blog.livedoor.jp##a[href^="http://www.amazon.co.jp/exec/"]
@@ -57,6 +58,7 @@ blog.livedoor.jp##.amazlet-box
 
 
 !アルファモザイク
+!http://alfalfalfa.com
 ||cse.google.com/adsense/search/async-ads.js
 ||blogmaterial.nicoblomaga.jp/material/279/bromaga_AdTimer_PC.js
 ||blogmaterial.nicoblomaga.jp/material/279/PC_alfaad.js
@@ -68,6 +70,7 @@ alfalfalfa.com##.chumoku_article
 alfalfalfa.com##.main_article_footer_ads
 alfalfalfa.com##.ads_box
 alfalfalfa.com##.sponsored_in
+alfalfalfa.com###marqueeWrapper
 
 !ニュー速クオリティ
 ||js.blozoo.info/js/amatool/blogparts.js
@@ -114,6 +117,7 @@ news4vip.livedoor.biz##.google-2ad
 ||rec.x-lift.jp^
 
 !VIPPERな俺
+!http://blog.livedoor.jp/news23vip/
 ||blog.livedoor.jp/news23vip/js/advpo_pc.js
 ||blog.livedoor.jp/news23vip/settings/ad.js
 ||sync.adotmob.com^
@@ -137,6 +141,7 @@ yaraon-blog.com##.yon_ga_box
 ||nend.net^
 
 !IT速報
+!http://blog.livedoor.jp/itsoku/
 ||blog.livedoor.jp/itsoku/settings/ad.js
 
 !高身長女子速報
@@ -187,6 +192,9 @@ matome-plus.net##a[href^="http://www.amazon.co.jp"]
 ||meerkat.jarodtaylor.com/download/jquery.meerkat.1.3.min.js
 
 !はちま起稿
+!http://blog.esuteru.com
+||livedoor.4.blogimg.jp/hatima/imgs/d/d/dde8358b.jpg
+blog.esuteru.com##a[href="http://le.ujj.co.jp/"]
 ||images-fe.ssl-images-amazon.com/images/$domain=blog.esuteru.com
 ||ecx.images-amazon.com/images/$domain=blog.esuteru.com
 blog.esuteru.com##.amazlet-box
@@ -205,6 +213,7 @@ blog.esuteru.com###g_floating_area2
 ||kaz335b.sakura.ne.jp/banae/quickade.html
 
 !魔王ブログ
+!http://beelzeboulxxx.com
 ||share-videos.se/static/load.js
 ||rcm.shinobi.jp/r/
 ||adc02.media-rep.com/vi2.php?adId=
@@ -219,6 +228,10 @@ beelzeboulxxx.com##a[name="more"] + aside
 beelzeboulxxx.com##iframe[src="http://beelzeboulxxx.com/rss_html.html"]
 beelzeboulxxx.com##.maob_adbox
 ||49.212.219.243^
+beelzeboulxxx.com##.article-body-more > b
+beelzeboulxxx.com##.article-body-more > p
+beelzeboulxxx.com##.article-body-more > p + div
+beelzeboulxxx.com##.article-body-more > hr + div
 
 !ゲハを斬る
 ||static.fc2.com/js/blog/headbar_ad_rotate.js
@@ -271,6 +284,7 @@ kanasoku.info###headrank2
 ||images-fe.ssl-images-amazon.com/images/$domain=bipblog.com
 
 !無題のドキュメント
+!http://www.mudainodocument.com
 !||marticleimage.nicoblomaga.jp/$third-party,image
 www.mudainodocument.com##a[href="https://recott.me/about/"]
 ||images-na.ssl-images-amazon.com/images/$domain=www.mudainodocument.com
@@ -279,6 +293,7 @@ www.mudainodocument.com##.adset-Cover
 www.mudainodocument.com##a[href^="http://s.liveads.jp/cc.php"]
 www.mudainodocument.com##a[href^="https://s.liveads.jp/cc.php"]
 www.mudainodocument.com##a[href="https://recott.me/"]
+www.mudainodocument.com###marqueeWrapper
 
 !暇人速報
 himasoku.com##iframe[src="http://himasoku.com/ueko.htm"]
@@ -291,12 +306,15 @@ himasoku.com##iframe[src="http://himasoku.com/sitako.htm"]
 himasoku.com##a[href^="http://h.accesstrade.net/sp/cc?"]
 
 !ぶる速-VIP
+!http://burusoku-vip.com
 burusoku-vip.com##div[style="margin: 10px; padding: 10px; background: #fff8dc; border: 1px dashed #808080;"]
 burusoku-vip.com##div[id^="blogroll-"]
 burusoku-vip.com##.google-2ad
 ||cdn.rossoad.com/js/ads/loader_v1.js
 ||blog.seesaa.jp/js/insert-ad.min.js
 burusoku-vip.com##.google-adbox
+burusoku-vip.com##div[style="margin:10px; padding:10px; background:#fff8dc; border:1px dashed rgb(128, 128, 128);"]
+burusoku-vip.com##.google-2ad-m
 
 !【2ch】コピペ情報局
 news.2chblog.jp##table[width="750"][height="320"][align="center"]
@@ -322,6 +340,7 @@ majikichi.com###left_menu
 majikichi.com##a[href^="http://www.dlsite.com/"]
 
 !キニ速
+!http://blog.livedoor.jp/kinisoku/
 ||js.kau.li/yad.js
 ||blog.livedoor.jp/kinisoku/adroute1.html
 
@@ -333,11 +352,18 @@ chaos2ch.com##a[href^="http://www.amazon.co.jp/exec/"]
 www.watch2chan.com##.ama_emphasize-link
 
 !ブラブラブラウジング
+!http://brow2ing.doorblog.jp
 ||dtscout.rtb.adx1.com^
 ||p.multiquicks.net/js/mad.js
 brow2ing.doorblog.jp##div[style="padding: 18px; margin-left: 16px; margin-right: 16px; border: 2px solid rgb(240, 196, 15); line-height: 1.42; font-size: 15px; background: rgb(255, 255, 240);"]
 brow2ing.doorblog.jp##blockquote[class="copy"]
 brow2ing.doorblog.jp##div[style="padding: 18px; line-height: 1.42; background: rgb(255, 255, 240); margin-left: 13px; margin-right: 13px; border: 1px solid rgb(240, 196, 15);"]
+!brow2ing.doorblog.jp##.article_contents a
+!brow2ing.doorblog.jp##.article_contents div[style="font-size: 15px"] > a[href^="http://erogiffile.jp/archives/"]
+brow2ing.doorblog.jp##.article_contents div[style="font-size: 15px"] > a
+||amung.us^
+||get35.com^
+||dtscout.com^
 
 !げ～せわニュース速報！！
 ||pics.dmm.com/af/$domain=ge-sewa-news.blog.jp
@@ -367,12 +393,14 @@ netaatoz.jp##a[href^="http://www.amazon.co.jp/"]
 lifehack2ch.livedoor.biz##a[href^="http://www.amazon.co.jp/"]
 
 !チラ速
+!http://blog.livedoor.jp/nichmatomerunn/
 ||pics.dmm.com/digital/video/$domain=blog.livedoor.jp
 blog.livedoor.jp##a[href^="http://www.dmm.com/"]
 blog.livedoor.jp##a[href^="http://www.amazon.co.jp/"]
 blog.livedoor.jp##a[href^="https://www.amazon.co.jp/"]
 
 !ニコニコVIP2ch
+!http://blog.livedoor.jp/nicovip2ch/
 ||ad-feed.com^
 ||ad-management.biz^
 ||blog.livedoor.jp/nicovip2ch/ad_ran
@@ -382,9 +410,11 @@ blog.livedoor.jp##.entry_box101
 blog.livedoor.jp##.entry_box102
 ||namekuji.jp^
 ||rankc1.apserver.net^
-
+||next-channel.xyz^
+||blogroll.livedoor.net/img/blank.gif
 
 !芸能人ニュース速報
+!http://blog.livedoor.jp/sky_wing2010-geinou
 blog.livedoor.jp##.main-container-ads
 ||livedoor.blogimg.jp/sky_wing2010-geinou/imgs/7/2/72d3165a.png
 blog.livedoor.jp##iframe[src^="http://api.unthem.com/cast?zname="]
@@ -402,6 +432,7 @@ news4wide.livedoor.biz###niee
 ||www.samuraiclick.com^
 
 !なんじぇいスタジアム
+!http://blog.livedoor.jp/nanjstu/
 blog.livedoor.jp##.article-body-more > blockquote:has-text(1000 ：)
 
 !ポケモンGOまとめ最速速報！！
@@ -445,12 +476,20 @@ blog.livedoor.jp##.article-body-more > blockquote:has-text(1000 ：)
 
 
 !コイン速報
+!http://blog.livedoor.jp/kumokumowatawata/
 ||j-a-net.jp^
 ||with2.net^
 ||d2p8taqyjofgrq.cloudfront.net^
 ||fx-on.com^$third-party
 ||gogojungle.co.jp^
 !blog.livedoor.jp##.article-body-more > a
+blog.livedoor.jp##.article-body-more > a
+blog.livedoor.jp##.article-body-more > br
+!blog.livedoor.jp##.article-body-more > span
+blog.livedoor.jp##.article-body-more > br + span[style^="font-size: 16px; background-color: transparent; background-attachment: scroll;"]
+blog.livedoor.jp##.article-body-more > br + span[style^="font-size: 16px; background-image: none; margin: 0px; padding: 0px; font-variant-ligatures: normal;"]
+||livedoor.blogimg.jp/kumokumowatawata/imgs/2/2/224b4057-s.png
+blog.livedoor.jp##a[href="https://www.pitaco.in/"]
 
 !ちまたの話題を覗きみ 
 ||www.2ch-mmsite.com^$script
@@ -478,6 +517,7 @@ monst-sokuhou.blog.jp##.google-2ad-bottom
 !monst-sokuhou.blog.jp##.article-body-more > .t_h:first-child
 
 !しゃこ速
+!http://blog.livedoor.jp/lol2/
 blog.livedoor.jp##.article-sub-category
 blog.livedoor.jp##.popularArticlesWithImage
 
@@ -496,6 +536,7 @@ www.akb48matomemory.com##.article_body_more > span
 ||query.yahooapis.com^$xmlhttprequest,domain=checkmate-blog.com
 
 !暇つぶしニュース
+!http://blog.livedoor.jp/rbkyn844/
 ||js.gsspcln.jp^
 ||cs.gssprt.jp^
 ||aladdin.genieesspv.jp^
@@ -544,12 +585,14 @@ squallchannel.com##.ad_space
 squallchannel.com##.google-2ad-m
 squallchannel.com##iframe[src="http://squallchannel.doorblog.jp/RSSbottom.html"]
 squallchannel.com##.article-body-more > div[style="background-color: white; padding: 5px; margin: 5px; line-height: 1.9; border: 1px solid rgb(105, 105, 105);"]
+||livedoor.blogimg.jp/girokerogirokero/imgs/7/0/7014be71.png
 
 !http://kurumachannel.com/
 kurumachannel.com##.google-2ad-h
 kurumachannel.com##.google-2ad-m
 kurumachannel.com##.google-2ad-b
 
+!AKBip!
 !http://blog.livedoor.jp/akbip/
 blog.livedoor.jp###center-ad
 
@@ -618,6 +661,135 @@ nogizaka46matome.2chblog.jp##.article-body iframe[src="http://nogizaka46matome.2
 
 !http://nomusoku.blomaga.jp
 nomusoku.blomaga.jp##.set100x
+
+!http://kenkomatomei.com
+kenkomatomei.com###quads-ad1
+
+!http://oversea2ch.com/
+oversea2ch.com###more > .blogroll-list-wrap
+
+
+
+!雑談野球
+!http://zatsudanbaseball.blog.jp/
+zatsudanbaseball.blog.jp###more .post2
+
+!地下帝国
+!http://chikakb.ldblog.jp
+chikakb.ldblog.jp##.post > .blogroll_main
+
+!今日速2ch
+!http://kyousoku.net
+kyousoku.net##.article-body-more > dl > a
+kyousoku.net##.article-body-more > dl > br
+
+
+!はれぞう
+!http://blog.livedoor.jp/darkm
+||image.livelog.biz/script/image/share/etc/wc/gif/300x250/0002.gif
+||image.livelog.biz/script/image/share/etc/wc/gif/300x250/0001.gif
+
+!芸能ニュース２ch報道
+!http://geinou2news.blog.fc2.com
+||makibishi.jp^
+||isboost.co.jp^
+||fukugan.com^
+||user.in.net/more.js
+||smartaccess.biz^
+||street-ft.info^
+||tynt.com^
+||whos.amung.us^
+geinou2news.blog.fc2.com##.ently_text > a
+geinou2news.blog.fc2.com##blockquote.copy
+geinou2news.blog.fc2.com##span[style="color: rgb(255, 0, 0);"]
+geinou2news.blog.fc2.com##div[style="font-size:19px;"] > a
+
+
+
+
+!阪神タイガースちゃんねる
+!http://hanshintigers1.blog.jp
+hanshintigers1.blog.jp##.rss-blogroll3
+
+!仮想通貨最新情報サイト
+!http://coinmatomesokuho.blog.jp
+coinmatomesokuho.blog.jp###article-rss
+
+
+!芸能｜スポーツニュースまとめ
+!http://khas.sakura.ne.jp
+khas.sakura.ne.jp##div:has(>dd)
+
+!芸能かめはめ波
+!http://geinoukame.blog.fc2.com
+geinoukame.blog.fc2.com##.article > b > font
+geinoukame.blog.fc2.com##.article > div[style="border-style: solid ; border-width: 1px; padding: 3px 1px 1px 1px; border-color: white; color: green; background-color: white; width: 822px;height:330px;overflow: hidden;"]
+geinoukame.blog.fc2.com##div[id^="blz_lock"]
+
+
+!ガールズVIPまとめ
+!http://girlsvip-matome.com
+girlsvip-matome.com##.article-body-more > .google-user-ad
+girlsvip-matome.com##.article-body-more > .kotei_link
+
+!mashlife通信
+!http://mashlife.doorblog.jp
+mashlife.doorblog.jp##.koteigazo2
+mashlife.doorblog.jp##.article-body-inner .blogroll-wrapper3
+mashlife.doorblog.jp##.article-body-inner > br
+
+!仮想通貨の時間ですよ！
+!https://coin-time.com
+||wp.com/coin-time.com/wp-content/uploads/
+
+!カイカイ反応通信
+!http://blog.livedoor.jp/kaikaihanno/
+||blog.livedoor.jp/kaikaihanno/js/modernSlider.min.js
+
+!悲報ニュース
+!http://hihounews.com
+hihounews.com##.entry-content > div[style="float:none;margin:10px 0 10px 0;text-align:center;"]
+||blozoo.com^
+||blozoo.info^
+
+!まとめたニュース
+!http://matometanews.com
+matometanews.com###bottom-links
+
+!どうぶつちゃんねる
+!http://animalch.net
+animalch.net##.osusume
+
+!ダイエット速報＠2ちゃんねる
+!http://blog.livedoor.jp/diet2channel/
+blog.livedoor.jp##.article-body-inner > iframe[src="http://blog.livedoor.jp/diet2channel/rss05.htm"]
+blog.livedoor.jp##.article-body-more > div[style="background-color: #FFFFFF;border: 1px solid #FF596A;border-radius:5px;margin: 5px;padding: 7px 7px 7px;"]
+blog.livedoor.jp##.mplus
+
+!ゲーム感想・評価まとめ＠2ｃｈ
+!http://gameimpression.doorblog.jp
+||images-fe.ssl-images-amazon.com/images/$domain=gameimpression.doorblog.jp
+
+
+!まにゅそく
+!http://2ch-matomenews.com/
+||imagebank30.com/ad/
+
+!カガクニュース隊
+!http://www.scienceplus2ch.com
+www.scienceplus2ch.com###single-rss-01
+www.scienceplus2ch.com##.main > b + a
+www.scienceplus2ch.com##.main > b
+www.scienceplus2ch.com##.main > span
+www.scienceplus2ch.com##.main > span + a
+www.scienceplus2ch.com##.main > a
+
+
+
+
+
+
+
 
 
 
@@ -710,6 +882,7 @@ matomelotte.com##.google-2ad-b
 ||nanj.an-matome.com/inc/nanj.js
 
 !MLB NEWS@なんJ
+!http://blog.livedoor.jp/i6469/
 ||blogroll.livedoor.net/blogroll/banner/
 blog.livedoor.jp##.google-2ad
 
@@ -980,6 +1153,45 @@ matchwarai.net##div[style="float:none;margin:10px 0 10px 0;text-align:center;"]
 
 !http://ghdnewzealandshopc.com
 ||img.mobee2.jp^$third-party
+
+!http://smartphonegame.site/?p=175306
+||main.jp/sub-jobhuntingnews.xyz/
+
+!http://minatwo.info
+!https://minatwo.net/wp-content/uploads/2018/02/bnr_header_sozai_964_865.png
+/bnr_header_$domain=minatwo.info
+
+!http://gnac.pya.jp
+||gnac.pya.jp^$inline-script
+
+!http://money.lifetrivia.net
+||money.lifetrivia.net^$inline-script
+
+!ポップアップをブロックするには、
+!ルールに下記
+!no-popups: * true
+
+!http://cryptocurrency.ant7.info
+cryptocurrency.ant7.info##a[href^="http://p-salm.jp/ad/"]
+||bann.bitsapo.info/wp-content/uploads/2018/01/dmm300250.jpg
+
+!http://to-katu.com
+||wp.com/www.gendama.jp/img/
+||wp.com/drkness.net/contents/photos/
+||drkness.net/contents/photos/
+
+!https://newsmatome.tokyo
+||aplkp.valuecommerce.com/adspace.js
+||newsmatome.tokyo/wp-content/uploads/pum/pum-site-scripts.js
+
+!http://whatsnow.momojiri.futoka.jp/
+||affiliatecenter.jp^
+||whatsnow.momojiri.futoka.jp/wp-content/uploads/2016/05/son.jpg
+||s3-ap-northeast-1.amazonaws.com/image-af-next-com/
+||www.theresponse.jp/image/affilibanner/
+
+!http://shigoto.webportal.work
+||afv.forestpub.co.jp^
 !END二次------------------------------------------------------------------------------
 
 

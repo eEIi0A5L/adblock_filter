@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 16 Apr 2018 12:00 JST
+! Last modified: 27 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/ichigo.html
 ! 
@@ -23,6 +23,9 @@ xvideos.com##script:inject(nowebrtc.js)
 xvideos.com##script:inject(xvideos.com.js)
 @@||xvideos-cdn.com^$xmlhttprequest,domain=xvideos.com
 xvideos.com##script:inject(window.open-defuser.js)
+!https://www.reddit.com/r/uBlockOrigin/comments/8ehkjc/xvideos_dont_show_anything/
+xvideos.com#@#[src*="blob:"]
+xvideos.com#@#[style*="display: block;"]
 
 !xHamster
 *$websocket,domain=24video.cc|24video.in|24video.me|24video.sex|24video.xxx|pornhub.com|redtube.com|redtube.com.br|russian-porn.me|tube8.com|tube8.es|tube8.fr|xhamster.com|xtube.com|xvideos.com|youporn.com|youporngay.com
@@ -283,6 +286,8 @@ pornhub.com##script:inject(csp.js, img-src 'self' *; media-src 'self' *)
 pornhub.com##script:inject(abort-on-property-write.js, UAParser)
 pornhub.com##script:inject(abort-on-property-write.js, isAdblockOn)
 pornhub.com##^script:has-text(tj_ads)
+!https://www.reddit.com/r/uBlockOrigin/comments/8ebhxm/no_volume_control_on_pornhub/
+pornhub.com#@#[style*="display: block;"]
 
 !bobx.com
 ||img.bobx.com/x_images/vids4.jpg

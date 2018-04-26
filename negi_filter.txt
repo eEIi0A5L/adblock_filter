@@ -98,6 +98,8 @@ abema.tv##:xpath(//p[contains(text(), "お使いのブラウザは推奨環境")
 !abema.tv##div#main div > main > div > section > h1:if(> a > p > span:has-text(最大4ヶ月プレミアムプランが実質無料))
 abema.tv##:xpath(//span[contains(text(), "詳細をみる")]/parent::p/parent::a)
 abema.tv##:xpath(//span[contains(text(), "詳細を見る")]/parent::p/parent::a)
+!Abema次のビデオ
+!abema.tv##div[class]:if(> div > a[href$="?next=true"])
 
 !Yahoo!Japan
 yahoo.co.jp###promoarea

@@ -1,0 +1,24 @@
+[Adblock Plus 2.0]
+! Title: もち：Amazonサイト上の広告ブロック
+! Last modified: 26 Apr 2018 12:00 JST
+! Expires: 6 hours (update frequency)
+! Homepage: http://pokapoka.html.xdomain.jp/
+! 
+! 
+
+!Amazon
+!検索結果のスポンサー商品
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/50-52
+!上だとスポンサー商品が一瞬表示されるが、下だと完全に非表示になる
+!→2018/4/25 20:00現在、広告がでなくなった。やはりAmazonがサイト改修している最中みたいだ。
+www.amazon.co.jp##li.s-result-item:has(.s-sponsored-header)
+www.amazon.co.jp##^li.s-result-item:has(.s-sponsored-header)
+
+
+||www.amazon.co.jp/gp/sponsored-products/
+||d14qd3he45186l.cloudfront.net/ads-search32.html
+||m.media-amazon.com/images/G/09/AMSSponsoredSearch/Experiment/ad-icon-small._TTW_.png
+||m.media-amazon.com/images/S/ams-ads-creative-assets-fe/
+
+
+! END
