@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 16 Apr 2018 12:00 JST
+! Last modified: 27 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -80,6 +80,8 @@ www.google.co.jp###taw
 www.google.co.jp##.commercial-unit-mobile-bottom
 www.google.co.jp###tvcap
 www.google.co.jp##div[id]:if(> ol > li.ads-ad)
+www.google.com###tads
+www.google.com###tadsb
 
 !Twitter
 twitter.com##.promoted-tweet
@@ -571,6 +573,7 @@ ejje.weblio.jp##.free-prem-reg-banner
 ||weblio.hs.llnwd.net/e7/img/muryo_banner_
 ||weblio.hs.llnwd.net/e7/img/theme_learning_banner
 ejje.weblio.jp##.theme-learning-banner
+||weblio.hs.llnwd.net/e7/img/icons/theme-learning-600-500.png
 
 !共同通信
 this.kiji.is##.page__ad
@@ -1247,6 +1250,10 @@ matomame.jp##.uk-text-center
 ||st.shinobi.jp/img/services/admaxdsp
 ||ecx.images-amazon.com/images/$domain=masterwiki.net
 ||accesstrade.net^
+
+!http://festy.jp
+||amoad-stg-aws-cdn-js.s3.amazonaws.com^
+festy.jp##.sp-overlay
 
 
 
