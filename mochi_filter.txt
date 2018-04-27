@@ -1397,7 +1397,9 @@ slashdot.org###firehose iframe
 ||ssl.google-analytics.com/ga.js
 ||analytics.slashdotmedia.com/sd.js
 ||slashdot.org/images/js.gif?
-||www.googletagservices.com/tag/js/gpt.js
+!下記で動画が見れない
+!https://www.zdnet.com/article/ubuntu-18-04-lts-the-linux-for-ai-clouds-and-containers/
+!||www.googletagservices.com/tag/js/gpt.js
 !注：:has()を使う場合は、ドメインを指定しないと機能しない
 slashdot.org##article:has(div[class="ntv-sponsored-disclaimer"])
 ||um2.eqads.com^
