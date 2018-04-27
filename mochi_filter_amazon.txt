@@ -8,6 +8,8 @@
 
 !Amazon
 !検索結果のスポンサー商品
+www.amazon.co.jp##.slot__ad
+
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/50-52
 !上だとスポンサー商品が一瞬表示されるが、下だと完全に非表示になる
 !→2018/4/25 20:00現在、広告がでなくなった。やはりAmazonがサイト改修している最中みたいだ。
