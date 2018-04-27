@@ -1385,6 +1385,8 @@ kinisuru.com##.a2a_floating_style
 ||www.googleadservices.com^
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/54-55
 !||www.gstatic.com^
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/56
+||csi.gstatic.com^
 ||yads.c.yimg.jp^
 ||yads.yahoo.co.jp^
 ||yt3.ggpht.com^
