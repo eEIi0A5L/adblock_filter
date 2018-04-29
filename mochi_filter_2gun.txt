@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 27 Apr 2018 12:00 JST
+! Last modified: 30 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -483,13 +483,15 @@ blog.livedoor.jp##.article-body-more > blockquote:has-text(1000 ：)
 ||fx-on.com^$third-party
 ||gogojungle.co.jp^
 !blog.livedoor.jp##.article-body-more > a
-blog.livedoor.jp##.article-body-more > a
-blog.livedoor.jp##.article-body-more > br
+!blog.livedoor.jp##.article-body-more > a
+!blog.livedoor.jp##.article-body-more > br
 !blog.livedoor.jp##.article-body-more > span
 blog.livedoor.jp##.article-body-more > br + span[style^="font-size: 16px; background-color: transparent; background-attachment: scroll;"]
 blog.livedoor.jp##.article-body-more > br + span[style^="font-size: 16px; background-image: none; margin: 0px; padding: 0px; font-variant-ligatures: normal;"]
 ||livedoor.blogimg.jp/kumokumowatawata/imgs/2/2/224b4057-s.png
 blog.livedoor.jp##a[href="https://www.pitaco.in/"]
+blog.livedoor.jp##.article-body-more > a[style="font-size: 16px; background-color: transparent; font-variant-ligatures: normal; font-variant-east-asian: normal; font-variant-position: normal; orphans: 2;"]
+blog.livedoor.jp##.article-body-more > br[style="font-size: 16px; background-color: transparent; background-attachment: scroll; background-clip: border-box; background-image: none; background-origin: padding-box; background-size: auto; font-variant-ligatures: normal; font-variant-east-asian: normal; font-variant-position: normal; margin: 0px; min-height: 0px; orphans: 2; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"]
 
 !ちまたの話題を覗きみ 
 ||www.2ch-mmsite.com^$script
@@ -682,7 +684,9 @@ chikakb.ldblog.jp##.post > .blogroll_main
 !http://kyousoku.net
 kyousoku.net##.article-body-more > dl > a
 kyousoku.net##.article-body-more > dl > br
-
+kyousoku.net##.google-2ad
+kyousoku.net##.google-2ad-m
+kyousoku.net##.google-2ad-b
 
 !はれぞう
 !http://blog.livedoor.jp/darkm
@@ -783,6 +787,7 @@ www.scienceplus2ch.com##.main > b
 www.scienceplus2ch.com##.main > span
 www.scienceplus2ch.com##.main > span + a
 www.scienceplus2ch.com##.main > a
+www.scienceplus2ch.com##.main > br
 
 
 

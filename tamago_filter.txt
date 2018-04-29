@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 27 Apr 2018 12:00 JST
+! Last modified: 30 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -999,6 +999,8 @@ www.traicy.com##.floating_banner
 !@@||pagead2.googlesyndication.com^
 !下記を書くとやっと次ページに移行できるようになった
 @@||www.googletagmanager.com^$domain=excite.co.jp
+a.excite.co.jp##li.list_item:has(> .ex_TL-area)
+a.excite.co.jp###gpt_sp_news_inarticle
 
 !jcast
 !www.j-cast.com##iframe[data-kiosked-adframe="outer"]
