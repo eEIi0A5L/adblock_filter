@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 30 Apr 2018 12:00 JST
+! Last modified: 11 May 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -269,6 +269,7 @@ buzz-cafe.net###ist_overlay2
 ||matigaeta.com/cubesan/syncs_article_in.js
 ||rabitsokuhou.2chblog.jp/images/img/img/adJS/
 rabitsokuhou.2chblog.jp###topads
+rabitsokuhou.2chblog.jp##.gdblock
 
 
 !カナ速
@@ -517,6 +518,42 @@ monst-sokuhou.blog.jp##.google-2ad-bottom
 ||cdn.x-lift.jp^
 ||social-runner.net^
 !monst-sokuhou.blog.jp##.article-body-more > .t_h:first-child
+
+!億ったー
+!http://okutta.blog.jp/
+okutta.blog.jp##.article-body-inner > .blogroll-channel5
+okutta.blog.jp##.article-body-more > span
+okutta.blog.jp##.article-body-more > span + a
+
+!〓 ねこメモ 〓
+!http://nekomemo.com/
+nekomemo.com##.mid-ad1
+nekomemo.com##.mid-ad2
+
+!HKTまとめもん
+!http://blog.livedoor.jp/hktmatomemon/
+blog.livedoor.jp###more > .t_h > .blogroll-channel
+
+!正義の見方
+!http://www.honmotakeshi.com/
+www.honmotakeshi.com##.article-body-more > center
+
+!いたしん
+!http://itaishinja.com/
+itaishinja.com##.ADW
+
+!ピシーニュース
+!http://pcci.jp/
+pcci.jp###pc_text-3
+
+!欅坂46速報(欅坂46乃木坂46まとめ)
+!http://keyakizaka1.blog.jp/
+keyakizaka1.blog.jp##.google-2ad-m
+||keyakizaka1.blog.jp/AddAd.js
+
+!なんJ PRIDE
+!http://blog.livedoor.jp/rock1963roll/
+blog.livedoor.jp##.article-body-inner > table[width="700"][height="250"][align="center"]
 
 !しゃこ速
 !http://blog.livedoor.jp/lol2/
@@ -1197,6 +1234,31 @@ cryptocurrency.ant7.info##a[href^="http://p-salm.jp/ad/"]
 
 !http://shigoto.webportal.work
 ||afv.forestpub.co.jp^
+
+!http://hima.rma-prj.net
+||osakado.cc^$image,third-party
+
+!http://geinou-matome-antena.site/
+||sports-matome-antena.site/wp-content/uploads/2018/03/1man_sozai_330x140-320x136.png
+
+!http://cryptocurrency.sunnyday.jp/
+cryptocurrency.sunnyday.jp##.quads-ad3
+
+!http://guitar.plovdivtv.com/
+||guitar.plovdivtv.com^$inline-script
+
+!http://servalch.mixh.jp/
+||wp.com/affiliate.dtiserv.com/
+
+!http://anntena.link/
+!メイン記事にたどり着くまで長すぎる
+anntena.link###news
+
+!http://nogitai.pink
+||umakei.info/wp-content/uploads/
+nogitai.pink###news
+
+
 !END二次------------------------------------------------------------------------------
 
 

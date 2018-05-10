@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2018/04/29 12:00 JST
+! Last modified: 2018/05/11 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/negi.html
 
@@ -41,6 +41,14 @@ www.nicovideo.jp##.summer2017Area
 ||flapi.nicovideo.jp/api/getmarquee_new
 ||nicovideo.jp/marquee/
 !||nicovideo.jp##.MarqueeContainer
+
+!ニコニコ動画最後のこの動画はご覧のユーザーの皆様が応援しています
+!http://egg.5ch.net/test/read.cgi/software/1524667609/106
+!||api.nicoad.nicovideo.jp^
+!||nicovideo.cdn.nimg.jp/web/scripts/pages/watch/assets/uad.mp3
+
+
+
 
 !Google
 !ポップアップ「こちらによくアクセスする方は Google をホームページに」
@@ -148,6 +156,12 @@ store.shopping.yahoo.co.jp##.fixog
 !uBlock Origin 1.14.25rc1以降の「##^」拡張機能が必要。
 !ない場合は、ユーザースクリプトで要素を削除すればよい。
 videotopics.yahoo.co.jp##^#nvideo
+
+!Yahooスポーツナビhttps://sports.yahoo.co.jp/の右上で勝手に再生されるピックアップ動画を止める
+!http://egg.5ch.net/test/read.cgi/software/1524667609/84-85
+!||s.yimg.jp/images/yvpub/player/fla/v1/YVPubPlayer.swf$domain=sports.yahoo.co.jp
+!sports.yahoo.co.jp###pkmvemb
+
 
 
 !Yahoo天気
@@ -385,5 +399,9 @@ www.pixiv.net##._premium-lead-tag-search-bar
 !pixivから指定ユーザを消す
 !http://egg.5ch.net/test/read.cgi/software/1515404854/681-685
 !www.pixiv.net##div:if(> figure:has-text(名無しさん))
+
+!OKwave
+!真っ赤でまぶしい
+||cdn.gazo.okwave.jp/okwave/top/images/banner/bemore_610_293.gif
 
 !END

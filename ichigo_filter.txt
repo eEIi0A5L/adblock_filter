@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 27 Apr 2018 12:00 JST
+! Last modified: 11 May 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/ichigo.html
 ! 
@@ -160,6 +160,11 @@ imgflare.com##div[style^="width:604px; height:250px;"]
 ||jxf0088.com^
 ||wx1.sinaimg.cn^
 ||www.fhyl04.com^
+||dioimg.net^$domain=88files.net
+||shen2211.com^$popup
+!||88files.net^$popup
+!||www.cccc555.net^
+||www.cccc555.net^$popup
 
 !rocks
 ||wx3.sinaimg.cn/large/*.gif$domain=rocks
@@ -475,6 +480,98 @@ xnxx.com##script:inject(xvideos.com.js)
 ||syndication.exosrv.com^
 yourporn.sexy##script:inject(noeval.js)
 yourporn.sexy##script:inject(abort-on-property-write.js, Fingerprint2)
+
+!pron.tv
+||ads2.contentabc.com^
+||cdn1.pron.tv/xjs/advertisement.js
+pron.tv##iframe[width="300"][height="250"]
+pron.tv##.lextra
+pron.tv##.lextraleftmoreads
+pron.tv###groupedlist
+||ox2.pron.tv^
+||pron.tv/js/xp/pt.js?
+pron.tv##.ifab
+
+!bitporno
+bitporno.com##script:inject(window.open-defuser.js)
+bitporno.com##script:inject(popads.net.js)
+bitporno.com##script:inject(nowebrtc.js)
+bitporno.com##script:inject(abort-current-inline-script.js, atob, tabunder)
+
+!vidoza
+*$csp=worker-src 'none',domain=estream.to|streamango.com|vidoza.net|vidto.me|vidtudu.com
+@@||vidoza.net^$generichide
+vidoza.net##script:inject(window.open-defuser.js)
+vidoza.net##script:inject(noeval.js)
+||tagbucket.cc^
+@@||vidoza.net/js/pop.js
+@@||vidoza.net/js/ads.js
+
+!openload
+openload.co##script:inject(openload.co.js)
+openload.co##script:inject(nano-setInterval-booster.js)
+openload.co##script:inject(window.open-defuser.js)
+*$csp=default-src 'self' * data: 'unsafe-inline' 'unsafe-eval',domain=101greatgoals.com|openload.co
+||openload.co/cdn-cgi/apps/head/
+||cdn.acloudvideos.com/video_ads/
+
+!javfinder
+||aoredi.com/apu.php?
+||whos.amung.us^
+||traffic-media.co.uk^$third-party
+fembed.com##script:inject(abort-on-property-write.js, _pop)
+javfinder.is##.to-top
+javfinder.is##.row > .col-xs-12:first-child
+||b54m4qbmt0b9.com^
+javfinder.is##[id*="ScriptRoot"]
+javfinder.is##div[id*="ScriptRootC"]
+.com/?zoneid=$popup
+
+
+!popjav
+||adexchangecloud.com^
+rapidvideo.com##script:inject(abort-current-inline-script.js, atob, tabunder)
+rapidvideo.com##script:inject(abort-current-inline-script.js, parseInt, tabunder)
+rapidvideo.com##script:inject(abort-on-property-write.js, executed)
+rapidvideo.com##script:inject(noeval.js)
+rapidvideo.com##script:inject(popads.net.js)
+popjav.com##.video_ad
+popjav.com###right_ad
+popjav.com###left_ad
+||ujlpbcsx.com^$third-party
+||mvvecbfomk.com^$third-party
+||go.onclasrv.com/apu.php?$important
+
+!hpjav
+||adserver.juicyads.com^
+||pvclouds.com^
+||mvvecbfomk.com^$third-party
+||ujlpbcsx.com^$third-party
+hpjav.com###left_ad
+hpjav.com###right_ad
+hpjav.com##.go-top
+hpjav.com##.home-ad
+hpjav.com##.single-ad
+hpjav.com##.video-box-ad
+hpjav.com##iframe[width="300"][height="250"]
+hpjav.com##iframe[width="728"][height="90"]
+
+!javmost
+||pussl48.com^
+@@||qooqlevideo.com/videoplayback?sparams=*&source=$domain=avgle.com
+||ads.juicyads.com^
+||avgle.com/templates/frontend/p2p.js
+@@||ads.exosrv.com/ads.js$domain=avgle.com
+@@||avgle.com/avideos.js
+||avgle.com/cdn-cgi/apps/head/
+avgle.com##script:inject(abort-on-property-read.js, ExoDetector)
+avgle.com##script:inject(abort-on-property-write.js, Fingerprint2)
+avgle.com##script:inject(set-constant.js, checkThings, trueFunc)
+||aoredi.com/apu.php?$important
+||static.hotjar.com^
+
+
+
 
 
 ! END

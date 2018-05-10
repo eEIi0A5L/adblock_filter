@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 30 Apr 2018 12:00 JST
+! Last modified: 11 May 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -59,7 +59,8 @@ ameblo.jp##amp-ad
 !ameblo.jp##^amp-ad
 
 
-!Youtube  https://m.youtube.com/
+!Youtube
+!https://m.youtube.com/
 ||www.google.co.jp/pagead/
 ||www.youtube.com/api/stats/ads?
 ||m.youtube.com/csi_204?
@@ -1239,11 +1240,13 @@ www.pcgamer.com##div[style="position: relative; box-sizing: border-box; height: 
 ||adpon.net^
 
 
-!太陽光 http://taiyoukou-navi.info
+!太陽光
+!http://taiyoukou-navi.info
 ||aojiru-mania.com/ga/anlz.php?
 taiyoukou-navi.info###menu
 
-!まとめまとめ http://matomame.jp
+!まとめまとめ
+!http://matomame.jp
 !matomame.jp##iframe[id^="ox_"]
 matomame.jp##.uk-text-center
 
@@ -1256,6 +1259,32 @@ matomame.jp##.uk-text-center
 !http://festy.jp
 ||amoad-stg-aws-cdn-js.s3.amazonaws.com^
 festy.jp##.sp-overlay
+
+!TIME&SPACE by KDDi
+!https://time-space.kddi.com
+||api.triver.jp/adlogue
+time-space.kddi.com##.articleFixedSns
+
+!https://sodatekata.net/
+sodatekata.net###adbox_1
+sodatekata.net###adbox_2
+sodatekata.net###adbox_3
+sodatekata.net###adbox_4
+
+!ASCII
+ascii.jp##amp-ad
+ascii.jp##.ad
+
+!CAREER HACK
+!http://careerhack.en-japan.com/
+careerhack.en-japan.com###fixed-sp-share
+
+
+!シネマトゥデイ
+cinematoday.jp##.ct-ad
+cinematoday.jp##.ct-ad-banner
+
+
 
 
 

@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 30 Apr 2018 12:00 JST
+! Last modified: 11 May 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -105,7 +105,8 @@ yahoo.co.jp###msthdPrBox
 !||s.yimg.jp/bdv/$domain=www.yahoo.co.jp|news.yahoo.co.jp|headlines.yahoo.co.jp|videotopics.yahoo.co.jp|gyao.yahoo.co.jp|map.yahoo.co.jp
 ||s.yimg.jp/bdv/$domain=yahoo.co.jp
 @@||s.yimg.jp/bdv/$script,domain=mail.yahoo.co.jp
-
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/57-59
+@@||s.yimg.jp/bdv/$script,domain=box.yahoo.co.jp
 
 
 !END------------------------------------------------
@@ -747,7 +748,7 @@ dic.nicovideo.jp##.box + img + div
 !奇妙なjsをブロックしておく（なんとなく）
 ||proparm.jp/ssp/p/js1?
 ||proparm.jp/ssp/p/js?
-||stimg.thench.net/bbs-ad/
+!||stimg.thench.net/bbs-ad/
 ||contents.purelovers.com/banner/ad/
 bbspink.com###top_banner
 bbspink.com##.ranking_banner
@@ -756,7 +757,8 @@ bbspink.com##div[class^="banner_area_"]
 bbspink.com##.ticker
 5ch.net,2ch.net###js--banners--thread
 ||sync-dsp.ad-m.asia^
-
+!||stimgc.thench.net/bbs-ad/
+||thench.net/bbs-ad/
 
 !したらば
 ||spad.i-mobile.co.jp^
@@ -874,6 +876,7 @@ kakaku.com##.c-ad
 ||jp-u.openx.net^
 ||kakakucom-d.openx.net^
 ||fp.kakaku.com/tracker.py/
+news.kakaku.com##.pr-bnr
 
 !価格.comマガジン
 kakakumag.com##.side-ad-top
@@ -1045,6 +1048,7 @@ oshiete.goo.ne.jp###gheader
 dictionary.goo.ne.jp##.NR-ad
 ||pulsar.xlisting.jp^
 blog.goo.ne.jp###top_app
+blog.goo.ne.jp##div[style="height: 70px; position: fixed; z-index: 998; bottom: 0; width:100%; display: block; text-align: center; background-color:rgba(59,88,152,0.5);"]
 
 !livedoor
 ||news.livedoor.com/js/ads.0.5.js
@@ -1213,6 +1217,12 @@ www.news24.jp###adText01
 ||web-jp.ad-v.jp^
 news.tbs.co.jp##.md-banner300x250
 ||aka-cdn-ns.adtechus.com^
+@@imasdk.googleapis.com/js/sdkloader/ima3.js$domain=www.tbs.co.jp
+@@||2mdn.net^$domain=www.tbs.co.jp
+||ad.auditude.com^
+!||vo.ad-v.jp^
+||ad-v.jp^
+||www.tbs.co.jp/muryou-douga/setting/cuAdControl_v8_utf8.js
 
 !テレ東
 !http://egg.5ch.net/test/read.cgi/software/1524667609/33

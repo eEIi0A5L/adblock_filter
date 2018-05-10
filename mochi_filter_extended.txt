@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 27 Apr 2018 12:00 JST
+! Last modified: 11 May 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -287,6 +287,12 @@ www.reddit.com##:xpath(//div[@id="sidebar-btf-3"]/parent::div/parent::div/parent
 www.reddit.com##:xpath(//div[@id="sidebar-btf-4"]/parent::div/parent::div/parent::div)
 !www.reddit.com##div[promotedlink]
 reddit.com##.promotedlink
+www.reddit.com##:xpath(//div[@id="overlay-sidebar-atf-0"]/parent::div/parent::div/parent::div)
+www.reddit.com##:xpath(//div[@id="overlay-sidebar-atf-1"]/parent::div/parent::div/parent::div)
+www.reddit.com##:xpath(//div[@id="overlay-sidebar-btf-0"]/parent::div/parent::div/parent::div)
+www.reddit.com##:xpath(//div[@id="overlay-sidebar-btf-1"]/parent::div/parent::div/parent::div)
+www.reddit.com##:xpath(//div[@id="sidebar-atf-0"]/parent::div/parent::div/parent::div)
+www.reddit.com##:xpath(//div[@id="sidebar-atf-1"]/parent::div/parent::div/parent::div)
 
 !redditの浮くやつ
 !www.reddit.com##:xpath(//a[@href="https://about.reddit.com/advertise/"]/parent::div/parent::div/parent::div/parent::div)
@@ -366,6 +372,12 @@ mail.yahoo.com##li[data-test-id="infinite-scroll-AD"]
 !mail.yahoo.com###main:style(max-width: 2560px !important;)
 ||s.yimg.com/rx/builds/*/iframe-controller-page.html$domain=mail.yahoo.com
 mail.yahoo.com##div[data-test-id="video-container"]
+!広告ブロックした後のスペースを取る
+mail.yahoo.com##div[aria-label="Messages"]:style(margin-top: 0px !important;)
+
+!Globalnews.ca
+!https://globalnews.ca
+||ad-delivery.net^
 
 !ZDnet Japan
 japan.zdnet.com##.ad_container
