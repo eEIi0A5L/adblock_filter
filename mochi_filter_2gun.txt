@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 11 May 2018 12:00 JST
+! Last modified: 16 May 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -493,6 +493,9 @@ blog.livedoor.jp##.article-body-more > br + span[style^="font-size: 16px; backgr
 blog.livedoor.jp##a[href="https://www.pitaco.in/"]
 blog.livedoor.jp##.article-body-more > a[style="font-size: 16px; background-color: transparent; font-variant-ligatures: normal; font-variant-east-asian: normal; font-variant-position: normal; orphans: 2;"]
 blog.livedoor.jp##.article-body-more > br[style="font-size: 16px; background-color: transparent; background-attachment: scroll; background-clip: border-box; background-image: none; background-origin: padding-box; background-size: auto; font-variant-ligatures: normal; font-variant-east-asian: normal; font-variant-position: normal; margin: 0px; min-height: 0px; orphans: 2; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"]
+!blog.livedoor.jp##.article-body-more > a 
+!blog.livedoor.jp##.article-body-more > br
+!blog.livedoor.jp##.article-body-more > b
 
 !ちまたの話題を覗きみ 
 ||www.2ch-mmsite.com^$script
@@ -826,6 +829,10 @@ www.scienceplus2ch.com##.main > span + a
 www.scienceplus2ch.com##.main > a
 www.scienceplus2ch.com##.main > br
 
+!なん＆じぇー
+!http://nanjei.com/
+nanjei.com###quads-ad1
+
 
 
 
@@ -877,7 +884,7 @@ niziiro.livedoor.biz##iframe[src="http://niziiro.livedoor.biz/nizi.html"]
 !声優速報
 aniran.blog.jp##div[id^="blz_rss_"]
 aniran.blog.jp##table[width="450"][height="350"][border="1"][cellspacing="0"]
-###article-options > table
+aniran.blog.jp###article-options > table
 
 !わんこーる速報
 onecall2ch.com##.google-2ad
@@ -1257,6 +1264,22 @@ anntena.link###news
 !http://nogitai.pink
 ||umakei.info/wp-content/uploads/
 nogitai.pink###news
+
+!http://rumor.atz.tokyo/
+||rumor.atz.tokyo/wp-content/uploads/2018/05/link_gazou_001.jpg
+
+!http://etigo.to-katu.com/
+etigo.to-katu.com###news
+||www.gendama.jp/img/invitation_banner96.gif
+||www.gendama.jp/img/invitation_banner90.gif
+
+!http://tr3.21143.p21.justsv.com/
+||21143.p21.justsv.com/wp-content/uploads/2017/07/Baidu-IME_2017-7-9_10-15-18.jpg
+tr3.21143.p21.justsv.com##a[href="http://kda11.info/cs2/684/"]
+
+!http://before-hage.com/
+||i0.wp.com/slowdn.net/contents/photos/017144_ultrahair.jpg
+
 
 
 !END二次------------------------------------------------------------------------------

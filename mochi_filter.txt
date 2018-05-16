@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 11 May 2018 12:00 JST
+! Last modified: 16 May 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -1402,9 +1402,9 @@ slashdot.org###firehose iframe
 !||a.fsdn.com/sd/all-minified.js?
 ||ads.pro-market.net/ads/scripts/site-
 ||d3tglifpd8whs6.cloudfront.net/pb-data
-||ml314.com/tag.aspx?
+!||ml314.com/tag.aspx?
 ||consent-st.truste.com/get?
-||ml314.com/utsync.ashx?
+!||ml314.com/utsync.ashx?
 ||ml314.com^
 ||rpxnow.com/js/lib/login.slashdot.org/engage.js
 ||a.fsdn.com/sd/font/sdicon.woff?
@@ -1475,6 +1475,7 @@ itmedia.co.jp###ads_content_top
 ||static.ads-twitter.com/uwt.js
 www.itmedia.co.jp###body_insert_ad
 itmedia.co.jp##iframe[id^="cxWidget_"]
+www.itmedia.co.jp##.colBoxR50:has(> div[id^="div-gpt-ad-"])
 
 !@IT
 !www.atmarkit.co.jp###cxensereRectangle

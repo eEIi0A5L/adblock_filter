@@ -68,7 +68,11 @@ javfor.me,jav4.me##[id^="ads_"]:not(body)
 !@@http://javfor.me/images/snapshot-logo_1.png
 .gif$domain=javfor.me|jav4.me
 javfor.me,jav4.me##a[href^="http://media.r18.com"]
+!||r18.com^
 ||r18.com^
+||media.r18.com/track/$popup,domain=javfor.me
+||pics.r18.com/r18/banner/$image,domain=javfor.me
+||r18.com/*utm_source$popup
 !javfor.me##a[href^="http://media.r18.com/"]
 ||genieesspv.jp^
 javfor.me##.adv
