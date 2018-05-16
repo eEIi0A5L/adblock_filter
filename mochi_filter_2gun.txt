@@ -940,6 +940,10 @@ blog.livedoor.jp##.google-2ad
 
 !高校野球まとめ速報
 kokoyakyumatomesokuho.blog.jp##.google-2ad
+
+!やきゅー速ホー
+!http://baseballdays.officialblog.jp/
+baseballdays.officialblog.jp##span[style="font-weight: bold; font-size: 16px; text-decoration: none; color: rgb(0, 0, 255);"]
 !END--------------------------------------------------------------------
 
 

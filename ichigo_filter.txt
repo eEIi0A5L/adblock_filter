@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 11 May 2018 12:00 JST
+! Last modified: 16 May 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/ichigo.html
 ! 
@@ -69,7 +69,6 @@ javfor.me,jav4.me##[id^="ads_"]:not(body)
 .gif$domain=javfor.me|jav4.me
 javfor.me,jav4.me##a[href^="http://media.r18.com"]
 !||r18.com^
-||r18.com^
 ||media.r18.com/track/$popup,domain=javfor.me
 ||pics.r18.com/r18/banner/$image,domain=javfor.me
 ||r18.com/*utm_source$popup
@@ -530,7 +529,26 @@ javfinder.is##.row > .col-xs-12:first-child
 javfinder.is##[id*="ScriptRoot"]
 javfinder.is##div[id*="ScriptRootC"]
 .com/?zoneid=$popup
-
+||trafficjunky.com^$third-party
+||k77hof1z7k.com^$third-party
+||google-analytics.com/analytics.js$important,script,domain=javfinder.is
+||jwpcdn.com^
+||mc.yandex.ru^
+@@||p.jwpcdn.com^$third-party,script
+@@||rapidvideo.com^$script,domain=rapidvideo.com
+@@||rapidvideo.com/js/jquery.validate.min.js$script
+@@||rapidvideo.com/js/jquery-ui.min.js$script
+@@||rapidvideo.com/js/jquery.limit-1.2.source.js$script
+@@||rapidvideo.com/js/jquery.tipsy.js$script
+@@||rapidvideo.com/js/js.cookie.js$script
+@@||rapidvideo.com/js/new.js$script
+@@||rapidvideo.com/jw-logo/jw-logo-bar.js$script
+@@||rapidvideo.com^$script,domain=rapidvideo.com
+@@||rapidvideo.com/tube-skin-retina-for-videojs-6/bin/video-js-*/video.min.js$script
+@@||rapidvideo.com/js/videojs.hotkeys.min.js$script
+javfinder.is###pauseroll
+javfinder.is###preroll
+javfinder.is##.afs_ads
 
 !popjav
 ||adexchangecloud.com^
@@ -573,6 +591,16 @@ avgle.com##script:inject(abort-on-property-write.js, Fingerprint2)
 avgle.com##script:inject(set-constant.js, checkThings, trueFunc)
 ||aoredi.com/apu.php?$important
 ||static.hotjar.com^
+
+!av01
+@@/wp-content/plugins/google-analytics-for-wordpress/$first-party,script
+||mediad2.jp^
+||genieessp.com^
+@@||av01.tv/wp-content/themes/wp-script-theme/vendor/*/trigger_video_hls.js
+av01.tv###ad-header
+av01.tv###ad-video-page
+av01.tv###back-to-top
+av01.tv###overlay-advertising
 
 
 
