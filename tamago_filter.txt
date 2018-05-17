@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 11 May 2018 12:00 JST
+! Last modified: 18 May 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -575,6 +575,8 @@ ejje.weblio.jp##.free-prem-reg-banner
 ||weblio.hs.llnwd.net/e7/img/theme_learning_banner
 ejje.weblio.jp##.theme-learning-banner
 ||weblio.hs.llnwd.net/e7/img/icons/theme-learning-600-500.png
+||weblio.hs.llnwd.net/e7/img/icons/story-learning-600-500.png
+||weblio.hs.llnwd.net/e7/img/campaign_banner.png
 
 !共同通信
 this.kiji.is##.page__ad
@@ -1283,6 +1285,26 @@ careerhack.en-japan.com###fixed-sp-share
 !シネマトゥデイ
 cinematoday.jp##.ct-ad
 cinematoday.jp##.ct-ad-banner
+
+!dorama9
+!https://dorama9.com/
+||glssp.jp/GL_AD/
+||www.rentracks.jp/adx/
+
+!男子ハック
+!www.danshihack.com
+www.danshihack.com##.p-ad__container--single
+||www.danshihack.com/wp-content/uploads/2018/05/kindle-sale-1.jpg
+www.danshihack.com##.c-banner
+www.danshihack.com##.p-ranking
+
+!エンジニアHub
+employment.en-japan.com##.entry-footer
+
+!コジテク
+!https://koji.tech/
+||criteo.net^
+||criteo.com^
 
 
 
