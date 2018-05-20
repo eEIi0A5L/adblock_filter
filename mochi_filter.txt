@@ -1285,6 +1285,7 @@ www.news-postseven.com##.banner
 www.news-postseven.com##.inner-ad
 !www.news-postseven.com###mailmag2
 ||www.news-postseven.com/img3_renew/common/blomaga_20160131.gif
+||www.news-postseven.com/img3_renew/banner/
 
 !女性自身
 !あなたにオススメ全部広告
