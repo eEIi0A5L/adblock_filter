@@ -1736,7 +1736,9 @@ mdpr.jp##span[id^="ad_is_"]
 open.spotify.com##.ads-container
 !https://www.reddit.com/r/uBlockOrigin/comments/8kfyb6/spotifys_web_player_return_of_ads/
 ||audio-akp-spotify-com.akamaized.net/audio/*$media,redirect=noopmp3-0.1s,domain=open.spotify.com
-||spotify.com^*/metric
+!重い
+!||spotify.com^*/metric
+||spclient.wg.spotify.com/metrics-backend/v1/metric
 spotify.com##.ads-container__inner
 ||myvisualiq.net^$third-party
 ||spclient.wg.spotify.com/ads/
