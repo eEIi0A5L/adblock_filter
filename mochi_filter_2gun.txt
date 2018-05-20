@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 16 May 2018 12:00 JST
+! Last modified: 20 May 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -833,6 +833,10 @@ www.scienceplus2ch.com##.main > br
 !http://nanjei.com/
 nanjei.com###quads-ad1
 
+!地下帝国-AKB48まとめ
+chikakb.ldblog.jp##iframe[src="http://chikakb.ldblog.jp/left_amz.html"]
+||images-na.ssl-images-amazon.com/images/$domain=chikakb.ldblog.jp
+||ecx.images-amazon.com/images/$domain=chikakb.ldblog.jp
 
 
 
