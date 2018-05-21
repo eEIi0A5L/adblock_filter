@@ -211,7 +211,8 @@ www.yahoo.co.jp###bpComposite
 
 !Yahooトップのカード入会
 !www.yahoo.co.jp##.Personalbox__noticeItem--card
-www.yahoo.co.jp###personalbox > .Personalbox__notice > .Personalbox__noticeList > .Personalbox__noticeItem--card
+!www.yahoo.co.jp###personalbox > .Personalbox__notice > .Personalbox__noticeList > .Personalbox__noticeItem--card
+www.yahoo.co.jp##.Personalbox__noticeItem--card
 
 !キャラの吹き出し
 www.yahoo.co.jp###js-ninjyo
@@ -1743,7 +1744,8 @@ open.spotify.com##.ads-container
 spotify.com##.ads-container__inner
 ||myvisualiq.net^$third-party
 ||spclient.wg.spotify.com/ads/
-/log/pageview$domain=spotify.com
+!/log/pageview$domain=spotify.com
+||open.spotify.com/log/pageview
 
 !Buzzfeed
 ||www.buzzfeed.com/static/js/advertiser/
