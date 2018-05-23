@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 20 May 2018 12:00 JST
+! Last modified: 24 May 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -655,6 +655,11 @@ damage0.com##.rsswaku7waku
 
 !GOSSIP速報（ゴシップ速報）
 gossip1.net##div[style="padding: 5px; border-radius: 5px; margin: 5px; border: 1px dashed rgb(105, 105, 105); background-color: rgb(255, 255, 255); text-indent: 0px;"]
+||mv-gossip.up.n.seesaa.net/mv-gossip/image/_girls002_imgs_5_7_578d7e01.gif
+
+!カボチャのニュース速報まとめ
+!http://cabonews.cabochanews.com/
+cabonews.cabochanews.com###quads-ad1
 
 !http://momokuroz.2chblog.jp
 momokuroz.2chblog.jp##div[id^="_tangan_"]
@@ -1287,6 +1292,16 @@ tr3.21143.p21.justsv.com##a[href="http://kda11.info/cs2/684/"]
 
 !http://before-hage.com/
 ||i0.wp.com/slowdn.net/contents/photos/017144_ultrahair.jpg
+
+!http://hmatome.000a.biz
+https://i0.wp.com/ad.duga.jp/
+||ad.duga.jp^
+||hmatome.000a.biz^$inline-script
+
+!https://hellopro-pro.info/
+||moppy.jp^$third-party
+hellopro-pro.info##a[href^="https://graspaf.net/"]
+hellopro-pro.info###quads-ad1
 
 
 

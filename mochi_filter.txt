@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 20 May 2018 12:00 JST
+! Last modified: 24 May 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -1740,12 +1740,12 @@ open.spotify.com##.ads-container
 ||audio-akp-spotify-com.akamaized.net/audio/*$media,redirect=noopmp3-0.1s,domain=open.spotify.com
 !重い
 !||spotify.com^*/metric
-||spclient.wg.spotify.com/metrics-backend/v1/metric
+!||spclient.wg.spotify.com/metrics-backend/v1/metric
 spotify.com##.ads-container__inner
-||myvisualiq.net^$third-party
+!||myvisualiq.net^$third-party
 ||spclient.wg.spotify.com/ads/
 !/log/pageview$domain=spotify.com
-||open.spotify.com/log/pageview
+!||open.spotify.com/log/pageview
 
 !Buzzfeed
 ||www.buzzfeed.com/static/js/advertiser/
@@ -1781,6 +1781,10 @@ news.mynavi.jp##.site-notice
 !cnetjapan
 japan.cnet.com##.inner-pr
 japan.cnet.com##.right-ad-block
+
+!おた☆スケ
+||img.dlsite.jp/modpub/images2/work/books/$domain=www.ota-suke.jp
+
 
 
 

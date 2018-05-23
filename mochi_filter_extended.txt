@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 11 May 2018 12:00 JST
+! Last modified: 24 May 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -237,7 +237,7 @@ www.huffingtonpost.com##.advertisement
 ||cdn.at.atwola.com^
 ||s.skimresources.com^
 ||ads.yap.yahoo.com^
-||o.aolcdn.com^
+!||o.aolcdn.com^
 ||yimg.com/wi/ytc.js
 ||plugin.mediavoice.com^
 huffingtonpost.com##script:inject(abort-on-property-write.js, _sp_)
@@ -594,6 +594,7 @@ www.urbandictionary.com##div[data-ad-slot]
 mail.aol.com,www.aol.com,www.aol.jp##.topAd
 mail.aol.com,www.aol.com,www.aol.jp###m-ad__banner
 www.aol.jp###rightContainer
+www.aol.com###m-ad__midpoint
 
 !LINEQ
 ||api.unthem.com/js/spad.js?
