@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: 24 May 2018 12:00 JST
+! Last modified: 25 May 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/fix.html
 ! 
@@ -24,7 +24,10 @@
 !Yahooトップからニュース記事が見れない
 !http://egg.5ch.net/test/read.cgi/software/1524667609/172
 !https://github.com/easylist/easylist/commit/f692f5c3f44b3a6605d008c045cd4a3d123d718f
-@@||rdsig.yahoo.co.jp^$domain=yahoo.co.jp
+!@@||rdsig.yahoo.co.jp^$domain=yahoo.co.jp
+! https://forums.lanik.us/viewtopic.php?f=64&t=40851
+||rdsig.yahoo.co.jp^$badfilter
+||rdsig.yahoo.co.jp^$image
 
 !Amebafreshの動画が見れない
 !→見れる
@@ -39,7 +42,8 @@
 @@||docs.google.com/static/spreadsheets2/client/js/$domain=docs.google.com
 
 !Peter Loweのフィルタでブロックされているが日本人の利用者が多いので許可
-@@||xrea.com^
+!→ad[2-3]?.xrea.comになった
+!@@||xrea.com^
 
 !Peter Lowe’s Ad and tracking server list
 !!Yahoo映像トピックスのTVer動画が見れない問題の対策
