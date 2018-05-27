@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 24 May 2018 12:00 JST
+! Last modified: 26 May 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -441,7 +441,11 @@ himado.in##.l-cnt-100_box10
 pandora.tv##.ad_footer
 pandora.tv##.ad_small
 pandora.tv##.advertisement
-||jp.channel.pandora.tv/channel/view_ad.ptv
+||channel.pandora.tv/channel/view_ad.ptv
+||imgcdn.pandora.tv/_ptv_all/util/makePCookie_pandora_utf.js
+||imgcdn.pandora.tv/ptv_img/icon_network_ad.gif
+!動画再生５分後に表示されるプレミアム登録誘導
+channel.pandora.tv##.pm_wrap
 
 !miomio
 www.miomio.tv###upad

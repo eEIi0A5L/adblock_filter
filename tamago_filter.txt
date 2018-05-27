@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 24 May 2018 12:00 JST
+! Last modified: 28 May 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -77,13 +77,13 @@ www.google.co.jp##li[data-hveid]:has(> div.ads-ad)
 !amebloの表示がおかしくなる
 !||cdn.ampproject.org^
 !google広告
-www.google.co.jp###taw
-www.google.co.jp##.commercial-unit-mobile-bottom
-www.google.co.jp###tvcap
-www.google.co.jp##div[id]:if(> ol > li.ads-ad)
-www.google.com###tads
-www.google.com###tadsb
-www.google.co.jp##.ads-ad
+www.google.co.jp,www.google.com###taw
+www.google.co.jp,www.google.com##.commercial-unit-mobile-bottom
+www.google.co.jp,www.google.com###tvcap
+www.google.co.jp,www.google.com##div[id]:if(> ol > li.ads-ad)
+www.google.co.jp,www.google.com###tads
+www.google.co.jp,www.google.com###tadsb
+www.google.co.jp,www.google.com##.ads-ad
 
 !Twitter
 twitter.com##.promoted-tweet
@@ -168,15 +168,15 @@ goo.ne.jp##div[id^="gooad"]
 ||yads.c.yimg.jp/js/yads.js
 ||adcdn.goo.ne.jp/images/js/smarttag-news-news.js
 !news.goo.ne.jp##div[style*="fixed"]
-news.goo.ne.jp##div[style^="height: 50px; position: fixed;"]
+!news.goo.ne.jp##div[style^="height: 50px; position: fixed;"]
 blog.goo.ne.jp##.global_footer + style + div
 blog.goo.ne.jp##.userblog_title
 oshiete.goo.ne.jp##.theAppLink
-!goo
 !ranking.goo.ne.jp###NR-wrapper
 ranking.goo.ne.jp###NR-sub
 ranking.goo.ne.jp###NR-sub-in
 ranking.goo.ne.jp##.foot_fixed_ad
+goo.ne.jp##div[style^="height: 50px; position: fixed;"]
 
 
 !LINE blog
@@ -1037,6 +1037,10 @@ www.nishinippon.co.jp##a[href^="http://ac.ebis.ne.jp/tr_set.php?argument="]
 ||r-ad.ne.jp^
 townwork.net###jsi-share-box
 
+!https://shopping.dmkt-sp.jp/
+shopping.dmkt-sp.jp##.footer
+
+
 
 
 
@@ -1223,6 +1227,37 @@ www.akb48matomemory.com##span[style="font-size: medium;"] > a
 www.akb48matomemory.com##span[style="font-size: medium;"] > br
 
 
+!ニコニコVIP2ch
+!http://blog.livedoor.jp/nicovip2ch/
+blog.livedoor.jp###article-contents > div[id^="socrun_div_area_socrun_"]
+blog.livedoor.jp###apptemp06
+
+!ダメージ０
+!http://damage0.com/
+damage0.com##.sec_block2
+damage0.com###article_body2
+!damage0.com###article_body
+damage0.com###.ad_fb
+damage0.com###article_body:has(> font > b:has-text(中間おすすめリンク))
+
+
+!芸能★アイドル速報♪♪
+!http://geinou-idolu.com/
+||affiliate.rakuten.co.jp^
+||www.bijo-toiro.com/blogparts/miss_blogparts.html
+||mv-gossip.up.n.seesaa.net/mv-gossip/image/_girls002_imgs_5_7_578d7e01.gif
+
+!暇つぶしニュース
+!http://blog.livedoor.jp/rbkyn844/
+blog.livedoor.jp###article-contents > .link2
+
+!http://独眼竜ちゃんねる.com/
+独眼竜ちゃんねる.com###news
+独眼竜ちゃんねる.com##.rss-blogroll
+
+
+
+
 
 
 
@@ -1261,6 +1296,14 @@ buzz-cafe.net###ist_overlay2
 
 !http://www.ttdyhot.net
 ||meerkat.jarodtaylor.com/download/jquery.meerkat.1.3.min.js
+
+!http://ghdnewzealandshopc.com/
+||ghdnewzealandshopc.com/wp-content/uploads/2018/05/300x250_1-320x267.jpg
+
+
+!http://芸能ニュースまとめ.tokyo/
+||link-a.net^
+芸能ニュースまとめ.tokyo###news
 
 !END--------------------------------------------------------------------
 

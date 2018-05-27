@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: 25 May 2018 12:00 JST
+! Last modified: 28 May 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/fix.html
 ! 
@@ -26,8 +26,9 @@
 !https://github.com/easylist/easylist/commit/f692f5c3f44b3a6605d008c045cd4a3d123d718f
 !@@||rdsig.yahoo.co.jp^$domain=yahoo.co.jp
 ! https://forums.lanik.us/viewtopic.php?f=64&t=40851
-||rdsig.yahoo.co.jp^$badfilter
-||rdsig.yahoo.co.jp^$image
+!→直った
+!||rdsig.yahoo.co.jp^$badfilter
+!||rdsig.yahoo.co.jp^$image
 
 !Amebafreshの動画が見れない
 !→見れる
@@ -102,7 +103,8 @@
 @@||www.ntv.co.jp/ad-navi/$domain=ntv.co.jp
 
 !https://www.amazon.co.jp/dp/B00PSPDQQC/で視聴ページが真っ白になる
-@@||chocomaru.com^
+!→ならない
+!@@||chocomaru.com^
 
 !http://iroyaku.livedoor.biz/archives/73473612.html#commentsでコメントが見れない
 livedoor.biz#@#[class$="-ads"]:not(html):not(body)

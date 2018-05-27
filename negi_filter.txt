@@ -57,27 +57,30 @@ www.nicovideo.jp##.summer2017Area
 !uBlockOrigin専用表記なのでできるだけ使いたくない
 !www.google.co.jp##:xpath(//a[@title="No thanks"]/parent::div/parent::div)
 !なんかABPできかなかった。。。よくわからない。。。
-www.google.co.jp##div[role="dialog"][style="behavior:url(#default#userData)"]
-google.co.jp##div[aria-label="promo"]
+www.google.co.jp,www.google.com##div[role="dialog"][style="behavior:url(#default#userData)"]
+google.co.jp,google.com##div[aria-label="promo"]
 !!Googleトップの目障りなJS削除
 !→google_hplogo_block.txtに移動 2018.3.8
 !/logos/$domain=google.co.jp|google.com
 !Googleトップのロゴ画像削除
 !→ロゴは出た方がいいのでブロックはやめた
-!google.co.jp###hplogo
-!google.co.jp##^#hplogo
+!google.co.jp,google.com###hplogo
+!google.co.jp,google.com##^#hplogo
 !下記をブロックするとChrome新規タブの表示がくずれる
 !www.google.co.jp,google.com###lga
 !下記は出ていい 2018.3.8
 !www.google.co.jp,google.com###prm-pt
 !Googleを規定の検索エンジンにしよう
-www.google.co.jp##.pdp-psy
+www.google.co.jp,www.google.com##.pdp-psy
 !"Looking for results in English? 引き続き日本語を使用"
-www.google.co.jp###sbfrm_l + div
+www.google.co.jp,www.google.com###sbfrm_l + div
 !「他の人はこちらも検索」を消す
-!www.google.com##div[jsl][data-ved]:if(h4:has-text(People also search for))
-!www.google.co.jp##div[jsl][data-ved]:if(h4:has-text(他の人はこちらも検索))
+!www.google.co.jp,www.google.com##div[jsl][data-ved]:if(h4:has-text(People also search for))
+!www.google.co.jp,www.google.com##div[jsl][data-ved]:if(h4:has-text(他の人はこちらも検索))
 !www.google.com,www.google.co.jp##.exp-outline
+!googleの右上に出てくる「プライバシー診断を受けて、設定をチェックしよう」
+!www.google.com,www.google.co.jp##div[role="dialog"][style="behavior:url(#default#userData)"]
+
 
 !weblio
 weblio.jp###footFixBar

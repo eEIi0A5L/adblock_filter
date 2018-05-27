@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 24 May 2018 12:00 JST
+! Last modified: 28 May 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -435,6 +435,11 @@ news4wide.livedoor.biz###niee
 !なんじぇいスタジアム
 !http://blog.livedoor.jp/nanjstu/
 blog.livedoor.jp##.article-body-more > blockquote:has-text(1000 ：)
+blog.livedoor.jp##.article-body-more > div > blockquote
+
+!かすてら速報
+!http://castella.biz/
+castella.biz###quads-ad1
 
 !ポケモンGOまとめ最速速報！！
 ||okinawanohoshi.com^
@@ -975,7 +980,7 @@ llabtooflatot.blog102.fc2.com##center:if(> ins.adsbygoogle)
 
 
 
-!二次まとめサイト（一次まとめへの誘導サイト）------------------------------
+!二次まとめサイト（一次まとめへの誘導サイト）-------------------------
 !
 !この手のまとめサイトを書いていたらきりがないのでコメント化
 !!たんたん
@@ -1303,9 +1308,26 @@ https://i0.wp.com/ad.duga.jp/
 hellopro-pro.info##a[href^="https://graspaf.net/"]
 hellopro-pro.info###quads-ad1
 
+!http://ghdnewzealandshopc.com/
+||ghdnewzealandshopc.com/wp-content/uploads/2018/05/300x250_1-320x267.jpg
+
+!http://minatwo.info/
+||denma-drill.com^
+minatwo.info###news
+
+!http://nogizaka.atz.tokyo
+||nogizaka.atz.tokyo/wp-content/uploads/2018/05/link_gazou_001.jpg
+
+!http://antena10211636.com
+||trade-gear.s3.amazonaws.com/top/img/check.png
+antena10211636.com##a[href^="https://www.infotop.jp/click.php?"]
+
+!http://ryuchin.com/
+ryuchin.com###news
 
 
-!END二次------------------------------------------------------------------------------
+
+!END二次--------------------------------------------------------------
 
 
 
