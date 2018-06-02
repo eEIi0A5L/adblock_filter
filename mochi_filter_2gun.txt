@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 28 May 2018 12:00 JST
+! Last modified: 03 Jun 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_2gun.html
 ! 
@@ -602,6 +602,7 @@ newsoku.blog###pc_text-34
 ||ptengine.jp^
 newsoku.blog###the-content > ul.blogroll-list-wrap
 newsoku.blog###widget-in-article
+newsoku.blog##.fixedlink-list-wrap
 
 !芸能ネタはこれだけでおｋ
 koredakedeok.blog.jp##.taxel_ul_wrap > li:has-text(Sponsored)
@@ -848,7 +849,10 @@ chikakb.ldblog.jp##iframe[src="http://chikakb.ldblog.jp/left_amz.html"]
 ||images-na.ssl-images-amazon.com/images/$domain=chikakb.ldblog.jp
 ||ecx.images-amazon.com/images/$domain=chikakb.ldblog.jp
 
-
+!あらまめ
+!http://aramame.net/
+aramame.net##.bottom-link
+||aramame.net/wp-content/uploads/2016/12/ad_Zucks_no.5.html
 
 
 
@@ -1211,7 +1215,7 @@ meeto.cs81.link##div[id^="_ad_"]
 
 !http://sedori.space
 sedori.space##.su-animate
-||sedori.space^$popup
+!||sedori.space^$popup
 ||sedori.space^$inline-script
 
 !http://matchwarai.net
@@ -1324,6 +1328,15 @@ antena10211636.com##a[href^="https://www.infotop.jp/click.php?"]
 
 !http://ryuchin.com/
 ryuchin.com###news
+
+!http://iihana0co.websozai.jp/
+iihana0co.websozai.jp##.bottom-link
+iihana0co.websozai.jp###kes
+
+!http://mato33.xyz
+!||www.gendama.jp/img/invitation_banner94.gif
+!||www.gendama.jp/img/invitation_banner116.gif
+||www.gendama.jp/img/invitation_banner
 
 
 

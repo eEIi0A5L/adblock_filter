@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 28 May 2018 12:00 JST
+! Last modified: 03 Jun 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/ichigo.html
 ! 
@@ -660,7 +660,9 @@ www.javdoe.com##div[id*="ScriptRootC"]
 ||dmm.co.jp^$popup,domain=erovi.jp
 erovi.jp##.reviewticker4
 
-
+!jav2be
+||smartsuppchat.com/loader.js
+||www.jav2be.com/images/avdvd_tv.jpg
 
 
 

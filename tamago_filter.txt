@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 28 May 2018 12:00 JST
+! Last modified: 03 Jun 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -1404,6 +1404,28 @@ employment.en-japan.com##.entry-footer
 !暴サイ
 ||ad-move.jp^
 ||image-ad.jp^
+
+!AbemaTIMES
+||api.amebaowndme.com/v2/public/pureAds
+abematimes.com##.complementary-outer.complementary-outer--slot4
+abematimes.com##.complementary-outer.complementary-outer--slot3
+abematimes.com##.complementary.complementary--shareButton.complementary--fixed
+
+!fc2web.com
+||textad.net^
+
+!kumiko-jp.com
+kumiko-jp.com##amp-ad
+
+!おしえて！田舎センセイ！
+!https://inakasensei.com
+||ad.jp.ap.valuecommerce.com^
+inakasensei.com##.footer-menu-sp
+
+!コトバンク
+!https://kotobank.jp
+kotobank.jp##.sp-iframe-ad
+
 
 
 
