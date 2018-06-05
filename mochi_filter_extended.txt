@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 26 May 2018 12:00 JST
+! Last modified: 06 Jun 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -679,6 +679,9 @@ dengekionline.com###banner_rectangle_1
 !www.navitime.co.jp##div[id^="div-gpt-ad-"]
 !www.navitime.co.jp###757860
 !www.navitime.co.jp##a[href="https://www.navitime.co.jp/ad/?from=about_ad_link"]
+
+!http://www.allcinema.net/
+||www.allcinema.net/prog/ad_img/
 
 
 
