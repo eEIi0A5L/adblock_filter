@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 28 May 2018 12:00 JST
+! Last modified: 10 Jun 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -1634,7 +1634,7 @@ imepic.jp###chan_advertise
 imepic.jp###chan_advertise4
 imepic.jp###eroido_ins_advertise
 imepic.jp###chan_thread_area
-||eroido.jp^
+!||eroido.jp^
 imepic.jp###eroido_pagelist
 
 !IGN
