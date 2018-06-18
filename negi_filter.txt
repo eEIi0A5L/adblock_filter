@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2018/05/16 12:00 JST
+! Last modified: 2018/06/18 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/negi.html
 
@@ -164,6 +164,12 @@ videotopics.yahoo.co.jp##^#nvideo
 !http://egg.5ch.net/test/read.cgi/software/1524667609/84-85
 !||s.yimg.jp/images/yvpub/player/fla/v1/YVPubPlayer.swf$domain=sports.yahoo.co.jp
 !sports.yahoo.co.jp###pkmvemb
+
+!ヤフオクでページを開くたびに全面表示される毎日くじ
+page.auctions.yahoo.co.jp###js-prMdl
+!weather
+weather.yahoo.co.jp###appbnr
+weather.yahoo.co.jp###ydn-bot
 
 
 

@@ -854,6 +854,10 @@ chikakb.ldblog.jp##iframe[src="http://chikakb.ldblog.jp/left_amz.html"]
 aramame.net##.bottom-link
 ||aramame.net/wp-content/uploads/2016/12/ad_Zucks_no.5.html
 
+!おもしろニュー速まとめ 
+!http://newsokutop.com/
+newsokutop.com##div[style="padding: 5px; border-radius: 5px; margin: 5px; border: 1px dashed rgb(105, 105, 105); background-color: rgb(255, 255, 255); text-indent: 0px;"]
+
 
 
 
@@ -1337,6 +1341,12 @@ iihana0co.websozai.jp###kes
 !||www.gendama.jp/img/invitation_banner94.gif
 !||www.gendama.jp/img/invitation_banner116.gif
 ||www.gendama.jp/img/invitation_banner
+
+!http://akb48.atz.tokyo
+||akb48.atz.tokyo/wp-content/uploads/2018/05/link_gazou_001.jpg
+
+!http://search-break.info/
+||youtubekasegu.info/wp-content/uploads/2017/06/SnapCrab_NoName_2018-1-22_13-13-39_No-00.png
 
 
 

@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 10 Jun 2018 12:00 JST
+! Last modified: 18 Jun 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -207,6 +207,9 @@ itest.5ch.net##.sproutad_frame
 itest.5ch.net###js-header-320x50
 itest.5ch.net###js-last_comment_ad_1
 itest.5ch.net###js-last_comment_ad_2
+itest.5ch.net##div[class^="js-cardview_ad"]
+||cdn.caprofitx.com/media/4531/pfx.js
+itest.5ch.net###js-cardview_ad
 
 !5ch
 itest.5ch.net##.js-ads-content-top_news
@@ -1433,6 +1436,29 @@ inakasensei.com##.footer-menu-sp
 !コトバンク
 !https://kotobank.jp
 kotobank.jp##.sp-iframe-ad
+
+!@IT
+||image.itmedia.co.jp/spv/images/career_en_320x50.png
+www.atmarkit.co.jp##div[style="width:320px;height:50px;border:1px solid #CCC;margin:10px auto 0;"]
+
+!Pandora
+||prism.pandora.tv^
+||cdn.pandora.tv/_adv_img/
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=pandora.tv
+||ziyu.net^
+||pvk.jp^
+||log.sv.pandora.tv/viewchk2^
+pandora.tv##.ad_footer
+pandora.tv##.ad_small
+pandora.tv##.advertisement
+||channel.pandora.tv/channel/view_ad.ptv
+||imgcdn.pandora.tv/_ptv_all/util/makePCookie_pandora_utf.js
+||imgcdn.pandora.tv/ptv_img/icon_network_ad.gif
+!動画再生５分後に表示されるプレミアム登録誘導
+channel.pandora.tv##.pm_wrap
+
+!http://www.copiapoa.jp/
+www.copiapoa.jp###fixBanner
 
 
 

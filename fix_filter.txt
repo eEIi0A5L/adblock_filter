@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: 28 May 2018 12:00 JST
+! Last modified: 18 Jun 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/fix.html
 ! 
@@ -19,7 +19,8 @@
 !@@/click/$document,domain=yahoo.co.jp
 
 !Yahooトップに戻るとき
-@@||rdsig.yahoo.co.jp/mh/click/ytop/RV=1/$document,domain=yahoo.co.jp
+!@@||rdsig.yahoo.co.jp/mh/click/ytop/RV=1/$document,domain=yahoo.co.jp
+@@||rdsig.yahoo.co.jp/mh/click/$document,domain=yahoo.co.jp
 
 !Yahooトップからニュース記事が見れない
 !http://egg.5ch.net/test/read.cgi/software/1524667609/172
