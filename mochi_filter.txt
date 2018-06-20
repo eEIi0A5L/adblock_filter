@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 18 Jun 2018 12:00 JST
+! Last modified: 20 Jun 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -508,7 +508,8 @@ mail.yahoo.co.jp###theAd
 
 
 !Yahooメールのスレッド一覧上部の広告を消した後の空白を消す
-mail.yahoo.co.jp###shellcontent:style(top: 56px !important;)
+!→Yahooメール→画面レイアウト設定→ページスクロールなしでレイアウトがくずれるのでやめた。
+!mail.yahoo.co.jp###shellcontent:style(top: 56px !important;)
 mail.yahoo.co.jp###msg-list:style(top: 0px !important;)
 
 
