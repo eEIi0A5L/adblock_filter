@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 18 Jun 2018 12:00 JST
+! Last modified: 24 Jun 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -588,6 +588,8 @@ ejje.weblio.jp##.theme-learning-banner
 ||weblio.hs.llnwd.net/e7/img/icons/theme-learning-600-500.png
 ||weblio.hs.llnwd.net/e7/img/icons/story-learning-600-500.png
 ||weblio.hs.llnwd.net/e7/img/campaign_banner.png
+||weblio.hs.llnwd.net/e7/img/icons/story-learning-300-250.png
+ejje.weblio.jp##.sp-contents-banner
 
 !共同通信
 this.kiji.is##.page__ad
@@ -1460,7 +1462,19 @@ channel.pandora.tv##.pm_wrap
 !http://www.copiapoa.jp/
 www.copiapoa.jp###fixBanner
 
+!http://ouroboros.hamazo.tv
+||ouroboros.hamazo.tv/js/archive-sp-ad.js
+||ouroboros.hamazo.tv/outside/clog_ad.js
+||www.hamazo.tv/js/staff-sp-ad.js
+||log.ti-da.net/ad/
+ouroboros.hamazo.tv###meerkat-wrap
 
+!www.hanamonogatari.com
+||www.hanamonogatari.com/blog/wp-content/themes/hana_thema/images/floating-banner-sp.png
+www.hanamonogatari.com##.floatingBn
+
+!belcy.jp
+||adapf.com
 
 
 
