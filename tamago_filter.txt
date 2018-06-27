@@ -1476,6 +1476,11 @@ www.hanamonogatari.com##.floatingBn
 !belcy.jp
 ||adapf.com
 
+!All About
+||primead.jp^
+||pts.aacdn.jp/app/touch-front/js/sp/ad_create.js
+allabout.co.jp###sys-anchor
+
 
 
 

@@ -186,7 +186,7 @@ imgflare.com##div[style^="width:604px; height:250px;"]
 @@||phncdn.com^$stylesheet,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
 ||phncdn.com^
 ||trafficjunky.net^$important,third-party
-||phncdn.com^
+!||phncdn.com^
 @@||phncdn.com/www-static/js/header-nojquery.js?$script
 |https://$third-party,script,domain=~feedback.pornhub.com|pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 pornhub.com###adA
@@ -674,5 +674,7 @@ avgle.com#@##player_3x2_container
 ||bn.dxlive.com^$popup
 ||sex-and-flirt.com^
 
+!http://nukitomo.me
+@@||ci.phncdn.com/videos/
 
 ! END

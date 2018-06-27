@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: 18 Jun 2018 12:00 JST
+! Last modified: 26 Jun 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/fix.html
 ! 
@@ -172,5 +172,8 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 !@@||www.youtube.com/live_204?$domain=youtube.com
 !@@||www.youtube.com/youtubei/v1/log_interaction?$domain=youtube.com
 !@@||www.youtube.com/youtubei/v1/log_event?$domain=youtube.com
+
+!W杯の動画が見れない
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js
 
 ! END
