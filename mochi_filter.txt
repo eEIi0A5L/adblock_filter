@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 20 Jun 2018 12:00 JST
+! Last modified: 28 Jun 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -604,56 +604,20 @@ facebook.com##.userContentWrapper:has-text(Suggested)
 facebook.com###stream_pagelet > #pagelet_megaphone
 facebook.com##div[id^="hyperfeed_story_id_"]:if(div[id^="feed_subtitle_"] > span > div > a[class*="_"][href="#"])
 
-!ニコニコ動画＋ニコ生
-www.nicovideo.jp##.playerTabAds
-www.nicovideo.jp##.nicoSpotAds
-www.nicovideo.jp##.NicoSpotAdContainer
-www.nicovideo.jp##.MiniBannerAdContainer
-!zenzawatchでコメント欄が非表示になってしまうのでやめた
-!www.nicovideo.jp##iframe
+!ニコ動＋ニコ生（く）2018.6.28
+||ads.adjust-net.jp^
 ||ads.nicovideo.jp^
 ||res.nimg.jp/scripts/pages/watch/assets/uad.mp3
-!ニコニ広告の動画が見れなくなるのでOFF
-!||api.uad.nicovideo.jp/
 ||res.nimg.jp/js/ads.js?
-account.nicovideo.jp##.ads
-www.nicovideo.jp##.banner
-www.nicovideo.jp##.ads
-live.nicovideo.jp###ad_bnr
-live.nicovideo.jp###middle_ad
-live.nicovideo.jp###footer_ads
-live.nicovideo.jp##.side_ad
-live.nicovideo.jp##.kokoku
-live.nicovideo.jp##.sdk-block
-live.nicovideo.jp##.kokoku
-live.nicovideo.jp###tanimachi-ranking
-!ニコ生の背景
-!ニコ生トップのサムネイルが消えてしまう
-!||nicolive.cdn.nimg.jp/live/simg/img/
-!ニコ動広告の黄色いバーを消す
-www.nicovideo.jp##.SeekBarContainer-videoAdMarker
-!ニコ動HTML5プレイヤーのコメント欄下部の広告枠を消す
-www.nicovideo.jp##.CommentPanelContainer:style(bottom: 0px !important)
-!ABPの場合は下記で消す
-!https://userstyles.org/styles/149736/nicovideo-remove-adwaku
-!ユーザ生放送(live2.nicovideo.jp)
-||nicolive.cdn.nimg.jp/relive/playerbanner/
-!ユーザ広告枠：動画画面上部の「ニコニ広告で宣伝」の横帯
-!live2.nicovideo.jp###user-ad-block
-live2.nicovideo.jp##aside[class^="___banner-panel"]
 ||spcdnpc.i-mobile.co.jp/ad_creative.ashx
-!ランキング20-21位間の広告
-www.nicovideo.jp##.ad_row
-!検索結果に関係ない動画が表示される
-!ニコニ広告というシステムらしい
-www.nicovideo.jp##.nicoadVideoItem
+||nicolive.cdn.nimg.jp/relive/playerbanner/
+||nicoad.nicovideo.jp^
 !ニコニコ動画のコメント下部の広告を消した後の空白を消す
 www.nicovideo.jp##.CommentPanelContainer:style(bottom: 0px !important;)
-www.nicovideo.jp##:xpath(//div[@id="web_pc_premium"]/parent::div)
-blog.nicovideo.jp###web_pc_prime
-www.nicovideo.jp##.sideAd
-www.nicovideo.jp###web_pc_prime
-www.nicovideo.jp###head_ads
+live2.nicovideo.jp##aside[class^="___banner-panel"]
+nicovideo.jp##.Ads
+nicovideo.jp##div[class^="Ads"]
+nicovideo.jp##.CommentPanelBannerAd
 
 
 !ニコニコ大百科

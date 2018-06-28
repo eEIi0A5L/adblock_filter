@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2018/06/18 12:00 JST
+! Last modified: 2018/06/28 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/negi.html
 
@@ -12,35 +12,17 @@ www.youtube.com##.ytp-chrome-top-buttons
 !Youtube動画再生して最後に出てくるチャンネル動画サムネイルを消す場合
 !www.youtube.com##.ytp-ce-element
 
-!ニコ生＋ニコ動
-www.nicovideo.jp##.Marquee-item
-www.nicovideo.jp##.regist
-www.nicovideo.jp##.textMarqueeOuter
-www.nicovideo.jp###popupMarquee
-!ニコ動、動画上部のアナウンス欄をまるごと消す。
-!www.nicovideo.jp##.MainContainer-player > .MarqueeContainer
-live.nicovideo.jp##.for_premium
-live.nicovideo.jp##.live_topic_info_area
-live.nicovideo.jp###watch_zapping_box
-live.nicovideo.jp###closed_recent_program_area
-live.nicovideo.jp###comingsoon_recent_program_area
-||live.nicovideo.jp/img/nicolive/bnr_premium_hq/
-nicovideo.jp##.user-ad-block
-nicovideo.jp##.bourbon-block
+!ニコ生＋ニコ動（く）2018.6.28
 ||enquete.nicovideo.jp^$domain=~enquete.nicovideo.jp
 ||urc.live.nicovideo.jp^
 /marqueeplayer.$domain=live.nicovideo.jp|www.nicovideo.jp|nicovideo.cdn.nimg.jp
-!ニコニコニュースの下部のコメント欄が邪魔
-!news.nicovideo.jp###COMMENT
-news.nicovideo.jp###comment-post-window
-!ニコ動マイページのニコニコ君
-www.nicovideo.jp##.summer2017Area
-!時報
-||nicovideo.cdn.nimg.jp/html5jiho/
-! プレイヤー上部のニュース枠
+||live.nicovideo.jp/img/nicolive/bnr_premium_hq/
+!動画上部のニュースティッカー
+www.nicovideo.jp##.Marquee-item
 ||flapi.nicovideo.jp/api/getmarquee_new
 ||nicovideo.jp/marquee/
-!||nicovideo.jp##.MarqueeContainer
+!時報
+||nicovideo.cdn.nimg.jp/html5jiho/
 
 !ニコニコ動画最後のこの動画はご覧のユーザーの皆様が応援しています
 !http://egg.5ch.net/test/read.cgi/software/1524667609/106
