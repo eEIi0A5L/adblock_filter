@@ -618,6 +618,7 @@ live2.nicovideo.jp##aside[class^="___banner-panel"]
 nicovideo.jp##.Ads
 nicovideo.jp##div[class^="Ads"]
 nicovideo.jp##.CommentPanelBannerAd
+www.nicovideo.jp##div[class$="AdContainer"]
 
 
 !ニコニコ大百科
