@@ -620,6 +620,7 @@ nicovideo.jp##.Ads
 nicovideo.jp##div[class^="Ads"]
 nicovideo.jp##.CommentPanelBannerAd
 www.nicovideo.jp##div[class$="AdContainer"]
+live.nicovideo.jp##aside[class^="___billboard-ad"]
 
 
 !ニコニコ大百科
