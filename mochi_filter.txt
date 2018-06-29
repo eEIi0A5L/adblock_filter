@@ -611,7 +611,8 @@ facebook.com##div[id^="hyperfeed_story_id_"]:if(div[id^="feed_subtitle_"] > span
 ||res.nimg.jp/js/ads.js?
 ||spcdnpc.i-mobile.co.jp/ad_creative.ashx
 ||nicolive.cdn.nimg.jp/relive/playerbanner/
-||nicoad.nicovideo.jp^
+!下記はニコニ広告
+!||nicoad.nicovideo.jp^
 !ニコニコ動画のコメント下部の広告を消した後の空白を消す
 www.nicovideo.jp##.CommentPanelContainer:style(bottom: 0px !important;)
 live2.nicovideo.jp##aside[class^="___banner-panel"]
