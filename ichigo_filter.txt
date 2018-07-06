@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 21 Jun 2018 12:00 JST
+! Last modified: 06 Jul 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/ichigo.html
 ! 
@@ -676,5 +676,8 @@ avgle.com#@##player_3x2_container
 
 !http://nukitomo.me
 @@||ci.phncdn.com/videos/
+
+!share-videos.se
+share-videos.se##img[alt="banner"]
 
 ! END
