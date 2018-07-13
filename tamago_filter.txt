@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 24 Jun 2018 12:00 JST
+! Last modified: 12 Jul 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -1222,6 +1222,10 @@ blog.livedoor.jp##.pcNone
 blog.livedoor.jp##div[id^="socrun_div_area_nc_"]
 ||social-runner.net/adloader.js
 
+!ニュー即ブログν
+||bibincom.com/ad/187_newsoku.blog.js
+
+
 
 
 !GOSSIP速報
@@ -1297,7 +1301,9 @@ chew.jp###itro_opaco
 ||kaz335b.sakura.ne.jp/banae/spe.html
 
 !http://oresamasokuhou.com/
-||afl.rakuten.co.jp^
+!価格.comからの楽天への遷移でブロックされてしまうのでその対策に$third-partyをつけた。
+!||afl.rakuten.co.jp^
+||afl.rakuten.co.jp^$third-party
 
 !http://2chnv.com
 2chnv.com##.tbg1:has(span[id^="ad"])

@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2018/06/28 12:00 JST
+! Last modified: 2018/07/13 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/negi.html
 
@@ -393,6 +393,9 @@ www.pixiv.net##._premium-lead-tag-search-bar
 
 !OKwave
 !真っ赤でまぶしい
-||cdn.gazo.okwave.jp/okwave/top/images/banner/bemore_610_293.gif
+!||cdn.gazo.okwave.jp/okwave/top/images/banner/bemore_610_293.gif
+!||cdn.gazo.okwave.jp/okwave/top/images/banner/bnr180712_610_300_2.png
+||cdn.gazo.okwave.jp/okwave/top/images/banner/
+
 
 !END

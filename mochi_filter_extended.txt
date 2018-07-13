@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 09 Jul 2018 12:00 JST
+! Last modified: 13 Jul 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi_extended.html
 ! 
@@ -466,6 +466,16 @@ www.miomio.tv##.yulu
 video.9tsu.com###sidebar-ads
 ||cse.google.com/adsense/search/async-ads.js
 ||udmlkmzjkob.co^
+||video.9tsu.com/js/ads.js
+||video.9tsu.com/js/adslist.js
+||atas.io^$third-party
+!http://egg.5ch.net/test/read.cgi/software/1524667609/463-466
+||reddleops.pro^
+||167.99.211.97^
+||167.99.211.97^$popup
+!||mmaaxx.com/9tsu/thumbnail/pr_
+!||mmaaxx.com/9tsu/thumbnail/index.html
+||mmaaxx.com^
 
 !Nexus
 nexusmods.com###horizontalpub
