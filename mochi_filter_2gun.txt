@@ -28,7 +28,8 @@
 !http://hamusoku.com/
 
 
-||amazon-adsystem.com^
+||amazon-adsystem.com^$domain^=amazon.co.jp
+
 
 !END------------
 !共通
