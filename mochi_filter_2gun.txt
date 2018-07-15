@@ -28,7 +28,7 @@
 !http://hamusoku.com/
 
 
-||amazon-adsystem.com^$domain^=amazon.co.jp
+||amazon-adsystem.com^$third-party,domain=~amazon.co.jp
 
 
 !END------------
