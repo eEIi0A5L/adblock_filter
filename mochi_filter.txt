@@ -902,7 +902,7 @@ rakuten.co.jp###footer-floating-bnr
 !~amazon.co.jp##a[href^="http://www.amazon.co.jp"]
 !imdb.comの画像も消えてしまう
 !||ssl-images-amazon.com^$domain=~amazon.com|~amazon.co.jp
-||amazon-adsystem.com^
+||amazon-adsystem.com^$domain=~amazon.co.jp
 
 !ファミ通
 ||www.famitsu.com/ad/
