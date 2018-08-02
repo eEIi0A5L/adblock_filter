@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 17 Jul 2018 12:00 JST
+! Last modified: 02 Aug 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -437,6 +437,13 @@ japan.zdnet.com##.ad-text
 ||adn-i.sp.gmossp-sp.jp^
 nikkan-spa.jp##.top_post
 ||mediamsmbsoftbank.genieesspv.jp^
+
+!日刊スポーツ
+!https://www.nikkansports.com/m/entertainment/news/amp/201807310000179.html
+!cdn.ampproject.org/rtv/011531800879103/v0/amp-ad-0.1.js
+amp-ad-0.1.js|
+www.nikkansports.com##amp-ad
+www.nikkansports.com##.article__ad
 
 !techcrunch
 ||o.aolcdn.com^
