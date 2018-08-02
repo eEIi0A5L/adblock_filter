@@ -1771,6 +1771,9 @@ japan.cnet.com##.right-ad-block
 !おた☆スケ
 ||img.dlsite.jp/modpub/images2/work/books/$domain=www.ota-suke.jp
 
+!食べログ
+!||inrecsys.popin.cc/PopinService/Logs/ad
+||popin.cc^$domain=tabelog.com
 
 
 
