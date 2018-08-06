@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 02 Aug 2018 12:00 JST
+! Last modified: 06 Aug 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -608,6 +608,9 @@ facebook.com##div[id^="hyperfeed_story_id_"]:if(div[id^="feed_subtitle_"] > span
 !ニコ動＋ニコ生（く）2018.6.28
 ||ads.adjust-net.jp^
 ||ads.nicovideo.jp^
+!ニコニコ動画のサムネイルが全て真っ黒になってしまう
+!http://egg.5ch.net/test/read.cgi/software/1524667609/595-596
+@@||ads.nicovideo.jp/assets/js/ads-2.29.0.min.js$domain=www.nicovideo.jp
 ||res.nimg.jp/scripts/pages/watch/assets/uad.mp3
 ||res.nimg.jp/js/ads.js?
 ||spcdnpc.i-mobile.co.jp/ad_creative.ashx
