@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 08 Aug 2018 12:00 JST
+! Last modified: 08 Sep 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/ichigo.html
 ! 
@@ -577,6 +577,10 @@ hpjav.com##.single-ad
 hpjav.com##.video-box-ad
 hpjav.com##iframe[width="300"][height="250"]
 hpjav.com##iframe[width="728"][height="90"]
+!hpjav.tv###artdv98
+!hpjav.tv##div:has(> a[href^="http://cl96rwprue.com/"])
+hpjav.tv##div[style^="position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px;"]
+||fkbwtoopwg.com^
 
 !javmost
 ||pussl48.com^
@@ -601,6 +605,7 @@ av01.tv###ad-header
 av01.tv###ad-video-page
 av01.tv###back-to-top
 av01.tv###overlay-advertising
+www.av01.tv##.ad-body
 
 !http://www.minnano-av.com/
 ||www.minnano-av.com/top_center_bn/pc_new_ban/sidebar_bn.html
@@ -685,5 +690,8 @@ avgle.com#@##player_3x2_container
 
 !share-videos.se
 share-videos.se##img[alt="banner"]
+
+!JavTube
+javtb.se##.pc_main
 
 ! END
