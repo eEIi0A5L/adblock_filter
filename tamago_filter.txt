@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 02 Aug 2018 12:00 JST
+! Last modified: 08 Sep 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
 ! 
@@ -646,6 +646,8 @@ www.hochi.co.jp###footerArea
 mainichi.jp##.recommend
 mainichi.jp###page-top
 mainichi.jp##.ad
+||sharethrough.adnxs.com^
+||cdn.cxpublic.com/mai-ad-render-
 
 !日経テクノロジーオンライン
 ||techon.nikkeibp.co.jp/css/n/SP/2016/ad.css
@@ -1496,6 +1498,8 @@ www.hanamonogatari.com##.floatingBn
 ||pts.aacdn.jp/app/touch-front/js/sp/ad_create.js
 allabout.co.jp###sys-anchor
 
+!Cyzo Woman
+||adpon-prd-asset.sslcs.cdngc.net^
 
 
 
