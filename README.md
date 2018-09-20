@@ -8,5 +8,5 @@
 * クジラフィルタ（コインマイニングブロック）
 * いちごフィルタ（アダルトサイト広告ブロック）
 
-Homepage http://pokapoka.html.xdomain.jp/
+Homepage https://pokapoka.shoooter.net/
 
