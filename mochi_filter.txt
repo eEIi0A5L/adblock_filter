@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 22 Aug 2018 12:00 JST
+! Last modified: 20 Sep 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/mochi.html
 ! 
@@ -533,6 +533,11 @@ mail.yahoo.co.jp###slot_MON_sent
 
 ||bc-geocities.yahoo.co.jp/bc/uad?
 ||bc-geocities.yahoo.co.jp/bc/gg?
+
+!ジオシティの右側の広告欄
+!http://www.geocities.jp/tama_weather/text14-1.html
+||bc-geocities.yahoo.co.jp/js/sq.js
+||bc-geocities.yahoo.co.jp/js/sq.css
 
 !END----------------------------------------------
 
