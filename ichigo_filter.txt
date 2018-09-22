@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 08 Sep 2018 12:00 JST
+! Last modified: 21 Sep 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: http://pokapoka.html.xdomain.jp/ichigo.html
 ! 
@@ -385,7 +385,7 @@ video.fc2.com##.u-hasAd-101_adArea
 !video.fc2.com##.c-ad-101
 
 !youav.com
-||www.youav.com$popup
+!||www.youav.com$popup
 ||www.youav.com$popunder
 ||popads.net/pop.js^$important
 ||addthis.com^$important,third-party
@@ -693,5 +693,23 @@ share-videos.se##img[alt="banner"]
 
 !JavTube
 javtb.se##.pc_main
+
+!av8x
+||i.imgur.com/eowitBo.gif
+||fingahvf.top/advertisers.js
+qdembed.com##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
+qdembed.com##script:inject(setInterval-defuser.js, (), 500)
+qdembed.com##script:inject(abort-on-property-read.js, decodeURI)
+av8x.com##.row div[style="width: 300px; height: 250px;"]
+av8x.com##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
+av8x.com##script:inject(setInterval-defuser.js, (), 500)
+||xapi.juicyads.com^
+||waust.at^$third-party
+||tsyndicate.com^
+||k77hof1z7k.com^$third-party
+||eoredi.com/apu.php?$important
+av8x.com##.container > div[style*="overflow: hidden"]
+!最初の５秒skip ad
+av8x.com###preroll
 
 ! END
