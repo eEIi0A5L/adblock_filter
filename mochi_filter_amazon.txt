@@ -2,7 +2,7 @@
 ! Title: もち：Amazonサイト上の広告ブロック
 ! Last modified: 26 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
-! Homepage: http://pokapoka.html.xdomain.jp/mochi_amazon.html
+! Homepage: https://pokapoka.shoooter.net/mochi_amazon.html
 ! 
 ! 
 

@@ -2,7 +2,7 @@
 ! Title: たまごフィルタ（mobile filter）
 ! Last modified: 08 Sep 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
-! Homepage: http://pokapoka.html.xdomain.jp/tamago.html
+! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
 ! 
 

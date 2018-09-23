@@ -2,7 +2,7 @@
 ! Title: Yahoo!Japanトップの広告をとにかくブロックするフィルタ
 ! Last modified: 16 Mar 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
-! Homepage: http://pokapoka.html.xdomain.jp/
+! Homepage: https://pokapoka.shoooter.net/
 ! 
 ! 
 

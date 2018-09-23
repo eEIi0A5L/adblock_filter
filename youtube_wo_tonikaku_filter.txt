@@ -2,7 +2,7 @@
 ! Title: Youtubeの広告をとにかくブロックするフィルタ
 ! Last modified: 03 Apr 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
-! Homepage: http://pokapoka.html.xdomain.jp/
+! Homepage: https://pokapoka.shoooter.net/
 ! 
 ! 
 

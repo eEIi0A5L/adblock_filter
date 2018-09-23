@@ -4,7 +4,7 @@
 !
 ! Last modified: 2018/07/28 12:00 JST
 ! Expires: 6 hours (update frequency)
-! Homepage: http://pokapoka.html.xdomain.jp/kame.html
+! Homepage: https://pokapoka.shoooter.net/kame.html
 
 !---------------------------------------------------------------
 !ウイルスブロックしたい人は
