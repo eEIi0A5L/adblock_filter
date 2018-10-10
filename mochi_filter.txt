@@ -528,7 +528,8 @@ mail.yahoo.co.jp###slot_MON_sent
 
 
 !Yahooジオシティーズ----------------------------------------------
-
+!2019年3月にサービス終了予定
+!https://info-geocities.yahoo.co.jp/p/close/index.html
 
 
 ||bc-geocities.yahoo.co.jp/bc/uad?
