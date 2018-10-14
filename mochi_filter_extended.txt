@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 13 Jul 2018 12:00 JST
+! Last modified: 14 Oct 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_extended.html
 ! 
@@ -628,6 +628,8 @@ kensc.com###seesaa-bnr
 bilibili.com##.bilibili-player-promote-wrap
 !プレイヤー上部のスライド
 www.bilibili.com##.bilibili-player-video-message-ul
+!#slide_adだけだと画面を下にスクロールしたときの右下にでる動画小窓の位置がずれるので、#slide_ad imgにした。
+www.bilibili.com###slide_ad img
 
 !PCgamer
 www.pcgamer.com##div[style^="position: relative; box-sizing: border-box; height: auto;"]

@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2018/09/08 12:00 JST
+! Last modified: 2018/10/11 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/negi.html
 
@@ -218,6 +218,8 @@ www.onsen.ag###programNavi
 
 !右上の動画gifバナー
 ||www.onsen.ag/common/image/cms/image/3940_img01.gif
+||www.onsen.ag/common/image/cms/image/4963_img01.gif
+
 !おすすめ商品
 www.onsen.ag##.recommendProduct
 !おすすめ番組

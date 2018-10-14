@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 23 Sep 2018 12:00 JST
+! Last modified: 14 Oct 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_2gun.html
 ! 
@@ -111,7 +111,7 @@ news4vip.livedoor.biz##.google-2ad
 ||blog.livedoor.jp/hamusoku/amazon_ranking.js
 ||blog.livedoor.jp/hamusoku/amazon_ranking_side.js
 ||blog.livedoor.jp/hamusoku6/amazon.js
-||images-fe.ssl-images-amazon.com/images/$domain=hamusoku.com
+
 
 !暇人速報
 ||himasoku.com/settings/ad.js
@@ -271,7 +271,9 @@ buzz-cafe.net###ist_overlay2
 ||rabitsokuhou.2chblog.jp/images/img/img/adJS/
 rabitsokuhou.2chblog.jp###topads
 rabitsokuhou.2chblog.jp##.gdblock
-
+||ecx.images-amazon.com/images/$domain=rabitsokuhou.2chblog.jp
+!↓ちょっと表示がずれるのでコメント化。
+!rabitsokuhou.2chblog.jp###topmadoka
 
 !カナ速
 kanasoku.info##.adset-Cover
