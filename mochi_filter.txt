@@ -89,12 +89,12 @@ yahoo.co.jp###msthdShpPr
 !yahoo.co.jp##.compo > a
 !yahoo.co.jp###msthdUhd > .compo > p
 !yahoo.co.jp###msthdtp .compo > p
-!yahoo.co.jp###mhd_text_pc
 yahoo.co.jp###mhd_uhd_pc
 
 
 !カードの勧誘
-yahoo.co.jp###msthdPrBox
+!yahoo.co.jp###msthdPrBox
+yahoo.co.jp###mhd_text_pc
 
 
 
