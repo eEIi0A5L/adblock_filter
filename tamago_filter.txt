@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 08 Sep 2018 12:00 JST
+! Last modified: 26 Oct 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -1501,6 +1501,14 @@ allabout.co.jp###sys-anchor
 !Cyzo Woman
 ||adpon-prd-asset.sslcs.cdngc.net^
 
+!これはエロい速報
+!http://korewaeroi.com/
+||adnico.jp^
+||korewaeroi.com/wp-content/wptouch-data/themes/classic-redux-copy-1/default/ad01.php
+korewaeroi.com###ad01
+
+!もみあげチャ～シュ～
+||rcm-images.amazon.com/images/$domain=michaelsan.livedoor.biz
 
 
 

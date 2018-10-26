@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: 10 Oct 2018 12:00 JST
+! Last modified: 24 Oct 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/fix.html
 ! 
@@ -184,5 +184,11 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 
 !radikoが聞けない
 @@||assets.adobedtm.com^$domain=radiko.jp
+
+!楽天にログインできない
+!http://egg.5ch.net/test/read.cgi/software/1524667609/978
+!https://forums.lanik.us/viewtopic.php?f=64&t=42018
+@@||rd.rakuten.co.jp^$domain=rakuten.co.jp
+
 
 ! END
