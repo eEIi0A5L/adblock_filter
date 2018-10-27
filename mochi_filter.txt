@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 15 Oct 2018 12:00 JST
+! Last modified: 27 Oct 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -1075,12 +1075,14 @@ itpro.nikkeibp.co.jp##.list_G
 itpro.nikkeibp.co.jp##ul.list_G
 
 !-----------------------------------------------------------------------
-!http://natgeo.nikkeibp.co.jp
+!https://natgeo.nikkeibp.co.jp
 !下記動画の先頭に動画広告の空白秒１０秒が入る
-!http://natgeo.nikkeibp.co.jp/atcl/news/18/021600072/?P=2
+!https://natgeo.nikkeibp.co.jp/atcl/news/18/021600072/?P=2
 ||ads.freewheel.tv^
 ||demdex.net^
 /b/ss/*&aqe=$domain=nikkeibp.co.jp
+!下記行がないと会員登録のボタンが押せない2018.10.28
+@@||sstats.nikkeibp.co.jp/b/ss/nbpinfprod
 ||omtrdc.net^
 ||b97.yahoo.co.jp/pagead/
 ||b92.yahoo.co.jp/search/?
