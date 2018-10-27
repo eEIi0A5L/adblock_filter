@@ -89,7 +89,10 @@ yahoo.co.jp###msthdShpPr
 !yahoo.co.jp##.compo > a
 !yahoo.co.jp###msthdUhd > .compo > p
 !yahoo.co.jp###msthdtp .compo > p
+!ログイン時
 yahoo.co.jp###mhd_uhd_pc
+!非ログイン時
+yahoo.co.jp###msthdtp > span > .compo > p
 
 
 !カードの勧誘
