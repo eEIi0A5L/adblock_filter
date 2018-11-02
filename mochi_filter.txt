@@ -1802,6 +1802,12 @@ japan.cnet.com##.right-ad-block
 !||inrecsys.popin.cc/PopinService/Logs/ad
 ||popin.cc^$domain=tabelog.com
 
+!exblog.jp
+exblog.jp###yads_pc_overlay
+exblog.jp##a[href^="http://www.dmm.co.jp/dc/pcgame/-/detail/="]
+exblog.jp##a[href^="http://www.dmm.co.jp/pr/dc/pcgame/"]
+
+
 
 
 !その他
