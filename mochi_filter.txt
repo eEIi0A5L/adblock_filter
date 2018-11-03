@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 01 Nov 2018 12:00 JST
+! Last modified: 04 Nov 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -120,6 +120,11 @@ yahoo.co.jp###mhd_text_pc
 
 
 !Yahooトップ---------------------------------------
+!Yahooトップの最上部に「日本一福岡ソフトバンクホークスSALE」と出る2018.11.04
+||s.yimg.jp/images/shp_edit/cms/promotion/softbankhawks/
+www.yahoo.co.jp###windowShade
+
+
 !「背景を閉じる」
 !→もういらないような気がする
 !www.yahoo.co.jp###windowShade
