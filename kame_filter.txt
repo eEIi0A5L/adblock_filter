@@ -104,6 +104,10 @@
 !詐欺サイト：「マイクロソフトセキュリティーアラーム～」の音声が流れる
 ||winsupporthelp.club
 
+!Virus
+!https://malwaretips.com/blogs/remove-trustednotice-news/
+||trustednotice.news^
+
 
 
 !５ちゃんねるの荒らしが誘導しているサイト---------------------

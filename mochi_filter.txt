@@ -655,6 +655,10 @@ live.nicovideo.jp###header-ad
 www.nicovideo.jp###head_ads
 www.nicovideo.jp###web_pc_prime
 live.nicovideo.jp##.billboard-ad
+!ニコ動
+www.nicovideo.jp##div[data-ads-header-banner]
+!ニコニコインフォ
+blog.nicovideo.jp###web_pc_prime
 
 
 !ニコニコ大百科
