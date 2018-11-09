@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 26 Oct 2018 12:00 JST
+! Last modified: 08 Nov 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_extended.html
 ! 
@@ -41,7 +41,7 @@ www.cnn.co.jp###right-column > .row:nth-child(3)
 ||adingo.jp/?
 ||img.ak.impact-ad.jp/yc/ai/
 ||treasuredata.com^
-||aiasahi.jp^
+||aiasahi.jp^$third-party
 ||cdn-fluct.sh.adingo.jp^
 ||.cdn.turner.com/cnn/.element/apps/cvp/3.0/cfg/spider/cnn/desktop/ad_policy.xml?
 ||.cdn.turner.com/xslo/cvp/ads/freewheel/bundles/2/AdManager.swf?

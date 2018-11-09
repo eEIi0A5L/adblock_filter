@@ -1520,7 +1520,7 @@ www.itmedia.co.jp##.colBoxR50:has(> div[id^="div-gpt-ad-"])
 !@@||dlv.itmedia.jp/adsv/$domain=www.atmarkit.co.jp
 
 !やり直し
-!まず@TI Specialは消す。PRなので
+!まず@IT Specialは消す。PRなので
 www.atmarkit.co.jp###ISALC
 www.atmarkit.co.jp###cxensereRectangle
 www.atmarkit.co.jp###body_insert_ad

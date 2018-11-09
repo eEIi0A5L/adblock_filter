@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: 24 Oct 2018 12:00 JST
+! Last modified: 09 Nov 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/fix.html
 ! 
@@ -189,6 +189,13 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 !http://egg.5ch.net/test/read.cgi/software/1524667609/978
 !https://forums.lanik.us/viewtopic.php?f=64&t=42018
 @@||rd.rakuten.co.jp^$domain=rakuten.co.jp
+
+!AFPの下記の動画がみれない
+!http://www.afpbb.com/articles/-/3196720
+!http://egg.5ch.net/test/read.cgi/software/1539988921/131
+@@||players.brightcove.net^$domain=afpbb.com|brightcove.net
+@@||edge.api.brightcove.com^$domain=afpbb.com|brightcove.net
+
 
 
 ! END
