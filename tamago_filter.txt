@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 09 Nov 2018 12:00 JST
+! Last modified: 12 Nov 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -778,6 +778,7 @@ www.afpbb.com###criteo-mobile
 www.afpbb.com##.ad-widget
 www.afpbb.com###article-infinite
 www.afpbb.com###btn-open
+www.afpbb.com###common-nav-foot
 
 !Oricon
 www.oricon.co.jp##.top-inline-banner

@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 26 Oct 2018 12:00 JST
+! Last modified: 12 Nov 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_2gun.html
 ! 
@@ -861,7 +861,8 @@ aramame.net##.bottom-link
 !http://newsokutop.com/
 newsokutop.com##div[style="padding: 5px; border-radius: 5px; margin: 5px; border: 1px dashed rgb(105, 105, 105); background-color: rgb(255, 255, 255); text-indent: 0px;"]
 
-
+!最新ゲーム速報！ＦorzaＸboxヾ(。゜▽゜).
+forzaxbox.net##a[href^="http://px.a8.net/"]
 
 
 

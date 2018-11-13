@@ -347,6 +347,14 @@ headlines.yahoo.co.jp,news.yahoo.co.jp##div[id^="spocon"]
 
 
 
+!ページ下部のおすすめ記事
+!http://egg.5ch.net/test/read.cgi/software/1540428057/89-94
+!news.yahoo.co.jp##.topicsTl
+!headlines.yahoo.co.jp##.stream_title
+!headlines.yahoo.co.jp##.listFeed
+
+
+
 !taboolaが重すぎる
 ||taboola.com^$third-party,domain=~afpbb.com
 !ここからtaboolaが起動されている
