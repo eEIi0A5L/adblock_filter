@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 13 Nov 2018 12:00 JST
+! Last modified: 15 Nov 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -485,6 +485,21 @@ finance.yahoo.co.jp###sub > .marB10 > a > img
 
 !END----------------------------------------------
 
+
+!Yahoo辞書-------------------------------------------
+!上部広告
+dic.yahoo.co.jp###So1
+!下部広告
+dic.yahoo.co.jp###So2
+!END--------------------------------------------------------
+
+
+!Yahoo地図-------------------------------------------
+!上部広告
+map.yahoo.co.jp###So1
+!下部広告
+map.yahoo.co.jp###So2
+!END--------------------------------------------------------
 
 
 !Yahoo知恵袋--------------------------------
@@ -1603,6 +1618,9 @@ www.msn.com##.logo
 www.msn.com###eubanner
 ||v.fwmrm.net/ad/
 ||otf.msn.com/c.gif
+!ボックスが詰めてくれないので消さなくても同じ
+!www.msn.com##.rc-item-js.rc-item.show:has( > div[data-provider="taboola"] )
+!www.msn.com##.rc-item-js.rc-item.show:has( > div[data-provider="outbrain"] )
 
 !shinobi
 ||shinobi.jp/encount
@@ -1817,6 +1835,7 @@ news.mynavi.jp##.site-notice
 !cnetjapan
 japan.cnet.com##.inner-pr
 japan.cnet.com##.right-ad-block
+japan.cnet.com###content-top-block
 
 !おた☆スケ
 ||img.dlsite.jp/modpub/images2/work/books/$domain=www.ota-suke.jp
