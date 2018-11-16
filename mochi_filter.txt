@@ -522,6 +522,9 @@ detail.chiebukuro.yahoo.co.jp###sub-top
 ||s.yimg.jp/bdv/$image,domain=login.yahoo.co.jp
 login.yahoo.co.jp##img[src^="https://s.yimg.jp/bdv/"]
 
+!広告を消した後の空白がaのままなのでクリックしたらジャンプしていた
+!https://ard.yahoo.co.jp/SIG=1585sunda/M=301038758.301915227.303567605.306439182/D=jp_c_s_ad/S=2079962931:LIP/Y=jp/EXP=1542338862/L=phyz4zE4Mi5AilxlW.Mv2gDSMTAxLgAAAAAS3yOP/B=eswfAWRCg0c-/J=1542331662543556/SIG=12ie949du/A=302355114/R=0/*https://www.suntory-kenko.com/link/?50_yahoo_loginca_ssmn181112d
+login.yahoo.co.jp##a[href^="https://ard.yahoo.co.jp/SIG="]
 
 
 !END----------------------------------------------
