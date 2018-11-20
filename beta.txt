@@ -13,4 +13,11 @@
 ||b.hatena.ne.jp/entry.count?url=
 
 
+
+!http://lastresort-ie.com/onnetu/air/127
+||graph.facebook.com/?callback=jQuery
+||badge.facebook.com/badge/
+||api.b.st-hatena.com/entry.count
+
+
 !END
