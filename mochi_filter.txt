@@ -449,6 +449,12 @@ weather.yahoo.co.jp###ad-ct
 !広告消した後の空白
 typhoon.yahoo.co.jp###pos-lrec
 
+!ヤフー天気の今日明日の指数情報（洗濯～風邪注意）
+!http://egg.5ch.net/test/read.cgi/software/1540428057/133
+!http://egg.5ch.net/test/read.cgi/software/1540428057/135
+!weather.yahoo.co.jp###index2days
+!weather.yahoo.co.jp##.indexList
+
 
 !END----------------------------------------------
 
