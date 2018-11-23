@@ -2,7 +2,7 @@
 ! Title: 亀フィルタ（ウイルスサイトブロック）
 ! Description: ウイルスサイトをブロックする
 !
-! Last modified: 2018/11/02 12:00 JST
+! Last modified: 2018/11/24 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/kame.html
 
@@ -72,6 +72,9 @@
 
 !イタズラ：900MBの巨大な画像
 ||www.noao.edu/image_gallery/images/d7/cygloop.jpg
+
+!イタズラ：10GBの巨大な画像
+||www.dropbox.com/s/gm5jnh7o6wx8643/TIME%26SPACE_10GB.gif
 
 !このサイトやばいほど重いよ
 !http://egg.5ch.net/test/read.cgi/software/1519004649/579

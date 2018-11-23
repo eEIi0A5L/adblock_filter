@@ -337,6 +337,16 @@ headlines.yahoo.co.jp,news.yahoo.co.jp##div[id^="spocon"]
 !https://news.yahoo.co.jp/pickup/6272803
 ||tidaltv.com^
 
+![Yahoo]
+!俺もヤフーニュースのページが激しくお漏らしするようになった
+!これはおまかんなのか・・・それとも何らかの変更か・・・
+!フィルターに造詣が深い方からのサポートを希望いたします
+!http://egg.5ch.net/test/read.cgi/software/1540428057/142
+!http://egg.5ch.net/test/read.cgi/software/1540428057/150
+!||yimg.*/images/media/video/player/
+
+
+
 !その他ネットワーク通信ログからad関連の通信をブロック
 ||ib.adnxs.com^
 
