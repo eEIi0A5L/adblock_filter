@@ -395,17 +395,6 @@ www.pixiv.net##._premium-lead-tag-search-bar
 !http://egg.5ch.net/test/read.cgi/software/1515404854/681-685
 !www.pixiv.net##div:if(> figure:has-text(名無しさん))
 
-![pixiv]
-!pixivコミック https://comic.pixiv.net/ の作品の
-!例えば「先生もネット世代」 https://comic.pixiv.net/viewer/stories/47120
-!の画面下にある紺色の帯(+ ← 1/10 ... x戻る)を消す方法を教えて下さい。
-!またモンスターコミックスの、例えば 「クラスごと集団転移しましたが、...」
-!http://futabasha.pluginfree.com/weblish/futabawebact/Classgoto_001/index.shtml
-!の上帯の消し方もお願いします。
-!http://egg.5ch.net/test/read.cgi/software/1540428057/147
-!comic.pixiv.net##.footer
-!futabasha.pluginfree.com###bMB1
-
 
 
 !OKwave

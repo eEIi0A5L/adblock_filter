@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 22 Nov 2018 12:00 JST
+! Last modified: 24 Nov 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -713,6 +713,9 @@ ch.nicovideo.jp##.ads_list_area
 !ニコニコ大百科
 dic.nicovideo.jp##.ad-bannar-maincolumn-top
 dic.nicovideo.jp##.box + img + div
+!広告を消した後の跡地
+dic.nicovideo.jp##div[style="text-align:center; height:250px; width:300px; margin:0 0 4px 0;"]
+||dic.nicovideo.jp/ad-bannar-maincolumn-top.css
 
 !Twitch
 !twitchでカウントが増え続ける問題の解法
