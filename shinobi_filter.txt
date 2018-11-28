@@ -4,20 +4,13 @@
 ! Last modified: 29 Nov 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/
+! https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/shinobi_filter.txt
 ! 
-! 
 
 
-
-
-
-
-
-
-
-
-
-
+!
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/90-99
+!
 
 
 masa-mune.jp##DIV[style="display: inline-block; position: relative; z-index: 9999;"]
