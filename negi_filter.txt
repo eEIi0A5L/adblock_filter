@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2018/10/11 12:00 JST
+! Last modified: 2018/12/03 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/negi.html
 
@@ -121,7 +121,15 @@ shopping.yahoo.co.jp##div[style="position:fixed; top:100px; right:0;"]
 shopping.yahoo.co.jp##.mdFloatingButton
 shopping.yahoo.co.jp###msthd > .elAccount > li > span.elRegistration
 !Yahooショッピング右下のお知らせを含むcrmのブロック
-||s.yimg.jp/images/commerce/js/service/shp/crm/crm1.6.js
+!||s.yimg.jp/images/commerce/js/service/shp/crm/crm1.6.js
+!Yahooショッピング
+!右下にぴょこっとでてくるボックス
+!1.6→1.7になった
+!||s.yimg.jp/images/commerce/js/service/shp/crm/crm1.7.js
+!||s.yimg.jp/images/commerce/js/service/shp/crm/crm$script
+!js/フォルダ以下だから$scriptの判定は不要だと思われるので下記で様子をみる
+||s.yimg.jp/images/commerce/js/service/shp/crm/crm
+
 !カート削除
 shopping.yahoo.co.jp##.mdCartAnchorLink
 auctions.yahoo.co.jp###js-PromotionFrame

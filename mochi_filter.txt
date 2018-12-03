@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 29 Nov 2018 12:00 JST
+! Last modified: 03 Dec 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -1619,6 +1619,7 @@ superuser.com###herobox
 superuser.com##.feed-icon
 superuser.com##.adzerk-vote
 ja.stackoverflow.com##.everyonelovesstackoverflow
+stackoverflow.com###dfp-tlb
 
 !wikiwiki.jp
 wikiwiki.jp##div[id^="div-gpt-ad"]
@@ -1650,6 +1651,8 @@ www.msn.com###eubanner
 ||shinobi.jp/img/services/admaxdsp/static/javascripts/trac.js
 ||shinobi.jp/assault?
 ||asumi.shinobi.jp/fire?
+!忍びサイトで一定期間放置された時の広告
+^__sys__inactive_message.js|
 
 !so-net
 blog.so-net.ne.jp###seesaa-bnr

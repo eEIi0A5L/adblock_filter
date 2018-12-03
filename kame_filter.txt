@@ -2,7 +2,7 @@
 ! Title: 亀フィルタ（ウイルスサイトブロック）
 ! Description: ウイルスサイトをブロックする
 !
-! Last modified: 2018/11/24 12:00 JST
+! Last modified: 2018/12/03 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/kame.html
 
@@ -110,6 +110,13 @@
 !Virus
 !https://malwaretips.com/blogs/remove-trustednotice-news/
 ||trustednotice.news^
+
+!詐欺サイトへ誘導するページ
+!http://lg-food.com/otaacw1/wzb9aat.php?uzsziiudv=firefox-ios-adblock.txt
+!http://7hdfilm.xyz/zbeiult/uvs3fac.php?uzsziiudv=janrain-ios-api.txt
+||lg-food.com^
+||7hdfilm.xyz^
+
 
 
 
