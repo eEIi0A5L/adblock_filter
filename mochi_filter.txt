@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 03 Dec 2018 12:00 JST
+! Last modified: 08 Dec 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -230,10 +230,11 @@ www.yahoo.co.jp###commercebox
 !なにか空白がでた
 www.yahoo.co.jp###bpComposite
 
-!Yahooトップのカード入会
+!!Yahooトップのカード入会
+!→カード利用者もいるので出す。
+!!www.yahoo.co.jp##.Personalbox__noticeItem--card
+!!www.yahoo.co.jp###personalbox > .Personalbox__notice > .Personalbox__noticeList > .Personalbox__noticeItem--card
 !www.yahoo.co.jp##.Personalbox__noticeItem--card
-!www.yahoo.co.jp###personalbox > .Personalbox__notice > .Personalbox__noticeList > .Personalbox__noticeItem--card
-www.yahoo.co.jp##.Personalbox__noticeItem--card
 
 !キャラの吹き出し
 www.yahoo.co.jp###js-ninjyo
@@ -1876,7 +1877,8 @@ exblog.jp###yads_pc_overlay
 exblog.jp##a[href^="http://www.dmm.co.jp/dc/pcgame/-/detail/="]
 exblog.jp##a[href^="http://www.dmm.co.jp/pr/dc/pcgame/"]
 
-
+!xdomain
+||ad.xdomain.ne.jp/js/server-php.js
 
 
 !その他
