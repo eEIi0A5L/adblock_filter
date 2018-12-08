@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Yahoo!Japanトップの広告をとにかくブロックするフィルタ
-! Last modified: 16 Mar 2018 12:00 JST
+! Last modified: 09 Dec 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/
 ! 
@@ -20,7 +20,6 @@ www.yahoo.co.jp###multilink-image
 www.yahoo.co.jp###tct
 www.yahoo.co.jp###commercebox
 www.yahoo.co.jp###bpComposite
-www.yahoo.co.jp###personalbox > .Personalbox__notice > .Personalbox__noticeList > .Personalbox__noticeItem--card
 www.yahoo.co.jp###js-ninjyo
 www.yahoo.co.jp###yjidbox
 ||s.yimg.jp/bdv/$domain=www.yahoo.co.jp|news.yahoo.co.jp|headlines.yahoo.co.jp|login.yahoo.co.jp
