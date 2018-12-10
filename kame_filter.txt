@@ -2,7 +2,7 @@
 ! Title: 亀フィルタ（ウイルスサイトブロック）
 ! Description: ウイルスサイトをブロックする
 !
-! Last modified: 2018/12/03 12:00 JST
+! Last modified: 2018/12/11 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/kame.html
 
@@ -60,7 +60,8 @@
 !エロサイトでCPUが100%はりつきになる悪質広告が増加中 [無断転載禁止]©2ch.net [835453343]
 !https://leia.2ch.net/test/read.cgi/poverty/1504497294/
 ||www.support.microsoft21013ajpmschf8356.com.s3-website-ap-northeast-1.amazonaws.com^
-||archive.fo^
+!ウィキぺにごっつあるので解除
+!||archive.fo^
 
 !フィッシング詐欺
 ||linewg.cn^
@@ -117,6 +118,14 @@
 ||lg-food.com^
 ||7hdfilm.xyz^
 
+!Windowsが壊れたとのウソのページが開く
+||d2gpqw290yvvmv.cloudfront.net^
+||www.faragegraphics.com^
+||d1cy6bsvhksfmz.cloudfront.net^
+||sanjayrout.com^
+
+!広告誘導
+||www.imaginetechservices.xyz^
 
 
 
