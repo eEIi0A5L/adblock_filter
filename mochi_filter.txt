@@ -715,7 +715,7 @@ live.nicovideo.jp##.billboard-ad
 www.nicovideo.jp##div[data-ads-header-banner]
 !ニコニコインフォ
 blog.nicovideo.jp###web_pc_prime
-ニコニコブロマガ/コメント下部のバナー(の残骸)
+!ニコニコブロマガ/コメント下部のバナー(の残骸)
 ch.nicovideo.jp##.ads_list_area
 
 !ニコニコ大百科

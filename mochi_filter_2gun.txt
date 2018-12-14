@@ -1313,7 +1313,7 @@ tr3.21143.p21.justsv.com##a[href="http://kda11.info/cs2/684/"]
 ||i0.wp.com/slowdn.net/contents/photos/017144_ultrahair.jpg
 
 !http://hmatome.000a.biz
-https://i0.wp.com/ad.duga.jp/
+||i0.wp.com/ad.duga.jp^
 ||ad.duga.jp^
 ||hmatome.000a.biz^$inline-script
 
