@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 14 Dec 2018 00:00 JST
+! Last modified: 18 Dec 2018 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -685,6 +685,7 @@ facebook.com##.userContentWrapper:has(a[href*="/ads/"])
 facebook.com###stream_pagelet div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
 facebook.com##div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has([id^="feed_subtitle_"] > span[class][role=presentation] + span[class]:matches-css(display: none))
 facebook.com##div[id^="hyperfeed_story_id_"]:has(div[id*="feed_subtitle_"] > span:matches-css(display: none):has(abbr .timestampContent))
+www.facebook.com##.post-ads
 
 !ニコ動＋ニコ生（く）2018.6.28
 ||ads.adjust-net.jp^

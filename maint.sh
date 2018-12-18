@@ -42,6 +42,7 @@ function main()
 	for i in *.txt; do
 		#echo $i
 		sub $i
+		echo
 	done
 }
 main
