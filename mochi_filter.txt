@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 18 Dec 2018 00:00 JST
+! Last modified: 21 Dec 2018 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -718,6 +718,8 @@ www.nicovideo.jp##div[data-ads-header-banner]
 blog.nicovideo.jp###web_pc_prime
 !ニコニコブロマガ/コメント下部のバナー(の残骸)
 ch.nicovideo.jp##.ads_list_area
+!上部巨大な広告欄
+live2.nicovideo.jp##aside[class^="___billboard-ad___"]
 
 !ニコニコ大百科
 dic.nicovideo.jp##.ad-bannar-maincolumn-top
