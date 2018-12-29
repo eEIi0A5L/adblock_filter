@@ -82,7 +82,7 @@ www.google.co.jp##li[data-hveid]:has(> div.ads-ad)
 !www.google.co.jp,www.google.com###taw
 www.google.co.jp,www.google.com##.commercial-unit-mobile-bottom
 www.google.co.jp,www.google.com###tvcap
-www.google.co.jp,www.google.com##div[id]:if(> ol > li.ads-ad)
+www.google.co.jp,www.google.com##div[id]:has(> ol > li.ads-ad)
 www.google.co.jp,www.google.com###tads
 www.google.co.jp,www.google.com###tadsb
 www.google.co.jp,www.google.com##.ads-ad
@@ -1122,7 +1122,7 @@ news4vip.livedoor.biz###article-contents > b a
 !オレ的ゲーム速報@刃
 jin115.com##.btn-ldb-bottomAdd
 ||images-fe.ssl-images-amazon.com/images/$domain=jin115.com
-jin115.com##table:if( img[src^="https://images-fe.ssl-images-amazon.com"])
+jin115.com##table:has( img[src^="https://images-fe.ssl-images-amazon.com"])
 
 !まとめサイト速報＋
 matome-plus.com##.amazontotalboxtest
@@ -1298,7 +1298,7 @@ blog.livedoor.jp###article-contents > .link2
 ||st.shinobi.jp/img/analyze/s.gif
 ||tudura.com^
 ||counter1.fc2.com^
-llabtooflatot.blog102.fc2.com##center:if(> ins.adsbygoogle)
+llabtooflatot.blog102.fc2.com##center:has(> ins.adsbygoogle)
 !END--------------------------------------------------------------------
 
 

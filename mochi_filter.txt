@@ -666,11 +666,11 @@ twitter.com##li.has-profile-promoted-tweet
 !facebook
 ||pixel.facebook.com^
 facebook.com##div[id^="substream_"] > div > div[id] div[id^="hyperfeed_story_id_"]:has(div._5pcp._5lel > span > div > div > a[href="#"])
-facebook.com##div[id^="hyperfeed_story_id_"]:if(span._4dcu)
-facebook.com##div[id^="hyperfeed_story_id_"]:if(a[href*="is_sponsored"])
-facebook.com##div[data-testid="fbfeed_story"]:if(a[href*="[is_sponsored]"])
+facebook.com##div[id^="hyperfeed_story_id_"]:has(span._4dcu)
+facebook.com##div[id^="hyperfeed_story_id_"]:has(a[href*="is_sponsored"])
+facebook.com##div[data-testid="fbfeed_story"]:has(a[href*="[is_sponsored]"])
 facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
-facebook.com##div[data-testid="fbfeed_story"]:if(a[href*="[is_sponsored]"])
+facebook.com##div[data-testid="fbfeed_story"]:has(a[href*="[is_sponsored]"])
 ||facebook.com/common/scribe_endpoint.php
 facebook.com##.AdBox
 ||www.facebook.com/sem_campaigns/sem_pixel_test/?
@@ -679,7 +679,7 @@ facebook.com##.AdBox
 @@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
 facebook.com##.userContentWrapper:has-text(Suggested)
 facebook.com###stream_pagelet > #pagelet_megaphone
-facebook.com##div[id^="hyperfeed_story_id_"]:if(div[id^="feed_subtitle_"] > span > div > a[class*="_"][href="#"])
+facebook.com##div[id^="hyperfeed_story_id_"]:has(div[id^="feed_subtitle_"] > span > div > a[class*="_"][href="#"])
 facebook.com##div[id^="substream_"] div[id^="hyperfeed_story_id"]:has(a.uiStreamSponsoredLink)
 facebook.com##.userContentWrapper:has(a[href*="/ads/"])
 facebook.com###stream_pagelet div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)

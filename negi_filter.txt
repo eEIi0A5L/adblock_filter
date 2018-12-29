@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2018/12/11 00:00 JST
+! Last modified: 2018/12/24 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/negi.html
 
@@ -23,16 +23,17 @@ www.nicovideo.jp##.Marquee-item
 ||nicovideo.jp/marquee/
 !時報
 ||nicovideo.cdn.nimg.jp/html5jiho/
-
 !ニコニコ動画最後のこの動画はご覧のユーザーの皆様が応援しています
 !http://egg.5ch.net/test/read.cgi/software/1524667609/106
 !||api.nicoad.nicovideo.jp/v1/contents/video/*/thanks
 !||nicovideo.cdn.nimg.jp/web/scripts/pages/watch/assets/uad.mp3
-
 !ニコ生ザッピング欄
 !live2.nicovideo.jp##div[class^="___player-foot-area"]
-
-
+!マイページのバナー
+||nicovideo.cdn.nimg.jp/uni/img/zero_my/bnr_2018xmas_before.png
+||nicovideo.cdn.nimg.jp/uni/img/zero_my/bnr_
+!マイページ右上のバナー
+||nicovideo.cdn.nimg.jp/uni/img/zero_my/bnr_premium2018.png
 
 !Google
 !ポップアップ「こちらによくアクセスする方は Google をホームページに」
@@ -59,8 +60,8 @@ www.google.co.jp,www.google.com##.pdp-psy
 !"Looking for results in English? 引き続き日本語を使用"
 www.google.co.jp,www.google.com###sbfrm_l + div
 !「他の人はこちらも検索」を消す
-!www.google.co.jp,www.google.com##div[jsl][data-ved]:if(h4:has-text(People also search for))
-!www.google.co.jp,www.google.com##div[jsl][data-ved]:if(h4:has-text(他の人はこちらも検索))
+!www.google.co.jp,www.google.com##div[jsl][data-ved]:has(h4:has-text(People also search for))
+!www.google.co.jp,www.google.com##div[jsl][data-ved]:has(h4:has-text(他の人はこちらも検索))
 !www.google.com,www.google.co.jp##.exp-outline
 !googleの右上に出てくる「プライバシー診断を受けて、設定をチェックしよう」
 !www.google.com,www.google.co.jp##div[role="dialog"][style="behavior:url(#default#userData)"]
@@ -89,17 +90,17 @@ abema.tv##:xpath(//img[@alt="オススメ"]/parent::div/parent::div/parent::div/
 !お使いのブラウザは推奨環境外のため、正しく動画が再生されない可能性があります。快適に視聴するために、最新版のGoogle Chromeをご利用ください。
 !abema.tv##.pw_e
 abema.tv##:xpath(//p[contains(text(), "お使いのブラウザは推奨環境")]/parent::div/parent::div)
-!:ifで書き直した
-!→:ifの方が重いような気がするのでやめた。
-!abema.tv##div:if(> div > p:has-text(お使いのブラウザは推奨環境))
-!abema.tv##div#main > div > div + header + div:if(> div > p:has-text(お使いのブラウザは推奨環境))
+!:hasで書き直した
+!→:hasの方が重いような気がするのでやめた。
+!abema.tv##div:has(> div > p:has-text(お使いのブラウザは推奨環境))
+!abema.tv##div#main > div > div + header + div:has(> div > p:has-text(お使いのブラウザは推奨環境))
 !abema.tv##:xpath(//span[contains(text(), "最大4ヶ月プレミアムプランが実質無料")]/parent::p/parent::a/parent::h1)
-!abema.tv##h1:if(> a > p > span:has-text(最大4ヶ月プレミアムプランが実質無料))
-!abema.tv##div#main div > main > div > section > h1:if(> a > p > span:has-text(最大4ヶ月プレミアムプランが実質無料))
+!abema.tv##h1:has(> a > p > span:has-text(最大4ヶ月プレミアムプランが実質無料))
+!abema.tv##div#main div > main > div > section > h1:has(> a > p > span:has-text(最大4ヶ月プレミアムプランが実質無料))
 abema.tv##:xpath(//span[contains(text(), "詳細をみる")]/parent::p/parent::a)
 abema.tv##:xpath(//span[contains(text(), "詳細を見る")]/parent::p/parent::a)
 !Abema次のビデオ
-!abema.tv##div[class]:if(> div > a[href$="?next=true"])
+!abema.tv##div[class]:has(> div > a[href$="?next=true"])
 
 !Yahoo!Japan
 yahoo.co.jp###promoarea
@@ -408,7 +409,7 @@ archive.org###donate_banner
 www.pixiv.net##._premium-lead-tag-search-bar
 !pixivから指定ユーザを消す
 !http://egg.5ch.net/test/read.cgi/software/1515404854/681-685
-!www.pixiv.net##div:if(> figure:has-text(名無しさん))
+!www.pixiv.net##div:has(> figure:has-text(名無しさん))
 
 
 

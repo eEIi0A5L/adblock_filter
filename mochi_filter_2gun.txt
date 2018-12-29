@@ -105,7 +105,7 @@ news4vip.livedoor.biz##.google-2ad
 ||pc.tunnel-vision.info/js/tad.js
 ||cs.gssprt.jp^
 ||js.click-plus.net^
-!news4vip.livedoor.biz##.article-body-more > b:if(> a)
+!news4vip.livedoor.biz##.article-body-more > b:has(> a)
 
 
 
@@ -679,7 +679,7 @@ momokuroz.2chblog.jp##div[id^="_tangan_"]
 anihatsu.com##.pickup-link
 
 !非常識＠なんJ http://absurd.blogo.jp
-absurd.blogo.jp##.headlinerss:if(iframe[src="http://absurd.blogo.jp/imghl0.html"])
+absurd.blogo.jp##.headlinerss:has(iframe[src="http://absurd.blogo.jp/imghl0.html"])
 absurd.blogo.jp##.rss13
 absurd.blogo.jp##.google-2ad
 
@@ -983,7 +983,7 @@ baseballdays.officialblog.jp##span[style="font-weight: bold; font-size: 16px; te
 ||st.shinobi.jp/img/analyze/s.gif
 ||tudura.com^
 ||counter1.fc2.com^
-llabtooflatot.blog102.fc2.com##center:if(> ins.adsbygoogle)
+llabtooflatot.blog102.fc2.com##center:has(> ins.adsbygoogle)
 !END--------------------------------------------------------------------
 
 

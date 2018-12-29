@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち系全フィルタ（全部入り）
-! Last modified: 09 Feb 2018 12:00 JST
+! Last modified: 09 Feb 2018 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/
 

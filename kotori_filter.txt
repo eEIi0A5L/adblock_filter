@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ことりフィルタ（SNSボタンブロック）
-! Last modified: 21 Sep 2018 12:00 JST
+! Last modified: 30 Dec 2018 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/kotori.html
 ! 
@@ -31,6 +31,20 @@
 ||www.facebook.com/tr/?id=
 ||www.facebook.com^$domain=~facebook.com
 
+!2018.11.01から
+!ことり
+!https://www.newsweekjapan.jp/stories/world/2018/10/frb5.php
+!facebook
+||connect.facebook.net/ja_JP/all.js
+||taticxx.facebook.com/connect/xd_arbiter
+||graph.facebook.com/?callback=jsonp
+||graph.facebook.com/?ids=
+
+!http://lastresort-ie.com/onnetu/air/127
+||graph.facebook.com/?callback=jQuery
+||badge.facebook.com/badge/
+||api.b.st-hatena.com/entry.count
+
 !twitterボタンの表示が遅いので消す
 !これはitmediaのツイッター画像埋め込み表示で必要なので許可する
 !	https://platform.twitter.com/js/tweet.08991409fe8c7862c0aa5cc77e44569a.js
@@ -48,6 +62,8 @@
 !http://news4vip.livedoor.biz/archives/52259560.htmlで、http://cdn.b.st-hatena.com/images/users/gif/normal/00000.gifがブロックされてしまうので、コメント化。2018.1.4
 !||b.st-hatena.com$domain=~hatena.ne.jp|~hatenablog.jp
 ||b.st-hatena.com/js/bookmark_button.js
+!はてな
+||b.hatena.ne.jp/entry.count?url=
 
 !google+の数字をブロック
 ||apis.google.com/js/platform.js$third-party

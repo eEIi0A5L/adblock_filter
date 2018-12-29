@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎ：Googleのロゴを消すフィルタ
-! Last modified: 27 Mar 2018 12:00 JST
+! Last modified: 27 Mar 2018 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/google_hplogo_block.html
 ! 
