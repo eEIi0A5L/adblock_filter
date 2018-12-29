@@ -32,6 +32,12 @@ function sub()
 		if [[ $line =~ \#@\# ]]; then
 			continue
 		fi
+		if [[ $line =~ \|$ ]]; then
+			continue
+		fi
+		if [[ $line =~ \$\/ ]]; then
+			continue
+		fi
 		#echo "[$line]"
 		echo "$line"
 	done < $FILE
