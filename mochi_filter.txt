@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 21 Dec 2018 00:00 JST
+! Last modified: 09 Jan 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -1697,6 +1697,9 @@ gigazine.net###EndFooter
 ||i.gzn.jp/images/
 gigazine.net###G_EF2ND
 gigazine.net###G_EF
+!gigazine
+!関連コンテンツの広告BOX、下記で消えるが表示がずれてしまう
+!gigazine.net##li.rl-list-item:has(> div[id^="div-gpt-ad-"])
 
 !excite
 excite.co.jp##.yadsOverlay

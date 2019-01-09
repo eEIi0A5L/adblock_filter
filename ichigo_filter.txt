@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 05 Dec 2018 00:00 JST
+! Last modified: 09 Jan 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -420,6 +420,9 @@ thisav.com###share_to
 ||areyouahuman.com^$third-party
 /:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$third-party,script
 /cdn-cgi/apps/head/$first-party,script
+||icapabloidsety.club^$third-party
+||9nwg9sib9e.com^
+||trafficshop.com^$third-party,popup
 
 !movie.eroterest.net
 ||eroimg.net/images/kok/u-next_300250.gif
@@ -609,6 +612,7 @@ av01.tv###ad-video-page
 av01.tv###back-to-top
 av01.tv###overlay-advertising
 www.av01.tv##.ad-body
+@@||googletagmanager.com^$third-party,domain=www.av01.tv
 
 !http://www.minnano-av.com/
 ||www.minnano-av.com/top_center_bn/pc_new_ban/sidebar_bn.html
@@ -652,6 +656,9 @@ openload.co##script:inject(abort-current-inline-script.js, adblock, adblock2)
 ||realtime.services.disqus.com^
 ||djv99sxoqpv11.cloudfront.net^
 ||smothere.pro^$third-party
+||newsupdatewe.info^$third-party
+||r18.com^$third-party,domain=~japanhub.net
+||siterdm.com^$third-party
 
 !javdoe
 ||d31qbv1cthcecs.cloudfront.net^
