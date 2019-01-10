@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 05 Jan 2019 00:00 JST
+! Last modified: 09 Jan 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -1569,6 +1569,7 @@ kinisuru.com##.a2a_floating_style
 ||adforce^
 ||adid^
 ||adjust.com^
+||adntokyo.gunosy.com^
 ||ads.as.criteo.com^
 ||ads.mopub.com^
 ||ads.nicovideo.jp^
@@ -1581,11 +1582,14 @@ kinisuru.com##.a2a_floating_style
 ||api.bucketeer.jp^
 ||api.leanplum.com^
 ||app-measurement.com^
+||assets.gunosy.com/adnet/GunosyAdsSDK.async.js^
+||assets.gunosy.com/adnet/GunosyAdsSDK.js^
 ||assets.remerge.io^
 ||assets.ucontent.net^
 ||banner.dspcdn.com^
 ||bcp.crwdcntrl.net^
 ||betrad.com^
+||bidder.criteo.com/cdb^
 ||build-cdn.liftoff.io^
 ||cat.jp.as.criteo.com^
 ||cd.ladsp.com^
@@ -1593,6 +1597,7 @@ kinisuru.com##.a2a_floating_style
 ||cdn.liftoff.io^
 ||cdp.cloud.unity3d.com^
 ||control.smbeat.jp^
+||creatives.gunosy.com/images^
 ||csm.jp.as.criteo.net^
 ||d1jh13j6azkbbi.cloudfront.net^
 ||d3py17yaayq4xi.cloudfront.net^
@@ -1600,6 +1605,7 @@ kinisuru.com##.a2a_floating_style
 ||dev.appboy.com^
 ||dl61.y2mate.com^
 ||ds.adapf.com^
+||e.crashlytics.com^
 ||frontier.byteoversea.com^
 ||gce-jp.bidswitch.net^
 ||goldspotmedia^
@@ -1614,6 +1620,7 @@ kinisuru.com##.a2a_floating_style
 ||img.applovin.com^
 ||img.macromill.com^
 ||img.oct-pass.net^
+||imp-adedge.i-mobile.co.jp^
 ||imp.oct-pass.net^
 ||impression-asia.liftoff.io^
 ||k.smartcanvas.net^
@@ -1626,6 +1633,7 @@ kinisuru.com##.a2a_floating_style
 ||nend.net^
 ||nrtprod-rtbwin.applovin.com^
 ||ocsp.digicert.com^
+||p.adsymptotic.com/d/px^
 ||pagead#.googlesyndication.com^
 ||pagead2.googleadservices.com^
 ||prod-a.applovin.com^
@@ -1641,6 +1649,10 @@ kinisuru.com##.a2a_floating_style
 ||socdm.com^
 ||spad^
 ||spad.i-mobile.co.jp^
+||spnativeapi.i-mobile.co.jp/api/ad_imp_count.ashx^
+||spnativeapi.i-mobile.co.jp/api/ad_native.ashx^
+||ssp-bidapi.i-mobile.co.jp/ajax/imp/imp_count.ashx^
+||ssp-bidapi.i-mobile.co.jp/jsonp/imp/imp_spot.ashx^
 ||stage-a.applovin.com^
 ||static.criteo.net^
 ||static.eu.criteo.net^
@@ -1662,12 +1674,10 @@ kinisuru.com##.a2a_floating_style
 ||yt.moatads.com^
 ||yt3.ggpht.com^
 ||zucks^
-!# FilterProxy's setting text
-!||.fbcdn.net^
-!/counter/
+!END--------------------------------------------------------------
+
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/54-55
 !||www.gstatic.com^
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/56
-!END--------------------------------------------------------------
 
 ! END

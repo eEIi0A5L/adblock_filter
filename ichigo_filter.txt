@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 09 Jan 2019 00:00 JST
+! Last modified: 11 Jan 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -745,5 +745,24 @@ javpm.com##div[id*="ScriptRootC"]
 ||www.embed.media/asset/default/player/plugins/vast-
 javpm.com##.afs_ads
 ||log.vcdn.io^
+
+!japanhub
+||javhub.net/img/r18_un.jpg
+
+!redtube
+redtube.com##^script:has-text(tj_ads)
+redtube.com##+js(abort-on-property-write.js, rAb)
+redtube.com##+js(abort-on-property-read.js, _goat)
+redtube.*##+js(pornhub-popup-defuser.js)
+||ht.redtube.com^
+redtube.com##.remove_ads:style(position: absolute!important; left: -3000px!important;)
+redtube.com##.tja:style(position: absolute!important; left: -3000px!important;)
+redtube.com##.video-listing.two-in-row > li.first-in-row:nth-child(4n-1):style(clear: none !important; margin-left: 25px !important;)
+redtube.com##.video-listing.two-in-row:style(width: 100% !important;)
+redtube.com##.video_left_section > .hd .subtxt:style(position: absolute!important; left: -3000px!important;)
+redtube.com###ab_banner
+redtube.com###content_container > .show_page_modals + div
+redtube.com###content_container > div[class]:not(.show_page_modals):not([id]):not([style])
+redtube.com###pb_block
 
 ! END

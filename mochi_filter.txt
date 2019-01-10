@@ -1797,7 +1797,10 @@ www.pixiv.net##.multi-ads-area
 ||ads.doko.jp^
 ||d.pixiv.org/file?format=default&ad_group_id=
 www.pixiv.net##section.ad
-
+!http://egg.5ch.net/test/read.cgi/software/1540428057/307-313
+!www.pixiv.net##a[target="premium_noads"]:has-text(広告を消す)
+www.pixiv.net##a[href="/premium/lead/lp?g=anchor&i=work_detail_remove_ads"]
+||pixon.ads-pixiv.net^
 
 
 !imgur
