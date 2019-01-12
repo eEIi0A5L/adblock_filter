@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 11 Jan 2019 00:00 JST
+! Last modified: 13 Jan 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -80,6 +80,9 @@ javfor.me##.adv
 ||javfor.me/actress/$inline-script
 !||javfor.me^$inline-script
 ||javfor.me##script:contains(window.open)
+!右はうざいので全部消す
+!||javfor.me/static/channel_img/channel-paradise_tv-460x250.jpg
+javfor.me###player-row-right
 
 !おらばうと
 ||puhtml.com^
@@ -603,6 +606,7 @@ avgle.com##script:inject(set-constant.js, checkThings, trueFunc)
 ||static.hotjar.com^
 
 !av01
+!コンテンツブロックをOFFにすること
 @@/wp-content/plugins/google-analytics-for-wordpress/$first-party,script
 ||mediad2.jp^
 ||genieessp.com^
@@ -764,5 +768,22 @@ redtube.com###ab_banner
 redtube.com###content_container > .show_page_modals + div
 redtube.com###content_container > div[class]:not(.show_page_modals):not([id]):not([style])
 redtube.com###pb_block
+
+!bejav
+bejav.net##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display:block!important;)
+||ootqfqjhzfrtn.com^$third-party
+||sosbyncpkyw.com^$third-party
+bejav.net##.ads-sidebar
+bejav.net##.ads-square
+bejav.net##.glyphicon-arrow-up
+fembed.com##+js(abort-on-property-read.js, decodeURI)
+fembed.com##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
+fembed.com##+js(disable-newtab-links.js)
+fembed.com##+js(setInterval-defuser.js, (), 500)
+
+!xvideo-jp.com
+||muryouav.avximg.com/2019-01/upload/b0b430c31430a5bca89e175b91f28e8861812745.gif
+||event2.xvideo-jp.com/dmm_campaign.php
+xvideo-jp.com##.pc-ranking
 
 ! END

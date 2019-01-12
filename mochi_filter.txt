@@ -1801,6 +1801,10 @@ www.pixiv.net##section.ad
 !www.pixiv.net##a[target="premium_noads"]:has-text(広告を消す)
 www.pixiv.net##a[href="/premium/lead/lp?g=anchor&i=work_detail_remove_ads"]
 ||pixon.ads-pixiv.net^
+!http://egg.5ch.net/test/read.cgi/software/1540428057/314-315
+!www.pixiv.net##section + a[rel="noopener"][class^="sc-"][href^="/member_illust.php?"]
+!http://egg.5ch.net/test/read.cgi/software/1540428057/316-317
+!www.pixiv.net###root > div > div > div > div > div[class^="sc-"]:first-child
 
 
 !imgur
