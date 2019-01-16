@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 09 Jan 2019 00:00 JST
+! Last modified: 14 Jan 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -93,6 +93,8 @@ twitter.com##.promoted-trend
 !モバイル版では上記のクラス名がランダム化されてるので下記で代用する
 mobile.twitter.com##div[role="article"]:has-text(によるプロモーション)
 mobile.twitter.com##div[role="article"]:has-text(Promoted by)
+twitter.com##div[aria-label="タイムライン: ホームタイムライン"] > div > div > div:if( svg[viewbox] + div:has-text(プロモーション) )
+twitter.com##div[aria-label="Timeline: Your Home Timeline"] > div > div > div:if( svg[viewbox] + div:has-text(Promoted) )
 !未ログインで見てるとログインを促す全画面ポップアップ
 mobile.twitter.com##header[role="banner"] + div > div
 ||pbs.twimg.com/ad_img/
