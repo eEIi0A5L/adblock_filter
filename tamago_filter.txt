@@ -89,6 +89,7 @@ www.google.co.jp,www.google.com##.ads-ad
 www.google.co.jp,www.google.com##.ads-fr
 !↓Google検索結果の広告が消えない。最後の神頼み（ニュースも消えます）
 www.google.co.jp,www.google.com###main > div[data-hveid]
+google.*###main > div[data-hveid]:has(a[data-al])
 
 !Twitter
 twitter.com##.promoted-tweet
