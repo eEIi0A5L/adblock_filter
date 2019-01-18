@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 13 Jan 2019 00:00 JST
+! Last modified: 18 Jan 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -422,7 +422,7 @@ thisav.com###share_to
 ||goo.gl^$popup,domain=thisav.com
 ||areyouahuman.com^$third-party
 /:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$third-party,script
-/cdn-cgi/apps/head/$first-party,script
+!/cdn-cgi/apps/head/$first-party,script
 ||icapabloidsety.club^$third-party
 ||9nwg9sib9e.com^
 ||trafficshop.com^$third-party,popup
@@ -537,7 +537,7 @@ javfinder.is##.row > .col-xs-12:first-child
 ||b54m4qbmt0b9.com^
 javfinder.is##[id*="ScriptRoot"]
 javfinder.is##div[id*="ScriptRootC"]
-.com/?zoneid=$popup
+.com/?zoneid=$popup,domain=javfinder.is
 ||trafficjunky.com^$third-party
 ||k77hof1z7k.com^$third-party
 ||google-analytics.com/analytics.js$important,script,domain=javfinder.is
@@ -607,7 +607,7 @@ avgle.com##script:inject(set-constant.js, checkThings, trueFunc)
 
 !av01
 !コンテンツブロックをOFFにすること
-@@/wp-content/plugins/google-analytics-for-wordpress/$first-party,script
+@@/wp-content/plugins/google-analytics-for-wordpress/$first-party,script,domain=av01.tv
 ||mediad2.jp^
 ||genieessp.com^
 @@||av01.tv/wp-content/themes/wp-script-theme/vendor/*/trigger_video_hls.js
