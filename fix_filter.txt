@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: 14 Dec 2018 00:00 JST
+! Last modified: 18 Jan 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/fix.html
 ! 
@@ -200,5 +200,7 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 !http://egg.5ch.net/test/read.cgi/software/1540428057/218
 @@||nicoad.nicovideo.jp^
 
+!Easyに入ってまった
+@@||nicoad.nicovideo.jp^
 
 ! END

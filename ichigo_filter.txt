@@ -798,4 +798,12 @@ fembed.com##+js(setInterval-defuser.js, (), 500)
 ||event2.xvideo-jp.com/dmm_campaign.php
 xvideo-jp.com##.pc-ranking
 
+!loveh.org
+||cdn.alistcloud.com/adsv/serving.js
+!||drrcckbju3nd0.cloudfront.net/v0/serving?sid=5092&cbf=__alist_adsv.display
+!||drrcckbju3nd0.cloudfront.net/m/imp?sid=5092&adid=
+||drrcckbju3nd0.cloudfront.net^
+||octopuspop.click/ad/pup.js
+
+
 ! END
