@@ -493,7 +493,7 @@ nexusmods.com###ad-right
 ||dmp.springserve.com^
 ||bid.contextweb.com^
 ||googleads.g.doubleclick.net/pagead/
-||ad.doubleclick.net^
+||ad.doubleclick.net^$third-party
 ||ums.adtechus.com^
 ||adsymptotic.com^
 ||us-u.openx.net^
