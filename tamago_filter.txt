@@ -767,7 +767,10 @@ jp.reuters.com##div[data-template="footer"]
 
 
 !映画.com
-||www.googleadservices.com^
+!Googleショッピングで商品クリックで飛べない
+!http://egg.5ch.net/test/read.cgi/software/1540428057/406
+!||www.googleadservices.com^
+||www.googleadservices.com^$domain=eiga.com
 eiga.com##.adBox-a
 eiga.com###rect_ad
 

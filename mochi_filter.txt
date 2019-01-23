@@ -996,8 +996,8 @@ kakakumag.com##.fixedRightAdContainer
 ||thumbnail.image.rakuten.co.jp/@0_gold/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
 !楽天の広告がhttp://hktdouga.blog.jp/で出る
 ||afl.rakuten.co.jp^$domain=~kakaku.com
-||hbb.afl.rakuten.co.jp^
-||hb.afl.rakuten.co.jp^
+||hbb.afl.rakuten.co.jp^$third-party
+||hb.afl.rakuten.co.jp^$third-party
 
 !楽天サイト自体の広告ブロック
 rakuten.co.jp###footer-floating-bnr

@@ -191,7 +191,10 @@ abcnews.go.com##.ad-slot-banner
 abcnews.go.com##.ad-wrapper
 ||stats.pusher.com^
 ||merlin.abc.go.com^
-||www.googleadservices.com^
+!Googleショッピングで商品クリックで飛べない
+!http://egg.5ch.net/test/read.cgi/software/1540428057/406
+!||www.googleadservices.com^
+||www.googleadservices.com^$domain=abcnews.go.com
 ||s.abcnews.com/assets/js/prebid.min.js
 abcnews.go.com##.ad_300
 
