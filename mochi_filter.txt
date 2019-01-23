@@ -763,7 +763,7 @@ dic.nicovideo.jp##div[style="text-align:center; height:250px; width:300px; margi
 ||sync.ipredictive.com^
 ||scorecardresearch.com^
 ||logger-04.vty.dailymotion.com^
-||doubleclick.net^
+||doubleclick.net^$third-party
 ||beacon.krxd.net^
 ||sync.tidaltv.com^
 !http://egg.5ch.net/test/read.cgi/software/1510382303/625
