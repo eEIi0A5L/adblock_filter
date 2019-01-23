@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 17 Jan 2019 00:00 JST
+! Last modified: 22 Jan 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -89,7 +89,8 @@ www.google.co.jp,www.google.com##.ads-ad
 www.google.co.jp,www.google.com##.ads-fr
 !↓Google検索結果の広告が消えない。最後の神頼み（ニュースも消えます）
 !www.google.co.jp,www.google.com###main > div[data-hveid]
-google.*###main > div[data-hveid]:has(a[data-al])
+!google.*###main > div[data-hveid]:has(a[data-al])
+google.co.jp,google.com###main > div[data-hveid]:has(a[data-al])
 
 !Twitter
 twitter.com##.promoted-tweet
@@ -834,9 +835,6 @@ jbbs.shitaraba.net##.ad-320_50
 ||cdn.carbonads.com^
 greasyfork.org##.ad
 
-!LINEQ
-lineq.jp###floatingAppLauncher
-
 !UrbanDictionary
 www.urbandictionary.com##.ad-panel
 www.urbandictionary.com##.dfp
@@ -1270,14 +1268,6 @@ www.akb48matomemory.com##span[style="font-size: medium;"] > br
 blog.livedoor.jp###article-contents > div[id^="socrun_div_area_socrun_"]
 blog.livedoor.jp###apptemp06
 
-!ダメージ０
-!http://damage0.com/
-damage0.com##.sec_block2
-damage0.com###article_body2
-!damage0.com###article_body
-damage0.com###.ad_fb
-damage0.com###article_body:has(> font > b:has-text(中間おすすめリンク))
-
 
 !芸能★アイドル速報♪♪
 !http://geinou-idolu.com/
@@ -1288,10 +1278,6 @@ damage0.com###article_body:has(> font > b:has-text(中間おすすめリンク))
 !暇つぶしニュース
 !http://blog.livedoor.jp/rbkyn844/
 blog.livedoor.jp###article-contents > .link2
-
-!http://独眼竜ちゃんねる.com/
-独眼竜ちゃんねる.com###news
-独眼竜ちゃんねる.com##.rss-blogroll
 
 
 
@@ -1307,19 +1293,15 @@ blog.livedoor.jp###article-contents > .link2
 ||st.shinobi.jp/img/analyze/s.gif
 ||tudura.com^
 ||counter1.fc2.com^
-llabtooflatot.blog102.fc2.com##center:has(> ins.adsbygoogle)
+llabtooflatot.blog.fc2.com##center:has(> ins.adsbygoogle)
 !END--------------------------------------------------------------------
 
 
 
 
 !まとめ二次--------------------------------------------------------------
-!http://dorfocxgt.chew.jp/
-chew.jp###itro_popup
-chew.jp###itro_opaco
 ||aspm.jp^
-||kaz335b.sakura.ne.jp/banae/quickade.html
-||kaz335b.sakura.ne.jp/banae/spe.html
+
 
 !http://oresamasokuhou.com/
 !価格.comからの楽天への遷移でブロックされてしまうのでその対策に$third-partyをつけた。
@@ -1341,9 +1323,6 @@ buzz-cafe.net###ist_overlay2
 ||ghdnewzealandshopc.com/wp-content/uploads/2018/05/300x250_1-320x267.jpg
 
 
-!http://芸能ニュースまとめ.tokyo/
-||link-a.net^
-芸能ニュースまとめ.tokyo###news
 
 !END--------------------------------------------------------------------
 
@@ -1361,7 +1340,7 @@ buzz-cafe.net###ist_overlay2
 ||cdn-matome.line-apps.com/n/matome_sp/js/nj.matome.innerAd_
 
 !fenrir
-search.fenrir-inc.com##.ch.a_change
+www.sleipnirstart.com##.ch.a_change
 
 !www.pcgamer.com
 www.pcgamer.com##div[style="position: relative; box-sizing: border-box; height: auto; margin: 0px auto 20px; text-align: center; display: block; pointer-events: none; transform: none; width: 300px; background-color: rgb(237, 237, 237); padding-bottom: 10px;"]:has-text(Advertisement)

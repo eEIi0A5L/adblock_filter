@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 18 Dec 2018 00:00 JST
+! Last modified: 22 Jan 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_extended.html
 ! 
@@ -203,7 +203,8 @@ www.afpbb.com###bnr-pc_2nd_rec
 www.afpbb.com##.pr-text
 
 !TIME
-||www.zergnet.com^
+!imdbでAround The Webが空白になる
+!||www.zergnet.com^
 ||d1z2jf7jlzjs58.cloudfront.net^
 ||js-agent.newrelic.com^
 ||cdn.comparecards.com^$domain=fortune.com|time.com
@@ -310,8 +311,8 @@ www.yahoo.com##div[id$="Ad"]
 www.yahoo.com##div[id^="my-ads"]
 www.yahoo.com##div[id^="hl-ad-"]
 www.yahoo.com##.billboard-ads
-gma.yahoo.com###yset-search-upsell-container
-gma.yahoo.com##.ad-wrap
+!gma.yahoo.com###yset-search-upsell-container
+!gma.yahoo.com##.ad-wrap
 ||ads.yahoo.com^
 mg.mail.yahoo.com###slot_MB
 www.yahoo.com###sherlock
@@ -610,10 +611,6 @@ mail.aol.com,www.aol.com,www.aol.jp##.topAd
 mail.aol.com,www.aol.com,www.aol.jp###m-ad__banner
 www.aol.jp###rightContainer
 www.aol.com###m-ad__midpoint
-
-!LINEQ
-||api.unthem.com/js/spad.js?
-lineq.jp##.content_banner_wrap
 
 
 

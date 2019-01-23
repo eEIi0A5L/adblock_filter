@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2018/12/24 00:00 JST
+! Last modified: 2019/01/22 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/negi.html
 
@@ -251,6 +251,8 @@ www.onsen.ag##.recommendProgram
 !||o.8ch.net^
 !すすコインの宣伝
 5ch.net##div > p:has(> a[href="https://susukino.com/"])
+!【おしらせ】私たちはitest用の新しいサムネイルシステムを実装するためのテストを開始します。2018/11/06
+5ch.net##div[style="margin: 0; padding: 2.25em 0 0.25em 0; text-align: center;"] > p:has-text(私たちはitest用の新しいサムネイルシステムを実装するためのテストを開始します)
 
 !クックパッド
 cookpad.com###search_menu_filter > .section > h2.title
@@ -364,6 +366,9 @@ www.indiegala.com##nav.cart-button-fixed
 !wikiaのページ下部のバー
 wikia.com###WikiaBar
 wikia.com###WikiaNotifications
+!→fandom.comへ移行した
+fandom.com###WikiaBar
+fandom.com###WikiaNotifications
 
 !redditのトップのニュースレター購読バナー
 reddit.com##.newsletterbar

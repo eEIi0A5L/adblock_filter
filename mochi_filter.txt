@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 18 Jan 2019 00:00 JST
+! Last modified: 22 Jan 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -1150,11 +1150,7 @@ blog.goo.ne.jp##div[style="height: 70px; position: fixed; z-index: 998; bottom: 
 ||adprivcache.nikkei.com^
 
 !nikkeibp
-||itpro.nikkeibp.co.jp/js/n/itpro/2016/welcome2011.js
-||itpro.nikkeibp.co.jp/js/n/itpro/2016/welcome2011_schedule.js
 ||bizad.nikkeibp.co.jp/NBP_AD/itpro/parts/itp_welcome_schedule.js?
-itpro.nikkeibp.co.jp##.list_G
-itpro.nikkeibp.co.jp##ul.list_G
 
 !-----------------------------------------------------------------------
 !https://natgeo.nikkeibp.co.jp
@@ -1627,6 +1623,12 @@ wikia.com###LEFT_SKYSCRAPER_2
 !ビデオ
 !wikia.com##div[itemprop="video"]
 
+!fandom
+!Wikiaからfandomへ移行された
+fandom.com###top-right-boxad-wrapper
+fandom.com###WikiaTopAds
+fandom.com###WikiaBar
+
 !StackOverflow
 ||ssum-sec.casalemedia.com^
 ||static.adzerk.net^
@@ -1636,6 +1638,7 @@ superuser.com##.feed-icon
 superuser.com##.adzerk-vote
 ja.stackoverflow.com##.everyonelovesstackoverflow
 stackoverflow.com###dfp-tlb
+stackoverflow.com###clc-tlb
 
 !wikiwiki.jp
 wikiwiki.jp##div[id^="div-gpt-ad"]
@@ -1674,7 +1677,7 @@ www.msn.com###eubanner
 blog.so-net.ne.jp###seesaa-bnr
 
 !seesaa
-seesaa.net###seesaa-bnr
+seesaa.jp,seesaa.net###seesaa-bnr
 seesaawiki.jp###seesaa-bnr
 
 !窓の杜で検索したときのgoogle広告
@@ -1741,7 +1744,6 @@ ign.com##.preShell
 jp.ign.com###adkit_billboard
 
 !Tumblr
-dempagumi.dearstage.com##.sticky-lrec-wrapper
 ||www.tumblr.com/assets/src/scripts/tumblr/dashboard/showads.js
 www.tumblr.com##.dfp-ad-container
 www.tumblr.com###sidebar-ad

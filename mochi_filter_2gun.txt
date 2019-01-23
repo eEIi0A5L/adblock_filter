@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 11 Jan 2019 00:00 JST
+! Last modified: 22 Jan 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_2gun.html
 ! 
@@ -533,10 +533,8 @@ monst-sokuhou.blog.jp##.google-2ad-bottom
 !monst-sokuhou.blog.jp##.article-body-more > .t_h:first-child
 
 !億ったー
-!http://okutta.blog.jp/
-okutta.blog.jp##.article-body-inner > .blogroll-channel5
-okutta.blog.jp##.article-body-more > span
-okutta.blog.jp##.article-body-more > span + a
+!http://www.okutta.net
+!（無し）
 
 !〓 ねこメモ 〓
 !http://nekomemo.com/
@@ -717,12 +715,6 @@ nogizaka46matome.2chblog.jp###if_02
 nogizaka46matome.2chblog.jp###if_04
 nogizaka46matome.2chblog.jp##.article-body iframe[src="http://nogizaka46matome.2chblog.jp/rssa.html"]
 
-!http://nomusoku.blomaga.jp
-nomusoku.blomaga.jp##.set100x
-
-!http://kenkomatomei.com
-kenkomatomei.com###quads-ad1
-
 !http://oversea2ch.com/
 oversea2ch.com###more > .blogroll-list-wrap
 
@@ -776,10 +768,6 @@ hanshintigers1.blog.jp##.rss-blogroll3
 coinmatomesokuho.blog.jp###article-rss
 
 
-!芸能｜スポーツニュースまとめ
-!http://khas.sakura.ne.jp
-khas.sakura.ne.jp##div:has(>dd)
-
 !芸能かめはめ波
 !http://geinoukame.blog.fc2.com
 geinoukame.blog.fc2.com##.article > b > font
@@ -805,12 +793,6 @@ mashlife.doorblog.jp##.article-body-inner > br
 !カイカイ反応通信
 !http://blog.livedoor.jp/kaikaihanno/
 ||blog.livedoor.jp/kaikaihanno/js/modernSlider.min.js
-
-!悲報ニュース
-!http://hihounews.com
-hihounews.com##.entry-content > div[style="float:none;margin:10px 0 10px 0;text-align:center;"]
-||blozoo.com^
-||blozoo.info^
 
 !まとめたニュース
 !http://matometanews.com
@@ -859,10 +841,6 @@ chikakb.ldblog.jp##iframe[src="http://chikakb.ldblog.jp/left_amz.html"]
 aramame.net##.bottom-link
 ||aramame.net/wp-content/uploads/2016/12/ad_Zucks_no.5.html
 
-!おもしろニュー速まとめ 
-!http://newsokutop.com/
-newsokutop.com##div[style="padding: 5px; border-radius: 5px; margin: 5px; border: 1px dashed rgb(105, 105, 105); background-color: rgb(255, 255, 255); text-indent: 0px;"]
-
 !最新ゲーム速報！ＦorzaＸboxヾ(。゜▽゜).
 forzaxbox.net##a[href^="http://px.a8.net/"]
 
@@ -904,10 +882,8 @@ nizigami.com##table[style="font-size:12px;text-decoration:none;"]
 !おたくみくす
 otakumix.doorblog.jp##.t_r
 
-!にじいろ＠名無しびより
-||images-fe.ssl-images-amazon.com/images/$domain=niziiro.livedoor.biz
-niziiro.livedoor.biz##iframe[src="http://niziiro.livedoor.biz/nizi.html"]
-||livedoor.blogimg.jp/niziiro315/imgs/5/b/5b86a0ba-s.jpg
+!にじいろびより
+!（無し）
 
 !声優速報
 aniran.blog.jp##div[id^="blz_rss_"]
@@ -1008,11 +984,6 @@ llabtooflatot.blog102.fc2.com##center:has(> ins.adsbygoogle)
 !||blues.plovdivtv.com$popup
 !||luyuan-sp.com$popup
 !!https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-popups
-
-!coco
-!トップページを開いてすぐ表示される全面広告
-!matchwarai.net##^#itro_popup
-!matchwarai.net##^#itro_opaco
 
 !季節ch
 !トップページを開いてすぐ表示される全面広告
@@ -1169,9 +1140,6 @@ guitar.plovdivtv.com##^.modal
 !http://lifecocom.net/
 !||lifecocom.net/iin/wp-content/plugins/itro-popup/scripts/itro-scripts.js
 
-!http://iihana0co.websozai.jp
-!||iihana0co.websozai.jp/zzxd/wp-content/plugins/itro-popup/scripts/itro-scripts.js
-
 !http://kavchanvv.topaz.ne.jp
 !||kavchanvv.topaz.ne.jp/zh7l/wp-content/plugins/itro-popup/scripts/itro-scripts.js
 
@@ -1228,10 +1196,6 @@ sedori.space##.su-animate
 !||sedori.space^$popup
 ||sedori.space^$inline-script
 
-!http://matchwarai.net
-matchwarai.net###kes
-matchwarai.net##div[style="float:none;margin:10px 0 10px 0;text-align:center;"]
-
 !http://ghdnewzealandshopc.com
 ||img.mobee2.jp^$third-party
 
@@ -1251,10 +1215,6 @@ matchwarai.net##div[style="float:none;margin:10px 0 10px 0;text-align:center;"]
 !ポップアップをブロックするには、
 !ルールに下記
 !no-popups: * true
-
-!http://cryptocurrency.ant7.info
-cryptocurrency.ant7.info##a[href^="http://p-salm.jp/ad/"]
-||bann.bitsapo.info/wp-content/uploads/2018/01/dmm300250.jpg
 
 !http://to-katu.com
 ||wp.com/www.gendama.jp/img/
@@ -1289,21 +1249,12 @@ cryptocurrency.sunnyday.jp##.quads-ad3
 !http://servalch.mixh.jp/
 ||wp.com/affiliate.dtiserv.com/
 
-!http://anntena.link/
-!メイン記事にたどり着くまで長すぎる
-anntena.link###news
-
 !http://nogitai.pink
 ||umakei.info/wp-content/uploads/
 nogitai.pink###news
 
 !http://rumor.atz.tokyo/
 ||rumor.atz.tokyo/wp-content/uploads/2018/05/link_gazou_001.jpg
-
-!http://etigo.to-katu.com/
-etigo.to-katu.com###news
-||www.gendama.jp/img/invitation_banner96.gif
-||www.gendama.jp/img/invitation_banner90.gif
 
 !http://tr3.21143.p21.justsv.com/
 ||21143.p21.justsv.com/wp-content/uploads/2017/07/Baidu-IME_2017-7-9_10-15-18.jpg
@@ -1317,11 +1268,6 @@ tr3.21143.p21.justsv.com##a[href="http://kda11.info/cs2/684/"]
 ||ad.duga.jp^
 ||hmatome.000a.biz^$inline-script
 
-!https://hellopro-pro.info/
-||moppy.jp^$third-party
-hellopro-pro.info##a[href^="https://graspaf.net/"]
-hellopro-pro.info###quads-ad1
-
 !http://ghdnewzealandshopc.com/
 ||ghdnewzealandshopc.com/wp-content/uploads/2018/05/300x250_1-320x267.jpg
 
@@ -1332,16 +1278,8 @@ minatwo.info###news
 !http://nogizaka.atz.tokyo
 ||nogizaka.atz.tokyo/wp-content/uploads/2018/05/link_gazou_001.jpg
 
-!http://antena10211636.com
-||trade-gear.s3.amazonaws.com/top/img/check.png
-antena10211636.com##a[href^="https://www.infotop.jp/click.php?"]
-
 !http://ryuchin.com/
 ryuchin.com###news
-
-!http://iihana0co.websozai.jp/
-iihana0co.websozai.jp##.bottom-link
-iihana0co.websozai.jp###kes
 
 !http://mato33.xyz
 !||www.gendama.jp/img/invitation_banner94.gif
@@ -1437,17 +1375,11 @@ pappins.tokyo##script:inject(abort-on-property-write.js, disableSelection)
 !全力疾走
 ||zucks.net.zimg.jp^
 ||zucks.net^
-chew.jp###itro_opaco
-chew.jp###itro_popup
-||kaz335b.sakura.ne.jp/bana/img/smt.jpg
-||kaz335b.sakura.ne.jp/bana/pc.html
 ||ad.angel-live.com^
 ||livedoor.blogimg.jp/darkm/imgs/
 ||img.i2i.jp/all/ad/
 ||adingo.jp/
 ||bibincom.com/ad/
-
-
 
 !startpage.com
 startpage.com###sponsored_csa1
@@ -1525,21 +1457,6 @@ news.kstyle.com##div[style="display:block; width:640px; padding:0; height:253px;
 www.wowkorea.jp##div[style="width:300px;height:250px;"]
 
 
-
-
-
-!http://brow2ing.doorblog.jp
-||www.sbs-jp-ad.com^
-||sbs-jp-ad.com^
-||bannerbridge.net^
-||crwetworks.com^
-||brow2ing.doorblog.jp/slide_ad.js
-doorblog.jp##a[href^="http://moudamepo.com/pick.cgi?code="]
-doorblog.jp##a[href^="http://2ch-c.net/?gt="]
-doorblog.jp##a[href^="http://blog-news.doorblog.jp/archives/"]
-doorblog.jp##a[href^=" http://clcount.com/gunsoku/a3.php?data="]
-doorblog.jp##a[href^="http://clcount.com/gunsoku/a3.php?data="]
-
 !DMM英会話
 eikaiwa.dmm.com##.bnr_area
 eikaiwa.dmm.com##.bnr_area + .total-wrap:style(margin-top: 0px !important)
@@ -1587,6 +1504,11 @@ qiita.com##.p-home_ad
 
 !その他
 ||afi-b.com^
+||www.sbs-jp-ad.com^
+||sbs-jp-ad.com^
+||bannerbridge.net^
+||crwetworks.com^
+||brow2ing.doorblog.jp/slide_ad.js
 
 
 
