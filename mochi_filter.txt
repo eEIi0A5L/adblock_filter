@@ -41,7 +41,7 @@ youtube.com###player-ads
 ||securepubads.g.doubleclick.net
 =adunit&$domain=youtube.com
 !Peter Lowe’s Ad and tracking server listで一括ブロックされている
-||doubleclick.net^
+||doubleclick.net^$third-party
 ||2mdn.net^$domain=youtube.com
 ||s0.2mdn.net/ads$domain=youtube.com
 

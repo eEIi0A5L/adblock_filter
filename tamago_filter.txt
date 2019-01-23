@@ -36,7 +36,7 @@
 ||ssl-stat.amebame.com/pub/ads/
 ||adt.measure.ameblo.jp^
 ||www.google.com/ads/
-||stats.g.doubleclick.net^
+||stats.g.doubleclick.net^$third-party
 ameblo.jp##.skinBody2 > div:first-child
 !ameblo.jp##^.skinBody2 > div:first-child
 ||stat100.ameba.jp/ad/dfp/js/dfp.js?20170215
@@ -314,7 +314,7 @@ enechange.jp##.e__float_try
 !Buzzfeed下部のSNS枠
 www.buzzfeed.com##.action-bar--position-floating
 ||taboola.com^
-||doubleclick.net
+||doubleclick.net^$third-party
 buzzfeed.com###mod-action-bar-1
 ||scorecardresearch.com^
 ||google-analytics.com^
@@ -1557,7 +1557,7 @@ kinisuru.com##.a2a_floating_style
 ||ad.appier.net^
 ||ad.ca-conv.jp^
 ||ad.crwdcntrl.net^
-||ad.doubleclick.net^
+||ad.doubleclick.net^$third-party
 ||ade.googlesyndication.com^
 ||adforce^
 ||adid^
@@ -1602,7 +1602,7 @@ kinisuru.com##.a2a_floating_style
 ||frontier.byteoversea.com^
 ||gce-jp.bidswitch.net^
 ||goldspotmedia^
-||googleads.g.doubleclick.net^
+||googleads.g.doubleclick.net^$third-party
 ||graph.facebook.com^
 ||gum.criteo.com^
 ||haggler-openx002-ap-ne1-ec2.liftoff.io^
@@ -1630,7 +1630,7 @@ kinisuru.com##.a2a_floating_style
 ||pagead#.googlesyndication.com^
 ||pagead2.googleadservices.com^
 ||prod-a.applovin.com^
-||pubads.g.doubleclick.net^
+||pubads.g.doubleclick.net^$third-party
 ||res1.applovin.com^
 ||rtb.astrodsp.com^
 ||s2.2mdn.net^
