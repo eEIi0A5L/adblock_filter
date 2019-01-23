@@ -91,6 +91,8 @@ www.google.co.jp,www.google.com##.ads-fr
 !www.google.co.jp,www.google.com###main > div[data-hveid]
 !google.*###main > div[data-hveid]:has(a[data-al])
 google.co.jp,google.com###main > div[data-hveid]:has(a[data-al])
+!##^だとDOMから要素を削除するので一瞬表示される間もなくきれいに消えてくれる。
+google.co.jp,google.com##^#main > div[data-hveid]:has(a[data-al])
 
 !Twitter
 twitter.com##.promoted-tweet

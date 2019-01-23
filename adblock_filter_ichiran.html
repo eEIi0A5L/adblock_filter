@@ -3,53 +3,45 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>広告ブロックフィルタ</title>
-
-
-<script type="text/javascript">
-<!--
-
-var baseurl = "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/";
-
-function set( id, filename, filtername, comment) {
-	var element=document.getElementById(id);
-	var url4abp = "abp://subscribe/?location=" + baseurl + filename + "&amp;title=" + filtername + comment;
-	var html1 = filtername + "：<a href=\"" + url4abp + "\">フィルタを購読する</a>";
-	var html2 = "（<a href=\"" + baseurl + filename + "\">中身を見る</a>）";
-	var html = html1 + html2;
-	element.innerHTML = html;
-}
-
-function show() {
-	set("mochi", "mochi_filter.txt", "もちフィルタ", "（広告ブロック）");
-	set("mochi_extended", "mochi_filter_extended.txt", "もち拡張フィルタ", "（広告ブロック拡張）");
-	set("negi", "negi_filter.txt", "ねぎフィルタ", "（広告以外の不要要素ブロック）");
-	set("kame", "kame_filter.txt", "亀フィルタ", "（ウイルスサイトブロック）");
-	set("kotori", "kotori_filter.txt", "ことりフィルタ", "（SNSボタンブロック）");
-	set("ichigo", "ichigo_filter.txt", "いちごフィルタ", "（Xサイト広告ブロック）");
-
-}
-// -->
-</script>
-
-
+<title>一覧</title>
 </head>
+<body>
 
-<body onload="show()">
+<p>master</p>
+<textarea id="master" cols="120" rows="16">
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/negi_google_hplogo_block.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/negi_twitter_allow_save_multi_images.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/beta.txt​​​​​
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter_2gun.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter_extended.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/negi_filter.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kame_filter.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kotori_filter.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/ichigo_filter.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kujira_filter.txt
+https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/tamago_filter.txt
+</textarea>
 
-<ul class="cbox filter">
-
-	<li id="mochi"/>
-	<li id="mochi_extended"/>
-	<li id="negi"/>
-	<li id="kame"/>
-	<li id="kotori"/>
-	<li id="ichigo"/>
-
-
-
-
-</ul>
+<p>maint</p>
+<textarea id="maint" cols="120" rows="16">
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/maint/negi_google_hplogo_block.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/maint/negi_twitter_allow_save_multi_images.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/maint/beta.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/maint/mochi_filter_2gun.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/maint/mochi_filter.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/maint/mochi_filter_extended.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/maint/negi_filter.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/maint/kame_filter.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/maint/kotori_filter.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/maint/ichigo_filter.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/maint/kujira_filter.txt
+https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/maint/tamago_filter.txt
+</textarea>
 
 </body>
 
