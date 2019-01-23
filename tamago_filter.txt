@@ -1661,7 +1661,6 @@ kinisuru.com##.a2a_floating_style
 ||txn.ingest.crittercism.com^
 ||uncn.jp^
 ||www.google-analytics.com^
-||www.googleadservices.com^
 ||yads.c.yimg.jp^
 ||yads.yahoo.co.jp^
 ||yt.moatads.com^
