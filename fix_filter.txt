@@ -209,5 +209,6 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 @@^adinfo^$domain=www.google.co.jp
 @@||afl.rakuten.co.jp^$domain=rakuten.co.jp
 @@||doubleclick.net^$domain=doubleclick.net
+@@_campaign=$document,first-party
 
 ! END
