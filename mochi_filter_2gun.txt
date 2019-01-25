@@ -659,8 +659,6 @@ blog.livedoor.jp###center-ad
 !coinmatome
 ||livedoor.blogimg.jp/coinmatome/imgs/0/d/0d32432c.jpg
 
-!ダメージ０
-damage0.com##.rsswaku7waku
 
 !GOSSIP速報（ゴシップ速報）
 gossip1.net##div[style="padding: 5px; border-radius: 5px; margin: 5px; border: 1px dashed rgb(105, 105, 105); background-color: rgb(255, 255, 255); text-indent: 0px;"]
@@ -959,7 +957,7 @@ baseballdays.officialblog.jp##span[style="font-weight: bold; font-size: 16px; te
 ||st.shinobi.jp/img/analyze/s.gif
 ||tudura.com^
 ||counter1.fc2.com^
-llabtooflatot.blog102.fc2.com##center:has(> ins.adsbygoogle)
+llabtooflatot.blog.fc2.com##center:has(> ins.adsbygoogle)
 !END--------------------------------------------------------------------
 
 
