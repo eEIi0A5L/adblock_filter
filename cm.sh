@@ -9,7 +9,7 @@ function check1()
 	#echo "$domain_part"
 	#echo "$cosmetic_part"
 	if [[  $cosmetic_part =~ \#\# ]]; then
-		echo "$line"
+		echo "$cosmetic_part"
 		echo "ERROR"
 	fi
 }
@@ -23,7 +23,18 @@ function check2()
 	#	return
 	#fi
 	if [[  $cosmetic_part =~ \[[a-z]+\$?=([^\"\']) ]]; then
-		echo "$line"
+		echo "$cosmetic_part"
+		echo "ERROR"
+	fi
+}
+
+# cosmeticなのに||がついてたらエラー
+function check3()
+{
+	domain_part=$1
+	cosmetic_part=$2
+	if [[ $domain_part =~ \|\| ]]; then
+		echo "$domain_part"
 		echo "ERROR"
 	fi
 }
@@ -47,6 +58,7 @@ function sub()
 
 		check1 $domain_part $cosmetic_part 
 		check2 $domain_part $cosmetic_part 
+		check3 $domain_part $cosmetic_part 
 
 	done < $FILE
 }
