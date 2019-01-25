@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 22 Jan 2019 00:00 JST
+! Last modified: 25 Jan 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -890,6 +890,10 @@ ameblo.jp##.skin-entryAd
 !Amebloが直っているみたいだ。2018.3.30
 ||ssl-stat.amebame.com/pub/ads/
 ||ad.pr.ameba.jp^
+!https://ameblo.jp/でピックアップブログが表示されない
+@@||ad.pr.ameba.jp/tpc/list/ameblo-atp-br-pctpcs?$xmlhttprequest,domain=ameblo.jp
+@@||ad.pr.ameba.jp/tpc/clk/$domain=ameblo.jp|ameba.jp
+@@||ssl-stat.amebame.com/pub/ads/adx/$image,domain=ameblo.jp
 
 !Amebaニュース
 ||apvdr.com/v2/cs.php
