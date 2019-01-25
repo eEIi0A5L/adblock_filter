@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# おかしな行を表示する
 function sub()
 {
 	FILE=$1
@@ -19,6 +20,9 @@ function sub()
 			continue
 		fi
 		if [[ $line =~ \|\| ]]; then
+			continue
+		fi
+		if [[ $line =~ @@ ]]; then
 			continue
 		fi
 		#if [[ $line =~ ^\[ \\t\]\*\! ]]; then
@@ -48,7 +52,7 @@ function main()
 	for i in *.txt; do
 		#echo $i
 		sub $i
-		echo
+		#echo
 	done
 }
 main
