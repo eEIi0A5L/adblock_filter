@@ -44,6 +44,10 @@ function sub()
 	FILE=$1
 	echo "----$FILE"
 	while IFS=$'\r' read line; do
+		# コメント行は読み飛ばす
+		if [[ $line =~ \! ]]; then
+			continue
+		fi
 		if [[ ! $line =~ \#\# ]]; then
 			continue
 		fi
