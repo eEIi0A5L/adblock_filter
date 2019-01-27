@@ -7,7 +7,7 @@
 ! ! beta.txt 
 
 ! A empty filter list cause a fail to load in uBO. OK, let's put a dummy filter in it!
-dummy.dummy.dummy###dummy
+!dummy.dummy.dummy###dummy
 
 
 !END
