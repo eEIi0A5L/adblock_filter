@@ -365,6 +365,18 @@ tube8.*##^script:has-text(adblock)
 @@||tube8.com/ajax2/$xmlhttprequest
 @@||es.t8cdn.com^
 tube8.com###pb_template
+tube8.com##+js(abort-on-property-write.js, rAb)
+||ht.tube8.com^
+tube8.com###adBlockAlert
+tube8.com###adBlockAlertWrap
+tube8.com###hAd
+tube8.com###home-button
+tube8.com###main-nav > li > a[rel="nofollow noopener"][onclick^="pageTracker"]
+tube8.com###shareMenu
+tube8.com##.follow-channel
+tube8.com##.g-plusone
+tube8.com##.gridBanner
+tube8.com##.gototop
 
 !babycondom.com
 babycondom.com###overlay-advertising
@@ -805,6 +817,15 @@ fembed.com##+js(setInterval-defuser.js, (), 500)
 ||muryouav.avximg.com/2019-01/upload/b0b430c31430a5bca89e175b91f28e8861812745.gif
 ||event2.xvideo-jp.com/dmm_campaign.php
 xvideo-jp.com##.pc-ranking
+||ad.moo-mam-tai.com^
+||share-videos.se/js/pjs.js
+||d2swpuhpwp3khd.cloudfront.net^
+xvideo-jp.com###dmmad
+xvideo-jp.com##.p-articleDMM
+||stats.wp.com/e-201904.js$domain=xvideo-jp.com
+||xvideo-jp.com/wp-cron.php
+embed.share-videos.se###logo
+embed.share-videos.se###ad_html
 
 !loveh.org
 ||cdn.alistcloud.com/adsv/serving.js
