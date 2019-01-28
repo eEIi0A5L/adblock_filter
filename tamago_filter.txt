@@ -37,7 +37,8 @@
 ||adt.measure.ameblo.jp^
 ||www.google.com/ads/
 ||stats.g.doubleclick.net^$third-party
-ameblo.jp##.skinBody2 > div:first-child
+!一旦やめとく。PCでブログが表示されないので。2019.1.28
+!ameblo.jp##.skinBody2 > div:first-child
 !ameblo.jp##^.skinBody2 > div:first-child
 ||stat100.ameba.jp/ad/dfp/js/dfp.js?20170215
 ||www.googletagmanager.com^
