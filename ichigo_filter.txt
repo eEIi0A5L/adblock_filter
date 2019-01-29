@@ -840,6 +840,14 @@ embed.share-videos.se###ad_html
 ||cdn.alistcloud.com^
 ||srv1.aaacompany.net^
 ero-nuki.net###movie_ad
+!↓いらないかも
+!@@||phncdn.com^$domain=ero-nuki.net|hmk-temp.com
+
+!kissjav
+||hgub2polye.com^$third-party
+kissjav.com##+js(popads-dummy.js)
+||webgekeniuos.com^$third-party
+kissjav.com###player-advertising
 
 
 ! END
