@@ -1,13 +1,4 @@
-[Adblock Plus 2.0]
-! Title: beta.txt
-! Last modified: 25 Jan 2019 00:00 JST
-! Expires: 6 hours (update frequency)
-! Homepage: https://pokapoka.shoooter.net/
-! 
-! ! beta.txt 
-
-! A empty filter list cause a fail to load in uBO. OK, let's put a dummy filter in it!
-!dummy.dummy.dummy###dummy
+! beta.txt
 
 
 !END
