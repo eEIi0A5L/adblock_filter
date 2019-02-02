@@ -39,6 +39,17 @@ function check3()
 	fi
 }
 
+# セレクタが#.になっている
+function check4()
+{
+	domain_part=$1
+	cosmetic_part=$2
+	if [[  $cosmetic_part =~ \#\. ]]; then
+		echo "$cosmetic_part"
+		echo "ERROR"
+	fi
+}
+
 function sub()
 {
 	FILE=$1
@@ -63,6 +74,7 @@ function sub()
 		check1 $domain_part $cosmetic_part 
 		check2 $domain_part $cosmetic_part 
 		check3 $domain_part $cosmetic_part 
+		check4 $domain_part $cosmetic_part 
 
 	done < $FILE
 }
