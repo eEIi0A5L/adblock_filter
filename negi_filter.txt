@@ -34,6 +34,8 @@ www.nicovideo.jp##.Marquee-item
 ||nicovideo.cdn.nimg.jp/uni/img/zero_my/bnr_
 !マイページ右上のバナー
 ||nicovideo.cdn.nimg.jp/uni/img/zero_my/bnr_premium2018.png
+!ニコ動検索結果内に挿入されるニコニ広告
+www.nicovideo.jp##li.nicoadVideoItem
 
 !Google
 !ポップアップ「こちらによくアクセスする方は Google をホームページに」

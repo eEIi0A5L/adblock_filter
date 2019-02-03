@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 26 Jan 2019 00:00 JST
+! Last modified: 03 Feb 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -637,6 +637,8 @@ av01.tv###back-to-top
 av01.tv###overlay-advertising
 www.av01.tv##.ad-body
 @@||googletagmanager.com^$third-party,domain=www.av01.tv
+||juicyads.com^
+@@||www.googletagmanager.com^$domain=av01.tv
 
 !http://www.minnano-av.com/
 ||www.minnano-av.com/top_center_bn/pc_new_ban/sidebar_bn.html
@@ -681,7 +683,8 @@ openload.co##script:inject(abort-current-inline-script.js, adblock, adblock2)
 ||djv99sxoqpv11.cloudfront.net^
 ||smothere.pro^$third-party
 ||newsupdatewe.info^$third-party
-||r18.com^$third-party,domain=~japanhub.net
+!jav321で動画が見れない
+!||r18.com^$third-party,domain=~japanhub.net
 ||siterdm.com^$third-party
 
 !javdoe
