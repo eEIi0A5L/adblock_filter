@@ -68,7 +68,8 @@ function sub()
 		domain_part=${line%%\#\#*}
 		#echo "$domain_part"
 
-		cosmetic_part=${line##*\#\#}
+		#cosmetic_part=${line##*\#\#}
+		cosmetic_part=${line#*\#\#}
 		#echo "$cosmetic_part"
 
 		check1 $domain_part $cosmetic_part 
