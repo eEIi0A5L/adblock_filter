@@ -165,6 +165,8 @@ www.yahoo.co.jp###toptxt
 !||s.yimg.jp/bdv/prem/
 ||s.yimg.jp/images/listing/tool/yads/
 www.yahoo.co.jp###brandpanel
+!Yahoo右上の広告、brandpanelの代わりのやつが最近でる
+www.yahoo.co.jp###sub > div[style="height:240px; margin:0px auto 10px;"]
 www.yahoo.co.jp##div[class^="yjads"]
 !セミコロン有りと無しの２パターンある
 !www.yahoo.co.jp###sub > div[style="margin: 0px auto 10px;"]
