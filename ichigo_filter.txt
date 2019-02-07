@@ -545,7 +545,8 @@ javfinder.is##div[id*="ScriptRootC"]
 ||trafficjunky.com^$third-party
 ||k77hof1z7k.com^$third-party
 ||google-analytics.com/analytics.js$important,script,domain=javfinder.is
-||jwpcdn.com^
+!AnimeFLVでプレイヤーの一時停止アイコンが出ない
+!||jwpcdn.com^
 ||mc.yandex.ru^
 @@||p.jwpcdn.com^$third-party,script
 @@||rapidvideo.com^$script,domain=rapidvideo.com
@@ -577,6 +578,17 @@ javfinder.is###preroll_ads
 ||cdn.o333o.com^
 javfinder.is##.afs_ads
 javfinder.is##iframe[src="https://avsex.me/js/pc.html"]
+||amung.us^
+||k77hof1z7k.com^
+javfinder.is##iframe[width="300"][height="250"]
+||ssdsylfzav.com^$third-party
+javfinder.is##iframe[width="728"][height="90"]
+/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=javfinder.is|embed.media
+javfinder.is##.afs_ads
+javfinder.is##img[width="728"][height="90"]
+||rlomrjxrpsev.com^$third-party
+@@/js/ads.js$script,domain=javfinder.is
+
 
 
 !popjav
