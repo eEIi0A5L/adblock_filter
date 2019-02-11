@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 03 Feb 2019 00:00 JST
+! Last modified: 11 Feb 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -26,6 +26,13 @@ xvideos.com##script:inject(window.open-defuser.js)
 !https://www.reddit.com/r/uBlockOrigin/comments/8ehkjc/xvideos_dont_show_anything/
 xvideos.com#@#[src*="blob:"]
 xvideos.com#@#[style*="display: block;"]
+||trafficfactory.biz^
+!/ad/$domain=www.xvideos.com
+www.xvideos.com###ad-footer
+www.xvideos.com###video-ad
+www.xvideos.com##.text-ad
+www.xvideos.com##.text-ad-links
+www.xvideos.com##.text-ads
 
 !xHamster
 *$websocket,domain=24video.cc|24video.in|24video.me|24video.sex|24video.xxx|pornhub.com|redtube.com|redtube.com.br|russian-porn.me|tube8.com|tube8.es|tube8.fr|xhamster.com|xtube.com|xvideos.com|youporn.com|youporngay.com
@@ -54,6 +61,15 @@ xhamster.com##.banner-container
 xhamster.com##script:inject(abort-on-property-write.js, dataPopUnder)
 ||cdn.tsyndicate.com^
 jp.xhamster.com##.ads-div
+xhamster.com##+js(addEventListener-defuser.js, popstate, backUrl)
+xhamster.com##div[style*="adVideo"]:style(position: absolute!important; left: -3000px!important;)
+||collector1.xhamster.com^
+||xhamster.com/ajax/wid-cams-widget/
+xhamster.com##.addThis
+xhamster.com##iframe[src^="https://xhamsterpremium.com/"]
+xhamster.com##.wid-banner-container
+xhamster.com##.wid-cams-widget
+xhamster.com##.wid-spot-container
 
 !javfor.me
 ||ads.exoclick.com^
@@ -409,6 +425,9 @@ video.fc2.com##.u-hasAd-101_adArea
 ||addthis.com^$important,third-party
 ||ads.adxpansion.com^
 ||jwpltx.com^
+www.youav.com##.ad-body
+||www.youav.com/nb/bnl.php?
+
 
 !thisav
 ||www.thisav.com/cdn-cgi/apps/head/$first-party,script
@@ -604,6 +623,11 @@ popjav.com###left_ad
 ||ujlpbcsx.com^$third-party
 ||mvvecbfomk.com^$third-party
 ||go.onclasrv.com/apu.php?$important
+/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=popjav.tv
+||wjevvjxwg.com^$third-party
+popjav.tvpopjav.tv##.bottomad
+popjav.tv###preroll_ads
+popjav.tv##.video_ad
 
 !hpjav
 ||adserver.juicyads.com^
@@ -622,6 +646,20 @@ hpjav.com##iframe[width="728"][height="90"]
 !hpjav.tv##div:has(> a[href^="http://cl96rwprue.com/"])
 hpjav.tv##div[style^="position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px;"]
 ||fkbwtoopwg.com^
+hpjav.tv##+js(abort-on-property-read.js, AaDetector)
+/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=hpjav.tv
+hpjav.tv##.poplayer
+hpjav.tv##.video-boxad
+hpjav.tv##.center-ad
+hpjav.tv##.bottom-ad
+hpjav.tv###preroll_ads
+hpjav.tv##iframe[width="728"][height="90"]
+hpjav.tv##iframe[width="300"][height="250"]
+hpjav.tv##+js(abort-on-property-read.js, AaDetector)
+/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=hpjav.tv
+hpjav.tv##.bottom-ad
+hpjav.tv##.center-ad
+hpjav.tv##.home-ad
 
 !javmost
 ||pussl48.com^
@@ -864,6 +902,12 @@ ero-nuki.net###movie_ad
 kissjav.com##+js(popads-dummy.js)
 ||webgekeniuos.com^$third-party
 kissjav.com###player-advertising
+
+!av.movie
+||i.imgur.com/Oz4G3br.gif
+av.movie##.video-banner
+av.movie###app-download
+!||www.gstatic.com/recaptcha^$domain=av.movie
 
 
 ! END

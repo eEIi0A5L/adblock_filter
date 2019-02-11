@@ -1304,6 +1304,8 @@ www.yomiuri.co.jp##.subhead
 !||www.yomiuri.co.jp/cont2/g2/m_pr_sophia.gif
 !||www.yomiuri.co.jp/cont2/g2/m_pr_hosei.gif
 ||www.yomiuri.co.jp/cont2/g2/m_pr_
+!読売、下から出てくるフッター
+www.yomiuri.co.jp##.layout-footer
 
 !NHK
 !広告じゃなかった
