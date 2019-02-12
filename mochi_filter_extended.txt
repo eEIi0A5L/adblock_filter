@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 22 Jan 2019 00:00 JST
+! Last modified: 13 Feb 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_extended.html
 ! 
@@ -278,6 +278,27 @@ www.reddit.com##.dfp-ad-container
 ||events.redditmedia.com/v1?
 ||pixel.redditmedia.com/pixel/of_defenestration.png?
 !END---------------------------------------------------
+!スクロールしていると右にぴょこっと出るやつ
+www.reddit.com##div:has(> .ad-banner)
+www.reddit.com##div:has(> .adbar)
+www.reddit.com##div:has(> .adbox1)
+www.reddit.com##div:has(> .ads-area)
+www.reddit.com##div:has(> .adsense-ad)
+www.reddit.com##div:has(> .box_ad)
+www.reddit.com##div:has(> .googad)
+||aaxads.com^
+||www.redditstatic.com/desktop2x/js/ads.js
+||gateway.reddit.com/desktopapi/v1/sidebar_ads
+reddit.com##div[id^="sidebar-atf-"]
+reddit.com##div[id^="sidebar-btf"]
+reddit.com##^div[id^="sidebar-atf-"]
+reddit.com##^div[id^="sidebar-btf"]
+||www.redditstatic.com/desktop2x/img/banner/
+!reddit.com##._3RPJ8hHnfFohktLZca18J6
+!reddit.com##.ii4q9d-0.fePAzF > div[class]:has(div[data-slot*="/desktop/"])
+!reddit.com##._3RPJ8hHnfFohktLZca18J6
+reddit.com##iframe[id^="google_ads_iframe_"]
+reddit.com##^iframe[id^="google_ads_iframe_"]
 
 !reddit
 !新デザイン 2018.4.1---------------------------------------------
