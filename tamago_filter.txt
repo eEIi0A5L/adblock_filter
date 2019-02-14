@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 25 Jan 2019 00:00 JST
+! Last modified: 14 Feb 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -255,13 +255,14 @@ itest.bbspink.com###ads
 ||cdn.ad.maist.jp/ad/
 ||2ch.net/css/ad.css
 ||2ch.net/js/ad.js
-||2ch.net/snow/index.js
-||2ch.net/snow/bebe.js
+!||2ch.net/snow/index.js
+!||2ch.net/snow/bebe.js
 ||2ch.net/snow/2chtop.js
 ||5ch.net/css/ad.css
 ||5ch.net/js/ad.js
-||5ch.net/snow/index.js
-||5ch.net/snow/bebe.js
+!||5ch.net/snow/index.js
+!beのアイコンが消えてしまう
+!||5ch.net/snow/bebe.js
 ||5ch.net/snow/2chtop.js
 ||bbspink.com/js/ad.js?
 ||bbspink.com/css/ad.css

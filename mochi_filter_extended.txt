@@ -205,6 +205,12 @@ www.afpbb.com###bnr-pc_1st_rec
 www.afpbb.com###bnr-pc_2nd_rec
 www.afpbb.com##.pr-text
 
+!imdb
+!これもコメント化にしておく。誤爆が怖いので。
+!||ia.media-imdb.com/images/G/01/imdbads/
+!下記をブロックすると映画のトレイラー動画が再生できなくなる
+!||images-na.ssl-images-amazon.com/images/G/01/imdbads/
+
 !TIME
 !imdbでAround The Webが空白になる
 !||www.zergnet.com^
