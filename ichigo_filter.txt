@@ -909,5 +909,21 @@ av.movie##.video-banner
 av.movie###app-download
 !||www.gstatic.com/recaptcha^$domain=av.movie
 
+!spankbank
+||doublepimp.com^
+||a.spankbang.com^
+spankbang.com##.vjs-poster
+||adtng.com^
+
+!380.cc
+||adxpansion.com^
+||pub.sitetag.us^
+380cc.cc###playertopads:style(height: 51px!important; position: absolute!important; left: -3000px!important;)
+380cc.cc##.tothetop
+380cc.cc##img[width="468"][height="60"]
+380cc.cc##iframe[width="300"][height="250"]
+video.520cc.cc###inplayer
+380cc.cc##.ad_title
+
 
 ! END
