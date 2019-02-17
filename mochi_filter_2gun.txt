@@ -602,7 +602,10 @@ newsoku.blog###pc_text-34
 ||unitedblades-d.openx.net^
 ||api.push7.jp^
 ||i2.wp.com/rranking7.ziyu.net
-||ptengine.jp^
+!下記が見れない
+!https://www.ptengine.jp/blog/index.php/ghostery/
+!||ptengine.jp^
+||ptengine.jp^$third-party
 newsoku.blog###the-content > ul.blogroll-list-wrap
 newsoku.blog###widget-in-article
 newsoku.blog##.fixedlink-list-wrap

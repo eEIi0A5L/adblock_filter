@@ -131,8 +131,12 @@ watch.impress.co.jp##.ad
 !下記で消えるが画像も消えてしまった
 !https://pc.watch.impress.co.jp/js/pcw/p02/ipc.watch.js?v=2018021302
 
-||js.ptengine.jp/pts.js
-||js.ptengine.jp/pta.js
+!下記が見れない
+!https://www.ptengine.jp/blog/index.php/ghostery/
+!||js.ptengine.jp/pts.js
+!||js.ptengine.jp/pta.js
+||js.ptengine.jp/pts.js$third-party
+||js.ptengine.jp/pta.js$third-party
 ||api.popin.cc/searchbox/impress.js
 ||b.st-hatena.com/js/bookmark_button.js?
 ||widgets.getpocket.com/v1/j/btn.js?v=1
