@@ -14,38 +14,23 @@
 !googleシートで同期エラーダイアログが出るので例外にする
 @@||docs.google.com/spreadsheets/d/*/logImpressions?$domain=docs.google.com
 
-!Yahooのポイントを見ようとリンククリックしたときにフィルタされてしまうので例外化
-!→されない
-!@@/click/$document,domain=yahoo.co.jp
+
 
 !Yahooトップに戻るとき
 !@@||rdsig.yahoo.co.jp/mh/click/ytop/RV=1/$document,domain=yahoo.co.jp
 @@||rdsig.yahoo.co.jp/mh/click/$document,domain=yahoo.co.jp
 
-!Yahooトップからニュース記事が見れない
-!http://egg.5ch.net/test/read.cgi/software/1524667609/172
-!https://github.com/easylist/easylist/commit/f692f5c3f44b3a6605d008c045cd4a3d123d718f
-!@@||rdsig.yahoo.co.jp^$domain=yahoo.co.jp
-! https://forums.lanik.us/viewtopic.php?f=64&t=40851
-!→直った
-!||rdsig.yahoo.co.jp^$badfilter
-!||rdsig.yahoo.co.jp^$image
 
-!Amebafreshの動画が見れない
-!→見れる
-!freshlive.tv#@#[class$="Ad"]:not(body)
 
-!園芸板用あぷろだ。xrea.com全体がPete'sのフィルタでブロックされるので。
-!→下でxrea.com全体を例外にした
-!@@||engei2ch.s252.xrea.com^
+
+
+
 
 !Google Sheetでなにか編集するたびにエラーダイアログが表示されてしまう対策
 !@@||docs.google.com/static/spreadsheets2/client/js/3533117528-ritz_waffle_i18n_analytics.js|$domain=docs.google.com
 @@||docs.google.com/static/spreadsheets2/client/js/$domain=docs.google.com
 
-!Peter Loweのフィルタでブロックされているが日本人の利用者が多いので許可
-!→ad[2-3]?.xrea.comになった
-!@@||xrea.com^
+
 
 !Peter Lowe’s Ad and tracking server list
 !!Yahoo映像トピックスのTVer動画が見れない問題の対策
@@ -54,16 +39,11 @@
 !したがって、gyao(yahoo)だけで例外にする。
 @@||s0.2mdn.net/instream/video/client.js$domain=gyao.yahoo.co.jp
 
-!GoogleMapでLocalGuideをExitしたときに引っかかる
-!@@_campaign=$document,domain=www.google.com
 
-!キャンペーンサイトで表示されない対策
-!@@_campaign=$popup
-!@@_campaign=$document
 
-!malwarelistに入っている
-!→直った
-!@@||navitime.co.jp^
+
+
+
 
 !twitchでカウントが増え続ける問題の解法
 @@||sb.scorecardresearch.com/p?$image,domain=twitch.tv
@@ -80,51 +60,29 @@
 @@||metrics.brightcove.com/v2/tracker?domain=$domain=gyao.yahoo.co.jp
 @@||gyao.yahooapis.jp/rio/checkVisible?appid=$third-party,domain=gyao.yahoo.co.jp
 
-!ニコ生の検索が表示されない
-!→される
-!live.nicovideo.jp#@#[id="main-for-following-ad"]
 
-!ニコ動ランキングが２１位以降が見れない
-!→見れる
-!@@||nimg.jp^*/uad$script,domain=~uad.nicovideo.jp
 
-!http://nazolog.com/ でAdblockを無効にしてくださいと出る
-!→利用者なし
-!@@||nazolog.com^$generichide
 
-!豆腐でGyaoで広告が入る
-!→入らない
-!||adserver-apne.tidaltv.com^
 
-!豆腐でナシュジオが見れない
-!→見れる
-!natgeotv.jp#@#[class^="ad-"]:not(html):not(body)
+
+
+
 
 !http://www.ntv.co.jp/fcwc/index.htmlが見れない
 @@||www.ntv.co.jp/ad-navi/$domain=ntv.co.jp
 
-!https://www.amazon.co.jp/dp/B00PSPDQQC/で視聴ページが真っ白になる
-!→ならない
-!@@||chocomaru.com^
+
 
 !http://iroyaku.livedoor.biz/archives/73473612.html#commentsでコメントが見れない
 livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 
-!https://www3.nhk.or.jp/news/html/20171216/k10011261091000.html?utm_int=news_contents_news-main_001が見れない
-!http://egg.5ch.net/test/read.cgi/software/1510382303/676
-!→直った
-!@@||analytics.edgekey.net/html5/akamaihtml5-min.js$script,domain=nhk.or.jp
+
 
 !http://www6.nhk.or.jp/nhkpr/post/trailer.html?i=12747が見れない
 !http://egg.5ch.net/test/read.cgi/software/1510382303/684
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=movie-s.nhk.or.jp
 
-!下記の動画が見れない
-!https://www3.nhk.or.jp/news/html/20180108/k10011281771000.html?utm_int=news-new_contents_list-items_001
-!EasyPrivacyの誤爆
-!→上にもう書いてた
-!@@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
-!END---------------------------------------------------------------------
+
 
 
 !冬季オリンピックの動画が見れない
@@ -177,12 +135,14 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js
 
 !Radikoが聞けない
+!→もういらないかも。2019.2.18
 !http://egg.5ch.net/test/read.cgi/software/1529720783/723
 !http://egg.5ch.net/test/read.cgi/software/1524667609/438
 @@||adobedtm.com^*/satelliteLib-$script,domain=radiko.jp
 @@||adobedtm.com^*/s-code-$script,domain=radiko.jp
 
 !radikoが聞けない
+!→もういらないかも。2019.2.18
 @@||assets.adobedtm.com^$domain=radiko.jp
 
 !楽天にログインできない

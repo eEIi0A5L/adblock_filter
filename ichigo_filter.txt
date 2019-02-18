@@ -790,6 +790,8 @@ avgle.com##.alert-danger
 
 !http://nukitomo.me
 @@||ci.phncdn.com/videos/
+nukitomo.me###article_ad
+nukitomo.me##.vjs-poster
 
 !share-videos.se
 share-videos.se##img[alt="banner"]
@@ -924,6 +926,16 @@ spankbang.com##.vjs-poster
 380cc.cc##iframe[width="300"][height="250"]
 video.520cc.cc###inplayer
 380cc.cc##.ad_title
+
+!7mm
+||histats.com^
+||exoclick.com^
+||st.adxxx.me/js/adv_out.js
+7mm.tv##a[href*=".exoclick.com"]
+7mm.tv##.SC_TBlock
+||adxxx.com^
+7mm.tv##a[href^="https://adxxx.com/"]
+
 
 
 ! END

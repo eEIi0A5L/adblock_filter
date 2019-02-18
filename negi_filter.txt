@@ -229,6 +229,13 @@ commons.wikimedia.org###siteNotice
 !投稿記録の新規執筆がワンテンポ遅れて表示されるのでうざい
 !ja.wikipedia.org##:xpath(//span[contains(@class, 'cx-contributions')]/parent::span)
 
+!pinterest
+!保存ボタンの周りの青い輪のアニメーションがうざい
+!www.pinterest.jp##div[role="button"][tabindex="0"] > div[style] > div:style(border: 0)
+!www.pinterest.jp##div[role="button"][tabindex="0"]
+www.pinterest.jp##div[role="button"][tabindex="0"] > div[style]
+
+
 !音泉
 www.onsen.ag###fixFooter
 !右のナビ。
