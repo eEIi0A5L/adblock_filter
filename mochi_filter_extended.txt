@@ -270,6 +270,7 @@ www.neowin.net##.header-banner-ads
 !下記広告のブロック跡の白い四角を消すと、しばらくして広告更新時にちらつくので、もう枠はだしっぱなしにしとく。あきらめ。
 !reddit.com##div[id^="sidebar-btf-"]:style(height:1px; min-height:1px !important;)
 !reddit.com##div[id^="sidebar-atf-"]:style(height:1px; min-height:1px !important;)
+rreddit.com##.promotedlink
 
 
 !Yahoo.com
