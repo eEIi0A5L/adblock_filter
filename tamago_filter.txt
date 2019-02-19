@@ -1664,7 +1664,8 @@ kinisuru.com##.a2a_floating_style
 ||tkimpdsp.mobvista.com^
 ||tpc.googlesyndication.com^
 ||tr-asia.adsmoloco.com^
-||tshop.r10s.jp^
+!パソコンで楽天ショップの検索結果の画像がでない
+!||tshop.r10s.jp^
 ||tunein.deliveryengine.adswizz.com^
 ||txn.ingest.crittercism.com^
 ||uncn.jp^
