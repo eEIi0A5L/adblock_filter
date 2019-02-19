@@ -271,29 +271,6 @@ www.neowin.net##.header-banner-ads
 !reddit.com##div[id^="sidebar-btf-"]:style(height:1px; min-height:1px !important;)
 !reddit.com##div[id^="sidebar-atf-"]:style(height:1px; min-height:1px !important;)
 
-!reddit
-!新デザイン 2018.4.1---------------------------------------------
-!www.reddit.com###sidebar-atf
-www.reddit.com##:xpath(//div[@id="sidebar-atf"]/parent::div/parent::div/parent::div)
-www.reddit.com##:xpath(//div[@id="sidebar-btf"]/parent::div/parent::div/parent::div)
-www.reddit.com##:xpath(//div[@id="overlay-sidebar-atf"]/parent::div/parent::div/parent::div)
-www.reddit.com##:xpath(//div[@id="overlay-sidebar-btf"]/parent::div/parent::div/parent::div)
-www.reddit.com##:xpath(//div[@id="sidebar-btf-1"]/parent::div/parent::div/parent::div)
-www.reddit.com##:xpath(//div[@id="sidebar-btf-2"]/parent::div/parent::div/parent::div)
-www.reddit.com##:xpath(//div[@id="sidebar-btf-3"]/parent::div/parent::div/parent::div)
-www.reddit.com##:xpath(//div[@id="sidebar-btf-4"]/parent::div/parent::div/parent::div)
-!www.reddit.com##div[promotedlink]
-reddit.com##.promotedlink
-www.reddit.com##:xpath(//div[@id="overlay-sidebar-atf-0"]/parent::div/parent::div/parent::div)
-www.reddit.com##:xpath(//div[@id="overlay-sidebar-atf-1"]/parent::div/parent::div/parent::div)
-www.reddit.com##:xpath(//div[@id="overlay-sidebar-btf-0"]/parent::div/parent::div/parent::div)
-www.reddit.com##:xpath(//div[@id="overlay-sidebar-btf-1"]/parent::div/parent::div/parent::div)
-www.reddit.com##:xpath(//div[@id="sidebar-atf-0"]/parent::div/parent::div/parent::div)
-www.reddit.com##:xpath(//div[@id="sidebar-atf-1"]/parent::div/parent::div/parent::div)
-
-!redditの浮くやつ
-!www.reddit.com##:xpath(//a[@href="https://about.reddit.com/advertise/"]/parent::div/parent::div/parent::div/parent::div)
-!END--------------------------------------------------------------
 
 !Yahoo.com
 !iframeをフィルタすると動画が見れなくなる
