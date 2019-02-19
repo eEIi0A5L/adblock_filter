@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Youtubeの広告をとにかくブロックするフィルタ+Google
-! Last modified: 15 Feb 2019 00:00 JST
+! Last modified: 19 Feb 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/
 ! 
@@ -25,3 +25,5 @@ youtube.com###video-masthead
 ||2mdn.net^$domain=youtube.com
 ||googleadservices.com^
 ||googlesyndication.com^
+##div[id^="div-gpt-ad"]
+##.adsbygoogle
