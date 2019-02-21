@@ -749,7 +749,8 @@ www.javdoe.com##div[id*="ScriptRootC"]
 !||www.googletagmanager.com^
 ||affiliateone.jp^
 ||affiliateone.jp^$popup
-||ad.dmm.com^
+!DMMリンクがこれでブロックされてしまう
+!||ad.dmm.com^
 ||||affiliateone.jp^
 ||notifications-online.systems^
 ||notifications-online.systems^$popup

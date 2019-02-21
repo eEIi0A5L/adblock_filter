@@ -96,7 +96,8 @@ news4vip.livedoor.biz##.google-2ad
 !最後の空白を消そうとしたけど複雑すぎるのでやめた
 !news4vip.livedoor.biz##div.article-body-more > b > b:nth-last-child(2) > b > b > b:last-child
 !ニュー速クオリティ
-||ip.affiliate.dmm.com^
+!DMMリンクがこれでブロックされてしまう
+!||ip.affiliate.dmm.com^
 !dmmゲームスでエラーがでる
 !||rcv.a-i-ad.com^
 ||rcv.a-i-ad.com^$domain=news4vip.livedoor.biz
