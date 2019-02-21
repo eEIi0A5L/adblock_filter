@@ -704,6 +704,7 @@ facebook.com##div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has([id^="fee
 facebook.com##div[id^="hyperfeed_story_id_"]:has(div[id*="feed_subtitle_"] > span:matches-css(display: none):has(abbr .timestampContent))
 www.facebook.com##.post-ads
 facebook.com###pagelet_ego_pane:has-text(広告)
+www.facebook.com##.ego_section_container:has-text(Sponsored)
 
 !ニコ動＋ニコ生（く）2018.6.28
 ||ads.adjust-net.jp^
