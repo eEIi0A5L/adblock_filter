@@ -160,8 +160,7 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 !http://egg.5ch.net/test/read.cgi/software/1540428057/218
 @@||nicoad.nicovideo.jp^
 
-!Easyに入ってまった
-@@||nicoad.nicovideo.jp^
+
 
 !Googleショッピングで商品クリックで飛べない
 !http://egg.5ch.net/test/read.cgi/software/1540428057/406
