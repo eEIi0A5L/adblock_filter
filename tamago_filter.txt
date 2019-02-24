@@ -1538,6 +1538,8 @@ d.hatena.ne.jp###touch-footer-ad-placeholder
 d.hatena.ne.jp###google_adx_3
 d.hatena.ne.jp###google_adx2
 
+!share news
+snjpn.net##.ca_profitx_ad_container
 
 
 
