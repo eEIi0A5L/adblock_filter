@@ -1504,6 +1504,18 @@ qiita.com##.p-items_options
 qiita.com##.p-home_ad
 
 
+!infoseek
+news.infoseek.co.jp##.ad-side-top
+
+!mapfan
+!||mapfan.com/components/areaAdFrame
+!||ams900.goo.ne.jp/ads
+mapfan.com##.ad
+mapfan.com##.side-ad-area
+mapfan.com##area-ad-frame
+
+
+
 
 
 !その他
