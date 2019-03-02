@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: 16 Feb 2019 00:00 JST
+! Last modified: 03 Mar 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/fix.html
 ! 
@@ -173,6 +173,11 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 !JRAでレース結果の動画が見れない
 !http://egg.5ch.net/test/read.cgi/software/1549557317/152
 @@||jra.webcdn.stream.ne.jp/web/jra/onetag_design2018/referrer.js
+
+!Twitterの日刊スポーツ公式アカの記事を開こうとするとブロックされる
+!http://egg.5ch.net/test/read.cgi/software/1540428057/626
+@@_campaign=$document,domain=nikkansports.com
+
 
 
 ! END

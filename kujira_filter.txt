@@ -11,6 +11,8 @@
 ||coin-hive.com^$third-party
 ||coinhive.com^$third-party
 ||cnhv.co^$third-party
+!coinhiveが2019年3月8日をもってサービスを終了
+!https://nlab.itmedia.co.jp/nl/articles/1902/27/news087.html
 
 !ImageSparkがstaticset.comでマイニングする
 !http://egg.5ch.net/test/read.cgi/software/1475377484/588
