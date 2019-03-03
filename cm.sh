@@ -80,11 +80,19 @@ function sub()
 	done < $FILE
 }
 
-function main()
+function main_files()
 {
-	for i in *.txt; do
-		#echo $i
+	for i in $*; do
 		sub $i
 	done
 }
-main
+
+
+if [ "$1" = "" ]; then
+	# 無指定の場合はカレントディレクトリの全.txtをチェックする
+	LIST=*.txt
+else
+	# 指定されたファイルをチェックする
+	LIST=$*
+fi
+main_files $LIST

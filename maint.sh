@@ -49,10 +49,18 @@ function sub()
 
 function main()
 {
-	for i in *.txt; do
+	for i in $*; do
 		#echo $i
 		sub $i
 		#echo
 	done
 }
-main
+
+if [ "$1" = "" ]; then
+	# 無指定の場合はカレントディレクトリの全.txtをチェックする
+	LIST=*.txt
+else
+	# 指定されたファイルをチェックする
+	LIST=$*
+fi
+main $LIST
