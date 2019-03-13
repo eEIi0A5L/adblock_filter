@@ -1,5 +1,16 @@
 ! beta.txt
 
+!2019.3.13
+!Abemaの広告？
+!live中にブロックしたらどうなるのか？
+||ad.abema.io^
+||abema-adx.ameba.jp^
 
+!javmost
+!server2
+syndication.exosrv.com##body
+||vebadu.com^
+avgle.com##.grecaptcha-badge
+avgle.com##.vjs-poster
 
 !END
