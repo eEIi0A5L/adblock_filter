@@ -218,6 +218,9 @@ twitter.com##.tooltip-inner
 ||twitter.com/i/live_video_stream/
 ||p-va-1.ft.e.lv.twimg.com/x/out/
 twitter.com##.LiveVideoHomePageModuleContainer
+!リツイート非表示
+!https://egg.5ch.net/test/read.cgi/software/1540428057/702-703
+!twitter.com##.tweet-has-context.js-original-tweet.original-tweet.dismissible-content.js-profile-popup-actionable.js-actionable-tweet.js-stream-tweet.tweet
 
 !Wikipedia
 wikipedia.org###siteNotice
