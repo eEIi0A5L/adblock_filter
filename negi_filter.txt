@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2019/01/22 00:00 JST
+! Last modified: 2019/03/16 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/negi.html
 
@@ -103,6 +103,16 @@ abema.tv##:xpath(//span[contains(text(), "詳細をみる")]/parent::p/parent::a
 abema.tv##:xpath(//span[contains(text(), "詳細を見る")]/parent::p/parent::a)
 !Abema次のビデオ
 !abema.tv##div[class]:has(> div > a[href$="?next=true"])
+!次の動画の自動遷移をオフる
+!abema.tv##+js(setTimeout-logger.js)
+!abema.tv##+js(setInterval-logger.js)
+!34e626d6bd3d6b8bd7f3.js
+!nxload.com##+js(abort-on-property-read.js, miner)
+!abema.tv##+js(abort-on-property-read.js, nextProgramCountDownTimer)
+!abema.tv##+js(abort-on-property-read.js, nextProgramCountDown)
+!abema.tv##+js(setTimeout-defuser.js, (), 1000)
+abema.tv##+js(setInterval-defuser.js, (), 1000)
+abema.tv##div[class^="com-vod-VODNextProgramInfo"]
 
 !Yahoo!Japan
 yahoo.co.jp###promoarea
