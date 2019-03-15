@@ -111,8 +111,8 @@ abema.tv##:xpath(//span[contains(text(), "詳細を見る")]/parent::p/parent::a
 !abema.tv##+js(abort-on-property-read.js, nextProgramCountDownTimer)
 !abema.tv##+js(abort-on-property-read.js, nextProgramCountDown)
 !abema.tv##+js(setTimeout-defuser.js, (), 1000)
-abema.tv##+js(setInterval-defuser.js, (), 1000)
-abema.tv##div[class^="com-vod-VODNextProgramInfo"]
+!abema.tv##+js(setInterval-defuser.js, (), 1000)
+!abema.tv##div[class^="com-vod-VODNextProgramInfo"]
 
 !Yahoo!Japan
 yahoo.co.jp###promoarea
