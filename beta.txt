@@ -1,5 +1,23 @@
 ! beta.txt
 
+!ねぎ-----------------------------------------------------------
+!次の動画の自動遷移をオフる
+abema.tv##+js(setTimeout-logger.js)
+abema.tv##+js(setInterval-logger.js)
+!34e626d6bd3d6b8bd7f3.js
+!nxload.com##+js(abort-on-property-read.js, miner)
+!abema.tv##+js(abort-on-property-read.js, nextProgramCountDownTimer)
+!abema.tv##+js(abort-on-property-read.js, nextProgramCountDown)
+!abema.tv##+js(setTimeout-defuser.js, (), 1000)
+!abema.tv##+js(setInterval-defuser.js, (), 1000)
+!abema.tv##+js(setInterval-defuser.js, "function(){e.props.playingAd&&(e.resetCountDown(),clearInterval(e.nextProgramCountDownTimer)),t({nextProgramCountDown:n}),0===n&&(e.resetCountDown(),e.loadNextEpisode(),n=b.NEXT_EPISODE_COUNTDOWN_TIME),n-=1}", 1000)
+!abema.tv##+js(abort-on-property-read.js, NEXT_EPISODE_COUNTDOWN_TIME)
+!abema.tv##+js(abort-on-property-read.js, loadNextEpisode)
+!abema.tv##+js(abort-on-property-read.js, nextProgramCountDown)
+abema.tv##div[class^="com-vod-VODNextProgramInfo"]
+abema.tv##.com-vod-VODNextProgramInfo
+abema.tv##.com-vod-VODNextProgramInfo--is-show
+abema.tv##+js(setInterval-defuser.js, function(){e.props.playingAd&&(e.resetCountDown(),clearInterval(e.nextProgramCountDownTimer)),t({nextProgramCountDown:n}),0===n&&(e.resetCountDown(),e.loadNextEpisode(),n=b.NEXT_EPISODE_COUNTDOWN_TIME),n-=1}, 1000)
 
 
 !javmost
