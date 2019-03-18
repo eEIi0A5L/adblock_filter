@@ -27,4 +27,9 @@ syndication.exosrv.com##body
 avgle.com##.grecaptcha-badge
 avgle.com##.vjs-poster
 
+
+!atwiki
+atwiki.jp##script:inject(bab-defuser.js)
+
+
 !END
