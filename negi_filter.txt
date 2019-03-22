@@ -150,6 +150,13 @@ shopping.yahoo.co.jp###msthd > .elAccount > li > span.elRegistration
 !js/フォルダ以下だから$scriptの判定は不要だと思われるので下記で様子をみる
 ||s.yimg.jp/images/commerce/js/service/shp/crm/crm
 
+!Yahooスポーツ
+!Yahooスポーツで自動再生の動画を切って通信料を抑える
+!http://egg.5ch.net/test/read.cgi/software/1540428057/788
+!http://egg.5ch.net/test/read.cgi/software/1540428057/805
+!||s.yimg.jp/images/yvpub/player/$domain=sports.yahoo.co.jp
+
+
 !カート削除
 shopping.yahoo.co.jp##.mdCartAnchorLink
 auctions.yahoo.co.jp###js-PromotionFrame

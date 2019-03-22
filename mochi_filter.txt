@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: Mar 16, 2019 00:00 JST
+! Last modified: Mar 22, 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -626,6 +626,19 @@ mail.yahoo.co.jp###slot_MON_sent
 transit.yahoo.co.jp##div[class^="yjads_priority_"]
 ||s.yimg.jp/images/yjcard/campaign/bnr/20171130/transit_600_200.png
 
+!END----------------------------------------
+
+
+!Yahooスポーツナビ--------------------------------
+!Yahooスポーツナビ
+sports.yahoo.co.jp###ad-lrec
+sports.yahoo.co.jp###ad-prmb
+baseball.yahoo.co.jp###ad-lrec
+baseball.yahoo.co.jp###ad-prmb
+soccer.yahoo.co.jp###ad-lrec
+soccer.yahoo.co.jp###ad-prmb
+keiba.yahoo.co.jp###ad-lrec
+keiba.yahoo.co.jp###ad-prmb
 !END----------------------------------------
 
 
@@ -1357,6 +1370,10 @@ news.tbs.co.jp##.md-banner300x250
 !tv-asahi.co.jp##.init-ad-wrapper
 tv-asahi.co.jp##.init-ad
 ||www.tv-asahi.co.jp/Top16/pc/scripts/adtech-desktop.js
+!Chromeでこれ見られなくない？
+!https://cu.tv-asahi.co.jp/watch/1271
+!http://egg.5ch.net/test/read.cgi/software/1551423520/345
+@@||pubads.g.doubleclick.net/gampad/ads?output=$domain=tv-asahi.co.jp
 
 !毎日
 ||cdn.mainichi.jp/vol1/ad/
@@ -1415,6 +1432,9 @@ www.news-postseven.com##.inner-ad
 !www.news-postseven.com###mailmag2
 ||www.news-postseven.com/img3_renew/common/blomaga_20160131.gif
 ||www.news-postseven.com/img3_renew/banner/
+||img2.news-postseven.com/wp-content/uploads/2019/03/nps_diet.gif
+||img2.news-postseven.com/wp-content/uploads/2019/03/nps_kaigo.gif
+www.news-postseven.com##a[href$="?_from=sidebanner"]
 
 !女性自身
 !あなたにオススメ全部広告
