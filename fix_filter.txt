@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: 03 Mar 2019 00:00 JST
+! Last modified: Mar 28, 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/fix.html
 ! 
@@ -177,6 +177,9 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 !Twitterの日刊スポーツ公式アカの記事を開こうとするとブロックされる
 !http://egg.5ch.net/test/read.cgi/software/1540428057/626
 @@_campaign=$document,domain=nikkansports.com
+
+!EasyPrivacy入れてたらアットウィキの添付画像消えるンゴねぇ・・・
+@@img.atwikiimg.com/common/_img/spacer.gif?$domain=atwiki.jp
 
 
 
