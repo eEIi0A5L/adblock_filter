@@ -2,7 +2,7 @@
 ! Title: 亀フィルタ（ウイルスサイトブロック）
 ! Description: ウイルスサイトをブロックする
 !
-! Last modified: 2019/02/27 00:00 JST
+! Last modified: 2019/03/28 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/kame.html
 
@@ -67,6 +67,9 @@
 ||linewg.cn^
 ||idmsa.appIeid.appIe^
 ||.appIe^
+!残念ながら、あなたのアカウント Аmazon を更新できませんでした。
+!www.amazon.co.jp.27e97bd8923daa3964a3dc892e013882.ml/
+||www.amazon.co.jp.
 
 !Text Link Plusがマルウェア化しました
 ||piet2eix3l.com^

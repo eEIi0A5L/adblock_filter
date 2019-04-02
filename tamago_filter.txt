@@ -175,6 +175,9 @@ transit.yahoo.co.jp###rsab
 transit.yahoo.co.jp###posNM
 
 
+!ニコニコブロマガ
+sp.ch.nicovideo.jp###appBanner
+
 !goo
 goo.ne.jp##div[id^="gooad"]
 ||adcdn.goo.ne.jp^
