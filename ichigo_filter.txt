@@ -364,7 +364,7 @@ ero-video.net##.base__adverts
 ||mediad2.jp/ad/js/pjs.js
 ||adv.livelog.biz^
 6movie.blog.fc2.com##.ad
-||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js
+||google-analytics.com/analytics.js$script,domamin=6movie.blog.fc2.com,redirect=google-analytics.com/analytics.js
 6movie.blog.fc2.com##.video-wrap0
 
 !tube8
