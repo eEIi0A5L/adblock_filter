@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: Mar 28, 2019 00:00 JST
+! Last modified: Apr 4, 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -982,6 +982,10 @@ fc2.com###sh_fc2blogheadbar_link_box
 !一か月広告
 !→本文も消えてしまう
 !fc2.com##.entry_table:has(iframe)
+!http://mevius.5ch.net/test/read.cgi/esite/1548897768/306
+admin.blog.fc2.com###ad_sidebody
+admin.blog.fc2.com###ad_sidebar
+
 
 !はてな
 www.hatena.ne.jp###pc-billboard-ad
@@ -1356,6 +1360,11 @@ www.yomiuri.co.jp##.layout-footer
 !||www.ntv.co.jp/ad-navi/
 ||www.news24.jp/css/adjust.css
 www.news24.jp###adText01
+
+!MBS動画イズム
+@@||connect.facebook.net/en_us/sdk.js$domain=dizm.mbs.jp
+@@||www.facebook.com/tr/?id=$domain=dizm.mbs.jp
+@@||www.facebook.com^$domain=dizm.mbs.jp
 
 !TBS
 ||web-jp.ad-v.jp^
