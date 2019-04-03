@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: Mar 30, 2019 00:00 JST
+! Last modified: Apr 4, 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -725,7 +725,7 @@ javout.net###toTop
 javout.net##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display:block!important;)
 javout.net##.addthis_native_toolbox
 /\:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$third-party,xmlhttprequest,domain=~amazon.com
-||google-analytics.com/analytics.js$important,script
+||google-analytics.com/analytics.js$important,script,domain=javout.net
 javout.net##.banner-bottom
 player.javout.net###nuevoa
 player.javout.net##.vjs-scroll
@@ -747,7 +747,7 @@ openload.co##script:inject(abort-current-inline-script.js, adblock, adblock2)
 
 !javdoe
 ||d31qbv1cthcecs.cloudfront.net^
-||google-analytics.com/analytics.js$important,script
+||google-analytics.com/analytics.js$important,script,domain=www.javdoe.com
 fembed.com##script:inject(abort-on-property-write.js, _pop)
 ||ie8eamus.com^$third-party
 www.javdoe.com##.fa-share
