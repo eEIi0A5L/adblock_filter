@@ -207,7 +207,7 @@ imgflare.com##div[style^="width:604px; height:250px;"]
 ||trafficjunky.net^$important,third-party
 !||phncdn.com^
 @@||phncdn.com/www-static/js/header-nojquery.js?$script
-|https://$third-party,script,domain=~feedback.pornhub.com|pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
+!|https://$third-party,script,domain=~feedback.pornhub.com|pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 pornhub.com###adA
 pornhub.com###welcome
 !pornhum.com##.ad-link
@@ -244,7 +244,7 @@ pornhum.com##.nonesuch
 @@||phncdn.com/head/$script
 @@||phncdn.com/tubes-$script
 @@||phncdn.com/timings-$script
-|https://$third-party,script,domain=~feedback.pornhub.com|pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
+!|https://$third-party,script,domain=~feedback.pornhub.com|pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 @@||phncdn.com/networkbar-$script
 pornhub.com###adA
 pornhub.com###hd-rightColVideoPage > div[class]:first-child
