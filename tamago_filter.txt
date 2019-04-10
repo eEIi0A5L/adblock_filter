@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 22 Feb 2019 00:00 JST
+! Last modified: 07 Apr 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -109,6 +109,9 @@ mobile.twitter.com##header[role="banner"] + div > div
 twitter.com##.promoted-tweet
 mobile.twitter.com##div[role="article"]:has-text(Promoted)
 
+!ニコ動
+sp.ch.nicovideo.jp###appBanner
+
 !impress
 impress.co.jp###sp-floating-layer
 impress.co.jp###floating-social-buttons
@@ -124,6 +127,7 @@ watch.impress.co.jp##.ad
 !#sp-floating-layer
 ||d7x5nblzs94me.cloudfront.net/v1/j/shared.js
 ||d7x5nblzs94me.cloudfront.net/v1/j/button.js
+akiba-pc.watch.impress.co.jp###amp-floating-area
 
 !下記で消えるが画像も消えてしまった
 !$script,domain=pc.watch.impress.co.jp
@@ -309,7 +313,10 @@ bbspink.com##div[class^="banner_area_"]
 bbspink.com##.ticker
 5ch.net,2ch.net###js--banners--thread
 
-
+!ファミ通
+||ssl.webtracker.jp/ad/
+s.famitsu.com##.l-main
+s.famitsu.com##.article-body__contents-pr-primary
 
 
 !j-cast

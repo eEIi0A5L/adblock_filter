@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: Apr 4, 2019 00:00 JST
+! Last modified: 08 Apr 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -1998,6 +1998,13 @@ exblog.jp##a[href^="http://www.dmm.co.jp/pr/dc/pcgame/"]
 ||pubpress.net/houseads/
 ||pubmine.com/adjr
 ||pubmine.com/adve
+
+!テレビドラマデータベース
+!||www.tvdrama-db.com/cgi-bin/Amazon/amzCastNameAsin.pl?code=
+!||www.tvdrama-db.com/cgi-bin/Amazon/js/amz.js
+!||www.tvdrama-db.com/cgi-bin/Amazon/amzext1.pl?id=
+!||www.tvdrama-db.com/cgi-bin/Amazon/amzCastName.pl?keyword=
+||www.tvdrama-db.com/cgi-bin/Amazon/
 
 
 !その他

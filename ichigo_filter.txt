@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: Apr 6, 2019 00:00 JST
+! Last modified: Apr 10, 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -203,7 +203,7 @@ imgflare.com##div[style^="width:604px; height:250px;"]
 !pornhub
 |blob:$script,domain=pornhub.com|xhamster.com|youporn.com
 @@||phncdn.com^$stylesheet,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
-||phncdn.com^
+!||phncdn.com^
 ||trafficjunky.net^$important,third-party
 !||phncdn.com^
 @@||phncdn.com/www-static/js/header-nojquery.js?$script
@@ -250,24 +250,24 @@ pornhub.com###adA
 pornhub.com###hd-rightColVideoPage > div[class]:first-child
 pornhub.com###main-container > [id] > [class]:first-child
 pornhub.com###welcome
-pornhub.com##.ad-link
-pornhub.com##.removeAdsStyle
+!pornhub.com##.ad-link
+!pornhub.com##.removeAdsStyle
 @@||phncdn.com/jquery/$script
 @@||phncdn.com/swfobject-$script
 @@||pornhub.com/svvt/add?$xmlhttprequest
-pornhub.com###abAlert
+!pornhub.com###abAlert
 pornhub.com##.video-wrapper > #player + [class]
-pornhub.com##[class$="Ads"]:not(body)
-pornhub.com##[class*="-ads-"]
-pornhub.com##[class^="ad-"]
-pornhub.com##[class^="ad-"]:not(body)
+!pornhub.com##[class$="Ads"]:not(body)
+!pornhub.com##[class*="-ads-"]
+!pornhub.com##[class^="ad-"]
+!pornhub.com##[class^="ad-"]:not(body)
 pornhub.com##[href^="http://ads.genericlink.com/"]
 pornhub.com##[href^="https://plus.google.com/share?url="]
 pornhub.com##[id^="ad-"]:not(body)
 pornhub.com##a[href*="//twitter.com/share"]
 pornhub.com##a[href*="://ads."]
 pornhub.com##a[href*="plus.google.com/share"]
-pornhub.com##iframe
+!pornhub.com##iframe
 @@||phncdn.com/www-static/js/suggest-$script
 @@||phncdn.com/www-static/js/video-$script
 @@||phncdn.com/www-static/js/htmlpauseroll/$script
@@ -312,9 +312,14 @@ pornhub.com##script:inject(abort-on-property-write.js, rAb)
 pornhub.com##script:inject(csp.js, img-src 'self' *; media-src 'self' *)
 pornhub.com##script:inject(abort-on-property-write.js, UAParser)
 pornhub.com##script:inject(abort-on-property-write.js, isAdblockOn)
-pornhub.com##^script:has-text(tj_ads)
+!pornhub.com##^script:has-text(tj_ads)
 !https://www.reddit.com/r/uBlockOrigin/comments/8ebhxm/no_volume_control_on_pornhub/
 pornhub.com#@#[style*="display: block;"]
+@@||naiadsystems.com^$xmlhttprequest,domain=pornhub.com
+pornhub.com##+js(addEventListener-defuser.js, DOMContentLoaded, [native code])
+pornhub.com##+js(abort-on-property-read.js, smpop)
+||smpop.icfcdn.com/smpop-stable.js$script
+
 
 !bobx.com
 ||img.bobx.com/x_images/vids4.jpg
