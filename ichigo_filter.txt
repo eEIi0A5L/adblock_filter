@@ -232,7 +232,7 @@ pornhum.com##.nonesuch
 @@||phncdn.com^$image,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
 ||trafficjunky.net^$important,third-party
 @@||phncdn.com/www-static/js/widgets-player.js$script
-*$websocket,domain=pornhub.com
+!*$websocket,domain=pornhub.com
 |blob:$script,domain=pornhub.com|xhamster.com|youporn.com
 @@||phncdn.com^$stylesheet,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
 @@||phncdn.com/mg_utils-$script
