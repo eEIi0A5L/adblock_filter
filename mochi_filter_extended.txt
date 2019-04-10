@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: Apr 10 2019 00:00 JST
+! Last modified: Apr 11 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_extended.html
 ! 
@@ -215,7 +215,7 @@ www.afpbb.com##.pr-text
 !imdbでAround The Webが空白になる
 !||www.zergnet.com^
 ||d1z2jf7jlzjs58.cloudfront.net^
-||js-agent.newrelic.com^
+||js-agent.newrelic.com^$domain=time.com
 ||cdn.comparecards.com^$domain=fortune.com|time.com
 !wp.comはpopin,taboole系なのでブロックするのはやめた
 !||stats.wp.com^
