@@ -627,6 +627,10 @@ javfinder.is##img[width="728"][height="90"]
 @@/js/ads.js$script,domain=javfinder.is
 javfinder.is##+js(setTimeout-defuser.js, _0x)
 /^https?:\/\/[a-z0-9]{5,14}\.(com|bid|online|top|club)\/[0-9a-f]{32}\/invoke.js$/$third-party,script,domain=javfinder.is
+javfinder.is##.afs_ads
+||google-analytics.com/analytics.js$important,script,domain=javfinder.is
+||googletagmanager.com^$domain=javfinder.is
+||zarlomgog.com/get/1551789?zoneid=
 
 
 !popjav
