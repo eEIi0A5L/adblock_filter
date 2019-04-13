@@ -631,6 +631,7 @@ javfinder.is##.afs_ads
 ||google-analytics.com/analytics.js$important,script,domain=javfinder.is
 ||googletagmanager.com^$domain=javfinder.is
 ||zarlomgog.com/get/1551789?zoneid=
+embed.media##.afs_ads
 
 
 !popjav

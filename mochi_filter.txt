@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 08 Apr 2019 00:00 JST
+! Last modified: 13 Apr 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -784,6 +784,8 @@ twitch.tv##+js(twitch-videoad.js)
 ||api.bucketeer.jp^
 abema.tv###videoAdContainer
 abema.tv##.theoplayer-ad-nonlinear
+abema.tv##.com-tv-top-CommercialBannerCarousel-banner
+abema.tv##.com-tv-top-CommercialBannerCarousel
 
 !Abema Fresh
 !下記をブロックするとGyaoが見れない
