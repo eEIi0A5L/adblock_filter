@@ -201,124 +201,33 @@ imgflare.com##div[style^="width:604px; height:250px;"]
 ||www.2048dh.pw^
 
 !pornhub
-|blob:$script,domain=pornhub.com|xhamster.com|youporn.com
-@@||phncdn.com^$stylesheet,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
-!||phncdn.com^
-||trafficjunky.net^$important,third-party
-!||phncdn.com^
-@@||phncdn.com/www-static/js/header-nojquery.js?$script
-!|https://$third-party,script,domain=~feedback.pornhub.com|pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
-pornhub.com###adA
-pornhub.com###welcome
-!pornhum.com##.ad-link
-!pornhum.com##.removeAdsStyle
-pornhub.com##.sectionWrapper > div[class]:has(:scope > div > .ad-link)
-!pornhum.com##[class$="Ads"]:not(body)
-!pornhum.com##[class*="-ads-"]
-!pornhum.com##[class^="ad-"]
-pornhub.com##[href^="http://ads.genericlink.com/"]
-!pornhub.com###abAlert
-pornhub.com##a[href*="://ads."]
-@@||phncdn.com/vortex-simple-*.js|$script,domain=pornhum.com
-!pornhum.com##iframe
-pornhum.com##.nonesuch
-@@||phncdn.com/www-static/js/htmlpauseroll/$script
-@@||phncdn.com/jquery/$script
-@@||phncdn.com/swfobject-$script
-@@||phncdn.com^$image,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
-@@||phncdn.com/tubes-$script
-@@||phncdn.com/html5player/$script
-!@@||phncdn.com^$stylesheet,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
-!@@||phncdn.com^$image,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
-!||trafficjunky.net^$important,third-party
-@@||phncdn.com/www-static/js/widgets-player.js$script
-!*$websocket,domain=pornhub.com
-!|blob:$script,domain=pornhub.com|xhamster.com|youporn.com
-!@@||phncdn.com^$stylesheet,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
-@@||phncdn.com/mg_utils-$script
-!@@||phncdn.com/html5player/$script
-@@||phncdn.com/html5shiv-$script
-!||phncdn.com^
-!@@||phncdn.com^$image,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
-@@||phncdn.com/www-static/js/mg_modal-$script
-@@||phncdn.com/head/$script
-!@@||phncdn.com/tubes-$script
-@@||phncdn.com/timings-$script
-!|https://$third-party,script,domain=~feedback.pornhub.com|pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
-@@||phncdn.com/networkbar-$script
-!pornhub.com###adA
-pornhub.com###hd-rightColVideoPage > div[class]:first-child
-pornhub.com###main-container > [id] > [class]:first-child
-!pornhub.com###welcome
-!pornhub.com##.ad-link
-!pornhub.com##.removeAdsStyle
-!@@||phncdn.com/jquery/$script
-!@@||phncdn.com/swfobject-$script
-@@||pornhub.com/svvt/add?$xmlhttprequest
-!pornhub.com###abAlert
-pornhub.com##.video-wrapper > #player + [class]
-!pornhub.com##[class$="Ads"]:not(body)
-!pornhub.com##[class*="-ads-"]
-!pornhub.com##[class^="ad-"]
-!pornhub.com##[class^="ad-"]:not(body)
-!pornhub.com##[href^="http://ads.genericlink.com/"]
-pornhub.com##[href^="https://plus.google.com/share?url="]
-pornhub.com##[id^="ad-"]:not(body)
-pornhub.com##a[href*="//twitter.com/share"]
-!pornhub.com##a[href*="://ads."]
-pornhub.com##a[href*="plus.google.com/share"]
-!pornhub.com##iframe
-@@||phncdn.com/www-static/js/suggest-$script
-@@||phncdn.com/www-static/js/video-$script
-!@@||phncdn.com/www-static/js/htmlpauseroll/$script
-@@||phncdn.com/www-static/js/widgets-comments.js$script
-@@||phncdn.com/www-static/*/jquery.$script,domain=phncdn.com
-@@||phncdn.com/www-static/js/quality-$script
-@@||phncdn.com/www-static/js/premium/$script
-@@||phncdn.com/www-static/js/ph-footer.js$script
-@@||phncdn.com/www-static/js/footer.js$script
-@@||phncdn.com/www-static/js/gif-$script
-@@||phncdn.com/www-static/js/playlist/$script
-@@||phncdn.com/www-static/js/phub.$script
-@@||phncdn.com/www-static/js/header.js$script
-!@@||phncdn.com^$image,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
-@@||phncdn.com/www-static/js/widgets-pornstar.js$script
-@@||phncdn.com/www-static/js/widgets-rating-like-fav.js$script
-@@||phncdn.com/www-static/js/widgets-rating-bar.js$script
-@@||phncdn.com/www-static/js/signin.js$script
-@@||phncdn.com/www-static/js/widgets-live-popup.js$script
-!@@||phncdn.com/www-static/js/gif-$script
-!@@||phncdn.com/jquery/$script
-@@||phncdn.com/www-static/js/lib/$script
-@@||phncdn.com/jquery-$script
-!@@||phncdn.com/www-static/js/widgets-player.js$script
-!@@||phncdn.com/www-static/js/header-nojquery.js?$script
-@@||phncdn.com/www-static/js/header-menu.js?$script
-@@||phncdn.com/www-static/js/mg_flipbook-$script
-!@@||phncdn.com/www-static/js/mg_modal-$script
-@@||phncdn.com/www-static/js/dropdown.js$script
-@@||phncdn.com/www-static/*/autocomplete.$script,domain=phncdn.com
-@@||phncdn.com/www-static/js/phub-nojquery.js$script
-!||trafficjunky.net^$important,third-party
-pornhub.com###pb_template
-!|https://$xmlhttprequest,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
-||doublepimpssl.com^$third-party
-@@/videos/$domain=pornhub.com
-!@@||pornhub.com/svvt/add?$xmlhttprequest
-pornhub.com##script:inject(pornhub-popup-defuser.js)
-pornhub.com##script:inject(pornhub-sanitizer.js)
-pornhub.com##script:inject(abort-on-property-write.js, AdDelivery)
-pornhub.com##script:inject(abort-on-property-write.js, rAb)
-pornhub.com##script:inject(csp.js, img-src 'self' *; media-src 'self' *)
-pornhub.com##script:inject(abort-on-property-write.js, UAParser)
-pornhub.com##script:inject(abort-on-property-write.js, isAdblockOn)
-!pornhub.com##^script:has-text(tj_ads)
-!https://www.reddit.com/r/uBlockOrigin/comments/8ebhxm/no_volume_control_on_pornhub/
-pornhub.com#@#[style*="display: block;"]
-@@||naiadsystems.com^$xmlhttprequest,domain=pornhub.com
-pornhub.com##+js(addEventListener-defuser.js, DOMContentLoaded, [native code])
-pornhub.com##+js(abort-on-property-read.js, smpop)
 ||smpop.icfcdn.com/smpop-stable.js$script
+||ci.phncdn.com/www-static/js/ph-tracking.js?
+||trafficjunky.net^$important,third-party
+pornhub.com##+js(pornhub-popup-defuser.js)
+pornhub.com##+js(pornhub-sanitizer.js)
+pornhub.com##+js(abort-on-property-write.js, AdDelivery)
+pornhub.com##+js(abort-on-property-write.js, rAb)
+pornhub.com##+js(csp.js, img-src 'self' *; media-src 'self' *)
+pornhub.com##+js(addEventListener-defuser.js, DOMContentLoaded, [native code])
+pornhub.com##+js(abort-on-property-write.js, UAParser)
+pornhub.com##+js(abort-on-property-write.js, isAdblockOn)
+pornhub.com##+js(abort-on-property-read.js, smpop)
+||google-analytics.com/analytics.js$important,script,domain=pornhub.com
+||phncdn.com/iframe
+pornhub.com##.playerFlvContainer > div#pb_template[style]:style(position: absolute!important; left: -3000px!important;)
+pornhub.com##.video-wrapper > div#player~div[class$=" hd clear"]:style(position: absolute!important; left: -3000px!important;)
+pornhub.com##iframe[title*="Campaign"]:style(position: absolute!important; left: -3000px!important;)
+pornhub.com###abAlert
+pornhub.com##.realsex
+pornhub.com##.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
+pornhub.com##.sectionWrapper > div[class*=" "]:has(:scope > div[class]:only-child > a.removeAdLink)
+pornhub.com##.sectionWrapper > div[class]:has(:scope > div > .ad-link)
+pornhub.com##body > .wrapper + div[class]:has(:scope > .removeAdLink)
+pornhub.com##.ad-link
+pornhub.com##.removeAdsStyle
+pornhub.com###hAd
+pornhub.com##.playerFlvContainer > div#pb_template[style]
 
 
 !bobx.com
