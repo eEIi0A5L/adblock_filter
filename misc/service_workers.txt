@@ -1,6 +1,14 @@
-!いつの間にかサービスワーカーが登録されている
+!いつの間にか怪しげなサービスワーカーが登録されている
 !ブロックして問題ないか様子を見る2019.4.2
 ||xcity.jp/serviceWorker.js
 ||ferret-plus.com/serviceworker.js
 ||ototoy.jp/serviceWorker.js
 ||excesssecurity.com/cocoon-service-worker.js
+||jd57.butitereventwil.info
+||www.datamation.com/sw.js
+||twihash.com/pwa4wp-sw-1.js
+||tsuiran.jp/serviceworker.js
+
+
+
+!END

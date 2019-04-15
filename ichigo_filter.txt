@@ -99,6 +99,9 @@ javfor.me##script:contains(window.open)
 !右はうざいので全部消す
 !||javfor.me/static/channel_img/channel-paradise_tv-460x250.jpg
 javfor.me###player-row-right
+!||javfor.me/static/bcopy/r18728x90_020.jpg
+!||javfor.me/static/bcopy/r18728x90_03.jpg
+javfor.me##a[href^="/lib/url.php?"] > img
 
 !おらばうと
 ||puhtml.com^
