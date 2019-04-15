@@ -52,7 +52,7 @@ xhamster.com##[id$="Ads"]:not(body)
 xhamster.com##.sponsorB
 xhamster.com##.sponsorTitle
 ||xhamster.com^$subdocument
-||trafficstars.com^$third-party
+!||trafficstars.com^$third-party
 /banner.stats?$domain=xhamster.com
 !xhamster.com##div > noscript + div[style
 xhamster.com##div[style^="width: 330px"]
@@ -148,7 +148,7 @@ imgchili.net##[href^="http://www.linkedin.com/shareArticle?"]
 imgchili.net##[href^="http://www.stumbleupon.com/submit?url"]
 imgchili.net##[href^="http://www.tumblr.com/share/"]
 ||main.exoclick.com^
-||main.exoclick.com^
+!||main.exoclick.com^
 ||syndication.exoclick.com/ads
 ||chaturbate.com^$third-party
 ||imgchili.net/baexo.php
@@ -228,32 +228,32 @@ pornhum.com##.nonesuch
 @@||phncdn.com^$image,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
 @@||phncdn.com/tubes-$script
 @@||phncdn.com/html5player/$script
-@@||phncdn.com^$stylesheet,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
-@@||phncdn.com^$image,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
-||trafficjunky.net^$important,third-party
+!@@||phncdn.com^$stylesheet,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
+!@@||phncdn.com^$image,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
+!||trafficjunky.net^$important,third-party
 @@||phncdn.com/www-static/js/widgets-player.js$script
 !*$websocket,domain=pornhub.com
-|blob:$script,domain=pornhub.com|xhamster.com|youporn.com
-@@||phncdn.com^$stylesheet,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
+!|blob:$script,domain=pornhub.com|xhamster.com|youporn.com
+!@@||phncdn.com^$stylesheet,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
 @@||phncdn.com/mg_utils-$script
-@@||phncdn.com/html5player/$script
+!@@||phncdn.com/html5player/$script
 @@||phncdn.com/html5shiv-$script
 !||phncdn.com^
-@@||phncdn.com^$image,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
+!@@||phncdn.com^$image,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
 @@||phncdn.com/www-static/js/mg_modal-$script
 @@||phncdn.com/head/$script
-@@||phncdn.com/tubes-$script
+!@@||phncdn.com/tubes-$script
 @@||phncdn.com/timings-$script
 !|https://$third-party,script,domain=~feedback.pornhub.com|pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 @@||phncdn.com/networkbar-$script
-pornhub.com###adA
+!pornhub.com###adA
 pornhub.com###hd-rightColVideoPage > div[class]:first-child
 pornhub.com###main-container > [id] > [class]:first-child
-pornhub.com###welcome
+!pornhub.com###welcome
 !pornhub.com##.ad-link
 !pornhub.com##.removeAdsStyle
-@@||phncdn.com/jquery/$script
-@@||phncdn.com/swfobject-$script
+!@@||phncdn.com/jquery/$script
+!@@||phncdn.com/swfobject-$script
 @@||pornhub.com/svvt/add?$xmlhttprequest
 !pornhub.com###abAlert
 pornhub.com##.video-wrapper > #player + [class]
@@ -261,16 +261,16 @@ pornhub.com##.video-wrapper > #player + [class]
 !pornhub.com##[class*="-ads-"]
 !pornhub.com##[class^="ad-"]
 !pornhub.com##[class^="ad-"]:not(body)
-pornhub.com##[href^="http://ads.genericlink.com/"]
+!pornhub.com##[href^="http://ads.genericlink.com/"]
 pornhub.com##[href^="https://plus.google.com/share?url="]
 pornhub.com##[id^="ad-"]:not(body)
 pornhub.com##a[href*="//twitter.com/share"]
-pornhub.com##a[href*="://ads."]
+!pornhub.com##a[href*="://ads."]
 pornhub.com##a[href*="plus.google.com/share"]
 !pornhub.com##iframe
 @@||phncdn.com/www-static/js/suggest-$script
 @@||phncdn.com/www-static/js/video-$script
-@@||phncdn.com/www-static/js/htmlpauseroll/$script
+!@@||phncdn.com/www-static/js/htmlpauseroll/$script
 @@||phncdn.com/www-static/js/widgets-comments.js$script
 @@||phncdn.com/www-static/*/jquery.$script,domain=phncdn.com
 @@||phncdn.com/www-static/js/quality-$script
@@ -281,30 +281,30 @@ pornhub.com##a[href*="plus.google.com/share"]
 @@||phncdn.com/www-static/js/playlist/$script
 @@||phncdn.com/www-static/js/phub.$script
 @@||phncdn.com/www-static/js/header.js$script
-@@||phncdn.com^$image,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
+!@@||phncdn.com^$image,domain=gaytube.com|pornhub.com|redtube.com|redtube.it|tube8.com|tube8.es|tube8.fr|xtube.com|youjizz.com|youporn.com|youporngay.com
 @@||phncdn.com/www-static/js/widgets-pornstar.js$script
 @@||phncdn.com/www-static/js/widgets-rating-like-fav.js$script
 @@||phncdn.com/www-static/js/widgets-rating-bar.js$script
 @@||phncdn.com/www-static/js/signin.js$script
 @@||phncdn.com/www-static/js/widgets-live-popup.js$script
-@@||phncdn.com/www-static/js/gif-$script
-@@||phncdn.com/jquery/$script
+!@@||phncdn.com/www-static/js/gif-$script
+!@@||phncdn.com/jquery/$script
 @@||phncdn.com/www-static/js/lib/$script
 @@||phncdn.com/jquery-$script
-@@||phncdn.com/www-static/js/widgets-player.js$script
-@@||phncdn.com/www-static/js/header-nojquery.js?$script
+!@@||phncdn.com/www-static/js/widgets-player.js$script
+!@@||phncdn.com/www-static/js/header-nojquery.js?$script
 @@||phncdn.com/www-static/js/header-menu.js?$script
 @@||phncdn.com/www-static/js/mg_flipbook-$script
-@@||phncdn.com/www-static/js/mg_modal-$script
+!@@||phncdn.com/www-static/js/mg_modal-$script
 @@||phncdn.com/www-static/js/dropdown.js$script
 @@||phncdn.com/www-static/*/autocomplete.$script,domain=phncdn.com
 @@||phncdn.com/www-static/js/phub-nojquery.js$script
-||trafficjunky.net^$important,third-party
+!||trafficjunky.net^$important,third-party
 pornhub.com###pb_template
 !|https://$xmlhttprequest,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 ||doublepimpssl.com^$third-party
 @@/videos/$domain=pornhub.com
-@@||pornhub.com/svvt/add?$xmlhttprequest
+!@@||pornhub.com/svvt/add?$xmlhttprequest
 pornhub.com##script:inject(pornhub-popup-defuser.js)
 pornhub.com##script:inject(pornhub-sanitizer.js)
 pornhub.com##script:inject(abort-on-property-write.js, AdDelivery)
@@ -594,7 +594,7 @@ javfinder.is##div[id*="ScriptRootC"]
 @@||rapidvideo.com/js/js.cookie.js$script
 @@||rapidvideo.com/js/new.js$script
 @@||rapidvideo.com/jw-logo/jw-logo-bar.js$script
-@@||rapidvideo.com^$script,domain=rapidvideo.com
+!@@||rapidvideo.com^$script,domain=rapidvideo.com
 @@||rapidvideo.com/tube-skin-retina-for-videojs-6/bin/video-js-*/video.min.js$script
 @@||rapidvideo.com/js/videojs.hotkeys.min.js$script
 javfinder.is###pauseroll
@@ -613,7 +613,7 @@ javfinder.is###preroll_ads
 ||keqi7dh3df.com^
 ||fabrkrup.com^$third-party
 ||cdn.o333o.com^
-javfinder.is##.afs_ads
+!javfinder.is##.afs_ads
 javfinder.is##iframe[src="https://avsex.me/js/pc.html"]
 ||amung.us^
 ||k77hof1z7k.com^
@@ -621,13 +621,13 @@ javfinder.is##iframe[width="300"][height="250"]
 ||ssdsylfzav.com^$third-party
 javfinder.is##iframe[width="728"][height="90"]
 /^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=javfinder.is|embed.media
-javfinder.is##.afs_ads
+!javfinder.is##.afs_ads
 javfinder.is##img[width="728"][height="90"]
 ||rlomrjxrpsev.com^$third-party
 @@/js/ads.js$script,domain=javfinder.is
 javfinder.is##+js(setTimeout-defuser.js, _0x)
 /^https?:\/\/[a-z0-9]{5,14}\.(com|bid|online|top|club)\/[0-9a-f]{32}\/invoke.js$/$third-party,script,domain=javfinder.is
-javfinder.is##.afs_ads
+!javfinder.is##.afs_ads
 ||google-analytics.com/analytics.js$important,script,domain=javfinder.is
 ||googletagmanager.com^$domain=javfinder.is
 ||zarlomgog.com/get/1551789?zoneid=
@@ -679,10 +679,10 @@ hpjav.tv##.bottom-ad
 hpjav.tv###preroll_ads
 hpjav.tv##iframe[width="728"][height="90"]
 hpjav.tv##iframe[width="300"][height="250"]
-hpjav.tv##+js(abort-on-property-read.js, AaDetector)
-/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=hpjav.tv
-hpjav.tv##.bottom-ad
-hpjav.tv##.center-ad
+!hpjav.tv##+js(abort-on-property-read.js, AaDetector)
+!/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=hpjav.tv
+!hpjav.tv##.bottom-ad
+!hpjav.tv##.center-ad
 hpjav.tv##.home-ad
 
 !javmost
@@ -748,7 +748,7 @@ player.javout.net###nuevoa
 player.javout.net##.vjs-scroll
 player.javout.net###invideo_wrapper
 javout.net##.social
-javout.net##.banner-bottom
+!javout.net##.banner-bottom
 ||boudja.com^
 ||charmour.club^
 ||charmour.club^$popup
