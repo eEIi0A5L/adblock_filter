@@ -251,7 +251,7 @@ www.huffingtonpost.com##.advertisement
 !||o.aolcdn.com^
 ||yimg.com/wi/ytc.js
 ||plugin.mediavoice.com^
-huffingtonpost.com##script:inject(abort-on-property-write.js, _sp_)
+huffingtonpost.com##+js(abort-on-property-write.js, _sp_)
 
 !JAMA
 ||jamanetwork.com/AMA/AdTag

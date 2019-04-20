@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: Apr 15, 2019 00:00 JST
+! Last modified: Apr 20, 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -18,11 +18,11 @@ xvideos.com###page.video-page > [id]:has(a[href^="https://main.trafficfactory.bi
 xvideos.com##.subscribe-feed
 ||www.mmaaxx.com^
 |https://$third-party,script,domain=xvideos.com
-xvideos.com##script:inject(abort-on-property-write.js, openpop)
-xvideos.com##script:inject(nowebrtc.js)
-xvideos.com##script:inject(xvideos.com.js)
+xvideos.com##+js(abort-on-property-write.js, openpop)
+xvideos.com##+js(nowebrtc.js)
+xvideos.com##+js(xvideos.com.js)
 @@||xvideos-cdn.com^$xmlhttprequest,domain=xvideos.com
-xvideos.com##script:inject(window.open-defuser.js)
+xvideos.com##+js(window.open-defuser.js)
 !https://www.reddit.com/r/uBlockOrigin/comments/8ehkjc/xvideos_dont_show_anything/
 xvideos.com#@#[src*="blob:"]
 xvideos.com#@#[style*="display: block;"]
@@ -58,7 +58,7 @@ xhamster.com##.sponsorTitle
 xhamster.com##div[style^="width: 330px"]
 xhamster.com##.player-ad-overlay
 xhamster.com##.banner-container
-xhamster.com##script:inject(abort-on-property-write.js, dataPopUnder)
+xhamster.com##+js(abort-on-property-write.js, dataPopUnder)
 ||cdn.tsyndicate.com^
 jp.xhamster.com##.ads-div
 xhamster.com##+js(addEventListener-defuser.js, popstate, backUrl)
@@ -289,14 +289,14 @@ ero-video.net##.base__adverts
 ||mediad2.jp/ad/js/pjs.js
 ||adv.livelog.biz^
 6movie.blog.fc2.com##.ad
-||google-analytics.com/analytics.js$script,domamin=6movie.blog.fc2.com,redirect=google-analytics.com/analytics.js
+||google-analytics.com/analytics.js$script,domain=6movie.blog.fc2.com,redirect=google-analytics.com/analytics.js
 6movie.blog.fc2.com##.video-wrap0
 
 !tube8
-tube8.*##script:inject(pornhub-popup-defuser.js)
-tube8.com##script:inject(abort-on-property-write.js, AdDelivery)
-tube8.com##script:inject(abort-on-property-write.js, IS_ADBLOCK)
-tube8.com##script:inject(abort-on-property-write.js, loadAdFromHeaderTab)
+tube8.*##+js(pornhub-popup-defuser.js)
+tube8.com##+js(abort-on-property-write.js, AdDelivery)
+tube8.com##+js(abort-on-property-write.js, IS_ADBLOCK)
+tube8.com##+js(abort-on-property-write.js, loadAdFromHeaderTab)
 ||etahub.com^$third-party
 ||trafficjunky.net^$important,third-party
 tube8.com###right_side_ad_wrapper
@@ -437,7 +437,7 @@ lovechat777.blog.fc2.com###rightside
 ||iwanttodeliver.com^$popup
 @@||xvideos.com^$third-party
 ||xnxx.com/in.php?referer
-xnxx.com##script:inject(xvideos.com.js)
+xnxx.com##+js(xvideos.com.js)
 
 !yourporn.sexy
 ||yourporn.sexy/vast/adt_vast.js
@@ -445,8 +445,8 @@ xnxx.com##script:inject(xvideos.com.js)
 ||ads.exosrv.com^
 ||puserving.com^
 ||syndication.exosrv.com^
-yourporn.sexy##script:inject(noeval.js)
-yourporn.sexy##script:inject(abort-on-property-write.js, Fingerprint2)
+yourporn.sexy##+js(noeval.js)
+yourporn.sexy##+js(abort-on-property-write.js, Fingerprint2)
 
 !pron.tv
 ||ads2.contentabc.com^
@@ -460,24 +460,24 @@ pron.tv###groupedlist
 pron.tv##.ifab
 
 !bitporno
-bitporno.com##script:inject(window.open-defuser.js)
-bitporno.com##script:inject(popads.net.js)
-bitporno.com##script:inject(nowebrtc.js)
-bitporno.com##script:inject(abort-current-inline-script.js, atob, tabunder)
+bitporno.com##+js(window.open-defuser.js)
+bitporno.com##+js(popads.net.js)
+bitporno.com##+js(nowebrtc.js)
+bitporno.com##+js(abort-current-inline-script.js, atob, tabunder)
 
 !vidoza
 *$csp=worker-src 'none',domain=estream.to|streamango.com|vidoza.net|vidto.me|vidtudu.com
 @@||vidoza.net^$generichide
-vidoza.net##script:inject(window.open-defuser.js)
-vidoza.net##script:inject(noeval.js)
+vidoza.net##+js(window.open-defuser.js)
+vidoza.net##+js(noeval.js)
 ||tagbucket.cc^
 @@||vidoza.net/js/pop.js
 @@||vidoza.net/js/ads.js
 
 !openload
-openload.co##script:inject(openload.co.js)
-openload.co##script:inject(nano-setInterval-booster.js)
-openload.co##script:inject(window.open-defuser.js)
+openload.co##+js(openload.co.js)
+openload.co##+js(nano-setInterval-booster.js)
+openload.co##+js(window.open-defuser.js)
 *$csp=default-src 'self' * data: 'unsafe-inline' 'unsafe-eval',domain=101greatgoals.com|openload.co
 ||openload.co/cdn-cgi/apps/head/
 ||cdn.acloudvideos.com/video_ads/
@@ -486,7 +486,7 @@ openload.co##script:inject(window.open-defuser.js)
 ||aoredi.com/apu.php?
 ||whos.amung.us^
 ||traffic-media.co.uk^$third-party
-fembed.com##script:inject(abort-on-property-write.js, _pop)
+fembed.com##+js(abort-on-property-write.js, _pop)
 javfinder.is##.to-top
 javfinder.is##.row > .col-xs-12:first-child
 ||b54m4qbmt0b9.com^
@@ -550,11 +550,11 @@ embed.media##.afs_ads
 
 !popjav
 ||adexchangecloud.com^
-rapidvideo.com##script:inject(abort-current-inline-script.js, atob, tabunder)
-rapidvideo.com##script:inject(abort-current-inline-script.js, parseInt, tabunder)
-rapidvideo.com##script:inject(abort-on-property-write.js, executed)
-rapidvideo.com##script:inject(noeval.js)
-rapidvideo.com##script:inject(popads.net.js)
+rapidvideo.com##+js(abort-current-inline-script.js, atob, tabunder)
+rapidvideo.com##+js(abort-current-inline-script.js, parseInt, tabunder)
+rapidvideo.com##+js(abort-on-property-write.js, executed)
+rapidvideo.com##+js(noeval.js)
+rapidvideo.com##+js(popads.net.js)
 popjav.com##.video_ad
 popjav.com###right_ad
 popjav.com###left_ad
@@ -607,9 +607,9 @@ hpjav.tv##.home-ad
 @@||ads.exosrv.com/ads.js$domain=avgle.com
 @@||avgle.com/avideos.js
 ||avgle.com/cdn-cgi/apps/head/
-avgle.com##script:inject(abort-on-property-read.js, ExoDetector)
-avgle.com##script:inject(abort-on-property-write.js, Fingerprint2)
-avgle.com##script:inject(set-constant.js, checkThings, trueFunc)
+avgle.com##+js(abort-on-property-read.js, ExoDetector)
+avgle.com##+js(abort-on-property-write.js, Fingerprint2)
+avgle.com##+js(set-constant.js, checkThings, trueFunc)
 ||aoredi.com/apu.php?$important
 ||static.hotjar.com^
 javmost.com##div[style="width:100%; height: 100px;overflow: hidden !important;"]
@@ -666,7 +666,7 @@ javout.net##.social
 ||boudja.com^
 ||charmour.club^
 ||charmour.club^$popup
-openload.co##script:inject(abort-current-inline-script.js, adblock, adblock2)
+openload.co##+js(abort-current-inline-script.js, adblock, adblock2)
 ||elanatality.info^$third-party
 ||realtime.services.disqus.com^
 ||djv99sxoqpv11.cloudfront.net^
@@ -679,7 +679,7 @@ openload.co##script:inject(abort-current-inline-script.js, adblock, adblock2)
 !javdoe
 ||d31qbv1cthcecs.cloudfront.net^
 ||google-analytics.com/analytics.js$important,script,domain=www.javdoe.com
-fembed.com##script:inject(abort-on-property-write.js, _pop)
+fembed.com##+js(abort-on-property-write.js, _pop)
 ||ie8eamus.com^$third-party
 www.javdoe.com##.fa-share
 www.javdoe.com##[id*="ScriptRoot"]
@@ -747,12 +747,12 @@ javtb.se##.pc_main
 !av8x
 ||i.imgur.com/eowitBo.gif
 ||fingahvf.top/advertisers.js
-qdembed.com##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
-qdembed.com##script:inject(setInterval-defuser.js, (), 500)
-qdembed.com##script:inject(abort-on-property-read.js, decodeURI)
+qdembed.com##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
+qdembed.com##+js(setInterval-defuser.js, (), 500)
+qdembed.com##+js(abort-on-property-read.js, decodeURI)
 av8x.com##.row div[style="width: 300px; height: 250px;"]
-av8x.com##script:inject(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
-av8x.com##script:inject(setInterval-defuser.js, (), 500)
+av8x.com##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
+av8x.com##+js(setInterval-defuser.js, (), 500)
 ||xapi.juicyads.com^
 ||waust.at^$third-party
 ||tsyndicate.com^
@@ -925,6 +925,43 @@ javwhores.com##+js(setInterval-defuser.js, (), 500)
 ||ptawe.com^$third-party
 ||www.javwhores.com/ads.txt
 ||h-cdn.com/cmd/get_geoip?
+
+!javtc
+||engine.phn.doublepimp.com/Redirect.eng?MediaSegmentId=$popup,domain=javtc.com
+embed.media##.afs_ads
+javtc.com##iframe[width="300"][height="250"]
+/^https?:\/\/[a-z0-9]{5,14}\.(com|bid|online|top|club)\/[0-9a-f]{32}\/invoke.js$/$third-party,script,domain=javtc.com
+||adservme.com^
+!||menhv.com/api/direct
+!https://1.menhv.com/api/direct/66545
+!https://1.menhv.com/api/direct/66545$popup
+||shailsha.com^
+||menhv.com^
+
+
+!rh1024
+||users.51.la^
+||static.kedouapp.net/h5/files/video/2347-19011-160x600.mp4
+www.rh1024.com##.banner-ad
+www.rh1024.com##.vjs-poster
+www.rh1024.com###sponsorAdDiv
+www.rh1024.com###kedou-video-right
+
+!javmeet
+www.javmeet.com##.container > div[id$="ScriptRoot"]
+www.javmeet.com##.col-md-4.col-xs-12.col-sm-12 > center:first-child
+
+!prof
+eroprofile.com##+js(abort-current-inline-script.js, ExoLoader)
+||wpncdn.com^$third-party
+eroprofile.com##iframe[width="300"][height="250"]
+
+!javwork
+jav.work##.video-boxad
+jav.work##li.releated_video:has(> .releatedadsholder)
+jav.work##.hotad_bottom
+jav.work##.video_ad
+
 
 
 

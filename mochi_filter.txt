@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 13 Apr 2019 00:00 JST
+! Last modified: 20 Apr 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -1089,6 +1089,7 @@ www.famitsu.com##.adArticleBottomWrap
 www.famitsu.com##.adTc
 ||ssl.webtracker.jp
 www.famitsu.com##.adNative
+www.famitsu.com##.banner-top-header
 
 !ファミ通APP
 app.famitsu.com###widget-ad-rect
