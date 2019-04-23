@@ -706,7 +706,7 @@ facebook.com##div[id^="hyperfeed_story_id_"]:has(span._4dcu)
 facebook.com##div[id^="hyperfeed_story_id_"]:has(a[href*="is_sponsored"])
 facebook.com##div[data-testid="fbfeed_story"]:has(a[href*="[is_sponsored]"])
 facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
-facebook.com##div[data-testid="fbfeed_story"]:has(a[href*="[is_sponsored]"])
+!facebook.com##div[data-testid="fbfeed_story"]:has(a[href*="[is_sponsored]"])
 ||facebook.com/common/scribe_endpoint.php
 facebook.com##.AdBox
 ||www.facebook.com/sem_campaigns/sem_pixel_test/?
@@ -1339,7 +1339,7 @@ www.asahi.com##.PrTextMod
 !||api.popin.cc^
 !||www.yomiuri.co.jp/cont2/ad/js/ad_home.js
 ||www.yomiuri.co.jp/adv/
-||www.yomiuri.co.jp/cont2/ad/
+!||www.yomiuri.co.jp/cont2/ad/
 www.yomiuri.co.jp##.subhead
 ||smrtpxl.advertising.com^
 !gif動画がちらついてうざい

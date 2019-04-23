@@ -15,4 +15,8 @@ google.co.jp###prm
 ||www.google.co.jp/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png
 ||www.google.co.jp/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
 
+!Google
+!I feel luckボタン上のたまご 2019.4.21
+!www.google.co.jp###tt3kmc
+
 ! END
