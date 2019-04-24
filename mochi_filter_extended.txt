@@ -123,7 +123,7 @@ cnn.com##.m-share
 /googleads.$domain=cnn.com
 ||.net/ad/$image,domain=cnn.com
 !domain指定しないとamazon.co.jpでもきいてしまう
-!||amazon-adsystem.com^$third-party
+!||amazon-adsystem.com^$third-party,domain=~amazon.co.jp|~amazon.com
 ||amazon-adsystem.com^$domain=cnn.com
 ||ml314.com^$third-party
 ||tapad.com^$third-party
@@ -700,7 +700,7 @@ www.allmovie.com##.advertising
 !http://www.meteotube.net/
 ||www.meteotube.net/wp-content/plugins/cactus-ads/
 ||d0p21g2fep.com^$third-party
-||amazon-adsystem.com^
+||amazon-adsystem.com^$domain=~amazon.co.jp|~amazon.com
 ||bcloudhost.com^$third-party
 ||popcash.net^
 ||bodelen.com/apu.php?zoneid=
