@@ -490,7 +490,9 @@ castella.biz###quads-ad1
 !コイン速報
 !http://blog.livedoor.jp/kumokumowatawata/
 ||j-a-net.jp^
-||with2.net^
+!ブログランキングの応援クリック要素だけ表示したい
+!http://egg.5ch.net/test/read.cgi/android/1554363290/690
+!||with2.net^
 ||d2p8taqyjofgrq.cloudfront.net^
 ||fx-on.com^$third-party
 ||gogojungle.co.jp^
