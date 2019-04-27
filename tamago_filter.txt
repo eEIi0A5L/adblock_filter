@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 20 Apr 2019 00:00 JST
+! Last modified: 27 Apr 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -41,7 +41,10 @@
 !ameblo.jp##.skinBody2 > div:first-child
 !ameblo.jp##^.skinBody2 > div:first-child
 ||stat100.ameba.jp/ad/dfp/js/dfp.js?20170215
-||www.googletagmanager.com^
+!モデルプレス mdpr.jp でスクロールすると…な画像がスクロールしても表示されない
+!https://egg.5ch.net/test/read.cgi/android/1554363290/741
+!||www.googletagmanager.com^
+||www.googletagmanager.com^$domain=ameblo.jp
 ||click.amanad.adtdp.com^
 ||ad.caprofitx.adtdp.com^
 !埋め込み動画が消えてしまう
@@ -899,6 +902,10 @@ mdpr.jp##.ath-container
 ||eu-u.openx.net^
 ||teads.tv^
 ||as.vt.open8.com^
+!モデルプレス mdpr.jp でスクロールすると…な画像がスクロールしても表示されない
+!https://egg.5ch.net/test/read.cgi/android/1554363290/741
+@@||www.googletagmanager.com/gtm.js$domain=mdpr.jp
+
 
 !日刊現代
 www.nikkan-gendai.com##.gunosy-ads-spot
@@ -1556,6 +1563,11 @@ snjpn.net##.ca_profitx_ad_container
 
 !Nexus
 nexusmods.com##.ads
+
+!seesaawiki
+seesaawiki.jp##div[class^="ad-"]
+
+
 
 
 

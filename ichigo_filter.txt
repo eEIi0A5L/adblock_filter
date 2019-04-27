@@ -233,6 +233,7 @@ pornhub.com###hAd
 pornhub.com##.playerFlvContainer > div#pb_template[style]
 ||hubt.pornhub.com/js/ht.js?site_
 ||google-analytics.com/analytics.js$important,script,domain=pornhub.com​
+pornhub.com##.adWrapper
 
 
 !bobx.com
