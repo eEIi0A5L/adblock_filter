@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 27 Apr 2019 00:00 JST
+! Last modified: 04 May 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_extended.html
 ! 
@@ -288,6 +288,9 @@ www.reddit.com##.ads-area
 www.reddit.com##.adsense-ad
 www.reddit.com##.box_ad
 www.reddit.com##.googad
+
+!gfycat
+||assets.gfycat.com/prebid2.8.0.js
 
 !Yahoo.com
 !iframeをフィルタすると動画が見れなくなる

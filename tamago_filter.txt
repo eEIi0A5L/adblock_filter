@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 27 Apr 2019 00:00 JST
+! Last modified: 01 May 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -117,6 +117,7 @@ sp.ch.nicovideo.jp###appBanner
 
 !impress
 impress.co.jp###sp-floating-layer
+impress.co.jp##^#sp-floating-layer
 impress.co.jp###floating-social-buttons
 !impress.co.jp##^#floating-social-buttons
 ||in.treasuredata.com^
@@ -1567,6 +1568,13 @@ nexusmods.com##.ads
 !seesaawiki
 seesaawiki.jp##div[class^="ad-"]
 
+!blog.shinobi.jp
+||nt.compass-fit.jp/lift_widget.js?adspot_id
+||v2st.shinobi.jp/admax-res/prebid/2.5.1-1.js
+blog.shinobi.jp###postbid_iframe
+blog.shinobi.jp##div[style="line-height: 20px; font-size: 12px; height: 20px; text-align: center; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); display: block;"]
+blog.shinobi.jp##.adBlock
+
 
 
 
@@ -1596,6 +1604,7 @@ kinisuru.com##.a2a_floating_style
 ||ad-stir.com^
 ||ad.appier.net^
 ||ad.ca-conv.jp^
+||ad.caprofitx.adtdp.com^
 ||ad.crwdcntrl.net^
 ||ad.doubleclick.net^$third-party
 ||ade.googlesyndication.com^
@@ -1611,6 +1620,7 @@ kinisuru.com##.a2a_floating_style
 ||adswizz.com^
 ||affiliate^
 ||amoad.com^
+||ap-northeast-1.event.prod.bidr.io^
 ||ap2.remerge.events^
 ||api.bucketeer.jp^
 ||api.leanplum.com^
@@ -1627,6 +1637,7 @@ kinisuru.com##.a2a_floating_style
 ||cat.jp.as.criteo.com^
 ||cd.ladsp.com^
 ||cdn-f.adsmoloco.com^
+||cdn.caprofitx.com^
 ||cdn.liftoff.io^
 ||cdp.cloud.unity3d.com^
 ||control.smbeat.jp^
@@ -1641,6 +1652,7 @@ kinisuru.com##.a2a_floating_style
 ||e.crashlytics.com^
 ||frontier.byteoversea.com^
 ||gce-jp.bidswitch.net^
+||gecko-sg.byteoversea.com^
 ||goldspotmedia^
 ||googleads.g.doubleclick.net^$third-party
 ||graph.facebook.com^
@@ -1660,8 +1672,10 @@ kinisuru.com##.a2a_floating_style
 ||localhost:57439/smile^
 ||log.byteoversea.com^
 ||media.admob.com^
+||media.bidr.io^
 ||microad.jp^
 ||moatads.com^
+||mon.byteoversea.com^
 ||mon.musical.ly/monitor/collect^
 ||nend.net^
 ||nrtprod-rtbwin.applovin.com^
@@ -1696,8 +1710,6 @@ kinisuru.com##.a2a_floating_style
 ||tkimpdsp.mobvista.com^
 ||tpc.googlesyndication.com^
 ||tr-asia.adsmoloco.com^
-!パソコンで楽天ショップの検索結果の画像がでない
-!||tshop.r10s.jp^
 ||tunein.deliveryengine.adswizz.com^
 ||txn.ingest.crittercism.com^
 ||uncn.jp^
@@ -1705,8 +1717,6 @@ kinisuru.com##.a2a_floating_style
 ||yads.c.yimg.jp^
 ||yads.yahoo.co.jp^
 ||yt.moatads.com^
-!チャンネルページトップのメンバーのチャンネルのサムネイルが表示されない
-!||yt3.ggpht.com^
 ||zucks^
 !END--------------------------------------------------------------
 

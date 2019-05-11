@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 20 Apr 2019 00:00 JST
+! Last modified: 7 May 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -1729,6 +1729,8 @@ wikiwiki.jp###title + br + br
 wikiwiki.jp###title + br + br + div[id^="div-gpt-ad"]
 wikiwiki.jp###title + br + br + div[id^="div-gpt-ad"] + br 
 wikiwiki.jp###title + br + br + div[id^="div-gpt-ad"] + br + br
+wikiwiki.jp###menubar > div[style="width:240px;height:207px;margin: 5px auto;"]:first-child
+wikiwiki.jp###menubar > div[style="width:240px;height:207px;margin: 5px auto;"]:first-child + p
 
 !msn
 ||www.msn.com/advertisement.ad.js

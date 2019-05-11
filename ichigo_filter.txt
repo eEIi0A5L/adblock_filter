@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: Apr 20, 2019 00:00 JST
+! Last modified: 5 May 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -51,7 +51,7 @@ xhamster.com##[id$="Ads"]:not(body)
 ^sponsor-$domain=static-ec.xhcdn.com
 xhamster.com##.sponsorB
 xhamster.com##.sponsorTitle
-||xhamster.com^$subdocument
+!||xhamster.com^$subdocument
 !||trafficstars.com^$third-party
 /banner.stats?$domain=xhamster.com
 !xhamster.com##div > noscript + div[style
@@ -119,7 +119,8 @@ javfor.me##a[href^="/lib/url.php?"] > img
 
 
 !99files.net
-||wx2.sinaimg.cn/large/
+!||wx2.sinaimg.cn/large/
+||wx2.sinaimg.cn/large/$third-party
 99files.net##.ad1
 ||www.fhyl02.com^
 
@@ -183,7 +184,8 @@ imgflare.com##div[style^="width:604px; height:250px;"]
 88files.net##.ad1
 ||bmw999888.com^
 ||jxf0088.com^
-||wx1.sinaimg.cn^
+!||wx1.sinaimg.cn^
+||wx1.sinaimg.cn^$third-party
 ||www.fhyl04.com^
 ||dioimg.net^$domain=88files.net
 ||shen2211.com^$popup
@@ -192,8 +194,10 @@ imgflare.com##div[style^="width:604px; height:250px;"]
 ||www.cccc555.net^$popup
 
 !rocks
-||wx3.sinaimg.cn/large/*.gif$domain=rocks
-||wx3.sinaimg.cn^
+!||wx3.sinaimg.cn/large/*.gif$domain=rocks
+||wx3.sinaimg.cn/large/*.gif$third-party,domain=rocks
+!||wx3.sinaimg.cn^
+||wx3.sinaimg.cn^$third-party
 ||www.7893com.com/img/amdc.gif
 ||www.7893com.com^
 ||dh.10242016.com^
@@ -599,6 +603,7 @@ hpjav.tv##iframe[width="300"][height="250"]
 !hpjav.tv##.bottom-ad
 !hpjav.tv##.center-ad
 hpjav.tv##.home-ad
+||hpjav.tv/asset/js/vast.js
 
 !javmost
 ||pussl48.com^
@@ -763,21 +768,23 @@ av8x.com##.container > div[style*="overflow: hidden"]
 !最初の５秒skip ad
 av8x.com###preroll
 
-!javpm.com
+!javpm.com to javsun.net
 !||syndication.exosrv.com^$popup
 !https://ads.exosrv.com/nativeads.js
 !https://ads.exosrv.com/ads.js
 !https://www.javwide.com
-javpm.com##[id$="_ads"]
-javpm.com##.fa-pinterest-p
-javpm.com##.fa-share
+javsun.net##[id$="_ads"]
+javsun.net##.fa-pinterest-p
+javsun.net##.fa-share
 ||jsc.mgid.com^
-javpm.com##[id*="ScriptRoot"]
-javpm.com##div[id*="ScriptRootC"]
+javsun.net##[id*="ScriptRoot"]
+javsun.net##div[id*="ScriptRootC"]
 ||fabrkrup.com/get/1551789?zoneid=
 ||www.embed.media/asset/default/player/plugins/vast-
-javpm.com##.afs_ads
+javsun.net##.afs_ads
 ||log.vcdn.io^
+
+
 
 !japanhub
 ||javhub.net/img/r18_un.jpg
@@ -962,6 +969,12 @@ jav.work##.video-boxad
 jav.work##li.releated_video:has(> .releatedadsholder)
 jav.work##.hotad_bottom
 jav.work##.video_ad
+
+!txxx
+txxx.com###fel-udpl
+txxx.com##.player > span > table[style="transform: scale(1);"]
+
+
 
 
 
