@@ -59,7 +59,7 @@ xhamster.com##div[style^="width: 330px"]
 xhamster.com##.player-ad-overlay
 xhamster.com##.banner-container
 xhamster.com##+js(abort-on-property-write.js, dataPopUnder)
-||cdn.tsyndicate.com^
+||cdn.tsyndicate.com^$domain=xhamster.com
 jp.xhamster.com##.ads-div
 xhamster.com##+js(addEventListener-defuser.js, popstate, backUrl)
 xhamster.com##div[style*="adVideo"]:style(position: absolute!important; left: -3000px!important;)
@@ -604,6 +604,7 @@ hpjav.tv##iframe[width="300"][height="250"]
 !hpjav.tv##.center-ad
 hpjav.tv##.home-ad
 ||hpjav.tv/asset/js/vast.js
+@@||tsyndicate.com^$third-party,domain=hpjav.tv
 
 !javmost
 ||pussl48.com^
@@ -761,7 +762,7 @@ av8x.com##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
 av8x.com##+js(setInterval-defuser.js, (), 500)
 ||xapi.juicyads.com^
 ||waust.at^$third-party
-||tsyndicate.com^
+||tsyndicate.com^$domain=av8x.com
 ||k77hof1z7k.com^$third-party
 ||eoredi.com/apu.php?$important
 av8x.com##.container > div[style*="overflow: hidden"]
