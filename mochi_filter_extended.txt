@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 04 May 2019 00:00 JST
+! Last modified: 12 May 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_extended.html
 ! 
@@ -721,6 +721,19 @@ meteotube.net##.adsBox
 !JSfiddle
 ||cdn4.buysellads.net^
 ||buysellads.net^
+
+!Youku
+||r1.ykimg.com/material/0A05/ad/
+||cmstool.youku.com^
+||atm.youku.com^
+@@||log.mmstat.com/eg.js$domain=youku.com
+||tip.soku.com/searches/soku/kubox/v4/sideads.json
+||mmstat.com^$domain=youku.com
+!||cibntv.net/youku/$media,domain=youku.com
+||cibntv.net/youku/*$media,redirect=noopmp3-0.1s,domain=youku.com
+||alibaba.com/ts?
+
+
 
 
 
