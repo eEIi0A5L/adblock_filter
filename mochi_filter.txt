@@ -1902,6 +1902,7 @@ www.pixiv.net##a[href="/premium/lead/lp?g=anchor&i=work_detail_remove_ads"]
 
 !imgur
 ||s.imgur.com/min/advertising.js
+imgur.com###div-ad-top_banner
 
 
 !BIGLOBE

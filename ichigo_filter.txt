@@ -605,6 +605,10 @@ hpjav.tv##iframe[width="300"][height="250"]
 hpjav.tv##.home-ad
 ||hpjav.tv/asset/js/vast.js
 @@||tsyndicate.com^$third-party,domain=hpjav.tv
+tsyndicate.com##a[href*="/ad/"]
+||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads
+verystream.com##+js(abort-on-property-read.js, adblock)
+verystream.com##+js(abort-on-property-read.js, open)
 
 !javmost
 ||pussl48.com^
