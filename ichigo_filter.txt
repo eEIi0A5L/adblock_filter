@@ -738,6 +738,7 @@ avgle.com##.container > div[style*="overflow: hidden"]
 @@||s10.histats.com/js15_as.js$domain=avgle.com
 avgle.com###aoverlay
 avgle.com##.alert-danger
+||static.adxadserv.com^
 
 !http://nukitomo.me
 @@||ci.phncdn.com/videos/

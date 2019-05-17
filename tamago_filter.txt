@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 01 May 2019 00:00 JST
+! Last modified: 16 May 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -23,6 +23,10 @@
 ||ad-api-v01.uliza.jp^
 ||jp-ads.mediaforge.com^
 
+!画像が見れない
+!https://egg.5ch.net/test/read.cgi/android/1556760647/776
+hs-exp.jp#@#.adsbygoogle
+hs-exp.jp##.dfad
 
 !アメブロ
 ||cdn.amanad.adtdp.com^

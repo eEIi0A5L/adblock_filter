@@ -8,6 +8,7 @@
 ||www.datamation.com/sw.js
 ||twihash.com/pwa4wp-sw-1.js
 ||tsuiran.jp/serviceworker.js
+||psneolog.com/superpwa-sw.js
 
 
 

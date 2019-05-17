@@ -2,7 +2,7 @@
 ! Title: 亀フィルタ（ウイルスサイトブロック）
 ! Description: ウイルスサイトをブロックする
 !
-! Last modified: 2019/03/28 00:00 JST
+! Last modified: 2019/05/18 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/kame.html
 
@@ -21,7 +21,7 @@
 ||gu-ru.net^
 ||www.amazon.co.jp.com-w.win^
 ||com-w.win^
-||win^
+!||win^
 !フィッシング詐欺に多用されているドメイン
 !xyzは有用サイトが多くなってきたのではずす
 !||xyz^
@@ -140,6 +140,14 @@
 ||www.uniblue.com/cm/marimedia-rm/speedupmypc/
 ||buildathome.info^
 
+!無効ドメインアクセス時にくるくる回るやつ
+!http://theoscarsite.com/whoswho2/sawyer_g.htm
+!↑ここにアクセスすると発生する
+||jp.today-prizes.club/todays-winner$document
+||www.amazon.com/Certified-Refurbished-Kindle-Paperwhite-reader/dp/B00QJEL42Y/$document
+||direct.redtrafficsample.site/redirect$document
+||goneoutnow.site^$document
+||sarah.runtnc.net^$document
 
 
 !５ちゃんねるの荒らしが誘導しているサイト---------------------

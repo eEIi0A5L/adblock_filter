@@ -376,6 +376,8 @@ mail.yahoo.com##div[aria-label="Messages"]:style(margin-top: 0px !important;)
 !ZDnet Japan
 japan.zdnet.com##.ad_container
 ||japan.zdnet.com/parts/frame/ad_tieup_control_sp.htm
+!zdnet.de##+js(abort-on-property-read.js, can_i_run_ads)
+!zdnet.com##+js(abort-on-property-read.js, can_i_run_ads)
 
 !モカ
 moca-news.net###container-child > div[align="center"] > div > img
