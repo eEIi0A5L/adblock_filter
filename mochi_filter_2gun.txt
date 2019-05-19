@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 22 Apr 2019 00:00 JST
+! Last modified: 19 May 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_2gun.html
 ! 
@@ -1373,6 +1373,14 @@ adSystem$domain=tv.naver.com
 !||tvcast2.phinf.naver.net^
 !||tvcast.p.naverrmc.edgesuite.net/global/read
 !||common.like.naver.com^
+||cc.naver.com/cc?a=
+||apis.naver.com/rmcnmv/rmcams^
+tv.naver.com##iframe[width="300"][height="250"]
+tv.naver.com##.end_da._banner
+naver.com##.naver-splugin
+naver.com##div#shop_cast:style(margin-top: -30px;)
+naver.com##div#news_cast:style(padding-top: 0px;)
+naver.com##.section_newscast:style(padding-top:0px!important;)
 
 !PAPPINS
 pappins.tokyo###gn_interstitial_area

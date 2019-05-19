@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 16 May 2019 00:00 JST
+! Last modified: 19 May 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -991,6 +991,7 @@ engadget.com###stcky-footer
 ||advertising.com^
 ||aolcdn.com/ads/
 japanese.engadget.com###ldrBoardAd
+||advertising.aolp.jp^
 
 !jbpress.ismedia.jp
 ||b10.nakanohito.jp^
@@ -1578,6 +1579,15 @@ seesaawiki.jp##div[class^="ad-"]
 blog.shinobi.jp###postbid_iframe
 blog.shinobi.jp##div[style="line-height: 20px; font-size: 12px; height: 20px; text-align: center; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); display: block;"]
 blog.shinobi.jp##.adBlock
+
+!The Daily Telegraph
+dailytelegraph.com.au##.tgc-footer-fixed
+||eyeviewads.com^
+||gu.dyntrk.com/adx/
+||www.googleadservices.com/pagead/conversion.js
+||adnxs.com^
+||adsrvr.org^
+
 
 
 
