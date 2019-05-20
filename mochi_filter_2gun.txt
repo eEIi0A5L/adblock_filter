@@ -1382,6 +1382,9 @@ naver.com##div#shop_cast:style(margin-top: -30px;)
 naver.com##div#news_cast:style(padding-top: 0px;)
 naver.com##.section_newscast:style(padding-top:0px!important;)
 
+!vlive
+@@||veta.naver.com^$domain=vlive.tv
+
 !PAPPINS
 pappins.tokyo###gn_interstitial_area
 !右クリック、文字列選択を動作させるためにインラインスクリプトを動かないようにする
