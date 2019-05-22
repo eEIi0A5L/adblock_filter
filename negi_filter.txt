@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2019/03/24 00:00 JST
+! Last modified: 2019/05/22 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/negi.html
 
@@ -92,6 +92,7 @@ abema.tv##:xpath(//img[@alt="オススメ"]/parent::div/parent::div/parent::div/
 !お使いのブラウザは推奨環境外のため、正しく動画が再生されない可能性があります。快適に視聴するために、最新版のGoogle Chromeをご利用ください。
 !abema.tv##.pw_e
 abema.tv##:xpath(//p[contains(text(), "お使いのブラウザは推奨環境")]/parent::div/parent::div)
+abema.tv##.com-m-NotificationManager:has-text(お使いのブラウザは推奨環境外のため)
 !:hasで書き直した
 !→:hasの方が重いような気がするのでやめた。
 !abema.tv##div:has(> div > p:has-text(お使いのブラウザは推奨環境))
