@@ -250,7 +250,11 @@ commons.wikimedia.org###siteNotice
 !保存ボタンの周りの青い輪のアニメーションがうざい
 !www.pinterest.jp##div[role="button"][tabindex="0"] > div[style] > div:style(border: 0)
 !www.pinterest.jp##div[role="button"][tabindex="0"]
-www.pinterest.jp##div[role="button"][tabindex="0"] > div[style]
+!www.pinterest.jp##div[role="button"][tabindex="0"] > div[style]
+!右上のGoogleログインボックス
+!www.pinterest.jp##iframe[src^="https://smartlock.google.com/iframe/request?client=https%3A%2F%2Fwww.pinterest.jp"]
+!中央のモーダルログインボックス
+!www.pinterest.jp##div[data-test-id="fullPageSignupModal"]
 
 
 !音泉
