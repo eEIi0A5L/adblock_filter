@@ -1289,6 +1289,25 @@ blog.livedoor.jp##div[id^="socrun_div_area_nc_"]
 !ニュー即ブログν
 ||bibincom.com/ad/187_newsoku.blog.js
 
+!やらおん
+yaraon-blog.com##iframe[id="ac1414080be"][src^="http://ads.mulan.cloud/"]
+yaraon-blog.com###adx_custom_ol
+||ads.mulan.cloud^
+||blog.livelog.biz/script/js/media/v_z/yon_sp02_adstir.js
+||blog.livelog.biz/script/js/yon_sp03_adsense.js
+||blog.livelog.biz/script/js/yon_sp02_adsense.js
+||blog.livelog.biz/script/js/yon_sp01_adsense.js
+||ad.adpon.jp^
+yaraon-blog.com###mytextwidget-22
+yaraon-blog.com###mytextwidget-14
+yaraon-blog.com###mytextwidget-27
+||blog.livelog.biz/script/js/media/v_z/yon_nex07_adnico.js
+adnico.js|$domain=yaraon-blog.com
+adsense.js|$domain=yaraon-blog.com
+
+!アキバblog
+||cloud.akibablog.net/ads-connect/
+
 
 
 
@@ -1383,6 +1402,9 @@ buzz-cafe.net###ist_overlay2
 ||cdn-matome.line-apps.com/n/matome_sp/js/nj.matome.ad.
 ||cdn-matome.line-apps.com/n/matome_sp/js/nj.mtmsp.component.floatingAdSp_
 ||cdn-matome.line-apps.com/n/matome_sp/js/nj.matome.innerAd_
+nj.matome.ad.yahooim.js|$domain=matome.naver.jp
+nj.matome.innerAd.js|$domain=matome.naver.jp
+nj.mtmsp.component.floatingAdSp.js|$domain=matome.naver.jp
 
 !fenrir
 www.sleipnirstart.com##.ch.a_change
