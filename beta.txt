@@ -1,6 +1,0 @@
-! beta.txt
-
-
-
-
-!END

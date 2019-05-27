@@ -1,6 +1,9 @@
 ! beta.txt
 
-
+!各種フィルターがfourmtagservices.comをブロックしないのはなんでだろ誤爆するんかな？
+!http://egg.5ch.net/test/read.cgi/software/1554721271/529
+!2019.5.25
+https://www.fourmtagservices.com/f.js
 
 
 !END
