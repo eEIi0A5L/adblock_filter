@@ -1926,6 +1926,7 @@ news.biglobe.ne.jp###SPbanner
 ||www.gamespark.jp/feature/advertising/
 www.gamespark.jp###danglingList
 www.gamespark.jp##li.item:has(> a > article > img[alt^="【PR】"])
+www.gamespark.jp##section.item:has(> a > img[alt^="【PR】"])
 
 !モデルプレス
 ||g2.gumgum.com^
