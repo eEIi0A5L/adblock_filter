@@ -741,6 +741,7 @@ avgle.com##.container > div[style*="overflow: hidden"]
 avgle.com###aoverlay
 avgle.com##.alert-danger
 ||static.adxadserv.com^
+avgle.com##.hidden-xs > a > img[src$=".gif"]
 
 !http://nukitomo.me
 @@||ci.phncdn.com/videos/
