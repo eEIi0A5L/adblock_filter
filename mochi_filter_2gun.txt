@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 19 May 2019 00:00 JST
+! Last modified: 02 Jun 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_2gun.html
 ! 
@@ -258,7 +258,7 @@ beelzeboulxxx.com##.article-body-more > hr + div
 ||zucks.net^
 ||zucks.net.zimg.jp^
 2ch.vet##thead
-
+2ch.vet##center:has( > center > a[href^="https://px.a8.net/"])
 
 
 !まとめるん
