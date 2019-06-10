@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 02 Jun 2019 00:00 JST
+! Last modified: 11 Jun 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -1160,6 +1160,14 @@ news4vip.livedoor.biz###article-contents > b a
 
 !やらおん
 !（なし）
+
+!保守速報
+||hosyusokuhou.jp/wp/wp-content/uploads/2019/06/Mobile.gif
+hosyusokuhou.jp##.abox
+||hosyusokuhou.jp/wp/wp-content/uploads/2019/04/oihaimaker_banner_smartphone.jpg
+||hosyusokuhou.jp/wp/wp-content/uploads/2019/05/sm-banner300_250_h0-1.jpg
+||hosyusokuhou.jp/wp/wp-content/uploads/2019/04/849f0c_bdb122b7bcf945639524ec6d7225c655mv2.jpg
+||hosyusokuhou.jp/wp/wp-content/themes/hssk/commons/box_dummy.png
 
 !はいほー速報・改
 ||img.fam-ad.com^

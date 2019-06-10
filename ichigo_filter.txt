@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 09 Jun 2019 00:00 JST
+! Last modified: 11 Jun 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -210,8 +210,11 @@ imgflare.com##div[style^="width:604px; height:250px;"]
 !pornhub
 ||smpop.icfcdn.com/smpop-stable.js$script
 ||ci.phncdn.com/www-static/js/ph-tracking.js?
+!http://egg.5ch.net/test/read.cgi/software/1554721271/714
+!https://www.reddit.com/r/uBlockOrigin/comments/byd13w/pornhubs_related_videos_right_side_panel_is_gone/?ref=readnext
 !||trafficjunky.net^$important,third-party
 ||trafficjunky.net^$third-party
+@@||media.trafficjunky.net/__js/test.js$domain=www.pornhub.com
 pornhub.com##+js(pornhub-popup-defuser.js)
 pornhub.com##+js(pornhub-sanitizer.js)
 pornhub.com##+js(abort-on-property-write.js, AdDelivery)
