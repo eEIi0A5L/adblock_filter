@@ -210,12 +210,13 @@ imgflare.com##div[style^="width:604px; height:250px;"]
 !pornhub
 ||smpop.icfcdn.com/smpop-stable.js$script
 ||ci.phncdn.com/www-static/js/ph-tracking.js?
-||trafficjunky.net^$important,third-party
+!||trafficjunky.net^$important,third-party
+||trafficjunky.net^$third-party
 pornhub.com##+js(pornhub-popup-defuser.js)
 pornhub.com##+js(pornhub-sanitizer.js)
 pornhub.com##+js(abort-on-property-write.js, AdDelivery)
 pornhub.com##+js(abort-on-property-write.js, rAb)
-pornhub.com##+js(csp.js, img-src 'self' *; media-src 'self' *)
+!pornhub.com##+js(csp.js, img-src 'self' *; media-src 'self' *)
 pornhub.com##+js(addEventListener-defuser.js, DOMContentLoaded, [native code])
 pornhub.com##+js(abort-on-property-write.js, UAParser)
 pornhub.com##+js(abort-on-property-write.js, isAdblockOn)
@@ -236,9 +237,9 @@ pornhub.com##.removeAdsStyle
 pornhub.com###hAd
 pornhub.com##.playerFlvContainer > div#pb_template[style]
 ||hubt.pornhub.com/js/ht.js?site_
-||google-analytics.com/analytics.js$important,script,domain=pornhub.com​
 pornhub.com##.adWrapper
 pornhub.com##.sectionWrapper > .videos > li:not(.videoblock):not(.videobox)
+||cbbp1.com^$document
 ||cbbp1.com^$popup
 
 
