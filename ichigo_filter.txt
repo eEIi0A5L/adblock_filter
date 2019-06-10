@@ -214,7 +214,7 @@ imgflare.com##div[style^="width:604px; height:250px;"]
 !https://www.reddit.com/r/uBlockOrigin/comments/byd13w/pornhubs_related_videos_right_side_panel_is_gone/?ref=readnext
 !||trafficjunky.net^$important,third-party
 ||trafficjunky.net^$third-party
-@@||media.trafficjunky.net/__js/test.js$domain=www.pornhub.com
+@@||media.trafficjunky.net/__js/test.js$domain=pornhub.com
 pornhub.com##iframe[style="width: 326px; height: 311px;"]
 pornhub.com##+js(pornhub-popup-defuser.js)
 pornhub.com##+js(pornhub-sanitizer.js)
