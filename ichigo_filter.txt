@@ -215,6 +215,7 @@ imgflare.com##div[style^="width:604px; height:250px;"]
 !||trafficjunky.net^$important,third-party
 ||trafficjunky.net^$third-party
 @@||media.trafficjunky.net/__js/test.js$domain=www.pornhub.com
+pornhub.com##iframe[style="width: 326px; height: 311px;"]
 pornhub.com##+js(pornhub-popup-defuser.js)
 pornhub.com##+js(pornhub-sanitizer.js)
 pornhub.com##+js(abort-on-property-write.js, AdDelivery)
