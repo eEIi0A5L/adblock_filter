@@ -312,7 +312,8 @@ tube8.com##+js(abort-on-property-write.js, loadAdFromHeaderTab)
 tube8.com##+js(abort-on-property-read.js, _goat)
 tube8.com##+js(abort-on-property-write.js, rAb)
 ||etahub.com^$third-party
-||trafficjunky.net^$important,third-party
+!||trafficjunky.net^$important,third-party
+||trafficjunky.net^$third-party,domain=tube8.com
 tube8.com###right_side_ad_wrapper
 @@||t8cdn.com^$image,domain=tube8.com|tube8.es|tube8.fr
 tube8.*##^script:has-text(adblock)
@@ -507,7 +508,7 @@ javfinder.is##.row > .col-xs-12:first-child
 javfinder.is##[id*="ScriptRoot"]
 javfinder.is##div[id*="ScriptRootC"]
 .com/?zoneid=$popup,domain=javfinder.is
-||trafficjunky.com^$third-party
+||trafficjunky.com^$third-party,domain=javfinder.is
 ||k77hof1z7k.com^$third-party
 ||google-analytics.com/analytics.js$important,script,domain=javfinder.is
 !AnimeFLVでプレイヤーの一時停止アイコンが出ない
