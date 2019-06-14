@@ -1181,6 +1181,7 @@ uwl.weblio.jp##.take_cnt_mid_v2
 ejje.weblio.jp###leadToVocabIndexBtnWrp
 ejje.weblio.jp###leadToSpeakingTestIndexBtnWrp
 ||weblio.hs.llnwd.net/e7/img/muryo_banner_
+weblio.jp##.mainBlock:has(> .flex-rectangle-ads-frame)
 
 !alc
 eow.alc.co.jp###AreaUpperRight
