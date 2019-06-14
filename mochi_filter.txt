@@ -1111,7 +1111,7 @@ dengekionline.com###rectangleBanner
 watch.impress.co.jp##.ad.billboard
 
 !weblio
-weblio.jp##.topic + .subMenuTop + .mainBlock
+!weblio.jp##.topic + .subMenuTop + .mainBlock
 weblio.jp##.hideDictPrs > .mainBlock:nth-child(2)
 ||www.westatic.com/img/icons/ads.png
 ||www.westatic.com/img/icons/hideAd.png
@@ -1178,8 +1178,8 @@ uwl.weblio.jp###induction-to-premium-member-for-vt-area
 !プレミア
 uwl.weblio.jp##.take_cnt_mid_v2
 ||weblio.hs.llnwd.net/e7/img/theme_learning_banner1.png
-ejje.weblio.jp###leadToVocabIndexBtnWrp
-ejje.weblio.jp###leadToSpeakingTestIndexBtnWrp
+!ejje.weblio.jp###leadToVocabIndexBtnWrp
+!ejje.weblio.jp###leadToSpeakingTestIndexBtnWrp
 ||weblio.hs.llnwd.net/e7/img/muryo_banner_
 weblio.jp##.mainBlock:has(> .flex-rectangle-ads-frame)
 
