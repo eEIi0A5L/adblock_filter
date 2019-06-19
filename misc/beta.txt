@@ -11,9 +11,14 @@ https://www.fourmtagservices.com/f.js
 !http://marketcapitalizations.com/historical-data/historical-components-sp-100/
 !||www.google.com/adsense/domains/caf.js
 !||www.google.com/adsense/
+
+
+!下記三つはページ内の関連リンクなのであってよい、なくてもよい
 ||www.google.com/adsense/domains/caf.js
 ||www.google.com/dp/ads?
 ||www.gstatic.com/domainads/
+
+
 ||parking.parklogic.com/page/enhance.js
 ||clk.rtpdn10.com/click?
 ||maroola.aditms.me/click?
