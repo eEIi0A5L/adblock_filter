@@ -23,5 +23,7 @@ https://www.fourmtagservices.com/f.js
 ||clk.rtpdn10.com/click?
 ||maroola.aditms.me/click?
 
+!http://www.odoroku.tv/idol/tenki2/
+
 
 !END
