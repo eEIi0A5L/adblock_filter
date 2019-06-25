@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 11 Jun 2019 00:00 JST
+! Last modified: 26 Jun 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -361,8 +361,10 @@ video.fc2.com##.u-hasAd-101_adArea
 !youav.com
 !||www.youav.com$popup
 ||www.youav.com$popunder
-||popads.net/pop.js^$important
-||addthis.com^$important,third-party
+!||popads.net/pop.js^$important
+!||addthis.com^$important,third-party
+||popads.net/pop.js^
+||addthis.com^$third-party
 ||ads.adxpansion.com^
 ||jwpltx.com^
 www.youav.com##.ad-body
@@ -382,11 +384,13 @@ youav.com##.well + script + div
 ||s10.histats.com^
 thisav.com##.ads
 thisav.com##a[href*="click.dtiserv2.com"]
-||popads.net/pop.js^$important
+!||popads.net/pop.js^$important
+||popads.net/pop.js^
 ||thisav.com/player/video-js-banner/
 ||cdn.thisav.com/player/video-js-vast-vpaid/videojs_5.vast.vpaid.js?4
 ||javhd.com^$third-party
-||addthis.com^$important,third-party
+!||addthis.com^$important,third-party
+||addthis.com^$third-party
 ||ads.adxpansion.com^
 ||thisav.com/index.js
 ||www.zbecpoboc.com/jxc.js
@@ -997,6 +1001,12 @@ embed.media##+js(abort-on-property-read.js, AaDetector)
 www.javmec.com###preroll_ads
 www.embed.media##.jw-settings-sharing
 ||logger.pw^$third-party
+
+!highporn
+||revbigo.com^
+||ads.adxadserv.com^
+||infloots.pro^$third-party
+
 
 
 
