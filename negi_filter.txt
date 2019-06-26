@@ -38,6 +38,11 @@ www.nicovideo.jp##.Marquee-item
 www.nicovideo.jp##li.nicoadVideoItem
 !運営コメント?
 !live2.nicovideo.jp##div[class^="___player-display-header"]
+!ニコ動ランキング
+!http://egg.5ch.net/test/read.cgi/software/1554721271/859
+!www.nicovideo.jp##div.MediaObject.RankingMainVideo:has-text(き)
+!!www.nicovideo.jp##div.Card.RankingBaseItem:has-text(き)
+!www.nicovideo.jp##a.Card-link:has-text(き)
 
 !Google
 !ポップアップ「こちらによくアクセスする方は Google をホームページに」
