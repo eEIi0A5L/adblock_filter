@@ -915,6 +915,9 @@ video.520cc.cc###inplayer
 7mm.tv##.SC_TBlock
 ||adxxx.com^
 7mm.tv##a[href^="https://adxxx.com/"]
+||cnzz.com^
+||adqy6rzwcs.com^
+||mm9841.com/asset/default/player/plugins/vast-8.4.13.js
 
 !jav321
 www.jav321.com###popup-container
