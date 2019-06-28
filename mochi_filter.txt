@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 21 Jun 2019 00:00 JST
+! Last modified: 28 Jun 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -710,6 +710,8 @@ twitter.com##aside[aria-label="おすすめユーザー"] > div > div[data-testi
 !新デザイン広告
 twitter.com##div[style="padding-top: 0px; padding-bottom: 0px;"] > div[class^="css-"]:has( > div[class^="css-"] > div[class^="css-"] > h2:has-text(Promoted Tweet))
 twitter.com##div[style="padding-top: 0px; padding-bottom: 0px;"] > div[class^="css-"]:has( > div[class^="css-"] > div[class^="css-"] > h2:has-text(プロモツイート))
+twitter.com##article > div[data-testid="tweet"]:has-text(Promoted):nth-ancestor(5)
+twitter.com##article > div[data-testid="tweet"]:has-text(プロモーション):nth-ancestor(5)
 
 !facebook
 ||pixel.facebook.com^
