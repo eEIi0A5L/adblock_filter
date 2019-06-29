@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 11 Jun 2019 00:00 JST
+! Last modified: 29 Jun 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_2gun.html
 ! 
@@ -171,6 +171,9 @@ jin115.com##.footer_social_ad
 !jin115.com##^a[href^="http://www.amazon.co.jp"]
 jin115.com##table:has(a)
 ||images-fe.ssl-images-amazon.com/images/$domain=jin115.com
+!はちまと刃で画面下に広告の帯が出るようになった
+!http://egg.5ch.net/test/read.cgi/software/1554721271/920
+jin115.com###gStickyAd
 
 !まとめサイト速報＋
 matome-plus.net##a[href^="http://www.amazon.co.jp"]
@@ -205,6 +208,9 @@ blog.esuteru.com##.amazlet-box
 blog.esuteru.com##a[href^="http://rcv.ixd.dmm.com/api/surl?urid="]
 blog.esuteru.com###g_floating_area1
 blog.esuteru.com###g_floating_area2
+!はちまと刃で画面下に広告の帯が出るようになった
+!http://egg.5ch.net/test/read.cgi/software/1554721271/920
+blog.esuteru.com###gStickyAd
 
 !ねぎ速
 ||pc.clickmedias.info/js/ad.js
