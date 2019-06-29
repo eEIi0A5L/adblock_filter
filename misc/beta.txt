@@ -31,10 +31,15 @@ https://www.fourmtagservices.com/f.js
 !||js.parkingcrew.net/track.php?domain=
 !||js.parkingcrew.net/assets/scripts/registrar-caf/717207.js
 
+!http://umaizoo.com/
+||tracking.bodis.com/tlpv?
+||usa.odysseus-nua.com/zcvisitor/
+
+
 
 !http://www.janjan.jp/
 !http://epson-supply.jp/
-
+!http://umaizoo.com/
 
 
 

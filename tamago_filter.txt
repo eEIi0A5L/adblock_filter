@@ -1632,7 +1632,9 @@ dailytelegraph.com.au##.tgc-footer-fixed
 ||adnxs.com^
 ||adsrvr.org^
 
-
+!グノシー
+gunosy.com##.article_share_fix_footer
+gunosy.com##div[data-gtm="global_header_over_app_download"]
 
 
 
