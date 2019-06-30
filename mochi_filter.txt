@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 28 Jun 2019 00:00 JST
+! Last modified: 30 Jun 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -1867,6 +1867,7 @@ www.accuweather.com##.column-2-world
 
 !bing
 bing.com##.b_ad
+www.bing.com##li:has( > ul > li > div > h2.b_ads1line )
 
 !ちくわニコ生ランキング
 ||www.chikuwachan.com/live/img/ad/
