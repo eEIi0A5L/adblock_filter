@@ -1,0 +1,34 @@
+!https://gorhill.github.io/uBlock/tests/procedural-cosmetic-filters.html
+gorhill.github.io###pcf #a1 .fail:has(b)
+gorhill.github.io###pcf #a2 .fail:has(> a > b)
+gorhill.github.io###pcf #a3 .fail:not(:has(c))
+gorhill.github.io###pcf #a4 .fail:has-text(needle)
+gorhill.github.io###pcf #a5 .fail:has-text(/NEEDLE/i)
+gorhill.github.io###pcf #a6 .fail:not(:has-text(haystack))
+gorhill.github.io###pcf #a7 .fail:matches-css(position: absolute)
+gorhill.github.io###pcf #a8 .fail:has(a:matches-css-before(opacity: 0))
+gorhill.github.io###pcf #a9 .fail:has(b:matches-css-after(opacity: 0))
+gorhill.github.io###pcf #a10 .fail > a > b:nth-ancestor(2)
+gorhill.github.io###pcf #a11:xpath(.//b/../..)
+gorhill.github.io###pcf #a12 .fail:min-text-length(300)
+gorhill.github.io###pcf #a13 .pass > a:has(b) + .fail
+gorhill.github.io###pcf #a14 .pass > a:has(b) + .fail:has(b)
+gorhill.github.io###pcf #a15 .pass:watch-attr(class) > .fail:has(b.notok)
+gorhill.github.io###pcf #a16 .fail:has(+ a)
+gorhill.github.io###pcf #a17 .fail:has(~ a:has(b))
+
+
+!https://gorhill.github.io/uBlock/tests/procedural-html-filters.html
+gorhill.github.io##^#phf #a1 .fail:has(b)
+gorhill.github.io##^#phf #a2 .fail:has(> a > b)
+gorhill.github.io##^#phf #a3 .fail:not(:has(c))
+gorhill.github.io##^#phf #a4 .fail:has-text(needle)
+gorhill.github.io##^#phf #a5 .fail:has-text(/NEEDLE/i)
+gorhill.github.io##^#phf #a6 .fail:not(:has-text(haystack))
+gorhill.github.io##^#phf #a7 .fail > a > b:nth-ancestor(2)
+gorhill.github.io##^#phf #a8:xpath(.//b/../..)
+gorhill.github.io##^#phf #a9 .fail:min-text-length(300)
+gorhill.github.io##^#phf #a10 .pass > a:has(b) + .fail
+gorhill.github.io##^#phf #a11 .pass > a:has(b) + .fail:has(b)
+gorhill.github.io##^#phf #a12 .fail:has(+ a)
+gorhill.github.io##^#phf #a13 .fail:has(~ a:has(b))
