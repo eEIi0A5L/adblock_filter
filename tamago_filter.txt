@@ -1005,6 +1005,9 @@ engadget.com###stcky-footer
 ||aolcdn.com/ads/
 japanese.engadget.com###ldrBoardAd
 ||advertising.aolp.jp^
+||fls-fe.amazon-adsystem.com/1/associates-ads$third-party
+||ws-fe.assoc-amazon.com/widgets/cm?$third-party
+japanese.engadget.com##div[class^="js-"]:has( iframe[src^="//rcm-fe.amazon-adsystem.com/e/cm?"] )
 
 !jbpress.ismedia.jp
 ||b10.nakanohito.jp^
