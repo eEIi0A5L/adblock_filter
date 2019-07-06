@@ -29,6 +29,13 @@
 ||tracking.bodis.com/tlpv?
 ||usa.odysseus-nua.com/zcvisitor/
 
+!http://www.kansai-shogi.com/webmagazine/diary.htm
+||get-prize-snow2.life^
+||clk.rtpdn10.com^
+/glp?r=*&rw=*&rh=*&ww=*&wh=$first-party,script
+
+
+
 
 
 !http://www.janjan.jp/

@@ -624,6 +624,7 @@ www.bilibili.com##.bilibili-player-video-message-ul
 !#slide_adだけだと画面を下にスクロールしたときの右下にでる動画小窓の位置がずれるので、#slide_ad imgにした。
 www.bilibili.com###slide_ad img
 
+
 !PCgamer
 www.pcgamer.com##div[style^="position: relative; box-sizing: border-box; height: auto;"]
 www.pcgamer.com###sidebar > div[style^="position: relative;"]
