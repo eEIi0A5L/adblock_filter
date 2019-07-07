@@ -37,7 +37,7 @@
 
 !http://tanabata.org/
 !http://reward6075.bh5645tfggfd25.agency/6034758834/?utm_campaign=bKMuT7EMVXU5Z6UvvSHONGlfu-yV43iC8T8uYixAFxs1&t=main9_c809045a27046e2a3b&f=1
-/reward[0-9]*\.[a-z0-9]*\.agency\//
+/^https?\:\/\/reward[0-9]*\.[a-z0-9]*\.agency\//
 
 
 
