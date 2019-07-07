@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 30 Jun 2019 00:00 JST
+! Last modified: 08 Jul 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -2033,6 +2033,57 @@ exblog.jp##a[href^="http://www.dmm.co.jp/pr/dc/pcgame/"]
 !||www.tvdrama-db.com/cgi-bin/Amazon/amzext1.pl?id=
 !||www.tvdrama-db.com/cgi-bin/Amazon/amzCastName.pl?keyword=
 ||www.tvdrama-db.com/cgi-bin/Amazon/
+
+!----------------------------------------------------
+!2019.7.8
+!ドメインがない時の広告
+!http://marketcapitalizations.com/historical-data/historical-components-sp-100/
+!||www.google.com/adsense/domains/caf.js
+!||www.google.com/adsense/
+
+
+!下記三つはページ内の関連リンクなのであってよい、なくてもよい
+||www.google.com/adsense/domains/caf.js
+||www.google.com/dp/ads?
+||www.gstatic.com/domainads/
+
+
+||parking.parklogic.com/page/enhance.js
+||clk.rtpdn10.com/click?
+||maroola.aditms.me/click?
+
+!http://www.odoroku.tv/idol/tenki2/
+!||i.cdnpark.com/registrar/v3/loader.js
+!||d1lxhc4jvstzrp.cloudfront.net/registrar/v3/content/717207
+!||js.parkingcrew.net/jsparkcaf.php?
+!||js.parkingcrew.net/assets/scripts/jsparkcaf.js
+!||js.parkingcrew.net/track.php?domain=
+!||js.parkingcrew.net/assets/scripts/registrar-caf/717207.js
+
+!http://umaizoo.com/
+||tracking.bodis.com/tlpv?
+||usa.odysseus-nua.com/zcvisitor/
+
+!http://www.kansai-shogi.com/webmagazine/diary.htm
+!ブラウザアンケのやつ
+||get-prize-snow2.life^
+||clk.rtpdn10.com^
+/glp?r=*&rw=*&rh=*&ww=*&wh=$first-party,script
+
+!http://tanabata.org/
+!http://reward6075.bh5645tfggfd25.agency/6034758834/?utm_campaign=bKMuT7EMVXU5Z6UvvSHONGlfu-yV43iC8T8uYixAFxs1&t=main9_c809045a27046e2a3b&f=1
+/^https?\:\/\/reward[0-9]*\.[a-z0-9]*\.agency\//
+
+
+
+
+
+!http://www.janjan.jp/
+!http://epson-supply.jp/
+!http://umaizoo.com/
+!----------------------------------------------------
+
+
 
 
 !その他
