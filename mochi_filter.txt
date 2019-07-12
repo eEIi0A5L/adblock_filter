@@ -774,6 +774,10 @@ blog.nicovideo.jp###web_pc_prime
 ch.nicovideo.jp##.ads_list_area
 !上部巨大な広告欄
 live2.nicovideo.jp##aside[class^="___billboard-ad___"]
+!ニコ生番組上部の広告
+live2.nicovideo.jp##aside[class^="___billboard-banner___"]
+!https://img.cdn.nimg.jp/s/nicolive/program-pictures/prod-lv320767845/billboard_1561628724331.jpg/r970x250l.jpg?key=6a28c72838837b81645fb9b044bcf7aa8094a269df939fdaa1c1013d5c9a2060
+/https\:\/\/img\.cdn\.nimg\.jp\/s\/nicolive\/program-pictures\/prod-lv[0-9]*\/billboard_/$image
 
 !ニコニコ大百科
 dic.nicovideo.jp##.ad-bannar-maincolumn-top
