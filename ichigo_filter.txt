@@ -408,6 +408,7 @@ thisav.com###share_to
 ||icapabloidsety.club^$third-party
 ||9nwg9sib9e.com^
 ||trafficshop.com^$third-party,popup
+||hdpreview.com^$third-party
 
 !movie.eroterest.net
 ||eroimg.net/images/kok/u-next_300250.gif
