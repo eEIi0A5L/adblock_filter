@@ -1373,6 +1373,7 @@ www.yomiuri.co.jp##.subhead
 ||www.yomiuri.co.jp/cont2/g2/m_pr_
 !読売、下から出てくるフッター
 www.yomiuri.co.jp##.layout-footer
+www.yomiuri.co.jp###ad_dfp_premiumrec
 
 !NHK
 !広告じゃなかった
