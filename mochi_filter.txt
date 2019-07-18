@@ -714,6 +714,10 @@ twitter.com##div[style="padding-top: 0px; padding-bottom: 0px;"] > div[class^="c
 !https://twitter.com/saotvos
 !twitter.com##article > div[data-testid="tweet"]:has-text(Promoted):nth-ancestor(5)
 !twitter.com##article > div[data-testid="tweet"]:has-text(プロモーション):nth-ancestor(5)
+!Exploreの先頭のプロモーションツイート
+!FFのトラッキングブロックに入っている
+twitter.com##[data-testid="trend"]:has-text(Promoted):xpath(..)
+twitter.com##[data-testid="trend"]:has-text(プロモーション):xpath(..)
 
 !facebook
 ||pixel.facebook.com^
