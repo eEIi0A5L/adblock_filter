@@ -152,6 +152,10 @@
 !http://egg.5ch.net/test/read.cgi/software/1503396071/649
 ||discount.s3blog.org^
 
+!マルウェアアラート
+||ktechguardiansrn.site^
+
+
 
 !５ちゃんねるの荒らしが誘導しているサイト---------------------
 ||livebby.b2.valueserver.jp^
