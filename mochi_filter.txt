@@ -2048,6 +2048,8 @@ exblog.jp##a[href^="http://www.dmm.co.jp/pr/dc/pcgame/"]
 www.chosunonline.com##.in_ad
 www.chosunonline.com###sidebar > iframe[src="http://www.chosunonline.com/common/ifr01/google_newsright0.html"]
 www.chosunonline.com###sidebar > iframe[src="http://www.chosunonline.com/common/ifr01/criteo_article_300_250.html"]
+!左上の天気
+www.chosunonline.com##.sec_date_weather
 
 !中央日報
 japanese.joins.com##.sponsor_link
