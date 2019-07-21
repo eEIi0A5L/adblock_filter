@@ -820,6 +820,7 @@ japanhub.net##.addthis_sharing_toolbox
 japanhub.net##.afs_ads
 ||trmnsite.com^$third-party
 japanhub.net###wrapper > .container > .row > .col-12
+||promo-bc.com^$popup
 
 
 !redtube
