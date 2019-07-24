@@ -699,8 +699,13 @@ twitter.com##li.has-profile-promoted-tweet
 !ツイッターおすすめユーザの 広告
 twitter.com##.promoted-account
 !Twitter新レイアウトβ 2019.1.16
-twitter.com##div[aria-label="タイムライン: ホームタイムライン"] > div > div > div:has( svg[viewBox] + div:has-text(プロモーション) )
-twitter.com##div[aria-label="Timeline: Your Home Timeline"] > div > div > div:has( svg[viewBox] + div:has-text(Promoted) )
+!twitter.com##div[aria-label="タイムライン: ホームタイムライン"] > div > div > div:has( svg[viewBox] + div:has-text(プロモーション) )
+!twitter.com##div[aria-label="Timeline: Your Home Timeline"] > div > div > div:has( svg[viewBox] + div:has-text(Promoted) )
+
+twitter.com##article[role="article"]:has( > div[data-testid="tweet"] > div > div > div > span:has-text(プロモーション) )
+twitter.com##article[role="article"]:has( > div[data-testid="tweet"] > div > div > div > span:has-text(Promoted) )
+
+
 !トレンドの広告
 !twitter.com##div[data-testid="trend"]:has( > div > div > svg[viewBox] + span:has-text(プロモーション) )
 !twitter.com##div[data-testid="trend"]:has( > div > div > svg[viewBox] + span:has-text(Promoted) )
