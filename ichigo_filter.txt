@@ -654,6 +654,10 @@ www.av01.tv##.ad-body
 @@||googletagmanager.com^$third-party,domain=www.av01.tv
 ||juicyads.com^
 @@||www.googletagmanager.com^$domain=av01.tv
+||www.suncityad.com^
+||www.av01.tv/images/partners/2033-v2.gif
+||https://www.av01.tv/images/partners/fuyao/300x250-2.gif
+||https://www.av01.tv/images/partners/fuyao/300x250-3.gif
 
 !http://www.minnano-av.com/
 ||www.minnano-av.com/top_center_bn/pc_new_ban/sidebar_bn.html
