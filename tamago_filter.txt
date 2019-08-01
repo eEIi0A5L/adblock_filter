@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 31 Jul 2019 00:00 JST
+! Last modified: 01 Aug 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -101,6 +101,7 @@ www.google.co.jp,www.google.com##.ads-fr
 google.co.jp,google.com###main > div[data-hveid]:has(a[data-al])
 !##^だとDOMから要素を削除するので一瞬表示される間もなくきれいに消えてくれる。
 google.co.jp,google.com##^#main > div[data-hveid]:has(a[data-al])
+google.co.jp,google.com##a[href*="aclk"]:xpath(//span[(text()='Ad')]/../../../..)
 
 !Twitter
 twitter.com##.promoted-tweet
