@@ -709,6 +709,10 @@ twitter.com##div[aria-label^="Timeline:"] > div > div > div:has( svg[viewBox] + 
 !トレンドの広告
 !twitter.com##div[data-testid="trend"]:has( > div > div > svg[viewBox] + span:has-text(プロモーション) )
 !twitter.com##div[data-testid="trend"]:has( > div > div > svg[viewBox] + span:has-text(Promoted) )
+twitter.com##div[data-testid="trend"]:has( span:has-text(Promoted by) ):xpath(..)
+twitter.com##div[data-testid="trend"]:has( span:has-text(によるプロモーション) ):xpath(..)
+
+
 !ツイッターおすすめユーザの 広告
 twitter.com##aside[aria-label="Who to follow"] > div > div[data-testid="UserCell"]:has( > div > div > div > svg + div:has-text(Promoted))
 twitter.com##aside[aria-label="おすすめユーザー"] > div > div[data-testid="UserCell"]:has( > div > div > div > svg + div:has-text(プロモーション))
