@@ -480,7 +480,7 @@ hosyusokuhou.jp##.abox
 
 !じゃぱそく！
 ||adcrops.net^
-||kill.jp^
+!||kill.jp^
 ||link-a.net^
 
 !流行速報Ⅱ
