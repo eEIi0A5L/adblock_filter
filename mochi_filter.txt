@@ -259,6 +259,7 @@ www.yahoo.co.jp###js-Commerce
 
 !あなたへのおすすめでPayPayのPR
 www.yahoo.co.jp##dl.item:has( > dd > p:has-text(PR) )
+www.yahoo.co.jp##dl.item:has( > dd > cite:has-text(Yahoo!ズバトク＜PR＞) )
 
 
 
