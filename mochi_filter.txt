@@ -257,6 +257,9 @@ www.yahoo.co.jp###yjidbox
 !たまに出てくる。ログインした直後一回だけとか
 www.yahoo.co.jp###js-Commerce
 
+!あなたへのおすすめでPayPayのPR
+www.yahoo.co.jp##dl.item:has( > dd > p:has-text(PR) )
+
 
 
 !その他ネットワーク通信ログからad関連の通信をブロック
