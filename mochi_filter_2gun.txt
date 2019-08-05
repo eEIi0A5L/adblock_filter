@@ -1557,6 +1557,11 @@ jmty.jp###Youtuber_hayai_PC_top
 jmty.jp##.adsense_me_pc_box_middle
 jmty.jp##.adsense_list_sponsored_link
 
+!Kissmanga
+||ads.2mdnsys.com^
+!||kissmanga.com/ads/adprotect
+
+
 
 
 
