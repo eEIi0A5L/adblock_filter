@@ -401,6 +401,8 @@ www.sankeibiz.jp##.ad
 www.asahi.com###NativePr
 www.asahi.com###OutbrainRec
 www.asahi.com##.PrInfoBlock
+www.asahi.com##.RectAdArea
+www.asahi.com##.AdArea
 
 !Yomiuri
 ||www.yomiuri.co.jp/cont2/ad/js/sp_ad_home.js
