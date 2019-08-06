@@ -10,6 +10,8 @@
 ||tsuiran.jp/serviceworker.js
 ||psneolog.com/superpwa-sw.js
 ||celebratehope.info/serviceworker.js
+||0pen.page^
+||best.prizedeal512.info/sw.js
 
 
 !END
