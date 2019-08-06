@@ -1210,6 +1210,10 @@ uwl.weblio.jp##.take_cnt_mid_v2
 !ejje.weblio.jp###leadToSpeakingTestIndexBtnWrp
 ||weblio.hs.llnwd.net/e7/img/muryo_banner_
 weblio.jp##.mainBlock:has(> .flex-rectangle-ads-frame)
+!類語辞典・シソーラス・対義語 - Weblio辞書のサイトで、下に広告が出るようになりました
+!http://egg.5ch.net/test/read.cgi/software/1556498678/122
+weblio.jp###adPcBnrWrp
+
 
 !alc
 eow.alc.co.jp###AreaUpperRight
