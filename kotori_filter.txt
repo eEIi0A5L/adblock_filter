@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ことりフィルタ（SNSボタンブロック）
-! Last modified: Mar 24, 2019 00:00 JST
+! Last modified: Aug 09, 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/kotori.html
 ! 
@@ -141,6 +141,8 @@ togetter.com###fixed_social_footer
 !PR TIMES
 prtimes.jp##.container-share
 
+!pixiv百科事典
+dic.pixiv.net###dynamic-biron
 
 !END-----------------------------------------------------
 
