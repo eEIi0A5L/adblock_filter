@@ -2115,6 +2115,8 @@ japanese.joins.com##.sponsor_link
 /^https?\:\/\/reward[0-9]*\.[a-z0-9]*\.agency\//
 
 
+!http://shakkin-idol.com/index.html
+^fp=*&prvtof=
 
 
 
