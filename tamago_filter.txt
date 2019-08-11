@@ -1068,6 +1068,7 @@ wired.jp###social-share
 
 !automaton
 ||jp.automaton.am/wp-content/plugins/ad-inserter/
+automaton-media.com##.code-block.code-block-2.ai-viewport-2.ai-viewport-3
 
 !enigma.co.jp
 enigma.co.jp##.sns_block_left
