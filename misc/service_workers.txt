@@ -12,6 +12,7 @@
 ||celebratehope.info/serviceworker.js
 ||0pen.page^
 ||best.prizedeal512.info/sw.js
+||upda-te.to/webpush/serviceWorker.js
 
 
 !END
