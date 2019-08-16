@@ -1117,6 +1117,15 @@ www.sponichi.co.jp##.shareButton-fixed
 !IZA
 www.iza.ne.jp###SiteFooter
 ||prt.iza.ne.jp/common/js/ad/adGpt.js
+||s.amazon-adsystem.com^$domain=www.iza.ne.jp
+||c.amazon-adsystem.com^$domain=www.iza.ne.jp
+||serve2.cheqzone.com/show_ad
+www.iza.ne.jp###picAd_contents
+www.iza.ne.jp###ModulePickupTopics02
+www.iza.ne.jp##.insert:has( > .linkTo > a )
+www.iza.ne.jp###textAd_wpics
+www.iza.ne.jp###appInduct
+
 
 !wowkorea
 ||kt.wowkorea.jp/images/ad/
