@@ -1032,6 +1032,12 @@ www.embed.media##.jw-settings-sharing
 ||contextrio.pro^$script
 ||dotuate.pro^$script
 
+!xxjav
+||pornvideocdn.xyz/static/tmp/$image
+zh.xxjav.xyz##.self-gg
+zh.xxjav.xyz##.float-ads
+zh.xxjav.xyz##.float-ads-backgroud
+
 
 
 
