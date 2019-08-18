@@ -8,7 +8,8 @@
 !Youtubeに最初にアクセスしたときに上部に出る「Chromeでアクセスしますか？」のチッカー
 www.youtube.com###ticker-content
 !動画右上のSuggests白いバー
-www.youtube.com##.ytp-chrome-top-buttons
+!→Informationの白丸まで消えてしまうので、いったんコメント化。2019.8.18
+!www.youtube.com##.ytp-chrome-top-buttons
 !Youtube動画再生して最後に出てくるチャンネル動画サムネイルを消す場合
 !www.youtube.com##.ytp-ce-element
 
