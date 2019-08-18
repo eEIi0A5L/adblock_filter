@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2019/07/06 00:00 JST
+! Last modified: 2019/08/18 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/negi.html
 
@@ -12,6 +12,8 @@ www.youtube.com###ticker-content
 !www.youtube.com##.ytp-chrome-top-buttons
 !Youtube動画再生して最後に出てくるチャンネル動画サムネイルを消す場合
 !www.youtube.com##.ytp-ce-element
+!画面右下のチャンネルサムネ
+youtube.com##.branding-img-container
 
 !ニコ生＋ニコ動（く）2018.6.28
 ||enquete.nicovideo.jp^$domain=~enquete.nicovideo.jp
