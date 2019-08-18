@@ -364,7 +364,7 @@ video.fc2.com##.u-hasAd-101_adArea
 !||popads.net/pop.js^$important
 !||addthis.com^$important,third-party
 ||popads.net/pop.js^
-||addthis.com^$third-party
+||addthis.com^$third-party,domain=youav.com
 ||ads.adxpansion.com^
 ||jwpltx.com^
 www.youav.com##.ad-body
