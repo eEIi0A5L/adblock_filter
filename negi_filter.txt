@@ -15,6 +15,7 @@ www.youtube.com###ticker-content
 !画面右下のチャンネルサムネ
 youtube.com##.branding-img-container
 
+
 !ニコ生＋ニコ動（く）2018.6.28
 ||enquete.nicovideo.jp^$domain=~enquete.nicovideo.jp
 ||urc.live.nicovideo.jp^
