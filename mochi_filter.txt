@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 20 Aug 2019 00:00 JST
+! Last modified: 23 Aug 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -56,6 +56,7 @@ www.youtube.com###video-masthead
 !Youtube検索結果の広告
 youtube.com##.ytd-search-pyv-renderer
 youtube.com##.pyv-afc-ads-container
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has( > div#contents > ytd-promoted-sparkles-text-search-renderer )
 
 !Youtubeの横から出てくるアノテーション
 www.youtube.com##.iv-promo
