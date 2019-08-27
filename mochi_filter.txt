@@ -2126,6 +2126,13 @@ japanese.joins.com##.sponsor_link
 !http://www.janjan.jp/
 !http://epson-supply.jp/
 !http://umaizoo.com/
+
+!http://www.philip-reeve.com/mortal_engines.html
+/media/mainstream/alert.mp3|
+/wap/mobsurvey/$script
+||wurfl.io/wurfl.js
+/app[0-9]{4}\.tutonhamon[0-9]{2}\.live/
+
 !----------------------------------------------------
 
 
