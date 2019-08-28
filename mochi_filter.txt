@@ -2131,7 +2131,7 @@ japanese.joins.com##.sponsor_link
 /media/mainstream/alert.mp3|
 /wap/mobsurvey/$script
 ||wurfl.io/wurfl.js
-/app[0-9]{4}\.tutonhamon[0-9]{2}\.live/
+/^https?\:\/\/app[0-9]{4}\.tutonhamon[0-9]{2}\.live/
 
 !----------------------------------------------------
 
