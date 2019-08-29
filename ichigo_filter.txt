@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 19 Aug 2019 00:00 JST
+! Last modified: 30 Aug 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -1011,6 +1011,12 @@ jav.work##.video-boxad
 jav.work##li.releated_video:has(> .releatedadsholder)
 jav.work##.hotad_bottom
 jav.work##.video_ad
+openload.co##+js(abort-current-inline-script, $, contextmenu)
+openload.*##+js(abort-on-property-read, BetterJsPop)
+openload.*##+js(abort-current-inline-script, atob, decodeURIComponent)
+openload.*##+js(set-constant, sadbl, false)
+openload.co##^script:has-text(popAdsLoaded)
+||avfay.com/js/s.js
 
 !txxx
 txxx.com###fel-udpl
