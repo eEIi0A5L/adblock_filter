@@ -1892,6 +1892,7 @@ www.tumblr.com###sidebar-ad
 accuweather.com###header-davek
 ||vortex.accuweather.com/adc2010/images/misc/Ad_
 www.accuweather.com##.column-2-world
+www.accuweather.com##.ad
 
 !weathernews
 ||mwsgvs.weathernews.jp/weekend-explorer/banner.jpg
