@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 01 Aug 2019 00:00 JST
+! Last modified: 02 Sep 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_2gun.html
 ! 
@@ -759,20 +759,20 @@ kyousoku.net##.google-2ad-b
 ||image.livelog.biz/script/image/share/etc/wc/gif/300x250/0002.gif
 ||image.livelog.biz/script/image/share/etc/wc/gif/300x250/0001.gif
 
-!芸能ニュース２ch報道
-!http://geinou2news.blog.fc2.com
-||makibishi.jp^
-||isboost.co.jp^
-||fukugan.com^
-||user.in.net/more.js
-||smartaccess.biz^
-||street-ft.info^
-||tynt.com^
-||whos.amung.us^
-geinou2news.blog.fc2.com##.ently_text > a
-geinou2news.blog.fc2.com##blockquote.copy
-geinou2news.blog.fc2.com##span[style="color: rgb(255, 0, 0);"]
-geinou2news.blog.fc2.com##div[style="font-size:19px;"] > a
+!!芸能ニュース２ch報道
+!!http://geinou2news.blog.fc2.com
+!||makibishi.jp^
+!||isboost.co.jp^
+!||fukugan.com^
+!||user.in.net/more.js
+!!||smartaccess.biz^
+!||street-ft.info^
+!||tynt.com^
+!||whos.amung.us^
+!geinou2news.blog.fc2.com##.ently_text > a
+!geinou2news.blog.fc2.com##blockquote.copy
+!geinou2news.blog.fc2.com##span[style="color: rgb(255, 0, 0);"]
+!geinou2news.blog.fc2.com##div[style="font-size:19px;"] > a
 
 
 
