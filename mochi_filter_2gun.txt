@@ -811,6 +811,8 @@ mashlife.doorblog.jp##.article-body-inner > br
 !カイカイ反応通信
 !http://blog.livedoor.jp/kaikaihanno/
 ||blog.livedoor.jp/kaikaihanno/js/modernSlider.min.js
+www.otonarisoku.com###boxad1
+www.otonarisoku.com###boxad2
 
 !まとめたニュース
 !http://matometanews.com
