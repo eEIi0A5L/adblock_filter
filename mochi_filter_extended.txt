@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 27 Aug 2019 00:00 JST
+! Last modified: 05 Sep 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_extended.html
 ! 
@@ -689,6 +689,9 @@ dengekionline.com###banner_rectangle_1
 
 !http://www.allcinema.net/
 ||www.allcinema.net/prog/ad_img/
+
+!映画.com
+eiga.com##.header-banner
 
 !allmovie
 www.allmovie.com##.advertising
