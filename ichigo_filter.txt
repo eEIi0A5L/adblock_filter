@@ -760,6 +760,7 @@ avgle.com###aoverlay
 avgle.com##.alert-danger
 ||static.adxadserv.com^
 avgle.com##.hidden-xs > a > img[src$=".gif"]
+avgle.com##.video-banner
 
 !http://nukitomo.me
 @@||ci.phncdn.com/videos/
@@ -1056,7 +1057,23 @@ discordapp.com##html.u-overflowHidden:style(overflow-y: scroll !important;)
 ||ppfpocea.com^$third-party
 ||deloplen.com/apu.php?$domain=rapidvid.to
 
-
+!extremetube
+||adxpansion.com^
+extremetube.com##+js(abort-on-property-read, exbl)
+extremetube.com##+js(abort-on-property-read, ExoLoader)
+extremetube.com##+js(abort-on-property-write, ppAb)
+||d144jmuhz9kvbq.cloudfront.net^
+||cdn1-static-extremetube.spankcdn.net/js/fuckadblock.js
+||adsession.com^$third-party
+||ht.extremetube.com/js/ht.js?site_
+extremetube.com###pb_block
+extremetube.com##.adsBox
+extremetube.com##.text-ad
+extremetube.com##.adsbox
+extremetube.com##.noPopunder
+extremetube.com##.tj-add-text
+extremetube.com##.vjs-inplayer-closeandplay
+extremetube.com##.attentionMsg
 
 
 
