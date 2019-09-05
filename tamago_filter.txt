@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 30 Aug 2019 00:00 JST
+! Last modified: 05 Sep 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -79,6 +79,28 @@ ameblo.jp##amp-ad
 m.youtube.com##a[onclick^="return koya.onEvent(arguments[0]||window.event,'"] + div
 m.youtube.com##a[onclick^="return koya.onEvent(arguments[0]||window.event,'"] > div
 youtube.com##ytm-promoted-video-renderer
+
+!Youtubeパソコン用からのコピペ
+||www.youtube.com/yts/jsbin/www-pagead-id-
+||googleads.g.doubleclick.net^
+||youtube.com/get_midroll_
+||pagead2.googlesyndication.com^
+youtube.com##.ad-container
+youtube.com##.video-ads
+youtube.com##.ytp-ad-progress-list
+||www.google.co.jp/pagead/lvz?
+||static.doubleclick.net/instream/ad_status.js
+youtube.com###player-ads
+||pubads.g.doubleclick.net^
+||youtube.com/pagead/
+||www.youtube.com/ads/$image
+||securepubads.g.doubleclick.net
+=adunit&$domain=youtube.com
+!Peter Lowe’s Ad and tracking server listで一括ブロックされている
+||doubleclick.net^$third-party
+||2mdn.net^$domain=youtube.com
+||s0.2mdn.net/ads$domain=youtube.com
+
 
 !google検索結果の広告
 www.google.co.jp##li[data-hveid]:has(> div.ads-ad)
