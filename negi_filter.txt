@@ -53,6 +53,7 @@ nicovideo.jp##.PremiumHeader
 nicovideo.jp##div[class^="___Nico-premiumBanner___"]
 nicovideo.jp###premiumHeader
 nicovideo.jp###Nico-premiumBanner
+nicovideo.jp##.premiumHeader-inner
 
 !Google
 !ポップアップ「こちらによくアクセスする方は Google をホームページに」
