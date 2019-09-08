@@ -679,6 +679,7 @@ ejje.weblio.jp##.theme-learning-banner
 ||weblio.hs.llnwd.net/e7/img/campaign_banner.png
 ||weblio.hs.llnwd.net/e7/img/icons/story-learning-300-250.png
 ejje.weblio.jp##.sp-contents-banner
+ejje.weblio.jp###adHeadAdDfpBannerId
 
 !共同通信
 this.kiji.is##.page__ad
