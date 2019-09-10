@@ -1156,6 +1156,7 @@ ejje.weblio.jp##.exclusive-benefits-banner
 weblio.jp###numberLimitCntdwn
 weblio.jp##.sideAd
 ||weblio.hs.llnwd.net/e7/img/ad/
+ejje.weblio.jp##.flex-rectangle-ads-frame
 !Weblioをちょっとでも早くしようともがいた結果-----------------
 ||cdn.optimizely.com/js/$domain=weblio.jp
 ||www.facebook.com/plugins/like.php?$domain=weblio.jp
