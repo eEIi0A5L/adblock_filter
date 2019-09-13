@@ -483,5 +483,8 @@ www.zdnet.com##.preloaded_lightbox
 www.windy.com###donate-promo-goals
 www.windy.com###articles
 
+!東京アメッシュ
+!下部スライドバナーがうざすぎる
+||tokyo-ame.jwa.or.jp/scripts/slick.min.js
 
 !END
