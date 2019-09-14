@@ -245,6 +245,7 @@ pornhub.com##.adWrapper
 pornhub.com##.sectionWrapper > .videos > li:not(.videoblock):not(.videobox)
 ||cbbp1.com^$document
 ||cbbp1.com^$popup
+pornhub.com##.premiumPromoBannerWrapper
 
 
 !bobx.com
