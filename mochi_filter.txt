@@ -2140,8 +2140,8 @@ japanese.joins.com##.sponsor_link
 !http://www.senmaike.net/toide/
 ||usd.ezekiel-sam.com/zcvisitor/
 ||usd.ezekiel-sam.com/zcredirect?visitid=
-/https:\/\/[0-9]+.redirect[0-9]+-[0-9]+\.space/
-/http:\/\/www\.jps[0-9]+-update.club/
+/^https:\/\/[0-9]+.redirect[0-9]+-[0-9]+\.space/
+/^http:\/\/www\.jps[0-9]+-update.club/
 
 
 !----------------------------------------------------
