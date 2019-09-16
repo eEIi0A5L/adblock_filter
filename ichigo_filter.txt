@@ -242,7 +242,7 @@ pornhub.com###hAd
 pornhub.com##.playerFlvContainer > div#pb_template[style]
 ||hubt.pornhub.com/js/ht.js?site_
 pornhub.com##.adWrapper
-pornhub.com##.sectionWrapper > .videos > li:not(.videoblock):not(.videobox)
+!pornhub.com##.sectionWrapper > .videos > li:not(.videoblock):not(.videobox)
 ||cbbp1.com^$document
 ||cbbp1.com^$popup
 pornhub.com##.premiumPromoBannerWrapper
