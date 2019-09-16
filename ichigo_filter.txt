@@ -933,6 +933,7 @@ video.520cc.cc###inplayer
 ||cnzz.com^
 ||adqy6rzwcs.com^
 ||mm9841.com/asset/default/player/plugins/vast-8.4.13.js
+verystream.com##+js(nano-setTimeout-booster)
 
 !jav321
 www.jav321.com###popup-container
