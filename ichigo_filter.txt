@@ -191,6 +191,7 @@ pornhub.com##.adWrapper
 ||cbbp1.com^$document
 ||cbbp1.com^$popup
 pornhub.com##.premiumPromoBannerWrapper
+pornhub.com##.sniperModeEngaged.alpha
 
 
 !bobx.com
