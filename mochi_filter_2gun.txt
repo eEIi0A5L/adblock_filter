@@ -434,12 +434,6 @@ blog.livedoor.jp##iframe[src^="http://api.unthem.com/cast?zname="]
 
 
 
-!VIPワイドガイド
-news4wide.livedoor.biz###niee
-
-
-
-
 !ツイッター速報
 ||api.samuraiclick.com^
 ||www.samuraiclick.com^
@@ -782,8 +776,8 @@ kyousoku.net##.google-2ad-b
 hanshintigers1.blog.jp##.rss-blogroll3
 
 !仮想通貨最新情報サイト
-!http://coinmatomesokuho.blog.jp
-coinmatomesokuho.blog.jp###article-rss
+!http://coinmatome.com/
+coinmatome.com###article-rss
 
 
 !芸能かめはめ波
