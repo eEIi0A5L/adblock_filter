@@ -729,12 +729,6 @@ mainichi.jp##.ad
 ||sharethrough.adnxs.com^
 ||cdn.cxpublic.com/mai-ad-render-
 
-!日経テクノロジーオンライン
-||techon.nikkeibp.co.jp/css/n/SP/2016/ad.css
-||techon.nikkeibp.co.jp/images/n/SP/2016/ad.png
-||image2.pubmatic.com/AdServer/
-||beacon.krxd.net/pixel.gif
-techon.nikkeibp.co.jp##.article-bottom-actions
 
 !日経TECH
 tech.nikkeibp.co.jp##.footer_nav

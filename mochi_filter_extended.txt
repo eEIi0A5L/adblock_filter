@@ -410,16 +410,16 @@ koepota.jp###ad_footer
 ||www.koepota.jp/js/amazon.js
 
 !anitube
-www.anitube.se##div[id^="compass_ad_"]
-www.anitube.se###pageAdvert
-www.anitube.se###anitubeBannerOverlay
-www.anitube.se###pageAdvert
-www.anitube.se###footerAdvert
-www.anitube.se###anitubeBoxOverlay
-!www.anitube.se##iframe
+www.anitube.cz##div[id^="compass_ad_"]
+www.anitube.cz###pageAdvert
+www.anitube.cz###anitubeBannerOverlay
+www.anitube.cz###pageAdvert
+www.anitube.cz###footerAdvert
+www.anitube.cz###anitubeBoxOverlay
+!www.anitube.cz##iframe
 ||anigrupo.engine.adglare.net^
-||static.anitube.se/player/anitubeJWOverlay/anitubeJWOverlay.js
-||static.anitube.se/photo/
+||static.anitube.cz/player/anitubeJWOverlay/anitubeJWOverlay.js
+||static.anitube.cz/photo/
 ||imasdk.googleapis.com/flash/core/3.266.0/adsapi.swf
 ||imasdk.googleapis.com/flash/sdkloader/adsapi_3.swf
 
