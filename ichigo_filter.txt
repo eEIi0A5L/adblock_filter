@@ -71,37 +71,6 @@ xhamster.com##.wid-banner-container
 xhamster.com##.wid-cams-widget
 xhamster.com##.wid-spot-container
 
-!javfor.me
-||ads.exoclick.com^
-/rss.gif$domain=javfor.me
-||adspaces.ero-advertising.com^
-||serve.popads.net/checkinventory.php$important,script,domain=jav4.me
-javfor.me,jav4.me##.adv
-jav4.me###tbl1
-javfor.me,jav4.me##[id^="ads_"]:not(body)
-!/images/r18728x90_D_w728_h90.gif
-!/images/$domain=javfor.me|jav4.me
-!@@http://javfor.me/images/snapshot-logo_1.png
-.gif$domain=javfor.me|jav4.me
-javfor.me,jav4.me##a[href^="http://media.r18.com"]
-!||r18.com^
-||media.r18.com/track/$popup,domain=javfor.me
-||pics.r18.com/r18/banner/$image,domain=javfor.me
-||r18.com/*utm_source$popup
-!javfor.me##a[href^="http://media.r18.com/"]
-||genieesspv.jp^
-javfor.me##.adv
-!javfor.me画像をクリックした時にr18新規ウィンドウが開くのをブロック。##script:contains(window.open)はFirefoxでしか機能しないので、$inline-scriptでブロック。
-||javfor.me/category/$inline-script
-||javfor.me/actress/$inline-script
-!||javfor.me^$inline-script
-javfor.me##script:contains(window.open)
-!右はうざいので全部消す
-!||javfor.me/static/channel_img/channel-paradise_tv-460x250.jpg
-javfor.me###player-row-right
-!||javfor.me/static/bcopy/r18728x90_020.jpg
-!||javfor.me/static/bcopy/r18728x90_03.jpg
-javfor.me##a[href^="/lib/url.php?"] > img
 
 !おらばうと
 ||puhtml.com^
@@ -136,30 +105,6 @@ imagetwist.com##[href^="http://www.sex.com/videos/?utm_"]
 ||bongacams.com^$third-party
 ||imagetwist.com$inline-script
 
-!imgchili.net
-||exoclick.com/ad_track.js
-||ads.exoclick.com^
-||imgchili.net/js/showa.js
-||cloudfront.net^$script,domain=imgchili.net
-/?&pid=*&subid=$image,domain=imgchili.net
-imgchili.net##.horizontalAd
-imgchili.net##.share-btn
-!freshの動画部分が非表示になる
-!##[class$="Ad"]:not(body)
-imgchili.net##[href^="http://reddit.com/submit"]
-imgchili.net##[href^="http://twitter.com/share?"]
-imgchili.net##[href^="http://www.linkedin.com/shareArticle?"]
-imgchili.net##[href^="http://www.stumbleupon.com/submit?url"]
-imgchili.net##[href^="http://www.tumblr.com/share/"]
-||main.exoclick.com^
-!||main.exoclick.com^
-||syndication.exoclick.com/ads
-||chaturbate.com^$third-party
-||imgchili.net/baexo.php
-!バナーを消そうとしたがダメだった
-!imgchili.net##div[background-image]
-||exosrv.com^
-/backo.php?$domain=imgchili.net
 
 !www.imgbabes.com
 ||c1.popads.net^
@@ -460,14 +405,14 @@ lovechat777.blog.fc2.com###rightside
 ||xnxx.com/in.php?referer
 xnxx.com##+js(xvideos.com.js)
 
-!yourporn.sexy
-||yourporn.sexy/vast/adt_vast.js
-||yourporn.sexy/nbsys3/fsyspp.js
+!youporn.com
+||youporn.com/vast/adt_vast.js
+||youporn.com/nbsys3/fsyspp.js
 ||ads.exosrv.com^
 ||puserving.com^
 ||syndication.exosrv.com^
-yourporn.sexy##+js(noeval.js)
-yourporn.sexy##+js(abort-on-property-write.js, Fingerprint2)
+youporn.com##+js(noeval.js)
+youporn.com##+js(abort-on-property-write.js, Fingerprint2)
 
 !pron.tv
 ||ads2.contentabc.com^
@@ -710,12 +655,12 @@ openload.co##+js(abort-current-inline-script.js, adblock, adblock2)
 
 !javdoe
 ||d31qbv1cthcecs.cloudfront.net^
-||google-analytics.com/analytics.js$important,script,domain=www.javdoe.com
-fembed.com##+js(abort-on-property-write.js, _pop)
+||google-analytics.com/analytics.js$important,script,domain=www.javdoe.tv
+fembed.tv##+js(abort-on-property-write.js, _pop)
 ||ie8eamus.com^$third-party
-www.javdoe.com##.fa-share
-www.javdoe.com##[id*="ScriptRoot"]
-www.javdoe.com##div[id*="ScriptRootC"]
+www.javdoe.tv##.fa-share
+www.javdoe.tv##[id*="ScriptRoot"]
+www.javdoe.tv##div[id*="ScriptRootC"]
 !http://egg.5ch.net/test/read.cgi/software/1524667609/424-428
 !||www.googletagmanager.com^
 ||affiliateone.jp^
@@ -728,6 +673,18 @@ www.javdoe.com##div[id*="ScriptRootC"]
 ||push-notification.tools^
 ||push-notification.tools^$popup
 ||vhldwuv6om.com^
+www.javdoe.tv##iframe[src^="https://avsex.me/"]
+@@||javdoe.tv^$generichide
+||onesignal.com^
+/invoke.js$domain=www.javdoe.tv
+javdoe.tv##+js(abort-on-property-write.js, spot)
+||alexametrics.com^
+javdoe.tv###external-embed:style(display: block!important;)
+javdoe.tv###preroll
+||embed.media/asset/default/player/plugins/vast-8.4.13.js
+||adqy6rzwcs.com/83/3b/87/833b870434edc35fb743c2615f5cb480.js
+||muqson0kgr.com/ae/86/74/ae8674228ade5ffb8808fb014d870ff8.js
+/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=www.javdoe.com
 
 !erovi.jp
 ||dmm.co.jp^$popup,domain=erovi.jp
@@ -780,24 +737,6 @@ share-videos.se##div[style="margin-left:120px;"]
 
 !JavTube
 javtb.se##.pc_main
-
-!av8x
-||i.imgur.com/eowitBo.gif
-||fingahvf.top/advertisers.js
-qdembed.com##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
-qdembed.com##+js(setInterval-defuser.js, (), 500)
-qdembed.com##+js(abort-on-property-read.js, decodeURI)
-av8x.com##.row div[style="width: 300px; height: 250px;"]
-av8x.com##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
-av8x.com##+js(setInterval-defuser.js, (), 500)
-||xapi.juicyads.com^
-||waust.at^$third-party
-||tsyndicate.com^$domain=av8x.com
-||k77hof1z7k.com^$third-party
-||eoredi.com/apu.php?$important
-av8x.com##.container > div[style*="overflow: hidden"]
-!最初の５秒skip ad
-av8x.com###preroll
 
 !javpm.com to javsun.net
 !||syndication.exosrv.com^$popup
@@ -961,19 +900,7 @@ thatav.net##.col-12 > div > iframe
 thatav.net##.ad-body
 ||b3z29k1uxb.com^$third-party
 
-!javdoe
-www.javdoe.com##iframe[src^="https://avsex.me/"]
-@@||javdoe.com^$generichide
-||onesignal.com^
-/invoke.js$domain=www.javdoe.com
-javdoe.com##+js(abort-on-property-write.js, spot)
-||alexametrics.com^
-javdoe.com###external-embed:style(display: block!important;)
-javdoe.com###preroll
-||embed.media/asset/default/player/plugins/vast-8.4.13.js
-||adqy6rzwcs.com/83/3b/87/833b870434edc35fb743c2615f5cb480.js
-||muqson0kgr.com/ae/86/74/ae8674228ade5ffb8808fb014d870ff8.js
-/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=www.javdoe.com
+
 
 !javwhores
 javwhores.com##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
@@ -997,13 +924,7 @@ javtc.com##iframe[width="300"][height="250"]
 ||menhv.com^
 
 
-!rh1024
-||users.51.la^
-||static.kedouapp.net/h5/files/video/2347-19011-160x600.mp4
-www.rh1024.com##.banner-ad
-www.rh1024.com##.vjs-poster
-www.rh1024.com###sponsorAdDiv
-www.rh1024.com###kedou-video-right
+
 
 !javmeet
 www.javmeet.com##.container > div[id$="ScriptRoot"]

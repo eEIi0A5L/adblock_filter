@@ -847,9 +847,7 @@ www.scienceplus2ch.com##.main > span + a
 www.scienceplus2ch.com##.main > a
 www.scienceplus2ch.com##.main > br
 
-!なん＆じぇー
-!http://nanjei.com/
-nanjei.com###quads-ad1
+
 
 !地下帝国-AKB48まとめ
 chikakb.ldblog.jp##iframe[src="http://chikakb.ldblog.jp/left_amz.html"]

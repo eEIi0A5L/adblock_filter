@@ -527,10 +527,11 @@ lang-8.com##.top-ad-large
 lang-8.com##.adsbygoogle
 !lang-8.com###right
 
-!www.uesp.net
-www.uesp.net###content > .center
+!uesp.net
+uesp.net###content > .center
 ||stats.g.doubleclick.net/dc.js
-www.uesp.net###p-googlead
+uesp.net###p-googlead
+uesp.net###siteNotice
 
 !tunein
 ||synchroscript.deliveryengine.adswizz.com^

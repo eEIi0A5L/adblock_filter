@@ -480,7 +480,7 @@ weather.yahoo.co.jp###ad-ct
 
 
 !広告消した後の空白
-typhoon.yahoo.co.jp###pos-lrec
+weather.yahoo.co.jp###pos-lrec
 
 !ヤフー天気の今日明日の指数情報（洗濯～風邪注意）
 !http://egg.5ch.net/test/read.cgi/software/1540428057/133
@@ -1733,31 +1733,7 @@ www.atmarkit.co.jp###dmp
 ||www.atmarkit.co.jp/js/ait/ad.js
 
 
-!wikia
-wikia.com###WikiaArticleBottomAd
-wikia.com###WikiaRailWrapper
-wikia.com###recirculation-footer-index-container
-_analytics_$domain=wikia.com
--beacon.$domain=wikia.com
-||b.scorecardresearch.com/beacon.js
-||quantserve.com^
-||fandommetrics.com^$third-party
-wikia.com###PREFOOTER_LEFT_BOXAD
-wikia.com###PREFOOTER_RIGHT_BOXAD
-wikia.com###TOP_LEADERBOARD
-wikia.com###TOP_RIGHT_BOXAD
-wikia.com###WikiaTopAds
-wikia.com###ad-skin
-wikia.com##.ad
-wikia.com##.home-top-right-ads
-wikia.com##.wikia-ad
-||rpts.org^$third-party
-||amazonaws.com/ki.js/
-wikia.com###LEFT_SKYSCRAPER_2
-!トラッキング
-||petametrics.com^
-!ビデオ
-!wikia.com##div[itemprop="video"]
+
 
 !fandom
 !Wikiaからfandomへ移行された

@@ -1441,8 +1441,7 @@ llabtooflatot.blog.fc2.com##center:has(> ins.adsbygoogle)
 !||afl.rakuten.co.jp^
 ||afl.rakuten.co.jp^$third-party
 
-!http://2chnv.com
-2chnv.com##.tbg1:has(span[id^="ad"])
+
 
 !http://buzz-cafe.net/
 ||buzz-cafe.net/wp-content/uploads/2016/03/inst_ad.
