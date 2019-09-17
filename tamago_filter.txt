@@ -298,10 +298,10 @@ itest.bbspink.com##.js-ad_iframe
 itest.bbspink.com###ad_network
 itest.bbspink.com###ads
 
-!５ちゃんねる、２ちゃんねる
-/bannar/$domain=5ch.net|2ch.net|bbspink.com
-5ch.net,2ch.net##.ADVERTISE_AREA
-5ch.net,2ch.net##.ADVERTISE_AREA + div
+!５ちゃんねる
+/bannar/$domain=5ch.net|bbspink.com
+5ch.net##.ADVERTISE_AREA
+5ch.net##.ADVERTISE_AREA + div
 ||google.com/pagead/
 ||i2ad.jp^
 ||microad.net^
@@ -309,11 +309,6 @@ itest.bbspink.com###ads
 ||gmossp-sp.jp/ads/
 ||microad.jp^
 ||cdn.ad.maist.jp/ad/
-||2ch.net/css/ad.css
-||2ch.net/js/ad.js
-!||2ch.net/snow/index.js
-!||2ch.net/snow/bebe.js
-||2ch.net/snow/2chtop.js
 ||5ch.net/css/ad.css
 ||5ch.net/js/ad.js
 !||5ch.net/snow/index.js
@@ -323,7 +318,6 @@ itest.bbspink.com###ads
 ||bbspink.com/js/ad.js?
 ||bbspink.com/css/ad.css
 ||headline.bbspink.com/newsbbspink/marquee/marqueepele.php
-||stimgc.iand2ch.net/bbs-ad/
 ||stimgc.iand5ch.net/bbs-ad/
 ||switch-app.net/images/bnr/
 ||stab.thench.net/jump/line_
@@ -335,12 +329,10 @@ itest.bbspink.com###ads
 ||stab.thench.net/threads/rightside_bottom_
 ||stab.thench.net/threads/thread_bottom_left_
 ||stab.thench.net/threads/thread_bottom_right_
-||stimg.iand2ch.net/bbs-ad/
 ||stimg.iand5ch.net/bbs-ad/
 ||stbp.thench.net/subback/mercury/banner
 ||stbp.thench.net/toppage/common-
-!5ch, 2ch携帯
-||stimg.iand2ch.net^
+!5ch携帯
 ||stimg.iand5ch.net^
 ||stab.thench.net^
 !奇妙なjsをブロックしておく（なんとなく）
@@ -353,7 +345,7 @@ bbspink.com##.ranking_banner
 bbspink.com##.loading
 bbspink.com##div[class^="banner_area_"]
 bbspink.com##.ticker
-5ch.net,2ch.net###js--banners--thread
+5ch.net###js--banners--thread
 
 !ファミ通
 ||ssl.webtracker.jp/ad/
