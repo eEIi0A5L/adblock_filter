@@ -759,6 +759,8 @@ tokyograffiti.grfft.jp##.fixbtn
 ||smetrics.cnn.com/b/ss/cnn-adbp-offsite-domestic/
 !||bea4.v.fwmrm.net/ad/
 www.cnn.co.jp##.ad
+www.cnn.co.jp###ad-large-header
+www.cnn.co.jp###ad-text-top
 
 !cnn.com
 edition-m.cnn.com###social-share
