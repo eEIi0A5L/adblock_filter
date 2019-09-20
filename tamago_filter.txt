@@ -1587,6 +1587,7 @@ pandora.tv##.advertisement
 ||imgcdn.pandora.tv/ptv_img/icon_network_ad.gif
 !動画再生５分後に表示されるプレミアム登録誘導
 channel.pandora.tv##.pm_wrap
+pandora.tv###nx_pause_area > .stopbtn
 
 !http://www.copiapoa.jp/
 www.copiapoa.jp###fixBanner
