@@ -417,8 +417,6 @@ tver.jp###ptop
 www.indiegala.com##nav.cart-button-fixed
 
 !wikiaのページ下部のバー
-wikia.com###WikiaBar
-wikia.com###WikiaNotifications
 !→fandom.comへ移行した
 fandom.com###WikiaBar
 fandom.com###WikiaNotifications
