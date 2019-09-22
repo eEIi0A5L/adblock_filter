@@ -2111,6 +2111,10 @@ japanese.joins.com##.sponsor_link
 /^https:\/\/[0-9]+.redirect[0-9]+-[0-9]+\.space/
 /^http:\/\/www\.jps[0-9]+-update.club/
 
+!https://topernews.me/?p=he4deyjrmm5gi3bpg4zq
+||topernews.me^
+!apps4651.pingtopingsrv136.life
+/^http:\/\/apps[0-9]+\.pingtopingsrv[0-9]+\.life/
 
 !----------------------------------------------------
 
