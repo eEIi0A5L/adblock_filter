@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 13 Sep 2019 00:00 JST
+! Last modified: 24 Sep 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -1002,6 +1002,24 @@ extremetube.com##.noPopunder
 extremetube.com##.tj-add-text
 extremetube.com##.vjs-inplayer-closeandplay
 extremetube.com##.attentionMsg
+
+!vjav
+||sextoysgfs.com/saber/vjav/dutti/
+||vjav.com/images/ads/
+||mysmokingmistress.com/saber/vjav/dutti/
+||asiangfsex.com/saber/vjav/dutti/
+vjav.com##.player-wrap
+!vjav.com##div[style="width: 100%; height: 0; padding-bottom: 55.555555555556%"]
+vjav.com##td[style="transform: scale(0.99);"] > div
+vjav.com##span > table
+||in6.zog.link^
+||cradver.livejasmin.com^$popup
+!||vjav.com/assets/vendor.6391859e316f1cbc5f91.min.js
+!||vjav.com/assets/vendor.6391859e316f1cbc5f91.min.js
+||vjav.com/assets/vendor.$script
+||utubejobs.com/Campaigns/
+
+
 
 
 
