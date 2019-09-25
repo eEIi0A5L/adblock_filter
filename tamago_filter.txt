@@ -274,7 +274,8 @@ auctions.yahoo.co.jp###footer + section[class^="Component-"]
 page.auctions.yahoo.co.jp##^script:has-text(floatBannerData)
 
 ! 楽天
-/akam/11/*
+!/akam/11/*
+||www.rakuten.co.jp/akam/11/
 ||r.r10s.jp/com/js/omniture/plugin/sc_trackingid.js|
 ||ias.rakuten.co.jp/gw.js?$subdocument
 
@@ -764,7 +765,7 @@ this.kiji.is##.page__sub
 
 ! はてブロ
 ||blog.hatena.ne.jp/api/log?$xmlhttprequest
-||ameblo.jp/_api/collectStats;data=$image
+||s.st-hatena.com/entry.count.image?uri=$image
 
 
 !現代ビジネス
@@ -818,7 +819,8 @@ mainichi.jp##.ad
 !日経TECH
 tech.nikkeibp.co.jp##.footer_nav
 ! 日経BPトラッカー
-/js/bpcommon/onetag/bpTrackVars$script
+!/js/bpcommon/onetag/bpTrackVars$script
+||www.nikkeibp.co.jp/js/bpcommon/onetag/bpTrackVars$script
 
 !ユルクヤル http://yurukuyaru.com
 !||images-fe.ssl-images-amazon.com/images/$domain=yurukuyaru.com
@@ -1127,14 +1129,17 @@ techcrunch.com##.header-ad
 engadget.com###stcky-footer
 ||a01.korrelate.net/a/e/d2us.ads
 ||uip.semasio.net/adaptv
-||advertising.com^
+!engadget.comで記事を開いただけでブロックされてしまう
+!||advertising.com^
 ||aolcdn.com/ads/
 japanese.engadget.com###ldrBoardAd
 ||advertising.aolp.jp^
 ||fls-fe.amazon-adsystem.com/1/associates-ads$third-party
 ||ws-fe.assoc-amazon.com/widgets/cm?$third-party
 japanese.engadget.com##div[class^="js-"]:has( iframe[src^="//rcm-fe.amazon-adsystem.com/e/cm?"] )
-||images-fe.ssl-images-amazon.com/images/I/$domain=~amazon.co.jp|~amazon.com
+!booklog.jpでサムネが消える
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/123
+!||images-fe.ssl-images-amazon.com/images/I/$domain=~amazon.co.jp|~amazon.com
 japanese.engadget.com##.js-notMobileReferredByFbTw-new
 
 !jbpress.ismedia.jp

@@ -1055,7 +1055,7 @@ admin.blog.fc2.com###ad_sidebar
 www.hatena.ne.jp###pc-billboard-ad
 ! はてブロトラッカー
 ||blog.hatena.ne.jp/api/log?$xmlhttprequest
-||ameblo.jp/_api/collectStats;data=$image
+||s.st-hatena.com/entry.count.image?uri=$image
 
 !hatenablog.com
 hatenablog.com##.sleeping-ads
@@ -1127,14 +1127,17 @@ kakakumag.com##.fixedRightAdContainer
 !https://yamahack.com/503
 !やっぱりONで。広告が出てうざいサイトが多すぎる。2018.2.6
 !http://kodomofukutuuhan.web.fc2.com/category3/kyowakaban-10000740.html
-||thumbnail.image.rakuten.co.jp/@0_mall/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
+!→www.e-zakkamania.comでサムネが消える
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/123
+!||thumbnail.image.rakuten.co.jp/@0_mall/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
 ||thumbnail.image.rakuten.co.jp/@0_gold/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
 !楽天の広告がhttp://hktdouga.blog.jp/で出る
 ||afl.rakuten.co.jp^$domain=~kakaku.com,third-party
 ||hbb.afl.rakuten.co.jp^$third-party
 ||hb.afl.rakuten.co.jp^$third-party
 ! 楽天トラッカー
-/akam/11/*
+!/akam/11/*
+||www.rakuten.co.jp/akam/11/
 ||r.r10s.jp/com/js/omniture/plugin/sc_trackingid.js|
 ||ias.rakuten.co.jp/gw.js?$subdocument
 
@@ -1298,8 +1301,8 @@ blog.goo.ne.jp##div[style="height: 70px; position: fixed; z-index: 998; bottom: 
 !nikkeibp
 ||bizad.nikkeibp.co.jp/NBP_AD/itpro/parts/itp_welcome_schedule.js?
 ! 日経BPトラッカー
-/js/bpcommon/onetag/bpTrackVars$script
-
+!/js/bpcommon/onetag/bpTrackVars$script
+||www.nikkeibp.co.jp/js/bpcommon/onetag/bpTrackVars$script
 
 !-----------------------------------------------------------------------
 !https://natgeo.nikkeibp.co.jp
