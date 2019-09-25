@@ -745,6 +745,8 @@ meteotube.net##.adsBox
 investing.com##+js(set-constant, google_ad_status, 1)
 investing.com##.midHeader
 
+!weather.us
+@@||pagead2.googlesyndication.com^$domain=meteologix.com
 
 
 
