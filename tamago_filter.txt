@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 18 Sep 2019 00:00 JST
+! Last modified: 26 Sep 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -65,7 +65,17 @@ ameblo.jp##div[data-amn-unit]
 ||btstatic.com^
 ameblo.jp##amp-ad
 !ameblo.jp##^amp-ad
+! アメブロトラッカー
+||ameblo.jp/_api/collectStats;data=$image
 
+! TripadvisorとExpedia
+||www.tripadvisor.jp/GARecord|$xmlhttprequest
+||static.tacdn.com/js3crawlable/build/concat/taevents-$script
+||www.tripadvisor.jp/BALinkImpressionTracking/$xmlhttprequest
+||www.expedia.co.jp/cl/$xmlhttprequest
+||www.expedia.co.jp/userHistory/count?$xmlhttprequest
+||b.travel-assets.com/travel-pixel-js/$script
+||www.expedia.co.jp/api/datacapture/track|$xmlhttprequest
 
 !Youtube
 !https://m.youtube.com/
@@ -139,13 +149,21 @@ mobile.twitter.com##header[role="banner"] + div > div
 ||pbs.twimg.com/ad_img/
 twitter.com##.promoted-tweet
 mobile.twitter.com##div[role="article"]:has-text(Promoted)
+! Twitterトラッカー
+||api.twitter.com/1.1/jot/client_event.json|$xmlhttprequest
+||api.twitter.com/1.1/jot/external_referer.json|$xmlhttprequest
+||api.twitter.com/1.1/onboarding/referrer.json|$xmlhttprequest
+||platform.twitter.com/oct.js|
+||twitter.com/etc/clientlibs/dtm/*/satelliteLib-$script
 
 !ニコ動
 sp.ch.nicovideo.jp###appBanner
 
 !impress
-impress.co.jp###sp-floating-layer
-impress.co.jp##^#sp-floating-layer
+!→もう要らない
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/120
+!impress.co.jp###sp-floating-layer
+!impress.co.jp##^#sp-floating-layer
 impress.co.jp###floating-social-buttons
 !impress.co.jp##^#floating-social-buttons
 ||in.treasuredata.com^
@@ -205,20 +223,60 @@ m.yahoo.co.jp###rsab
 !http://egg.5ch.net/test/read.cgi/android/1560587835/338-341
 ||ard.yahoo.co.jp^
 
+!Yahooトラッカー
+||mempf.yahoo.co.jp/offer?$script
+||s.yimg.jp/images/approach/jslib/clear.gif?$subdocument
+||s.yimg.jp/images/clear.gif|
+||s.yimg.jp/images/jpnews/cre/bylines/js/chartbeat.js|
+! huffingtonpost.jp
+||s.yimg.com/av/yap/ga/yap.js|
+! localplace.jp
+||s.yimg.jp/images/listing/tool/cv/conversion_async.js|
+
+!Yahooスポナビ
+||s.yimg.jp/images/sports/all_device/sp/js/jquery.spInterstitial$script
+baseball.yahoo.co.jp,soccer.yahoo.co.jp##^script:has-text(instUrl)
+||s.yimg.jp/images/sports/all_device/common/js/jquery.spDoubleImage.js|
+||s.yimg.jp/images/sports/all_device/banner/app/$image
+! スポナビ上部のアプリ広告
+||s.yimg.jp/images/sports/all_device/sp/js/jquery.spRsab$script
+||s.yimg.jp/images/sports/promo/sp/npb/banner/rsab/$image
+||s.yimg.jp/images/sports/all_device/app/sportsnavi/rsab/img/$image
 
 !Yahoo天気
 !||logql.yahoo.co.jp/p?s=
 !||logql.yahoo.co.jp/v1/public/yql?
+! Yahoo天気のちらちら切り替わる広告
+||s.yimg.jp/images/weather/promo/banner/$image
+||s.yimg.jp/images/weather/smp/v2/js/stickyFooter-$script
 
 !Yahoo路線
 transit.yahoo.co.jp###rsab
 transit.yahoo.co.jp###posNM
+
+! ヤフーファイナンスで個人的にうざいの
+||s.yimg.jp/images/finance/mt/promotion/$image
+||s.yimg.jp/images/finance/card-loan/bnr/$image
+||s.yimg.jp/images/finance/bnr/$image
+||s.yimg.jp/images/finance/smp/promotion/img/financeApp/bnr/w2a/$image
+
+! Yahoo地図の全画面広告
+||s.yimg.jp/images/map/sp/js/promo.js?
+||s.yimg.jp/images/map/simple/js/scroll_preload.js?
 
 !ヤフオク
 !くじのバナー
 !https://egg.5ch.net/test/read.cgi/android/1560587835/227
 auctions.yahoo.co.jp###footer
 auctions.yahoo.co.jp###footer + section[class^="Component-"]
+! ヤフオクでたまに下部に出てくるやつ
+||s.yimg.jp/images/auct/salespromotion/$image
+page.auctions.yahoo.co.jp##^script:has-text(floatBannerData)
+
+! 楽天
+/akam/11/*
+||r.r10s.jp/com/js/omniture/plugin/sc_trackingid.js|
+||ias.rakuten.co.jp/gw.js?$subdocument
 
 
 !ニコニコブロマガ
@@ -278,6 +336,8 @@ itest.5ch.net###js-cardview_ad
 itest.5ch.net##div[style="height: 320px; position: relative; text-align: center; overflow: hidden; margin: 0 auto; margin-bottom: 15px;"]
 ||mediad2.jp^
 itest.5ch.net###js-last_comment_ad
+! 5ch遷移時に出る広告の残骸
+itest.5ch.net##^#interstitial-ad-div-id
 
 !5ch
 itest.5ch.net##.js-ads-content-top_news
@@ -579,6 +639,9 @@ tenki.jp###tenki-ad-SM_mid
 
 !価格.com
 kakaku.com###headerAd
+! 価格コムトラッカー
+||script1-s.kakaku.k-img.com/script/analytics/s_code$script
+||fp.kakaku.com/tracker.py/beacon?$script
 
 !共同通信
 ||cast-cs-j.adtdp.com^
@@ -676,11 +739,33 @@ ejje.weblio.jp##.theme-learning-banner
 ||weblio.hs.llnwd.net/e7/img/icons/story-learning-300-250.png
 ejje.weblio.jp##.sp-contents-banner
 ejje.weblio.jp###adHeadAdDfpBannerId
+! Weblio
+||weblio.hs.llnwd.net/e7/img/ejje-android-app-install-banner-not-installed.png|
+||weblio.hs.llnwd.net/e7/script/include/speed/ejje_ads_manager_smp.js?
 
 !共同通信
 this.kiji.is##.page__ad
 this.kiji.is##.page__sub
 ||nordot-connect.genieesspv.jp^
+
+! fc2トラッカー
+||media.fc2.com/counter_img.php?
+||media.fc2.com/blank.gif?
+
+! ピア
+||ub.pia.jp/images/pt.gif?
+
+! ローチケ
+||lhe-beacon.team-rec.jp/beacon.gif?
+
+
+! ドミノとか
+/i?stm=$image
+
+! はてブロ
+||blog.hatena.ne.jp/api/log?$xmlhttprequest
+||ameblo.jp/_api/collectStats;data=$image
+
 
 !現代ビジネス
 ||gendai.ismcdn.jp/resources/gb/js/v3/gb_change_ad_margin.js
@@ -732,6 +817,8 @@ mainichi.jp##.ad
 
 !日経TECH
 tech.nikkeibp.co.jp##.footer_nav
+! 日経BPトラッカー
+/js/bpcommon/onetag/bpTrackVars$script
 
 !ユルクヤル http://yurukuyaru.com
 !||images-fe.ssl-images-amazon.com/images/$domain=yurukuyaru.com
@@ -752,6 +839,18 @@ wjn.jp##.ad_button
 !東京グラフィティ
 tokyograffiti.grfft.jp##.fixbtn
 
+! NHK
+||bc.nhk.jp/*/bc.gif?
+||nhk.or.jp/*/js/bc.js|
+||movie-a.nhk.or.jp/movie/api/lib/VisitorAPI.js|
+||player-inhouse.pikselpalette.com/static/components/adobe-heartbeat/2.0.1/VisitorAPI.js|
+||player-inhouse.pikselpalette.com/static/components/adobe-analytics/$script
+
+! メディア系ビーコンども。誤爆怖いのでまとめてない
+||bunshun.jp/oo/bs/m.gif?
+||gendai.ismedia.jp/oo/im/m.gif?
+||diamond.jp/oo/d/m.gif?
+||www.dhbr.net/oo/d/m.gif?
 
 !cnn.co.jp
 ||www.cnn.co.jp/media/cnn/images/mini/ad_bg.png
@@ -787,6 +886,9 @@ biz-journal.jp###ad-footer
 !popin, taboola系
 !||wp.com^
 solomon-review.net##.heateor_sss_sharing_container
+
+! ぐるなび
+||site.gnavi.co.jp/analysis/$script
 
 !bloomberg
 www.bloomberg.com##amp-ad
@@ -880,6 +982,8 @@ www.oricon.co.jp##.top-inline-banner
 togetter.com###ad_list_top
 togetter.com###ad_list_bottom
 togetter.com###fixed_social_footer
+! Toggetter上部バナー。最近変わったのでまた変わる？
+togetter.com##^.appdl_header
 
 !デイリー
 www.daily.co.jp##.adv
@@ -1556,6 +1660,15 @@ abematimes.com##.complementary.complementary--shareButton.complementary--fixed
 !fc2web.com
 ||textad.net^
 
+
+! fc2動画（通常）
+||static.fc2.com/live/img/banner/official/$image
+||video.fc2.com/pagead/$subdocument
+||assys01.fc2.com/$subdocument
+video.fc2.com##.ad_area_top
+||static.fc2.com/video/img/banner/ja/premium_push_banners_sp__general.png|$image
+
+
 !kumiko-jp.com
 kumiko-jp.com##amp-ad
 
@@ -1567,6 +1680,8 @@ inakasensei.com##.footer-menu-sp
 !コトバンク
 !https://kotobank.jp
 kotobank.jp##.sp-iframe-ad
+! コトバンク検索時に一瞬出る広告
+||kotobank.jp/image/bn_app.jpg|
 
 !@IT
 ||image.itmedia.co.jp/spv/images/career_en_320x50.png
@@ -1693,6 +1808,23 @@ dic.pixiv.net###bottom_pixivcomic_touch
 dic.pixiv.net###illust_touch
 !http://egg.5ch.net/test/read.cgi/android/1567858264/172
 www.pixiv.net##.ad-frame-container
+
+!ウェザーニュース
+! ウェザーニューズ下部バナー
+||weathernews.jp/s/js/launch.js?
+
+! Spice
+||spice.eplus.jp/img/icons/logo/app_icon.jpg
+||spice.eplus.jp/third_party/jasny-jquery.smartbanner/jquery.smartbanner.css
+spice.eplus.jp###smartbanner
+
+! DMM
+||trac.i3.dmm.com/analytics/$xmlhttprequest
+||stat.i3.dmm.com/latest/js/dmm.tracking.min.js|
+/js/common/set_tracking.js|
+
+
+
 
 
 

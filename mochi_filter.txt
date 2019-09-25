@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 12 Sep 2019 00:00 JST
+! Last modified: 26 Sep 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -124,7 +124,15 @@ yahoo.co.jp###mhd_text_pc
 @@||s.yimg.jp/bdv/$script,domain=box.yahoo.co.jp
 
 
-
+! ヤフー系トラッカー
+||mempf.yahoo.co.jp/offer?$script
+||s.yimg.jp/images/approach/jslib/clear.gif?$subdocument
+||s.yimg.jp/images/clear.gif|
+||s.yimg.jp/images/jpnews/cre/bylines/js/chartbeat.js|
+! huffingtonpost.jp
+||s.yimg.com/av/yap/ga/yap.js|
+! localplace.jp
+||s.yimg.jp/images/listing/tool/cv/conversion_async.js|
 
 !END------------------------------------------------
 
@@ -733,6 +741,14 @@ twitter.com##div[style="padding-top: 0px; padding-bottom: 0px;"] > div[class^="c
 twitter.com##[data-testid="trend"]:has-text(Promoted):xpath(..)
 twitter.com##[data-testid="trend"]:has-text(プロモーション):xpath(..)
 
+! Twitterトラッカー
+||api.twitter.com/1.1/jot/client_event.json|$xmlhttprequest
+||api.twitter.com/1.1/jot/external_referer.json|$xmlhttprequest
+||api.twitter.com/1.1/onboarding/referrer.json|$xmlhttprequest
+||platform.twitter.com/oct.js|
+||twitter.com/etc/clientlibs/dtm/*/satelliteLib-$script
+
+
 !facebook
 ||pixel.facebook.com^
 facebook.com##div[id^="substream_"] > div > div[id] div[id^="hyperfeed_story_id_"]:has(div._5pcp._5lel > span > div > div > a[href="#"])
@@ -985,6 +1001,9 @@ ameblo.jp##.skin-entryAd
 !@@https://ssl-stat.amebame.com/pub/ads/adx/
 @@option=crop&width=200&height=134|$image,domain=www.ameba.jp
 
+! アメブロトラッカー
+||ameblo.jp/_api/collectStats;data=$image
+
 !Amebaニュース
 ||apvdr.com/v2/cs.php
 ||socdm.com^
@@ -1005,6 +1024,18 @@ blog.fc2.com##.pankuzu + h2 + .mainbox
 fc2.com###fc2_bottom_bnr
 blog.fc2.com###sh_fc2blogheadbar_link_box
 web.fc2.com###fc2_ad_box
+! fc2トラッカー
+||media.fc2.com/counter_img.php?
+||media.fc2.com/blank.gif?
+
+! ピア
+||ub.pia.jp/images/pt.gif?
+
+! ローチケ
+||lhe-beacon.team-rec.jp/beacon.gif?
+
+! ドミノとか
+/i?stm=$image
 
 !fc2blog
 !右上のぐるぐる回るチッカー
@@ -1022,6 +1053,9 @@ admin.blog.fc2.com###ad_sidebar
 
 !はてな
 www.hatena.ne.jp###pc-billboard-ad
+! はてブロトラッカー
+||blog.hatena.ne.jp/api/log?$xmlhttprequest
+||ameblo.jp/_api/collectStats;data=$image
 
 !hatenablog.com
 hatenablog.com##.sleeping-ads
@@ -1058,6 +1092,9 @@ kakaku.com##.c-ad
 ||kakakucom-d.openx.net^
 ||fp.kakaku.com/tracker.py/
 news.kakaku.com##.pr-bnr
+! 価格コムトラッカー
+||script1-s.kakaku.k-img.com/script/analytics/s_code$script
+||fp.kakaku.com/tracker.py/beacon?$script
 
 !価格.comマガジン
 kakakumag.com##.side-ad-top
@@ -1096,6 +1133,10 @@ kakakumag.com##.fixedRightAdContainer
 ||afl.rakuten.co.jp^$domain=~kakaku.com,third-party
 ||hbb.afl.rakuten.co.jp^$third-party
 ||hb.afl.rakuten.co.jp^$third-party
+! 楽天トラッカー
+/akam/11/*
+||r.r10s.jp/com/js/omniture/plugin/sc_trackingid.js|
+||ias.rakuten.co.jp/gw.js?$subdocument
 
 !楽天サイト自体の広告ブロック
 rakuten.co.jp###footer-floating-bnr
@@ -1256,6 +1297,9 @@ blog.goo.ne.jp##div[style="height: 70px; position: fixed; z-index: 998; bottom: 
 
 !nikkeibp
 ||bizad.nikkeibp.co.jp/NBP_AD/itpro/parts/itp_welcome_schedule.js?
+! 日経BPトラッカー
+/js/bpcommon/onetag/bpTrackVars$script
+
 
 !-----------------------------------------------------------------------
 !https://natgeo.nikkeibp.co.jp
@@ -1396,6 +1440,18 @@ www.yomiuri.co.jp###ad_dfp_premiumrec
 !NHK
 !広告じゃなかった
 !||nhk.or.jp/news/gad/
+! NHKトラッカー
+||bc.nhk.jp/*/bc.gif?
+||nhk.or.jp/*/js/bc.js|
+||movie-a.nhk.or.jp/movie/api/lib/VisitorAPI.js|
+||player-inhouse.pikselpalette.com/static/components/adobe-heartbeat/2.0.1/VisitorAPI.js|
+||player-inhouse.pikselpalette.com/static/components/adobe-analytics/$script
+
+! メディア系ビーコンども。誤爆怖いのでまとめてない
+||bunshun.jp/oo/bs/m.gif?
+||gendai.ismedia.jp/oo/im/m.gif?
+||diamond.jp/oo/d/m.gif?
+||www.dhbr.net/oo/d/m.gif?
 
 
 !日テレNews24
@@ -1725,7 +1781,14 @@ www.atmarkit.co.jp###dmp
 ||www.atmarkit.co.jp/js/ait/ad.js
 
 
+! ぐるなび
+||site.gnavi.co.jp/analysis/$script
 
+
+! DMMトラッカー
+||trac.i3.dmm.com/analytics/$xmlhttprequest
+||stat.i3.dmm.com/latest/js/dmm.tracking.min.js|
+/js/common/set_tracking.js|
 
 !fandom
 !Wikiaからfandomへ移行された
@@ -2047,6 +2110,19 @@ www.chosunonline.com##.sec_date_weather
 
 !中央日報
 japanese.joins.com##.sponsor_link
+
+! TripadvisorとExpedia
+||www.tripadvisor.jp/GARecord|$xmlhttprequest
+||static.tacdn.com/js3crawlable/build/concat/taevents-$script
+||www.tripadvisor.jp/BALinkImpressionTracking/$xmlhttprequest
+||www.expedia.co.jp/cl/$xmlhttprequest
+||www.expedia.co.jp/userHistory/count?$xmlhttprequest
+||b.travel-assets.com/travel-pixel-js/$script
+||www.expedia.co.jp/api/datacapture/track|$xmlhttprequest
+
+
+
+
 
 
 !----------------------------------------------------
