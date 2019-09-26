@@ -31,7 +31,6 @@ hs-exp.jp##.dfad
 !アメブロ
 ||cdn.amanad.adtdp.com^
 ||adsd-sync.amanad.adtdp.com^
-||adn-d.sp.gmossp-sp.jp^
 ||ad.amanad.adtdp.com^
 ||ameblo.jp/_api/adIds;
 ||ameblo.jp/_api/officialAdTags;
@@ -40,7 +39,7 @@ hs-exp.jp##.dfad
 ||ssl-stat.amebame.com/pub/ads/
 ||adt.measure.ameblo.jp^
 ||www.google.com/ads/
-||stats.g.doubleclick.net^$third-party
+!||stats.g.doubleclick.net^$third-party
 !一旦やめとく。PCでブログが表示されないので。2019.1.28
 !ameblo.jp##.skinBody2 > div:first-child
 !ameblo.jp##^.skinBody2 > div:first-child
@@ -164,7 +163,7 @@ sp.ch.nicovideo.jp###appBanner
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/120
 !impress.co.jp###sp-floating-layer
 !impress.co.jp##^#sp-floating-layer
-impress.co.jp###floating-social-buttons
+!impress.co.jp###floating-social-buttons
 !impress.co.jp##^#floating-social-buttons
 ||in.treasuredata.com^
 ||microad.jp^
@@ -177,7 +176,9 @@ watch.impress.co.jp##.ad
 !#sp-floating-layer
 ||d7x5nblzs94me.cloudfront.net/v1/j/shared.js
 ||d7x5nblzs94me.cloudfront.net/v1/j/button.js
-akiba-pc.watch.impress.co.jp###amp-floating-area
+!akiba-pc.watch.impress.co.jp###amp-floating-area
+!www.watch.impress.co.jp###amp-floating-area
+watch.impress.co.jp###amp-floating-area
 
 !下記で消えるが画像も消えてしまった
 !$script,domain=pc.watch.impress.co.jp
@@ -191,7 +192,6 @@ akiba-pc.watch.impress.co.jp###amp-floating-area
 !||js.ptengine.jp/pta.js
 ||js.ptengine.jp/pts.js$third-party
 ||js.ptengine.jp/pta.js$third-party
-||api.popin.cc/searchbox/impress.js
 ||b.st-hatena.com/js/bookmark_button.js?
 ||widgets.getpocket.com/v1/j/btn.js?v=1
 ||cdn.cxense.com/cx.js
@@ -275,7 +275,8 @@ page.auctions.yahoo.co.jp##^script:has-text(floatBannerData)
 
 ! 楽天
 !/akam/11/*
-||www.rakuten.co.jp/akam/11/
+!||www.rakuten.co.jp/akam/11/
+!/akam/11/*
 ||r.r10s.jp/com/js/omniture/plugin/sc_trackingid.js|
 ||ias.rakuten.co.jp/gw.js?$subdocument
 
@@ -286,10 +287,8 @@ sp.ch.nicovideo.jp###appBanner
 !goo
 goo.ne.jp##div[id^="gooad"]
 ||adcdn.goo.ne.jp^
-||s.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js
 ||yads.c.yimg.jp^
 ||lodeo-adnw.adtdp.com^
-||yads.c.yimg.jp/js/yads.js
 ||adcdn.goo.ne.jp/images/js/smarttag-news-news.js
 !news.goo.ne.jp##div[style*="fixed"]
 !news.goo.ne.jp##div[style^="height: 50px; position: fixed;"]
@@ -306,9 +305,6 @@ goo.ne.jp##div[style^="height: 50px; position: fixed;"]
 !LINE blog
 lineblog.me##footer
 lineblog.me##.extlink
-||tpc.googlesyndication.com/daca_images/simgad/
-||tpc.googlesyndication.com/simgad/
-||pagead2.googlesyndication.com/pagead/
 lineblog.me##.lineblog_ad
 
 !Wikipedia
@@ -317,9 +313,6 @@ lineblog.me##.lineblog_ad
 !５ちゃんねるスマホ用http://itest.5ch.net/
 ||static.adroute.focas.jp^
 ||i2ad.jp^
-||static.adroute.focas.jp^
-||i2ad.jp^
-||j.amoad.com^
 itest.5ch.net##.ad
 ||static.zucks.net.zimg.jp^
 ||cr-p17.ladsp.com^
@@ -463,7 +456,6 @@ www.sankeibiz.jp##.ad
 !||cdn.ampproject.org/v0/amp-analytics-0.1.js
 
 !asahi
-||img.ak.impact-ad.jp^
 ||i.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js
 !パソコンでradikoが聞けない
 !||assets.adobedtm.com^
@@ -482,7 +474,6 @@ www.asahi.com##.AdArea
 !Yomiuri
 ||www.yomiuri.co.jp/cont2/ad/js/sp_ad_home.js
 ||cdn.gmossp-sp.jp^
-||as.yl.impact-ad.jp^
 ||www.yomiuri.co.jp/cont2/ad/
 sp.yomiuri.co.jp##.social-buttons-overlay
 
@@ -511,24 +502,17 @@ style.nikkei.com##.ad_inview
 ||b97.yahoo.co.jp/pagead/conversion_async.js
 ||s-adserver.cxad.cxense.com^
 ||yads.yahoo.co.jp/js/yads.js
-||img.ak.impact-ad.jp^
-||s.yimg.jp/images/listing/tool/yads/uadf/yads_vimps-1.5.0.js
-||yads.yjtag.yahoo.co.jp^
 ||sp.gmossp-sp.jp^
-||img.ak.impact-ad.jp/ic/pone/tags/
 mainichi.jp###bottom-share
 
 !時事通信
 ||js.mtburn.com/advs-instream.js
-||sp.gmossp-sp.jp/ads/
 ||www.jiji.com/smp/common/css/yads2.css
 ||us-ads.openx.net^
 ||rd.adingo.jp^
 ||i.adingo.jp^
 www.jiji.com##.adingoFluctOverlay
 !時事ドットコム
-||ad.rfp.fout.jp^
-||imp.rfp.fout.jp^
 ![PR]おすすめ情報
 www.jiji.com##._taxel_recommend_header
 www.jiji.com##.taxel_ul_wrap
@@ -554,11 +538,9 @@ www.sanspo.com##.ad
 bunshun.jp##.horizontal-sns-bar
 
 !zdnet
-||img.ak.impact-ad.jp^
 ||www.aiasahi.jp/ads/
 ||japan.zdnet.com/parts/frame/ad_tieup_control_sp.htm
 ||japan.zdnet.com/parts/frame/ad_sp_list_a_n.htm
-||l.logly.co.jp/lift_widget.js?adspot_id=
 ||japan.zdnet.com/media/ad/
 japan.zdnet.com##.ad-text
 
@@ -568,10 +550,7 @@ www.zdnet.com##.amp-ad
 
 !SPA
 ||yads.yahoo.co.jp/js/yads.js
-||s.yimg.jp/images/listing/tool/yads/
-||yads.yjtag.yahoo.co.jp^
 ||mediamsmbsoftbank.genieesspv.jp/yie/ld/nad?
-||adn-i.sp.gmossp-sp.jp^
 nikkan-spa.jp##.top_post
 ||mediamsmbsoftbank.genieesspv.jp^
 
@@ -611,7 +590,6 @@ tenki.jp##.tenki-ad-lite-footer
 ||adservice.google.com^
 !台風情報のサムネイルが消えてしまう
 !||static.tenki.jp/storage/static-images/top-ad/
-||odb.outbrain.com^
 tenki.jp##div[class^="_taxel_ad_article_"]
 ||match.adsrvr.org^
 ||jwa-d.openx.net^
@@ -620,8 +598,6 @@ tenki.jp##div[class^="_taxel_ad_article_"]
 ||ums.adtechjp.com^
 ||pixel.advertising.com^
 ||c1.adform.net^
-||ib.adnxs.com^
-||pixel.tapad.com^
 tenki.jp###tenki-ad-SM_PD
 tenki.jp###tenki-ad-SM_north
 tenki.jp###tenki-ad-SM_mid
@@ -634,9 +610,6 @@ tenki.jp###tenki-ad-SM_mid
 ||spdeliverp.i-mobile.co.jp^
 ||t.adlpo.com^
 ||imp-adedge.i-mobile.co.jp^
-||discoveryplus.popin.cc^
-||liftapi.logly.co.jp^
-||b.logly.co.jp^
 
 !価格.com
 kakaku.com###headerAd
@@ -691,8 +664,7 @@ news.biglobe.ne.jp###cto_w
 news.biglobe.ne.jp##.yahoo_nad_list
 
 !日刊スポーツ
-||as.ik.impact-ad.jp^
-||jp.popin.cc^
+!||jp.popin.cc^
 
 !朝日芸能
 www.asagei.com##.pearAd
@@ -762,7 +734,8 @@ this.kiji.is##.page__sub
 
 ! ドミノとか
 !/i?stm=$image
-||collect.dominos.jp/i?stm=
+!||collect.dominos.jp/i?stm=
+/i?stm=$image
 
 ! はてブロ
 ||blog.hatena.ne.jp/api/log?$xmlhttprequest
@@ -797,7 +770,6 @@ fnn.jp##.Ad
 ||static.quant.jp/lait.js
 www.nishinippon.co.jp##.recommend
 ||www.nishinippon.co.jp/mobile/common/img/bn_epaper_header_1anniv.png
-||widgets.outbrain.com^
 
 !Daily News Online
 ||ds.advg.jp^
@@ -813,7 +785,6 @@ www.hochi.co.jp###footerArea
 mainichi.jp##.recommend
 mainichi.jp###page-top
 mainichi.jp##.ad
-||sharethrough.adnxs.com^
 ||cdn.cxpublic.com/mai-ad-render-
 
 
@@ -821,7 +792,8 @@ mainichi.jp##.ad
 tech.nikkeibp.co.jp##.footer_nav
 ! 日経BPトラッカー
 !/js/bpcommon/onetag/bpTrackVars$script
-||www.nikkeibp.co.jp/js/bpcommon/onetag/bpTrackVars$script
+!||www.nikkeibp.co.jp/js/bpcommon/onetag/bpTrackVars$script
+/js/bpcommon/onetag/bpTrackVars$script
 
 !ユルクヤル http://yurukuyaru.com
 !||images-fe.ssl-images-amazon.com/images/$domain=yurukuyaru.com
@@ -955,8 +927,6 @@ www.gamer.ne.jp##.background
 support.microsoft.com##.survey-background
 
 !ジモティ
-||dsp.fout.jp/8099/ad?
-||sync.fout.jp/sync?xid=adstir&
 jmty.jp##.p-articles-infeed-ad
 
 !afp通信
@@ -972,8 +942,7 @@ www.oricon.co.jp##.top-inline-banner
 
 !NewsWeek
 ||trc.pitadtag.jp^
-!ビーコン？
-||ping.chartbeat.net^
+
 
 !funny-c.com
 ||ads.yahoo.com^
@@ -1064,7 +1033,6 @@ www.nikkan-gendai.com###_popIn_recommend_2
 
 !Slashdot
 ||adserver.adtechus.com^
-||secure.adnxs.com^
 ||bid.contextweb.com^
 ||ads.pro-market.net^
 ||adserver-us.adtech.advertising.com^
@@ -1141,6 +1109,7 @@ japanese.engadget.com##div[class^="js-"]:has( iframe[src^="//rcm-fe.amazon-adsys
 !booklog.jpでサムネが消える
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/123
 !||images-fe.ssl-images-amazon.com/images/I/$domain=~amazon.co.jp|~amazon.com
+||images-fe.ssl-images-amazon.com/images/I/$domain=~amazon.co.jp|~amazon.com|~booklog.jp
 japanese.engadget.com##.js-notMobileReferredByFbTw-new
 
 !jbpress.ismedia.jp
@@ -1831,14 +1800,48 @@ spice.eplus.jp###smartbanner
 
 
 
+!---------------------------------------------------------------
+!ビーコン
+!メディア系ビーコン
+||president.jp/oo/p/m.gif?
 
+! エキテン
+||s.ekiten.jp/js/static/VisitorAPI.js?
+
+! Pathee
+||pathee.com/static/assets/js/newrelic.js|
+
+! タワレコ
+||beacon-recommend.tower.jp/beacon.gif?
+||tower.jp/layouts/system/VisitorIdentification.js|
+||tower.jp/rcm/RcmWebSvc.svc/?tracking_id=$xmlhttprequest
+
+! ヨドバシ
+||tagmanager.yodobashi.com/ukan/__ukclr.gif?Log=
+
+! ツタヤ
+||store-tsutaya.tsite.jp/library/media/tsutaya/js/base/ga$script
+
+! DHC,カタログハウス,クラブツーリズム
+/js/baynote.js
+/baynote-$script
+||www.dhc.co.jp/script/sitecatalyst/VisitorAPI.js?
+||smetrics.dhc.co.jp/id?$script
+! ファンケル,カタログハウス
+||aucollector.tealeaf.ibmcloud.com/collector/$xmlhttprequest
+
+! Spice
+||spice.eplus.jp/api/*/track.gif|
+
+! PRタイムズ
+||prtimes.jp/common/js/googleana.js|
+!---------------------------------------------------------------
 
 
 
 !その他
 www.tainavi-switch.com##.bn-01
 mobareco.jp##.footer-article
-||spad.i-mobile.co.jp^
 www.denkou.info##.f_popup
 sp.recordchina.co.jp##.ad250
 kinisuru.com##.a2a_floating_style
@@ -1850,25 +1853,20 @@ kinisuru.com##.a2a_floating_style
 
 
 ! FilterProxyからの成果 START ----------------------
-||.adnxs.com^
-||.app-adforce.jp^
-||.fout.jp^
-||.outbrain.com^
-||.popin.cc^
-||.w55c.net^
-||.zucks.net.zimg.jp^
+||app-adforce.jp^
+||fout.jp^
+||outbrain.com^
+||w55c.net^
+||zucks.net.zimg.jp^
 ||ad-stir.com^
 ||ad.appier.net^
 ||ad.ca-conv.jp^
 ||ad.caprofitx.adtdp.com^
-||ad.crwdcntrl.net^
-||ad.doubleclick.net^$third-party
 ||ade.googlesyndication.com^
 ||adforce^
 ||adid^
 ||adjust.com^
 ||adntokyo.gunosy.com^
-||ads.as.criteo.com^
 ||ads.mopub.com^
 ||ads.nicovideo.jp^
 ||adsafeprotected.com^
@@ -1881,16 +1879,11 @@ kinisuru.com##.a2a_floating_style
 ||api.bucketeer.jp^
 ||api.leanplum.com^
 ||app-measurement.com^
-||assets.gunosy.com/adnet/GunosyAdsSDK.async.js^
-||assets.gunosy.com/adnet/GunosyAdsSDK.js^
 ||assets.remerge.io^
 ||assets.ucontent.net^
 ||banner.dspcdn.com^
-||bcp.crwdcntrl.net^
 ||betrad.com^
-||bidder.criteo.com/cdb^
 ||build-cdn.liftoff.io^
-||cat.jp.as.criteo.com^
 ||cd.ladsp.com^
 ||cdn-f.adsmoloco.com^
 ||cdn.caprofitx.com^
@@ -1898,7 +1891,6 @@ kinisuru.com##.a2a_floating_style
 ||cdp.cloud.unity3d.com^
 ||control.smbeat.jp^
 ||creatives.gunosy.com/images^
-||csm.jp.as.criteo.net^
 ||d1jh13j6azkbbi.cloudfront.net^
 ||d3py17yaayq4xi.cloudfront.net^
 ||delivery-asia-northeast-1.openx.net^
@@ -1910,9 +1902,7 @@ kinisuru.com##.a2a_floating_style
 ||gce-jp.bidswitch.net^
 ||gecko-sg.byteoversea.com^
 ||goldspotmedia^
-||googleads.g.doubleclick.net^$third-party
 ||graph.facebook.com^
-||gum.criteo.com^
 ||haggler-openx002-ap-ne1-ec2.liftoff.io^
 ||haggler-openx003-ap-ne1-ec2.liftoff.io^
 ||haggler-supership00#-ap-ne1-ec2.liftoff.io^
@@ -1925,7 +1915,6 @@ kinisuru.com##.a2a_floating_style
 ||imp.oct-pass.net^
 ||impression-asia.liftoff.io^
 ||k.smartcanvas.net^
-||localhost:57439/smile^
 ||log.byteoversea.com^
 ||media.admob.com^
 ||media.bidr.io^
@@ -1937,10 +1926,8 @@ kinisuru.com##.a2a_floating_style
 ||nrtprod-rtbwin.applovin.com^
 ||ocsp.digicert.com^
 ||p.adsymptotic.com/d/px^
-||pagead#.googlesyndication.com^
 ||pagead2.googleadservices.com^
 ||prod-a.applovin.com^
-||pubads.g.doubleclick.net^$third-party
 ||res1.applovin.com^
 ||rtb.astrodsp.com^
 ||s2.2mdn.net^
@@ -1957,8 +1944,6 @@ kinisuru.com##.a2a_floating_style
 ||ssp-bidapi.i-mobile.co.jp/ajax/imp/imp_count.ashx^
 ||ssp-bidapi.i-mobile.co.jp/jsonp/imp/imp_spot.ashx^
 ||stage-a.applovin.com^
-||static.criteo.net^
-||static.eu.criteo.net^
 ||svz-v.tlnk.io^
 ||tag.ladsp.com^
 ||tapad.com^
@@ -1969,7 +1954,6 @@ kinisuru.com##.a2a_floating_style
 ||tunein.deliveryengine.adswizz.com^
 ||txn.ingest.crittercism.com^
 ||uncn.jp^
-||www.google-analytics.com^
 ||yads.c.yimg.jp^
 ||yads.yahoo.co.jp^
 ||yt.moatads.com^

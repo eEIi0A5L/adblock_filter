@@ -656,7 +656,7 @@ animeanime.jp##.sidebox-ad
 www.webcartop.jp##.sidebar-banner
 
 !ドラドラ動画
-||www.drive-drive.jp/assets/images/doradora_347_70_20171108.jpg
+||www.drive-drive.jp/assets/images/ddmaru_bnr_new.jpg|
 
 !IGN
 www.ign.com##.ign-pre-grid

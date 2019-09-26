@@ -415,16 +415,16 @@ xnxx.com##+js(xvideos.com.js)
 youporn.com##+js(noeval.js)
 youporn.com##+js(abort-on-property-write.js, Fingerprint2)
 
-!pron.tv
+!mypron.tv
 ||ads2.contentabc.com^
-||cdn1.pron.tv/xjs/advertisement.js
-pron.tv##iframe[width="300"][height="250"]
-pron.tv##.lextra
-pron.tv##.lextraleftmoreads
-pron.tv###groupedlist
-||ox2.pron.tv^
-||pron.tv/js/xp/pt.js?
-pron.tv##.ifab
+||cdn1.mypron.tv/xjs/advertisement.js
+mypron.tv##iframe[width="300"][height="250"]
+mypron.tv##.lextra
+mypron.tv##.lextraleftmoreads
+mypron.tv###groupedlist
+||ox2.mypron.tv^
+||mypron.tv/js/xp/pt.js?
+mypron.tv##.ifab
 
 !bitporno
 bitporno.com##+js(window.open-defuser.js)
@@ -914,8 +914,8 @@ javwhores.com##+js(setInterval-defuser.js, (), 500)
 !javtc
 ||engine.phn.doublepimp.com/Redirect.eng?MediaSegmentId=$popup,domain=javtc.com
 embed.media##.afs_ads
-javtc.com##iframe[width="300"][height="250"]
-/^https?:\/\/[a-z0-9]{5,14}\.(com|bid|online|top|club)\/[0-9a-f]{32}\/invoke.js$/$third-party,script,domain=javtc.com
+javtc.tv##iframe[width="300"][height="250"]
+/^https?:\/\/[a-z0-9]{5,14}\.(com|bid|online|top|club)\/[0-9a-f]{32}\/invoke.js$/$third-party,script,domain=javtc.tv
 ||adservme.com^
 !||menhv.com/api/direct
 !https://1.menhv.com/api/direct/66545
@@ -1018,7 +1018,7 @@ vjav.com##span > table
 !||vjav.com/assets/vendor.6391859e316f1cbc5f91.min.js
 ||vjav.com/assets/vendor.$script
 ||utubejobs.com/Campaigns/
-
+vjav.com##.poper
 
 
 
