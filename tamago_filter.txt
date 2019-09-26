@@ -761,7 +761,8 @@ this.kiji.is##.page__sub
 
 
 ! ドミノとか
-/i?stm=$image
+!/i?stm=$image
+||collect.dominos.jp/i?stm=
 
 ! はてブロ
 ||blog.hatena.ne.jp/api/log?$xmlhttprequest
