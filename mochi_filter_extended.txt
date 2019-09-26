@@ -486,8 +486,9 @@ nexusmods.com###ad-right
 ||adnxs.com^
 ||dmp.springserve.com^
 ||bid.contextweb.com^
-||googleads.g.doubleclick.net/pagead/
-||ad.doubleclick.net^$third-party
+!||googleads.g.doubleclick.net/pagead/
+!||ad.doubleclick.net^$third-party
+||doubleclick.net^$third-party
 ||ums.adtechus.com^
 ||adsymptotic.com^
 ||us-u.openx.net^
@@ -530,7 +531,7 @@ lang-8.com##.adsbygoogle
 
 !uesp.net
 uesp.net###content > .center
-||stats.g.doubleclick.net/dc.js
+!||stats.g.doubleclick.net/dc.js
 uesp.net###p-googlead
 uesp.net###siteNotice
 
