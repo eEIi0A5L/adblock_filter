@@ -30,7 +30,7 @@ hs-exp.jp##.dfad
 !Youtube
 !一旦全面見直した。2017.10.31
 ||www.youtube.com/yts/jsbin/www-pagead-id-
-||googleads.g.doubleclick.net^
+!||googleads.g.doubleclick.net^
 ||youtube.com/get_midroll_
 ||pagead2.googlesyndication.com^
 youtube.com##.ad-container
@@ -39,10 +39,10 @@ youtube.com##.ytp-ad-progress-list
 ||www.google.co.jp/pagead/lvz?
 !||static.doubleclick.net/instream/ad_status.js
 youtube.com###player-ads
-||pubads.g.doubleclick.net^
+!||pubads.g.doubleclick.net^
 ||youtube.com/pagead/
 ||www.youtube.com/ads/$image
-||securepubads.g.doubleclick.net
+!||securepubads.g.doubleclick.net
 =adunit&$domain=youtube.com
 !Peter Lowe’s Ad and tracking server listで一括ブロックされている
 ||doubleclick.net^$third-party
@@ -684,7 +684,7 @@ outlook.live.com##:xpath(//div[contains(@class, 'fbAdLink')]/parent::div/parent:
 ||metrics.brightcove.com/tracker?
 !||static.doubleclick.net/instream/ad_status.js
 ||www.youtube.com/ad_data_
-||doubleclick.net/gampad/ads?
+!||doubleclick.net/gampad/ads?
 !END-------------------------------------------------
 gyao.yahoo.co.jp##.adPV
 gyao.yahoo.co.jp###cam1001
@@ -1202,14 +1202,14 @@ ejje.weblio.jp##.flex-rectangle-ads-frame
 ||platform.twitter.com^$domain=weblio.jp
 ||vid-io.springserve.com^
 ||vid.springserve.com^
-||googleads.g.doubleclick.net^$domain=weblio.jp
+!||googleads.g.doubleclick.net^$domain=weblio.jp
 ||storage.selectmedia.asia^
 ||cdn.syndication.twimg.com^$domain=weblio.jp
 ||sdk.streamrail.com^
 ||pagead2.googlesyndication.com^
 ||ads.creative-serving.com^
 ||googlesyndication.com/pagead/
-||securepubads.g.doubleclick.net^
+!||securepubads.g.doubleclick.net^
 ||ads.rubiconproject.com^
 ||pbs.twimg.com^$domain=weblio.jp
 ||cdn.syndication.twimg.com^$domain=weblio.jp
