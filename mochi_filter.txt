@@ -37,7 +37,7 @@ youtube.com##.ad-container
 youtube.com##.video-ads
 youtube.com##.ytp-ad-progress-list
 ||www.google.co.jp/pagead/lvz?
-||static.doubleclick.net/instream/ad_status.js
+!||static.doubleclick.net/instream/ad_status.js
 youtube.com###player-ads
 ||pubads.g.doubleclick.net^
 ||youtube.com/pagead/
@@ -682,7 +682,7 @@ outlook.live.com##:xpath(//div[contains(@class, 'fbAdLink')]/parent::div/parent:
 !Gyao動画上の広告ブロック------------------------------
 ||ad.auditude.com/adserver/
 ||metrics.brightcove.com/tracker?
-||static.doubleclick.net/instream/ad_status.js
+!||static.doubleclick.net/instream/ad_status.js
 ||www.youtube.com/ad_data_
 ||doubleclick.net/gampad/ads?
 !END-------------------------------------------------

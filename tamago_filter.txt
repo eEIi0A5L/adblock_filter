@@ -98,7 +98,7 @@ youtube.com##.ad-container
 youtube.com##.video-ads
 youtube.com##.ytp-ad-progress-list
 ||www.google.co.jp/pagead/lvz?
-||static.doubleclick.net/instream/ad_status.js
+!||static.doubleclick.net/instream/ad_status.js
 youtube.com###player-ads
 ||pubads.g.doubleclick.net^
 ||youtube.com/pagead/
