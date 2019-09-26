@@ -1206,7 +1206,7 @@ ejje.weblio.jp##.flex-rectangle-ads-frame
 ||storage.selectmedia.asia^
 ||cdn.syndication.twimg.com^$domain=weblio.jp
 ||sdk.streamrail.com^
-||pagead2.googlesyndication.com^
+!||pagead2.googlesyndication.com^
 ||ads.creative-serving.com^
 ||googlesyndication.com/pagead/
 !||securepubads.g.doubleclick.net^
