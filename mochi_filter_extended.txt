@@ -55,7 +55,7 @@ cnn.co.jp###ad_pr_info
 ||www.facebook.com/v2.8/plugins/like.php?$domain=cnn.co.jp
 ||www.facebook.com/impression.php/$domain=cnn.co.jp
 ||staticxx.facebook.com/connect/xd_arbiter/$domain=cnn.co.jp
-||aos-creative.prf.hn^$domain=cnn.co.jp
+!||aos-creative.prf.hn^$domain=cnn.co.jp
 ||widgets.outbrain.com/outbrain.js$domain=cnn.co.jp
 ||api.popin.cc/searchbox/cnn.js
 ||www.cnn.co.jp/js/chartbeat.js
@@ -728,7 +728,7 @@ meteotube.net##.adsBox
 ||gaitheed.com^
 
 !JSfiddle
-||cdn4.buysellads.net^
+!||cdn4.buysellads.net^
 ||buysellads.net^
 
 !Youku

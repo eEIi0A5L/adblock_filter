@@ -59,7 +59,7 @@ xhamster.com##div[style^="width: 330px"]
 xhamster.com##.player-ad-overlay
 xhamster.com##.banner-container
 xhamster.com##+js(abort-on-property-write.js, dataPopUnder)
-||cdn.tsyndicate.com^$domain=xhamster.com
+!||cdn.tsyndicate.com^$domain=xhamster.com
 jp.xhamster.com##.ads-div
 xhamster.com##+js(addEventListener-defuser.js, popstate, backUrl)
 xhamster.com##div[style*="adVideo"]:style(position: absolute!important; left: -3000px!important;)
@@ -96,7 +96,7 @@ xhamster.com##.wid-spot-container
 
 !imagetwist.com
 ||.com/ga.js
-||ads.exoclick.com^
+!||ads.exoclick.com^
 /adblock_detector2.$domain=imagetwist.com
 ||www.statcounter.com^
 imagetwist.com###adbdiv
@@ -107,13 +107,13 @@ imagetwist.com##[href^="http://www.sex.com/videos/?utm_"]
 
 
 !www.imgbabes.com
-||c1.popads.net^
+!||c1.popads.net^
 ||creative.wwwpromoter.com^
 ||imgbabes.com/element.js
 ||imgbabes.com^*/splash.php$domain=www.imgbabes.com
 /topads.$domain=imgbabes.com
 imgbabes.com##div[style="width:604px; height:250px; background:#241521; padding:4px 3px 4px 3px; margin-top:-5px; margin-bottom:-8px; -moz-border-radius:2px; border-radius:2px; -webkit-border-radius:2px;"]
-||syndication.exoclick.com^
+!||syndication.exoclick.com^
 
 !imgflare.com
 ||imgflare.com^*/splash.php$domain=imgflare.com
@@ -222,7 +222,7 @@ pornhub.com##.sniperModeEngaged.alpha
 !www5.javmost.com
 ||popmyads.com^
 ||adsco.re^
-||adserver.juicyads.com^
+!||adserver.juicyads.com^
 ||popads.net^
 !server2
 syndication.exosrv.com##body
@@ -310,9 +310,9 @@ video.fc2.com##.u-hasAd-101_adArea
 ||www.youav.com$popunder
 !||popads.net/pop.js^$important
 !||addthis.com^$important,third-party
-||popads.net/pop.js^
+!||popads.net/pop.js^
 ||addthis.com^$third-party,domain=youav.com
-||ads.adxpansion.com^
+!||ads.adxpansion.com^
 ||jwpltx.com^
 www.youav.com##.ad-body
 ||www.youav.com/nb/bnl.php?
@@ -328,17 +328,17 @@ youav.com##.well + script + div
 !thisav
 ||www.thisav.com/cdn-cgi/apps/head/$first-party,script
 ||ads.exosrv.com^
-||s10.histats.com^
+!||s10.histats.com^
 thisav.com##.ads
 thisav.com##a[href*="click.dtiserv2.com"]
 !||popads.net/pop.js^$important
-||popads.net/pop.js^
+!||popads.net/pop.js^
 ||thisav.com/player/video-js-banner/
 ||cdn.thisav.com/player/video-js-vast-vpaid/videojs_5.vast.vpaid.js?4
 ||javhd.com^$third-party
 !||addthis.com^$important,third-party
 ||addthis.com^$third-party
-||ads.adxpansion.com^
+!||ads.adxpansion.com^
 ||thisav.com/index.js
 ||www.zbecpoboc.com/jxc.js
 thisav.com###share_to
@@ -377,7 +377,7 @@ movie.eroterest.net##.adMgsBanner
 ||koukoku.red^
 ||ams.exad.jp/ad/js/pjs.js
 ||ams.exad.jp^
-||js.aaddcount.com^
+!||js.aaddcount.com^
 lovechat777.blog.fc2.com##.eroterest_partsv2
 lovechat777.blog.fc2.com##.contentsboxin a
 lovechat777.blog.fc2.com###leftside
@@ -451,7 +451,7 @@ openload.co##+js(window.open-defuser.js)
 
 !javfinder
 ||aoredi.com/apu.php?
-||whos.amung.us^
+!||whos.amung.us^
 ||traffic-media.co.uk^$third-party
 fembed.com##+js(abort-on-property-write.js, _pop)
 javfinder.sh##.to-top
@@ -481,7 +481,7 @@ javfinder.sh##div[id*="ScriptRootC"]
 javfinder.sh###pauseroll
 javfinder.sh###preroll
 javfinder.sh##.afs_ads
-||cdn.onesignal.com^
+!||cdn.onesignal.com^
 ||mn1nm.com^$third-party
 ||clcknads.pro^$third-party
 javfinder.sh##+js(abort-on-property-read.js, AaDetector)
@@ -535,7 +535,7 @@ popjav.tv###preroll_ads
 popjav.tv##.video_ad
 
 !hpjav
-||adserver.juicyads.com^
+!||adserver.juicyads.com^
 ||pvclouds.com^
 ||mvvecbfomk.com^$third-party
 ||ujlpbcsx.com^$third-party
@@ -575,7 +575,7 @@ verystream.com##+js(abort-on-property-read.js, open)
 !javmost
 ||pussl48.com^
 @@||qooqlevideo.com/videoplayback?sparams=*&source=$domain=avgle.com
-||ads.juicyads.com^
+!||ads.juicyads.com^
 ||avgle.com/templates/frontend/p2p.js
 @@||ads.exosrv.com/ads.js$domain=avgle.com
 @@||avgle.com/avideos.js
@@ -625,7 +625,7 @@ www.minnano-av.com##.leftbottom_bn
 ||google-analytics.com/ga.js$important,script
 javout.net##.adsbox
 javout.net###toTop
-||widgets.amung.us^
+!||widgets.amung.us^
 @@||ajax.cloudflare.com/cdn-cgi/scripts/$third-party,script
 ||feeds.feedburner.com/~fc/
 ||d3oep4gb91kpuv.cloudfront.net^
@@ -708,7 +708,7 @@ avgle.com##+js(abort-on-property-read.js, AaDetector)
 avgle.com##+js(nowebrtc.js)
 avgle.com##+js(set-constant.js, showBlockIf, noopFunc)
 avgle.com###player_3x2_close:style(font-size: 250% !important;)
-||s4.histats.com^
+!||s4.histats.com^
 avgle.com##.container > div[style*="overflow: hidden"]
 .info/*/*/*/*/$domain=avgle.com
 ||avgle.com/images.php
@@ -981,12 +981,12 @@ discordapp.com##html.u-overflowHidden:style(overflow-y: scroll !important;)
 ||javsix.xyz/wp-content/plugins/visitors-traffic-
 ||hypertrackeraff.com^$third-party
 ||javsix.xyz/wp-content/plugins/wp-adblock-dedect/
-||popads.net/pop.js^$domain=javsix.xyz
+!||popads.net/pop.js^$domain=javsix.xyz
 ||ppfpocea.com^$third-party
 ||deloplen.com/apu.php?$domain=rapidvid.to
 
 !extremetube
-||adxpansion.com^
+!||adxpansion.com^
 extremetube.com##+js(abort-on-property-read, exbl)
 extremetube.com##+js(abort-on-property-read, ExoLoader)
 extremetube.com##+js(abort-on-property-write, ppAb)

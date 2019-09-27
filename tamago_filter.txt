@@ -196,7 +196,7 @@ watch.impress.co.jp###amp-floating-area
 ||widgets.getpocket.com/v1/j/btn.js?v=1
 ||cdn.cxense.com/cx.js
 ||platform.twitter.com/js/button.
-||d-cache.microad.jp/js/td_iw_access.js
+!||d-cache.microad.jp/js/td_iw_access.js
 watch.impress.co.jp###floating-social-buttons
 watch.impress.co.jp###sp-floating-layer
 !------------------------------------------------------------
@@ -314,9 +314,9 @@ lineblog.me##.lineblog_ad
 ||static.adroute.focas.jp^
 ||i2ad.jp^
 itest.5ch.net##.ad
-||static.zucks.net.zimg.jp^
+!||static.zucks.net.zimg.jp^
 ||cr-p17.ladsp.com^
-||sprout-ad.genieesspv.jp^
+!||sprout-ad.genieesspv.jp^
 ||js.sprout-ad.com^
 itest.5ch.net###res_ad
 itest.5ch.net##.sproutad_frame
@@ -434,7 +434,7 @@ buzzfeed.com###mod-action-bar-1
 ||cd.ladsp.com^
 www.axfc.net##a[href^="http://click.ad-stir.com/"]
 www.axfc.net##.bnf
-||js.ad-stir.com^
+!||js.ad-stir.com^
 ||d.href.asia/nw/d/ajs.php?zoneid=
 
 !livedoor.biz
@@ -509,8 +509,8 @@ mainichi.jp###bottom-share
 ||js.mtburn.com/advs-instream.js
 ||www.jiji.com/smp/common/css/yads2.css
 ||us-ads.openx.net^
-||rd.adingo.jp^
-||i.adingo.jp^
+!||rd.adingo.jp^
+!||i.adingo.jp^
 www.jiji.com##.adingoFluctOverlay
 !時事ドットコム
 ![PR]おすすめ情報
@@ -550,9 +550,9 @@ www.zdnet.com##.amp-ad
 
 !SPA
 ||yads.yahoo.co.jp/js/yads.js
-||mediamsmbsoftbank.genieesspv.jp/yie/ld/nad?
+!||mediamsmbsoftbank.genieesspv.jp/yie/ld/nad?
 nikkan-spa.jp##.top_post
-||mediamsmbsoftbank.genieesspv.jp^
+!||mediamsmbsoftbank.genieesspv.jp^
 
 !日刊スポーツ
 !https://www.nikkansports.com/m/entertainment/news/amp/201807310000179.html
@@ -574,7 +574,7 @@ jp.techcrunch.com###stcky-footer
 !mynavi
 ||microad.net^
 ||logly.co.jp^
-||aladdin.genieesspv.jp^
+!||aladdin.genieesspv.jp^
 ||mynavi.jp/img/cardloan_head_select.jpg
 ||adjust-net.jp^
 ||mynv.jp/img/cardloan_ad_banner.jpg
@@ -591,10 +591,10 @@ tenki.jp##.tenki-ad-lite-footer
 !台風情報のサムネイルが消えてしまう
 !||static.tenki.jp/storage/static-images/top-ad/
 tenki.jp##div[class^="_taxel_ad_article_"]
-||match.adsrvr.org^
+!||match.adsrvr.org^
 ||jwa-d.openx.net^
 ||sync-dsp.ad-m.asia^
-||cs.r-ad.ne.jp^
+!||cs.r-ad.ne.jp^
 ||ums.adtechjp.com^
 ||pixel.advertising.com^
 ||c1.adform.net^
@@ -605,7 +605,7 @@ tenki.jp###tenki-ad-SM_mid
 !モデルプレス
 ||spnativeapi-tls.i-mobile.co.jp^
 ||spcdnsp.i-mobile.co.jp^
-||aud.adjust-net.jp^
+!||aud.adjust-net.jp^
 ||d.adlpo.com^
 ||spdeliverp.i-mobile.co.jp^
 ||t.adlpo.com^
@@ -639,7 +639,7 @@ cookpad.com##.tieup_links
 
 
 !huffpost
-||a.teads.tv^
+!||a.teads.tv^
 !ロガー
 ||pixel.parsely.com^
 m.huffingtonpost.jp##.shareBarBottom
@@ -719,7 +719,7 @@ ejje.weblio.jp###adHeadAdDfpBannerId
 !共同通信
 this.kiji.is##.page__ad
 this.kiji.is##.page__sub
-||nordot-connect.genieesspv.jp^
+!||nordot-connect.genieesspv.jp^
 
 ! fc2トラッカー
 ||media.fc2.com/counter_img.php?
@@ -772,7 +772,7 @@ www.nishinippon.co.jp##.recommend
 ||www.nishinippon.co.jp/mobile/common/img/bn_epaper_header_1anniv.png
 
 !Daily News Online
-||ds.advg.jp^
+!||ds.advg.jp^
 ||img.adplan-ds.com^
 
 !スポーツ報知
@@ -829,7 +829,7 @@ tokyograffiti.grfft.jp##.fixbtn
 
 !cnn.co.jp
 ||www.cnn.co.jp/media/cnn/images/mini/ad_bg.png
-||z.moatads.com^
+!||z.moatads.com^
 ||smetrics.cnn.com/b/ss/cnn-adbp-offsite-domestic/
 !||bea4.v.fwmrm.net/ad/
 www.cnn.co.jp##.ad
@@ -845,6 +845,9 @@ mobile.nytimes.com##div[class^="BlockAdvert"]
 mobile.nytimes.com##div[id^="story-ad-"]
 mobile.nytimes.com##div[class^="Dock-dock"]
 mobile.nytimes.com##.ad
+
+!TIME
+time.com##.mobile-ad
 
 !Business Journal
 ||biz-journal.jp/i/inc/adframe
@@ -902,7 +905,7 @@ netgeek.biz##.showcase-location-header
 !ロイター
 ||www.reuters.com/reuters_ads_framework.js
 ||async01.admantx.com^
-||cdn.adsafeprotected.com^
+!||cdn.adsafeprotected.com^
 !トラッキング
 ||chartbeat.net^
 ||chartbeat.com^
@@ -947,8 +950,8 @@ www.oricon.co.jp##.top-inline-banner
 !funny-c.com
 ||ads.yahoo.com^
 ||ad.amgdgt.com^
-||passaro-de-fogo.genieesspv.jp^
-||deliver.rossoad.com^
+!||passaro-de-fogo.genieesspv.jp^
+!||deliver.rossoad.com^
 
 !とぅげったー
 togetter.com###ad_list_top
@@ -994,7 +997,7 @@ www.urbandictionary.com##.new-mug-ad
 ||ads.logsoku.com^
 
 !weddingpark.net
-||v6.advg.jp^
+!||v6.advg.jp^
 ||cdn.vt.open8.com/ad-server
 ||wpcontents.weddingpark.net/image/ad
 ||ads.weddingpark.net^
@@ -1009,7 +1012,7 @@ it.srad.jp###ads-article-left
 !モデルプレス
 mdpr.jp##aside[class^="ad"]
 mdpr.jp##.ath-container
-||t.teads.tv^
+!||t.teads.tv^
 ||cdn.astrsk.net/ads
 ||ad.polymorphicads.jp^
 ||ad.turn.com^
@@ -1049,7 +1052,7 @@ www.bloomberg.co.jp##.page-ad
 ||assets.bwbx.io/s3/javelin/public/javelin/css/body/basic/outstream_ad-
 ||adservice.google.co.jp^
 ||nav.bloomberg.com/public/images/ad_choices-
-||r.dlx.addthis.com/e/getdata.xgi?
+!||r.dlx.addthis.com/e/getdata.xgi?
 ||assets.bwbx.io/s3/javelin/public/javelin/css/body/basic/mobile_ads-
 ||assets.bwbx.io/s3/javelin/public/javelin/js/ads/
 ||assets.bwbx.io/s3/javelin/public/javelin/css/body/basic/in_article_ad-
@@ -1120,7 +1123,7 @@ ismedia.jp##.triple-text-ad
 
 !http://gadgetlife2ch.blomaga.jp/articles/41887.html
 ||ads.nicovideo.jp^
-||rranking13.ziyu.net/rank.php?gadgetlife
+!||rranking13.ziyu.net/rank.php?gadgetlife
 ||ziyu.net^
 blomaga.jp###over_ray_id
 
@@ -1268,7 +1271,7 @@ blog.livedoor.jp##.btn-ldb-bottomAdd
 ||blogmaterial.nicoblomaga.jp/material/279/SP_alfaad.js
 ||adservice.google.co.jp^
 ||blogmaterial.nicoblomaga.jp/material/279/bromaga_AdTimer_SP.js
-||log.affiliate.rakuten.co.jp^
+!||log.affiliate.rakuten.co.jp^
 
 !ニュー速クオリティ
 ||news4vip.livedoor.biz/settings/lite2/ads.js
@@ -1297,7 +1300,7 @@ hosyusokuhou.jp##.abox
 ||hosyusokuhou.jp/wp/wp-content/themes/hssk/commons/box_dummy.png
 
 !はいほー速報・改
-||img.fam-ad.com^
+!||img.fam-ad.com^
 ||fam-ad.com^
 
 !IT速報
@@ -1857,7 +1860,7 @@ kinisuru.com##.a2a_floating_style
 ||fout.jp^
 ||outbrain.com^
 ||w55c.net^
-||zucks.net.zimg.jp^
+!||zucks.net.zimg.jp^
 ||ad-stir.com^
 ||ad.appier.net^
 ||ad.ca-conv.jp^
@@ -1870,7 +1873,7 @@ kinisuru.com##.a2a_floating_style
 ||ads.mopub.com^
 ||ads.nicovideo.jp^
 ||adsafeprotected.com^
-||adsrvr.org^
+!||adsrvr.org^
 ||adswizz.com^
 ||affiliate^
 ||amoad.com^
@@ -1918,7 +1921,7 @@ kinisuru.com##.a2a_floating_style
 ||log.byteoversea.com^
 ||media.admob.com^
 ||media.bidr.io^
-||microad.jp^
+!||microad.jp^
 ||moatads.com^
 ||mon.byteoversea.com^
 ||mon.musical.ly/monitor/collect^
@@ -1934,7 +1937,7 @@ kinisuru.com##.a2a_floating_style
 ||service.cmp.oath.com^
 ||settings.crashlytics.com^
 ||sgbid.prod.sift.co^
-||sh.adingo.jp^
+!||sh.adingo.jp^
 ||sift-campaign-creatives.sift.co^
 ||socdm.com^
 ||spad^
@@ -1951,12 +1954,12 @@ kinisuru.com##.a2a_floating_style
 ||tkimpdsp.mobvista.com^
 ||tpc.googlesyndication.com^
 ||tr-asia.adsmoloco.com^
-||tunein.deliveryengine.adswizz.com^
+!||tunein.deliveryengine.adswizz.com^
 ||txn.ingest.crittercism.com^
 ||uncn.jp^
 ||yads.c.yimg.jp^
 ||yads.yahoo.co.jp^
-||yt.moatads.com^
+!||yt.moatads.com^
 ||zucks^
 !END--------------------------------------------------------------
 

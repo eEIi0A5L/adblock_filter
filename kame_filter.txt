@@ -19,7 +19,7 @@
 !||kr^
 !||sk^
 ||gu-ru.net^
-||www.amazon.co.jp.com-w.win^
+!||www.amazon.co.jp.com-w.win^
 ||com-w.win^
 !||win^
 !フィッシング詐欺に多用されているドメイン
@@ -176,10 +176,10 @@
 ||www.bityet.us/s7b47si.jpg
 ||fc2.com/p/F0Nll5V-?.gif
 ||exioer5.missouriprobate.biz^
-||imgur.com.rude.li^
+!||imgur.com.rude.li^
 ||rude.li^
-||i.imgur.com.my.to^
-||imgur.com.my.to^
+!||i.imgur.com.my.to^
+!||imgur.com.my.to^
 ||my.to^
 ||imgur.com.mine.bz^
 ||imgur.com.
@@ -193,7 +193,7 @@
 ||5stock.utdnews.com^
 ||milky.geocities.jp/fkdsjlaginea/
 !http://i.imgur.com.2ch.today/H8w.png←ウイルス
-||i.imgur.com.2ch.today^
+!||i.imgur.com.2ch.today^
 ||2ch.today^
 !http://gona.fznews.xyz/10213
 ||fznews.xyz^

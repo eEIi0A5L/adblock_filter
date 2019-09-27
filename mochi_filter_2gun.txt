@@ -102,9 +102,9 @@ news4vip.livedoor.biz##.google-2ad
 !||rcv.a-i-ad.com^
 ||rcv.a-i-ad.com^$domain=news4vip.livedoor.biz
 ||track.affiliate-b.com^
-||js.gsspcln.jp/l/rtct_adp_lib_min.js?
+!||js.gsspcln.jp/l/rtct_adp_lib_min.js?
 ||pc.tunnel-vision.info/js/tad.js
-||cs.gssprt.jp^
+!||cs.gssprt.jp^
 ||js.click-plus.net^
 !news4vip.livedoor.biz##.article-body-more > b:has(> a)
 
@@ -125,7 +125,7 @@ news4vip.livedoor.biz##.google-2ad
 ||blog.livedoor.jp/news23vip/js/advpo_pc.js
 ||blog.livedoor.jp/news23vip/settings/ad.js
 ||sync.adotmob.com^
-||js1.ziyu.net/txt_ad.js
+!||js1.ziyu.net/txt_ad.js
 ||a.tribalfusion.com^
 ||images-fe.ssl-images-amazon.com/images/$domain=blog.livedoor.jp
 blog.livedoor.jp##.kar_wraper
@@ -156,8 +156,8 @@ yaraon-blog.com##.yon_ga_box
 ||cast.ads.jlisting.jp^
 ||static.adlantis.jp^
 ||jin115.com/js/ads/
-||rranking4.ziyu.net/js/jin115.js
-||rranking4.ziyu.net/rank.php?jin115
+!||rranking4.ziyu.net/js/jin115.js
+!||rranking4.ziyu.net/rank.php?jin115
 jin115.com##.dix_ad_n
 jin115.com##.ent_ad_md
 jin115.com##.jin-ads
@@ -185,12 +185,12 @@ matome-plus.net##a[href^="http://www.amazon.co.jp"]
 !ゲハ速
 ||js.adnico.jp^
 ||adc.shinobi.jp^
-||www.antennash.com/etc/comvote/ad_pc_ft.html?
+!||www.antennash.com/etc/comvote/ad_pc_ft.html?
 !ranking
 ||ziyu.net^
 !広告代理業者っぽい
 ||antennash.com^
-||rc5.i2i.jp^
+!||rc5.i2i.jp^
 ||images-fe.ssl-images-amazon.com/images/$domain=gehasoku.com
 ||ecx.images-amazon.com/images/$domain=gehasoku.com
 
@@ -214,7 +214,7 @@ blog.esuteru.com###gStickyAd
 
 !ねぎ速
 ||pc.clickmedias.info/js/ad.js
-||ac8.i2i.jp^
+!||ac8.i2i.jp^
 ||images-fe.ssl-images-amazon.com/images/$domain=www.negisoku.com
 ||www.amazones-tools.com/amazones_core.php?AffiliateId=
 
@@ -598,9 +598,9 @@ www.akb48matomemory.com##.article_body_more > span
 
 !暇つぶしニュース
 !http://blog.livedoor.jp/rbkyn844/
-||js.gsspcln.jp^
-||cs.gssprt.jp^
-||aladdin.genieesspv.jp^
+!||js.gsspcln.jp^
+!||cs.gssprt.jp^
+!||aladdin.genieesspv.jp^
 ||adm.shinobi.jp^
 ||d.href.asia/nw/d/afr.php
 ||img.gsspat.jp^
@@ -612,7 +612,7 @@ blog.livedoor.jp##.article-content > div > iframe[src="http://blog.livedoor.jp/r
 newsoku.blog###pc_text-34
 ||unitedblades-d.openx.net^
 !||api.push7.jp^
-||i2.wp.com/rranking7.ziyu.net
+!||i2.wp.com/rranking7.ziyu.net
 !下記が見れない
 !https://www.ptengine.jp/blog/index.php/ghostery/
 !||ptengine.jp^
@@ -1313,9 +1313,6 @@ ryuchin.com###news
 
 
 
-!まとめその他
-||track.bannerbridge.net/adtserv.php
-
 
 
 
@@ -1329,7 +1326,7 @@ ryuchin.com###news
 ||js.ad-stir.com^
 2chan.net##div[style="width:680px;margin: 0 auto;"]
 ||dec.2chan.net/bin/tueif.htm
-||js.gsspcln.jp/t/007/749/a7749.js
+!||js.gsspcln.jp/t/007/749/a7749.js
 2chan.net##div[style="width:728px;height:90px;margin:2px auto"]
 2chan.net##div[style="width:728px;height:90px;margin:2px auto;"]
 !http://egg.5ch.net/test/read.cgi/software/1515404854/400
@@ -1410,7 +1407,7 @@ pappins.tokyo##+js(abort-on-property-write.js, disableSelection)
 ||zucks.net^
 ||ad.angel-live.com^
 ||livedoor.blogimg.jp/darkm/imgs/
-||img.i2i.jp/all/ad/
+!||img.i2i.jp/all/ad/
 ||adingo.jp/
 ||bibincom.com/ad/
 
@@ -1476,10 +1473,10 @@ sports.khan.co.kr###scrollDiv
 /realmedia/ads/$domain=~m.danawa.com
 ||adv.mediaharbor.co.kr/nad/
 ||adv.imadrep.co.kr^
-||adgrp1.ad4989.co.kr/cgi-bin/pelicanc.dll^
+!||adgrp1.ad4989.co.kr/cgi-bin/pelicanc.dll^
 ||sunnyworks.co.kr/data/sw*.html^$domain=www.nocutnews.co.kr
 ||livere.co.kr^
-||compass.adop.cc/rd/
+!||compass.adop.cc/rd/
 
 !KStyle
 ||static.kstyle.com/kstyle/js/nj.kNews.ad.googlead_
@@ -1566,7 +1563,6 @@ jmty.jp##.adsense_list_sponsored_link
 
 !その他
 ||afi-b.com^
-||www.sbs-jp-ad.com^
 ||sbs-jp-ad.com^
 ||bannerbridge.net^
 ||crwetworks.com^

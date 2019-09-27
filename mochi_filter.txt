@@ -277,7 +277,7 @@ www.yahoo.co.jp##dl.item:has( > dd > cite:has-text(Yahoo!ズバトク＜PR＞) )
 ||s.yimg.jp/images/advertising/
 !||s.yimg.jp/images/advertising/common/js/iicon.min.js
 ||yads.c.yimg.jp/js/yads-async.js
-||yj.p.adnxs.com^
+!||yj.p.adnxs.com^
 ||yjtag.yahoo.co.jp/tag?
 !||giwiz-quriosity.c.yimg.jp^
 
@@ -319,7 +319,7 @@ videotopics.yahoo.co.jp##.banner
 
 
 !動画開始時の動画広告ブロック
-||adserver-apne.tidaltv.com^
+!||adserver-apne.tidaltv.com^
 
 
 !END--------------------------------------------------------
@@ -870,15 +870,15 @@ abema.tv##.com-tv-top-CommercialBannerCarousel
 ||logger-04.vty.dailymotion.com^
 ||doubleclick.net^$third-party
 ||beacon.krxd.net^
-||sync.tidaltv.com^
+!||sync.tidaltv.com^
 !http://egg.5ch.net/test/read.cgi/software/1510382303/625
 ||dailymotion.com/vast/video/*.xml$xmlhttprequest,domain=dailymotion.com
 ||deployads.com^
-||tags-cdn.deployads.com^
-||c.us1.dyntrk.com^
+!||tags-cdn.deployads.com^
+!||c.us1.dyntrk.com^
 ||webed.dm.gg^$third-party
 ||dmxleo.dailymotion.com^
-||c.eu1.dyntrk.com^
+!||c.eu1.dyntrk.com^
 !dailymotionでカウントが増え続ける問題の解法
 @@||logger-04.vty.dailymotion.com/dm/desktop-windows/player_data/a/$image,domain=www.dailymotion.com
 @@||b.scorecardresearch.com/p?c1=2&$image,domain=www.dailymotion.com
@@ -1471,7 +1471,7 @@ www.news24.jp###adText01
 @@||www.facebook.com^$domain=dizm.mbs.jp
 
 !TBS
-||web-jp.ad-v.jp^
+!||web-jp.ad-v.jp^
 news.tbs.co.jp##.md-banner300x250
 ||aka-cdn-ns.adtechus.com^
 @@imasdk.googleapis.com/js/sdkloader/ima3.js$domain=www.tbs.co.jp
@@ -1501,7 +1501,7 @@ mainichi.jp##.ad
 mainichi.jp##.fixbtm-banner
 !毎日新聞の記事のタイトルが消える
 !mainichi.jp##.header-box
-||cf.ad-v.jp^
+!||cf.ad-v.jp^
 ||a.teads.tv^
 mainichi.jp##.ads
 ||s-adserver.cxad.cxense.com^
