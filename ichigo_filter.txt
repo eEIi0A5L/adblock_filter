@@ -539,14 +539,6 @@ popjav.tv##.video_ad
 ||pvclouds.com^
 ||mvvecbfomk.com^$third-party
 ||ujlpbcsx.com^$third-party
-hpjav.com###left_ad
-hpjav.com###right_ad
-hpjav.com##.go-top
-hpjav.com##.home-ad
-hpjav.com##.single-ad
-hpjav.com##.video-box-ad
-hpjav.com##iframe[width="300"][height="250"]
-hpjav.com##iframe[width="728"][height="90"]
 !hpjav.tv###artdv98
 !hpjav.tv##div:has(> a[href^="http://cl96rwprue.com/"])
 hpjav.tv##div[style^="position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px;"]

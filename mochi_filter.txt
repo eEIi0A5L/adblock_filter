@@ -8,7 +8,7 @@
 
 !共通
 ||google.com/pagead/
-||clients5.google.com/pagead/drt/dn/
+!||clients5.google.com/pagead/drt/dn/
 ##div[id^="div-gpt-ad"]
 ##.adsbygoogle
 ||ad-api-v01.uliza.jp^
@@ -47,7 +47,6 @@ youtube.com###player-ads
 !Peter Lowe’s Ad and tracking server listで一括ブロックされている
 ||doubleclick.net^$third-party
 ||2mdn.net^$domain=youtube.com
-||s0.2mdn.net/ads$domain=youtube.com
 
 !Youtubeトップバナー
 youtube.com###masthead-ad
@@ -67,19 +66,19 @@ www.youtube.com##.iv-promo
 !google, githubで検索すると広告が表示される
 !→Google画像検索で上部のタグが表示されない
 !www.google.co.jp,www.google.com###taw
-www.google.co.jp,www.google.com##.commercial-unit-desktop-top
+!www.google.co.jp,www.google.com##.commercial-unit-desktop-top
 www.google.co.jp,www.google.com##:xpath(//div[@id="tads"]/parent::div/parent::div)
 www.google.co.jp,www.google.com###bottomads
 !下に書いてある
 !||google.co.jp/gen_204?$other
-google.co.jp,www.google.com##.commercial-unit-desktop-rhs
+!google.co.jp,www.google.com##.commercial-unit-desktop-rhs
 ||www.google.com/ads/
 ||google.co.jp/gen_204?$other
 ||google.com/gen_204?$other
 !下記で画像の遷移が動作しない
 !http://natgeo.nikkeibp.co.jp/atcl/gallery/013000131/
 !||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js
-||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,domain=nikkeibp.co.jp
+!||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,domain=nikkeibp.co.jp
 ||adservice.google.co.jp^
 !検索結果右の広告
 !表示されても邪魔にならないのでコメント化。
@@ -629,20 +628,7 @@ mail.yahoo.co.jp###slot_MON_sent
 
 
 
-!Yahooジオシティーズ----------------------------------------------
-!2019年3月にサービス終了予定
-!https://info-geocities.yahoo.co.jp/p/close/index.html
 
-
-||bc-geocities.yahoo.co.jp/bc/uad?
-||bc-geocities.yahoo.co.jp/bc/gg?
-
-!ジオシティの右側の広告欄
-!http://www.geocities.jp/tama_weather/text14-1.html
-||bc-geocities.yahoo.co.jp/js/sq.js
-||bc-geocities.yahoo.co.jp/js/sq.css
-
-!END----------------------------------------------
 
 !Yahoo路線--------------------------------
 !Yahoo路線
@@ -887,7 +873,6 @@ abema.tv##.com-tv-top-CommercialBannerCarousel
 /bannar/$domain=5ch.net|bbspink.com
 5ch.net##.ADVERTISE_AREA
 5ch.net##.ADVERTISE_AREA + div
-||google.com/pagead/
 ||i2ad.jp^
 ||microad.net^
 ||spdeliver.i-mobile.co.jp^
@@ -915,7 +900,7 @@ abema.tv##.com-tv-top-CommercialBannerCarousel
 ||stab.thench.net/threads/rightside_bottom_
 ||stab.thench.net/threads/thread_bottom_left_
 ||stab.thench.net/threads/thread_bottom_right_
-||stimg.iand5ch.net/bbs-ad/
+!||stimg.iand5ch.net/bbs-ad/
 ||stbp.thench.net/subback/mercury/banner
 ||stbp.thench.net/toppage/common-
 !5ch携帯
@@ -1188,8 +1173,8 @@ weblio.jp###contentModuleEikaiwaColumnRanking
 weblio.jp##.slfAdsBox
 ||bannerfarm.ace.advertising.com^
 ||www.westatic.com/img/eikaiwa_business_recent_default
-ejje.weblio.jp##.prmmSrvc + .mainBlock + .mainBlock
-ejje.weblio.jp##.exclusive-benefits-banner
+!ejje.weblio.jp##.prmmSrvc + .mainBlock + .mainBlock
+!ejje.weblio.jp##.exclusive-benefits-banner
 weblio.jp###numberLimitCntdwn
 weblio.jp##.sideAd
 ||weblio.hs.llnwd.net/e7/img/ad/
@@ -1214,7 +1199,7 @@ ejje.weblio.jp##.flex-rectangle-ads-frame
 ||pbs.twimg.com^$domain=weblio.jp
 ||cdn.syndication.twimg.com^$domain=weblio.jp
 ||ton.twimg.com^$domain=weblio.jp
-||apis.google.com/js/platform.js$domain=weblio.jp
+!||apis.google.com/js/platform.js$domain=weblio.jp
 ||apis.google.com^$domain=weblio.jp
 ||www.googleadservices.com/pagead/
 ||mediaforge.com^$domain=weblio.jp
@@ -1226,9 +1211,8 @@ ejje.weblio.jp##.flex-rectangle-ads-frame
 !https://support.google.com/dfp_premium/answer/181073?hl=ja
 ||www.googletagservices.com/tag/js/gpt.js$domain=weblio.jp
 ||yahoo.co.jp/js/s_retargeting.js$domain=weblio.jp
-||www.googletagmanager.com/gtm.js?$domain=weblio.jp
+!||www.googletagmanager.com/gtm.js?$domain=weblio.jp
 ||yjtag.jp/tag.js$domain=weblio.jp
-||www.googletagservices.com/tag/js/gpt.js$domain=weblio.jp
 !END------------------------------------------------------------
 !小窓モード高速化
 ||www.google.com/recaptcha/api.js$domain=weblio.jp
@@ -1549,10 +1533,7 @@ www.tokyo-sports.co.jp##.adsbygoogle
 www.news-postseven.com##.banner
 www.news-postseven.com##.inner-ad
 !www.news-postseven.com###mailmag2
-||www.news-postseven.com/img3_renew/common/blomaga_20160131.gif
 ||www.news-postseven.com/img3_renew/banner/
-||img2.news-postseven.com/wp-content/uploads/2019/03/nps_diet.gif
-||img2.news-postseven.com/wp-content/uploads/2019/03/nps_kaigo.gif
 www.news-postseven.com##a[href$="?_from=sidebanner"]
 
 !女性自身
@@ -1737,7 +1718,6 @@ www.itmedia.co.jp###ITT
 ||www.itmedia.co.jp/js/news/ad.js
 ||dlv.itmedia.jp/adsv/
 ||adserver.cxad.cxense.com^
-||www.itmedia.co.jp/news/files/20160914/file_bit_article_bottom_ad.html
 www.itmedia.co.jp##.colBox.colBoxArtTopRcm
 ||widgets.outbrain.com/outbrain.js
 !http://www.afpbb.comで、話題の記事が消えてしまう
@@ -1880,7 +1860,7 @@ downdetector.com##.ad
 gigazine.net###EndFooter
 ||i.gzn.jp/images/
 gigazine.net###G_EF2ND
-gigazine.net###G_EF
+!gigazine.net###G_EF
 !gigazine
 !関連コンテンツの広告BOX、下記で消えるが表示がずれてしまう
 !gigazine.net##li.rl-list-item:has(> div[id^="div-gpt-ad-"])
@@ -2166,7 +2146,26 @@ japanese.joins.com##.sponsor_link
 ||prtimes.jp/common/js/googleana.js|
 !---------------------------------------------------------------
 
+!----------------------------------------------------------------
+!トラッカー
+! ヤフー
+||ybx.yahoo.co.jp^
 
+! じゃらん
+||www.jalan.net/hacci_beacon/sp_yad_search_list.min.js?
+
+! 日刊スポーツ
+||cache1.nipc.jp/js/beacon.js|
+
+! LINEブログ
+||parts.lineblog.me/js/lite2/line-click-count.js?
+
+! boxil.jp他
+/ahoy/events|$xmlhttprequest
+
+! Shopserve製サイト
+||a.shopserve.jp/tracking/tracking.php?$image
+!-----------------------------------------------------------------
 
 !----------------------------------------------------
 !2019.7.8
