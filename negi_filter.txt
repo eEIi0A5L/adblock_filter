@@ -91,6 +91,11 @@ www.google.co.jp,www.google.com###sbfrm_l + div
 !##^meta[name="google-translate-customization"]
 !||translate.google.com/translate_a/element.js?cb=googleTranslateElementInit
 
+!facebook
+!Facebookのアクセス時に下段、スクロールした時に中央に出るコンテンツをFacebookでチェックログイン または 新しいアカウントを作成をブロックするフィルタ
+!http://egg.5ch.net/test/read.cgi/software/1556498678/363
+facebook.com###pagelet_growth_expanding_cta
+
 
 !weblio
 weblio.jp###footFixBar
