@@ -1078,7 +1078,7 @@ kakaku.com##.c-ad
 news.kakaku.com##.pr-bnr
 ! 価格コムトラッカー
 ||script1-s.kakaku.k-img.com/script/analytics/s_code$script
-||fp.kakaku.com/tracker.py/beacon?$script
+!||fp.kakaku.com/tracker.py/beacon?$script
 
 !価格.comマガジン
 kakakumag.com##.side-ad-top
