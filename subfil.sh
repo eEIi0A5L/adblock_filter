@@ -36,7 +36,7 @@ function check_subfil()
             continue
         fi
         # $popupは特殊なので除外する
-        if [[ $line =~ \$ ]]; then
+        if [[ $line =~ popup ]]; then
             continue
         fi
         if [[ $line =~ \#\# ]]; then
