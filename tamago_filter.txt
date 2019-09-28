@@ -441,7 +441,7 @@ www.sankeibiz.jp##.ad
 !||i.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js
 !パソコンでradikoが聞けない
 !||assets.adobedtm.com^
-||www.asahicom.jp/ad/js/sp/top.js
+!||www.asahicom.jp/ad/js/sp/top.js
 !サムネがでない
 !||www.asahicom.jp/and/js/and_infeedad.js
 ||www.asahi.com/ad/count.htm

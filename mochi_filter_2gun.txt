@@ -1103,9 +1103,9 @@ guitar.plovdivtv.com##^.modal
 
 !http://yamahiro-invest.com
 !||i1.wp.com/www.infotop.jp/img/banner1_71359.jpg
-||i1.wp.com/www.infotop.jp/img/banner1_
+!||i1.wp.com/www.infotop.jp/img/banner1_
 !https://i2.wp.com/www.infotop.jp/img/banner2_71770.gif
-||i2.wp.com/www.infotop.jp/img/banner2_
+!||i2.wp.com/www.infotop.jp/img/banner2_
 !||www.namaeuranai.com/luckyparts.php
 
 !http://www.yonason9841.net
@@ -1129,7 +1129,7 @@ guitar.plovdivtv.com##^.modal
 
 !http://mdrmbk.xsrv.jp
 ||wp.com/pics.dmm.com/af/
-||wp.com/www.infotop.jp/img/banner1_
+!||wp.com/www.infotop.jp/img/banner1_
 ||wp.com/pcmax.jp/image/affiliate/
 ||img.happymail.co.jp/img/
 ||wp.com/blog.with2.net/img/banner/

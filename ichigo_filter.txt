@@ -245,7 +245,7 @@ ero-video.net###scroll-cont
 ero-video.net##.base__adverts
 
 !6movie.blog.fc2.com
-||mediad2.jp/ad/js/pjs.js
+!||mediad2.jp/ad/js/pjs.js
 ||adv.livelog.biz^
 6movie.blog.fc2.com##.ad
 ||google-analytics.com/analytics.js$script,domain=6movie.blog.fc2.com,redirect=google-analytics.com/analytics.js
@@ -358,7 +358,7 @@ thisav.com###share_to
 ||hdpreview.com^$third-party
 
 !movie.eroterest.net
-||eroimg.net/images/kok/u-next_300250.gif
+!||eroimg.net/images/kok/u-next_300250.gif
 !movie.eroterest.net##.row
 movie.eroterest.net##.kokArea
 ||eroimg.net/images/kok/
