@@ -175,7 +175,8 @@ www.yahoo.co.jp###pickupservice
 www.yahoo.co.jp###PopHead
 
 !検索枠と本体の間の一行広告
-www.yahoo.co.jp###toptxt
+!www.yahoo.co.jp###toptxt
+www.yahoo.co.jp###TopLink
 
 !右上の広告
 !→/bdv/全体をブロックした
