@@ -1557,6 +1557,21 @@ jmty.jp##.adsense_list_sponsored_link
 ||tribalfusion.com/displayAd.js
 ||tribalfusion.com/j.ad
 
+!にゃんこ大戦争データベース
+!http://egg.5ch.net/test/read.cgi/software/1568724287/71
+||battlecats-db.com^$inline-script
+!battlecats-db.com##+js(abort-on-property-read.js, adsbygoogle)
+!battlecats-db.com##+js(addEventListener-defuser.js, load, onload)
+!battlecats-db.com##+js(abort-on-property-write.js, window.onload)
+!battlecats-db.com##+js(abort-on-property-write.js, onload)
+!battlecats-db.com##+js(abort-current-inline-script.js, document.getElementsByClassName, adsbygoogle)
+!battlecats-db.com##+js(abort-current-inline-script.js, getElementsByClassName, adsbygoogle)
+
+
+
+
+
+
 
 
 
