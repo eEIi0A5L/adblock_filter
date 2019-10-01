@@ -562,6 +562,8 @@ map.yahoo.co.jp###So2
 !http://egg.5ch.net/test/read.cgi/software/1554721271/737
 !detail.chiebukuro.yahoo.co.jp###sub-top
 
+!アイテム広告
+chiebukuro.yahoo.co.jp##.SSContainer:has( > div > div.listItemSS > cite  )
 
 !END----------------------------------------------
 
