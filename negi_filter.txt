@@ -152,6 +152,7 @@ www.yahoo.co.jp###event
 www.yahoo.co.jp###ultra
 !初回右上「Yahoo!Japanをホームページにしよう」
 www.yahoo.co.jp###PopHead
+www.yahoo.co.jp###Perorin
 !Yahooトップに戻るリンクが最上部に出るようになったので表示させる
 !news.yahoo.co.jp###msthdtp
 !Yahooニュースで文字列を選択した時に出る「Yahoo検索」ポップアップを邪魔なので消す
