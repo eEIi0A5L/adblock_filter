@@ -1740,7 +1740,8 @@ gunosy.com##.article_share_fix_footer
 gunosy.com##div[data-gtm="global_header_over_app_download"]
 
 !中央日報
-s.japanese.joins.com##.ad_bnr_300_250
+japanese.joins.com##.ad_bnr_300_250
+japanese.joins.com##.ad
 
 !テレビジョン
 thetv.jp##.p_ad
