@@ -229,6 +229,7 @@ syndication.exosrv.com##body
 ||vebadu.com^
 avgle.com##.grecaptcha-badge
 avgle.com##.vjs-poster
+||www5.javmost.com/assets/img/50-750.gif
 
 
 !rocks
@@ -1031,6 +1032,13 @@ fembed.com##+js(abort-on-property-read, AaDetector)
 fembed.com##+js(aopr, jwplayer.utils.Timer)
 ||d2glav2919q4cw.cloudfront.net^
 
+!javhd
+||xineday.com^
+||waust.at^$third-party
+javhd.today##.ads
+javhd.today##.ads-footer
+||d2glav2919q4cw.cloudfront.net^
+javhd.today##.afs_ads
 
 
 
