@@ -1025,6 +1025,13 @@ www.svpri.xyz##.afs_ads
 ||www.av-yoyo.com/images/top700_
 www.85videos.com##.inplayer.hidden-xs
 
+!javfull
+||redlele.com^$third-party
+fembed.com##+js(abort-on-property-read, AaDetector)
+fembed.com##+js(aopr, jwplayer.utils.Timer)
+||d2glav2919q4cw.cloudfront.net^
+
+
 
 
 
