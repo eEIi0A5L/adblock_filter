@@ -126,7 +126,7 @@ yahoo.co.jp###mhd_text_pc
 ! ヤフー系トラッカー
 ||mempf.yahoo.co.jp/offer?$script
 ||s.yimg.jp/images/approach/jslib/clear.gif?$subdocument
-||s.yimg.jp/images/clear.gif|
+!||s.yimg.jp/images/clear.gif|
 ||s.yimg.jp/images/jpnews/cre/bylines/js/chartbeat.js|
 ! huffingtonpost.jp
 ||s.yimg.com/av/yap/ga/yap.js|
@@ -1465,7 +1465,7 @@ www.news24.jp###adText01
 !||web-jp.ad-v.jp^
 news.tbs.co.jp##.md-banner300x250
 ||aka-cdn-ns.adtechus.com^
-@@imasdk.googleapis.com/js/sdkloader/ima3.js$domain=www.tbs.co.jp
+!@@imasdk.googleapis.com/js/sdkloader/ima3.js$domain=www.tbs.co.jp
 @@||2mdn.net^$domain=www.tbs.co.jp
 ||ad.auditude.com^
 !||vo.ad-v.jp^
@@ -2156,7 +2156,7 @@ japanese.joins.com##.sponsor_link
 !----------------------------------------------------------------
 !トラッカー
 ! ヤフー
-||ybx.yahoo.co.jp^
+!||ybx.yahoo.co.jp^
 
 ! じゃらん
 ||www.jalan.net/hacci_beacon/sp_yad_search_list.min.js?

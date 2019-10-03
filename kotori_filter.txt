@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ことりフィルタ（SNSボタンブロック）
-! Last modified: Aug 09, 2019 00:00 JST
+! Last modified: Oct 03, 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/kotori.html
 ! 
@@ -29,7 +29,9 @@
 ||connect.facebook.net/en_US/fbevents.js
 ||connect.facebook.net/ja_JP/sdk.js
 ||www.facebook.com/tr/?id=
-||www.facebook.com^$domain=~facebook.com
+!一部FBの埋め込み動画壊すのでコメント化。2019.10.3
+!https://mobile-yell.com/archives/3731
+!||www.facebook.com^$domain=~facebook.com
 
 !2018.11.01から
 !ことり
@@ -73,7 +75,7 @@
 
 !line
 /iineButton-$domain=ameblo.jp
-||line.me^$domain=~line.me
+!||line.me^$domain=~line.me
 
 !ameblo
 ameblo.jp##ul[amb-component="entryShare"]
@@ -88,10 +90,10 @@ ameblo.jp##ul[amb-component="entryShare"]
 news.yahoo.co.jp,headlines.yahoo.co.jp##.twBtn
 news.yahoo.co.jp,headlines.yahoo.co.jp##.fbBtn
 ||platform.twitter.com/jot.html$domain=yahoo.co.jp
-||syndication.twitter.com/i/jot$domain=yahoo.co.jp
-||platform.twitter.com/widgets/widget_iframe$domain=yahoo.co.jp
-||syndication.twitter.com/settings$domain=yahoo.co.jp
-||platform.twitter.com/widgets.js$domain=yahoo.co.jp
+!||syndication.twitter.com/i/jot$domain=yahoo.co.jp
+!||platform.twitter.com/widgets/widget_iframe$domain=yahoo.co.jp
+!||syndication.twitter.com/settings$domain=yahoo.co.jp
+!||platform.twitter.com/widgets.js$domain=yahoo.co.jp
 
 !Yahoo天気
 yahoo.co.jp###rbnr
@@ -126,7 +128,7 @@ nikkeibp.co.jp##.tools
 www.nikkansports.com###socialMedia
 
 !impress
-||platform.twitter.com/widgets.js$domain=impress.co.jp
+!||platform.twitter.com/widgets.js$domain=impress.co.jp
 ||connect.facebook.net/en_US/sdk.js
 
 !buzzfeed

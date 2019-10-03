@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 26 Sep 2019 00:00 JST
+! Last modified: 03 Oct 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -215,7 +215,7 @@ m.yahoo.co.jp###rsab
 !Yahooトラッカー
 ||mempf.yahoo.co.jp/offer?$script
 ||s.yimg.jp/images/approach/jslib/clear.gif?$subdocument
-||s.yimg.jp/images/clear.gif|
+!||s.yimg.jp/images/clear.gif|
 ||s.yimg.jp/images/jpnews/cre/bylines/js/chartbeat.js|
 ! huffingtonpost.jp
 ||s.yimg.com/av/yap/ga/yap.js|
@@ -382,6 +382,15 @@ bbspink.com##.ranking_banner
 bbspink.com##.loading
 bbspink.com##div[class^="banner_area_"]
 bbspink.com##.ticker
+
+!スマホふたば
+||dec.2chan.net/bin/ampsp.htm$subdocument
+||dec.2chan.net/bin/ad$subdocument
+||dec.2chan.net/bin/spim1.htm?$subdocument
+2chan.net##iframe[src="https://dec.2chan.net/bin/ampsp.htm"]
+2chan.net##iframe[src^="//dec.2chan.net/bin/ad"]
+2chan.net##iframe[src^="https://dec.2chan.net/bin/spim1.htm"]
+
 
 !ファミ通
 ||ssl.webtracker.jp/ad/
