@@ -912,6 +912,9 @@ bbspink.com###top_banner
 !すすコインの広告
 5ch.net##p[style="margin: 0.75em 30% 0 30%; padding: 0.5em; border-radius: 0.50em / 0.50em; background: #FFF; color: #666;"]
 5ch.net##.ad--bottom
+||5ch.net/js/ad.js
+||bbspink.com/js/ad.js
+||bbspink.com/css/ad.css
 
 !!５ちゃんねる、２ちゃんねる
 !/bannar/$domain=5ch.net|bbspink.com
