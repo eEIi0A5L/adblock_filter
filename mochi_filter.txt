@@ -745,30 +745,11 @@ twitter.com##[data-testid="trend"]:has-text(プロモーション):xpath(..)
 
 
 !facebook
-||pixel.facebook.com^
-facebook.com##div[id^="substream_"] > div > div[id] div[id^="hyperfeed_story_id_"]:has(div._5pcp._5lel > span > div > div > a[href="#"])
-facebook.com##div[id^="hyperfeed_story_id_"]:has(span._4dcu)
-facebook.com##div[id^="hyperfeed_story_id_"]:has(a[href*="is_sponsored"])
-facebook.com##div[data-testid="fbfeed_story"]:has(a[href*="[is_sponsored]"])
-facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
-!facebook.com##div[data-testid="fbfeed_story"]:has(a[href*="[is_sponsored]"])
-||facebook.com/common/scribe_endpoint.php
-facebook.com##.AdBox
-||www.facebook.com/sem_campaigns/sem_pixel_test/?
-||www.facebook.com/react_composer/sprouts/promotions/update/?promotion_
 ||scontent.xx.fbcdn.net/hads-
-@@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
-facebook.com##.userContentWrapper:has-text(Suggested)
 facebook.com###stream_pagelet > #pagelet_megaphone
-facebook.com##div[id^="hyperfeed_story_id_"]:has(div[id^="feed_subtitle_"] > span > div > a[class*="_"][href="#"])
-facebook.com##div[id^="substream_"] div[id^="hyperfeed_story_id"]:has(a.uiStreamSponsoredLink)
-facebook.com##.userContentWrapper:has(a[href*="/ads/"])
-facebook.com###stream_pagelet div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
-facebook.com##div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has([id^="feed_subtitle_"] > span[class][role=presentation] + span[class]:matches-css(display: none))
-facebook.com##div[id^="hyperfeed_story_id_"]:has(div[id*="feed_subtitle_"] > span:matches-css(display: none):has(abbr .timestampContent))
-www.facebook.com##.post-ads
-facebook.com###pagelet_ego_pane:has-text(広告)
-www.facebook.com##.ego_section_container:has-text(Sponsored)
+facebook.com##.AdBox
+facebook.com##.post-ads
+
 
 !ニコ動＋ニコ生（く）2018.6.28
 ||ads.adjust-net.jp^
@@ -855,41 +836,6 @@ abema.tv##.com-tv-top-CommercialBannerCarousel
 ||sync.mathtag.com^
 
 
-!!dailymotion（2017.11月リニューアル後用）-----------
-!||ads.stickyadstv.com^
-!||pebed.dm.gg^
-!!||cdn.taboola.com^
-!||cdn.taboola.com^$domain=~afpbb.com
-!||dsp.adfarm1.adition.com^
-!||sync.mathtag.com^
-!||sync.adotmob.com^
-!||dyntrk.com^
-!||www.google.co.jp/ads/
-!||sync.adaptv.advertising.com^
-!||de17a.com^
-!||sync-tm.everesttech.net^
-!||dmx.sync.yume.com^
-!||l2.visiblemeasures.com^
-!||a.tribalfusion.com^
-!||sync.ipredictive.com^
-!||scorecardresearch.com^
-!||logger-04.vty.dailymotion.com^
-!||doubleclick.net^$third-party
-!||beacon.krxd.net^
-!!||sync.tidaltv.com^
-!!http://egg.5ch.net/test/read.cgi/software/1510382303/625
-!||dailymotion.com/vast/video/*.xml$xmlhttprequest,domain=dailymotion.com
-!||deployads.com^
-!!||tags-cdn.deployads.com^
-!!||c.us1.dyntrk.com^
-!||webed.dm.gg^$third-party
-!||dmxleo.dailymotion.com^
-!!||c.eu1.dyntrk.com^
-!!dailymotionでカウントが増え続ける問題の解法
-!@@||logger-04.vty.dailymotion.com/dm/desktop-windows/player_data/a/$image,!domain=www.dailymotion.com
-!@@||b.scorecardresearch.com/p?c1=2&$image,domain=www.dailymotion.com
-
-
 
 
 !５ちゃんねる、２ちゃんねる 全面見直し2019年10月
@@ -919,61 +865,6 @@ bbspink.com###top_banner
 ||bbspink.com/js/ad.js
 ||bbspink.com/css/ad.css
 
-!!５ちゃんねる、２ちゃんねる
-!/bannar/$domain=5ch.net|bbspink.com
-!5ch.net##.ADVERTISE_AREA
-!5ch.net##.ADVERTISE_AREA + div
-!||i2ad.jp^
-!||microad.net^
-!||spdeliver.i-mobile.co.jp^
-!||gmossp-sp.jp/ads/
-!||microad.jp^
-!||cdn.ad.maist.jp/ad/
-!||5ch.net/css/ad.css
-!||5ch.net/js/ad.js
-!!beメニューが消えてた
-!!http://matsuri.5ch.net/campus/
-!!||5ch.net/snow/index.js
-!!||5ch.net/snow/bebe.js
-!!||5ch.net/snow/2chtop.js
-!||bbspink.com/js/ad.js?
-!||bbspink.com/css/ad.css
-!||headline.bbspink.com/newsbbspink/marquee/marqueepele.php
-!||stimgc.iand5ch.net/bbs-ad/
-!||switch-app.net/images/bnr/
-!||stab.thench.net/jump/line_
-!||stab.thench.net/jump/bottom_
-!||img.bbchat.tv/images/bannar/
-!||stab.thench.net/threads/thread_top_left_
-!||stab.thench.net/threads/thread_top_right_
-!!||stab.thench.net/threads/rightside_top_
-!||stab.thench.net/threads/rightside_bottom_
-!||stab.thench.net/threads/thread_bottom_left_
-!||stab.thench.net/threads/thread_bottom_right_
-!!||stimg.iand5ch.net/bbs-ad/
-!||stbp.thench.net/subback/mercury/banner
-!||stbp.thench.net/toppage/common-
-!!5ch携帯
-!||stimg.iand5ch.net^
-!||stab.thench.net^
-!!奇妙なjsをブロックしておく（なんとなく）
-!||proparm.jp/ssp/p/js1?
-!||proparm.jp/ssp/p/js?
-!!||stimg.thench.net/bbs-ad/
-!||contents.purelovers.com/banner/ad/
-!bbspink.com###top_banner
-!bbspink.com##.ranking_banner
-!bbspink.com##.loading
-!bbspink.com##div[class^="banner_area_"]
-!bbspink.com##.ticker
-!!5ch.net###js--banners--thread
-!||sync-dsp.ad-m.asia^
-!!||stimgc.thench.net/bbs-ad/
-!||thench.net/bbs-ad/
-!bbspink.com###bbspink-bottom-ads
-!!5chbbspink
-!||banpro.in.coocan.jp/mcban/banner/
-!www.pinktower.com##ul > li
 
 
 !したらば
@@ -1230,82 +1121,6 @@ weblio.jp##.mainBlock:has(:scope > .flex-rectangle-ads-frame)
 weblio.jp##td.linkTagRClrAd
 
 
-!!weblio
-!!weblio.jp##.topic + .subMenuTop + .mainBlock
-!weblio.jp##.hideDictPrs > .mainBlock:nth-child(2)
-!||www.westatic.com/img/icons/ads.png
-!||www.westatic.com/img/icons/hideAd.png
-!||www.westatic.com/jsad/
-!||www.westatic.com/img/ad/
-!weblio.jp###contentModuleEikaiwaColumnRanking
-!weblio.jp##.slfAdsBox
-!||bannerfarm.ace.advertising.com^
-!||www.westatic.com/img/eikaiwa_business_recent_default
-!!ejje.weblio.jp##.prmmSrvc + .mainBlock + .mainBlock
-!!ejje.weblio.jp##.exclusive-benefits-banner
-!weblio.jp###numberLimitCntdwn
-!weblio.jp##.sideAd
-!||weblio.hs.llnwd.net/e7/img/ad/
-!ejje.weblio.jp##.flex-rectangle-ads-frame
-!!Weblioをちょっとでも早くしようともがいた結果-----------------
-!||cdn.optimizely.com/js/$domain=weblio.jp
-!||www.facebook.com/plugins/like.php?$domain=weblio.jp
-!||connect.facebook.net^$domain=weblio.jp
-!||syndication.twitter.com/i/jot$domain=weblio.jp
-!||platform.twitter.com^$domain=weblio.jp
-!||vid-io.springserve.com^
-!||vid.springserve.com^
-!!||googleads.g.doubleclick.net^$domain=weblio.jp
-!||storage.selectmedia.asia^
-!||cdn.syndication.twimg.com^$domain=weblio.jp
-!||sdk.streamrail.com^
-!!||pagead2.googlesyndication.com^
-!||ads.creative-serving.com^
-!||googlesyndication.com/pagead/
-!!||securepubads.g.doubleclick.net^
-!||ads.rubiconproject.com^
-!||pbs.twimg.com^$domain=weblio.jp
-!||cdn.syndication.twimg.com^$domain=weblio.jp
-!||ton.twimg.com^$domain=weblio.jp
-!!||apis.google.com/js/platform.js$domain=weblio.jp
-!||apis.google.com^$domain=weblio.jp
-!||www.googleadservices.com/pagead/
-!||mediaforge.com^$domain=weblio.jp
-!||www.google-analytics.com^$domain=weblio.jp
-!||cloudfront.net/recentPosts?$domain=weblio.jp
-!||cloudfront.net/popularPosts?$domain=weblio.jp
-!||yahoo.co.jp/search/?$domain=weblio.jp
-!!What is the 'GPT'?
-!!https://support.google.com/dfp_premium/answer/181073?hl=ja
-!||www.googletagservices.com/tag/js/gpt.js$domain=weblio.jp
-!||yahoo.co.jp/js/s_retargeting.js$domain=weblio.jp
-!!||www.googletagmanager.com/gtm.js?$domain=weblio.jp
-!||yjtag.jp/tag.js$domain=weblio.jp
-!!END------------------------------------------------------------
-!!小窓モード高速化
-!||www.google.com/recaptcha/api.js$domain=weblio.jp
-!||weblio.hs.llnwd.net/e7/jsad/cp824.js
-!||weblio.hs.llnwd.net/e7/img/icons/userinfo-non-member-button.png
-!ejje.weblio.jp##.premium-service-button
-!!||weblio.hs.llnwd.net/e7/img/icons/hideAd.png
-!!全面プレミアム広告
-!weblio.jp###simplemodal-overlay
-!weblio.jp###premium-house-ad-on-load-modal-container
-!!広告を消すボタン
-!weblio.jp##td.linkTagRClrAd
-!uwl.weblio.jp###induction-to-premium-member-for-vt-area
-!||weblio.hs.llnwd.net/e7/script/include/house_ad_on_load_modal_pc.js
-!!プレミア
-!uwl.weblio.jp##.take_cnt_mid_v2
-!||weblio.hs.llnwd.net/e7/img/theme_learning_banner1.png
-!!ejje.weblio.jp###leadToVocabIndexBtnWrp
-!!ejje.weblio.jp###leadToSpeakingTestIndexBtnWrp
-!||weblio.hs.llnwd.net/e7/img/muryo_banner_
-!weblio.jp##.mainBlock:has(> .flex-rectangle-ads-frame)
-!!類語辞典・シソーラス・対義語 - Weblio辞書のサイトで、下に広告が出るようになりました
-!!!http://egg.5ch.net/test/read.cgi/software/1556498678/122
-!weblio.jp###adPcBnrWrp
-
 
 !alc
 eow.alc.co.jp###AreaUpperRight
@@ -1395,65 +1210,6 @@ www.sankeibiz.jp###adRectangleBanner01
 
 
 !時事ドットコム
-!列挙してみたが、数が多いので別の道を考える
-!www.jiji.com###v04-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###v04-2
-!www.jiji.com###v04-3
-!www.jiji.com###eco-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###eco-2
-!www.jiji.com###eco-3
-!www.jiji.com###pol-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###pol-2
-!www.jiji.com###pol-3
-!www.jiji.com###soc-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###soc-2
-!www.jiji.com###soc-3
-!www.jiji.com###int-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###int-2
-!www.jiji.com###int-3
-!www.jiji.com###afp-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###afp-2
-!www.jiji.com###afp-3
-!www.jiji.com###obt-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###obt-2
-!www.jiji.com###obt-3
-!www.jiji.com###etc-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###etc-2
-!www.jiji.com###etc-3
-!www.jiji.com###spo-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###spo-2
-!www.jiji.com###spo-3
-!www.jiji.com###pho-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###pho-2
-!www.jiji.com###pho-3
-!www.jiji.com###phl-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###phl-2
-!www.jiji.com###phl-3
-!www.jiji.com###movie-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###movie-2
-!www.jiji.com###movie-3
-!www.jiji.com###spe01-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###spe01-2
-!www.jiji.com###spe01-3
-!www.jiji.com###spe02-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###spe02-2
-!www.jiji.com###spe02-3
-!www.jiji.com###spe03-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###spe03-2
-!www.jiji.com###spe03-3
-!www.jiji.com###spe04-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###spe04-2
-!www.jiji.com###spe04-3
-!www.jiji.com###ent-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###ent-2
-!www.jiji.com###ent-3
-!www.jiji.com###akb-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###akb-2
-!www.jiji.com###akb-3
-!www.jiji.com###jfn-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###jfn-2
-!www.jiji.com###jfn-3
-!別の道
 www.jiji.com##div[style="width:300px;height:600px;"]
 www.jiji.com##div[style="width:300px; height:250px;"]
 
@@ -1721,53 +1477,6 @@ slashdot.org##.advertisement
 ||a.fsdn.com/sd/font/sdicon.woff?
 
 
-!!Slashdot
-!!slashdot.org##article[class*='sponsored']
-!slashdot.org##.adwrap
-!slashdot.org##.ad-blocked-newsletter
-!slashdot.org##.advertisement
-!slashdot.org###slashdot_deals
-!!slashdot.org##article:has(div[class*='sponsored'])
-!!slashdot.org###firehose iframe
-!||m.xp1.ru4.com^
-!!||a.fsdn.com^
-!||a.fsdn.com/sd/js/scripts/ad.js?
-!||fastlane.rubiconproject.com
-!||adserver-us.adtech.advertising.com
-!||ap.lijit.com/rtb/bid?
-!||as-sec.casalemedia.com/cygnus?
-!||tag.contextweb.com/getjs.static.js
-!||tag.crsspxl.com/s1.js?
-!||d3ezl4ajpp2zy8.cloudfront.net/sourceforgemedia-computing_tag.js
-!||widgets.stackcommerce.com/js-deal-feed/0.1/widget.js
-!||cdn-social.janrain.com^
-!||a.fsdn.com/sd/js/scripts/min/deals-min.js?
-!||analytics.slashdotmedia.com/sd.php?
-!!||ado.pro-market.net/ads/scripts/
-!!下記をブロックするとアカウント設定でパスワード画面に遷移できなくなる
-!!||a.fsdn.com/sd/all-minified.js?
-!||ads.pro-market.net/ads/scripts/site-
-!||d3tglifpd8whs6.cloudfront.net/pb-data
-!!||ml314.com/tag.aspx?
-!||consent-st.truste.com/get?
-!!||ml314.com/utsync.ashx?
-!||ml314.com^
-!||rpxnow.com/js/lib/login.slashdot.org/engage.js
-!||a.fsdn.com/sd/font/sdicon.woff?
-!||ssl.google-analytics.com/ga.js
-!||analytics.slashdotmedia.com/sd.js
-!||slashdot.org/images/js.gif?
-!!下記で動画が見れない!
-!!!https://www.zdnet.com/article/ubuntu-18-04-lts-the-linux-for-ai-clouds-and-containers/
-!!||www.googletagservices.com/tag/js/gpt.js
-!!注：:has()を使う場合は、ドメインを指定しないと機能しない
-!slashdot.org##article:has(div[class="ntv-sponsored-disclaimer"])
-!||um2.eqads.com^
-!||www.stack-sonar.com/ping.js
-!||slashdot.org/adbanner.gif
-!||d3tglifpd8whs6.cloudfront.net^
-!||slashdot.org/purple.gif
-!||licdn.com/li.lms-analytics/
 
 
 !Naverまとめ
@@ -1824,24 +1533,6 @@ www.itmedia.co.jp###body_insert_ad
 itmedia.co.jp##iframe[id^="cxWidget_"]
 www.itmedia.co.jp##.colBoxR50:has(> div[id^="div-gpt-ad-"])
 
-!@IT
-!www.atmarkit.co.jp###cxensereRectangle
-!www.atmarkit.co.jp##.dmp-area
-!www.atmarkit.co.jp###rrec
-!www.atmarkit.co.jp###body_insert_ad
-!#body_insert_adでiframeで読み込まれる広告
-!||cdn.cxpublic.com^$domain=www.atmarkit.co.jp
-!||api.popin.cc^$domain=www.atmarkit.co.jp
-!||cse.google.com/adsense/search/async-ads.js
-!||www.atmarkit.co.jp/js/ait/ex_adRequest.js
-!||www.atmarkit.co.jp/js/ad.js
-!||www.atmarkit.co.jp/js/ait/ad.js
-!||comcluster.cxense.com^$domain=www.atmarkit.co.jp
-!www.atmarkit.co.jp###dmp
-!www.atmarkit.co.jp###ISALC
-!www.atmarkit.co.jp###header_ad
-!||cdn.cxense.com/cx.js$domain=www.atmarkit.co.jp
-!@@||dlv.itmedia.jp/adsv/$domain=www.atmarkit.co.jp
 
 !やり直し
 !まず@IT Specialは消す。PRなので
