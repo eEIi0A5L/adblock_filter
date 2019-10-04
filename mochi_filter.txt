@@ -270,6 +270,9 @@ www.yahoo.co.jp###js-Commerce
 !→Yahooショッピングの宣伝っぽいからいらないっぽい
 www.yahoo.co.jp###Service
 
+!あなたにおすすめの商品
+www.yahoo.co.jp###Shopping
+
 !あなたへのおすすめでPayPayのPR
 www.yahoo.co.jp##dl.item:has( > dd > p:has-text(PR) )
 www.yahoo.co.jp##dl.item:has( > dd > cite:has-text(Yahoo!ズバトク＜PR＞) )
@@ -2321,6 +2324,11 @@ japanese.joins.com##.sponsor_link
 ||topernews.me^
 !apps4651.pingtopingsrv136.life
 /^http:\/\/apps[0-9]+\.pingtopingsrv[0-9]+\.life/
+
+!業者に買われたドメイン
+!詐欺サイトに誘導される
+!http://www.andrejapejic.com/
+||usa.mohini-ger.com^
 
 !----------------------------------------------------
 
