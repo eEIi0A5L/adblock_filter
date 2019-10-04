@@ -693,48 +693,19 @@ gyao.yahoo.co.jp###bnr
 streaming.yahoo.co.jp##.con_btm
 ||s.yimg.jp/images/gyao/common/images/bnr_store_promotion_
 
+
 !Twitter
-twitter.com##.promoted-tweet
-twitter.com##.promoted-trend
-!Twitterで"Who to follow"（おすすめのユーザー）を消す場合
-!twitter.com##li[data-item-type="who_to_follow_entry"]
-!下記、広告かと思ったけどEasyListでわざわざ@@を付けて例外にされている。。。余計なことはしないでおこう。
-!||pbs.twimg.com/ad_img/
-!||twitter.com/i/cards/tfw/v1/
-!?advertiser_name=$domain=twitter.com
-twitter.com##li.has-profile-promoted-tweet
-!旧レイアウト
-!ツイッターおすすめユーザの 広告
-twitter.com##.promoted-account
-!Twitter新レイアウトβ 2019.1.16
-twitter.com##div[aria-label^="タイムライン:"] > div > div > div:has( svg[viewBox] + div:has-text(プロモーション) )
+!英語版
+twitter.com##[data-testid="trend"]:has-text(Promoted):xpath(..)
+twitter.com##div[data-testid="trend"]:has( span:has-text(Promoted by) ):xpath(..)
+twitter.com##aside[aria-label="Who to follow"] > div > div[data-testid="UserCell"]:has(:scope  > div > div > div > svg + div:has-text(Promoted))
 twitter.com##div[aria-label^="Timeline:"] > div > div > div:has( svg[viewBox] + div:has-text(Promoted) )
 
-!twitter.com##article[role="article"]:has( > div[data-testid="tweet"] > div > div > svg[viewBox] + div > span:has-text(プロモーション) )
-!twitter.com##article[role="article"]:has( > div[data-testid="tweet"] > div > div > svg[viewBox] + div > span:has-text(Promoted) )
-
-
-!トレンドの広告
-!twitter.com##div[data-testid="trend"]:has( > div > div > svg[viewBox] + span:has-text(プロモーション) )
-!twitter.com##div[data-testid="trend"]:has( > div > div > svg[viewBox] + span:has-text(Promoted) )
-twitter.com##div[data-testid="trend"]:has( span:has-text(Promoted by) ):xpath(..)
-twitter.com##div[data-testid="trend"]:has( span:has-text(によるプロモーション) ):xpath(..)
-
-
-!ツイッターおすすめユーザの 広告
-twitter.com##aside[aria-label="Who to follow"] > div > div[data-testid="UserCell"]:has( > div > div > div > svg + div:has-text(Promoted))
-twitter.com##aside[aria-label="おすすめユーザー"] > div > div[data-testid="UserCell"]:has( > div > div > div > svg + div:has-text(プロモーション))
-!新デザイン広告
-twitter.com##div[style="padding-top: 0px; padding-bottom: 0px;"] > div[class^="css-"]:has( > div[class^="css-"] > div[class^="css-"] > h2:has-text(Promoted Tweet))
-twitter.com##div[style="padding-top: 0px; padding-bottom: 0px;"] > div[class^="css-"]:has( > div[class^="css-"] > div[class^="css-"] > h2:has-text(プロモツイート))
-!画面がちらつくので一旦コメント化 2019.7.1
-!https://twitter.com/saotvos
-!twitter.com##article > div[data-testid="tweet"]:has-text(Promoted):nth-ancestor(5)
-!twitter.com##article > div[data-testid="tweet"]:has-text(プロモーション):nth-ancestor(5)
-!Exploreの先頭のプロモーションツイート
-!FFのトラッキングブロックに入っている
-twitter.com##[data-testid="trend"]:has-text(Promoted):xpath(..)
+!日本語版
 twitter.com##[data-testid="trend"]:has-text(プロモーション):xpath(..)
+twitter.com##div[data-testid="trend"]:has( span:has-text(によるプロモーション) ):xpath(..)
+twitter.com##aside[aria-label="おすすめユーザー"] > div > div[data-testid="UserCell"]:has( > div > div > div > svg + div:has-text(プロモーション))
+twitter.com##div[aria-label^="タイムライン:"] > div > div > div:has( svg[viewBox] + div:has-text(プロモーション) )
 
 ! Twitterトラッカー
 ||api.twitter.com/1.1/jot/client_event.json|$xmlhttprequest
