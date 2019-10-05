@@ -766,6 +766,7 @@ japanhub.net##.afs_ads
 japanhub.net###wrapper > .container > .row > .col-12
 ||promo-bc.com^$popup
 ||reberr.pro^$third-party
+||exosrv.com^
 
 
 !redtube
