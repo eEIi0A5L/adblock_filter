@@ -401,6 +401,7 @@ video.9tsu.com###sidebar-ads
 ||www.google-analytics.com^$domain=nexusmods.com
 ||brid.tv^$domain=nexusmods.com
 nexusmods.com##.areplacer
+nexusmods.com##.video-ad
 
 !twitis.me
 !twitis.me##iframe
