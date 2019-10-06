@@ -213,6 +213,8 @@ m.yahoo.co.jp###rsab
 ||ard.yahoo.co.jp^
 !アプリで見る
 m.yahoo.co.jp###fab
+!ログインしてください
+||s.yimg.jp/images/login/sp/js/login_promo/1.1.8/login_promo-min.js
 
 !Yahooトラッカー
 ||mempf.yahoo.co.jp/offer?$script
