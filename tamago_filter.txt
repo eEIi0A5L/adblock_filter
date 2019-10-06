@@ -211,6 +211,8 @@ m.yahoo.co.jp###rsab
 !ヤフートップのこの広告が消えない
 !http://egg.5ch.net/test/read.cgi/android/1560587835/338-341
 ||ard.yahoo.co.jp^
+!アプリで見る
+m.yahoo.co.jp###fab
 
 !Yahooトラッカー
 ||mempf.yahoo.co.jp/offer?$script
