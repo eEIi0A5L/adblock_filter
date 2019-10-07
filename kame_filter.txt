@@ -163,7 +163,7 @@
 ||best.prizedeal512.info^
 ||0n.click^
 ||0pen.page^
-||www.yueviess.com^
+!||www.yueviess.com^
 ||fres-news.com^
 
 
@@ -191,7 +191,7 @@
 ||newtab.club^
 !http://aqwrf.showmyhomes.com/rkYYyPJ.png←アフィサイトへの偽装画像
 ||showmyhomes.com/
-||5stock.utdnews.com^
+!||5stock.utdnews.com^
 ||milky.geocities.jp/fkdsjlaginea/
 !http://i.imgur.com.2ch.today/H8w.png←ウイルス
 !||i.imgur.com.2ch.today^
@@ -199,8 +199,8 @@
 !http://gona.fznews.xyz/10213
 ||fznews.xyz^
 !http://cococo.indforever.net/20180214/0203d02dgd09.html
-||cococo.indforever.net^
-||waz.sarah-lai.com^
+!||cococo.indforever.net^
+!||waz.sarah-lai.com^
 !gl-search.comというブラウザハイジャッカーにやられた
 !http://egg.5ch.net/test/read.cgi/software/1475377484/810
 ||gl-search.com^
@@ -218,9 +218,9 @@
 !||rec0very-supp0rt-
 !http://egg.5ch.net/test/read.cgi/scienceplus/1523456764/2
 !http://zwkp.wmhelp.com/20180412_1.jpg
-||zwkp.wmhelp.com^
+!||zwkp.wmhelp.com^
 !love-girl.jrelax.com/20180516_1.jpg
-||love-girl.jrelax.com^
+!||love-girl.jrelax.com^
 !５ちゃんねるの荒らしが誘導しているサイト
 !http://matsuri.5ch.net/test/read.cgi/morningcoffee/1531539091/187
 ||news27u.youdontcare.com/newsplus/

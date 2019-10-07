@@ -108,7 +108,7 @@ imagetwist.com##[href^="http://www.sex.com/videos/?utm_"]
 
 !www.imgbabes.com
 !||c1.popads.net^
-||creative.wwwpromoter.com^
+!||creative.wwwpromoter.com^
 ||imgbabes.com/element.js
 ||imgbabes.com^*/splash.php$domain=www.imgbabes.com
 /topads.$domain=imgbabes.com
@@ -418,12 +418,12 @@ youporn.com##+js(abort-on-property-write.js, Fingerprint2)
 
 !mypron.tv
 ||ads2.contentabc.com^
-||cdn1.mypron.tv/xjs/advertisement.js
+!||cdn1.mypron.tv/xjs/advertisement.js
 mypron.tv##iframe[width="300"][height="250"]
 mypron.tv##.lextra
 mypron.tv##.lextraleftmoreads
 mypron.tv###groupedlist
-||ox2.mypron.tv^
+!||ox2.mypron.tv^
 ||mypron.tv/js/xp/pt.js?
 mypron.tv##.ifab
 

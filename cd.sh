@@ -53,6 +53,8 @@ function check_domain_exist()
     if [ $result2 -eq 0 ]; then
         return 0
     fi
+    return 1
+
     topdomain=`get_topdomain $domain`
     if [ ! $topdomain = $domain ]; then
         #echo "domain=$domain"

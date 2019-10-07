@@ -839,14 +839,16 @@ bbspink.com###top_banner
 
 
 !したらば
-||spad.i-mobile.co.jp^
-||a.adimg.net^
+!||spad.i-mobile.co.jp^
+!||a.adimg.net^
 jbbs.shitaraba.net##iframe[id^="ox_"]
 jbbs.shitaraba.net##.ad-320_50
-||blog.seesaa.jp/oem_contents/popular_article_ads/jbbs.js
-||aktrack.pubmatic.com/AdServer/
-||ads.pubmatic.com^
-||oxjapan-d.openx.net^
+!||blog.seesaa.jp/oem_contents/popular_article_ads/jbbs.js
+!||aktrack.pubmatic.com/AdServer/
+!||ads.pubmatic.com^
+!||oxjapan-d.openx.net^
+||aegate-d.openx.net/w/1.0/jstag
+||dmp.im-apps.net/js/1002437/0001/itm.js
 !下部広告
 jbbs.shitaraba.net###footer-menu + br + table + hr + table[width="640"]
 !したらばおすすめアイテム
@@ -1135,7 +1137,7 @@ blog.goo.ne.jp##div[style="height: 70px; position: fixed; z-index: 998; bottom: 
 
 !日経新聞
 ||nikkei.com/fh/showad_
-||adprivcache.nikkei.com^
+!||adprivcache.nikkei.com^
 
 !nikkeibp
 ||bizad.nikkeibp.co.jp/NBP_AD/itpro/parts/itp_welcome_schedule.js?
@@ -1148,7 +1150,7 @@ blog.goo.ne.jp##div[style="height: 70px; position: fixed; z-index: 998; bottom: 
 !https://natgeo.nikkeibp.co.jp
 !下記動画の先頭に動画広告の空白秒１０秒が入る
 !https://natgeo.nikkeibp.co.jp/atcl/news/18/021600072/?P=2
-||ads.freewheel.tv^
+!||ads.freewheel.tv^
 ||demdex.net^
 /b/ss/*&aqe=$domain=nikkeibp.co.jp
 !下記行がないと会員登録のボタンが押せない2018.10.28
@@ -1391,10 +1393,14 @@ japanese.engadget.com###ldrBoardAd
 !||advertising.com^
 ||s.yimg.com/av/curveball/ads/
 ||ads.yap.yahoo.com^
-||b.aol.com/ping?
-||b.aol.com/vanity/?ts=
+!||b.aol.com/ping?
+!||b.aol.com/vanity/?ts=
 !EasyListから
 @@||aolcdn.com^*/adswrapper.$domain=aol.com|engadget.com|games.com|huffingtonpost.com|mapquest.com|stylelist.ca
+||aka-cdn.adtechus.com^
+||jp.at.atwola.com/adcount/
+||adserver-as.adtech.advertising.com^
+japanese.engadget.com###atwAdFrame0
 
 !聯合ニュース
 m.yna.co.kr##.foreign-ad01

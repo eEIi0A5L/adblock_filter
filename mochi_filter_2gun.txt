@@ -230,7 +230,7 @@ blog.esuteru.com###gStickyAd
 ||s.liveads.jp^
 beelzeboulxxx.com##.article-body-more > a
 beelzeboulxxx.com##.article-body-more > table
-||img.adpon.net^
+!||img.adpon.net^
 ||ru.adpon.net^
 ||shinobi.jp/track?
 ||sync.shinobi.jp^
@@ -665,8 +665,8 @@ blog.livedoor.jp###center-ad
 ||a-ads.com^
 
 !smtkagi-t.com
-||wp.com/asp.crypto-click.com/
-||asp.crypto-click.com^$third-party
+!||wp.com/asp.crypto-click.com/
+!||asp.crypto-click.com^$third-party
 ||wp.com/bitflyer.jp/Images/Affiliate/
 ||wp.com/coincheck.com/images/affiliates/
 
@@ -1236,7 +1236,7 @@ sedori.space##.su-animate
 ||drkness.net/contents/photos/
 
 !https://newsmatome.tokyo
-||aplkp.valuecommerce.com/adspace.js
+!||aplkp.valuecommerce.com/adspace.js
 ||newsmatome.tokyo/wp-content/uploads/pum/pum-site-scripts.js
 
 !http://whatsnow.momojiri.futoka.jp/
@@ -1445,7 +1445,7 @@ trend.aamto.com###topcontrol + div
 ||www.aduoso.com^$domain=~allkpop.com
 ||lb.statsevent.com/stats/adonis_event
 ||hb2.vertamedia.com/adunit
-||ad.afy11.net^
+!||ad.afy11.net^
 ||adserver.xpanama.net^
 www.allkpop.com##.ad-space
 www.allkpop.com###div-insticator-ad-1
@@ -1531,6 +1531,7 @@ japanese.joins.com##.pr_area
 !Qiita
 qiita.com##.p-items_options
 qiita.com##.p-home_ad
+qiita.com##.p-items_main > div[style="text-align: center; margin-right: -12px; margin-left: -12px;"]
 
 
 !infoseek

@@ -103,7 +103,8 @@ abcnews.go.com##.ad-slot
 ||bam.nr-data.net^
 !なんかトラッキングぽいの
 ||tags.bluekai.com^
-||vra.outbrain.com^
+!||vra.outbrain.com^
+||traffic.outbrain.com/network/trackpxl?advid=
 ||s.abcnews.com/assets/js/adCallOverride.js
 abcnews.go.com##.ad-center
 abcnews.go.com##.ad-slot
@@ -337,11 +338,16 @@ www.anitube.cz###pageAdvert
 www.anitube.cz###footerAdvert
 www.anitube.cz###anitubeBoxOverlay
 !www.anitube.cz##iframe
-||anigrupo.engine.adglare.net^
+!||anigrupo.engine.adglare.net^
 ||static.anitube.cz/player/anitubeJWOverlay/anitubeJWOverlay.js
 ||static.anitube.cz/photo/
 ||imasdk.googleapis.com/flash/core/3.266.0/adsapi.swf
 ||imasdk.googleapis.com/flash/sdkloader/adsapi_3.swf
+||anitube.cz/sw.js$first-party,script
+||deloplen.com/apu.php?$important
+||jwpcdn.com^
+||mgid.com^
+
 
 !ひまわり
 himado.in###player_ad_window
@@ -475,7 +481,7 @@ wear.jp###gbl_ad
 
 !Flickr
 www.flickr.com##.ad-iframe-shim
-||y-flickr.yahoo.com/ad?
+!||y-flickr.yahoo.com/ad?
 
 
 !UrbanDictionary

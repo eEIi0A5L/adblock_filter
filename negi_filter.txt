@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2019/09/07 00:00 JST
+! Last modified: 2019/10/07 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/negi.html
 
@@ -259,7 +259,7 @@ support.microsoft.com##.survey-background
 twitter.com##.tooltip-inner
 !Twitter ライブビデオ
 ||twitter.com/i/live_video_stream/
-||p-va-1.ft.e.lv.twimg.com/x/out/
+!||p-va-1.ft.e.lv.twimg.com/x/out/
 twitter.com##.LiveVideoHomePageModuleContainer
 !リツイート非表示
 !https://egg.5ch.net/test/read.cgi/software/1540428057/702-703
@@ -390,7 +390,7 @@ www.sankei.com###footerFloatingMenu
 
 !朝日
 !ビーコン、トラッキング：１０秒ごとにビーコンが発信されてうざい
-||pixel.parsely.com^
+!||pixel.parsely.com^
 ||static.parsely.com^
 
 
