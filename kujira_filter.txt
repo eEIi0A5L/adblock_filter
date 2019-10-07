@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: クジラフィルタ（コインマイニングブロック）
-! Last modified: 2018/2/27 00:00 JST
+! Last modified: 2019/10/07 00:00 JST
 ! Expires: 6 hours (update frequency)
 
 !【下記の購読も必要】
@@ -27,7 +27,7 @@
 ||coin-hive.com^$third-party
 ||crypto-loot.com^$third-party
 ||camillesanz.com^$third-party
-||oinblind.com^$third-party
+!||oinblind.com^$third-party
 ||jquerystatistics.org^$third-party
 ||etacontent.com^$third-party
 ||cazala.github.io^$third-party

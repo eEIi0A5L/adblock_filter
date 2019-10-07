@@ -2,7 +2,7 @@
 ! Title: 亀フィルタ（ウイルスサイトブロック）
 ! Description: ウイルスサイトをブロックする
 !
-! Last modified: 2019/09/13 00:00 JST
+! Last modified: 2019/10/07 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/kame.html
 
@@ -66,7 +66,7 @@
 
 !フィッシング詐欺
 ||linewg.cn^
-||idmsa.appIeid.appIe^
+!||idmsa.appIeid.appIe^
 ||.appIe^
 !残念ながら、あなたのアカウント Аmazon を更新できませんでした。
 !www.amazon.co.jp.27e97bd8923daa3964a3dc892e013882.ml/
@@ -93,7 +93,7 @@
 
 !ウイルス感染の偽の警告、URLのerrorの後に数字が続く。
 ||www.pc.error
-||www.win-help-jp.com^
+!||www.win-help-jp.com^
 
 !ラッキービジターアンケートに答えるとiPhoneがもらえるとのウソの表示がされる
 !http://wadai-ch.com/archives/2413 にアクセスすると表示される
@@ -182,7 +182,7 @@
 !||i.imgur.com.my.to^
 !||imgur.com.my.to^
 ||my.to^
-||imgur.com.mine.bz^
+!||imgur.com.mine.bz^
 ||imgur.com.
 ||afi.click^
 !https://egg.5ch.net/test/read.cgi/software/1475377484/654
@@ -251,7 +251,7 @@
 ||210237148191.cidr.jtidc.jp^
 ||aasc.or.jp^
 ||butter-delimmo.jp^
-||e-service.jpdm.edu.bd^
+!||e-service.jpdm.edu.bd^
 ||gaspa-web.jp^
 ||grangrace.jp^
 ||g-r.co.jp^

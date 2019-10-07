@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 03 Oct 2019 00:00 JST
+! Last modified: 07 Oct 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -982,7 +982,7 @@ kakaku.com##.c-ad
 !価格ドットコムのDELLのバナー
 ||i.dell.com/images/jp/banners/banners_l/kakaku_180_60.gif
 !トラッキング
-||bigminging.com^
+!||bigminging.com^
 ||cdn.bigmining.com^
 ||jp-u.openx.net^
 ||kakakucom-d.openx.net^

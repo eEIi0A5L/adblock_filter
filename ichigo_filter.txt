@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 24 Sep 2019 00:00 JST
+! Last modified: 07 Oct 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -341,11 +341,11 @@ thisav.com##a[href*="click.dtiserv2.com"]
 ||addthis.com^$third-party
 !||ads.adxpansion.com^
 ||thisav.com/index.js
-||www.zbecpoboc.com/jxc.js
+!||www.zbecpoboc.com/jxc.js
 thisav.com###share_to
 ||chaturbate.com^
 !全画面pop
-||hxwxxhfydbifuq.com^$third-party
+!||hxwxxhfydbifuq.com^$third-party
 ||thisav.com/0628.
 ||thisav.com/js/pu.js
 ||thisav.com/js/thisav_pop.js
@@ -492,7 +492,7 @@ javfinder.sh###external-embed:style(display: block!important;)
 ||cdnfast.me/img/movie/20181016/fc2-ppv-
 ||javwide.com/underpl.js
 javfinder.sh###preroll_ads
-||keqi7dh3df.com^
+!||keqi7dh3df.com^
 ||fabrkrup.com^$third-party
 ||cdn.o333o.com^
 !javfinder.sh##.afs_ads
@@ -526,8 +526,8 @@ rapidvideo.com##+js(popads.net.js)
 popjav.com##.video_ad
 popjav.com###right_ad
 popjav.com###left_ad
-||ujlpbcsx.com^$third-party
-||mvvecbfomk.com^$third-party
+!||ujlpbcsx.com^$third-party
+!||mvvecbfomk.com^$third-party
 ||go.onclasrv.com/apu.php?$important
 /^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=popjav.tv
 ||wjevvjxwg.com^$third-party
@@ -538,8 +538,8 @@ popjav.tv##.video_ad
 !hpjav
 !||adserver.juicyads.com^
 ||pvclouds.com^
-||mvvecbfomk.com^$third-party
-||ujlpbcsx.com^$third-party
+!||mvvecbfomk.com^$third-party
+!||ujlpbcsx.com^$third-party
 !hpjav.tv###artdv98
 !hpjav.tv##div:has(> a[href^="http://cl96rwprue.com/"])
 hpjav.tv##div[style^="position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px;"]
@@ -596,8 +596,8 @@ www.av01.tv##.ad-body
 @@||www.googletagmanager.com^$domain=av01.tv
 ||www.suncityad.com^
 ||www.av01.tv/images/partners/2033-v2.gif
-||https://www.av01.tv/images/partners/fuyao/300x250-2.gif
-||https://www.av01.tv/images/partners/fuyao/300x250-3.gif
+||www.av01.tv/images/partners/fuyao/300x250-2.gif
+||www.av01.tv/images/partners/fuyao/300x250-3.gif
 www.av01.tv##a[href^="http://www.suncityad.com"]
 
 !http://www.minnano-av.com/
@@ -723,7 +723,7 @@ share-videos.se##img[alt="banner"]
 ||static.share-videos.se/js/jquery.magnific-popup.min.js
 ||srv1.aaacompany.net/load.js
 ||static.share-videos.se/images/gk/728_90.png
-||amateur-contents.com/img/ryuusyutu1.png
+!||amateur-contents.com/img/ryuusyutu1.png
 share-videos.se##div[style="margin-left:120px;"]
 !http://egg.5ch.net/test/read.cgi/software/1556498678/321
 ||admesia.com^
