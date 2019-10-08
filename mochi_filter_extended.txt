@@ -386,7 +386,7 @@ www.miomio.tv##.yulu
 
 !video.9tsu.com
 ||video.9tsu.com/js/ads_
-||jsc.mgid.com^
+!||jsc.mgid.com^
 video.9tsu.com###sidebar-ads
 ||cse.google.com/adsense/search/async-ads.js
 ||udmlkmzjkob.co^

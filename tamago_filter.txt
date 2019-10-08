@@ -1788,7 +1788,7 @@ spice.eplus.jp###smartbanner
 ||store-tsutaya.tsite.jp/library/media/tsutaya/js/base/ga$script
 
 ! DHC,カタログハウス,クラブツーリズム
-/js/baynote.js
+/js/baynote.js|
 /baynote-$script
 ||www.dhc.co.jp/script/sitecatalyst/VisitorAPI.js?
 ||smetrics.dhc.co.jp/id?$script

@@ -1695,6 +1695,8 @@ xrea.com###vdbanner
 
 !4gamer 右上広告
 www.4gamer.net##.sidetop
+!背景広告
+||www.4gamer.net/img/latalem_background_jack.jpg
 
 !greasyfork
 greasyfork.org###script-show-info-ad
@@ -1891,7 +1893,7 @@ japanese.joins.com##.sponsor_link
 ||store-tsutaya.tsite.jp/library/media/tsutaya/js/base/ga$script
 
 ! DHC,カタログハウス,クラブツーリズム
-/js/baynote.js
+/js/baynote.js|
 /baynote-$script
 ||www.dhc.co.jp/script/sitecatalyst/VisitorAPI.js?
 ||smetrics.dhc.co.jp/id?$script

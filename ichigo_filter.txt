@@ -328,7 +328,7 @@ youav.com##.well + script + div
 
 !thisav
 ||www.thisav.com/cdn-cgi/apps/head/$first-party,script
-||ads.exosrv.com^
+!||ads.exosrv.com^
 !||s10.histats.com^
 thisav.com##.ads
 thisav.com##a[href*="click.dtiserv2.com"]
@@ -410,9 +410,9 @@ xnxx.com##+js(xvideos.com.js)
 !youporn.com
 ||youporn.com/vast/adt_vast.js
 ||youporn.com/nbsys3/fsyspp.js
-||ads.exosrv.com^
+!||ads.exosrv.com^
 ||puserving.com^
-||syndication.exosrv.com^
+!||syndication.exosrv.com^
 youporn.com##+js(noeval.js)
 youporn.com##+js(abort-on-property-write.js, Fingerprint2)
 
@@ -531,7 +531,7 @@ popjav.com###left_ad
 ||go.onclasrv.com/apu.php?$important
 /^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=popjav.tv
 ||wjevvjxwg.com^$third-party
-popjav.tvpopjav.tv##.bottomad
+popjav.tv##.bottomad
 popjav.tv###preroll_ads
 popjav.tv##.video_ad
 
@@ -692,7 +692,7 @@ erovi.jp##.reviewticker4
 @@||avgle.com/cdn-cgi/apps/head/$domain=avgle.com
 avgle.com#@##player_3x2_container
 @@||pussl48.com^$domain=avgle.com
-||syndication.exosrv.com/ads-iframe-display.php
+!||syndication.exosrv.com/ads-iframe-display.php
 ||dxlive.com^$third-party
 ||bn.dxlive.com^$popup
 ||sex-and-flirt.com^
