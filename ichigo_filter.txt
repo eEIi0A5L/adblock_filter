@@ -769,6 +769,7 @@ japanhub.net###wrapper > .container > .row > .col-12
 ||promo-bc.com^$popup
 ||reberr.pro^$third-party
 ||exosrv.com^
+@@||syndication.exosrv.com/splash.php
 
 
 !redtube
@@ -1015,6 +1016,10 @@ vjav.com##span > table
 ||vjav.com/assets/vendor.$script
 ||utubejobs.com/Campaigns/
 vjav.com##.poper
+vjav.com##.adv
+vjav.com###vj_ntv_a
+vjav.com##.movable-top
+vjav.com##a[href^="https://clickadilla.com/"] + noindex
 
 !fbjav
 fbjav.net##.ads-sidebar
@@ -1042,6 +1047,19 @@ javhd.today##.ads
 javhd.today##.ads-footer
 ||d2glav2919q4cw.cloudfront.net^
 javhd.today##.afs_ads
+
+!javkkk
+www.javkkk.com###adv_video_1
+www.javkkk.com###adv_video_2
+www.javkkk.com###adv_video_3
+www.javkkk.com###adv_video_4
+www.javkkk.com###adv_index_1
+www.javkkk.com###adv_index_2
+www.javkkk.com###adv_index_3
+www.javkkk.com###adv_index_4
+
+
+
 
 
 
