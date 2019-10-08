@@ -1695,8 +1695,6 @@ xrea.com###vdbanner
 
 !4gamer 右上広告
 www.4gamer.net##.sidetop
-!背景広告
-||www.4gamer.net/img/latalem_background_jack.jpg
 
 !greasyfork
 greasyfork.org###script-show-info-ad
