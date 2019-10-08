@@ -6,12 +6,16 @@ function get_domain()
 {
     line="$1"
     #if [[ $line =~ \|\|([^\^/]+)[\^/] ]]; then
-    if [[ $line =~ \#\# ]]; then
-        echo ""
+    if [[ $line =~ \#@\# ]]; then
+        domain_part=${line%%\#@\#*}
+        echo $domain_part
+        #echo ""
         return
     fi
-    if [[ $line =~ \#@\# ]]; then
-        echo ""
+    if [[ $line =~ \#\# ]]; then
+        domain_part=${line%%\#\#*}
+        echo $domain_part
+        #echo ""
         return
     fi
     #if [[ $line =~ ^\|\|([^\^/]+)[\^] ]]; then
@@ -80,6 +84,10 @@ function sub()
     echo "----$FILE"
     #grep -v -E "##" $i | grep -v "||" | grep -v -E "^[ \t]*!" | grep -v "domain" | grep -v "#@#" | grep -v -E "^$"
     while IFS=$'\r' read line; do
+        # コメント行は読み飛ばす
+        if [[ $line =~ \! ]]; then
+            continue
+        fi
         domain=`get_domain "$line"`
         if [ "$domain" = "" ]; then
             continue
