@@ -212,6 +212,7 @@ www.reddit.com##.googad
 
 !gfycat
 ||assets.gfycat.com/prebid2.8.0.js
+gfycat.com##.toast-notification--pro-cta
 
 !Yahoo.com
 !iframeをフィルタすると動画が見れなくなる
