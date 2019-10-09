@@ -1674,6 +1674,7 @@ www.accuweather.com##.ad
 
 !weathernews
 ||mwsgvs.weathernews.jp/weekend-explorer/banner.jpg
+@@||googletagmanager.com/gtm.js$domain=weathernews.jp
 
 !atwiki
 ||img.atwikiimg.com/common/_js/atheadbar.js
