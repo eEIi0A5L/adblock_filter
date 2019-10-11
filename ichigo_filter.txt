@@ -1020,6 +1020,8 @@ vjav.com##.adv
 vjav.com###vj_ntv_a
 vjav.com##.movable-top
 vjav.com##a[href^="https://clickadilla.com/"] + noindex
+vjav.com##+js(acis, vdaVars)
+||visitstats.com^$popunder,domain=vjav.com
 
 !fbjav
 fbjav.net##.ads-sidebar
