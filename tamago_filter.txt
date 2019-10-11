@@ -709,6 +709,10 @@ this.kiji.is##.page__sub
 !||collect.dominos.jp/i?stm=
 /i?stm=$image
 
+!なろう
+||microad.jp^
+||microad.net^
+
 ! はてブロ
 ||blog.hatena.ne.jp/api/log?$xmlhttprequest
 ||s.st-hatena.com/entry.count.image?uri=$image
