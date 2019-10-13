@@ -417,6 +417,18 @@ xnxx.com##+js(xvideos.com.js)
 !||syndication.exosrv.com^
 youporn.com##+js(noeval.js)
 youporn.com##+js(abort-on-property-write.js, Fingerprint2)
+youporn.com##+js(abort-on-property-read, _goat)
+youporn.com##+js(abort-on-property-read, zone_2547)
+youporn.com##+js(abort-on-property-read, AdDelivery.prototype.requestTrafficJunkyAds)
+youporn.com##+js(abort-on-property-write, rAb)
+||ht.youporn.com^
+||smpop.icfcdn.com^
+youporn.com##.ad-bottom-text
+youporn.com###pb_template
+youporn.com##.ad-remove
+youporn.com##.ad
+youporn.com##.playWrapper > div#videoWrapper+aside[class]
+@@||media.trafficjunky.net/js/holiday-promo.js$domain=redtube.com|tube8.com|youporn.com
 
 !mypron.tv
 ||ads2.contentabc.com^
