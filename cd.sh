@@ -92,6 +92,9 @@ function sub()
         if [ "$domain" = "" ]; then
             continue
         fi
+        if [[ $domain =~ ^\.[^\.]+$ ]]; then
+            continue
+        fi
         #echo "line=[$line]"
         #echo "domain=[$domain]"
         #check_domain $domain $FILE
