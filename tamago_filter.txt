@@ -320,7 +320,6 @@ itest.5ch.net###js-last_comment_ad
 itest.5ch.net###js-cardview_ad
 itest.5ch.net##div[style="height: 320px; position: relative; text-align: center; overflow: hidden; margin: 0 auto; margin-bottom: 15px;"]
 ||mediad2.jp^
-itest.5ch.net###js-last_comment_ad
 ! 5ch遷移時に出る広告の残骸
 itest.5ch.net##^#interstitial-ad-div-id
 

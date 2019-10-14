@@ -269,7 +269,6 @@ tube8.com##^script:has-text(adblock)
 @@||tube8.com/ajax2/$xmlhttprequest
 @@||es.t8cdn.com^
 tube8.com###pb_template
-tube8.com##+js(abort-on-property-write.js, rAb)
 ||ht.tube8.com^
 tube8.com###adBlockAlert
 tube8.com###adBlockAlertWrap

@@ -1381,7 +1381,6 @@ adSystem$domain=tv.naver.com
 !||tvcast2.phinf.naver.net^
 !||tvcast.p.naverrmc.edgesuite.net/global/read
 !||common.like.naver.com^
-||cc.naver.com/cc?a=
 ||apis.naver.com/rmcnmv/rmcams^
 tv.naver.com##iframe[width="300"][height="250"]
 tv.naver.com##.end_da._banner
@@ -1458,7 +1457,6 @@ www.allkpop.com###div-insticator-ad-2
 ||cdn-exchange.toastoven.net/cdn/adc
 ||ad.khan.co.kr
 ||adv.khan.co.kr^
-||adv.imadrep.co.kr^
 ||adv.imadrep.co.kr^
 ||ads.mncmedia.co.kr^
 ||sports.khan.co.kr/htdocs/ad/

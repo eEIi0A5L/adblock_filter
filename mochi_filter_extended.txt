@@ -87,7 +87,6 @@ www.foxnews.com##.ad-container
 ||metrics.foxnews.com^
 ||analytics.edgesuite.net^
 ||z.moatads.com^
-www.foxnews.com##.ad-container
 
 !ABCNews
 abcnews.go.com##.ad-slot
@@ -107,7 +106,6 @@ abcnews.go.com##.ad-slot
 ||traffic.outbrain.com/network/trackpxl?advid=
 ||s.abcnews.com/assets/js/adCallOverride.js
 abcnews.go.com##.ad-center
-abcnews.go.com##.ad-slot
 abcnews.go.com##.ad-slot-banner
 abcnews.go.com##.ad-wrapper
 ||stats.pusher.com^
@@ -335,7 +333,6 @@ koepota.jp###ad_footer
 www.anitube.cz##div[id^="compass_ad_"]
 www.anitube.cz###pageAdvert
 www.anitube.cz###anitubeBannerOverlay
-www.anitube.cz###pageAdvert
 www.anitube.cz###footerAdvert
 www.anitube.cz###anitubeBoxOverlay
 !www.anitube.cz##iframe
