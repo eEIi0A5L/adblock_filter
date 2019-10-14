@@ -673,7 +673,6 @@ www.javdoe.tv##div[id*="ScriptRootC"]
 ||affiliateone.jp^$popup
 !DMMリンクがこれでブロックされてしまう
 !||ad.dmm.com^
-||affiliateone.jp^
 ||notifications-online.systems^
 ||notifications-online.systems^$popup
 ||push-notification.tools^
