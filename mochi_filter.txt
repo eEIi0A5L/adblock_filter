@@ -1076,6 +1076,7 @@ app.famitsu.com###widget-ad-rect
 
 !電撃オンライン
 dengekionline.com###rectangleBanner
+@@||googletagmanager.com/gtm.js$script,domain=dengekionline.com
 
 !impress
 !watch.impress.co.jp##.ad
@@ -1294,7 +1295,8 @@ mainichi.jp##.ads
 !ページ表示が遅い
 !http://egg.5ch.net/test/read.cgi/software/1524667609/424-428
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js
+!誤爆が多いのでコメント化 2019.10.19
+!||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js
 
 !スポニチ
 ||www.sponichi.co.jp/ad_new/
