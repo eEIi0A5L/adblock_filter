@@ -1299,6 +1299,7 @@ mainichi.jp##.ads
 !||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js
 mainichi.jp###cxPageBottomBnr
 mainichi.jp###cxArticleBnrcce
+mainichi.jp###cxPageModalBnr
 
 !スポニチ
 ||www.sponichi.co.jp/ad_new/
