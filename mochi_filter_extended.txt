@@ -123,6 +123,8 @@ www.afpbb.com###bnr-pc_1st_728x90
 www.afpbb.com###bnr-pc_1st_rec
 www.afpbb.com###bnr-pc_2nd_rec
 www.afpbb.com##.pr-text
+www.afpbb.com##.bnr
+
 
 !imdb
 !これもコメント化にしておく。誤爆が怖いので。

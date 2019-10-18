@@ -695,6 +695,9 @@ streaming.yahoo.co.jp##.con_btm
 
 
 !Twitter
+||twitter.com/1.1/jot/client_event.json
+||twitter.com/1.1/promoted_content/log.json
+
 !英語版
 twitter.com##[data-testid="trend"]:has-text(Promoted):xpath(..)
 twitter.com##div[data-testid="trend"]:has( span:has-text(Promoted by) ):xpath(..)
