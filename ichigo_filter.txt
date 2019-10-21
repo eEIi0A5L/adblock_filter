@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 07 Oct 2019 00:00 JST
+! Last modified: 22 Oct 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -547,6 +547,14 @@ popjav.com###left_ad
 popjav.tv##.bottomad
 popjav.tv###preroll_ads
 popjav.tv##.video_ad
+popjav.tv##iframe[src^="https://syndication.exosrv.com/ads-iframe-display.php"]
+popjav.tv##.poplayer
+popjav.tv##.video-boxad
+||popjav.tv/basset/js/vast.js
+asianclub.tv##+js(abort-on-property-read, AaDetector)
+@@||asianclub.tv^$generichide
+||ad.pornimg.xyz^
+||asianclub.tv/asset/default/player/plugins/vast-$script
 
 !hpjav
 !||adserver.juicyads.com^
