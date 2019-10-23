@@ -710,7 +710,8 @@ twitter.com##aside[aria-label="おすすめユーザー"] > div > div[data-testi
 twitter.com##div[aria-label^="タイムライン:"] > div > div > div:has( svg[viewBox] + div:has-text(プロモーション) )
 
 ! Twitterトラッカー
-||api.twitter.com/1.1/jot/client_event.json|$xmlhttprequest
+!ブロック数が延々と増えるのでやめた。2019.10.23
+!||api.twitter.com/1.1/jot/client_event.json|$xmlhttprequest
 ||api.twitter.com/1.1/jot/external_referer.json|$xmlhttprequest
 ||api.twitter.com/1.1/onboarding/referrer.json|$xmlhttprequest
 ||platform.twitter.com/oct.js|
