@@ -720,8 +720,9 @@ twitter.com##div[aria-label^="タイムライン:"] > div > div > div:has( svg[v
 !facebook
 ||scontent.xx.fbcdn.net/hads-
 facebook.com###stream_pagelet > #pagelet_megaphone
-facebook.com##.AdBox
-facebook.com##.post-ads
+!facebook.com##.AdBox
+!facebook.com##.post-ads
+facebook.com##body > .AdBox.Ad.advert:style(display:block!important;)
 
 
 !ニコ動＋ニコ生（く）2018.6.28
