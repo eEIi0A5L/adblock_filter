@@ -1864,6 +1864,7 @@ www.chosunonline.com###sidebar > iframe[src="http://www.chosunonline.com/common/
 www.chosunonline.com###sidebar > iframe[src="http://www.chosunonline.com/common/ifr01/criteo_article_300_250.html"]
 !左上の天気
 www.chosunonline.com##.sec_date_weather
+www.chosunonline.com###_popIn_recommend
 
 !中央日報
 japanese.joins.com##.sponsor_link
