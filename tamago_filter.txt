@@ -522,6 +522,7 @@ japan.zdnet.com##.ad-text
 !zdnet.com
 www.zdnet.com##.sharebar
 www.zdnet.com##.amp-ad
+www.zdnet.com##.preloaded_lightbox
 
 !SPA
 !||yads.yahoo.co.jp/js/yads.js

@@ -306,6 +306,9 @@ japan.zdnet.com##.ad_container
 !zdnet.de##+js(abort-on-property-read.js, can_i_run_ads)
 !zdnet.com##+js(abort-on-property-read.js, can_i_run_ads)
 
+!zdnet
+www.zdnet.com##.preloaded_lightbox
+
 !モカ
 moca-news.net###container-child > div[align="center"] > div > img
 moca-news.net##DIV[style="position:relative; width:742px; max-width:100%; padding-top:30%;"]
