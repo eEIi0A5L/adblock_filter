@@ -1143,6 +1143,9 @@ news.livedoor.com##.mainSec:has( > .adsW )
 
 !まいじつ
 myjitsu.jp##article[id^="related-post-ad"]
+||popin.cc^$third-party
+||advertising.com^
+||rubiconproject.com^
 
 !ZAKZAK
 ||www.zakzak.co.jp/common/js/popin/loadPopIn.js
@@ -1818,6 +1821,7 @@ news.nifty.com##li:has( > ._popIn_recommend_article_ad )
 !popinについて
 !おすすめ記事をつけるシステム
 !不愉快ではないのでそのままにする
+!→やっぱり消した。まいじつで。2019.10.25
 !taboolaについて
 !popinと同じ感じ
 !Yahooについては特別に速度を重視するので切った
