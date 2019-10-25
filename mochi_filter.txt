@@ -1139,6 +1139,10 @@ blog.goo.ne.jp##div[style="height: 70px; position: fixed; z-index: 998; bottom: 
 !http://www.afpbb.com/であわせて読みたいが消えてしまう
 !||popin.cc^
 ||js.cocoad.jp^
+news.livedoor.com##.mainSec:has( > .adsW )
+
+!まいじつ
+myjitsu.jp##article[id^="related-post-ad"]
 
 !ZAKZAK
 ||www.zakzak.co.jp/common/js/popin/loadPopIn.js
