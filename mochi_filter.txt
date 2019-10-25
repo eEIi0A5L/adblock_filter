@@ -1804,6 +1804,7 @@ spotify.com##.ads-container__inner
 !検索結果の広告
 search.nifty.com###lst1
 search.nifty.com###lst2
+news.nifty.com##li:has( > ._popIn_recommend_article_ad )
 
 
 !スクエニのサイトでニュースが表示されない
