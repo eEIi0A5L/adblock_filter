@@ -1573,7 +1573,10 @@ jmty.jp##.adsense_list_sponsored_link
 !battlecats-db.com##+js(abort-current-inline-script.js, document.getElementsByClassName, adsbygoogle)
 !battlecats-db.com##+js(abort-current-inline-script.js, getElementsByClassName, adsbygoogle)
 
-
+!しらべえ
+||cdn.ampproject.org/v0/amp-ad-0.1.js
+||cdn.ampproject.org/v0/amp-sticky-ad-1.0.js
+||cdn.ampproject.org/rtv/011910161528000/v0/amp-ad-network-doubleclick-impl-0.1.js
 
 
 
