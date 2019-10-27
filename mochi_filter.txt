@@ -2024,6 +2024,18 @@ japanese.joins.com##.sponsor_link
 !http://www.andrejapejic.com/
 ||usa.mohini-ger.com^
 
+!animate.tv
+||restonovius.com^
+||data.ad-score.com^
+||tq.adventurefeeds.com^
+||track.tkbo.com^
+||usa.odysseus-nua.com^
+||thusfun9.live^
+||central-messages.com^
+||clk.rtpdn11.com^
+/search/tsc.php?
+||animate.tv^
+
 !----------------------------------------------------
 
 
