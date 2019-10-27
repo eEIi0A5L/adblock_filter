@@ -880,10 +880,10 @@ video.520cc.cc###inplayer
 ||histats.com^
 ||exoclick.com^
 ||st.adxxx.me/js/adv_out.js
-7mm.tv##a[href*=".exoclick.com"]
-7mm.tv##.SC_TBlock
+7mmtv.tv##a[href*=".exoclick.com"]
+7mmtv.tv##.SC_TBlock
 ||adxxx.com^
-7mm.tv##a[href^="https://adxxx.com/"]
+7mmtv.tv##a[href^="https://adxxx.com/"]
 ||cnzz.com^
 ||adqy6rzwcs.com^
 ||mm9841.com/asset/default/player/plugins/vast-8.4.13.js
@@ -1078,6 +1078,15 @@ www.javkkk.com###adv_index_2
 www.javkkk.com###adv_index_3
 www.javkkk.com###adv_index_4
 
+!javlibrary
+||www.javlibrary.com/js/advertisement.js
+||xslt.alexa.com^
+||quantserve.com^
+www.javlibrary.com###middlebanner11
+www.javlibrary.com###topbanner11
+||www.javlibrary.com/js/bnr_
+||ytsyyey.com^$popup
+||www.18dusun.com/s.php
 
 
 
