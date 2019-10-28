@@ -1423,6 +1423,7 @@ japanese.engadget.com###ldrBoardAd
 ||jp.at.atwola.com/adcount/
 ||adserver-as.adtech.advertising.com^
 japanese.engadget.com###atwAdFrame0
+@@||guce.advertising.com/collectIdentifiers
 
 !聯合ニュース
 m.yna.co.kr##.foreign-ad01
