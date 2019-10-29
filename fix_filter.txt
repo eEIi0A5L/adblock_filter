@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: Mar 28, 2019 00:00 JST
+! Last modified: Oct 30, 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/fix.html
 ! 
@@ -180,6 +180,17 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 
 !EasyPrivacy入れてたらアットウィキの添付画像消えるンゴねぇ・・・
 @@img.atwikiimg.com/common/_img/spacer.gif?$domain=atwiki.jp
+
+!uBlock Originで、4sharedに入ることすらできないんだけど何か問題でもある？
+!http://egg.5ch.net/test/read.cgi/software/1556498678/590
+@@||www.4shared.com^
+
+
+
+
+
+
+
 
 
 
