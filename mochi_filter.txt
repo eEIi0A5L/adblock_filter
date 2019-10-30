@@ -1705,6 +1705,7 @@ www.accuweather.com##.ad
 !bing
 bing.com##.b_ad
 www.bing.com##li:has( > ul > li > div > h2.b_ads1line )
+bing.com##.b_algo:has(p:matches-css-before(content: "Ad"))
 
 !ちくわニコ生ランキング
 ||www.chikuwachan.com/live/img/ad/
