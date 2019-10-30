@@ -2039,6 +2039,9 @@ japanese.joins.com##.sponsor_link
 /search/tsc.php?
 ||animate.tv^
 
+!http://www.ldandk.com/gollbetty/gollbetty.html
+/^http:\/\/mobile[0-9]+.stydbui[0-9]+.live/
+
 !----------------------------------------------------
 
 
