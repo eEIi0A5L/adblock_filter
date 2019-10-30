@@ -212,6 +212,10 @@ blog.esuteru.com###g_floating_area2
 !http://egg.5ch.net/test/read.cgi/software/1554721271/920
 blog.esuteru.com###gStickyAd
 
+!おたく.com
+||mcgm.sakura.ne.jp/sp_300x2502.jpg
+
+
 !ねぎ速
 ||pc.clickmedias.info/js/ad.js
 !||ac8.i2i.jp^
@@ -1344,7 +1348,7 @@ ryuchin.com###news
 ||api.digiket.com/xml/ad/
 ||adm.shinobi.jp^
 ||js.isboost.co.jp^
-||dec.2chan.net/ad/src/75_75.gif
+||2chan.net/ad/src/75_75.gif
 2chan.net##body > span:has-text(広告)
 2chan.net##iframe[src^="//dec.2chan.net/bin/spfoot_a.htm"]
 2chan.net##hr + div[style="width:728px;height:90px;margin:4px;"]
