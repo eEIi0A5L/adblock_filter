@@ -224,6 +224,9 @@ www.yahoo.co.jp###multilink-image
 !いい買い物の日くじ
 www.yahoo.co.jp##.Kuji
 
+!PayPayモールの
+www.yahoo.co.jp###Kaimono2019
+
 !PayPayくじ
 www.yahoo.co.jp###CenterBanner
 

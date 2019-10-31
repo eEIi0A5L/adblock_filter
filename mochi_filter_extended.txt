@@ -305,6 +305,7 @@ japan.zdnet.com##.ad_container
 ||japan.zdnet.com/parts/frame/ad_tieup_control_sp.htm
 !zdnet.de##+js(abort-on-property-read.js, can_i_run_ads)
 !zdnet.com##+js(abort-on-property-read.js, can_i_run_ads)
+japan.zdnet.com###ad_large
 
 !zdnet
 www.zdnet.com##.preloaded_lightbox
