@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 30 Oct 2019 00:00 JST
+! Last modified: 01 Nov 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -1659,6 +1659,12 @@ excite.co.jp##div[class^='ad']
 excite.co.jp##.ex-crt-wrapper
 excite.co.jp###pageFeatures
 www.excite.co.jp###gpt_pc_news_banner
+
+!exciteニュース
+www.excite.co.jp###gpt_pc_news_1st_rec
+www.excite.co.jp###gpt_pc_news_2nd_rec
+www.excite.co.jp##div[id^="gpt_pc_news_rightcolumn_ranking_infeed"]:nth-ancestor(1)
+www.excite.co.jp##div[id^="gpt_pc_news_infeed"]:nth-ancestor(1)
 
 !Asciiデジタル
 ||i.t.webtracker.jp^
