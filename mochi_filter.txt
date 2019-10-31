@@ -1198,6 +1198,9 @@ www.sankei.com###adToprectangle
 !広告
 ||www.sankei.com/apr_news/js/others/adEx_display1.js
 ||www.sankei.com/apr_news/js/others/adsense_m3.js
+www.sankei.com##div[style="width:300px;height:600px;"]
+www.sankei.com##.module_ad
+www.sankei.com##.module secondary
 
 !サンケイビジネス
 www.sankeibiz.jp###adRectangleBanner01
@@ -1342,6 +1345,7 @@ www.nikkansports.com##.ad-area
 !スポーツ報知
 www.hochi.co.jp##.ad_rectangle + script + div
 ||www.hochi.co.jp/h_common/img/ad/nsk_banner_2017.gif
+hochi.news##.ad
 
 !東スポ
 !gif広告がちかちかしてうざい
