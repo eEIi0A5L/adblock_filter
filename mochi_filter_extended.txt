@@ -307,8 +307,13 @@ japan.zdnet.com##.ad_container
 !zdnet.com##+js(abort-on-property-read.js, can_i_run_ads)
 japan.zdnet.com###ad_large
 
+
 !zdnet
 www.zdnet.com##.preloaded_lightbox
+
+!NIKKEI ASIAN REVIEW
+asia.nikkei.com##.advertorial
+asia.nikkei.com##.pw-widget--campaign-pop-up
 
 !モカ
 moca-news.net###container-child > div[align="center"] > div > img

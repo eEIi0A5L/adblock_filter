@@ -698,6 +698,7 @@ gyao.yahoo.co.jp###bnr
 !||s.yimg.jp/images/streaming/gyao-store/special/2017_1111campaign/promotion/peron.jpg
 streaming.yahoo.co.jp##.con_btm
 ||s.yimg.jp/images/gyao/common/images/bnr_store_promotion_
+gyao.yahoo.co.jp##.ad
 
 
 !Twitter
@@ -1734,6 +1735,7 @@ xrea.com###vdbanner
 
 !4gamer 右上広告
 www.4gamer.net##.sidetop
+www.4gamer.net##.ad_top
 
 !greasyfork
 greasyfork.org###script-show-info-ad
