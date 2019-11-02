@@ -1088,7 +1088,8 @@ www.javlibrary.com###topbanner11
 ||ytsyyey.com^$popup
 ||www.18dusun.com/s.php
 
-
+!press
+||frefla.com^$third-party,popunder
 
 
 

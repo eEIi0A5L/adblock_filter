@@ -227,6 +227,9 @@ www.yahoo.co.jp##.Kuji
 !PayPayモールの
 www.yahoo.co.jp###Kaimono2019
 
+!中央ビデオ
+www.yahoo.co.jp###Video:nth-ancestor(1)
+
 !PayPayくじ
 www.yahoo.co.jp###CenterBanner
 
