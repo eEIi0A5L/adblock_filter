@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 01 Nov 2019 00:00 JST
+! Last modified: 03 Nov 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -1215,6 +1215,12 @@ www.sankeibiz.jp###adRectangleBanner01
 www.jiji.com##div[style="width:300px;height:600px;"]
 www.jiji.com##div[style="width:300px; height:250px;"]
 
+!東洋経済
+toyokeizai.net##.ad-bnr
+toyokeizai.net###information
+toyokeizai.net###topic-board
+toyokeizai.net###trend-library
+toyokeizai.net###adexchange
 
 !朝日
 www.asahi.com##.AdMod
