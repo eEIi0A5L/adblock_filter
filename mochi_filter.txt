@@ -872,6 +872,7 @@ jbbs.shitaraba.net###footer-menu + br + table + hr + table[width="640"]
 jbbs.shitaraba.net##table[cellspacing="2"][cellpadding="2"][width="640"]
 ||icon.creativecarrer.com^
 jbbs.shitaraba.net##table:has( > tbody > tr > td > div > center > table > tbody > tr > td > div[id$="_INSERT_SLOT_ID_HERE"] )
+jbbs.shitaraba.net##.jbbsCustomHeader > table + br + table
 
 !ログ速
 ||ads.logsoku.com^
