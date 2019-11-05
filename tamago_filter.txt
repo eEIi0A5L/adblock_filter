@@ -1103,7 +1103,6 @@ japanese.engadget.com##div[class^="js-"]:has( iframe[src^="//rcm-fe.amazon-adsys
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/123
 !||images-fe.ssl-images-amazon.com/images/I/$domain=~amazon.co.jp|~amazon.com
 ||images-fe.ssl-images-amazon.com/images/I/$domain=~amazon.co.jp|~amazon.com|~booklog.jp
-japanese.engadget.com##.js-notMobileReferredByFbTw-new
 
 !jbpress.ismedia.jp
 ||b10.nakanohito.jp^
