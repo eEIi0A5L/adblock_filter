@@ -1,3 +1,7 @@
 ! beta.txt
 
+!pixiv
+!右サイドの広告
+www.pixiv.net##iframe[name="300x250"]:nth-ancestor(1)
+
 !END
