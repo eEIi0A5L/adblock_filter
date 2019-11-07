@@ -1313,6 +1313,8 @@ tv-asahi.co.jp##.init-ad
 !https://cu.tv-asahi.co.jp/watch/1271
 !http://egg.5ch.net/test/read.cgi/software/1551423520/345
 @@||pubads.g.doubleclick.net/gampad/ads?output=$domain=tv-asahi.co.jp
+www.tv-asahi.co.jp##.newHeaderBanner
+www.tv-asahi.co.jp##.analytics_pr_rect
 
 !毎日
 ||cdn.mainichi.jp/vol1/ad/
@@ -1446,6 +1448,10 @@ japanese.engadget.com###ldrBoardAd
 ||adserver-as.adtech.advertising.com^
 japanese.engadget.com###atwAdFrame0
 @@||guce.advertising.com/collectIdentifiers
+
+!ギズモード
+www.gizmodo.jp##.ad-banner
+www.gizmodo.jp##.s-body-ad
 
 !聯合ニュース
 m.yna.co.kr##.foreign-ad01

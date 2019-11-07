@@ -158,6 +158,8 @@ www.yahoo.co.jp###Perorin
 !Yahooニュースで文字列を選択した時に出る「Yahoo検索」ポップアップを邪魔なので消す
 yahoo.co.jp###yjSearchPop
 !weather.yahoo.co.jp###msthdFifth
+
+!Yahooショッピング
 shopping.yahoo.co.jp##.uiStickyCrm
 shopping.yahoo.co.jp##.mdNorthBuyee
 shopping.yahoo.co.jp##.mdPenetrateBanner
@@ -175,6 +177,8 @@ shopping.yahoo.co.jp###msthd > .elAccount > li > span.elRegistration
 !||s.yimg.jp/images/commerce/js/service/shp/crm/crm$script
 !js/フォルダ以下だから$scriptの判定は不要だと思われるので下記で様子をみる
 ||s.yimg.jp/images/commerce/js/service/shp/crm/crm
+!今売れました
+shopping.yahoo.co.jp###buynow
 
 !Yahooスポーツ
 !Yahooスポーツで自動再生の動画を切って通信料を抑える
