@@ -1304,6 +1304,13 @@ news.tbs.co.jp##.md-banner300x250
 !テレ東
 !http://egg.5ch.net/test/read.cgi/software/1524667609/33
 @@||pubads.g.doubleclick.net/gampad/ads$domain=video.tv-tokyo.co.jp
+www.tv-tokyo.co.jp###txcms_cms_headerBanner
+www.tv-tokyo.co.jp##.tbcms_ad-block
+
+!BSテレ東
+||www.bs-tvtokyo.co.jp/tbcms/javascripts/ad.js
+www.bs-tvtokyo.co.jp###txcms_cms_headerBanner
+www.bs-tvtokyo.co.jp##.tbcms_ad-block
 
 !テレビ朝日
 !tv-asahi.co.jp##.init-ad-wrapper
