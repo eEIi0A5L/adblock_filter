@@ -1790,7 +1790,8 @@ www.pixiv.net##a[href="/premium/lead/lp?g=anchor&i=work_detail_remove_ads"]
 !www.pixiv.net##section + a[rel="noopener"][class^="sc-"][href^="/member_illust.php?"]
 !http://egg.5ch.net/test/read.cgi/software/1540428057/316-317
 !www.pixiv.net###root > div > div > div > div > div[class^="sc-"]:first-child
-
+!右サイドの広告
+www.pixiv.net##iframe[name="300x250"]:nth-ancestor(1)
 
 !imgur
 ||s.imgur.com/min/advertising.js
