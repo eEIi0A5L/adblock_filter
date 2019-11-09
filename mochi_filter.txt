@@ -2093,6 +2093,9 @@ japanese.joins.com##.sponsor_link
 !http://prize4904.smmhck69.live/?utm_campaign=bKMuT7EMVXU5Z6UvvSHONGlfu-yV43iC8T8uYixAFxs1&t=main9_8303ff02313139fd&f=1
 !http://fate.5ch.net/test/read.cgi/ios/1524080618/347
 /^http:\/\/prize[0-9]+\.smmhck[0-9]+\.live/
+!http://fate.5ch.net/test/read.cgi/ios/1524080618/349
+||tdsjsext1.com^
+/^http:\/\/competition[0-9]+\.nonamesrv[0-9]+.live/
 
 !----------------------------------------------------
 
