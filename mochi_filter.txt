@@ -1074,6 +1074,12 @@ rakuten.co.jp###footer-floating-bnr
 !||ssl-images-amazon.com^$domain=~amazon.com|~amazon.co.jp
 ||amazon-adsystem.com^$third-party,domain=~amazon.co.jp
 
+!ublockで尼の-22アフィリンク踏んだ時に厳格なブロックの警告出してほしいんだけどどう設定すればいい？
+!http://egg.5ch.net/test/read.cgi/software/1556498678/616
+!||www.amazon.co.jp/exec/obidos/ASIN/*/*-22/*$document,1p
+
+
+
 !ファミ通
 ||www.famitsu.com/ad/
 !Youtube埋め込み動画までブロックされてしまう
