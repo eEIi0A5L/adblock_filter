@@ -1091,6 +1091,10 @@ www.javlibrary.com###topbanner11
 !press
 ||frefla.com^$third-party,popunder
 
+!javmix
+||ad999.biz^
+||js.isboost.co.jp^
+javmix.tv##.__isboostOverContent
 
 
 
