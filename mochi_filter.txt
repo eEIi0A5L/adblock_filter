@@ -147,7 +147,7 @@ www.yahoo.co.jp###windowShade
 !www.yahoo.co.jp###Peron
 !www.yahoo.co.jp##img[alt="いい買物の日"][src="https://s.yimg.jp/images/evt/kaimono/2019/ytop/pc/ws_1980_70.png"]:nth-ancestor(1)
 www.yahoo.co.jp##img[alt="いい買物の日"][src^="https://s.yimg.jp/images/evt/kaimono/"]:nth-ancestor(1)
-
+www.yahoo.co.jp##^img[alt="いい買物の日"][src^="https://s.yimg.jp/images/evt/kaimono/"]:nth-ancestor(1)
 
 !「背景を閉じる」
 !→もういらないような気がする
