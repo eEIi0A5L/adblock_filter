@@ -1701,6 +1701,8 @@ excite.co.jp##div[class^='ad']
 excite.co.jp##.ex-crt-wrapper
 excite.co.jp###pageFeatures
 www.excite.co.jp###gpt_pc_news_banner
+www.excite.co.jp###exad_top_1st_rec
+www.excite.co.jp###exad_top_2nd_rec
 
 !exciteニュース
 www.excite.co.jp###gpt_pc_news_1st_rec
