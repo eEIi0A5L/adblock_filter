@@ -1753,7 +1753,8 @@ www.accuweather.com##.ad
 @@||googletagmanager.com/gtm.js$domain=weathernews.jp
 
 !atwiki
-||img.atwikiimg.com/common/_js/atheadbar.js
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/166
+!||img.atwikiimg.com/common/_js/atheadbar.js
 
 !bing
 bing.com##.b_ad
