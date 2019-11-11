@@ -699,6 +699,8 @@ ejje.weblio.jp###adHeadAdDfpBannerId
 this.kiji.is##.page__ad
 this.kiji.is##.page__sub
 !||nordot-connect.genieesspv.jp^
+this.kiji.is##.main__adWrapper
+this.kiji.is##.page__brandModule
 
 ! fc2トラッカー
 ||media.fc2.com/counter_img.php?
