@@ -217,6 +217,9 @@ m.yahoo.co.jp###rsab
 m.yahoo.co.jp###fab
 !ログインしてください
 ||s.yimg.jp/images/login/sp/js/login_promo/1.1.8/login_promo-min.js
+!Yahooトップ上部のPayPay広告
+m.yahoo.co.jp###psnl_toplink
+||s.yimg.jp/images/evt/kaimono/2019/ytop/sp/shp_718_176_5.png
 
 !Yahooトラッカー
 ||mempf.yahoo.co.jp/offer?$script

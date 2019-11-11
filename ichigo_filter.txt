@@ -1102,6 +1102,14 @@ javso.com##.pop-skip > .title
 javso.com##.pop-wrap
 javso.com##.poplayer
 
+!myhdjav
+myhdjav.net##+js(aopr, exoJsPop101)
+myhdjav.net###preroll
+||www.bitporno.com/assets/js/videojs-contrib-ads.js
+||wpnjs.com^$3p
+
+
+
 
 
 
