@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 10 Nov 2019 00:00 JST
+! Last modified: 12 Nov 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -1442,7 +1442,8 @@ taishu.jp##.toptxt
 www.nikkan-gendai.com##.ad-box
 www.nikkan-gendai.com###_pr_1st
 www.nikkan-gendai.com##.pr
-
+||cdnext.stream.ne.jp/img/common/gendai_online.png|
+||cdnext.stream.ne.jp/img/pr/
 
 !IZA
 www.iza.ne.jp##.ad-rectangle-banner

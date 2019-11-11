@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 01 Nov 2019 00:00 JST
+! Last modified: 12 Nov 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_2gun.html
 ! 
@@ -213,8 +213,8 @@ blog.esuteru.com###g_floating_area2
 blog.esuteru.com###gStickyAd
 
 !おたく.com
-||mcgm.sakura.ne.jp/sp_300x2502.jpg
-
+!||mcgm.sakura.ne.jp/sp_300x2502.jpg
+||mcgm.sakura.ne.jp/sp_$image
 
 !ねぎ速
 ||pc.clickmedias.info/js/ad.js
@@ -345,6 +345,8 @@ news.2chblog.jp##table[width="750"][height="300"][align="center"]
 2chcopipe.com##a[href^="http://amazon.co.jp/"]
 2chcopipe.com##a[href^="https://zaif.jp?ac="]
 2chcopipe.com###royFrame
+||onlyry.net/contents/$third-party
+
 
 !まとめたニュース
 ||images-fe.ssl-images-amazon.com/images/$domain=matometanews.com

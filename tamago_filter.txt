@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 10 Nov 2019 00:00 JST
+! Last modified: 12 Nov 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -1742,6 +1742,17 @@ nexusmods.com##.ads
 !seesaawiki
 seesaawiki.jp##div[class^="ad-"]
 
+! Seesaaブログ（一部）
+||blog.seesaa.jp/visual/spv3/common/js/footer.js?
+seesaa.net##interstitial-ad-div-id
+
+! jyousya.blog70.fc2.com
+||image.moshimo.com/af-img/
+
+! Smart FLASH
+||smart-flash.jp/FoneH
+||smart-flash.jp/yahoo_ad.html|
+
 !blog.shinobi.jp
 ||nt.compass-fit.jp/lift_widget.js?adspot_id
 ||v2st.shinobi.jp/admax-res/prebid/2.5.1-1.js
@@ -1779,7 +1790,7 @@ www.pixiv.net##.ad-frame-container
 
 !ウェザーニュース
 ! ウェザーニューズ下部バナー
-||weathernews.jp/s/js/launch.js?
+||weathernews.jp/s/js/launch.js
 
 ! Spice
 ||spice.eplus.jp/img/icons/logo/app_icon.jpg
@@ -1824,7 +1835,7 @@ getnews.jp##.float_sns_button
 ||store-tsutaya.tsite.jp/library/media/tsutaya/js/base/ga$script
 
 ! DHC,カタログハウス,クラブツーリズム
-/js/baynote.js|
+/js/baynote.js
 /baynote-$script
 ||www.dhc.co.jp/script/sitecatalyst/VisitorAPI.js?
 ||smetrics.dhc.co.jp/id?$script
