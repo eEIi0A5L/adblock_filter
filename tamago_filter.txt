@@ -1744,7 +1744,7 @@ seesaawiki.jp##div[class^="ad-"]
 
 ! Seesaaブログ（一部）
 ||blog.seesaa.jp/visual/spv3/common/js/footer.js?
-seesaa.net##interstitial-ad-div-id
+seesaa.net###interstitial-ad-div-id
 
 ! jyousya.blog70.fc2.com
 ||image.moshimo.com/af-img/
