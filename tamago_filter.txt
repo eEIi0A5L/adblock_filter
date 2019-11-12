@@ -768,7 +768,8 @@ www.fnn-news.com##.appinfo
 fnn.jp##.Ad
 ||amazon-adsystem.com^$domain=fnn.jp
 !||sp.fnn.jp/js/ulizahtml5_1.4.10/ulizahtml5-advertising.min.js
-||sp.fnn.jp/js/ulizahtml5_1.10.0/ulizahtml5-advertising.min.js|
+!||sp.fnn.jp/js/ulizahtml5_1.10.0/ulizahtml5-advertising.min.js|
+/ulizahtml5-advertising.min.js|$domain=fnn.jp
 
 !西日本新聞
 ||cdn.apvdr.com/js/VastAdUnit.min.js
