@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 12 Nov 2019 00:00 JST
+! Last modified: 13 Nov 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -22,10 +22,17 @@
 !.jp,.net,.com,.org,.me,.tv,.biz,.info##^div[id^="div-gpt-ad"]
 !.jp,.net,.com,.org,.me,.tv,.biz,.info##^.adsbygoogle
 
+
+! 共通ルールで問題（エラーやアンチ広告ブロック）の出るサイト
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/174-175
+k05.biz,kakomonn.com,nazolog.com,server-setting.info,z0i.net#@#.adsbygoogle
+www.saitama-np.co.jp#@#div[id^="div-gpt-ad"]
+
 !画像が見れない
 !https://egg.5ch.net/test/read.cgi/android/1556760647/776
 hs-exp.jp#@#.adsbygoogle
 hs-exp.jp##.dfad
+
 
 !Youtube
 !一旦全面見直した。2017.10.31
@@ -1289,6 +1296,13 @@ www.yomiuri.co.jp###ad_dfp_premiumrec
 ||gendai.ismedia.jp/oo/im/m.gif?
 ||diamond.jp/oo/d/m.gif?
 ||www.dhbr.net/oo/d/m.gif?
+! メディア系ビーコン追加
+||mikiki.tokyo.jp/oo/mk/m.gif?
+||toyokeizai.net/oo/tk/m.gif?
+||ure.pia.co.jp/oo/pia/m.gif?
+||www.afpbb.com/oo/afp/m.gif?
+||www.fsight.jp/oo/other/m.gif?
+||www.jprime.jp/oo/other/m.gif?
 
 
 !日テレNews24
@@ -1388,10 +1402,14 @@ hochi.news##.ad
 
 !東スポ
 !gif広告がちかちかしてうざい
-||www.tokyo-sports.co.jp/wp-content/themes/tospo/images/common/banner_reqruit_140526.gif
-||www.tokyo-sports.co.jp/wp-content/uploads/2012/02/003.gif
-www.tokyo-sports.co.jp##.adsbygoogle
-||www.tokyo-sports.co.jp/wp-content/themes/tospo/images/common/miyasaka.gif
+!||www.tokyo-sports.co.jp/wp-content/themes/tospo/images/common/banner_reqruit_140526.gif
+!||www.tokyo-sports.co.jp/wp-content/uploads/2012/02/003.gif
+!www.tokyo-sports.co.jp##.adsbygoogle
+!||www.tokyo-sports.co.jp/wp-content/themes/tospo/images/common/miyasaka.gif
+||img.tokyo-sports.co.jp/wp-content/uploads/2019/07/banner.gif|
+||img.tokyo-sports.co.jp/wp-content/uploads/2019/09/t-spo_300-100.gif|
+www.tokyo-sports.co.jp##.side-bnr 
+www.tokyo-sports.co.jp##.recommend-box.post-list-box
 
 !NEWSポストセブン
 !gifアニメがうざい
@@ -2015,6 +2033,44 @@ japanese.joins.com##.sponsor_link
 
 ! Shopserve製サイト
 ||a.shopserve.jp/tracking/tracking.php?$image
+
+
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/174-175
+! トラッキングその他。/js/analytics.jsも誤爆あるようなのでまとめてない
+! 日刊スポーツ
+||cache1.nipc.jp/js/beacon.js|
+! エアトリ
+||cdn.airtrip.jp/js/frontend/sp/ga_event_tracking.js?
+! 電撃
+||dengeki.com/js/ga.js|
+! Bookwalker
+||eventapi.bookwalker.jp^
+! Sharp
+||jp.sharp/cms/generalBtoC/js/analysis.js|
+! 経営プロ
+||keiei.proweb.jp/js/analytics.js|
+! コナミ
+||konami.net/js/analytics.js?
+! NEC
+||nec-lavie.jp/shop/js/gtm.js|
+! テレ朝
+||news.tv-asahi.co.jp/js/analytics.js|
+! livedoorブログ (Not Found)
+||parts.blog.livedoor.jp/js/analytics.js|
+||parts.blog.livedoor.jp/js/c2.js?
+! Canon
+||rtbcx.canon.jp/bcx/rt_tag.js|
+! RBB Today
+||s.rbbtoday.com/feature/cxense/js/cx-scrolldepth.js|
+! Business Insider
+||www.businessinsider.jp/asset/common/app/pv_count.js|
+! じゃらん
+||www.jalan.net/hacci_beacon/sp_yad_search_list.min.js?
+! マカフィー
+||www.mcafee.com/japan/home/common/js/analytics.js|
+! NHK
+||www3.nhk.or.jp/news/json16/sdc.json?$xmlhttprequest
+||www3.nhk.or.jp/news/parts16/js/chartbeat_config.js|
 !-----------------------------------------------------------------
 
 !----------------------------------------------------

@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 12 Nov 2019 00:00 JST
+! Last modified: 13 Nov 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_2gun.html
 ! 
@@ -179,6 +179,8 @@ jin115.com###gStickyAd
 matome-plus.net##a[href^="http://www.amazon.co.jp"]
 
 
+!はちまと刃以外で###gStickyAdの必要なサイト
+exawarosu.net,heartlife-matome.com,kijyomatome-ch.com,kitizawa.com,mojomojo-licarca.com,onihimechan.com,sutekinakijo.com,www.matometemitatta.com###gStickyAd
 
 
 
@@ -991,6 +993,74 @@ llabtooflatot.blog.fc2.com##center:has(> ins.adsbygoogle)
 !よくわからない
 !shinobi
 !よくわからない
+
+
+
+!--------------------------------------------------------------
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/173
+!あと、ダイエット速報や暇つぶしニュース等の相互RSS絡みは非表示よりネットワークルールでつぶした方がよいかと
+!以下、個人的なリストなので整理してませんが適宜使ってください
+||anicobin.ldblog.jp/rss
+! bandai11.blog.fc2.com
+||blog-imgs-112.fc2.com/b/a/n/bandai11/RSS0628.html|
+! nantuka.blog119.fc2.com
+||blog-imgs-112.fc2.com/n/a/n/nantuka/nankarss2.html|
+||blog.livedoor.jp/diet2channel/rss
+! gahalog.2chblog.jp
+||blog.livedoor.jp/funs/rss.html|
+||blog.livedoor.jp/goldennews/js/rssheader.html|
+||blog.livedoor.jp/i6469/RSS/
+||blog.livedoor.jp/kaigaisoku/rss.html|
+||blog.livedoor.jp/kokopyon1/rss/index.html|
+||blog.livedoor.jp/livejupiter2/headline.html|
+||blog.livedoor.jp/livejupiter2/rss
+||blog.livedoor.jp/love120331/rss0
+||blog.livedoor.jp/nanjstu/top_rss.html|
+||blog.livedoor.jp/nanjstu/bt_rss
+||blog.livedoor.jp/pawapuro_kouryaku/RSS
+||blog.livedoor.jp/rbkyn844/ftp/gazoulink
+||blog.livedoor.jp/rbkyn844/ftp/rss.html|
+||blog.livedoor.jp/rock1963roll/pride_rss
+||blog.livedoor.jp/yakiusoku/rss
+||burusoku-vip.com/users/burusoku-headline-mein.html|
+||chaos2ch.com/rss
+||fesoku.net/sozai/newrsstop.html|
+||fesoku.net/sozai/under$frame
+||inazumanews2.com/low1.html|
+||inazumanews2.com/sel01.html|
+||inutomo11.com/nanj$frame
+||jin115.com/rss
+||kijorabu.com/rss/
+||kininatta2chmatome.doorblog.jp/rss
+||matometanews.com/rss.html|
+||milfled.up.seesaa.net/image/rss
+||netaatoz.jp/rss
+||news.2chblog.jp/headline
+||news.2chblog.jp/rss.htm|
+||news4vip.livedoor.biz/rss-test3.html|
+||nogizaka-46bunno1.blog.jp/rss
+||onecall2ch.com/rss.html|
+||onecall2ch.com/ss
+||onihimechan.com/rss/
+||oryouri.2chblog.jp/rss-001.html|
+||otanew.jp/rss
+||otanews.livedoor.biz/otanews_rss
+||otasoku.livedoor.biz/otarss.html|
+||parusoku.com/119307rss.html|
+||ryusoku.com/assets/html/headline.html|
+||sakarabo.blog.jp/html/rss.html|
+||squallchannel.com/rss2.html|
+||toychan.blog.jp/rss-news.html|
+||tsubamesoku.blog.jp/yaku
+||vehicle123.com/article-rss.html|
+||vehicle123.com/header-center.html|
+||www.all-nationz.com/feed-all-nationz.html|
+!--------------------------------------------------------------
+
+
+
+
+
 
 
 

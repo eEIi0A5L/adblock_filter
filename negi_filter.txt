@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2019/10/16 00:00 JST
+! Last modified: 2019/11/13 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/negi.html
 
@@ -254,6 +254,10 @@ account.live.com###epb
 live.com###epb
 !https://support.microsoft.com/en-us/helpにでてくる最下部のwas this information helpful? Yes/No
 support.microsoft.com##.survey-background
+
+! MSN上部のバナー
+||www.msn.com/ja-jp/homepage/irisbannerajax?
+||www.msn.com/ja-jp/news/irisbannerajax?
 
 !twitter
 !ツイートポップアップ時にこれがあると右クリックで画像表示できないので消す

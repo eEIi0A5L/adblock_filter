@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 12 Nov 2019 00:00 JST
+! Last modified: 13 Nov 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -22,6 +22,11 @@
 !##^.adsbygoogle
 ||ad-api-v01.uliza.jp^
 ||jp-ads.mediaforge.com^
+
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/174-175
+! 共通ルールで問題（エラーやアンチ広告ブロック）の出るサイト
+k05.biz,kakomonn.com,nazolog.com,server-setting.info,z0i.net#@#.adsbygoogle
+www.saitama-np.co.jp#@#div[id^="div-gpt-ad"]
 
 !画像が見れない
 !https://egg.5ch.net/test/read.cgi/android/1556760647/776
@@ -328,6 +333,14 @@ itest.5ch.net##div[style="height: 320px; position: relative; text-align: center;
 ||mediad2.jp^
 ! 5ch遷移時に出る広告の残骸
 itest.5ch.net##^#interstitial-ad-div-id
+
+! 5ch 検索時等
+itest.5ch.net##.ad-adstir
+itest.5ch.net##^#overlay_microad
+itest.5ch.net###js-adstir-300x250
+itest.5ch.net###js-adstir-320x50
+itest.5ch.net##.js-cardview_ad-320x180
+itest.5ch.net##.js-cardview_ad-320x50
 
 !5ch
 itest.5ch.net##.js-ads-content-top_news
@@ -754,16 +767,17 @@ www.fnn-news.com###overLay
 www.fnn-news.com##.appinfo
 fnn.jp##.Ad
 ||amazon-adsystem.com^$domain=fnn.jp
-||sp.fnn.jp/js/ulizahtml5_1.4.10/ulizahtml5-advertising.min.js
+!||sp.fnn.jp/js/ulizahtml5_1.4.10/ulizahtml5-advertising.min.js
+||sp.fnn.jp/js/ulizahtml5_1.10.0/ulizahtml5-advertising.min.js|
 
 !西日本新聞
 ||cdn.apvdr.com/js/VastAdUnit.min.js
 ||apvdr.com/v2/cs.php
 ||tr.quant.jp^
-||cdn.treasuredata.com/sdk/1.7.1/td.min.js
+!||cdn.treasuredata.com/sdk/1.7.1/td.min.js
 ||static.quant.jp/lait.js
 www.nishinippon.co.jp##.recommend
-||www.nishinippon.co.jp/mobile/common/img/bn_epaper_header_1anniv.png
+!||www.nishinippon.co.jp/mobile/common/img/bn_epaper_header_1anniv.png
 
 !Daily News Online
 !||ds.advg.jp^
@@ -919,6 +933,11 @@ eiga.com###rect_ad
 ||recocro.xseed-digital.jp^
 www.gamer.ne.jp##.jackBanner
 www.gamer.ne.jp##.background
+
+! 4Gamer
+www.4gamer.net##.large_banner
+www.4gamer.net##.pr_box
+www.4gamer.net##.top_ad
 
 !マイクロソフト
 support.microsoft.com##.survey-background
@@ -1145,6 +1164,12 @@ blog.fc2.com###unitedblades_div
 ||aka-cdn.adtechus.com^
 ||s3-ap-northeast-1.amazonaws.com/ad-arata/scripts/staticfc2.js
 ||smrtpxl.advertising.com^
+
+! アンチ広告ブロック
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/174-175
+gadgetdamage.blog.fc2.com##^script:has-text(adsbygoogle)
+gtoys.blog48.fc2.com,jp-horse-breaking.blogspot.com,wakudan.seesaa.net,www.kamikiyuki.com##^script:has-text(pagead2)
+||monara.net^$inline-script
 
 !英語ライフ
 kiwi-english.net##.a2a_floating_style
@@ -1469,8 +1494,8 @@ blog.livedoor.jp###apptemp06
 !芸能★アイドル速報♪♪
 !http://geinou-idolu.com/
 ||affiliate.rakuten.co.jp^
-||www.bijo-toiro.com/blogparts/miss_blogparts.html
-||mv-gossip.up.n.seesaa.net/mv-gossip/image/_girls002_imgs_5_7_578d7e01.gif
+!||www.bijo-toiro.com/blogparts/miss_blogparts.html
+!||mv-gossip.up.n.seesaa.net/mv-gossip/image/_girls002_imgs_5_7_578d7e01.gif
 
 !暇つぶしニュース
 !http://blog.livedoor.jp/rbkyn844/
@@ -1512,8 +1537,8 @@ llabtooflatot.blog.fc2.com##center:has(> ins.adsbygoogle)
 buzz-cafe.net###ist_overlay1
 buzz-cafe.net###ist_overlay2
 
-!http://www.ttdyhot.net
-||meerkat.jarodtaylor.com/download/jquery.meerkat.1.3.min.js
+!!http://www.ttdyhot.net
+!||meerkat.jarodtaylor.com/download/jquery.meerkat.1.3.min.js
 
 !http://ghdnewzealandshopc.com/
 !||ghdnewzealandshopc.com/wp-content/uploads/2018/05/300x250_1-320x267.jpg
@@ -1847,6 +1872,53 @@ getnews.jp##.float_sns_button
 
 ! PRタイムズ
 ||prtimes.jp/common/js/googleana.js|
+
+
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/174-175
+! メディア系ビーコン追加
+||mikiki.tokyo.jp/oo/mk/m.gif?
+||toyokeizai.net/oo/tk/m.gif?
+||ure.pia.co.jp/oo/pia/m.gif?
+||www.afpbb.com/oo/afp/m.gif?
+||www.fsight.jp/oo/other/m.gif?
+||www.jprime.jp/oo/other/m.gif?
+
+! トラッキングその他。/js/analytics.jsも誤爆あるようなのでまとめてない
+! 日刊スポーツ
+||cache1.nipc.jp/js/beacon.js|
+! エアトリ
+||cdn.airtrip.jp/js/frontend/sp/ga_event_tracking.js?
+! 電撃
+||dengeki.com/js/ga.js|
+! Bookwalker
+||eventapi.bookwalker.jp^
+! Sharp
+||jp.sharp/cms/generalBtoC/js/analysis.js|
+! 経営プロ
+||keiei.proweb.jp/js/analytics.js|
+! コナミ
+||konami.net/js/analytics.js?
+! NEC
+||nec-lavie.jp/shop/js/gtm.js|
+! テレ朝
+||news.tv-asahi.co.jp/js/analytics.js|
+! livedoorブログ (Not Found)
+||parts.blog.livedoor.jp/js/analytics.js|
+||parts.blog.livedoor.jp/js/c2.js?
+! Canon
+||rtbcx.canon.jp/bcx/rt_tag.js|
+! RBB Today
+||s.rbbtoday.com/feature/cxense/js/cx-scrolldepth.js|
+! Business Insider
+||www.businessinsider.jp/asset/common/app/pv_count.js|
+! じゃらん
+||www.jalan.net/hacci_beacon/sp_yad_search_list.min.js?
+! マカフィー
+||www.mcafee.com/japan/home/common/js/analytics.js|
+! NHK
+||www3.nhk.or.jp/news/json16/sdc.json?$xmlhttprequest
+||www3.nhk.or.jp/news/parts16/js/chartbeat_config.js|
+
 !---------------------------------------------------------------
 
 

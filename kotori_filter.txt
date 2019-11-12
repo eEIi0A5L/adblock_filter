@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ことりフィルタ（SNSボタンブロック）
-! Last modified: Nov 01, 2019 00:00 JST
+! Last modified: Nov 13, 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/kotori.html
 ! 
@@ -149,6 +149,32 @@ prtimes.jp##.container-share
 
 !pixiv百科事典
 dic.pixiv.net###dynamic-biron
+
+
+! akb48matomemory.com
+||apis.google.com/se/0/_/+1/sharebutton?
+
+! 東洋経済等、あちこち
+||b.hatena.ne.jp/images/entry-button/button-only
+! サイボウズ式等、あちこち
+||b.st-hatena.com/images/entry-button/button-only
+! ダイアモンド等、あちこち
+||b.st-hatena.com/images/v4/public/entry-button/button-only
+
+! hentai-kun.hatenablog.jp等（_1と_2両方カバー）
+||platform.tumblr.com/v1/share
+
+! ganzosan.info,www.seipara.com
+||i.share.gree.jp/img/share/button/btn_logo_16.png|
+
+! 一部livedoorブログ,iflyer.tv等
+||scdn.line-apps.com/n/line_add_friends/btn/ja.png|
+
+||www.nhk.or.jp/common/sns/img/
+www3.nhk.or.jp##.share-fixed
+
+||www.yomiuri.co.jp/assets/js/sns-share-
+
 
 !END-----------------------------------------------------
 
