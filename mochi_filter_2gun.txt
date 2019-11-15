@@ -871,6 +871,12 @@ forzaxbox.net##a[href^="http://px.a8.net/"]
 !witcher
 the-witcher.blog.jp##.theerogazou_link
 
+!ちゃん速
+||ad-tag.biz/code/inline.js
+
+
+
+
 
 
 
