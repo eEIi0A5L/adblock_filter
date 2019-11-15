@@ -154,6 +154,7 @@ www.washingtonpost.com###top-furniture
 ||www.washingtonpost.com/pb/resources/img/sprites/ad-sprite.png
 ||www.washingtonpost.com/wp-stat/ad/
 www.washingtonpost.com##div[data-feature-id="ad/leaderboard"]
+washingtonpost.com##^script:has-text(adblocker)
 
 !MailOnline
 www.dailymail.co.uk##.billboard_wrapper
