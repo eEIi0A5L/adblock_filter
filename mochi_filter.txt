@@ -1326,6 +1326,7 @@ news.tbs.co.jp##.md-banner300x250
 !||vo.ad-v.jp^
 ||ad-v.jp^
 ||www.tbs.co.jp/muryou-douga/setting/cuAdControl_v8_utf8.js
+www.tbs.co.jp##.over:has( > .wrap > .recta_bg )
 
 !フジテレビ
 www.fujitv.co.jp###cx_gbheader_sb:nth-ancestor(1)
