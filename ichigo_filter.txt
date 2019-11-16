@@ -230,7 +230,12 @@ syndication.exosrv.com##body
 avgle.com##.grecaptcha-badge
 avgle.com##.vjs-poster
 ||www5.javmost.com/assets/img/50-750.gif
+||newsatads.com^
+||popads.net^$popup,third-party
+||terrapsps.com^
 
+!javcl
+||popads.net^$popup,third-party
 
 !rocks
 ||.rocks/htmm/2020.php$popup
