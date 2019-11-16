@@ -2132,8 +2132,8 @@ japanese.joins.com##.sponsor_link
 !http://www.senmaike.net/toide/
 ||usd.ezekiel-sam.com/zcvisitor/
 ||usd.ezekiel-sam.com/zcredirect?visitid=
-/^https:\/\/[0-9]+.redirect[0-9]+-[0-9]+\.space/
-/^http:\/\/www\.jps[0-9]+-update.club/
+/^https:\/\/[0-9]+\.redirect[0-9]+-[0-9]+\.space/
+/^http:\/\/www\.jps[0-9]+-update\.club/
 
 !https://topernews.me/?p=he4deyjrmm5gi3bpg4zq
 ||topernews.me^
@@ -2158,7 +2158,7 @@ japanese.joins.com##.sponsor_link
 ||animate.tv^
 
 !http://www.ldandk.com/gollbetty/gollbetty.html
-/^http:\/\/mobile[0-9]+.stydbui[0-9]+.live/
+/^http:\/\/mobile[0-9]+\.stydbui[0-9]+\.live/
 
 
 !ict119.com
@@ -2167,7 +2167,7 @@ japanese.joins.com##.sponsor_link
 /^http:\/\/prize[0-9]+\.smmhck[0-9]+\.live/
 !http://fate.5ch.net/test/read.cgi/ios/1524080618/349
 ||tdsjsext1.com^
-/^http:\/\/competition[0-9]+\.nonamesrv[0-9]+.live/
+/^http:\/\/competition[0-9]+\.nonamesrv[0-9]+\.live/
 
 !----------------------------------------------------
 
