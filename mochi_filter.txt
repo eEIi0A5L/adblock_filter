@@ -2170,6 +2170,9 @@ japanese.joins.com##.sponsor_link
 ||tdsjsext1.com^
 /^http:\/\/competition[0-9]+\.nonamesrv[0-9]+\.live/
 
+!http://www.ramsar.org/
+/^http:\/\/mobile[0-9]+\.nonamefbr[0-9]+\.live/
+
 !----------------------------------------------------
 
 
