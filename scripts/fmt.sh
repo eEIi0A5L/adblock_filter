@@ -6,6 +6,12 @@ function cosmetic_filter_check()
     LINE="$1"
     #echo "[C]$LINE"
 
+    # クラス指定なのに#を三つ付けてしまうミスのチェック
+    if [[ $LINE =~ \#\#\#\. ]]; then
+        echo "match1: LINE=[$LINE]"
+        return 1 # error
+    fi
+
     # タグ指定なのに#を三つ付けてしまうミスのチェック
     if [[ $LINE =~ \#\#\#([^ :]*) ]]; then
         id=${BASH_REMATCH[1]}

@@ -1,4 +1,4 @@
-name: CI
+name: check on push
 
 on: [push]
 
@@ -9,8 +9,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: ./scripts/fmt.sh
-      run: ./scripts/fmt.sh
+    - name: make test
+      run: make test
     #- name: setup environments
     #  run: |
     #    sudo apt install whois
