@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 20 Oct 2019 00:00 JST
+! Last modified: 19 Nov 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_extended.html
 ! 
@@ -415,6 +415,9 @@ video.9tsu.com###sidebar-ads
 !||mmaaxx.com/9tsu/thumbnail/pr_
 !||mmaaxx.com/9tsu/thumbnail/index.html
 ||mmaaxx.com^
+!https://video.9tsu.com/を見てる時に動画クリックしたらたまに>>647の所に繋がるんだよな
+!http://egg.5ch.net/test/read.cgi/software/1556498678/654
+9tsu.com##+js(abort-current-inline-script.js, 9tsuPopAd)
 
 !Nexus
 ||www.nexusmods.com/contents/scripts/advert.js
