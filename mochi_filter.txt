@@ -1871,6 +1871,11 @@ mdpr.jp##span[id^="ad_is_"]
 natalie.mu###rectanglebanner
 natalie.mu##.NA_ad300x250
 
+!DailyNews
+dailynewsonline.jp###adSideA
+dailynewsonline.jp###adSideB
+dailynewsonline.jp##.adArea
+
 !TVerでテレ東だけが見れない
 @@||pubads.g.doubleclick.net^$domain=tver.jp
 
