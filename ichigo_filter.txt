@@ -1119,6 +1119,21 @@ myhdjav.net###preroll
 ||admin.blog.fc2.com/dctanalyzer.php
 ||lamp-shade.net/sumomo_ch/
 
+!avav69.blog
+||doublepimp.com^$popup
+||popcash.net^$popup
+hqq.tv##+js(abort-on-property-write, smrtSB)
+hqq.tv##+js(abort-on-property-write, smrtSP)
+hqq.tv##+js(popads-dummy)
+hqq.tv##+js(set-constant, sadbl, false)
+hqq.tv##+js(window.open-defuser)
+hqq.tv##+js(aopr, console.clear)
+hqq.tv##+js(aopr, adBlockDetected)
+
+
+
+
+
 
 
 
