@@ -417,7 +417,7 @@ video.9tsu.com###sidebar-ads
 ||mmaaxx.com^
 !https://video.9tsu.com/を見てる時に動画クリックしたらたまに>>647の所に繋がるんだよな
 !http://egg.5ch.net/test/read.cgi/software/1556498678/654
-9tsu.com##+js(abort-current-inline-script.js, 9tsuPopAd)
+video.9tsu.com##^script:has-text(9tsuPopAd)
 
 !Nexus
 ||www.nexusmods.com/contents/scripts/advert.js
