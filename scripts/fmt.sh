@@ -17,27 +17,27 @@ function cosmetic_filter_check()
         id=${BASH_REMATCH[1]}
         echo "id=[$id]"
         if [[ $id =~ ^(html|head|body)$ ]]; then
-            echo "match1"
+            echo "match1: LINE=[$LINE]"
             return 1 # error
         fi
         if [[ $id =~ ^(meta|link|base|bdo)$ ]]; then
-            echo "match2"
+            echo "match2: LINE=[$LINE]"
             return 1 # error
         fi
         if [[ $id =~ ^(h[1-6]|p|div|span|center|hr|br|address)$ ]]; then
-            echo "match3"
+            echo "match3: LINE=[$LINE]"
             return 1 # error
         fi
         if [[ $id =~ ^(ul|ol|li|dl|dt|dd|dir)$ ]]; then
-            echo "match4"
+            echo "match4: LINE=[$LINE]"
             return 1 # error
         fi
         if [[ $id =~ ^(table|caption|tbody|thead|tfoot|tr~th~td~col~colgroup)$ ]]; then
-            echo "match5"
+            echo "match5: LINE=[$LINE]"
             return 1 # error
         fi
         if [[ $id =~ ^(frame|iframe)$ ]]; then
-            echo "match6"
+            echo "match6: LINE=[$LINE]"
             return 1 # error
         fi
         return 0
