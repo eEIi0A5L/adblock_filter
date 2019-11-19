@@ -44,10 +44,51 @@ function cosmetic_filter_check()
     fi
     return 0
 }
+function regexp_check()
+{
+    LINE="$1"
+    echo "regexp_check(): LINE=[$LINE]"
+    if [[ $LINE =~ \/(.*)\/ ]]; then
+        nakami=${BASH_REMATCH[1]}
+        echo "nakami=[$nakami]"
+        #if [[ $nakami !~ ^\^ ]]; then
+        #if [[ $nakami !~ abc ]]; then
+        #if [[ ! $nakami =~ abc ]]; then
+        if [[ ! $nakami =~ ^\^ ]]; then
+            if [[ ! $nakami =~ \$$ ]]; then
+                echo "regexp_check(): error: LINE=[$LINE]"
+                return 1 # error
+            fi
+        fi
+        
+    fi
+    return 0
+}
+function is_regexp_filter()
+{
+    LINE="$1"
+    if [[ $LINE =~ ^\/(.*)\/$ ]]; then
+        nakami=${BASH_REMATCH[1]}
+        echo "nakami=[$nakami]"
+        return 0
+    fi
+    return 1
+}
 function network_filter_check()
 {
     LINE="$1"
     #echo "[N]$LINE"
+    is_regexp_filter "$LINE"
+    result=$?
+    if [ $result -eq 0 ]; then
+        regexp_check "$LINE"
+        result=$?
+        if [ $result -ne 0 ]; then
+            echo "error: LINE=[$LINE]"
+            return $result # error
+        fi
+    fi
+
     return 0
 }
 
