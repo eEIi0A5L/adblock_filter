@@ -972,6 +972,23 @@ openload.co##^script:has-text(popAdsLoaded)
 !txxx
 txxx.com###fel-udpl
 txxx.com##.player > span > table[style="transform: scale(1);"]
+txxx.com##+js(acis, vdaList)
+txxx.com##+js(abort-on-property-read, ExoLoader)
+txxx.com##+js(abort-on-property-write, ads_priv)
+txxx.com##+js(aopr, BetterJsPop)
+||sextoysgfs.com/saber/
+||asiangfsex.com/saber/
+||8nc8shot.txxx.com/saber/
+txxx.com##^script:has-text(ad_sub)
+||cradver.livejasmin.com^$popunder
+txxx.com##.underplayer_banner
+txxx.com##.afs_ads
+||bangdom.com^$3p
+||txxx.com/saber/txxx_fel/dutti/
+||asiangfsex.com^$3p
+/^https?:\/\/.*\/.*sw[0-9(.|_)].*/$script,domain=txxx.com
+||wpu.sh^$3p
+txxx.com##.adsBox
 
 !javmec
 ||muqson0kgr.com^
@@ -1130,7 +1147,10 @@ hqq.tv##+js(window.open-defuser)
 hqq.tv##+js(aopr, console.clear)
 hqq.tv##+js(aopr, adBlockDetected)
 
-
+!phphx
+||phphx.com/wap/template/wap888/ads/
+||136.0.216.59/js/gg/$image
+||phphx.com/js/gg/13.gif
 
 
 
