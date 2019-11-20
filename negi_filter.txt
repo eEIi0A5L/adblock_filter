@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2019/11/13 00:00 JST
+! Last modified: 2019/11/21 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/negi.html
 
@@ -348,6 +348,13 @@ www.dailymail.co.uk##.floating-buttons
 
 !Instagram
 instagram.com##footer + div
+!http://egg.5ch.net/test/read.cgi/software/1556498678/678
+! 11/21/2019 https://www.instagram.com
+! 画面下のログインバナー
+www.instagram.com##nav .glyphsSpriteGrey_Close:nth-ancestor(2):has(div:has-text(/^\s*(?:Log In to Instagram|Instagramにログイン)\s*$/))
+! 下にスクロールしていくと出てくるログインダイアログボックス
+www.instagram.com##[role="presentation"]:has(div:has-text(/^\s*(?:Log in to continue|ログインする)\s*$/))
+www.instagram.com##body:style(overflow: auto !important)
 
 !cnn.jp
 www.cnn.co.jp###right-column > div:last-child
