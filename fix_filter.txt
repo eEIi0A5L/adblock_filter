@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: Nov 03, 2019 00:00 JST
+! Last modified: Nov 20, 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/fix.html
 ! 
@@ -188,6 +188,16 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 !EasyPrivacyの||analytics.edgekey.net^が原因でNHKニュースの動画が再生されなくなった
 !http://egg.5ch.net/test/read.cgi/software/1562160518/136
 @@||analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js$script,domain=nhk.or.jp
+
+
+!http://egg.5ch.net/test/read.cgi/software/1556498678/665
+!NHKで、
+!再生できない場合
+@@||analytics.edgekey.net/ma_library/$script,domain=nhk.or.jp
+!途中で止まる場合
+@@||analytics.edgekey.net/config/beacon-$xmlhttprequest,domain=nhk.or.jp
+
+
 
 
 
