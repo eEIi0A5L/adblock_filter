@@ -2131,7 +2131,7 @@ japanese.joins.com##.sponsor_link
 
 !http://www.philip-reeve.com/mortal_engines.html
 /media/mainstream/alert.mp3|
-/wap/mobsurvey/$script
+^wap^mobsurvey^$script
 ||wurfl.io/wurfl.js
 /^https?\:\/\/app[0-9]{4}\.tutonhamon[0-9]{2}\.live/
 

@@ -1578,7 +1578,7 @@ sports.khan.co.kr###scrollDiv
 ||www.nocutnews.co.kr/ad/
 ||js2.keywordsconnect.com^
 ||nad.cbs.co.kr^
-/realmedia/ads/$domain=~m.danawa.com
+^realmedia^ads^$domain=~m.danawa.com
 ||adv.mediaharbor.co.kr/nad/
 ||adv.imadrep.co.kr^
 !||adgrp1.ad4989.co.kr/cgi-bin/pelicanc.dll^

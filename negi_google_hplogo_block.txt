@@ -6,7 +6,7 @@
 ! 
 ! 
 
-/logos/$domain=google.co.jp|google.com
+^logos^$domain=google.co.jp|google.com
 google.co.jp###hplogo
 !##^にいぜんバグあり
 !suspendTabsUntilReady=trueでホームがgoogleの時に、##^でテキストがとりこぼしになる。そして##^があると###hplogoが無視されるので、テキストが表示されたままになってしまう

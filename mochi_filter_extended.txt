@@ -75,7 +75,7 @@ cnn.com###partner-zone
 cnn.com##.gig-share-bar-container
 cnn.com##.m-share
 ||sharethrough.com^$third-party
-/affiliate.linker/$domain=cnn.com
+^affiliate.linker^$domain=cnn.com
 ||cdn.optimizely.com/js/
 
 
@@ -263,7 +263,7 @@ finance.yahoo.com###mrt-node-Lead-1-Ad
 !||s.yimg.com/os/yc/js/td-ads.
 ||ad.360yield.com^
 ||beap-bc.yahoo.com^
-/moneyball/ads/$domain=yahoo.com
+^moneyball^ads^$domain=yahoo.com
 @@||yimg.com/rq/darla/*/g-r-min.js$domain=yahoo.com
 yahoo.com##.Feedback
 yahoo.com##.ads_wrapper
