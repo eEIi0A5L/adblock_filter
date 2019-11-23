@@ -119,10 +119,32 @@ function sub()
         if [[ $line =~ ^\[Adblock ]]; then
             continue
         fi
-        regexp='!'
-        if [[ $line =~ $regexp ]]; then
+        if [[ $line =~ ^\! ]]; then
             continue
         fi
+
+        # コメントに!がついていない可能性あり
+        if [[ $line =~ [亜-熙ぁ-んァ-ヶ] ]]; then
+            if [[ ! $line =~ [\"\(] ]]; then
+                if [[ ! $line =~ 今日何食べる ]]; then
+                    echo "error: invalid character: $line"
+                    return 1
+                fi
+            fi
+        fi
+        #regexp="[0-9a-zA-Z\|/\.@\$=,\*\?\^\-:\(\)]+"
+        #regexp="[0-9a-zA-Z\|/\.@\$=\*\?,\^\-\[\]]+"
+        #regexp="[[:punct:][:alnum:][:blank:]]+"
+        #regexp="^[[:punct:][:alnum:]]+$"
+        #echo "line=[$line]"
+        #if [[ ! $line =~ $regexp ]]; then
+        #    if [[ $line =~ ^($regexp) ]]; then
+        #        matchstr=${BASH_REMATCH[1]}
+        #    fi
+        #    echo "error: invalid character: $line"
+        #    echo "matchstr=[$matchstr]"
+        #    return 1
+        #fi
         #echo "$line"
         is_cosmetic_filter "$line"
         result=$?
