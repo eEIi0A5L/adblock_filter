@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 17 Nov 2019 00:00 JST
+! Last modified: 23 Nov 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -275,6 +275,9 @@ auctions.yahoo.co.jp###footer + section[class^="Component-"]
 ! ヤフオクでたまに下部に出てくるやつ
 ||s.yimg.jp/images/auct/salespromotion/$image
 page.auctions.yahoo.co.jp##^script:has-text(floatBannerData)
+
+!Yahooクリエイターズ
+creators.yahoo.co.jp##.FixedButtons 
 
 ! 楽天
 !/akam/11/*
