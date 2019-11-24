@@ -3,3 +3,6 @@ test:
 
 maint:
 	./scripts/maint.sh
+
+dup:
+	./scripts/dup.sh
