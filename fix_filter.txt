@@ -183,6 +183,8 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 
 !uBlock Originで、4sharedに入ることすらできないんだけど何か問題でもある？
 !http://egg.5ch.net/test/read.cgi/software/1556498678/590
+!参考までに、MVPS hostsに該当ルールあり。uBOデフォでは未チェックのはず
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/178
 @@||www.4shared.com^
 
 !EasyPrivacyの||analytics.edgekey.net^が原因でNHKニュースの動画が再生されなくなった
@@ -197,7 +199,14 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 !途中で止まる場合
 @@||analytics.edgekey.net/config/beacon-$xmlhttprequest,domain=nhk.or.jp
 
+! 豆腐、EasyList: 3Dセキュア対応サイトとクレジットの組合せで決済エラー
+@@||pay.veritrans.co.jp/pop/v1/javascripts/pop.js$script
 
+! uBlock Unbreak: 神戸新聞の動画が再生されない
+@@||aka-secure-img.uliza.jp/Player/js/ulizahtml5-google-analytics.min.$script,domain=www.kobe-np.co.jp
+
+! Easylist スマホ版5chで検索ができない
+@@||itest.5ch.net/rect/special_ads.json|$xhr
 
 
 

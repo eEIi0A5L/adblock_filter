@@ -286,6 +286,8 @@ creators.yahoo.co.jp##.FixedButtons
 ||r.r10s.jp/com/js/omniture/plugin/sc_trackingid.js|
 ||ias.rakuten.co.jp/gw.js?$subdocument
 
+! 楽天トラベル
+||img.travel.rakuten.co.jp/camp/app-always/bnr/bn_Android.jpg|
 
 !ニコニコブロマガ
 sp.ch.nicovideo.jp###appBanner
@@ -336,13 +338,15 @@ itest.5ch.net##div[style="height: 320px; position: relative; text-align: center;
 ||mediad2.jp^
 ! 5ch遷移時に出る広告の残骸
 itest.5ch.net##^#interstitial-ad-div-id
+! たまに下部に出るバナーの残骸
+itest.5ch.net##^#float-bnr
 
 ! 5ch 検索時等
 itest.5ch.net##.ad-adstir
 itest.5ch.net##^#overlay_microad
 itest.5ch.net###js-adstir-300x250
 itest.5ch.net###js-adstir-320x50
-itest.5ch.net##.js-cardview_ad-320x180
+itest.5ch.net##.js-cardview_ad-320x180 > iframe
 itest.5ch.net##.js-cardview_ad-320x50
 
 !5ch
@@ -834,6 +838,8 @@ tokyograffiti.grfft.jp##.fixbtn
 ||movie-a.nhk.or.jp/movie/api/lib/VisitorAPI.js|
 ||player-inhouse.pikselpalette.com/static/components/adobe-heartbeat/2.0.1/VisitorAPI.js|
 ||player-inhouse.pikselpalette.com/static/components/adobe-analytics/$script
+! NHKアプリバナー
+||www3.nhk.or.jp/news/json16/appbanner.json?$xhr
 
 ! メディア系ビーコンども。誤爆怖いのでまとめてない
 ||bunshun.jp/oo/bs/m.gif?

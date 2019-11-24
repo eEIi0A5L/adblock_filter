@@ -175,6 +175,36 @@ www3.nhk.or.jp##.share-fixed
 
 ||www.yomiuri.co.jp/assets/js/sns-share-
 
+! 5chまとめのまとめ
+||5chmm.jp/img/t_mini-b.png|
+
+! Reuter
+||s2.reutersmedia.net/resources_v2/js/rcom-social-share.js|
+
+! wordpress.com
+||public-api.wordpress.com/connect/?googleplus-sign-in$subdocument
+
+!------------------------------------------------
+!以下モバイル用ソーシャルルール（需要高そうなサイト）
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/178
+||news.nicovideo.jp/assets/icon_sns-
+||parts.blog.livedoor.jp/img/lite2/item/social_buttons
+||parts.blog.livedoor.jp/img/usr/cmn/btn_add_line.png|
+||s4.reutersmedia.net/resources_v3/js/win-sharetools.js|
+||secure-dcdn.cdn.nimg.jp/nicochannel/spchfront/img/lib/line_btn.png|
+||wired.jp/wp-content/themes/wired3/common/images/fb-share.png|
+||wired.jp/wp-content/themes/wired3/common/img/line-send.png|
+||www.gizmodo.jp/assets/sp/img/p-post_share
+||www.news24.jp/sp/image/common/btn_
+news.mynavi.jp##^.sns-list
+note.mu##.p-article__share
+r25.jp##.SnsShareFooter
+thehackernews.com###mobile-share
+www.jiji.com##^.SnsBtn
+!------------------------------------------------------------
+
+
+
 
 !END-----------------------------------------------------
 

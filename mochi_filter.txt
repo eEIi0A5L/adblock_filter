@@ -1979,6 +1979,16 @@ japanese.joins.com##.sponsor_link
 ||b.travel-assets.com/travel-pixel-js/$script
 ||www.expedia.co.jp/api/datacapture/track|$xmlhttprequest
 
+! ぐるなび
+||c-r.gnst.jp/r/campaign/banner_point_outside.png?
+||c-www.gnst.jp/home/img/ftb_
+www.gnavi.co.jp##.ftb
+
+! techmemo.biz
+||www.image-rentracks.com^
+
+
+
 
 
 
@@ -2043,8 +2053,6 @@ japanese.joins.com##.sponsor_link
 
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/174-175
 ! トラッキングその他。/js/analytics.jsも誤爆あるようなのでまとめてない
-! 日刊スポーツ
-||cache1.nipc.jp/js/beacon.js|
 ! エアトリ
 ||cdn.airtrip.jp/js/frontend/sp/ga_event_tracking.js?
 ! 電撃
@@ -2070,8 +2078,6 @@ japanese.joins.com##.sponsor_link
 ||s.rbbtoday.com/feature/cxense/js/cx-scrolldepth.js|
 ! Business Insider
 ||www.businessinsider.jp/asset/common/app/pv_count.js|
-! じゃらん
-||www.jalan.net/hacci_beacon/sp_yad_search_list.min.js?
 ! マカフィー
 ||www.mcafee.com/japan/home/common/js/analytics.js|
 ! NHK
