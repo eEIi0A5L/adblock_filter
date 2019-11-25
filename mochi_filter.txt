@@ -1293,17 +1293,27 @@ www.yomiuri.co.jp###ad_dfp_premiumrec
 
 ! メディア系ビーコンども。誤爆怖いのでまとめてない
 !||bunshun.jp/oo/bs/m.gif?
+!||gendai.ismedia.jp/oo/im/m.gif?
+!||diamond.jp/oo/d/m.gif?
+!||www.dhbr.net/oo/d/m.gif?
+!! メディア系ビーコン追加
+!||mikiki.tokyo.jp/oo/mk/m.gif?
+!||toyokeizai.net/oo/tk/m.gif?
+!||ure.pia.co.jp/oo/pia/m.gif?
+!||www.afpbb.com/oo/afp/m.gif?
+!||www.fsight.jp/oo/other/m.gif?
+!||www.jprime.jp/oo/other/m.gif?
 ||bunshun.jp/oo/
-||gendai.ismedia.jp/oo/im/m.gif?
-||diamond.jp/oo/d/m.gif?
-||www.dhbr.net/oo/d/m.gif?
-! メディア系ビーコン追加
-||mikiki.tokyo.jp/oo/mk/m.gif?
-||toyokeizai.net/oo/tk/m.gif?
-||ure.pia.co.jp/oo/pia/m.gif?
-||www.afpbb.com/oo/afp/m.gif?
-||www.fsight.jp/oo/other/m.gif?
-||www.jprime.jp/oo/other/m.gif?
+||gendai.ismedia.jp/oo/
+||diamond.jp/oo/
+||www.dhbr.net/oo/
+!! メディア系ビーコン追加
+||mikiki.tokyo.jp/oo/
+||toyokeizai.net/oo/
+||ure.pia.co.jp/oo/
+||www.afpbb.com/oo/
+||www.fsight.jp/oo/
+||www.jprime.jp/oo/
 
 
 !日テレNews24
@@ -1997,7 +2007,8 @@ www.gnavi.co.jp##.ftb
 !---------------------------------------------------------------
 !ビーコン
 !メディア系ビーコン
-||president.jp/oo/p/m.gif?
+!||president.jp/oo/p/m.gif?
+||president.jp/oo/
 
 ! エキテン
 ||s.ekiten.jp/js/static/VisitorAPI.js?
