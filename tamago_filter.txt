@@ -178,7 +178,7 @@ watch.impress.co.jp##.ad
 !akiba-pc.watch.impress.co.jp###amp-floating-area
 !www.watch.impress.co.jp###amp-floating-area
 watch.impress.co.jp###amp-floating-area
-!下部SNSバーの消し方がやっとわかった。。。
+!下部SNSバーの消し方がやっとわかった。。。→悲報：suspendTabsUntilReadyが効かない。。。
 watch.impress.co.jp##+js(no-setTimeout-if.js, sp-floating-layer)
 
 !下記で消えるが画像も消えてしまった
