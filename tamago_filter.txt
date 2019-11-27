@@ -1014,6 +1014,7 @@ jbbs.shitaraba.net##.ad-320_50
 !||oxjapan-d.openx.net^
 ||js.gsspcln.jp^$script
 ||dmp.im-apps.net/js/1002437/0001/itm.js
+jbbs.shitaraba.net##.ad-300_250
 
 !GreasyFork
 ||cdn.carbonads.com^

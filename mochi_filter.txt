@@ -1475,6 +1475,9 @@ www.nikkan-gendai.com##.pr
 ||cdnext.stream.ne.jp/img/common/gendai_online.png|
 ||cdnext.stream.ne.jp/img/pr/
 
+!現代ビジネス
+gendai.ismedia.jp###GB_pc_under_right_Rectangle:nth-ancestor(2)
+
 !IZA
 www.iza.ne.jp##.ad-rectangle-banner
 www.iza.ne.jp##div[style="width:300px;height:600px;"]
