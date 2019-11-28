@@ -1147,6 +1147,7 @@ japanese.engadget.com##div[class^="js-"]:has( iframe[src^="//rcm-fe.amazon-adsys
 !||images-fe.ssl-images-amazon.com/images/I/$domain=~amazon.co.jp|~amazon.com
 ||images-fe.ssl-images-amazon.com/images/I/$domain=~amazon.co.jp|~amazon.com|~booklog.jp
 japanese.engadget.com##iframe[src^="//rcm-fe.amazon-adsystem.com"]
+www.engadget.com##.o-mobile-share-footer
 
 
 !jbpress.ismedia.jp
