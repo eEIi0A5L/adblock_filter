@@ -1591,6 +1591,10 @@ www.pcgamer.com##div[style="position: relative; box-sizing: border-box; height: 
 www.pcgamer.com##div[style="position: relative; box-sizing: border-box; height: auto; margin: 0px auto 20px; text-align: center; display: block; pointer-events: none; transform: none; width: 300px; background-color: rgb(237, 237, 237); padding-bottom: 10px; clear: both;"]:has-text(Advertisement)
 ||0914.global.ssl.fastly.net/ad2/
 
+!doope
+doope.jp##.cont_related
+doope.jp##.wptouch-showcase
+
 !panpan
 !アダルトサイト
 ||adpon.net^
