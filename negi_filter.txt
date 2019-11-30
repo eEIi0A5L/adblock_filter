@@ -56,6 +56,7 @@ nicovideo.jp###Nico-premiumBanner
 nicovideo.jp##.premiumHeader-inner
 !ニコニコニュースを開いたときに若干まごつくのを回避する
 news.nicovideo.jp##^script:has-text(dataLayer)
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js,domain=news.nicovideo.jp
 
 !Google
 !ポップアップ「こちらによくアクセスする方は Google をホームページに」
