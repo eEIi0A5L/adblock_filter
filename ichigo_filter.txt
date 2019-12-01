@@ -289,6 +289,8 @@ tube8.com##.gototop
 ||etahub.com^
 www.tube8.com##^script:has-text(checkForAdBlock)
 www.tube8.com##^script:has-text(e.run)
+tube8.com###catFishBanner
+tube8.com##.footerBanner
 
 !babycondom.com
 babycondom.com###overlay-advertising
