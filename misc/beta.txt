@@ -1,5 +1,7 @@
 ! beta.txt
 
-
+!誤爆があったような気がするので一旦ベータで様子を見る
+!これがないとニコニコニュース、teratailでページ表示が重くなる
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js
 
 !END
