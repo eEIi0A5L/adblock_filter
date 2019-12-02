@@ -529,7 +529,7 @@ javfinder.sh##iframe[width="728"][height="90"]
 javfinder.sh##img[width="728"][height="90"]
 ||rlomrjxrpsev.com^$third-party
 @@/js/ads.js$script,domain=javfinder.sh
-javfinder.sh##+js(setTimeout-defuser.js, _0x)
+javfinder.sh##+js(no-setTimeout-if.js, _0x)
 /^https?:\/\/[a-z0-9]{5,14}\.(com|bid|online|top|club)\/[0-9a-f]{32}\/invoke.js$/$third-party,script,domain=javfinder.sh
 !javfinder.sh##.afs_ads
 ||google-analytics.com/analytics.js$important,script,domain=javfinder.sh
@@ -826,7 +826,7 @@ bejav.net##.glyphicon-arrow-up
 fembed.com##+js(abort-on-property-read.js, decodeURI)
 fembed.com##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
 fembed.com##+js(disable-newtab-links.js)
-fembed.com##+js(setInterval-defuser.js, (), 500)
+fembed.com##+js(no-setInterval-if.js, (), 500)
 
 !xvideo-jp.com
 ||muryouav.avximg.com/2019-01/upload/b0b430c31430a5bca89e175b91f28e8861812745.gif
@@ -931,7 +931,7 @@ thatav.net##.ad-body
 
 !javwhores
 javwhores.com##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
-javwhores.com##+js(setInterval-defuser.js, (), 500)
+javwhores.com##+js(no-setInterval-if.js, (), 500)
 ||fd7qz88ckd.com^
 ||chatbro.com/embed.js$third-party
 ||ptawe.com^$third-party

@@ -133,12 +133,13 @@ abema.tv##:xpath(//span[contains(text(), "詳細を見る")]/parent::p/parent::a
 !Abema次のビデオ
 !abema.tv##div[class]:has(> div > a[href$="?next=true"])
 !次の動画の自動遷移をオフる
-!abema.tv##+js(setTimeout-logger.js)
-!abema.tv##+js(setInterval-logger.js)
+!abema.tv##+js(no-setTimeout-if.js.js)
+!abema.tv##+js(no-setInterval-if.js)
 abema.tv##div[class^="com-vod-VODNextProgramInfo"]
 abema.tv##.com-vod-VODNextProgramInfo
 abema.tv##.com-vod-VODNextProgramInfo--is-show
-abema.tv##+js(setInterval-defuser.js, function(){e.props.playingAd&&(e.resetCountDown(),clearInterval(e.nextProgramCountDownTimer)),t({nextProgramCountDown:n}),0===n&&(e.resetCountDown(),e.loadNextEpisode(),n=b.NEXT_EPISODE_COUNTDOWN_TIME),n-=1}, 1000)
+!abema.tv##+js(no-setInterval-if.js, function(){e.props.playingAd&&(e.resetCountDown(),clearInterval(e.nextProgramCountDownTimer)),t({nextProgramCountDown:n}),0===n&&(e.resetCountDown(),e.loadNextEpisode(),n=b.NEXT_EPISODE_COUNTDOWN_TIME),n-=1}, 1000)
+abema.tv##+js(no-setInterval-if.js, NEXT_EPISODE_COUNTDOWN_TIME)
 
 !abematimes
 !左下のオンエアボックス
