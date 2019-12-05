@@ -1858,6 +1858,10 @@ getnews.jp##.float_sns_button
 !下部スライドバナーがうざすぎる
 ||tokyo-ame2.jwa.or.jp/lib/slick.min.js
 
+!web.archive
+web.archive.org###donate_banner
+
+
 
 
 
