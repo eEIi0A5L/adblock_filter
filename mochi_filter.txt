@@ -23,6 +23,7 @@
 !.jp,.net,.com,.org,.me,.tv,.biz,.info##^.adsbygoogle
 
 !ページを開いたときにひっかかる感じがするので下記を共通にいれとく。2019.12.6
+! ひっかかる問題が発生するサイト、www.cinra.net, ニコニコニュース、大百科、
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js
 
 
