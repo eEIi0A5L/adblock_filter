@@ -22,6 +22,10 @@
 !.jp,.net,.com,.org,.me,.tv,.biz,.info##^div[id^="div-gpt-ad"]
 !.jp,.net,.com,.org,.me,.tv,.biz,.info##^.adsbygoogle
 
+!ページを開いたときにひっかかる感じがするので下記を共通にいれとく。2019.12.6
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js
+
+
 
 ! 共通ルールで問題（エラーやアンチ広告ブロック）の出るサイト
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/174-175
