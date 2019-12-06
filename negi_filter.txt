@@ -133,7 +133,7 @@ abema.tv##:xpath(//span[contains(text(), "詳細を見る")]/parent::p/parent::a
 !Abema次のビデオ
 !abema.tv##div[class]:has(> div > a[href$="?next=true"])
 !次の動画の自動遷移をオフる
-!abema.tv##+js(no-setTimeout-if.js.js)
+!abema.tv##+js(no-setTimeout-if.js)
 !abema.tv##+js(no-setInterval-if.js)
 abema.tv##div[class^="com-vod-VODNextProgramInfo"]
 abema.tv##.com-vod-VODNextProgramInfo
