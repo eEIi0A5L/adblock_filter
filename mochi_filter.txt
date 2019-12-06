@@ -2205,6 +2205,11 @@ www.gnavi.co.jp##.ftb
 !http://www.ramsar.org/
 /^http:\/\/mobile[0-9]+\.nonamefbr[0-9]+\.live/
 
+!http://www.kokochiyu.com/
+||sarah.trktnc.com^
+||tel-kod.ru^
+||tudocasamento.com^
+
 !----------------------------------------------------
 
 
