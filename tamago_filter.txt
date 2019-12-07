@@ -229,7 +229,8 @@ m.yahoo.co.jp###psnl_toplink
 ||s.yimg.jp/images/evt/kaimono/2019/ytop/sp/shp_718_176_5.png
 
 !Yahooトラッカー
-||mempf.yahoo.co.jp/offer?$script
+!Yahooメールで多数のアカウントをログインしなおした時に出るYahooからの大切なお知らせが表示されないのでコメント化。2019.12.7
+!||mempf.yahoo.co.jp/offer?$script
 ||s.yimg.jp/images/approach/jslib/clear.gif?$subdocument
 !||s.yimg.jp/images/clear.gif|
 ||s.yimg.jp/images/jpnews/cre/bylines/js/chartbeat.js|
