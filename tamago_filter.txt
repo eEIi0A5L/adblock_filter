@@ -1340,6 +1340,7 @@ hosyusokuhou.jp##.abox
 ||hosyusokuhou.jp/wp/wp-content/uploads/2019/05/sm-banner300_250_h0-1.jpg
 !||hosyusokuhou.jp/wp/wp-content/uploads/2019/04/849f0c_bdb122b7bcf945639524ec6d7225c655mv2.jpg
 !||hosyusokuhou.jp/wp/wp-content/themes/hssk/commons/box_dummy.png
+hosyusokuhou.jp###ovrss
 
 !はいほー速報・改
 !||img.fam-ad.com^

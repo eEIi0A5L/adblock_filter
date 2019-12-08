@@ -473,6 +473,7 @@ hosyusokuhou.jp##.abanner
 ||hosyusokuhou.jp/wp/wp-content/uploads/2019/06/PC.gif
 hosyusokuhou.jp##.abox
 ||hosyusokuhou.jp/wp/wp-content/themes/hssk/commons/box_dummy.png
+hosyusokuhou.jp##.kikin
 
 
 
