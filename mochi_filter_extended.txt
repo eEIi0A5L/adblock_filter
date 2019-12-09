@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 19 Nov 2019 00:00 JST
+! Last modified: 09 Doc 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_extended.html
 ! 
@@ -77,6 +77,16 @@ cnn.com##.m-share
 ||sharethrough.com^$third-party
 ^affiliate.linker^$domain=cnn.com
 ||cdn.optimizely.com/js/
+
+!BBC
+!BBCで下記映像が再生されない
+!https://www.bbc.com/japanese/video-38249959
+||widgets.outbrain.com/outbrain.js$script,redirect=widgets.outbrain.com/outbrain.js
+@@||bbc.co.uk^*/adverts.js
+||crwdcntrl.net^
+||emp.bbci.co.uk/plugins/dfpAdsHTML/3.25.0/js/dfpAds.js
+||mybbc-analytics.files.bbci.co.uk/echo-client-js/echo-12.7.0.min.js
+||r.bbci.co.uk^
 
 
 !FoxNews
