@@ -17,4 +17,10 @@
 ||www.adaware.com/sw.js
 
 
+!モバイル用
+||www.marieclaire.com/sw.js
+||android.app-liv.jp/serviceWorker.js
+||app-liv.jp/serviceWorker.js
+!||xcity.jp/serviceWorker.js
+
 !END
