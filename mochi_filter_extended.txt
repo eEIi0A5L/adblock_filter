@@ -629,7 +629,9 @@ www.allmovie.com##.advertising
 !http://www.meteotube.net/
 ||www.meteotube.net/wp-content/plugins/cactus-ads/
 ||d0p21g2fep.com^$third-party
-||amazon-adsystem.com^$domain=~amazon.co.jp|~amazon.com
+!誤爆あり。2019.12.12
+!https://www.amazon.co.jp/dp/B073SBQMCX から類似品クリック時にブロックされてしまう
+!||amazon-adsystem.com^$domain=~amazon.co.jp|~amazon.com
 ||bcloudhost.com^$third-party
 ||popcash.net^
 ||bodelen.com/apu.php?zoneid=
