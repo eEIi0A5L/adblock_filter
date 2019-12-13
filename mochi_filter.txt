@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 04 Dec 2019 00:00 JST
+! Last modified: 14 Dec 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -1417,6 +1417,7 @@ www.nikkansports.com##.ad-area
 www.hochi.co.jp##.ad_rectangle + script + div
 ||www.hochi.co.jp/h_common/img/ad/nsk_banner_2017.gif
 hochi.news##.ad
+hochi.news##amp-ad
 
 !東スポ
 !gif広告がちかちかしてうざい
