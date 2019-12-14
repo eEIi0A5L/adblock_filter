@@ -1901,10 +1901,13 @@ dailynewsonline.jp##.adArea
 !TVer
 !https://tver.jp/episode/65967672
 !→ima3ありだと広告流れない動画も再生される→OK
+!→ima3なしで広告でる
 !https://tver.jp/corner/f0043665
 !→ima3ありだと広告流れない動画も再生される→OK
+!→ima3なしで広告でる
 !https://tver.jp/corner/f0043541
 !→ima3ありだと広告流れないが動画が再生されない音は聞こえる
+!→ima3なしで広告でない
 !→この現象が起きたときは、@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tver.jpでオフにしてください
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tver.jp
 
