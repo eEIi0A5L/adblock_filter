@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 11 Dec 2019 00:00 JST
+! Last modified: 15 Dec 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -1147,7 +1147,11 @@ japanese.engadget.com##div[class^="js-"]:has( iframe[src^="//rcm-fe.amazon-adsys
 !booklog.jpでサムネが消える
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/123
 !||images-fe.ssl-images-amazon.com/images/I/$domain=~amazon.co.jp|~amazon.com
-||images-fe.ssl-images-amazon.com/images/I/$domain=~amazon.co.jp|~amazon.com|~booklog.jp
+!||images-fe.ssl-images-amazon.com/images/I/$domain=~amazon.co.jp|~amazon.com|~booklog.jp
+!下記サイトでアマゾンサムネイルが消えてしまう
+!https://m-dojo.hatenadiary.com/entry/2019/11/23/120029
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/187
+||images-fe.ssl-images-amazon.com/images/I/$domain=japanese.engadget.com
 japanese.engadget.com##iframe[src^="//rcm-fe.amazon-adsystem.com"]
 www.engadget.com##.o-mobile-share-footer
 
