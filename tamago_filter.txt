@@ -132,7 +132,9 @@ www.google.co.jp,www.google.com##.ads-ad
 !##^だとDOMから要素を削除するので一瞬表示される間もなくきれいに消えてくれる。
 !google.co.jp,google.com##^#main > div[data-hveid]:has(a[data-al])
 !google.co.jp,google.com##a[href*="aclk"]:xpath(//span[(text()='Ad')]/../../../..)
-google.co.jp,google.com##span:has-text(広告):nth-ancestor(4)
+!誤爆した 2019.12.18
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/193
+!google.co.jp,google.com##span:has-text(広告):nth-ancestor(4)
 
 !Twitter
 !英語版
