@@ -587,10 +587,10 @@ www.ign.com##.ad-container
 ||c.amazon-adsystem.com^
 ||gurgle.zdbb.net^
 ||static.ziffdavis.com^
-||consent.truste.com^
 ||static.ziffprod.com/cse/js/5.0.0/zdcse.min.js?referrer=
 ||cdn.ziffstatic.com^
 ||cdn.static.zdbb.net^
+www.ign.com##.secondary-ad
 
 !OSDN
 mag.osdn.jp###div-gpt-osdn_mag_header
