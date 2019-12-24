@@ -1,7 +1,8 @@
 ! beta.txt
 
-!!誤爆があったような気がするので一旦ベータで様子を見る
-!!これがないとニコニコニュース、teratailでページ表示が重くなる
-!||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js
+!Yahooトップ中央下部のおすすめ記事内のPR削除（PayPay, カードなど）
+www.yahoo.co.jp###Stream > div > div > article > a > div > div > div > span:has-text(/^PR$/):nth-ancestor(5)
+
+
 
 !END

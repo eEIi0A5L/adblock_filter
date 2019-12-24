@@ -269,6 +269,7 @@ www.yahoo.co.jp###tct
 !www.yahoo.co.jp###realtime
 
 
+
 !Yahooプレミアムの広告バナー
 ||s.yimg.jp/images/top/sp_promo/premium_
 
