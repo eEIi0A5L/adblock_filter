@@ -1,8 +1,9 @@
 ! beta.txt
 
 !Yahooトップ中央下部のおすすめ記事内のPR削除（PayPay, カードなど）
-www.yahoo.co.jp###Stream > div > div > article > a > div > div > div > span:has-text(/^PR$/):nth-ancestor(5)
+!www.yahoo.co.jp###Stream > div > div > article > a > div > div > div > span:has-text(/^PR$/):nth-ancestor(5)
 
+www.yahoo.co.jp###Stream > div > div > article:has( > a > div > div > div > span:has-text(/^PR$/) )
 
 
 !END
