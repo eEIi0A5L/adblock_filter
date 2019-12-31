@@ -1683,7 +1683,7 @@ employment.en-japan.com##.entry-footer
 gamewith.jp##.ad-header-creative
 gamewith.jp##.to-btn--deep-link.js-deep-link-block.js-move-with-expand-network-ad
 ||gamewith.jp/assets/js/dist/jp/gamewith/ad/index.js
-
+gamewith.jp###js-ad-jack
 
 !暴サイ
 ||ad-move.jp^
