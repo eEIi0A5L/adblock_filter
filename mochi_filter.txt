@@ -2252,6 +2252,9 @@ www.gnavi.co.jp##.ftb
 ||onlinefreeapplicationads.pw^
 ||widgetjs.freegames66.com^
 
+!http://www.ffkr.kg/
+/^http:\/\/prize[0-9]+\.nonamehxr1\.live/
+
 !----------------------------------------------------
 
 
