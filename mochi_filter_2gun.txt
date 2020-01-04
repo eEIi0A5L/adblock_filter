@@ -1687,7 +1687,8 @@ jmty.jp##.adsense_list_sponsored_link
 !@@||9232428.fls.doubleclick.net/
 @@||v.fwmrm.net/ad/g/1?$domain=dplay.jp
 
-
+!jpshow
+jpshow.net##div[style*="opacity: 0.01;"]
 
 
 
