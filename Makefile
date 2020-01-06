@@ -7,3 +7,6 @@ maint:
 
 dup:
 	./scripts/dup.sh
+
+ast:
+	./scripts/ast.sh
