@@ -1081,7 +1081,7 @@ kakakumag.com##.fixedRightAdContainer
 !/akam/11/*
 !楽天以外のサイトもいろいろあるので汎用化2019.9.27
 !||www.rakuten.co.jp/akam/11/
-/akam/11/*
+/akam/11/
 ||r.r10s.jp/com/js/omniture/plugin/sc_trackingid.js|
 ||ias.rakuten.co.jp/gw.js?$subdocument
 
