@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 14 Dec 2019 00:00 JST
+! Last modified: 05 Jan 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -267,6 +267,9 @@ www.yahoo.co.jp###tct
 
 !話題なう←これはあっていい
 !www.yahoo.co.jp###realtime
+
+!Yahooトップ中央下部のおすすめ記事内のPR削除（PayPay, カードなど）
+www.yahoo.co.jp###Stream > div > div > article:has( > a > div > div > div > span:has-text(/^PR$/) )
 
 
 !Yahooプレミアムの広告バナー
@@ -1078,7 +1081,7 @@ kakakumag.com##.fixedRightAdContainer
 !/akam/11/*
 !楽天以外のサイトもいろいろあるので汎用化2019.9.27
 !||www.rakuten.co.jp/akam/11/
-/akam/11/*
+/akam/11/
 ||r.r10s.jp/com/js/omniture/plugin/sc_trackingid.js|
 ||ias.rakuten.co.jp/gw.js?$subdocument
 
@@ -1512,6 +1515,10 @@ japanese.engadget.com###ldrBoardAd
 japanese.engadget.com###atwAdFrame0
 @@||guce.advertising.com/collectIdentifiers
 
+!Wired
+wired.jp##.ad-background-holder
+wired.jp##.banner-pc-banner-wsky
+
 !ギズモード
 www.gizmodo.jp##.ad-banner
 www.gizmodo.jp##.s-body-ad
@@ -1898,6 +1905,19 @@ dailynewsonline.jp###adSideA
 dailynewsonline.jp###adSideB
 dailynewsonline.jp##.adArea
 
+!TVer
+!https://tver.jp/episode/65967672
+!→ima3ありだと広告流れない動画も再生される→OK
+!→ima3なしで広告でる
+!https://tver.jp/corner/f0043665
+!→ima3ありだと広告流れない動画も再生される→OK
+!→ima3なしで広告でる
+!https://tver.jp/corner/f0043541
+!→ima3ありだと広告流れないが動画が再生されない音は聞こえる
+!→ima3なしで広告でない
+!→この現象が起きたときは、@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tver.jpでオフにしてください
+||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tver.jp
+
 !TVerでテレ東だけが見れない
 @@||pubads.g.doubleclick.net^$domain=tver.jp
 
@@ -2008,6 +2028,14 @@ www.gnavi.co.jp##.ftb
 
 ! techmemo.biz
 ||www.image-rentracks.com^
+
+!pastebin
+pastebin.com##.OUTBRAIN
+
+
+
+
+
 
 
 
@@ -2211,6 +2239,29 @@ www.gnavi.co.jp##.ftb
 ||sarah.trktnc.com^
 ||tel-kod.ru^
 ||tudocasamento.com^
+
+!http://shintanya.com
+||rsalchk.com/performance/bdv_rd.dbm?
+||antiviruschimp.blogspot.com^
+
+!jpshow.net
+!スマホのみ発生しパソコンは発生しないけど念のため一応入れとく。
+!http://fate.5ch.net/test/read.cgi/ios/1574083844/345
+||promo.verajohn.com^
+||ad.doubleclick.net^
+||clickserve.dartsearch.net^
+||ellcurvth.com​^
+||trk.lamp-call-drawn-production.xyz^
+||techienewprotectonline.pw^
+||trk.grown-zero-breeze-belong.xyz^
+||bcloudhost.com^
+||bilsyndication.com^
+||madcpms.com^
+||onlinefreeapplicationads.pw^
+||widgetjs.freegames66.com^
+
+!http://www.ffkr.kg/
+/^http:\/\/prize[0-9]+\.nonamehxr1\.live/
 
 !----------------------------------------------------
 
