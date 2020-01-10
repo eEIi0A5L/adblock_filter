@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 03 Jan 2020 00:00 JST
+! Last modified: 10 Jan 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_extended.html
 ! 
@@ -285,6 +285,7 @@ yahoo.com##a[href^="https://beap.gemini.yahoo.com/mbclk?"][target="_blank"]
 yahoo.com##a[target="_blank"][href^="https://beap.gemini.yahoo.com/mbclk?"]
 yahoo.com##.lrec-before-loading
 yahoo.com##div[data-ad-story-beacon]
+www.yahoo.com###viewer-LDRB
 
 
 

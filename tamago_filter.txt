@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 06 Jan 2020 00:00 JST
+! Last modified: 10 Jan 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -263,6 +263,11 @@ baseball.yahoo.co.jp,soccer.yahoo.co.jp##^script:has-text(instUrl)
 transit.yahoo.co.jp###rsab
 transit.yahoo.co.jp###posNM
 
+!Yahooマップ
+!誤爆対策
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/197-198
+||yads.c.yimg.jp/js/yads-async.js$script,redirect=noopjs,domain=map.yahoo.co.jp
+
 ! ヤフーファイナンスで個人的にうざいの
 ||s.yimg.jp/images/finance/mt/promotion/$image
 ||s.yimg.jp/images/finance/card-loan/bnr/$image
@@ -346,6 +351,10 @@ itest.5ch.net##div[style="height: 320px; position: relative; text-align: center;
 itest.5ch.net##^#interstitial-ad-div-id
 ! たまに下部に出るバナーの残骸
 itest.5ch.net##^#float-bnr
+
+!モバイル版5ch「過去ログ」クリック時の余白
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/197
+itest.5ch.net##.js-ad_iframe_wrap
 
 ! 5ch 検索時等
 itest.5ch.net##.ad-adstir
