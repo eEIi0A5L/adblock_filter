@@ -850,7 +850,10 @@ xvideo-jp.com###dmmad
 xvideo-jp.com##.p-articleDMM
 ||stats.wp.com/e-201904.js$domain=xvideo-jp.com
 ||xvideo-jp.com/wp-cron.php
-embed.share-videos.se###logo
+!ロゴが出ない誤爆が発生した対策
+!http://egg.5ch.net/test/read.cgi/software/1556498678/869
+!http://egg.5ch.net/test/read.cgi/software/1556498678/876
+!embed.share-videos.se###logo
 embed.share-videos.se###ad_html
 
 !loveh.org
@@ -1081,6 +1084,8 @@ vjav.com##.movable-top
 vjav.com##a[href^="https://clickadilla.com/"] + noindex
 vjav.com##+js(acis, vdaVars)
 ||visitstats.com^$popunder,domain=vjav.com
+vjav.com##.footer-margin
+!vjav.com##.box.box-padding
 
 !fbjav
 fbjav.net##.ads-sidebar

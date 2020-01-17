@@ -1002,6 +1002,9 @@ www.hatena.ne.jp###pc-billboard-ad
 !hatenablog.com
 hatenablog.com##.sleeping-ads
 
+!hatenadiary.org
+hatenadiary.org##.sleeping-ads
+
 !価格.com
 kakaku.com###mainLeft > script
 !下記をONにすると解説バルーンが表示されなくなってしまう
