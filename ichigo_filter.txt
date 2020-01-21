@@ -211,7 +211,7 @@ pornhub.com##.adContainer
 
 !rmdown.com
 ||www.856789.com/images/
-||www.love520.cc/img
+!||www.love520.cc/img
 
 !en.ero-video.net
 !バナー
@@ -1103,15 +1103,6 @@ javhd.today##.ads-footer
 ||d2glav2919q4cw.cloudfront.net^
 javhd.today##.afs_ads
 
-!javkkk
-www.javkkk.com###adv_video_1
-www.javkkk.com###adv_video_2
-www.javkkk.com###adv_video_3
-www.javkkk.com###adv_video_4
-www.javkkk.com###adv_index_1
-www.javkkk.com###adv_index_2
-www.javkkk.com###adv_index_3
-www.javkkk.com###adv_index_4
 
 !javlibrary
 ||www.javlibrary.com/js/advertisement.js
@@ -1121,7 +1112,7 @@ www.javlibrary.com###middlebanner11
 www.javlibrary.com###topbanner11
 ||www.javlibrary.com/js/bnr_
 ||ytsyyey.com^$popup
-||www.18dusun.com/s.php
+!||www.18dusun.com/s.php
 
 !press
 ||frefla.com^$third-party,popunder

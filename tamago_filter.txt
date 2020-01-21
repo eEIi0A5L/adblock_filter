@@ -2010,7 +2010,7 @@ web.archive.org###donate_banner
 ||promo.verajohn.com^
 ||ad.doubleclick.net^
 ||clickserve.dartsearch.net^
-||ellcurvth.com​^
+||ellcurvth.com^
 ||trk.lamp-call-drawn-production.xyz^
 ||techienewprotectonline.pw^
 ||trk.grown-zero-breeze-belong.xyz^

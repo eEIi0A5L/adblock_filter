@@ -629,26 +629,6 @@ www.allmovie.com##.advertising
 ||ap.lijit.com/adcfg
 ||clickiocdn.com/t/common_
 
-!Meteotube
-!http://www.meteotube.net/
-||www.meteotube.net/wp-content/plugins/cactus-ads/
-||d0p21g2fep.com^$third-party
-!誤爆あり。2019.12.12
-!https://www.amazon.co.jp/dp/B073SBQMCX から類似品クリック時にブロックされてしまう
-!||amazon-adsystem.com^$domain=~amazon.co.jp|~amazon.com
-||bcloudhost.com^$third-party
-||popcash.net^
-||bodelen.com/apu.php?zoneid=
-||mobtrks.com^$third-party
-||basepush.com^
-||infolinks.com^
-||vi-serve.com^$third-party
-||bcloudhost.com^$third-party
-||vidcpm.com^
-meteotube.net##.ads-content
-meteotube.net##.adsBox
-||www.reimageplus.com^
-||gaitheed.com^
 
 !JSfiddle
 !||cdn4.buysellads.net^

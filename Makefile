@@ -10,3 +10,9 @@ dup:
 
 ast:
 	./scripts/ast.sh
+
+domain:
+	./scripts/domain.sh
+
+cd:
+	./scripts/cd.sh

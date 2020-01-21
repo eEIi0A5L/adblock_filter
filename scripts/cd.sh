@@ -88,22 +88,25 @@ function sub()
         if [[ $line =~ \! ]]; then
             continue
         fi
-        domain=`get_domain "$line"`
-        if [ "$domain" = "" ]; then
+        domain_part=`get_domain "$line"`
+        if [ "$domain_part" = "" ]; then
             continue
         fi
-        if [[ $domain =~ ^\.[^\.]+$ ]]; then
-            continue
-        fi
-        #echo "line=[$line]"
-        #echo "domain=[$domain]"
-        #check_domain $domain $FILE
-        echo $domain >> $DOMAIN_LIST
+        domain_list=(${domain_part//,/ })
+        #echo ${domain_list[@]}
+        for item in ${domain_list[@]}; do
+            if [[ $item =~ ^\.[^\.]+$ ]]; then
+                continue
+            fi
+            echo $item >> $DOMAIN_LIST
+        done
     done < $FILE
     if [ ! -f $DOMAIN_LIST ]; then
         return
     fi
     sort $DOMAIN_LIST | uniq > $DOMAIN_LIST2
+    #debug
+    #exit 1
     while read line; do
         #echo $line
         check_domain_exist $line
