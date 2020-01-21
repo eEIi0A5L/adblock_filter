@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ことりフィルタ（SNSボタンブロック）
-! Last modified: Jan 19, 2020 00:00 JST
+! Last modified: Jan 22, 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/kotori.html
 ! 
@@ -59,7 +59,9 @@
 !Redditのツイッター埋め込み画像が表示されない
 !https://www.reddit.com/r/firefox/comments/eqf6a6/continuing_a_tradition_cake_from_firefox_to_edge/
 !||platform.twitter.com/widgets/widget_iframe
-||platform.twitter.com/widgets.js
+!Redditのツイッター埋め込み画像が表示されない
+!https://www.reddit.com/r/firefox/comments/ervsxy/firefox_nightly_on_twitter/
+!||platform.twitter.com/widgets.js
 
 !はてなボタンの表示が遅いので消す
 !st-hatena.com$third-party,domain=~hatena.ne.jp
