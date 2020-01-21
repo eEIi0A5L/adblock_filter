@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 05 Jan 2020 00:00 JST
+! Last modified: 17 Jan 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -1001,6 +1001,9 @@ www.hatena.ne.jp###pc-billboard-ad
 
 !hatenablog.com
 hatenablog.com##.sleeping-ads
+
+!hatenadiary.org
+hatenadiary.org##.sleeping-ads
 
 !価格.com
 kakaku.com###mainLeft > script
@@ -2262,6 +2265,12 @@ pastebin.com##.OUTBRAIN
 
 !http://www.ffkr.kg/
 /^http:\/\/prize[0-9]+\.nonamehxr1\.live/
+
+!https://vazzapp.com/gamearticle1/
+||vazzapp.com^
+||xn--581-9la.biz^
+||xn--3389-poa.biz^
+||best2019-games-web4.com^
 
 !----------------------------------------------------
 
