@@ -7,6 +7,9 @@ function sub()
     echo "----$FILE"
     #grep -v -E "##" $i | grep -v "||" | grep -v -E "^[ \t]*!" | grep -v "domain" | grep -v "#@#" | grep -v -E "^$"
     while IFS=$'\r' read line; do
+        if [[ $line =~ \! ]]; then
+            continue
+        fi
         if [[ $line =~ \#\# ]]; then
             continue
         fi
