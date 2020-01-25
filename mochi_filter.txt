@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 17 Jan 2020 00:00 JST
+! Last modified: 26 Jan 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -489,16 +489,19 @@ shopping.yahoo.co.jp##.uiDialogCrm
 search.yahoo.co.jp###So1
 
 !Yahooニュースの宣伝
-||amd.c.yimg.jp^$domain=search.yahoo.co.jp
+!||amd.c.yimg.jp^$domain=search.yahoo.co.jp
 search.yahoo.co.jp##.cmm
 
 !"UQ"で検索すると広告が出る
 search.yahoo.co.jp###yfa_psp_wrap
 
 !Naverまとめの宣伝
-||iwiz-search-matome.c.yimg.jp^$domain=search.yahoo.co.jp
+!||iwiz-search-matome.c.yimg.jp^$domain=search.yahoo.co.jp
 
-
+!検索結果上部の広告
+!https://dic.nicovideo.jp/b/a/adblock%20plus/1591-
+search.yahoo.co.jp##div.sw-CardBase:has( > div.Ad.js-Ad )
+search.yahoo.co.jp##.AnswerSPRO
 
 !Yahooショッピングの宣伝
 ||item-shopping.c.yimg.jp/$domain=search.yahoo.co.jp
@@ -1817,6 +1820,7 @@ bing.com##.b_ad
 www.bing.com##li:has( > ul > li > div > h2.b_ads1line )
 bing.com##.b_algo:has( > div.b_caption > p:matches-css-before(content: "Ad"))
 bing.com##.b_algo:has( > div.b_caption > p:matches-css-before(content: "広告"))
+bing.com##^#b_results > .b_ad
 
 !ちくわニコ生ランキング
 ||www.chikuwachan.com/live/img/ad/
