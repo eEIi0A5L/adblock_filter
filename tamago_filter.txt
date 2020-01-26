@@ -34,12 +34,13 @@ hs-exp.jp#@#.adsbygoogle
 hs-exp.jp##.dfad
 
 !アメブロ
-||cdn.amanad.adtdp.com^
-||adsd-sync.amanad.adtdp.com^
-||ad.amanad.adtdp.com^
+!||cdn.amanad.adtdp.com^
+!||adsd-sync.amanad.adtdp.com^
+!||ad.amanad.adtdp.com^
+||adtdp.com^$third-party
 ||ameblo.jp/_api/adIds;
 ||ameblo.jp/_api/officialAdTags;
-||cdn.as.amanad.adtdp.com/sdk/asot-v2.js
+!||cdn.as.amanad.adtdp.com/sdk/asot-v2.js
 ||ad.pr.ameba.jp^
 ||ssl-stat.amebame.com/pub/ads/
 ||adt.measure.ameblo.jp^
@@ -52,8 +53,8 @@ hs-exp.jp##.dfad
 !https://egg.5ch.net/test/read.cgi/android/1554363290/741
 !||www.googletagmanager.com^
 ||www.googletagmanager.com^$domain=ameblo.jp
-||click.amanad.adtdp.com^
-||ad.caprofitx.adtdp.com^
+!||click.amanad.adtdp.com^
+!||ad.caprofitx.adtdp.com^
 !埋め込み動画が消えてしまう
 !ameblo.jp##iframe
 !ameblo.jp##div[data-amn-unit]
@@ -310,7 +311,7 @@ sp.ch.nicovideo.jp###appBanner
 goo.ne.jp##div[id^="gooad"]
 ||adcdn.goo.ne.jp^
 ||yads.c.yimg.jp^
-||lodeo-adnw.adtdp.com^
+!||lodeo-adnw.adtdp.com^
 ||adcdn.goo.ne.jp/images/js/smarttag-news-news.js
 !news.goo.ne.jp##div[style*="fixed"]
 !news.goo.ne.jp##div[style^="height: 50px; position: fixed;"]
@@ -642,7 +643,7 @@ kakaku.com###headerAd
 ||fp.kakaku.com/tracker.py/beacon?$script
 
 !共同通信
-||cast-cs-j.adtdp.com^
+!||cast-cs-j.adtdp.com^
 ||rs.adapf.com^
 ||p.adsymptotic.com^
 
@@ -769,7 +770,7 @@ this.kiji.is##.page__brandModule
 ||s.st-hatena.com/entry.count.image?uri=$image
 
 !はてなブックマーク
-||ad.as.amanad.adtdp.com^
+!||ad.as.amanad.adtdp.com^
 ||microad.jp^
 ||microad.net^
 b.hatena.ne.jp##.entry-ad-sp-text
