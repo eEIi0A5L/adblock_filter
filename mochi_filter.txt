@@ -1007,6 +1007,9 @@ hatenablog.com##.sleeping-ads
 
 !hatenadiary.org
 hatenadiary.org##.sleeping-ads
+!||ad.as.amanad.adtdp.com^
+||adtdp.com^
+
 
 !価格.com
 kakaku.com###mainLeft > script
