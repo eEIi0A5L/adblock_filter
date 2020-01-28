@@ -2152,6 +2152,15 @@ pastebin.com##.OUTBRAIN
 !----------------------------------------------------
 !2019.7.8
 !ドメインがない時の広告
+
+
+!--------
+! まとめたやつ
+! https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/204
+/^https?:\/\/(apps?|competition|game|mobile|prize|reward|sweeps)[0-9]{4}\.(noname|smmhck|tutonhamon)[-a-z0-9]+\.live/$domain=live
+!--------
+
+
 !http://marketcapitalizations.com/historical-data/historical-components-sp-100/
 !||www.google.com/adsense/domains/caf.js
 !||www.google.com/adsense/
@@ -2203,7 +2212,7 @@ pastebin.com##.OUTBRAIN
 /media/mainstream/alert.mp3|
 ^wap^mobsurvey^$script
 ||wurfl.io/wurfl.js
-/^https?\:\/\/app[0-9]{4}\.tutonhamon[0-9]{2}\.live/
+!/^https?\:\/\/app[0-9]{4}\.tutonhamon[0-9]{2}\.live/
 
 !http://www.senmaike.net/toide/
 ||usd.ezekiel-sam.com/zcvisitor/
@@ -2234,7 +2243,7 @@ pastebin.com##.OUTBRAIN
 ||animate.tv^
 
 !http://www.ldandk.com/gollbetty/gollbetty.html
-/^http:\/\/mobile[0-9]+\.stydbui[0-9]+\.live/
+!/^http:\/\/mobile[0-9]+\.stydbui[0-9]+\.live/
 
 
 !ict119.com
@@ -2243,10 +2252,10 @@ pastebin.com##.OUTBRAIN
 /^http:\/\/prize[0-9]+\.smmhck[0-9]+\.live/
 !http://fate.5ch.net/test/read.cgi/ios/1524080618/349
 ||tdsjsext1.com^
-/^http:\/\/competition[0-9]+\.nonamesrv[0-9]+\.live/
+!/^http:\/\/competition[0-9]+\.nonamesrv[0-9]+\.live/
 
 !http://www.ramsar.org/
-/^http:\/\/mobile[0-9]+\.nonamefbr[0-9]+\.live/
+!/^http:\/\/mobile[0-9]+\.nonamefbr[0-9]+\.live/
 
 !http://www.kokochiyu.com/
 ||sarah.trktnc.com^
@@ -2274,7 +2283,7 @@ pastebin.com##.OUTBRAIN
 ||widgetjs.freegames66.com^
 
 !http://www.ffkr.kg/
-/^http:\/\/prize[0-9]+\.nonamehxr1\.live/
+!/^http:\/\/prize[0-9]+\.nonamehxr1\.live/
 
 !https://vazzapp.com/gamearticle1/
 ||vazzapp.com^
