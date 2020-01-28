@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 25 Jan 2020 00:00 JST
+! Last modified: 28 Jan 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -231,6 +231,12 @@ m.yahoo.co.jp###fab
 !Yahooトップ上部のPayPay広告
 m.yahoo.co.jp###psnl_toplink
 ||s.yimg.jp/images/evt/kaimono/2019/ytop/sp/shp_718_176_5.png
+
+!Yahoo検索
+search.yahoo.co.jp##div.sw-CardBase:has( > div.sw-Card.Ad )
+search.yahoo.co.jp##div.sw-CardBase:has( > div.sw-Card.AnswerSPRO )
+search.yahoo.co.jp##div.sw-CardBase:has( > div.sw-Card.AnswerTable )
+search.yahoo.co.jp##div.sw-CardBase:has( > div.sw-Card.AnswerChiebukuro )
 
 !Yahooトラッカー
 !Yahooメールで多数のアカウントをログインしなおした時に出るYahooからの大切なお知らせが表示されないのでコメント化。2019.12.7
