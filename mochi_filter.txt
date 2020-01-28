@@ -2157,7 +2157,7 @@ pastebin.com##.OUTBRAIN
 !--------
 ! まとめたやつ
 ! https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/204
-/^https?:\/\/(apps?|competition|game|mobile|prize|reward|sweeps)[0-9]{4}\.(noname|smmhck|tutonhamon)[-a-z0-9]+\.live/$domain=live
+/^https?:\/\/(apps?|competition|game|mobile|prize|reward|sweeps)[0-9]{4}\.(noname|smmhck|tutonhamon)[-a-z0-9]+\.live/$document,domain=live
 !--------
 
 
@@ -2196,7 +2196,7 @@ pastebin.com##.OUTBRAIN
 
 !http://tanabata.org/
 !http://reward6075.bh5645tfggfd25.agency/6034758834/?utm_campaign=bKMuT7EMVXU5Z6UvvSHONGlfu-yV43iC8T8uYixAFxs1&t=main9_c809045a27046e2a3b&f=1
-/^https?\:\/\/reward[0-9]*\.[a-z0-9]*\.agency\//
+/^https?\:\/\/reward[0-9]*\.[a-z0-9]*\.agency\//$document,domain=agency
 
 
 !http://shakkin-idol.com/index.html
@@ -2217,13 +2217,13 @@ pastebin.com##.OUTBRAIN
 !http://www.senmaike.net/toide/
 ||usd.ezekiel-sam.com/zcvisitor/
 ||usd.ezekiel-sam.com/zcredirect?visitid=
-/^https:\/\/[0-9]+\.redirect[0-9]+-[0-9]+\.space/
-/^http:\/\/www\.jps[0-9]+-update\.club/
+/^https:\/\/[0-9]+\.redirect[0-9]+-[0-9]+\.space/$document,domain=space
+/^http:\/\/www\.jps[0-9]+-update\.club/$document,domain=club
 
 !https://topernews.me/?p=he4deyjrmm5gi3bpg4zq
 ||topernews.me^
 !apps4651.pingtopingsrv136.life
-/^http:\/\/apps[0-9]+\.pingtopingsrv[0-9]+\.life/
+/^http:\/\/apps[0-9]+\.pingtopingsrv[0-9]+\.life/$document,domain=life
 
 !業者に買われたドメイン
 !詐欺サイトに誘導される
