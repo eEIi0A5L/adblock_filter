@@ -361,6 +361,8 @@ www.instagram.com##nav .glyphsSpriteGrey_Close:nth-ancestor(2):has(div:has-text(
 ! 下にスクロールしていくと出てくるログインダイアログボックス
 www.instagram.com##[role="presentation"]:has(div:has-text(/^\s*(?:Log in to continue|ログインする)\s*$/))
 www.instagram.com##body:style(overflow: auto !important)
+!おすすめユーザ
+!www.instagram.com##div:has( > div > span:has-text(Suggestions For You) )
 
 !cnn.jp
 www.cnn.co.jp###right-column > div:last-child
