@@ -2047,6 +2047,9 @@ web.archive.org###donate_banner
 ||xn--3389-poa.biz^
 ||best2019-games-web4.com^
 
+!http://osharoneiyn.dip.jp/link252.html
+||turbonews.biz^
+
 !---------------------------------------------------------------
 
 
