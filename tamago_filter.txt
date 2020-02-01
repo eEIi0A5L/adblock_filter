@@ -712,7 +712,7 @@ fc2.com###ad_header
 
 !netgeek
 ||bar.aid-ad.jp^
-||ad.ad-arata.com^
+!||ad.ad-arata.com^
 
 !Weblio
 weblio.jp##.ad_fixed_imgHigh
@@ -1161,7 +1161,7 @@ engadget.com###stcky-footer
 ||aolcdn.com/ads/
 japanese.engadget.com###ldrBoardAd
 ||advertising.aolp.jp^
-||fls-fe.amazon-adsystem.com/1/associates-ads$third-party
+!||fls-fe.amazon-adsystem.com/1/associates-ads$third-party
 ||ws-fe.assoc-amazon.com/widgets/cm?$third-party
 japanese.engadget.com##div[class^="js-"]:has( iframe[src^="//rcm-fe.amazon-adsystem.com/e/cm?"] )
 !booklog.jpでサムネが消える
@@ -1174,6 +1174,8 @@ japanese.engadget.com##div[class^="js-"]:has( iframe[src^="//rcm-fe.amazon-adsys
 ||images-fe.ssl-images-amazon.com/images/I/$domain=japanese.engadget.com
 japanese.engadget.com##iframe[src^="//rcm-fe.amazon-adsystem.com"]
 www.engadget.com##.o-mobile-share-footer
+
+
 
 
 !jbpress.ismedia.jp
@@ -1209,7 +1211,7 @@ www.keinet.ne.jp###ad_sub01
 blog.fc2.com###unitedblades_div
 ||aka-cdn.adtechus.com^
 ||s3-ap-northeast-1.amazonaws.com/ad-arata/scripts/staticfc2.js
-||smrtpxl.advertising.com^
+!||smrtpxl.advertising.com^
 
 ! アンチ広告ブロック
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/174-175
@@ -2028,7 +2030,7 @@ web.archive.org###donate_banner
 ||promo.verajohn.com^
 ||ad.doubleclick.net^
 ||clickserve.dartsearch.net^
-||ellcurvth.com^
+!||ellcurvth.com^
 ||trk.lamp-call-drawn-production.xyz^
 ||techienewprotectonline.pw^
 ||trk.grown-zero-breeze-belong.xyz^

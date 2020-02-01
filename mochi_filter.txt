@@ -967,7 +967,7 @@ settings/ad.js$domain=lineblog.me
 blog.fc2.com###fc2_bottom_bnr
 blog.fc2.com##.pankuzu + h2
 blog.fc2.com##.pankuzu + h2 + .mainbox
-||ad.ad-arata.com^
+!||ad.ad-arata.com^
 ||img.shinobi.jp/analyze/dumbo/ads2/ad_1_left_0.gif
 fc2.com###fc2_bottom_bnr
 blog.fc2.com###sh_fc2blogheadbar_link_box
@@ -975,6 +975,8 @@ web.fc2.com###fc2_ad_box
 ! fc2トラッカー
 ||media.fc2.com/counter_img.php?
 ||media.fc2.com/blank.gif?
+||a.realsrv.com/ads.js
+
 
 ! ピア
 ||ub.pia.jp/images/pt.gif?
@@ -1289,7 +1291,7 @@ www.asahi.com##.AdArea
 ||www.yomiuri.co.jp/adv/
 !||www.yomiuri.co.jp/cont2/ad/
 www.yomiuri.co.jp##.subhead
-||smrtpxl.advertising.com^
+!||smrtpxl.advertising.com^
 !gif動画がちらついてうざい
 !||www.yomiuri.co.jp/cont2/g2/m_pr_chuo.gif
 !||www.yomiuri.co.jp/cont2/g2/m_pr_gakushuin.gif

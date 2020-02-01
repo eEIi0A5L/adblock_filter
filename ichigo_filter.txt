@@ -405,7 +405,6 @@ lovechat777.blog.fc2.com###rightside
 ||js.sprout-ad.com^
 ||rcm.shinobi.jp^
 ||kok.eroterest.net/mgsRecommend/?affid=
-||js.octopuspop.com^
 ||js.click-plus.net^
 ||aaddcount.com^
 
@@ -1146,10 +1145,7 @@ www.javlibrary.com###topbanner11
 javmix.tv##.__isboostOverContent
 
 
-!javso
-javso.com##.pop-skip > .title
-javso.com##.pop-wrap
-javso.com##.poplayer
+
 
 !myhdjav
 myhdjav.net##+js(aopr, exoJsPop101)

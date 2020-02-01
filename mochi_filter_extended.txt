@@ -650,6 +650,10 @@ www.allmovie.com##.advertising
 investing.com##+js(set-constant, google_ad_status, 1)
 investing.com##.midHeader
 
+!NBA
+www.nba.com###block-globalheaderadblock
+
+
 
 
 
