@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 15 Dec 2019 00:00 JST
+! Last modified: 06 Feb 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_2gun.html
 ! 
@@ -541,6 +541,10 @@ vippers.jp##.ad
 ||s3-ap-northeast-1.amazonaws.com/adv-img.zucks.jp
 ||d.line-cdn.net/n/_4/torimochi.js/public/v1/release/stable/min/torimochi.js
 !||vippers.jp^$inline-script
+!オレンジ色のおすすめ
+!https://tofukko.blog.fc2.com/blog-entry-405.html#comment706
+!vippers.jp##.res_content
+vippers.jp##.blog-card
 
 !話題のNewsまとめ速報
 !wp.comはpopin,taboole系なのでブロックするのはやめた
