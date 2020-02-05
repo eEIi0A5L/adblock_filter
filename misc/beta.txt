@@ -1,6 +1,7 @@
 ! beta.txt
 
-
-
+!モバイル用
+!Google検索結果の広告
+www.google.com###main > div[class]:has( > div > a > div > span:has-text(広告) )
 
 !END
