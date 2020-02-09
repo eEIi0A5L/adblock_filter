@@ -11,28 +11,5 @@ jobs:
     - uses: actions/checkout@v1
     - name: make test
       run: make test
-    #- name: setup environments
-    #  run: |
-    #    sudo apt install whois
-    #- name: ./cd.sh
-    #  run: ./cd.sh
-    #- name: ./cm.sh
-    #  run: ./cm.sh
-    #- name: ./domain.sh
-    #  run: ./domain.sh
-    #- name: ./dup.sh
-    #  run: ./dup.sh
-    #- name: ./maint.sh
-    #  run: ./maint.sh
-    #- name: ./subfil.sh
-    #  run: ./subfil.sh
-    #- name: Run a multi-line script
-    #  run: |
-    #    echo Add other actions to build,
-    #    echo test, and deploy your project.
-    #    #./cd.sh
-    #    #./cm.sh
-    #    #./domain.sh
-    #    #./dup.sh
-    #    #./maint.sh
-    #    #./subfil.sh
+    - name: make count
+      run: make count
