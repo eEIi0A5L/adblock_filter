@@ -119,7 +119,7 @@
 !詐欺サイトへ誘導するページ
 !http://lg-food.com/otaacw1/wzb9aat.php?uzsziiudv=firefox-ios-adblock.txt
 !http://7hdfilm.xyz/zbeiult/uvs3fac.php?uzsziiudv=janrain-ios-api.txt
-||lg-food.com^
+!||lg-food.com^
 ||7hdfilm.xyz^
 
 !Windowsが壊れたとのウソのページが開く

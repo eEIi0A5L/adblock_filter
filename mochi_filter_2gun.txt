@@ -656,7 +656,7 @@ koredakedeok.blog.jp##.taxel_ul_wrap > li:has-text(Sponsored)
 !めぐ速
 ||js.passaro-de-fogo.biz^
 ||genieesspv.jp^
-||rtax.criteo.com^
+!||rtax.criteo.com^
 
 !http://damage0.com
 ||imgad.net^
@@ -1707,7 +1707,8 @@ jpshow.net##div[id^="adm-container-"]
 ||madcpms.com^
 ||onlinefreeapplicationads.pw^
 ||widgetjs.freegames66.com^
-||trk.grown-zero-breeze-belong^
+||grown-zero-breeze-belong.xyz^
+
 
 
 

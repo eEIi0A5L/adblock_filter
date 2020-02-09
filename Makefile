@@ -16,3 +16,6 @@ domain:
 
 cd:
 	./scripts/cd.sh
+
+count:
+	./scripts/count.sh

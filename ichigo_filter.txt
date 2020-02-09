@@ -600,7 +600,7 @@ verystream.com##+js(abort-on-property-read.js, open)
 ||jads.co^
 ||aileenvideos.pro/v2/a/pop
 ||vd.7vid.net^$popup
-||s.optvn.com^$popup
+!||s.optvn.com^$popup
 
 !javmost
 ||pussl48.com^
