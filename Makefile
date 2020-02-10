@@ -1,6 +1,7 @@
 test:
 	./scripts/fmt.sh
 	./scripts/js.sh
+	./scripts/check_merge.sh
 
 maint:
 	./scripts/maint.sh
