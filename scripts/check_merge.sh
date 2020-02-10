@@ -6,4 +6,5 @@ if [ $result -eq 0 ]; then
     echo "ERROR: merge comment exists."
     exit 1
 fi
+echo "exit 0: No Merge Comments."
 
