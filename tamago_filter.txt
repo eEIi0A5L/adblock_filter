@@ -2031,14 +2031,10 @@ web.archive.org###donate_banner
 ||ad.doubleclick.net^
 ||clickserve.dartsearch.net^
 !||ellcurvth.com^
-||trk.lamp-call-drawn-production.xyz^
 ||techienewprotectonline.pw^
-||trk.grown-zero-breeze-belong.xyz^
 ||bcloudhost.com^
 ||bilsyndication.com^
 ||madcpms.com^
-||onlinefreeapplicationads.pw^
-||widgetjs.freegames66.com^
 !http://egg.5ch.net/test/read.cgi/android/1580995235/51-52
 !http://egg.5ch.net/test/read.cgi/android/1580995235/74
 ||adworkmedia.net^

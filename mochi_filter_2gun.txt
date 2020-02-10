@@ -1705,9 +1705,6 @@ jpshow.net##div[id^="adm-container-"]
 ||bcloudhost.com^
 ||bilsyndication.com^
 ||madcpms.com^
-||onlinefreeapplicationads.pw^
-||widgetjs.freegames66.com^
-||trk.grown-zero-breeze-belong^
 
 
 
