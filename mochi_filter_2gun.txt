@@ -1705,13 +1705,10 @@ jpshow.net##div[id^="adm-container-"]
 ||bcloudhost.com^
 ||bilsyndication.com^
 ||madcpms.com^
-<<<<<<< HEAD
 ||onlinefreeapplicationads.pw^
 ||widgetjs.freegames66.com^
 ||grown-zero-breeze-belong.xyz^
 
-=======
->>>>>>> 2c4e4c839af96d6836f5992764c14d056055b796
 
 
 
