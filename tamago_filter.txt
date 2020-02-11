@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 09 Feb 2020 00:00 JST
+! Last modified: 11 Feb 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -1893,6 +1893,12 @@ getnews.jp##.float_sns_button
 
 !web.archive
 web.archive.org###donate_banner
+
+!https://loveheaven.net/read-fukushuu-o-koinegau-saikyou-yuusha-wa-yami-no-chikara-de-senmetsu-musou-suru-raw-chapter-13.html
+!http://fate.5ch.net/test/read.cgi/ios/1574083844/637-638
+||boyaidare.club^
+
+
 
 
 

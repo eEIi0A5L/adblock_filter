@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 09 Feb 2020 00:00 JST
+! Last modified: 11 Feb 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_2gun.html
 ! 
@@ -1639,7 +1639,7 @@ japanese.joins.com##.pr_area
 ||refuzzlizing.pro^$popup
 
 !Qiita
-qiita.com##.p-items_options
+qiita.com##.p-items_options:has( > .mt-2 )
 qiita.com##.p-home_ad
 qiita.com##.p-items_main > div[style="text-align: center; margin-right: -12px; margin-left: -12px;"]
 qiita.com##.it-Ads_afterBodyContainer
