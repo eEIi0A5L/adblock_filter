@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 05 Feb 2020 00:00 JST
+! Last modified: 19 Feb 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -1387,6 +1387,8 @@ tv-asahi.co.jp##.init-ad
 @@||pubads.g.doubleclick.net/gampad/ads?output=$domain=tv-asahi.co.jp
 www.tv-asahi.co.jp##.newHeaderBanner
 www.tv-asahi.co.jp##.analytics_pr_rect
+!トップからアナウンサーズが開けない
+@@||googletagmanager.com/gtm.js$script,domain=tv-asahi.co.jp
 
 !毎日
 ||cdn.mainichi.jp/vol1/ad/
