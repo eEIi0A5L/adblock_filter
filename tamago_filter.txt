@@ -2049,23 +2049,7 @@ web.archive.org###donate_banner
 
 
 
-!---------------------------------------------------------------
-!詐欺サイトへ誘導される件
-!jpshow.net
-!http://fate.5ch.net/test/read.cgi/ios/1574083844/345
-||promo.verajohn.com^
-||ad.doubleclick.net^
-||clickserve.dartsearch.net^
-||ellcurvth.com^
-||trk.lamp-call-drawn-production.xyz^
-||techienewprotectonline.pw^
-||trk.grown-zero-breeze-belong.xyz^
-||bcloudhost.com^
-||bilsyndication.com^
-||madcpms.com^
-||onlinefreeapplicationads.pw^
-||widgetjs.freegames66.com^
-!---------------------------------------------------------------
+
 
 
 
