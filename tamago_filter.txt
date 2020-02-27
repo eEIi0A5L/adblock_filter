@@ -2030,22 +2030,7 @@ web.archive.org###donate_banner
 ||rsalchk.com/performance/bdv_rd.dbm?
 ||antiviruschimp.blogspot.com^
 
-!jpshow.net
-!スマホのみ発生しパソコンは発生しないけど念のため一応入れとく。
-!http://fate.5ch.net/test/read.cgi/ios/1574083844/345
-||promo.verajohn.com^
-||ad.doubleclick.net^
-||clickserve.dartsearch.net^
-!||ellcurvth.com^
-||techienewprotectonline.pw^
-||bcloudhost.com^
-||bilsyndication.com^
-||madcpms.com^
-!http://egg.5ch.net/test/read.cgi/android/1580995235/51-52
-!http://egg.5ch.net/test/read.cgi/android/1580995235/74
-||adworkmedia.net^
-||anlcld.com^
-jpshow.net##div[id^="adm-container-"]
+
 
 !http://www.ffkr.kg/
 !/^http:\/\/prize[0-9]+\.nonamehxr1\.live/

@@ -1693,21 +1693,6 @@ jmty.jp##.adsense_list_sponsored_link
 !@@||9232428.fls.doubleclick.net/
 @@||v.fwmrm.net/ad/g/1?$domain=dplay.jp
 
-!jpshow
-jpshow.net##div[style*="opacity: 0.01;"]
-!http://egg.5ch.net/test/read.cgi/android/1580995235/51-52
-!http://egg.5ch.net/test/read.cgi/android/1580995235/74
-||adworkmedia.net^
-||anlcld.com^
-jpshow.net##div[id^="adm-container-"]
-||blogkiemtien.club^
-||thetravelhouse.info/landing^
-||bcloudhost.com^
-||bilsyndication.com^
-||madcpms.com^
-||onlinefreeapplicationads.pw^
-||widgetjs.freegames66.com^
-||grown-zero-breeze-belong.xyz^
 
 
 
