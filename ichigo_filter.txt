@@ -480,15 +480,15 @@ openload.co##+js(window.open-defuser.js)
 !||whos.amung.us^
 ||traffic-media.co.uk^$third-party
 fembed.com##+js(abort-on-property-write.js, _pop)
-javfinder.sh##.to-top
-javfinder.sh##.row > .col-xs-12:first-child
+javfinder.la##.to-top
+javfinder.la##.row > .col-xs-12:first-child
 ||b54m4qbmt0b9.com^
-javfinder.sh##[id*="ScriptRoot"]
-javfinder.sh##div[id*="ScriptRootC"]
-.com/?zoneid=$popup,domain=javfinder.sh
-||trafficjunky.com^$third-party,domain=javfinder.sh
+javfinder.la##[id*="ScriptRoot"]
+javfinder.la##div[id*="ScriptRootC"]
+.com/?zoneid=$popup,domain=javfinder.la
+||trafficjunky.com^$third-party,domain=javfinder.la
 ||k77hof1z7k.com^$third-party
-||google-analytics.com/analytics.js$important,script,domain=javfinder.sh
+||google-analytics.com/analytics.js$important,script,domain=javfinder.la
 !AnimeFLVでプレイヤーの一時停止アイコンが出ない
 !||jwpcdn.com^
 ||mc.yandex.ru^
@@ -504,39 +504,39 @@ javfinder.sh##div[id*="ScriptRootC"]
 !@@||rapidvideo.com^$script,domain=rapidvideo.com
 @@||rapidvideo.com/tube-skin-retina-for-videojs-6/bin/video-js-*/video.min.js$script
 @@||rapidvideo.com/js/videojs.hotkeys.min.js$script
-javfinder.sh###pauseroll
-javfinder.sh###preroll
-javfinder.sh##.afs_ads
+javfinder.la###pauseroll
+javfinder.la###preroll
+javfinder.la##.afs_ads
 !||cdn.onesignal.com^
 ||mn1nm.com^$third-party
 ||clcknads.pro^$third-party
-javfinder.sh##+js(abort-on-property-read.js, AaDetector)
+javfinder.la##+js(abort-on-property-read.js, AaDetector)
 ||jsc.adskeeper.co.uk^
-javfinder.sh###external-embed:style(display: block!important;)
+javfinder.la###external-embed:style(display: block!important;)
 ||a.o333o.com^
 ||cdnfast.me/img/movie/20181016/fc2-ppv-
 ||javwide.com/underpl.js
-javfinder.sh###preroll_ads
+javfinder.la###preroll_ads
 !||keqi7dh3df.com^
 ||fabrkrup.com^$third-party
 ||cdn.o333o.com^
-!javfinder.sh##.afs_ads
-javfinder.sh##iframe[src="https://avsex.me/js/pc.html"]
+!javfinder.la##.afs_ads
+javfinder.la##iframe[src="https://avsex.me/js/pc.html"]
 ||amung.us^
 ||k77hof1z7k.com^
-javfinder.sh##iframe[width="300"][height="250"]
+javfinder.la##iframe[width="300"][height="250"]
 ||ssdsylfzav.com^$third-party
-javfinder.sh##iframe[width="728"][height="90"]
-/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=javfinder.sh|embed.media
-!javfinder.sh##.afs_ads
-javfinder.sh##img[width="728"][height="90"]
+javfinder.la##iframe[width="728"][height="90"]
+/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=javfinder.la|embed.media
+!javfinder.la##.afs_ads
+javfinder.la##img[width="728"][height="90"]
 ||rlomrjxrpsev.com^$third-party
-@@/js/ads.js$script,domain=javfinder.sh
-javfinder.sh##+js(no-setTimeout-if.js, _0x)
-/^https?:\/\/[a-z0-9]{5,14}\.(com|bid|online|top|club)\/[0-9a-f]{32}\/invoke.js$/$third-party,script,domain=javfinder.sh
-!javfinder.sh##.afs_ads
-||google-analytics.com/analytics.js$important,script,domain=javfinder.sh
-||googletagmanager.com^$domain=javfinder.sh
+@@/js/ads.js$script,domain=javfinder.la
+javfinder.la##+js(no-setTimeout-if.js, _0x)
+/^https?:\/\/[a-z0-9]{5,14}\.(com|bid|online|top|club)\/[0-9a-f]{32}\/invoke.js$/$third-party,script,domain=javfinder.la
+!javfinder.la##.afs_ads
+||google-analytics.com/analytics.js$important,script,domain=javfinder.la
+||googletagmanager.com^$domain=javfinder.la
 ||zarlomgog.com/get/1551789?zoneid=
 embed.media##.afs_ads
 
