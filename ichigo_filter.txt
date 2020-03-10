@@ -1112,6 +1112,10 @@ www.svpri.xyz##.afs_ads
 !85videos
 ||www.av-yoyo.com/images/top700_
 www.85videos.com##.inplayer.hidden-xs
+mixdrop.co##+js(addEventListener-defuser, click, dtnoppu)
+mixdrop.co##+js(abort-on-property-read, popjs)
+!mixdrop.co##+js(window.open-defuser)
+mixdrop.co##+js(aopw, _pop)
 
 !javfull
 ||redlele.com^$third-party
