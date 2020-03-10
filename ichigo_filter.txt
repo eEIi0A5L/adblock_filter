@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 15 Feb 2020 00:00 JST
+! Last modified: 10 Mar 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -381,6 +381,8 @@ movie.eroterest.net##.adAreaNativ
 movie.eroterest.net##.row:has(> .col-md-6.adAreaNativeDmm)
 ||static.eroterest.net/kok/
 movie.eroterest.net##.adMgsBanner
+movie.eroterest.net##.adArea
+||okbp.xyz/regular/41.html$domain=movie.eroterest.net
 
 !http://play.movie-time.net
 ||rcm.shinobi.jp^
