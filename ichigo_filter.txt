@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 10 Mar 2020 00:00 JST
+! Last modified: 12 Mar 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -641,6 +641,7 @@ www.av01.tv##.ad-body
 ||www.av01.tv/images/partners/fuyao/300x250-2.gif
 ||www.av01.tv/images/partners/fuyao/300x250-3.gif
 www.av01.tv##a[href^="http://www.suncityad.com"]
+||greedseed.world^
 
 !http://www.minnano-av.com/
 ||www.minnano-av.com/top_center_bn/pc_new_ban/sidebar_bn.html
