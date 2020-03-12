@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 12 Mar 2020 00:00 JST
+! Last modified: 13 Mar 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -527,6 +527,7 @@ r.nikkei.com##.nui-ad
 r.nikkei.com##.nui-share
 www.nikkei.com##.m-olmM05
 ||nkispa.nikkei.com/fh/showad_
+xtech.nikkei.com##nav.l-menuFixed
 
 !Nikkei Style
 !https://style.nikkei.com/
