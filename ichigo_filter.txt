@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 12 Mar 2020 00:00 JST
+! Last modified: 16 Mar 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -17,7 +17,6 @@ xvideos.com###main > [id]:has(a[href^="https://main.trafficfactory.biz/"])
 xvideos.com###page.video-page > [id]:has(a[href^="https://main.trafficfactory.biz/"])
 xvideos.com##.subscribe-feed
 ||www.mmaaxx.com^
-|https://$third-party,script,domain=xvideos.com
 xvideos.com##+js(abort-on-property-write.js, openpop)
 xvideos.com##+js(nowebrtc.js)
 xvideos.com##+js(xvideos.com.js)
