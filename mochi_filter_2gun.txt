@@ -54,6 +54,7 @@
 ||blog.livedoor.jp/dqnplus/settings/ad.js
 ||amaprop.net/js/amazon-ranking-app-2.js
 blog.livedoor.jp##a[href^="http://www.amazon.co.jp/exec/"]
+blog.livedoor.jp##a[href^="https://www.amazon.co.jp/exec/"]
 blog.livedoor.jp###poweredAdsBy
 blog.livedoor.jp##.amazlet-box
 
@@ -368,6 +369,7 @@ majikichi.com##a[href^="http://www.dlsite.com/"]
 !カオスちゃんねる
 ||parts.blog.livedoor.jp/js/blog_ads/promo_ad.js
 chaos2ch.com##a[href^="http://www.amazon.co.jp/exec/"]
+chaos2ch.com##a[href^="https://www.amazon.co.jp/exec/"]
 
 !watch@2ちゃんねる
 www.watch2chan.com##.ama_emphasize-link
@@ -417,6 +419,7 @@ lifehack2ch.livedoor.biz##a[href^="http://www.amazon.co.jp/"]
 !http://blog.livedoor.jp/nichmatomerunn/
 ||pics.dmm.com/digital/video/$domain=blog.livedoor.jp
 blog.livedoor.jp##a[href^="http://www.dmm.com/"]
+blog.livedoor.jp##a[href^="https://www.dmm.com/"]
 blog.livedoor.jp##a[href^="http://www.amazon.co.jp/"]
 blog.livedoor.jp##a[href^="https://www.amazon.co.jp/"]
 
@@ -439,6 +442,7 @@ blog.livedoor.jp##.entry_box102
 blog.livedoor.jp##.main-container-ads
 ||livedoor.blogimg.jp/sky_wing2010-geinou/imgs/7/2/72d3165a.png
 blog.livedoor.jp##iframe[src^="http://api.unthem.com/cast?zname="]
+blog.livedoor.jp##iframe[src^="https://api.unthem.com/cast?zname="]
 
 
 
