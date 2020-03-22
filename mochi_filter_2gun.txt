@@ -139,6 +139,7 @@ blog.livedoor.jp##.google-user-ad
 ||accesstrade.net^
 ||mmmzy.jp^
 yaraon-blog.com##a[href^="http://ad.dmm.com/ad/"]
+yaraon-blog.com##a[href^="https://ad.dmm.com/ad/"]
 ||images-fe.ssl-images-amazon.com/images/$domain=yaraon-blog.com
 yaraon-blog.com##.yon_ga_box
 
@@ -178,6 +179,7 @@ jin115.com###gStickyAd
 
 !まとめサイト速報＋
 matome-plus.net##a[href^="http://www.amazon.co.jp"]
+matome-plus.net##a[href^="https://www.amazon.co.jp"]
 
 
 !はちまと刃以外で###gStickyAdの必要なサイト
@@ -205,10 +207,12 @@ exawarosu.net,heartlife-matome.com,kijyomatome-ch.com,kitizawa.com,mojomojo-lica
 !http://blog.esuteru.com
 ||livedoor.4.blogimg.jp/hatima/imgs/d/d/dde8358b.jpg
 blog.esuteru.com##a[href="http://le.ujj.co.jp/"]
+blog.esuteru.com##a[href="https://le.ujj.co.jp/"]
 ||images-fe.ssl-images-amazon.com/images/$domain=blog.esuteru.com
 ||ecx.images-amazon.com/images/$domain=blog.esuteru.com
 blog.esuteru.com##.amazlet-box
 blog.esuteru.com##a[href^="http://rcv.ixd.dmm.com/api/surl?urid="]
+blog.esuteru.com##a[href^="https://rcv.ixd.dmm.com/api/surl?urid="]
 blog.esuteru.com###g_floating_area1
 blog.esuteru.com###g_floating_area2
 !はちまと刃で画面下に広告の帯が出るようになった
@@ -243,6 +247,7 @@ beelzeboulxxx.com##.article-body-more > table
 ||sync.shinobi.jp^
 beelzeboulxxx.com##a[name="more"] + aside
 beelzeboulxxx.com##iframe[src="http://beelzeboulxxx.com/rss_html.html"]
+beelzeboulxxx.com##iframe[src="https://beelzeboulxxx.com/rss_html.html"]
 beelzeboulxxx.com##.maob_adbox
 ||49.212.219.243^
 beelzeboulxxx.com##.article-body-more > b
@@ -322,8 +327,11 @@ himasoku.com##iframe[src="http://himasoku.com/ueko2017.htm"]
 himasoku.com##span[style="color: #0000FF; font-weight: bold; font-size: 16px;"]
 himasoku.com##a[href^="https://smart-c.jp/"]
 himasoku.com##iframe[src="http://himasoku.com/akutore.html"]
+himasoku.com##iframe[src="https://himasoku.com/akutore.html"]
 himasoku.com##iframe[src="http://himasoku.com/sitako.htm"]
+himasoku.com##iframe[src="https://himasoku.com/sitako.htm"]
 himasoku.com##a[href^="http://h.accesstrade.net/sp/cc?"]
+himasoku.com##a[href^="https://h.accesstrade.net/sp/cc?"]
 
 !ぶる速-VIP
 !http://burusoku-vip.com
@@ -345,7 +353,9 @@ news.2chblog.jp##table[width="750"][height="300"][align="center"]
 
 !2chコピペ保存道場
 2chcopipe.com##a[href^="http://www.amazon.co.jp/"]
+2chcopipe.com##a[href^="https://www.amazon.co.jp/"]
 2chcopipe.com##a[href^="http://amazon.co.jp/"]
+2chcopipe.com##a[href^="https://amazon.co.jp/"]
 2chcopipe.com##a[href^="https://zaif.jp?ac="]
 2chcopipe.com###royFrame
 ||onlyry.net/contents/$third-party
@@ -355,11 +365,13 @@ news.2chblog.jp##table[width="750"][height="300"][align="center"]
 ||images-fe.ssl-images-amazon.com/images/$domain=matometanews.com
 ||ec1.images-amazon.com/images/$domain=matometanews.com
 matometanews.com##a[href^="http://www.amazon.co.jp/"]
+matometanews.com##a[href^="https://www.amazon.co.jp/"]
 
 !マジキチ速報
 ||img.dlsite.jp/resize/images2/$domain=majikichi.com
 majikichi.com###left_menu
 majikichi.com##a[href^="http://www.dlsite.com/"]
+majikichi.com##a[href^="https://www.dlsite.com/"]
 
 !キニ速
 !http://blog.livedoor.jp/kinisoku/
@@ -406,6 +418,7 @@ digital-thread.com##.top-contents-ad-base
 !ねたAtoZ
 ||ecx.images-amazon.com/images/$domain=netaatoz.jp
 netaatoz.jp##a[href^="http://www.amazon.co.jp/"]
+netaatoz.jp##a[href^="https://www.amazon.co.jp/"]
 
 !ガハろぐNews
 ||images-fe.ssl-images-amazon.com/images/$domain=gahalog.2chblog.jp
@@ -414,6 +427,7 @@ netaatoz.jp##a[href^="http://www.amazon.co.jp/"]
 !ライフハックちゃんねる弐式
 ||images-na.ssl-images-amazon.com/images/$domain=lifehack2ch.livedoor.biz
 lifehack2ch.livedoor.biz##a[href^="http://www.amazon.co.jp/"]
+lifehack2ch.livedoor.biz##a[href^="https://www.amazon.co.jp/"]
 
 !チラ速
 !http://blog.livedoor.jp/nichmatomerunn/
@@ -628,6 +642,7 @@ www.akb48matomemory.com##.article_body_more > span
 blog.livedoor.jp##.article-body-more > .link2
 !blog.livedoor.jp##.pickup2
 blog.livedoor.jp##.article-content > div > iframe[src="http://blog.livedoor.jp/rbkyn844/ftp/rss.html"]
+blog.livedoor.jp##.article-content > div > iframe[src="https://blog.livedoor.jp/rbkyn844/ftp/rss.html"]
 
 !ニュー即ブログν
 newsoku.blog###pc_text-34
@@ -670,6 +685,7 @@ squallchannel.com##.shi_antena
 squallchannel.com##.ad_space
 squallchannel.com##.google-2ad-m
 squallchannel.com##iframe[src="http://squallchannel.doorblog.jp/RSSbottom.html"]
+squallchannel.com##iframe[src="https://squallchannel.doorblog.jp/RSSbottom.html"]
 squallchannel.com##.article-body-more > div[style="background-color: white; padding: 5px; margin: 5px; line-height: 1.9; border: 1px solid rgb(105, 105, 105);"]
 ||livedoor.blogimg.jp/girokerogirokero/imgs/7/0/7014be71.png
 
@@ -711,6 +727,7 @@ anihatsu.com##.pickup-link
 
 !非常識＠なんJ http://absurd.blogo.jp
 absurd.blogo.jp##.headlinerss:has(iframe[src="http://absurd.blogo.jp/imghl0.html"])
+absurd.blogo.jp##.headlinerss:has(iframe[src="https://absurd.blogo.jp/imghl0.html"])
 absurd.blogo.jp##.rss13
 absurd.blogo.jp##.google-2ad
 
@@ -747,6 +764,7 @@ akbakb0048.doorblog.jp###blog-header01
 nogizaka46matome.2chblog.jp###if_02
 nogizaka46matome.2chblog.jp###if_04
 nogizaka46matome.2chblog.jp##.article-body iframe[src="http://nogizaka46matome.2chblog.jp/rssa.html"]
+nogizaka46matome.2chblog.jp##.article-body iframe[src="https://nogizaka46matome.2chblog.jp/rssa.html"]
 
 !http://oversea2ch.com/
 oversea2ch.com###more > .blogroll-list-wrap
@@ -840,6 +858,7 @@ animalch.net##.osusume
 !ダイエット速報＠2ちゃんねる
 !http://blog.livedoor.jp/diet2channel/
 blog.livedoor.jp##.article-body-inner > iframe[src="http://blog.livedoor.jp/diet2channel/rss05.htm"]
+blog.livedoor.jp##.article-body-inner > iframe[src="https://blog.livedoor.jp/diet2channel/rss05.htm"]
 blog.livedoor.jp##.article-body-more > div[style="background-color: #FFFFFF;border: 1px solid #FF596A;border-radius:5px;margin: 5px;padding: 7px 7px 7px;"]
 blog.livedoor.jp##.mplus
 
@@ -866,6 +885,7 @@ www.scienceplus2ch.com##.main > br
 
 !地下帝国-AKB48まとめ
 chikakb.ldblog.jp##iframe[src="http://chikakb.ldblog.jp/left_amz.html"]
+chikakb.ldblog.jp##iframe[src="https://chikakb.ldblog.jp/left_amz.html"]
 ||images-na.ssl-images-amazon.com/images/$domain=chikakb.ldblog.jp
 ||ecx.images-amazon.com/images/$domain=chikakb.ldblog.jp
 
@@ -876,6 +896,7 @@ aramame.net##.bottom-link
 
 !最新ゲーム速報！ＦorzaＸboxヾ(。゜▽゜).
 forzaxbox.net##a[href^="http://px.a8.net/"]
+forzaxbox.net##a[href^="https://px.a8.net/"]
 
 !witcher
 the-witcher.blog.jp##.theerogazou_link
@@ -909,6 +930,7 @@ jumpsokuhou.com##.ad_tb
 
 !MAG速
 magsoku.blomaga.jp##a[href^="http://www.amazon.co.jp/"]
+magsoku.blomaga.jp##a[href^="https://www.amazon.co.jp/"]
 
 !虹神速報-にじそく
 ||images-fe.ssl-images-amazon.com/images/$domain=nizigami.com
@@ -963,8 +985,10 @@ digital-thread.com##.article-news03
 !ああいえばForYou
 aaieba.livedoor.biz##section[id^="PERMALINK_SYSTEM_"]
 aaieba.livedoor.biz##iframe[src="http://aaieba.livedoor.biz/aa1.html"]
+aaieba.livedoor.biz##iframe[src="https://aaieba.livedoor.biz/aa1.html"]
 aaieba.livedoor.biz##a[href^="https://www.amazon.co.jp/"]
 aaieba.livedoor.biz##iframe[src="http://aaieba.livedoor.biz/bb1.html"]
+aaieba.livedoor.biz##iframe[src="https://aaieba.livedoor.biz/bb1.html"]
 aaieba.livedoor.biz##.aaieba-e
 aaieba.livedoor.biz##.aaieba-a
 !END--------------------------------------------------------------------
@@ -1152,6 +1176,7 @@ llabtooflatot.blog.fc2.com##center:has(> ins.adsbygoogle)
 !http://infotakusan.net
 ||infotakusan.net/img/banner
 infotakusan.net##[href^="http://www.infotop.jp/click.php"]
+infotakusan.net##[href^="https://www.infotop.jp/click.php"]
 ||okashik.atype.jp/ads_html_type/images/
 
 !http://infotakusan.net/
@@ -1373,6 +1398,7 @@ nogitai.pink###news
 !http://tr3.21143.p21.justsv.com/
 ||21143.p21.justsv.com/wp-content/uploads/2017/07/Baidu-IME_2017-7-9_10-15-18.jpg
 tr3.21143.p21.justsv.com##a[href="http://kda11.info/cs2/684/"]
+tr3.21143.p21.justsv.com##a[href="https://kda11.info/cs2/684/"]
 
 !http://before-hage.com/
 ||i0.wp.com/slowdn.net/contents/photos/017144_ultrahair.jpg
@@ -1444,7 +1470,9 @@ ryuchin.com###news
 2chan.net##body > span:has-text(広告)
 2chan.net##body > span:has-text(広告) + br
 2chan.net##body > a[href="http://www.digiket.com/p/futaba_left.php"]
+2chan.net##body > a[href="https://www.digiket.com/p/futaba_left.php"]
 2chan.net##body > a[href="http://www.digiket.com/p/futaba_left.php"] + br
+2chan.net##body > a[href="https://www.digiket.com/p/futaba_left.php"] + br
 2chan.net##iframe[src^="//dec.2chan.net/bin/spfoot_a.htm"]
 2chan.net##hr + div[style="width:728px;height:90px;margin:4px;"]
 
