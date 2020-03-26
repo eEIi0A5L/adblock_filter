@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 6 Mar 2020 00:00 JST
+! Last modified: 27 Mar 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_extended.html
 ! 
@@ -165,6 +165,9 @@ www.washingtonpost.com###top-furniture
 ||www.washingtonpost.com/wp-stat/ad/
 www.washingtonpost.com##div[data-feature-id="ad/leaderboard"]
 washingtonpost.com##^script:has-text(adblocker)
+!www.washingtonpost.com###leaderboard-overlay
+www.washingtonpost.com##div[data-qa="article-body-ad"]
+www.washingtonpost.com###leaderboard-wrapper
 
 !MailOnline
 www.dailymail.co.uk##.billboard_wrapper
