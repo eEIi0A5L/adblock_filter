@@ -1104,6 +1104,9 @@ kakakumag.com##.fixedRightAdContainer
 
 !楽天サイト自体の広告ブロック
 rakuten.co.jp###footer-floating-bnr
+!楽天の検索結果のPR枠
+!http://egg.5ch.net/test/read.cgi/software/1580196388/768-774
+!search.rakuten.co.jp##.searchresultitem:has(span.-pr)
 
 !Amazon（他サイトに出る広告のブロック）
 ||amazon.co.jp^$domain=~amazon.co.jp
