@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 10 Mar 2020 00:00 JST
+! Last modified: 30 Mar 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -59,6 +59,9 @@ youtube.com###player-ads
 !Peter Lowe’s Ad and tracking server listで一括ブロックされている
 ||doubleclick.net^$third-party
 ||2mdn.net^$domain=youtube.com
+!右の広告
+!https://www.youtube.com/watch?v=tj9UwKQKE3A
+www.youtube.com##ytd-promoted-sparkles-web-renderer
 
 !Youtubeトップバナー
 youtube.com###masthead-ad
