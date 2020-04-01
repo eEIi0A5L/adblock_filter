@@ -1578,6 +1578,11 @@ blog.livedoor.jp###apptemp06
 !http://blog.livedoor.jp/rbkyn844/
 blog.livedoor.jp###article-contents > .link2
 
+!芸能かめはめ波
+||js.blozoo.info^$script,third-party
+||appollo.jp^$third-party
+geinoukame.blog.fc2.com##.appollo-big
+
 
 
 

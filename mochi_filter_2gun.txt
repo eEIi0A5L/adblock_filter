@@ -908,6 +908,11 @@ the-witcher.blog.jp##.theerogazou_link
 !http://egg.5ch.net/test/read.cgi/software/1556498678/635
 ||js.blozoo.info^$script
 
+!芸能かめはめ波
+!http://geinoukame.blog.fc2.com/blog-entry-35962.html
+||static.octopus.tokyo/$image,third-party
+||octopuspop.com^
+
 
 
 
