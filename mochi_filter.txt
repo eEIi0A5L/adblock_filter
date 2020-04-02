@@ -2058,7 +2058,8 @@ www.gnavi.co.jp##.ftb
 
 !pastebin
 pastebin.com##.OUTBRAIN
-
+||aj2073.online^
+pastebin.com##div[class^="banner_"]
 
 
 
