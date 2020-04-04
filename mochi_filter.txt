@@ -2295,6 +2295,15 @@ pastebin.com##div[class^="banner_"]
 !http://osharoneiyn.dip.jp/link252.html
 ||turbonews.biz^
 
+
+!こういうのはワードプレスがクラッキングされているらしい
+!http://www.dhzqj.co/18/blogram-%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF-adblock-plus-%E6%97%A5%E6%9C%AC%E5%90%91%E3%81%91%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF/
+||www.jjtiao.xyz^
+||www.rdzwry.xyz^
+||dmgdelivery20.live^
+
+
+
 !----------------------------------------------------
 
 
