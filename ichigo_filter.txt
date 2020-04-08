@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 05 Apr 2020 00:00 JST
+! Last modified: 08 Apr 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -160,15 +160,14 @@ imgflare.com##div[style^="width:604px; height:250px;"]
 ||trafficjunky.net^$third-party
 @@||media.trafficjunky.net/__js/test.js$domain=pornhub.com
 pornhub.com##iframe[style="width: 326px; height: 311px;"]
-pornhub.com##+js(pornhub-popup-defuser.js)
-pornhub.com##+js(pornhub-sanitizer.js)
-pornhub.com##+js(abort-on-property-write.js, AdDelivery)
-pornhub.com##+js(abort-on-property-write.js, rAb)
-!pornhub.com##+js(csp.js, img-src 'self' *; media-src 'self' *)
-pornhub.com##+js(addEventListener-defuser.js, DOMContentLoaded, [native code])
-pornhub.com##+js(abort-on-property-write.js, UAParser)
-pornhub.com##+js(abort-on-property-write.js, isAdblockOn)
-pornhub.com##+js(abort-on-property-read.js, smpop)
+pornhub.com##+js(window.open-defuser)
+pornhub.com##+js(aopr, smpop)
+pornhub.com##+js(set, HTMLElement.prototype.attachShadow, null)
+pornhub.com##+js(aopw, isAdblockOn)
+pornhub.com##+js(aopw, UAParser)
+pornhub.com##+js(aeld, DOMContentLoaded, [native code])
+pornhub.com##+js(aopw, rAb)
+pornhub.com##+js(abort-on-property-write, AdDelivery)
 ||google-analytics.com/analytics.js$important,script,domain=pornhub.com
 ||phncdn.com/iframe
 pornhub.com##.playerFlvContainer > div#pb_template[style]:style(position: absolute!important; left: -3000px!important;)
