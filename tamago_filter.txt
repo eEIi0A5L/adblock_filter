@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 30 Mar 2020 00:00 JST
+! Last modified: 10 Apr 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -2080,6 +2080,24 @@ web.archive.org###donate_banner
 
 !http://osharoneiyn.dip.jp/link252.html
 ||turbonews.biz^
+
+!こういうのはワードプレスがクラッキングされているらしい
+!http://www.dhzqj.co/18/blogram-%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF-adblock-plus-%E6%97%A5%E6%9C%AC%E5%90%91%E3%81%91%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF/
+||www.jjtiao.xyz^
+||www.rdzwry.xyz^
+||dmgdelivery20.live^
+
+
+!http://akb48taimuzu.livedoor.biz/archives/24220321.html
+||lowaihoo15.live^
+||www.wosemdesy.site^
+
+
+
+
+
+
+
 
 !---------------------------------------------------------------
 
