@@ -20,3 +20,6 @@ cd:
 
 count:
 	./scripts/count.sh
+
+cm:
+	./scripts/cm.sh
