@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 08 Apr 2020 00:00 JST
+! Last modified: 11 Apr 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/ichigo.html
 ! 
@@ -567,6 +567,23 @@ asianclub.tv##+js(abort-on-property-read, AaDetector)
 @@||asianclub.tv^$generichide
 ||ad.pornimg.xyz^
 ||asianclub.tv/asset/default/player/plugins/vast-$script
+||stunninglover.com^$subdocument,3p
+||gstaticadssl.l.google.com^
+popjav.tv##+js(nostif, debugger)
+popjav.tv##li.releated_video:has-text(AD)
+asianclub.*##+js(set, clientSide.adbDetect, null)
+asianclub.*##+js(aopr, AaDetector)
+asianclub.*##+js(aopw, _pop)
+@@||asianclub.*^$generichide
+@@||popjav.tv^$generichide
+!popjav.tv#@#.poplayer
+!popjav.tv#@#.video-boxad
+!popjav.tv#@#.video_ad
+@@||cdn.tsyndicate.com/sdk/v*/n.js$domain=popjav.tv
+||ofphanpytor.com^
+||www.xmtrading.com^
+||tsyndicate.com^$popup
+
 
 !hpjav
 !||adserver.juicyads.com^
