@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 09 Apr 2020 00:00 JST
+! Last modified: 12 Apr 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi.html
 ! 
@@ -743,13 +743,15 @@ gyao.yahoo.co.jp##.ad
 !英語版
 twitter.com##[data-testid="trend"]:has-text(Promoted):xpath(..)
 twitter.com##div[data-testid="trend"]:has( span:has-text(Promoted by) ):xpath(..)
-twitter.com##aside[aria-label="Who to follow"] > div > div[data-testid="UserCell"]:has(:scope  > div > div > div > svg + div:has-text(Promoted))
+!ツイッターを見てるとなんかカクツクのでコメント化。2020.4.12
+!twitter.com##aside[aria-label="Who to follow"] > div > div[data-testid="UserCell"]:has(:scope  > div > div > div > svg + div:has-text(Promoted))
 twitter.com##div[aria-label^="Timeline:"] > div > div > div:has( svg[viewBox] + div:has-text(Promoted) )
 
 !日本語版
 twitter.com##[data-testid="trend"]:has-text(プロモーション):xpath(..)
 twitter.com##div[data-testid="trend"]:has( span:has-text(によるプロモーション) ):xpath(..)
-twitter.com##aside[aria-label="おすすめユーザー"] > div > div[data-testid="UserCell"]:has( > div > div > div > svg + div:has-text(プロモーション))
+!ツイッターを見てるとなんかカクツクのでコメント化。2020.4.12
+!twitter.com##aside[aria-label="おすすめユーザー"] > div > div[data-testid="UserCell"]:has( > div > div > div > svg + div:has-text(プロモーション))
 twitter.com##div[aria-label^="タイムライン:"] > div > div > div:has( svg[viewBox] + div:has-text(プロモーション) )
 
 ! Twitterトラッカー
