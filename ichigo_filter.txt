@@ -863,6 +863,7 @@ redtube.com###ab_banner
 redtube.com###content_container > .show_page_modals + div
 redtube.com###content_container > div[class]:not(.show_page_modals):not([id]):not([style])
 redtube.com###pb_block
+||static.trafficjunky.com/invocation/popunder/production/popunder.min.js
 
 !bejav
 bejav.net##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display:block!important;)
