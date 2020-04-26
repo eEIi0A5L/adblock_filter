@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 22 Apr 2020 00:00 JST
+! Last modified: 27 Apr 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/tamago.html
 ! 
@@ -165,7 +165,8 @@ www.instagram.com##section:has( > div > div > button )
 ! 下にスクロールしていくと出てくるログインダイアログボックス
 www.instagram.com##[role="presentation"]:has(div:has-text(/^\s*(?:Log in to continue|ログインする)\s*$/))
 www.instagram.com##body:style(overflow: auto !important)
-
+!Instagramのトップの下部の「無料アプリを入手する」のちらつき防止
+instagram.com###react-root > section > nav > div > div > section.xZ2Xk
 
 !ニコ動
 sp.ch.nicovideo.jp###appBanner
