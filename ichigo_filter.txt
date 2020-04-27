@@ -584,6 +584,39 @@ asianclub.*##+js(aopw, _pop)
 ||ofphanpytor.com^
 ||www.xmtrading.com^
 ||tsyndicate.com^$popup
+asianclub.*##+js(window.open-defuser)
+||asianclub.nl/asset/playerrvn.js
+||8xkr.xyz^
+popjav.tv##.releatedadsholder
+##+js(no-setTimeout-if, J3M)
+!FO server
+fileone.tv##+js(window.open-defuser, 1, .php?)
+fileone.tv##+js(abort-current-inline-script, document.querySelectorAll, popMagic)
+fileone.tv##+js(abort-on-property-read, absda)
+fileone.tv##+js(window.open-defuser)
+fileone.tv##+js(aopw, _pop)
+fileone.tv##+js(aopr, absda)
+fileone.tv##+js(set, globalThis, null)
+fileone.tv##+js(aopr, popjs)
+fileone.tv##+js(acis, document.querySelectorAll, popMagic)
+!DS server
+dood.watch##+js(set-constant, xPoPAdS, false)
+dood.watch##+js(nostif, debugger)
+dood.watch##+js(nowebrtc)
+dood.watch##+js(aopw, _pop)
+dood.watch##+js(acis, Math, zfgloaded)
+dood.watch##+js(set, xPoPAdS, false)
+||moneymakercdn.com^
+||theonecdn.com^$3p
+!MD server
+mixdrop.*##+js(acis, $, String.fromCharCode)
+mixdrop.*##+js(window.open-defuser)
+ixdrop.*##+js(aopr, atob)
+mixdrop.*##+js(set, MDCore.adblock, 0)
+mixdrop.co##+js(aopw, _pop)
+!VO server
+vidoza.net##+js(nofab)
+
 
 
 !hpjav
