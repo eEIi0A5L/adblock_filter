@@ -120,7 +120,7 @@ youtube.com##ytd-promoted-sparkles-web-renderer
 !||cdn.ampproject.org^
 !google広告
 !もしかしてが表示されない
-!http://egg.5ch.net/test/read.cgi/software/1524667609/504-509
+!https://egg.5ch.net/test/read.cgi/software/1524667609/504-509
 !www.google.co.jp,www.google.com###taw
 !www.google.co.jp,www.google.com###tvcap
 www.google.co.jp,www.google.com##div[id]:has(> ol > li.ads-ad)
@@ -232,7 +232,7 @@ weather.yahoo.co.jp##.mdStickyFooter
 m.yahoo.co.jp###rsab
 !||s.yimg.jp/bdv/yahoo/javascript/smartphone/SmartBanner/1.0.0/yahoo-stw-sync/smartbanner.js
 !ヤフートップのこの広告が消えない
-!http://egg.5ch.net/test/read.cgi/android/1560587835/338-341
+!https://egg.5ch.net/test/read.cgi/android/1560587835/338-341
 ||ard.yahoo.co.jp^
 !アプリで見る
 m.yahoo.co.jp###fab
@@ -351,7 +351,7 @@ lineblog.me##.lineblog_ad
 !Wikipedia
 ||meta.wikimedia.org/w/index.php?title=Special:BannerLoader&campaign=
 
-!５ちゃんねるスマホ用http://itest.5ch.net/
+!５ちゃんねるスマホ用https://itest.5ch.net/
 ||static.adroute.focas.jp^
 ||i2ad.jp^
 itest.5ch.net##.ad
@@ -999,7 +999,7 @@ jp.reuters.com##div[data-template="footer"]
 
 !映画.com
 !Googleショッピングで商品クリックで飛べない
-!http://egg.5ch.net/test/read.cgi/software/1540428057/406
+!https://egg.5ch.net/test/read.cgi/software/1540428057/406
 !||www.googleadservices.com^
 ||www.googleadservices.com^$domain=eiga.com
 eiga.com##.adBox-a
@@ -1506,8 +1506,8 @@ burusoku-vip.com##div[style="margin: 10px; padding: 10px; background: #fff8dc; b
 
 !【2ch】コピペ情報局
 news.2chblog.jp##.btn-ldb-bottomAdd
-!http://egg.5ch.net/test/read.cgi/android/1585413705/628
-!http://egg.5ch.net/test/read.cgi/android/1585413705/634
+!https://egg.5ch.net/test/read.cgi/android/1585413705/628
+!https://egg.5ch.net/test/read.cgi/android/1585413705/634
 news.2chblog.jp##[id^="recent_comments_"]:has(.plugin-box.plugin-comment_list .recent-comment-list)
 
 !もみあげチャ～シュ～
@@ -1916,7 +1916,7 @@ dic.pixiv.net##.pixivcomic_body_ad
 dic.pixiv.net##.ranobe_body_ad
 dic.pixiv.net###bottom_pixivcomic_touch
 dic.pixiv.net###illust_touch
-!http://egg.5ch.net/test/read.cgi/android/1567858264/172
+!https://egg.5ch.net/test/read.cgi/android/1567858264/172
 www.pixiv.net##.ad-frame-container
 
 !ウェザーニュース
@@ -1944,13 +1944,13 @@ getnews.jp##.float_sns_button
 web.archive.org###donate_banner
 
 !https://loveheaven.net/read-fukushuu-o-koinegau-saikyou-yuusha-wa-yami-no-chikara-de-senmetsu-musou-suru-raw-chapter-13.html
-!http://fate.5ch.net/test/read.cgi/ios/1574083844/637-638
+!https://fate.5ch.net/test/read.cgi/ios/1574083844/637-638
 ||boyaidare.club^
 
 
 !9tsu
-!http://egg.5ch.net/test/read.cgi/android/1587392121/268
-!http://egg.5ch.net/test/read.cgi/android/1587392121/277
+!https://egg.5ch.net/test/read.cgi/android/1587392121/268
+!https://egg.5ch.net/test/read.cgi/android/1587392121/277
 !トップのバナー
 !||video.9tsu.com/wp-content/uploads/2020/04/top-banner.gif
 top-banner.gif|$domain=video.9tsu.com
@@ -2069,9 +2069,9 @@ video.9tsu.com###modal-9-8
 
 !ict119.com
 !http://prize4904.smmhck69.live/?utm_campaign=bKMuT7EMVXU5Z6UvvSHONGlfu-yV43iC8T8uYixAFxs1&t=main9_8303ff02313139fd&f=1
-!http://fate.5ch.net/test/read.cgi/ios/1524080618/347
+!https://fate.5ch.net/test/read.cgi/ios/1524080618/347
 /^http:\/\/prize[0-9]+\.smmhck[0-9]+\.live/
-!http://fate.5ch.net/test/read.cgi/ios/1524080618/349
+!https://fate.5ch.net/test/read.cgi/ios/1524080618/349
 ||tdsjsext1.com^
 !/^http:\/\/competition[0-9]+\.nonamesrv[0-9]+\.live/
 
@@ -2133,7 +2133,7 @@ video.9tsu.com###modal-9-8
 
 !---------------------------------------------------------------
 !フィッシング広告／ウイルス対策ソフト偽装広告のURL
-!http://egg.5ch.net/test/read.cgi/android/1577026126/136
+!https://egg.5ch.net/test/read.cgi/android/1577026126/136
 ||claim-your-prizes.life/
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/204
 !||sweeps4048.nonamevmmaw97.live/
@@ -2304,7 +2304,7 @@ kinisuru.com##.a2a_floating_style
 ||gce-jp.bidswitch.net^
 ||gecko-sg.byteoversea.com^
 !||goldspotmedia^
-!http://egg.5ch.net/test/read.cgi/android/1577026126/820
+!https://egg.5ch.net/test/read.cgi/android/1577026126/820
 !||graph.facebook.com^
 ||graph.facebook.com/network_ads
 ||haggler-openx002-ap-ne1-ec2.liftoff.io^

@@ -79,7 +79,7 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 
 
 !http://www6.nhk.or.jp/nhkpr/post/trailer.html?i=12747が見れない
-!http://egg.5ch.net/test/read.cgi/software/1510382303/684
+!https://egg.5ch.net/test/read.cgi/software/1510382303/684
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=movie-s.nhk.or.jp
 
 
@@ -87,18 +87,18 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 
 !冬季オリンピックの動画が見れない
 ! Japanese filtersが誤爆するため
-!http://egg.5ch.net/test/read.cgi/software/1515404854/563,565
+!https://egg.5ch.net/test/read.cgi/software/1515404854/563,565
 @@||players.brightcove.net/*/*_default/index.min.js$script
 @@||edge.api.brightcove.com/playback/v1/accounts/$xmlhttprequest
 @@||secure.brightcove.com/services/mobile/streaming/index/$xmlhttprequest
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js
 
 !TVerでテレ東が見れない
-!http://egg.5ch.net/test/read.cgi/software/1515404854/569,570,571
+!https://egg.5ch.net/test/read.cgi/software/1515404854/569,570,571
 @@||pubads.g.doubleclick.net/gampad/ads$xmlhttprequest,domain=tver.jp
 
 !スクエニのサイトでニュースが表示されない
-!http://egg.5ch.net/test/read.cgi/software/1518498170/338
+!https://egg.5ch.net/test/read.cgi/software/1518498170/338
 @@||www.googleadservices.com/pagead/conversion_async.js$domain=www.jp.square-enix.com
 
 !読売オンラインでフォントが出ない
@@ -121,7 +121,7 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 @@||edge.api.brightcove.com/playback/$domain=www.news24.jp
 
 !MSN記事ページが見れない
-!http://egg.5ch.net/test/read.cgi/software/1515576375/654
+!https://egg.5ch.net/test/read.cgi/software/1515576375/654
 !@@|https:*^ad-
 @@||static-entertainment-eas-s-msn-com.akamaized.net^
 
@@ -136,8 +136,8 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 
 !Radikoが聞けない
 !→もういらないかも。2019.2.18
-!http://egg.5ch.net/test/read.cgi/software/1529720783/723
-!http://egg.5ch.net/test/read.cgi/software/1524667609/438
+!https://egg.5ch.net/test/read.cgi/software/1529720783/723
+!https://egg.5ch.net/test/read.cgi/software/1524667609/438
 @@||adobedtm.com^*/satelliteLib-$script,domain=radiko.jp
 @@||adobedtm.com^*/s-code-$script,domain=radiko.jp
 
@@ -146,24 +146,24 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 @@||assets.adobedtm.com^$domain=radiko.jp
 
 !楽天にログインできない
-!http://egg.5ch.net/test/read.cgi/software/1524667609/978
+!https://egg.5ch.net/test/read.cgi/software/1524667609/978
 !https://forums.lanik.us/viewtopic.php?f=64&t=42018
 @@||rd.rakuten.co.jp^$domain=rakuten.co.jp
 
 !AFPの下記の動画がみれない
 !http://www.afpbb.com/articles/-/3196720
-!http://egg.5ch.net/test/read.cgi/software/1539988921/131
+!https://egg.5ch.net/test/read.cgi/software/1539988921/131
 @@||players.brightcove.net^$domain=afpbb.com|brightcove.net
 @@||edge.api.brightcove.com^$domain=afpbb.com|brightcove.net
 
 !ニコ動ランキングで金枠銀枠がごっそり消える
-!http://egg.5ch.net/test/read.cgi/software/1540428057/218
+!https://egg.5ch.net/test/read.cgi/software/1540428057/218
 @@||nicoad.nicovideo.jp^
 
 
 
 !Googleショッピングで商品クリックで飛べない
-!http://egg.5ch.net/test/read.cgi/software/1540428057/406
+!https://egg.5ch.net/test/read.cgi/software/1540428057/406
 @@||www.googleadservices.com^$domain=www.googleadservices.com
 @@^adinfo^$domain=www.google.co.jp
 @@||afl.rakuten.co.jp^$domain=rakuten.co.jp
@@ -171,28 +171,28 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 @@_campaign=$document,first-party
 
 !JRAでレース結果の動画が見れない
-!http://egg.5ch.net/test/read.cgi/software/1549557317/152
+!https://egg.5ch.net/test/read.cgi/software/1549557317/152
 @@||jra.webcdn.stream.ne.jp/web/jra/onetag_design2018/referrer.js
 
 !Twitterの日刊スポーツ公式アカの記事を開こうとするとブロックされる
-!http://egg.5ch.net/test/read.cgi/software/1540428057/626
+!https://egg.5ch.net/test/read.cgi/software/1540428057/626
 @@_campaign=$document,domain=nikkansports.com
 
 !EasyPrivacy入れてたらアットウィキの添付画像消えるンゴねぇ・・・
 @@img.atwikiimg.com/common/_img/spacer.gif?$domain=atwiki.jp
 
 !uBlock Originで、4sharedに入ることすらできないんだけど何か問題でもある？
-!http://egg.5ch.net/test/read.cgi/software/1556498678/590
+!https://egg.5ch.net/test/read.cgi/software/1556498678/590
 !参考までに、MVPS hostsに該当ルールあり。uBOデフォでは未チェックのはず
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/178
 @@||www.4shared.com^
 
 !EasyPrivacyの||analytics.edgekey.net^が原因でNHKニュースの動画が再生されなくなった
-!http://egg.5ch.net/test/read.cgi/software/1562160518/136
+!https://egg.5ch.net/test/read.cgi/software/1562160518/136
 @@||analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js$script,domain=nhk.or.jp
 
 
-!http://egg.5ch.net/test/read.cgi/software/1556498678/665
+!https://egg.5ch.net/test/read.cgi/software/1556498678/665
 !NHKで、
 !再生できない場合
 @@||analytics.edgekey.net/ma_library/$script,domain=nhk.or.jp

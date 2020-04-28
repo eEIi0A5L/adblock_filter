@@ -174,7 +174,7 @@ jin115.com##.footer_social_ad
 jin115.com##table:has(a)
 ||images-fe.ssl-images-amazon.com/images/$domain=jin115.com
 !はちまと刃で画面下に広告の帯が出るようになった
-!http://egg.5ch.net/test/read.cgi/software/1554721271/920
+!https://egg.5ch.net/test/read.cgi/software/1554721271/920
 jin115.com###gStickyAd
 
 !まとめサイト速報＋
@@ -216,7 +216,7 @@ blog.esuteru.com##a[href^="https://rcv.ixd.dmm.com/api/surl?urid="]
 blog.esuteru.com###g_floating_area1
 blog.esuteru.com###g_floating_area2
 !はちまと刃で画面下に広告の帯が出るようになった
-!http://egg.5ch.net/test/read.cgi/software/1554721271/920
+!https://egg.5ch.net/test/read.cgi/software/1554721271/920
 blog.esuteru.com###gStickyAd
 
 !おたく.com
@@ -530,7 +530,7 @@ hosyusokuhou.jp##.kikin
 !http://blog.livedoor.jp/kumokumowatawata/
 ||j-a-net.jp^
 !ブログランキングの応援クリック要素だけ表示したい
-!http://egg.5ch.net/test/read.cgi/android/1554363290/690
+!https://egg.5ch.net/test/read.cgi/android/1554363290/690
 !||with2.net^
 ||d2p8taqyjofgrq.cloudfront.net^
 ||fx-on.com^$third-party
@@ -905,7 +905,7 @@ the-witcher.blog.jp##.theerogazou_link
 ||ad-tag.biz/code/inline.js
 
 !暇なまとめ
-!http://egg.5ch.net/test/read.cgi/software/1556498678/635
+!https://egg.5ch.net/test/read.cgi/software/1556498678/635
 ||js.blozoo.info^$script
 
 !芸能かめはめ波
@@ -1460,7 +1460,7 @@ ryuchin.com###news
 !||js.gsspcln.jp/t/007/749/a7749.js
 2chan.net##div[style="width:728px;height:90px;margin:2px auto"]
 2chan.net##div[style="width:728px;height:90px;margin:2px auto;"]
-!http://egg.5ch.net/test/read.cgi/software/1515404854/400
+!https://egg.5ch.net/test/read.cgi/software/1515404854/400
 !futalog.com##:xpath(//table[(.//script or .//iframe) and .//blockquote])
 !||futalog.com/if_ad.php
 !||adingo.jp^
@@ -1482,7 +1482,7 @@ ryuchin.com###news
 2chan.net##hr + div[style="width:728px;height:90px;margin:4px;"]
 
 !ふたばログ
-!http://egg.5ch.net/test/read.cgi/software/1554721271/159
+!https://egg.5ch.net/test/read.cgi/software/1554721271/159
 !||ad-nex.com^
 !futabalog.com##.adview
 
@@ -1670,7 +1670,7 @@ japanese.joins.com##.pr_area
 ||blog.naver.com/AdPostInjectAsync.nhn
 
 !b9good
-!http://egg.5ch.net/test/read.cgi/software/1524667609/538-549
+!https://egg.5ch.net/test/read.cgi/software/1524667609/538-549
 ||d2fbkzyicji7c4.cloudfront.net^
 ||predictivdisplay.com^$popup
 ||refuzzlizing.pro^$popup
@@ -1711,7 +1711,7 @@ jmty.jp##.adsense_list_sponsored_link
 ||tribalfusion.com/j.ad
 
 !にゃんこ大戦争データベース
-!http://egg.5ch.net/test/read.cgi/software/1568724287/71
+!https://egg.5ch.net/test/read.cgi/software/1568724287/71
 ||battlecats-db.com^$inline-script
 !battlecats-db.com##+js(abort-on-property-read.js, adsbygoogle)
 !battlecats-db.com##+js(addEventListener-defuser.js, load, onload)
@@ -1726,7 +1726,7 @@ jmty.jp##.adsense_list_sponsored_link
 ||cdn.ampproject.org/rtv/011910161528000/v0/amp-ad-network-doubleclick-impl-0.1.js
 
 !dplay
-!http://egg.5ch.net/test/read.cgi/software/1556498678/773
+!https://egg.5ch.net/test/read.cgi/software/1556498678/773
 !@@||9232428.fls.doubleclick.net/
 @@||v.fwmrm.net/ad/g/1?$domain=dplay.jp
 

@@ -15,13 +15,13 @@
 !https://nlab.itmedia.co.jp/nl/articles/1902/27/news087.html
 
 !ImageSparkがstaticset.comでマイニングする
-!http://egg.5ch.net/test/read.cgi/software/1475377484/588
-!http://egg.5ch.net/test/read.cgi/software/1475377484/680
-!http://egg.5ch.net/test/read.cgi/software/1519004649/118
+!https://egg.5ch.net/test/read.cgi/software/1475377484/588
+!https://egg.5ch.net/test/read.cgi/software/1475377484/680
+!https://egg.5ch.net/test/read.cgi/software/1519004649/118
 !https://productforums.google.com/forum/#!topic/chrome/duWfVj3h24E
 ||staticset.com^$third-party
 
-!http://egg.5ch.net/test/read.cgi/software/1512653892/229
+!https://egg.5ch.net/test/read.cgi/software/1512653892/229
 !https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Trojan:HTML/Brocoiner
 ||coinhive.com^$third-party
 ||coin-hive.com^$third-party
@@ -34,7 +34,7 @@
 ||eruuludam.mn^$third-party
 ||playerhd2.pw^$third-party
 
-!http://egg.5ch.net/test/read.cgi/software/1515404854/802
+!https://egg.5ch.net/test/read.cgi/software/1515404854/802
 !ttp://www.ztemobile.jp/っていうスマホ販売会社のサイト開くと
 !www.jqcdn.download/ってのがCPU使用率を300%ほど食うから開かいないほうがいいぞ
 !http://forums.cgsociety.org/showthread.php?f=2&t=1492892

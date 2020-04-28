@@ -82,7 +82,7 @@
 ||www.dropbox.com/s/gm5jnh7o6wx8643/TIME%26SPACE_10GB.gif
 
 !このサイトやばいほど重いよ
-!http://egg.5ch.net/test/read.cgi/software/1519004649/579
+!https://egg.5ch.net/test/read.cgi/software/1519004649/579
 !https://xtreeem.com/I0011914 
 ||xtreeem.com^
 
@@ -101,11 +101,11 @@
 !||wadai-ch.com^
 
 !詐欺サイトに飛ばされる
-!http://egg.5ch.net/test/read.cgi/software/1528060904/447
+!https://egg.5ch.net/test/read.cgi/software/1528060904/447
 ||yowwinnerprize.com^
 
 !画像ファイル偽装でウイルスが埋め込まれている
-!http://matsuri.5ch.net/test/read.cgi/morningcoffee/1532736846/
+!https://matsuri.5ch.net/test/read.cgi/morningcoffee/1532736846/
 !http://xpics.us/images/786507813333_koinokisetu.jpg
 ||xpics.us/images/786507813333_koinokisetu.jpg
 
@@ -135,7 +135,7 @@
 ||hk-life.net^
 
 !最近ページを開くたびにPC修理の画面が出ます
-!http://egg.5ch.net/test/read.cgi/software/1545432454/967
+!https://egg.5ch.net/test/read.cgi/software/1545432454/967
 ||ja.reimageplus.com^
 ||onlineaway.net^
 ||www.uniblue.com/cm/marimedia-rm/speedupmypc/
@@ -150,7 +150,7 @@
 ||goneoutnow.site^$document
 ||sarah.runtnc.net^$document
 
-!http://egg.5ch.net/test/read.cgi/software/1503396071/649
+!https://egg.5ch.net/test/read.cgi/software/1503396071/649
 ||discount.s3blog.org^
 
 !マルウェアアラート
@@ -208,27 +208,27 @@
 !||cococo.indforever.net^
 !||waz.sarah-lai.com^
 !gl-search.comというブラウザハイジャッカーにやられた
-!http://egg.5ch.net/test/read.cgi/software/1475377484/810
+!https://egg.5ch.net/test/read.cgi/software/1475377484/810
 ||gl-search.com^
-!http://egg.5ch.net/test/read.cgi/software/1513787330/897
+!https://egg.5ch.net/test/read.cgi/software/1513787330/897
 !電子マネー千円貰えた(*^o^*)
 ||pointi.jp^
-!http://fate.5ch.net/test/read.cgi/cryptocoin/1520014490/158
+!https://fate.5ch.net/test/read.cgi/cryptocoin/1520014490/158
 ||miffy.me^
-!http://hayabusa9.5ch.net/test/read.cgi/mnewsplus/1521947131/172
+!https://hayabusa9.5ch.net/test/read.cgi/mnewsplus/1521947131/172
 ||xephaoma.com^
 !件名「Microsoftアカウントの不審なサインイン」という偽メールが拡散中
 !https://internet.watch.impress.co.jp/docs/news/1113028.html
 !https://www.antiphishing.jp/news/alert/microsoft_20180322.html
 !||recovery-support-
 !||rec0very-supp0rt-
-!http://egg.5ch.net/test/read.cgi/scienceplus/1523456764/2
+!https://egg.5ch.net/test/read.cgi/scienceplus/1523456764/2
 !http://zwkp.wmhelp.com/20180412_1.jpg
 !||zwkp.wmhelp.com^
 !love-girl.jrelax.com/20180516_1.jpg
 !||love-girl.jrelax.com^
 !５ちゃんねるの荒らしが誘導しているサイト
-!http://matsuri.5ch.net/test/read.cgi/morningcoffee/1531539091/187
+!https://matsuri.5ch.net/test/read.cgi/morningcoffee/1531539091/187
 ||news27u.youdontcare.com/newsplus/
 !http://kabutyer.ownip.net/722/560576575272.png
 ||kabutyer.ownip.net^

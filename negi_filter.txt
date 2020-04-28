@@ -28,7 +28,7 @@ www.nicovideo.jp##.Marquee-item
 !時報
 ||nicovideo.cdn.nimg.jp/html5jiho/
 !ニコニコ動画最後のこの動画はご覧のユーザーの皆様が応援しています
-!http://egg.5ch.net/test/read.cgi/software/1524667609/106
+!https://egg.5ch.net/test/read.cgi/software/1524667609/106
 !||api.nicoad.nicovideo.jp/v1/contents/video/*/thanks
 !||nicovideo.cdn.nimg.jp/web/scripts/pages/watch/assets/uad.mp3
 !ニコ生ザッピング欄
@@ -43,7 +43,7 @@ www.nicovideo.jp##li.nicoadVideoItem
 !運営コメント?
 !live2.nicovideo.jp##div[class^="___player-display-header"]
 !ニコ動ランキング
-!http://egg.5ch.net/test/read.cgi/software/1554721271/859
+!https://egg.5ch.net/test/read.cgi/software/1554721271/859
 !www.nicovideo.jp##div.MediaObject.RankingMainVideo:has-text(き)
 !!www.nicovideo.jp##div.Card.RankingBaseItem:has-text(き)
 !www.nicovideo.jp##a.Card-link:has-text(き)
@@ -98,7 +98,7 @@ www.google.co.jp,www.google.com###sbfrm_l + div
 
 !facebook
 !Facebookのアクセス時に下段、スクロールした時に中央に出るコンテンツをFacebookでチェックログイン または 新しいアカウントを作成をブロックするフィルタ
-!http://egg.5ch.net/test/read.cgi/software/1556498678/363
+!https://egg.5ch.net/test/read.cgi/software/1556498678/363
 facebook.com###pagelet_growth_expanding_cta
 
 
@@ -188,8 +188,8 @@ shopping.yahoo.co.jp###buynow
 
 !Yahooスポーツ
 !Yahooスポーツで自動再生の動画を切って通信料を抑える
-!http://egg.5ch.net/test/read.cgi/software/1540428057/788
-!http://egg.5ch.net/test/read.cgi/software/1540428057/805
+!https://egg.5ch.net/test/read.cgi/software/1540428057/788
+!https://egg.5ch.net/test/read.cgi/software/1540428057/805
 !||s.yimg.jp/images/yvpub/player/$domain=sports.yahoo.co.jp
 
 
@@ -214,7 +214,7 @@ store.shopping.yahoo.co.jp##.fixog
 videotopics.yahoo.co.jp##^#nvideo
 
 !Yahooスポーツナビhttps://sports.yahoo.co.jp/の右上で勝手に再生されるピックアップ動画を止める
-!http://egg.5ch.net/test/read.cgi/software/1524667609/84-85
+!https://egg.5ch.net/test/read.cgi/software/1524667609/84-85
 !||s.yimg.jp/images/yvpub/player/fla/v1/YVPubPlayer.swf$domain=sports.yahoo.co.jp
 !sports.yahoo.co.jp###pkmvemb
 
@@ -354,7 +354,7 @@ www.dailymail.co.uk##.floating-buttons
 
 !Instagram
 instagram.com##footer + div
-!http://egg.5ch.net/test/read.cgi/software/1556498678/678
+!https://egg.5ch.net/test/read.cgi/software/1556498678/678
 ! 11/21/2019 https://www.instagram.com
 ! 画面下のログインバナー
 www.instagram.com##nav .glyphsSpriteGrey_Close:nth-ancestor(2):has(div:has-text(/^\s*(?:Log In to Instagram|Instagramにログイン)\s*$/))
@@ -493,7 +493,7 @@ archive.org###donate_banner
 !pixiv
 www.pixiv.net##._premium-lead-tag-search-bar
 !pixivから指定ユーザを消す
-!http://egg.5ch.net/test/read.cgi/software/1515404854/681-685
+!https://egg.5ch.net/test/read.cgi/software/1515404854/681-685
 !www.pixiv.net##div:has(> figure:has-text(名無しさん))
 
 !OKwave

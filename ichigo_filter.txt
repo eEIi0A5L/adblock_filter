@@ -154,7 +154,7 @@ imgflare.com##div[style^="width:604px; height:250px;"]
 !pornhub
 ||smpop.icfcdn.com/smpop-stable.js$script
 ||ci.phncdn.com/www-static/js/ph-tracking.js?
-!http://egg.5ch.net/test/read.cgi/software/1554721271/714
+!https://egg.5ch.net/test/read.cgi/software/1554721271/714
 !https://www.reddit.com/r/uBlockOrigin/comments/byd13w/pornhubs_related_videos_right_side_panel_is_gone/?ref=readnext
 !||trafficjunky.net^$important,third-party
 ||trafficjunky.net^$third-party
@@ -753,7 +753,7 @@ openload.co##+js(abort-current-inline-script.js, adblock, adblock2)
 www.javdoe.tv##.fa-share
 www.javdoe.tv##[id*="ScriptRoot"]
 www.javdoe.tv##div[id*="ScriptRootC"]
-!http://egg.5ch.net/test/read.cgi/software/1524667609/424-428
+!https://egg.5ch.net/test/read.cgi/software/1524667609/424-428
 !||www.googletagmanager.com^
 ||affiliateone.jp^
 ||affiliateone.jp^$popup
@@ -835,7 +835,7 @@ share-videos.se##img[alt="banner"]
 ||static.share-videos.se/images/gk/728_90.png
 !||amateur-contents.com/img/ryuusyutu1.png
 share-videos.se##div[style="margin-left:120px;"]
-!http://egg.5ch.net/test/read.cgi/software/1556498678/321
+!https://egg.5ch.net/test/read.cgi/software/1556498678/321
 ||admesia.com^
 
 !JavTube
@@ -923,8 +923,8 @@ xvideo-jp.com##.p-articleDMM
 ||stats.wp.com/e-201904.js$domain=xvideo-jp.com
 ||xvideo-jp.com/wp-cron.php
 !ロゴが出ない誤爆が発生した対策
-!http://egg.5ch.net/test/read.cgi/software/1556498678/869
-!http://egg.5ch.net/test/read.cgi/software/1556498678/876
+!https://egg.5ch.net/test/read.cgi/software/1556498678/869
+!https://egg.5ch.net/test/read.cgi/software/1556498678/876
 !embed.share-videos.se###logo
 embed.share-videos.se###ad_html
 

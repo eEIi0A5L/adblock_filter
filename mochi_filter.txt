@@ -415,8 +415,8 @@ headlines.yahoo.co.jp,news.yahoo.co.jp##div[id^="spocon"]
 !俺もヤフーニュースのページが激しくお漏らしするようになった
 !これはおまかんなのか・・・それとも何らかの変更か・・・
 !フィルターに造詣が深い方からのサポートを希望いたします
-!http://egg.5ch.net/test/read.cgi/software/1540428057/142
-!http://egg.5ch.net/test/read.cgi/software/1540428057/150
+!https://egg.5ch.net/test/read.cgi/software/1540428057/142
+!https://egg.5ch.net/test/read.cgi/software/1540428057/150
 !||yimg.*/images/media/video/player/
 
 
@@ -436,7 +436,7 @@ headlines.yahoo.co.jp,news.yahoo.co.jp##div[id^="spocon"]
 
 
 !ページ下部のおすすめ記事
-!http://egg.5ch.net/test/read.cgi/software/1540428057/89-94
+!https://egg.5ch.net/test/read.cgi/software/1540428057/89-94
 !news.yahoo.co.jp##.topicsTl
 !headlines.yahoo.co.jp##.stream_title
 !headlines.yahoo.co.jp##.listFeed
@@ -542,8 +542,8 @@ weather.yahoo.co.jp###ad-ct
 weather.yahoo.co.jp###pos-lrec
 
 !ヤフー天気の今日明日の指数情報（洗濯～風邪注意）
-!http://egg.5ch.net/test/read.cgi/software/1540428057/133
-!http://egg.5ch.net/test/read.cgi/software/1540428057/135
+!https://egg.5ch.net/test/read.cgi/software/1540428057/133
+!https://egg.5ch.net/test/read.cgi/software/1540428057/135
 !weather.yahoo.co.jp###index2days
 !weather.yahoo.co.jp##.indexList
 
@@ -611,7 +611,7 @@ map.yahoo.co.jp###So2
 
 !右上の広告
 !ヤフー知恵袋の右側が一番下までスクロールした後トップに戻ってくるとバグります
-!http://egg.5ch.net/test/read.cgi/software/1554721271/737
+!https://egg.5ch.net/test/read.cgi/software/1554721271/737
 !detail.chiebukuro.yahoo.co.jp###sub-top
 
 !アイテム広告
@@ -778,7 +778,7 @@ facebook.com##body > .AdBox.Ad.advert:style(display:block!important;)
 ||ads.adjust-net.jp^
 ||ads.nicovideo.jp^
 !ニコニコ動画のサムネイルが全て真っ黒になってしまう
-!http://egg.5ch.net/test/read.cgi/software/1524667609/595-596
+!https://egg.5ch.net/test/read.cgi/software/1524667609/595-596
 @@||ads.nicovideo.jp/assets/js/ads-2.29.0.min.js$domain=www.nicovideo.jp
 ||res.nimg.jp/scripts/pages/watch/assets/uad.mp3
 ||res.nimg.jp/js/ads.js?
@@ -1007,7 +1007,7 @@ fc2.com###sh_fc2blogheadbar_link_box
 !一か月広告
 !→本文も消えてしまう
 !fc2.com##.entry_table:has(iframe)
-!http://mevius.5ch.net/test/read.cgi/esite/1548897768/306
+!https://mevius.5ch.net/test/read.cgi/esite/1548897768/306
 admin.blog.fc2.com###ad_sidebody
 admin.blog.fc2.com###ad_sidebar
 
@@ -1113,7 +1113,7 @@ kakakumag.com##.fixedRightAdContainer
 !楽天サイト自体の広告ブロック
 rakuten.co.jp###footer-floating-bnr
 !楽天の検索結果のPR枠
-!http://egg.5ch.net/test/read.cgi/software/1580196388/768-774
+!https://egg.5ch.net/test/read.cgi/software/1580196388/768-774
 !search.rakuten.co.jp##.searchresultitem:has(span.-pr)
 
 !Amazon（他サイトに出る広告のブロック）
@@ -1125,7 +1125,7 @@ rakuten.co.jp###footer-floating-bnr
 ||amazon-adsystem.com^$third-party,domain=~amazon.co.jp
 
 !ublockで尼の-22アフィリンク踏んだ時に厳格なブロックの警告出してほしいんだけどどう設定すればいい？
-!http://egg.5ch.net/test/read.cgi/software/1556498678/616
+!https://egg.5ch.net/test/read.cgi/software/1556498678/616
 !||www.amazon.co.jp/exec/obidos/ASIN/*/*-22/*$document,1p
 
 
@@ -1383,7 +1383,7 @@ www.tbs.co.jp##.over:has( > .wrap > .recta_bg )
 www.fujitv.co.jp###cx_gbheader_sb:nth-ancestor(1)
 
 !テレ東
-!http://egg.5ch.net/test/read.cgi/software/1524667609/33
+!https://egg.5ch.net/test/read.cgi/software/1524667609/33
 @@||pubads.g.doubleclick.net/gampad/ads$domain=video.tv-tokyo.co.jp
 www.tv-tokyo.co.jp###txcms_cms_headerBanner
 www.tv-tokyo.co.jp##.tbcms_ad-block
@@ -1399,7 +1399,7 @@ tv-asahi.co.jp##.init-ad
 ||www.tv-asahi.co.jp/Top16/pc/scripts/adtech-desktop.js
 !Chromeでこれ見られなくない？
 !https://cu.tv-asahi.co.jp/watch/1271
-!http://egg.5ch.net/test/read.cgi/software/1551423520/345
+!https://egg.5ch.net/test/read.cgi/software/1551423520/345
 @@||pubads.g.doubleclick.net/gampad/ads?output=$domain=tv-asahi.co.jp
 www.tv-asahi.co.jp##.newHeaderBanner
 www.tv-asahi.co.jp##.analytics_pr_rect
@@ -1418,7 +1418,7 @@ mainichi.jp##.fixbtm-banner
 mainichi.jp##.ads
 ||s-adserver.cxad.cxense.com^
 !ページ表示が遅い
-!http://egg.5ch.net/test/read.cgi/software/1524667609/424-428
+!https://egg.5ch.net/test/read.cgi/software/1524667609/424-428
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js
 !誤爆が多いのでコメント化 2019.10.19
 !||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js
@@ -1894,13 +1894,13 @@ www.pixiv.net##.multi-ads-area
 ||ads.doko.jp^
 ||d.pixiv.org/file?format=default&ad_group_id=
 www.pixiv.net##section.ad
-!http://egg.5ch.net/test/read.cgi/software/1540428057/307-313
+!https://egg.5ch.net/test/read.cgi/software/1540428057/307-313
 !www.pixiv.net##a[target="premium_noads"]:has-text(広告を消す)
 www.pixiv.net##a[href="/premium/lead/lp?g=anchor&i=work_detail_remove_ads"]
 ||pixon.ads-pixiv.net^
-!http://egg.5ch.net/test/read.cgi/software/1540428057/314-315
+!https://egg.5ch.net/test/read.cgi/software/1540428057/314-315
 !www.pixiv.net##section + a[rel="noopener"][class^="sc-"][href^="/member_illust.php?"]
-!http://egg.5ch.net/test/read.cgi/software/1540428057/316-317
+!https://egg.5ch.net/test/read.cgi/software/1540428057/316-317
 !www.pixiv.net###root > div > div > div > div > div[class^="sc-"]:first-child
 !右サイドの広告
 www.pixiv.net##iframe[name="300x250"]:nth-ancestor(1)
@@ -1984,7 +1984,7 @@ news.nifty.com##li:has( > ._popIn_recommend_article_ad )
 
 
 !スクエニのサイトでニュースが表示されない
-!http://egg.5ch.net/test/read.cgi/software/1518498170/338
+!https://egg.5ch.net/test/read.cgi/software/1518498170/338
 @@||www.googleadservices.com/pagead/conversion_async.js$domain=www.jp.square-enix.com
 
 !popinについて
@@ -2274,9 +2274,9 @@ pastebin.com##div[class^="banner_"]
 
 !ict119.com
 !http://prize4904.smmhck69.live/?utm_campaign=bKMuT7EMVXU5Z6UvvSHONGlfu-yV43iC8T8uYixAFxs1&t=main9_8303ff02313139fd&f=1
-!http://fate.5ch.net/test/read.cgi/ios/1524080618/347
+!https://fate.5ch.net/test/read.cgi/ios/1524080618/347
 /^http:\/\/prize[0-9]+\.smmhck[0-9]+\.live/
-!http://fate.5ch.net/test/read.cgi/ios/1524080618/349
+!https://fate.5ch.net/test/read.cgi/ios/1524080618/349
 ||tdsjsext1.com^
 !/^http:\/\/competition[0-9]+\.nonamesrv[0-9]+\.live/
 

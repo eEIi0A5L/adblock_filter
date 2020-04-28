@@ -121,7 +121,7 @@ abcnews.go.com##.ad-wrapper
 ||stats.pusher.com^
 ||merlin.abc.go.com^
 !Googleショッピングで商品クリックで飛べない
-!http://egg.5ch.net/test/read.cgi/software/1540428057/406
+!https://egg.5ch.net/test/read.cgi/software/1540428057/406
 !||www.googleadservices.com^
 ||www.googleadservices.com^$domain=abcnews.go.com
 ||s.abcnews.com/assets/js/prebid.min.js
@@ -432,7 +432,7 @@ video.9tsu.com###sidebar-ads
 ||video.9tsu.com/js/ads.js
 ||video.9tsu.com/js/adslist.js
 ||atas.io^$third-party
-!http://egg.5ch.net/test/read.cgi/software/1524667609/463-466
+!https://egg.5ch.net/test/read.cgi/software/1524667609/463-466
 ||reddleops.pro^
 ||167.99.211.97^
 ||167.99.211.97^$popup
@@ -440,7 +440,7 @@ video.9tsu.com###sidebar-ads
 !||mmaaxx.com/9tsu/thumbnail/index.html
 ||mmaaxx.com^
 !https://video.9tsu.com/を見てる時に動画クリックしたらたまに>>647の所に繋がるんだよな
-!http://egg.5ch.net/test/read.cgi/software/1556498678/654
+!https://egg.5ch.net/test/read.cgi/software/1556498678/654
 video.9tsu.com##^script:has-text(9tsuPopAd)
 top-banner.gif|$domain=video.9tsu.com
 side-banner.gif|$domain=video.9tsu.com
