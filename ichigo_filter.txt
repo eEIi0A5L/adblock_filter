@@ -589,6 +589,7 @@ asianclub.*##+js(window.open-defuser)
 ||8xkr.xyz^
 popjav.tv##.releatedadsholder
 ##+js(no-setTimeout-if, J3M)
+||asianclub.nl/asset/default/player/plugins/vast-$script
 !FO server
 fileone.tv##+js(window.open-defuser, 1, .php?)
 fileone.tv##+js(abort-current-inline-script, document.querySelectorAll, popMagic)
