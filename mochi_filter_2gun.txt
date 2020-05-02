@@ -1676,6 +1676,8 @@ japanese.joins.com##.pr_area
 ||refuzzlizing.pro^$popup
 b9good.com##div[style^="position: fixed; inset: 0px;"]
 ||*^$popup,domain=b9good.com
+!http://egg.5ch.net/test/read.cgi/software/1562160518/191-193
+b9good.com##+js(acis, $, popad)
 
 !Qiita
 qiita.com##.p-items_options:has( > .mt-2 )
