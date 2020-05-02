@@ -1676,8 +1676,19 @@ japanese.joins.com##.pr_area
 ||refuzzlizing.pro^$popup
 b9good.com##div[style^="position: fixed; inset: 0px;"]
 ||*^$popup,domain=b9good.com
-!http://egg.5ch.net/test/read.cgi/software/1562160518/191-193
+!https://egg.5ch.net/test/read.cgi/software/1562160518/191-193
 b9good.com##+js(acis, $, popad)
+!https://egg.5ch.net/test/read.cgi/software/1562160518/197-198
+||css.b9good.com/gif/*.gif$image
+||oupushee.com^
+b9good.com##[href*="oupushee.com"]
+b9good.com##[href*="b9good.com/attachments"]
+b9good.com##[href$=".jpg"]
+||https://filerio.in/images/logo_bw.png
+||b9good.com/system/template/share/media/images/smiles/*.gif$image
+||b9good.com/attachments/playlist/201907/20190708121644_8593.jpg
+b9good.com##a[href="//oardilin.com/2408647.html"]
+
 
 !Qiita
 qiita.com##.p-items_options:has( > .mt-2 )
