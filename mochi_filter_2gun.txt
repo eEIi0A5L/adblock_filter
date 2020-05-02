@@ -1674,6 +1674,8 @@ japanese.joins.com##.pr_area
 ||d2fbkzyicji7c4.cloudfront.net^
 ||predictivdisplay.com^$popup
 ||refuzzlizing.pro^$popup
+b9good.com##div[style^="position: fixed; inset: 0px;"]
+||*^$popup,domain=b9good.com
 
 !Qiita
 qiita.com##.p-items_options:has( > .mt-2 )
