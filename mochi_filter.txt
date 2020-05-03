@@ -101,7 +101,9 @@ www.google.co.jp,www.google.com###bottomads
 
 !gmail
 mail.google.com##.aKB
-||mail-ads.google.com/mail/u/0/ads/main_jspb
+!下に統合
+!||mail-ads.google.com/mail/u/0/ads/main_jspb
+||mail-ads.google.com^
 
 
 
