@@ -660,6 +660,7 @@ asianclub.tv##+js(window.open-defuser)
 asianclub.tv##+js(aeld, click, open)
 hpjav.tv##+js(aopr, VAST)
 hpjav.tv##+js(aopr, AaDetector)
+hpjav.tv##div[id^="ts_ad_native_"]
 
 !javmost
 ||pussl48.com^
