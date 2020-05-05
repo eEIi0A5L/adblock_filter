@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2019/11/30 00:00 JST
+! Last modified: 2020/5/6 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/negi.html
 
@@ -493,8 +493,9 @@ archive.org###donate_banner
 !pixiv
 www.pixiv.net##._premium-lead-tag-search-bar
 !pixivから指定ユーザを消す
-!https://egg.5ch.net/test/read.cgi/software/1515404854/681-685
-!www.pixiv.net##div:has(> figure:has-text(名無しさん))
+!https://egg.5ch.net/test/read.cgi/software/1562160518/205-207
+!www.pixiv.net##li:has( a:has-text(※ユーザーの名前※) )
+
 
 !OKwave
 !真っ赤でまぶしい
