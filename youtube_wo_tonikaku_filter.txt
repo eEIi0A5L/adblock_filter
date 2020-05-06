@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Youtubeの広告をとにかくブロックするフィルタ
-! Last modified: 30 Mar 2020 00:00 JST
+! Last modified: 06 May 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/
 ! 
@@ -8,6 +8,7 @@
 
 ||www.youtube.com/ads/$image
 youtube.com##ytd-promoted-sparkles-web-renderer
+youtube.com##ytd-carousel-ad-renderer
 youtube.com##.ad-container
 youtube.com##.video-ads
 youtube.com##.ytp-ad-progress-list

@@ -15,6 +15,9 @@
 ||upda-te.to/webpush/serviceWorker.js
 ||noorotin.biz/w_18.js
 ||www.adaware.com/sw.js
+||promodayz.com
+||5sercher.biz
+
 
 
 !モバイル用
