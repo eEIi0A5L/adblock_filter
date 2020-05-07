@@ -1981,7 +1981,9 @@ spotify.com##.ads-container__inner
 
 !Buzzfeed
 ||www.buzzfeed.com/static/js/advertiser/
-||abeagle-public.buzzfeed.com^
+!SNSが点滅する
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/221
+!||abeagle-public.buzzfeed.com^
 
 !Nifty
 !検索結果の広告
