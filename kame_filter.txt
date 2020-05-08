@@ -74,6 +74,7 @@
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/223
 !||www.amazon.co.jp.
 ||www.amazon.co.jp.$domain=~www.amazon.co.jp
+@@||www.amazon.co.jp.edgekey.net^
 
 
 !Text Link Plusがマルウェア化しました
