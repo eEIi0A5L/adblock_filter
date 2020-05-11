@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 29 Mar 2020 00:00 JST
+! Last modified: 11 May 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://pokapoka.shoooter.net/mochi_extended.html
 ! 
@@ -673,6 +673,14 @@ investing.com##.midHeader
 
 !NBA
 www.nba.com###block-globalheaderadblock
+
+!akinator
+||ezoic.net^$3p
+||firstimpression.io^$3p
+||ezojs.com^$3p
+akinator.com##+js(abort-on-property-read, loadAds)
+
+
 
 
 
