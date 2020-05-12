@@ -2,7 +2,7 @@
 ! Title: Youtubeの広告をとにかくブロックするフィルタ+Google
 ! Last modified: 19 Feb 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
-! Homepage: https://pokapoka.shoooter.net/
+! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/
 ! 
 ! 
 
