@@ -70,6 +70,8 @@ hs-exp.jp##.dfad
 !ameblo.jp##^amp-ad
 ! アメブロトラッカー
 ||ameblo.jp/_api/collectStats;data=$image
+!下部のナビ
+ameblo.jp##div[role="navigation"]
 
 ! TripadvisorとExpedia
 ||www.tripadvisor.jp/GARecord|$xmlhttprequest
