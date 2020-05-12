@@ -3,7 +3,7 @@
 !忍者ホームページの休眠ページ広告枠
 ! Last modified: 29 Nov 2018 12:00 JST
 ! Expires: 6 hours (update frequency)
-! Homepage: https://pokapoka.shoooter.net/
+! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/
 ! https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/shinobi_filter.txt
 ! 
 

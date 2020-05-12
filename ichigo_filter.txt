@@ -2,7 +2,7 @@
 ! Title: いちごフィルタ（Xサイト広告ブロック）
 ! Last modified: 09 May 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
-! Homepage: https://pokapoka.shoooter.net/ichigo.html
+! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
 ! 
 ! 
 

@@ -2,7 +2,7 @@
 ! Title: ねぎ：Googleのロゴを消すフィルタ
 ! Last modified: 27 Mar 2018 00:00 JST
 ! Expires: 6 hours (update frequency)
-! Homepage: https://pokapoka.shoooter.net/google_hplogo_block.html
+! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/google_hplogo_block.html
 ! 
 ! 
 
