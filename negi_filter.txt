@@ -434,6 +434,8 @@ watch.impress.co.jp###pc-floating-layer
 
 !amebloの右下のナビ
 ameblo.jp##.footerNav
+!下部のナビ
+ameblo.jp##div[role="navigation"]
 
 !fc2
 blog.fc2.com###topcontrol
