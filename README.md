@@ -8,5 +8,5 @@
 * クジラフィルタ（コインマイニングブロック）
 * いちごフィルタ（アダルトサイト広告ブロック）
 
-Homepage https://pokapoka.shoooter.net/
+Homepage https://eeii0a5l.github.io/mochifilter_homepage/
 
