@@ -882,6 +882,8 @@ japanhub.net###wrapper > .container > .row > .col-12
 @@||syndication.exosrv.com/splash.php
 ||counevan.pro^
 japanhub.net##.row.banner-a
+||wpush.org^$3p
+||defutohy.pro^
 
 
 !redtube
