@@ -405,6 +405,10 @@ itest.bbspink.com##.sproutad_frame
 itest.bbspink.com###js-bottom-ad-300x250
 itest.bbspink.com##.js-ad_iframe
 itest.bbspink.com###ads
+itest.bbspink.com##.js-ads-content-top_rectangle
+itest.bbspink.com##.sproutad_frame-description
+itest.bbspink.com##div[style="height: 250px; position: relative; text-align: center; overflow: hidden; margin: 0 auto; margin-bottom: 15px;"]
+||ad-stir.com^
 
 !５ちゃんねる
 ||stab.thench.net^
