@@ -369,6 +369,9 @@ thisav.com###share_to
 ||9nwg9sib9e.com^
 ||trafficshop.com^$third-party,popup
 ||hdpreview.com^$third-party
+thisav.com##+js(aopw, _pop)
+thisav.com##+js(abort-on-property-write, _pop)
+thisav.com##^script:has-text('shift')
 
 !movie.eroterest.net
 !||eroimg.net/images/kok/u-next_300250.gif
