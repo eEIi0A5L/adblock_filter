@@ -142,7 +142,7 @@ www.google.co.jp,www.google.com##.ads-ad
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/193
 !google.co.jp,google.com##span:has-text(広告):nth-ancestor(4)
 !関連キーワード前の広告
-!www.google.co.jp,www.google.com##.commercial-unit-mobile-bottom:nth-ancesto(1)
+!www.google.co.jp,www.google.com##.commercial-unit-mobile-bottom:nth-ancestor(1)
 www.google.co.jp,www.google.com##.commercial-unit-mobile-bottom
 
 !Twitter
