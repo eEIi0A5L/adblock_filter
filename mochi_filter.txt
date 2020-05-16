@@ -1490,6 +1490,12 @@ www.j-cast.com##.ad_entry_toptext
 
 !サンスポ
 www.sanspo.com##.adRectangleBanner
+!sanspo.comで検索が機能しない
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/226
+@@||popin.cc^$3p,domain=sanspo.com
+||www.google.co.jp/afs/ads
+www.sanspo.com###ads_content_top
+
 
 !ロイター
 ||www.reuters.com/reuters_ads_framework.js
@@ -2024,7 +2030,7 @@ japan.cnet.com###content-top-block
 
 !食べログ
 !||inrecsys.popin.cc/PopinService/Logs/ad
-||popin.cc^$domain=tabelog.com
+!||popin.cc^$domain=tabelog.com
 
 !exblog.jp
 exblog.jp###yads_pc_overlay
