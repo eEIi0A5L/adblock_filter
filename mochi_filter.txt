@@ -1301,6 +1301,9 @@ www.asahi.com##.PrTextMod
 www.asahi.com##.RectAdArea
 www.asahi.com##.AdArea
 www.asahi.com###HometopAdOuter
+!Chromeで朝日新聞の記事を開くとBraveブラウザの広告が出る
+!http://egg.5ch.net/test/read.cgi/software/1585819901/367
+||www.asahi.com/brave/modal-dist/index.js
 
 !読売
 !||www.yomiuri.co.jp/cont2/ad/js/ad_world.js
