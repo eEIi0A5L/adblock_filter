@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 15 May 2020 00:00 JST
+! Last modified: 19 May 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
 ! 
@@ -177,6 +177,14 @@ instagram.com###react-root > section > nav > div > div > section.xZ2Xk
 
 !ニコ動
 sp.ch.nicovideo.jp###appBanner
+
+!ニコ生
+!||nicolive.cdn.nimg.jp/relive/sp/app.bc79576574.js
+!ニコ生をFirefoxで見ているときに5分後にでるダイアログ
+!sp.live.nicovideo.jp##div[data-display-on-fullscreen="true"]:has( > section[class^="___alert-dialog___"] )
+!sp.live.nicovideo.jp##+js(nosiif)
+!sp.live.nicovideo.jp##+js(nostif)
+sp.live.nicovideo.jp##+js(nostif, (), 300000)
 
 !impress
 !→もう要らない
@@ -1978,7 +1986,11 @@ video.9tsu.com###modal-9-8
 imgur.com###div-ad-top_banner
 ||s.imgur.com/images/house-cta/ad-free/
 
-
+!Reddit
+!RedditのSee this post in...
+!http://egg.5ch.net/test/read.cgi/software/1562160518/307-313
+www.reddit.com##html,body:style(overflow: scroll !important)
+www.reddit.com##.XPromoPopup
 
 
 
