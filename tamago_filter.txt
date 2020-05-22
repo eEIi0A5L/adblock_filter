@@ -1432,7 +1432,8 @@ hosyusokuhou.jp###ovrss
 ||fam-ad.com^
 
 !IT速報
-!（なし）
+!上部のAmazonおすすめ
+blog.livedoor.jp###lite_link
 
 !高身長女子速報
 !（なし）
