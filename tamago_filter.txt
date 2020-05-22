@@ -1857,6 +1857,10 @@ allabout.co.jp###sys-anchor
 !Cyzo Woman
 ||adpon-prd-asset.sslcs.cdngc.net^
 
+!サイゾー
+www.cyzo.com##.adsenseArea
+www.cyzo.com##div[id^="ad_"]
+
 !これはエロい速報
 !http://korewaeroi.com/
 ||adnico.jp^
