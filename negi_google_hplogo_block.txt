@@ -1,19 +1,22 @@
 [Adblock Plus 2.0]
 ! Title: ねぎ：Googleのロゴを消すフィルタ
-! Last modified: 27 Mar 2018 00:00 JST
+! Last modified: 23 May 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/google_hplogo_block.html
 ! 
 ! 
 
-^logos^$domain=google.co.jp|google.com
-google.co.jp###hplogo
+!ソリティアで検索した結果ページでのゲームがプレイできない
+!^logos^$domain=google.co.jp|google.com
+google.co.jp,google.com###hplogo
 !##^にいぜんバグあり
 !suspendTabsUntilReady=trueでホームがgoogleの時に、##^でテキストがとりこぼしになる。そして##^があると###hplogoが無視されるので、テキストが表示されたままになってしまう
-!google.co.jp##^#hplogo
-google.co.jp###prm
+!google.co.jp,google.com##^#hplogo
+google.co.jp,google.com###prm
 ||www.google.co.jp/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png
 ||www.google.co.jp/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
+||www.google.com/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png
+||www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
 
 !Google
 !I feel luckボタン上のたまご 2019.4.21
