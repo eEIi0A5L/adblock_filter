@@ -144,6 +144,8 @@ www.google.co.jp,www.google.com##.ads-ad
 !関連キーワード前の広告
 !www.google.co.jp,www.google.com##.commercial-unit-mobile-bottom:nth-ancestor(1)
 www.google.co.jp,www.google.com##.commercial-unit-mobile-bottom
+!検索結果の広告
+www.google.com##div#main > div.D1fz0e
 
 !Twitter
 !英語版
