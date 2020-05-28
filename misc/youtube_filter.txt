@@ -1,0 +1,31 @@
+[Adblock Plus 2.0]
+! Title: Youtube adblock
+! Last modified: 29 May 2020 00:00 JST
+! Expires: 6 hours (update frequency)
+! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/
+! 
+! 
+
+||www.youtube.com/ads/$image
+youtube.com##ytd-promoted-sparkles-web-renderer
+youtube.com##ytd-carousel-ad-renderer
+youtube.com##.ad-container
+youtube.com##.video-ads
+youtube.com##.ytp-ad-progress-list
+youtube.com##.ytd-search-pyv-renderer
+youtube.com##.iv-promo
+youtube.com###player-ads
+youtube.com###masthead-ad
+youtube.com###video-masthead 
+=adunit&$domain=youtube.com
+||www.youtube.com/yts/jsbin/www-pagead-id-
+||youtube.com/get_midroll_
+||pagead2.googlesyndication.com^
+||www.google.co.jp/pagead/lvz?
+||youtube.com/pagead/
+||doubleclick.net^
+||2mdn.net^
+||googleadservices.com^
+||googlesyndication.com^
+||googletagservices.com^
+||google-analytics.com^
