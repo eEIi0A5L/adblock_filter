@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 06 May 2020 00:00 JST
+! Last modified: 31 May 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -1971,6 +1971,7 @@ dailynewsonline.jp##.adArea
 !→ima3なしで広告でない
 !→この現象が起きたときは、@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tver.jpでオフにしてください
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tver.jp
+tver.jp###ADoverlay
 
 !TVerでテレ東だけが見れない
 @@||pubads.g.doubleclick.net^$domain=tver.jp
