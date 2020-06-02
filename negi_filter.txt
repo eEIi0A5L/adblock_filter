@@ -279,6 +279,18 @@ twitter.com##.LiveVideoHomePageModuleContainer
 !https://egg.5ch.net/test/read.cgi/software/1540428057/702-703
 !twitter.com##.tweet-has-context.js-original-tweet.original-tweet.dismissible-content.js-profile-popup-actionable.js-actionable-tweet.js-stream-tweet.tweet
 
+!固定されたツイート
+!http://egg.5ch.net/test/read.cgi/software/1562160518/366
+!twitter.com##article:has( > div > div > div > div > div > div > div > div > span:has-text(Pinned Tweet) )
+!twitter.com##article:has( > div > div > div > div > div > div > div > div > span:has-text(固定されたツイート) )
+
+!TL上の～さんがリツイート
+!http://egg.5ch.net/test/read.cgi/software/1562160518/366
+!twitter.com##article:has( > div > div > div > div > div > div >div > div > a >span:has-text(Retweet) )
+!twitter.com##article:has( > div > div > div > div > div > div >div > div > a >span:has-text(さんがリツイート) )
+
+
+
 !Wikipedia
 wikipedia.org###siteNotice
 wiktionary.org###siteNotice
