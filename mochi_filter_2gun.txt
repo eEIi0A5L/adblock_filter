@@ -471,7 +471,7 @@ blog.livedoor.jp##.article-body-more > div > blockquote
 
 !マジキチ
 !majikichi.com##.main:has( > a[href^="https://www.dlsite.com/"] )
-majikichi.com##a[href^="https://www.dlsite.com/"]:nth-ancestor(1)
+majikichi.com##a[href^="https://www.dlsite.com/"]:upward(1)
 
 !かすてら速報
 !http://castella.biz/

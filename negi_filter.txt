@@ -373,7 +373,7 @@ instagram.com##footer + div
 !https://egg.5ch.net/test/read.cgi/software/1556498678/678
 ! 11/21/2019 https://www.instagram.com
 ! 画面下のログインバナー
-www.instagram.com##nav .glyphsSpriteGrey_Close:nth-ancestor(2):has(div:has-text(/^\s*(?:Log In to Instagram|Instagramにログイン)\s*$/))
+www.instagram.com##nav .glyphsSpriteGrey_Close:upward(2):has(div:has-text(/^\s*(?:Log In to Instagram|Instagramにログイン)\s*$/))
 ! 下にスクロールしていくと出てくるログインダイアログボックス
 www.instagram.com##[role="presentation"]:has(div:has-text(/^\s*(?:Log in to continue|ログインする)\s*$/))
 www.instagram.com##body:style(overflow: auto !important)
