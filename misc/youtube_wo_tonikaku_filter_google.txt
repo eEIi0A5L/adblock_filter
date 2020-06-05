@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Youtubeの広告をとにかくブロックするフィルタ+Google
-! Last modified: 19 Feb 2019 00:00 JST
+! Last modified: 06 Jun 2019 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/
 ! 
@@ -27,3 +27,4 @@ youtube.com###video-masthead
 ||googlesyndication.com^
 ##div[id^="div-gpt-ad"]
 ##.adsbygoogle
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
