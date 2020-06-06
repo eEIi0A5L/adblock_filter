@@ -2091,6 +2091,7 @@ www.gnavi.co.jp##.ftb
 pastebin.com##.OUTBRAIN
 ||aj2073.online^
 pastebin.com##div[class^="banner_"]
+||www.ledgerwallet.com/images/promo/banners/
 
 
 
