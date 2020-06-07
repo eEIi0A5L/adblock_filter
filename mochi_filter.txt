@@ -2339,6 +2339,17 @@ pastebin.com##div[class^="banner_"]
 ||lowaihoo15.live^
 ||www.wosemdesy.site^
 
+!http://page.freett.com/wagainochi/page1/page.html
+!||mifttreppels14.live^
+/^https:\/\/mifttreppels[0-9]+\.live\//
+||all-best-prize2020.com^
+||fast.superlinks.org^
+||rsalcau.com^
+||usa.khurshid-sus.com^
+||ww1.freett.com^
+
+
+
 
 
 
