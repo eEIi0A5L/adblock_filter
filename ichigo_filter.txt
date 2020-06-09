@@ -620,7 +620,6 @@ mixdrop.*##+js(set, MDCore.adblock, 0)
 mixdrop.co##+js(aopw, _pop)
 !VO server
 vidoza.net##+js(nofab)
-||pornimg.xyz^$3p
 ||bcd.h-l.icu^$3p
 ||passeseuro.com^
 @@||asianclub.*/asset/default/player/plugins/vast$script,1p
