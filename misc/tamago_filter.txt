@@ -1983,7 +1983,17 @@ web.archive.org###donate_banner
 ||boyaidare.club^
 
 
-
+!9tsu
+!https://egg.5ch.net/test/read.cgi/android/1587392121/268
+!https://egg.5ch.net/test/read.cgi/android/1587392121/277
+!トップのバナー
+!||video.9tsu.com/wp-content/uploads/2020/04/top-banner.gif
+top-banner.gif|$domain=video.9tsu.com
+!下のバナー（PCビューは右側）
+!||video.9tsu.com/wp-content/uploads/2020/04/side-banner.gif
+2020/04/side-banner.gif|$domain=video.9tsu.com
+!メールアドレス（グレーの枠が出る）
+video.9tsu.com###modal-9-8
 
 !imgur
 ||s.imgur.com/min/advertising.js

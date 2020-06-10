@@ -1,0 +1,28 @@
+[Adblock Plus 2.0]
+! Title: こねこフィルタ
+! Last modified: 10 Jun 2020 00:00 JST
+! Expires: 6 hours (update frequency)
+! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/
+! 
+! 
+
+!9tsu
+||d3v3bqdndm4erx.cloudfront.net^
+!9tsu
+!https://egg.5ch.net/test/read.cgi/android/1587392121/268
+!https://egg.5ch.net/test/read.cgi/android/1587392121/277
+!トップのバナー
+!||video.9tsu.com/wp-content/uploads/2020/04/top-banner.gif
+top-banner.gif|$domain=video.9tsu.com
+!下のバナー（PCビューは右側）
+!||video.9tsu.com/wp-content/uploads/2020/04/side-banner.gif
+2020/04/side-banner.gif|$domain=video.9tsu.com
+!メールアドレス（グレーの枠が出る）
+video.9tsu.com###modal-9-8
+
+!miomio
+!http://egg.5ch.net/test/read.cgi/android/1590907350/385
+!http://egg.5ch.net/test/read.cgi/android/1590907350/435
+||d3v3bqdndm4erx.cloudfront.net^
+
+! END
