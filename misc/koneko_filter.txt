@@ -25,4 +25,23 @@ video.9tsu.com###modal-9-8
 !http://egg.5ch.net/test/read.cgi/android/1590907350/435
 ||d3v3bqdndm4erx.cloudfront.net^
 
+!jptver
+!http://egg.5ch.net/test/read.cgi/android/1590907350/566
+!http://egg.5ch.net/test/read.cgi/android/1590907350/584
+!http://egg.5ch.net/test/read.cgi/android/1590907350/587
+!http://fate.5ch.net/test/read.cgi/ios/1585580211/803-807
+||gdriveplayer.me/embed2.php
+||cdn4ads.com
+||adskeeper.co.uk
+||antiadblocksystems.com
+||cdn4ads.com
+||d3cod80thn7qnd.cloudfront.net
+||eyebinvex.com
+||graizoah.com
+||ofgogoatan.com
+||shqbsdjatunl.com
+||ueuodgnrhb.com
+||rtmark.net^
+||popcash.net^
+
 ! END
