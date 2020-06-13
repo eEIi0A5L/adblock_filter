@@ -1431,7 +1431,7 @@ hosyusokuhou.jp##.abox
 hosyusokuhou.jp###ovrss
 !PR
 !http://egg.5ch.net/test/read.cgi/android/1589767928/901-920
-hosyusokuhou.jp##article.entrybox:has( > h2 > a:has-text(【PR】) )
+hosyusokuhou.jp##article.entrybox:has( > h2 > a:has-text(/^【PR】/) )
 hosyusokuhou.jp##.rankbox
 !新着ヘッドライン
 !hosyusokuhou.jp###top

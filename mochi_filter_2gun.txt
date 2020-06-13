@@ -494,7 +494,7 @@ hosyusokuhou.jp##.abox
 hosyusokuhou.jp##.kikin
 !PR
 !http://egg.5ch.net/test/read.cgi/android/1589767928/901
-hosyusokuhou.jp##article.entrybox:has( > .entryheader > a:has-text(【PR】) )
+hosyusokuhou.jp##article.entrybox:has( > .entryheader > a:has-text(/^【PR】/) )
 
 
 !旬なネタ帳
