@@ -1234,7 +1234,8 @@ japanese.engadget.com##div[class^="js-"]:has( iframe[src^="//rcm-fe.amazon-adsys
 ||images-fe.ssl-images-amazon.com/images/I/$domain=japanese.engadget.com
 japanese.engadget.com##iframe[src^="//rcm-fe.amazon-adsystem.com"]
 www.engadget.com##.o-mobile-share-footer
-
+||o.aolcdn.com/ads/adsWrapper.js
+japanese.engadget.com##.engadget-share
 
 
 
@@ -2000,6 +2001,8 @@ www.reddit.com##.XPromoPopup
 !http://egg.5ch.net/test/read.cgi/android/1589767928/667-671
 matometanews.com###jp-matome
 
+!note
+note.com##.p-article__share
 
 
 
