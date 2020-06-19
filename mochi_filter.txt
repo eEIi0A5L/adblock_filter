@@ -2358,6 +2358,13 @@ pastebin.com##div[class^="banner_"]
 ||usa.khurshid-sus.com^
 ||ww1.freett.com^
 
+!http://www.candy-av.com/
+/^https:\/\/ram[0-9]+\.proasdf\.com\//
+||sarah.ttnrd.com^
+||usd.appius-dae.com^
+||thebig-prizebox3.life^
+/^https:\/\/takeyourhere[0-9]+\.live\//
+
 
 
 

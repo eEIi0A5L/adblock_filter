@@ -281,10 +281,8 @@ twitter.com##.LiveVideoHomePageModuleContainer
 
 !固定されたツイート
 !http://egg.5ch.net/test/read.cgi/software/1562160518/366-372
-!twitter.com##article:has( > div > div > div > div > div > div > div > div > span:has-text(Pinned Tweet) ):upward(1)
-!twitter.com##article:has( > div > div > div > div > div > div > div > div > span:has-text(固定されたツイート) ):upward(1)
-!twitter.com##span:has-text(Pinned Tweet):upward(10)
-!twitter.com##span:has-text(固定されたツイート):upward(10)
+!twitter.com##article:has( > div > div > div > div > div > div > div > div:has-text(Pinned Tweet) ):upward(1)
+!twitter.com##article:has( > div > div > div > div > div > div > div > div:has-text(固定されたツイート) ):upward(1)
 
 !TL上の～さんがリツイート
 !http://egg.5ch.net/test/read.cgi/software/1562160518/366-372
