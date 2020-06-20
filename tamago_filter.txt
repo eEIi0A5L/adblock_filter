@@ -1412,9 +1412,9 @@ shopping.dmkt-sp.jp##.footer
 /settings/lite2/ads.js|
 !まとめ
 !共通
-/itro-scripts.js\?ver=[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2}$/
-/jquery.modal.js\?ver=[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2}$/
-/popups.js\?ver=[0-9]{1,2}\.[0-9]{1,2}$/
+/itro-scripts.js\?ver=[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2}$/$script
+/jquery.modal.js\?ver=[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2}$/$script
+/popups.js\?ver=[0-9]{1,2}\.[0-9]{1,2}$/$script
 
 
 
