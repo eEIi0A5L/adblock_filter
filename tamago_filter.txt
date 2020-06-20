@@ -279,7 +279,9 @@ search.yahoo.co.jp##div.sw-CardBase:has( > div.sw-Card.AnswerChiebukuro )
 
 !Yahooスポナビ
 ||s.yimg.jp/images/sports/all_device/sp/js/jquery.spInterstitial$script
+!#if env_firefox
 baseball.yahoo.co.jp,soccer.yahoo.co.jp##^script:has-text(instUrl)
+!#endif
 ||s.yimg.jp/images/sports/all_device/common/js/jquery.spDoubleImage.js|
 ||s.yimg.jp/images/sports/all_device/banner/app/$image
 ! スポナビ上部のアプリ広告
@@ -323,7 +325,12 @@ auctions.yahoo.co.jp###footer + section[class^="Component-"]
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/200
 !page.auctions.yahoo.co.jp##^script:has-text(floatBannerData)
 ||s.yimg.jp/images/auct/cms/promo/floating/
+!#if !env_firefox
+page.auctions.yahoo.co.jp##[id^=js-BannerFrame]
+!#endif
+!#if env_firefox
 page.auctions.yahoo.co.jp##^[id^=js-BannerFrame]
+!#endif
 
 !Yahooクリエイターズ
 creators.yahoo.co.jp##.FixedButtons 
@@ -388,9 +395,15 @@ itest.5ch.net###js-cardview_ad
 itest.5ch.net##div[style="height: 320px; position: relative; text-align: center; overflow: hidden; margin: 0 auto; margin-bottom: 15px;"]
 ||mediad2.jp^
 ! 5ch遷移時に出る広告の残骸
+!#if !env_firefox
+itest.5ch.net###interstitial-ad-div-id
+itest.5ch.net###float-bnr
+!#endif
+!#if env_firefox
 itest.5ch.net##^#interstitial-ad-div-id
 ! たまに下部に出るバナーの残骸
 itest.5ch.net##^#float-bnr
+!#endif
 
 !モバイル版5ch「過去ログ」クリック時の余白
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/197
@@ -398,7 +411,12 @@ itest.5ch.net##.js-ad_iframe_wrap
 
 ! 5ch 検索時等
 itest.5ch.net##.ad-adstir
+!#if !env_firefox
+itest.5ch.net###overlay_microad
+!#endif
+!#if env_firefox
 itest.5ch.net##^#overlay_microad
+!#endif
 itest.5ch.net###js-adstir-300x250
 itest.5ch.net###js-adstir-320x50
 itest.5ch.net##.js-cardview_ad-320x180 > iframe
@@ -463,7 +481,12 @@ bbspink.com###top_banner
 !ファミ通
 ||ssl.webtracker.jp/ad/
 s.famitsu.com##.article-body__contents-pr-primary
+!#if !env_firefox
+s.famitsu.com##.banner-header-video-container
+!#endif
+!#if env_firefox
 s.famitsu.com##^.banner-header-video-container
+!#endif
 s.famitsu.com##.l-banner
 
 
@@ -1070,8 +1093,12 @@ togetter.com###ad_list_top
 togetter.com###ad_list_bottom
 togetter.com###fixed_social_footer
 ! Toggetter上部バナー。最近変わったのでまた変わる？
+!#if !env_firefox
+togetter.com##.appdl_header
+!#endif
+!#if env_firefox
 togetter.com##^.appdl_header
-
+!#endif
 !デイリー
 www.daily.co.jp##.adv
 ||jpmarket-d.openx.net^

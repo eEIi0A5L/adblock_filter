@@ -177,9 +177,12 @@ www.yahoo.co.jp###windowShade
 !上部いい買物の日
 !www.yahoo.co.jp###Peron
 !www.yahoo.co.jp##img[alt="いい買物の日"][src="https://s.yimg.jp/images/evt/kaimono/2019/ytop/pc/ws_1980_70.png"]:upward(1)
+!#if !env_firefox
 www.yahoo.co.jp##img[alt="いい買物の日"][src^="https://s.yimg.jp/images/evt/kaimono/"]:upward(1)
+!#endif
+!#if env_firefox
 www.yahoo.co.jp##^img[alt="いい買物の日"][src^="https://s.yimg.jp/images/evt/kaimono/"]:upward(1)
-
+!#endif
 !「背景を閉じる」
 !→もういらないような気がする
 !www.yahoo.co.jp###windowShade
@@ -1875,8 +1878,12 @@ bing.com##.b_ad
 www.bing.com##li:has( > ul > li > div > h2.b_ads1line )
 bing.com##.b_algo:has( > div.b_caption > p:matches-css-before(content: "Ad"))
 bing.com##.b_algo:has( > div.b_caption > p:matches-css-before(content: "広告"))
+!#if !env_firefox
+bing.com###b_results > .b_ad
+!#endif
+!#if env_firefox
 bing.com##^#b_results > .b_ad
-
+!#endif
 !ちくわニコ生ランキング
 ||chikuwachan.com/live/img/ad/
 !www.chikuwachan.com##.c
