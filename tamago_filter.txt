@@ -500,7 +500,6 @@ www.axfc.net##.bnf
 ||d.href.asia/nw/d/ajs.php?zoneid=
 
 !livedoor.biz
-||api.unthem.com/js/spad.js?
 ||adntokyo.gunosy.com^
 
 !sankei
@@ -1087,7 +1086,6 @@ myjitsu.jp##.ad-header-box
 
 !したらば
 ||spad.i-mobile.co.jp^
-!||a.adimg.net^
 jbbs.shitaraba.net##iframe[id^="ox_"]
 jbbs.shitaraba.net##.ad-320_50
 ||blog.seesaa.jp/oem_contents/popular_article_ads/jbbs.js
@@ -1490,7 +1488,6 @@ www.negisoku.com###id_5
 
 !２ちゃんねるブックマーク
 ||medi-8.net^
-||rdp.pro.ne.jp^
 ||bitflyer.jp^$third-party
 2ch.vet##a[href^="https://clicks.pipaffiliates.com/"]
 !||rdp.pro.ne.jp/img/
@@ -1598,7 +1595,6 @@ gossip1.net##iframe[src^="http://sda.seesaa.jp/"]
 
 !おたくみくす　声優まとめ
 !http://otakumix.doorblog.jp/
-!||js.next-channel.com/adcall.js
 otakumix.doorblog.jp##.t_r
 
 !http://www.akb48matomemory.com
