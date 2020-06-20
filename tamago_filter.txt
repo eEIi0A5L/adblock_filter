@@ -44,15 +44,15 @@ hs-exp.jp##.dfad
 ||ad.pr.ameba.jp^
 ||ssl-stat.amebame.com/pub/ads/
 ||adt.measure.ameblo.jp^
-||www.google.com/ads/
+||google.com/ads/
 !||stats.g.doubleclick.net^$third-party
 !一旦やめとく。PCでブログが表示されないので。2019.1.28
 !ameblo.jp##.skinBody2 > div:first-child
 !ameblo.jp##^.skinBody2 > div:first-child
 !モデルプレス mdpr.jp でスクロールすると…な画像がスクロールしても表示されない
 !https://egg.5ch.net/test/read.cgi/android/1554363290/741
-!||www.googletagmanager.com^
-||www.googletagmanager.com^$domain=ameblo.jp
+!||googletagmanager.com^
+||googletagmanager.com^$domain=ameblo.jp
 !||click.amanad.adtdp.com^
 !||ad.caprofitx.adtdp.com^
 !埋め込み動画が消えてしまう
@@ -74,39 +74,39 @@ hs-exp.jp##.dfad
 ameblo.jp##div[role="navigation"]
 
 ! TripadvisorとExpedia
-||www.tripadvisor.jp/GARecord|$xmlhttprequest
+||tripadvisor.jp/GARecord|$xmlhttprequest
 ||static.tacdn.com/js3crawlable/build/concat/taevents-$script
-||www.tripadvisor.jp/BALinkImpressionTracking/$xmlhttprequest
-||www.expedia.co.jp/cl/$xmlhttprequest
-||www.expedia.co.jp/userHistory/count?$xmlhttprequest
+||tripadvisor.jp/BALinkImpressionTracking/$xmlhttprequest
+||expedia.co.jp/cl/$xmlhttprequest
+||expedia.co.jp/userHistory/count?$xmlhttprequest
 ||b.travel-assets.com/travel-pixel-js/$script
-||www.expedia.co.jp/api/datacapture/track|$xmlhttprequest
+||expedia.co.jp/api/datacapture/track|$xmlhttprequest
 
 !Youtube
 !https://m.youtube.com/
-||www.google.co.jp/pagead/
-||www.youtube.com/api/stats/ads?
+||google.co.jp/pagead/
+||youtube.com/api/stats/ads?
 ||m.youtube.com/csi_204?
-||www.youtube.com/pagead/
+||youtube.com/pagead/
 !Youtube,Home最上部の広告動画
 !###koya_child_5 > div:first-child
 !###koya_child_6
 youtube.com##ytm-promoted-video-renderer
 
 !Youtubeパソコン用からのコピペ
-||www.youtube.com/yts/jsbin/www-pagead-id-
+||youtube.com/yts/jsbin/www-pagead-id-
 !||googleads.g.doubleclick.net^
 ||youtube.com/get_midroll_
 ||pagead2.googlesyndication.com^
 youtube.com##.ad-container
 youtube.com##.video-ads
 youtube.com##.ytp-ad-progress-list
-!||www.google.co.jp/pagead/lvz?
+!||google.co.jp/pagead/lvz?
 !||static.doubleclick.net/instream/ad_status.js
 youtube.com###player-ads
 !||pubads.g.doubleclick.net^
 ||youtube.com/pagead/
-||www.youtube.com/ads/$image
+||youtube.com/ads/$image
 !||securepubads.g.doubleclick.net
 =adunit&$domain=youtube.com
 !Peter Lowe’s Ad and tracking server listで一括ブロックされている
@@ -237,7 +237,7 @@ watch.impress.co.jp###sp-floating-layer
 !Yahoo!Japan
 ||s.yimg.jp/images/listing/tool/yads/
 ||smartads.mobile.yahoo.co.jp/MobileAds/
-||www.jiji.com/smp/common/css/yads.css
+||jiji.com/smp/common/css/yads.
 ||i.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js
 ||s.yimg.jp/bdv/prem/
 m.yahoo.co.jp##.PremiumFirst
@@ -330,7 +330,7 @@ creators.yahoo.co.jp##.FixedButtons
 
 ! 楽天
 !/akam/11/*
-!||www.rakuten.co.jp/akam/11/
+!||rakuten.co.jp/akam/11/
 !/akam/11/*
 ||r.r10s.jp/com/js/omniture/plugin/sc_trackingid.js|
 ||ias.rakuten.co.jp/gw.js?$subdocument
@@ -489,7 +489,7 @@ buzzfeed.com###mod-action-bar-1
 ||google-analytics.com^
 ||quantserve.com^
 ||crwdcntrl.net^
-||www.buzzfeed.com/static/js/advertiser/ads.js
+||buzzfeed.com/static/js/advertiser/ads.
 
 !斧
 ||bn.maist.jp^
@@ -503,7 +503,7 @@ www.axfc.net##.bnf
 ||adntokyo.gunosy.com^
 
 !sankei
-||www.sankei.com/apr_news/js/others/adGpt.js
+||sankei.com/apr_news/js/others/adGpt.
 ||sankei2ad.durasite.net^
 www.sankei.com###footerFloatingMenu
 www.sankei.com##.ad
@@ -520,12 +520,12 @@ www.sankeibiz.jp##.ad
 !||i.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js
 !パソコンでradikoが聞けない
 !||assets.adobedtm.com^
-!||www.asahicom.jp/ad/js/sp/top.js
+!||asahicom.jp/ad/js/sp/top.js
 !サムネがでない
-!||www.asahicom.jp/and/js/and_infeedad.js
-||www.asahi.com/ad/count.htm
+!||asahicom.jp/and/js/and_infeedad.
+||asahi.com/ad/count.
 ||sp.gmossp-sp.jp^
-||www.asahicom.jp/ad/
+||asahicom.jp/ad/
 www.asahi.com###NativePr
 www.asahi.com###OutbrainRec
 www.asahi.com##.PrInfoBlock
@@ -535,9 +535,9 @@ www.asahi.com##.AdArea
 www.asahi.com##.ad-1stbnr.ad
 
 !Yomiuri
-!||www.yomiuri.co.jp/cont2/ad/js/sp_ad_home.js
+!||yomiuri.co.jp/cont2/ad/js/sp_ad_home.
 ||cdn.gmossp-sp.jp^
-||www.yomiuri.co.jp/cont2/ad/
+||yomiuri.co.jp/cont2/ad/
 sp.yomiuri.co.jp##.social-buttons-overlay
 
 !日経
@@ -572,8 +572,8 @@ mainichi.jp###bottom-share
 ||cdn.mainichi.jp/vol1/js/sp/share.js
 
 !時事通信
-!||js.mtburn.com/advs-instream.js
-||www.jiji.com/smp/common/css/yads2.css
+!||js.mtburn.com/advs-instream.
+||jiji.com/smp/common/css/yads2.
 ||us-ads.openx.net^
 !||rd.adingo.jp^
 !||i.adingo.jp^
@@ -614,9 +614,9 @@ www.sanspo.com##.ad
 bunshun.jp##.horizontal-sns-bar
 
 !zdnet
-||www.aiasahi.jp/ads/
-||japan.zdnet.com/parts/frame/ad_tieup_control_sp.htm
-||japan.zdnet.com/parts/frame/ad_sp_list_a_n.htm
+||aiasahi.jp/ads/
+||japan.zdnet.com/parts/frame/ad_tieup_control_sp.
+||japan.zdnet.com/parts/frame/ad_sp_list_a_n.
 ||japan.zdnet.com/media/ad/
 japan.zdnet.com##.ad-text
 
@@ -771,17 +771,17 @@ weblio.jp##.adBkOverlayClr
 !||connect.facebook.net/en_US/fbadnw55.js
 ||connect.facebook.net/ja_JP/sdk.js
 ||weblio.hs.llnwd.net/e7/jsad/cp404.js
-!||www.facebook.com/impression.php^$domain=ejje.weblio.jp
-!||www.facebook.com/v2.5/plugins/page.php?adapt_container_width=$domain=ejje.weblio.jp
+!||facebook.com/impression.php^$domain=ejje.weblio.jp
+!||facebook.com/v2.5/plugins/page.php?adapt_container_width=$domain=ejje.weblio.jp
 ejje.weblio.jp##.adBannerHdWrp
 !ejje.weblio.jp##^.adBannerHdWrp
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/217
 !ejje.weblio.jp##amp-sidebar
 !ejje.weblio.jp##^amp-sidebar
 !ejje.weblio.jp##^.hideAdRnwWrp
-!||cdn.ampproject.org/v0/amp-ad-0.1.js
-||cdn.ampproject.org/v0/amp-sticky-ad-1.0.js
-!||weblio.hs.llnwd.net/e7/script/include/house_ad_on_load_modal_smp.js
+!||cdn.ampproject.org/v0/amp-ad-0.1.
+||cdn.ampproject.org/v0/amp-sticky-ad-1.0.
+!||weblio.hs.llnwd.net/e7/script/include/house_ad_on_load_modal_smp.
 !||weblio.hs.llnwd.net/e7/img/muryo_banner_
 !||weblio.hs.llnwd.net/e7/img/theme_learning_banner
 !||weblio.hs.llnwd.net/e7/img/icons/theme-learning-600-500.png
@@ -837,20 +837,20 @@ b.hatena.ne.jp###global-header:style(top: 0px !important)
 b.hatena.ne.jp##.js-smart-app-banner-container::before:style(height: 0px !important)
 
 !現代ビジネス
-||gendai.ismcdn.jp/resources/gb/js/v3/gb_change_ad_margin.js
-||gendai.ismcdn.jp/resources/gb/js/v3/gb_load_inArticle_ad.js
+||gendai.ismcdn.jp/resources/gb/js/v3/gb_change_ad_margin.
+||gendai.ismcdn.jp/resources/gb/js/v3/gb_load_inArticle_ad.
 ||rt.rtoaster.jp^
 ||gendai.ismedia.jp/list/v3-ad-inArticle/
 ||comcluster.cxense.com^
 gendai.ismedia.jp##.ad-in-article
 
 !FNN
-||www.fnn-news.com/sp/news/data/uliza/ad_exclude_sitejack.json
+||fnn-news.com/sp/news/data/uliza/ad_exclude_sitejack.
 ||aka-secure-img.uliza.jp/html5/fnn/ad/
 ||fistag2.fis.fujitv.co.jp/pc/space.gif
 www.fnn-news.com###footAd
 www.fnn-news.com###overLay
-||www.fnn-news.com/material/img/downloadnow.png
+||fnn-news.com/material/img/downloadnow.
 www.fnn-news.com##.appinfo
 fnn.jp##.Ad
 ||amazon-adsystem.com^$domain=fnn.jp
@@ -859,13 +859,13 @@ fnn.jp##.Ad
 /ulizahtml5-advertising.min.js|$domain=fnn.jp
 
 !西日本新聞
-||cdn.apvdr.com/js/VastAdUnit.min.js
+||cdn.apvdr.com/js/VastAdUnit.
 ||apvdr.com/v2/cs.php
 ||tr.quant.jp^
-!||cdn.treasuredata.com/sdk/1.7.1/td.min.js
+!||cdn.treasuredata.com/sdk/1.7.1/td.
 ||static.quant.jp/lait.js
 www.nishinippon.co.jp##.recommend
-!||www.nishinippon.co.jp/mobile/common/img/bn_epaper_header_1anniv.png
+!||nishinippon.co.jp/mobile/common/img/bn_epaper_header_1anniv.png
 
 !Daily News Online
 !||ds.advg.jp^
@@ -888,7 +888,7 @@ mainichi.jp##.ad
 tech.nikkeibp.co.jp##.footer_nav
 ! 日経BPトラッカー
 !/js/bpcommon/onetag/bpTrackVars$script
-!||www.nikkeibp.co.jp/js/bpcommon/onetag/bpTrackVars$script
+!||nikkeibp.co.jp/js/bpcommon/onetag/bpTrackVars$script
 /js/bpcommon/onetag/bpTrackVars$script
 
 !ユルクヤル http://yurukuyaru.com
@@ -923,14 +923,14 @@ tokyograffiti.grfft.jp##.fixbtn
 !||bunshun.jp/oo/bs/m.gif?
 !||gendai.ismedia.jp/oo/im/m.gif?
 !||diamond.jp/oo/d/m.gif?
-!||www.dhbr.net/oo/d/m.gif?
+!||dhbr.net/oo/d/m.gif?
 ||bunshun.jp/oo/
 ||gendai.ismedia.jp/oo/
 ||diamond.jp/oo/
-||www.dhbr.net/oo/
+||dhbr.net/oo/
 
 !cnn.co.jp
-||www.cnn.co.jp/media/cnn/images/mini/ad_bg.png
+||cnn.co.jp/media/cnn/images/mini/ad_bg.
 !||z.moatads.com^
 ||smetrics.cnn.com/b/ss/cnn-adbp-offsite-domestic/
 !||bea4.v.fwmrm.net/ad/
@@ -987,12 +987,12 @@ linuxnorth.wordpress.com##.wpcnt
 jp.sputniknews.com##.social-likes-pane
 ||ads.adfox.ru^
 ||yastatic.net/pcode/adfox/loader.js
-||jp.sputniknews.com/min/js/libs/adriver.core.2.js
-||jp.sputniknews.com/min/js/libs/adfox.asyn.code.ver3-scroll.js
+||jp.sputniknews.com/min/js/libs/adriver.core.2.
+||jp.sputniknews.com/min/js/libs/adfox.asyn.code.ver3-scroll.
 jp.sputniknews.com###smartbanner
 !jp.sputniknews.com##html:style(margin-top: 0px;)
 !jp.sputniknews.com##html:style(margin-top: 0px;)
-||jp.sputniknews.com/min/js/plugins/jquery.smartbanner.js
+||jp.sputniknews.com/min/js/plugins/jquery.smartbanner.
 
 
 !carnnyマガジン
@@ -1010,7 +1010,7 @@ www.bengo4.com##div[id^="ad-slot-"]
 netgeek.biz##.showcase-location-header
 
 !ロイター
-||www.reuters.com/reuters_ads_framework.js
+||reuters.com/reuters_ads_framework.
 ||async01.admantx.com^
 !||cdn.adsafeprotected.com^
 !トラッキング
@@ -1023,8 +1023,8 @@ jp.reuters.com##div[data-template="footer"]
 !映画.com
 !Googleショッピングで商品クリックで飛べない
 !https://egg.5ch.net/test/read.cgi/software/1540428057/406
-!||www.googleadservices.com^
-||www.googleadservices.com^$domain=eiga.com
+!||googleadservices.com^
+||googleadservices.com^$domain=eiga.com
 eiga.com##.adBox-a
 eiga.com###rect_ad
 
@@ -1075,7 +1075,7 @@ togetter.com##^.appdl_header
 !デイリー
 www.daily.co.jp##.adv
 ||jpmarket-d.openx.net^
-||www.daily.co.jp/ad/
+||daily.co.jp/ad/
 
 !まいじつ
 myjitsu.jp##.sp-single-below-sns-buttons
@@ -1156,8 +1156,8 @@ www.nikkan-gendai.com###_popIn_recommend_2
 m.slashdot.org##.ad-on
 
 !animatetimes
-||www.animatetimes.com/ad/
-||cdn.fivecdm.com/adsbyfive.js
+||animatetimes.com/ad/
+||cdn.fivecdm.com/adsbyfive.
 ||api.flipdesk.jp^
 
 
@@ -1206,7 +1206,7 @@ theverge.com##.tab-bar-fixed
 
 
 !techcrunch.com
-||www.npttech.com/advertising.js
+||npttech.com/advertising.js
 techcrunch.com##.social-share-fixed
 techcrunch.com##.header-ad
 
@@ -1232,7 +1232,7 @@ japanese.engadget.com##div[class^="js-"]:has( iframe[src^="//rcm-fe.amazon-adsys
 ||images-fe.ssl-images-amazon.com/images/I/$domain=japanese.engadget.com
 japanese.engadget.com##iframe[src^="//rcm-fe.amazon-adsystem.com"]
 www.engadget.com##.o-mobile-share-footer
-||o.aolcdn.com/ads/adsWrapper.js
+||o.aolcdn.com/ads/adsWrapper.
 japanese.engadget.com##.engadget-share
 
 
@@ -1259,7 +1259,7 @@ www.lifehacker.jp##.lh-postSns
 www.lifehacker.jp##.lh-banner
 www.lifehacker.jp##.lh-globalNav-button
 www.lifehacker.jp##.lh-globalButton
-||assets.media-platform.com/common/js/lib/dfp-ad-manager/dfp-ad-manager.min.js
+||assets.media-platform.com/common/js/lib/dfp-ad-manager/dfp-ad-manager.
 
 !河合塾keinet.ne.jp
 www.keinet.ne.jp###fixedSlideWrapper
@@ -1365,7 +1365,7 @@ gigazine.net###EndFooter
 m.scmp.com##.share-buttons-fixed-container
 
 !西日本新聞
-||www.nishinippon.co.jp/mobile/common/img/bn_eppaper_header.jpg
+||nishinippon.co.jp/mobile/common/img/bn_eppaper_header.
 www.nishinippon.co.jp##a[href^="http://ac.ebis.ne.jp/tr_set.php?argument="]
 
 
@@ -1392,18 +1392,18 @@ shopping.dmkt-sp.jp##.footer
 
 
 !痛いニュース
-!||blog.livedoor.jp/dqnplus/settings/lite2/ads.js
+!||blog.livedoor.jp/dqnplus/settings/lite2/ads.
 ||torimochi.line-apps.com^
 blog.livedoor.jp##.btn-ldb-bottomAdd
 
 !アルファモザイク
-||blogmaterial.nicoblomaga.jp/material/279/SP_alfaad.js
+||blogmaterial.nicoblomaga.jp/material/279/SP_alfaad.
 !||adservice.google.co.jp^
-||blogmaterial.nicoblomaga.jp/material/279/bromaga_AdTimer_SP.js
+||blogmaterial.nicoblomaga.jp/material/279/bromaga_AdTimer_SP.
 !||log.affiliate.rakuten.co.jp^
 
 !ニュー速クオリティ
-!||news4vip.livedoor.biz/settings/lite2/ads.js
+!||news4vip.livedoor.biz/settings/lite2/ads.
 news4vip.livedoor.biz##div[style="background-color: white; padding: 5px; margin: 5px; line-height: 1.9; border: 1px solid rgb(105, 105, 105);"]
 news4vip.livedoor.biz###article-contents > b a
 
@@ -1411,7 +1411,7 @@ news4vip.livedoor.biz###article-contents > b a
 !（なし）
 
 !暇人速報
-||parts.blog.livedoor.jp/js/lite2/ads/infeed.js
+||parts.blog.livedoor.jp/js/lite2/ads/infeed.
 !||adservice.google.co.jp/adsid/google/ui
 
 !VIPPERな俺
@@ -1463,8 +1463,7 @@ matome-plus.com##.amazontotalboxtest
 !||images-fe.ssl-images-amazon.com/images/$domain=blog.esuteru.com
 ||ecx.images-amazon.com/images/$domain=blog.esuteru.com
 blog.esuteru.com##.amazlet-box
-||mcgm.sakura.ne.jp/sp_300x250.php
-||mcgm.sakura.ne.jp/sp_300x250.jpg
+||mcgm.sakura.ne.jp/sp_300x250.
 
 !ねぎ速
 www.negisoku.com###id_1
@@ -1518,8 +1517,8 @@ www.mudainodocument.com##a[href^="http://s.liveads.jp/cc.php"]
 www.mudainodocument.com##a[href^="https://s.liveads.jp/cc.php"]
 www.mudainodocument.com##a[href="https://recott.me/"]
 ||octopuspop.com^
-||blogmaterial.nicoblomaga.jp/material/258/sp-adchange.js
-||blogmaterial.nicoblomaga.jp/material/258/bromaga_AdTimer_SP.js
+||blogmaterial.nicoblomaga.jp/material/258/sp-adchange.
+||blogmaterial.nicoblomaga.jp/material/258/bromaga_AdTimer_SP.
 
 !暇人速報
 !（なし）
@@ -1563,21 +1562,21 @@ blog.livedoor.jp##div[id^="socrun_div_area_nc_"]
 ||social-runner.net/adloader.js
 
 !ニュー即ブログν
-||bibincom.com/ad/187_newsoku.blog.js
+||bibincom.com/ad/187_newsoku.blog.
 
 !やらおん
 yaraon-blog.com##iframe[id="ac1414080be"][src^="http://ads.mulan.cloud/"]
 yaraon-blog.com###adx_custom_ol
 ||ads.mulan.cloud^
-||blog.livelog.biz/script/js/media/v_z/yon_sp02_adstir.js
-||blog.livelog.biz/script/js/yon_sp03_adsense.js
-||blog.livelog.biz/script/js/yon_sp02_adsense.js
-||blog.livelog.biz/script/js/yon_sp01_adsense.js
+||blog.livelog.biz/script/js/media/v_z/yon_sp02_adstir.
+||blog.livelog.biz/script/js/yon_sp03_adsense.
+||blog.livelog.biz/script/js/yon_sp02_adsense.
+||blog.livelog.biz/script/js/yon_sp01_adsense.
 ||ad.adpon.jp^
 yaraon-blog.com###mytextwidget-22
 yaraon-blog.com###mytextwidget-14
 yaraon-blog.com###mytextwidget-27
-||blog.livelog.biz/script/js/media/v_z/yon_nex07_adnico.js
+||blog.livelog.biz/script/js/media/v_z/yon_nex07_adnico.
 adnico.js|$domain=yaraon-blog.com
 adsense.js|$domain=yaraon-blog.com
 
@@ -1611,7 +1610,7 @@ blog.livedoor.jp###apptemp06
 !芸能★アイドル速報♪♪
 !http://geinou-idolu.com/
 ||affiliate.rakuten.co.jp^
-!||www.bijo-toiro.com/blogparts/miss_blogparts.html
+!||bijo-toiro.com/blogparts/miss_blogparts.html
 !||mv-gossip.up.n.seesaa.net/mv-gossip/image/_girls002_imgs_5_7_578d7e01.gif
 
 !暇つぶしニュース
@@ -1660,7 +1659,7 @@ buzz-cafe.net###ist_overlay1
 buzz-cafe.net###ist_overlay2
 
 !!http://www.ttdyhot.net
-!||meerkat.jarodtaylor.com/download/jquery.meerkat.1.3.min.js
+!||meerkat.jarodtaylor.com/download/jquery.meerkat.
 
 !http://ghdnewzealandshopc.com/
 !||ghdnewzealandshopc.com/wp-content/uploads/2018/05/300x250_1-320x267.jpg
@@ -1673,7 +1672,7 @@ monsterhunter.more-gamer.com##.adPopup
 
 
 !ドラドラ動画
-!||www.drive-drive.jp/assets/images/dr_308_62_20171108.jpg
+!||drive-drive.jp/assets/images/dr_308_62_20171108.jpg
 
 
 !今日何食べる.com
@@ -1751,12 +1750,12 @@ cinematoday.jp##.ct-ad-banner
 !dorama9
 !https://dorama9.com/
 ||glssp.jp/GL_AD/
-||www.rentracks.jp/adx/
+||rentracks.jp/adx/
 
 !男子ハック
 !www.danshihack.com
 www.danshihack.com##.p-ad__container--single
-||www.danshihack.com/wp-content/uploads/2018/05/kindle-sale-1.jpg
+||danshihack.com/wp-content/uploads/2018/05/kindle-sale-1.
 www.danshihack.com##.c-banner
 www.danshihack.com##.p-ranking
 
@@ -1776,7 +1775,7 @@ employment.en-japan.com##.entry-footer
 ||gamewith.jp/ad/
 gamewith.jp##.ad-header-creative
 gamewith.jp##.to-btn--deep-link.js-deep-link-block.js-move-with-expand-network-ad
-||gamewith.jp/assets/js/dist/jp/gamewith/ad/index.js
+||gamewith.jp/assets/js/dist/jp/gamewith/ad/index.
 gamewith.jp###js-ad-jack
 gamewith.jp##.c-sp-leaderboard-ad-overlay
 
@@ -1833,8 +1832,8 @@ pandora.tv##.ad_footer
 pandora.tv##.ad_small
 pandora.tv##.advertisement
 ||channel.pandora.tv/channel/view_ad.ptv
-||imgcdn.pandora.tv/_ptv_all/util/makePCookie_pandora_utf.js
-||imgcdn.pandora.tv/ptv_img/icon_network_ad.gif
+||imgcdn.pandora.tv/_ptv_all/util/makePCookie_pandora_utf.
+||imgcdn.pandora.tv/ptv_img/icon_network_ad.
 !動画再生５分後に表示されるプレミアム登録誘導
 channel.pandora.tv##.pm_wrap
 pandora.tv###nx_pause_area > .stopbtn
@@ -1843,14 +1842,14 @@ pandora.tv###nx_pause_area > .stopbtn
 www.copiapoa.jp###fixBanner
 
 !http://ouroboros.hamazo.tv
-||ouroboros.hamazo.tv/js/archive-sp-ad.js
-||ouroboros.hamazo.tv/outside/clog_ad.js
-||www.hamazo.tv/js/staff-sp-ad.js
+||ouroboros.hamazo.tv/js/archive-sp-ad.
+||ouroboros.hamazo.tv/outside/clog_ad.
+||hamazo.tv/js/staff-sp-ad.
 ||log.ti-da.net/ad/
 ouroboros.hamazo.tv###meerkat-wrap
 
 !www.hanamonogatari.com
-||www.hanamonogatari.com/blog/wp-content/themes/hana_thema/images/floating-banner-sp.png
+||hanamonogatari.com/blog/wp-content/themes/hana_thema/images/floating-banner-sp.
 www.hanamonogatari.com##.floatingBn
 
 !belcy.jp
@@ -1858,7 +1857,7 @@ www.hanamonogatari.com##.floatingBn
 
 !All About
 ||primead.jp^
-||pts.aacdn.jp/app/touch-front/js/sp/ad_create.js
+||pts.aacdn.jp/app/touch-front/js/sp/ad_create.
 allabout.co.jp###sys-anchor
 
 !Cyzo Woman
@@ -1871,7 +1870,7 @@ www.cyzo.com##div[id^="ad_"]
 !これはエロい速報
 !http://korewaeroi.com/
 ||adnico.jp^
-||korewaeroi.com/wp-content/wptouch-data/themes/classic-redux-copy-1/default/ad01.php
+||korewaeroi.com/wp-content/wptouch-data/themes/classic-redux-copy-1/default/ad01.
 korewaeroi.com###ad01
 
 !もみあげチャ～シュ～
@@ -1927,7 +1926,7 @@ blog.shinobi.jp##.adBlock
 dailytelegraph.com.au##.tgc-footer-fixed
 ||eyeviewads.com^
 ||gu.dyntrk.com/adx/
-||www.googleadservices.com/pagead/conversion.js
+||googleadservices.com/pagead/conversion.js
 ||adnxs.com^
 ||adsrvr.org^
 
@@ -1957,7 +1956,7 @@ www.pixiv.net##.ad-frame-container
 
 ! Spice
 ||spice.eplus.jp/img/icons/logo/app_icon.jpg
-||spice.eplus.jp/third_party/jasny-jquery.smartbanner/jquery.smartbanner.css
+||spice.eplus.jp/third_party/jasny-jquery.smartbanner/jquery.smartbanner.
 spice.eplus.jp###smartbanner
 
 ! DMM
@@ -2026,14 +2025,14 @@ note.com##.p-article__share
 
 
 !http://marketcapitalizations.com/historical-data/historical-components-sp-100/
-!||www.google.com/adsense/domains/caf.js
-!||www.google.com/adsense/
+!||google.com/adsense/domains/caf.
+!||google.com/adsense/
 
 
 !下記三つはページ内の関連リンクなのであってよい、なくてもよい
-||www.google.com/adsense/domains/caf.js
-||www.google.com/dp/ads?
-||www.gstatic.com/domainads/
+||google.com/adsense/domains/caf.
+||google.com/dp/ads?
+||gstatic.com/domainads/
 
 
 ||parking.parklogic.com/page/enhance.js
@@ -2044,9 +2043,9 @@ note.com##.p-article__share
 !||i.cdnpark.com/registrar/v3/loader.js
 !||d1lxhc4jvstzrp.cloudfront.net/registrar/v3/content/717207
 !||js.parkingcrew.net/jsparkcaf.php?
-!||js.parkingcrew.net/assets/scripts/jsparkcaf.js
+!||js.parkingcrew.net/assets/scripts/jsparkcaf.
 !||js.parkingcrew.net/track.php?domain=
-!||js.parkingcrew.net/assets/scripts/registrar-caf/717207.js
+!||js.parkingcrew.net/assets/scripts/registrar-caf/717207.
 
 !http://umaizoo.com/
 ||tracking.bodis.com/tlpv?
@@ -2146,14 +2145,14 @@ note.com##.p-article__share
 
 !こういうのはワードプレスがクラッキングされているらしい
 !http://www.dhzqj.co/18/blogram-%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF-adblock-plus-%E6%97%A5%E6%9C%AC%E5%90%91%E3%81%91%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF/
-||www.jjtiao.xyz^
-||www.rdzwry.xyz^
+||jjtiao.xyz^
+||rdzwry.xyz^
 ||dmgdelivery20.live^
 
 
 !http://akb48taimuzu.livedoor.biz/archives/24220321.html
 ||lowaihoo15.live^
-||www.wosemdesy.site^
+||wosemdesy.site^
 
 
 
@@ -2217,7 +2216,7 @@ note.com##.p-article__share
 ! DHC,カタログハウス,クラブツーリズム
 /js/baynote.js
 /baynote-$script
-||www.dhc.co.jp/script/sitecatalyst/VisitorAPI.js?
+||dhc.co.jp/script/sitecatalyst/VisitorAPI.js?
 ||smetrics.dhc.co.jp/id?$script
 ! ファンケル,カタログハウス
 ||aucollector.tealeaf.ibmcloud.com/collector/$xmlhttprequest
@@ -2234,21 +2233,21 @@ note.com##.p-article__share
 !||mikiki.tokyo.jp/oo/mk/m.gif?
 !||toyokeizai.net/oo/tk/m.gif?
 !||ure.pia.co.jp/oo/pia/m.gif?
-!||www.afpbb.com/oo/afp/m.gif?
-!||www.fsight.jp/oo/other/m.gif?
-!||www.jprime.jp/oo/other/m.gif?
+!||afpbb.com/oo/afp/m.gif?
+!||fsight.jp/oo/other/m.gif?
+!||jprime.jp/oo/other/m.gif?
 ||mikiki.tokyo.jp/oo/
 ||toyokeizai.net/oo/
 ||ure.pia.co.jp/oo/
-||www.afpbb.com/oo/
-||www.fsight.jp/oo/
-||www.jprime.jp/oo/
+||afpbb.com/oo/
+||fsight.jp/oo/
+||jprime.jp/oo/
 
 ! トラッキングその他。/js/analytics.jsも誤爆あるようなのでまとめてない
 ! 日刊スポーツ
 ||cache1.nipc.jp/js/beacon.js|
 ! エアトリ
-||cdn.airtrip.jp/js/frontend/sp/ga_event_tracking.js?
+||cdn.airtrip.jp/js/frontend/sp/ga_event_tracking.
 ! 電撃
 ||dengeki.com/js/ga.js|
 ! Bookwalker
@@ -2265,17 +2264,17 @@ note.com##.p-article__share
 ||news.tv-asahi.co.jp/js/analytics.js|
 ! livedoorブログ (Not Found)
 ||parts.blog.livedoor.jp/js/analytics.js|
-||parts.blog.livedoor.jp/js/c2.js?
+||parts.blog.livedoor.jp/js/c2.
 ! Canon
 ||rtbcx.canon.jp/bcx/rt_tag.js|
 ! RBB Today
 ||s.rbbtoday.com/feature/cxense/js/cx-scrolldepth.js|
 ! Business Insider
-||www.businessinsider.jp/asset/common/app/pv_count.js|
+||businessinsider.jp/asset/common/app/pv_count.js|
 ! じゃらん
-||www.jalan.net/hacci_beacon/sp_yad_search_list.min.js?
+||jalan.net/hacci_beacon/sp_yad_search_list.
 ! マカフィー
-||www.mcafee.com/japan/home/common/js/analytics.js|
+||mcafee.com/japan/home/common/js/analytics.js|
 ! NHK
 ||www3.nhk.or.jp/news/json16/sdc.json?$xmlhttprequest
 ||www3.nhk.or.jp/news/parts16/js/chartbeat_config.js|
@@ -2407,7 +2406,7 @@ kinisuru.com##.a2a_floating_style
 !END--------------------------------------------------------------
 
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/54-55
-!||www.gstatic.com^
+!||gstatic.com^
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/56
 
 ! END
