@@ -850,7 +850,8 @@ twitch.tv##+js(twitch-videoad.js)
 ||ad.abema.io^
 ||abema-adx.ameba.jp^
 !Allからの抜粋
-||hayabusa.io/adcross/adx/abm/
+!サムネが表示されないのでコメント化。2020.6.24
+!||hayabusa.io/adcross/adx/abm/
 ||theoplayer.com/t?
 ||d2wy8f7a9ursnm.cloudfront.net^
 !abema.tv##.com-m-media-SNSShare__share
