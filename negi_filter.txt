@@ -164,6 +164,9 @@ www.yahoo.co.jp###Perorin
 !Yahooニュースで文字列を選択した時に出る「Yahoo検索」ポップアップを邪魔なので消す
 yahoo.co.jp###yjSearchPop
 !weather.yahoo.co.jp###msthdFifth
+!uBOで、Yahooニュースの記事の中の勝手な検索リンクを抹殺したい
+!https://egg.5ch.net/test/read.cgi/software/1562160518/464-466
+!||slink-search.yahooapis.jp/v1/link/highlight_words$domain=news.yahoo.co.jp
 
 !Yahooショッピング
 shopping.yahoo.co.jp##.uiStickyCrm

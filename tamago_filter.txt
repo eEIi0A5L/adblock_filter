@@ -2181,6 +2181,23 @@ note.com##.p-article__share
 ||lowaihoo15.live^
 ||wosemdesy.site^
 
+!http://page.freett.com/wagainochi/page1/page.html
+!||mifttreppels14.live^
+/^https:\/\/mifttreppels[0-9]+\.live\//
+||all-best-prize2020.com^
+||fast.superlinks.org^
+||rsalcau.com^
+||usa.khurshid-sus.com^
+||ww1.freett.com^
+
+!http://www.candy-av.com/
+/^https:\/\/ram[0-9]+\.proasdf\.com\//
+||sarah.ttnrd.com^
+||usd.appius-dae.com^
+||thebig-prizebox3.life^
+/^https:\/\/takeyourhere[0-9]+\.live\//
+
+
 
 
 
