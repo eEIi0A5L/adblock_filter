@@ -9,15 +9,41 @@
 
 !------------------------------------------------
 !LINE
-!https://fate.5ch.net/test/read.cgi/ios/1592404142/500
-||appresource.line-scdn.net^
+!https://fate.5ch.net/test/read.cgi/ios/1592404142/530
+||a.line.me^
+||sch.line.me^
 ||crs-event.line.me^
-||gw.line.naver.jp^
 ||lap-click.tr.line.me^
+
+||ga2.line.naver.jp^
+||ga2x.line.naver.jp^
+||gs2.line.naver.jp^
+||gs2x.line.naver.jp^
+||gw.line.naver.jp^
+||ns1.line.naver.jp^
+||ns2.line.naver.jp^
+
+||adns1.line.naver.com^
+||adns2.line.naver.com^
+
 ||nelo2-col.linecorp.com^
+
+||d.line-scdn.net^
 !https://fate.5ch.net/test/read.cgi/ios/1592404142/525
 !||obs.line-scdn.net^
-||sch.line.me^
+||appresource.line-scdn.net^
+||vos.line-scdn.net^
+||static.line-scdn.net^
+
+||ci.line-apps.com^
+||cix.line-apps.com^
+||scdn.line-apps.com^
+!https://fate.5ch.net/test/read.cgi/ios/1592404142/537
+!||ch-news.line-apps.com^
+||torimochi.line-apps.com^
+
+||aax-us.amazom-adsystem.com^
+||aax-us-pdx.amazom-adsystem.com^
 !------------------------------------------------
 
 ! END
