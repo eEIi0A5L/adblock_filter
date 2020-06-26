@@ -1767,6 +1767,10 @@ www.msn.com###eubanner
 !www.msn.com##.rc-item-js.rc-item.show:has( > div[data-provider="outbrain"] )
 www.msn.com##div[data-ad]
 www.msn.com##div[adjs]
+msn.com##div.rc-item-js:has( > .nativeadserversidecontentmodule )
+msn.com##.dynamicRRWrapper
+msn.com##.sameoab_ad_container
+msn.com##iframe[id^="_mN_main_"]
 
 !shinobi
 ||shinobi.jp/encount
