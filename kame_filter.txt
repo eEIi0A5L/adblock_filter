@@ -2,7 +2,7 @@
 ! Title: 亀フィルタ（ウイルスサイトブロック）
 ! Description: ウイルスサイトをブロックする
 !
-! Last modified: 2020/05/09 00:00 JST
+! Last modified: 2020/06/26 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/kame.html
 
@@ -177,6 +177,9 @@
 !||www.yueviess.com^
 ||fres-news.com^
 
+!不在通知を装った詐欺サイトへの誘導
+!https://twitter.com/BTEC_Bodyguard/status/1275614706506424320
+.duckdns.org
 
 
 !５ちゃんねるの荒らしが誘導しているサイト---------------------
