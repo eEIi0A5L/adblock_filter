@@ -69,7 +69,7 @@ youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAd
 !Youtubeで広告がでる 2020.6.10
 !https://egg.5ch.net/test/read.cgi/software/1556480002/206
 !https://egg.5ch.net/test/read.cgi/software/1556480002/210
-!http://egg.5ch.net/test/read.cgi/software/1556480002/249
+!https://egg.5ch.net/test/read.cgi/software/1556480002/249
 !→フィルタありでおかしくなる環境もありコメント化
 !https://www.reddit.com/r/uBlockOrigin/comments/gzxzv4/youtube_on_firefox_broken/
 !https://www.reddit.com/r/uBlockOrigin/comments/h05jmq/ublockorigin_not_blocking_some_ads_before_youtube/
@@ -1318,7 +1318,7 @@ www.asahi.com##.RectAdArea
 www.asahi.com##.AdArea
 www.asahi.com###HometopAdOuter
 !Chromeで朝日新聞の記事を開くとBraveブラウザの広告が出る
-!http://egg.5ch.net/test/read.cgi/software/1585819901/367
+!https://egg.5ch.net/test/read.cgi/software/1585819901/367
 ||asahi.com/brave/modal-dist/index.js
 
 !読売

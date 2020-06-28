@@ -287,12 +287,12 @@ twitter.com##.LiveVideoHomePageModuleContainer
 !twitter.com##.tweet-has-context.js-original-tweet.original-tweet.dismissible-content.js-profile-popup-actionable.js-actionable-tweet.js-stream-tweet.tweet
 
 !固定されたツイート
-!http://egg.5ch.net/test/read.cgi/software/1562160518/366-372
+!https://egg.5ch.net/test/read.cgi/software/1562160518/366-372
 !twitter.com##article:has( > div > div > div > div > div > div > div > div:has-text(Pinned Tweet) ):upward(1)
 !twitter.com##article:has( > div > div > div > div > div > div > div > div:has-text(固定されたツイート) ):upward(1)
 
 !TL上の～さんがリツイート
-!http://egg.5ch.net/test/read.cgi/software/1562160518/366-372
+!https://egg.5ch.net/test/read.cgi/software/1562160518/366-372
 !twitter.com##article:has( > div > div > div > div > div > div > div > div > a >span:has-text(Retweet) ):upward(1)
 !twitter.com##article:has( > div > div > div > div > div > div > div > div > a >span:has-text(さんがリツイート) ):upward(1)
 !twitter.com##span:has-text(Retweet):upward(11)

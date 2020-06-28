@@ -1456,7 +1456,7 @@ hosyusokuhou.jp##.abox
 !||hosyusokuhou.jp/wp/wp-content/themes/hssk/commons/box_dummy.png
 hosyusokuhou.jp###ovrss
 !PR
-!http://egg.5ch.net/test/read.cgi/android/1589767928/901-920
+!https://egg.5ch.net/test/read.cgi/android/1589767928/901-920
 hosyusokuhou.jp##article.entrybox:has( > h2 > a:has-text(/^【PR】/) )
 hosyusokuhou.jp##.rankbox
 !新着ヘッドライン
@@ -2015,12 +2015,12 @@ imgur.com###div-ad-top_banner
 
 !Reddit
 !RedditのSee this post in...
-!http://egg.5ch.net/test/read.cgi/software/1562160518/307-313
+!https://egg.5ch.net/test/read.cgi/software/1562160518/307-313
 www.reddit.com##html,body:style(overflow: scroll !important)
 www.reddit.com##.XPromoPopup
 
 !まとめたニュース
-!http://egg.5ch.net/test/read.cgi/android/1589767928/667-671
+!https://egg.5ch.net/test/read.cgi/android/1589767928/667-671
 matometanews.com###jp-matome
 
 !note
