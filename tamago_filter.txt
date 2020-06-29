@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 06 Jun 2020 00:00 JST
+! Last modified: 29 Jun 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
 ! 
@@ -188,6 +188,9 @@ sp.ch.nicovideo.jp###appBanner
 !sp.live.nicovideo.jp##+js(nosiif)
 !sp.live.nicovideo.jp##+js(nostif)
 sp.live.nicovideo.jp##+js(nostif, (), 300000)
+
+!ドワンゴ
+news.dwango.jp##.overlay-footer_ad
 
 !impress
 !→もう要らない
