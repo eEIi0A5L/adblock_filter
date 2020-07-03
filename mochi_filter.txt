@@ -913,6 +913,8 @@ bbspink.com###top_banner
 ||5ch.net/_ads/
 5ch.net##.ads_conten_main
 bbspink.com##.bbspink-top-ads
+||banpro.in.coocan.jp/mcban/banner/2chban/
+||stimgc.thench.net/bbs-ad/
 
 
 
