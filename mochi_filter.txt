@@ -1162,7 +1162,7 @@ rakuten.co.jp###footer-floating-bnr
 www.famitsu.com###adTop
 ||ssl.webtracker.jp/ad/
 www.famitsu.com##.ad-header-video
-||famitsu.com/js/1411/ad.
+||famitsu.com/js/1411/ad.js
 www.famitsu.com##.adArticleBottomWrap
 www.famitsu.com##.adTc
 ||ssl.webtracker.jp
@@ -1217,7 +1217,7 @@ news.goo.ne.jp##.NR-pr
 news.goo.ne.jp##div[id^="gooad-"]
 ||adcdn.goo.ne.jp^
 ||l.logly.co.jp/lift_widget.js?adspot_id=
-||google.com/adsense/search/ads.
+||google.com/adsense/search/ads.js
 oshiete.goo.ne.jp##.pr-unit
 oshiete.goo.ne.jp###gooad-long
 oshiete.goo.ne.jp###gheader
@@ -1243,9 +1243,9 @@ myjitsu.jp##article[id^="related-post-ad"]
 ||rubiconproject.com^
 
 !ZAKZAK
-||zakzak.co.jp/common/js/popin/loadPopIn.
+||zakzak.co.jp/common/js/popin/loadPopIn.js
 !ビーコン
-||b.ranking.apis.sankei-digital.co.jp/zak/ranking/img/beacon.
+||b.ranking.apis.sankei-digital.co.jp/zak/ranking/img/beacon.gif
 
 
 !日経新聞
@@ -1278,18 +1278,18 @@ myjitsu.jp##article[id^="related-post-ad"]
 !-----------------------------------------------------------------------
 
 !産経
-||sankei.com/apr_news/js/others/adGpt.
-||sankei.com/apr_west/js/others/adEx_display1.
-||sankei.com/apr_west/js/others/adsense_m3.
-||sankei.com/apr_west/css/v1/common/ad.
+||sankei.com/apr_news/js/others/adGpt.js
+||sankei.com/apr_west/js/others/adEx_display1.js
+||sankei.com/apr_west/js/others/adsense_m3.js
+||sankei.com/apr_west/css/v1/common/ad.css
 ||sankei2ad.durasite.net^
 !記事の右上の広告
 www.sankei.com###adToprectangle
 !popin（モバイル広告）
-||sankei.com/apr_common/js/others/popin.
+||sankei.com/apr_common/js/others/popin.js
 !広告
-||sankei.com/apr_news/js/others/adEx_display1.
-||sankei.com/apr_news/js/others/adsense_m3.
+||sankei.com/apr_news/js/others/adEx_display1.js
+||sankei.com/apr_news/js/others/adsense_m3.js
 www.sankei.com##div[style="width:300px;height:600px;"]
 www.sankei.com##.module_ad
 www.sankei.com##.module secondary
@@ -1325,25 +1325,25 @@ www.asahi.com###HometopAdOuter
 ||asahi.com/brave/modal-dist/index.js
 
 !読売
-!||yomiuri.co.jp/cont2/ad/js/ad_world.
+!||yomiuri.co.jp/cont2/ad/js/ad_world.js
 ||impact-ad.jp^
 ||adserver.adtechjp.com^
 ||yomiuri.co.jp/cont2/ad/
 !文字列選択したときのポップアップ？
 !http://www.afpbb.com/であわせて読みたいが消えてしまう
 !||api.popin.cc^
-!||yomiuri.co.jp/cont2/ad/js/ad_home.
+!||yomiuri.co.jp/cont2/ad/js/ad_home.js
 ||yomiuri.co.jp/adv/
 !||yomiuri.co.jp/cont2/ad/
 www.yomiuri.co.jp##.subhead
 !||smrtpxl.advertising.com^
 !gif動画がちらついてうざい
-!||yomiuri.co.jp/cont2/g2/m_pr_chuo.
-!||yomiuri.co.jp/cont2/g2/m_pr_gakushuin.
+!||yomiuri.co.jp/cont2/g2/m_pr_chuo.gif
+!||yomiuri.co.jp/cont2/g2/m_pr_gakushuin.gif
 !www.yomiuri.co.jp##a[href^="http://www.yomiuri.co.jp/adv/"]
-!||yomiuri.co.jp/cont2/g2/m_pr_waseda.
-!||yomiuri.co.jp/cont2/g2/m_pr_sophia.
-!||yomiuri.co.jp/cont2/g2/m_pr_hosei.
+!||yomiuri.co.jp/cont2/g2/m_pr_waseda.gif
+!||yomiuri.co.jp/cont2/g2/m_pr_sophia.gif
+!||yomiuri.co.jp/cont2/g2/m_pr_hosei.gif
 ||yomiuri.co.jp/cont2/g2/m_pr_
 !読売、下から出てくるフッター
 www.yomiuri.co.jp##.layout-footer
@@ -1387,7 +1387,7 @@ www.yomiuri.co.jp###ad_dfp_premiumrec
 !日テレNews24
 !http://www.ntv.co.jp/fcwc/index.htmlが見れない
 !||ntv.co.jp/ad-navi/
-||news24.jp/css/adjust.
+||news24.jp/css/adjust.css
 www.news24.jp###adText01
 
 !MBS動画イズム
@@ -1404,7 +1404,7 @@ news.tbs.co.jp##.md-banner300x250
 ||ad.auditude.com^
 !||vo.ad-v.jp^
 ||ad-v.jp^
-||tbs.co.jp/muryou-douga/setting/cuAdControl_v8_utf8.
+||tbs.co.jp/muryou-douga/setting/cuAdControl_v8_utf8.js
 www.tbs.co.jp##.over:has( > .wrap > .recta_bg )
 
 !フジテレビ
@@ -1417,14 +1417,14 @@ www.tv-tokyo.co.jp###txcms_cms_headerBanner
 www.tv-tokyo.co.jp##.tbcms_ad-block
 
 !BSテレ東
-||bs-tvtokyo.co.jp/tbcms/javascripts/ad.
+||bs-tvtokyo.co.jp/tbcms/javascripts/ad.js
 www.bs-tvtokyo.co.jp###txcms_cms_headerBanner
 www.bs-tvtokyo.co.jp##.tbcms_ad-block
 
 !テレビ朝日
 !tv-asahi.co.jp##.init-ad-wrapper
 tv-asahi.co.jp##.init-ad
-||tv-asahi.co.jp/Top16/pc/scripts/adtech-desktop.
+||tv-asahi.co.jp/Top16/pc/scripts/adtech-desktop.js
 !Chromeでこれ見られなくない？
 !https://cu.tv-asahi.co.jp/watch/1271
 !https://egg.5ch.net/test/read.cgi/software/1551423520/345
@@ -1457,7 +1457,7 @@ mainichi.jp###cxPageModalBnr
 !スポニチ
 ||sponichi.co.jp/ad_new/
 ||sponichi.co.jp/css/ad.css
-||sponichi.co.jp/css/common/ad_freepage.
+||sponichi.co.jp/css/common/ad_freepage.css
 ||ad.jp.ap.valuecommerce.com^
 www.sponichi.co.jp###ad
 www.sponichi.co.jp##div[id^="crt"]
@@ -1479,16 +1479,16 @@ www.nikkansports.com##.ad-area
 
 !スポーツ報知
 www.hochi.co.jp##.ad_rectangle + script + div
-||hochi.co.jp/h_common/img/ad/nsk_banner_2017.
+||hochi.co.jp/h_common/img/ad/nsk_banner_2017.gif
 hochi.news##.ad
 hochi.news##amp-ad
 
 !東スポ
 !gif広告がちかちかしてうざい
-!||tokyo-sports.co.jp/wp-content/themes/tospo/images/common/banner_reqruit_140526.
-!||tokyo-sports.co.jp/wp-content/uploads/2012/02/003.
+!||tokyo-sports.co.jp/wp-content/themes/tospo/images/common/banner_reqruit_140526.gif
+!||tokyo-sports.co.jp/wp-content/uploads/2012/02/003.gif
 !www.tokyo-sports.co.jp##.adsbygoogle
-!||tokyo-sports.co.jp/wp-content/themes/tospo/images/common/miyasaka.
+!||tokyo-sports.co.jp/wp-content/themes/tospo/images/common/miyasaka.gif
 ||img.tokyo-sports.co.jp/wp-content/uploads/2019/07/banner.gif|
 ||img.tokyo-sports.co.jp/wp-content/uploads/2019/09/t-spo_300-100.gif|
 www.tokyo-sports.co.jp##.side-bnr 
@@ -1520,7 +1520,7 @@ www.sanspo.com###ads_content_top
 
 
 !ロイター
-||reuters.com/reuters_ads_framework.
+||reuters.com/reuters_ads_framework.js
 !トラッキング
 ||qsearch.media.net/log?
 ||async01.admantx.com^
@@ -1533,9 +1533,9 @@ investing.com###PromoteSignUpPopUp
 !西日本新聞
 ||luxa.sslcs.cdngc.net/dynimg/
 !www.nishinippon.co.jp##.NP-subContentsSection
-||s3-ap-northeast-1.amazonaws.com/luxa/banner/nnp_widget.
-||nishinippon.co.jp/bn/images/bn_epaper_billboard.
-||nishinippon.co.jp/mobile/common/img/bn_eppaper_header.
+||s3-ap-northeast-1.amazonaws.com/luxa/banner/nnp_widget.html
+||nishinippon.co.jp/bn/images/bn_epaper_billboard.jpg
+||nishinippon.co.jp/mobile/common/img/bn_eppaper_header.jpg
 
 !神戸新聞
 www.kobe-np.co.jp##.newsfeedList_new > .native
@@ -1599,10 +1599,10 @@ m.yna.co.kr##.foreign-ad01
 m.yna.co.kr##.foreign-ad02
 
 !京都新聞
-||kyoto-np.co.jp/koukoku/adlist_article.
-||kyoto-np.co.jp/koukoku/image/ad_citykyoto0910.
+||kyoto-np.co.jp/koukoku/adlist_article.js
+||kyoto-np.co.jp/koukoku/image/ad_citykyoto0910.gif
 ||kyoto-np.co.jp/koukoku/banner.php
-||kyoto-np.co.jp/koukoku/image/kcg-edu.
+||kyoto-np.co.jp/koukoku/image/kcg-edu.gif
 www.kyoto-np.co.jp##.headerAdArea
 www.kyoto-np.co.jp##.BnrLnkSbs
 
@@ -1681,9 +1681,9 @@ www.itmedia.co.jp###ITRR
 www.itmedia.co.jp###ITR
 www.itmedia.co.jp###ITN
 www.itmedia.co.jp###ITT
-||itmedia.co.jp/css/news/ad.
+||itmedia.co.jp/css/news/ad.css
 ||itmedia.co.jp/js/ad.js
-||itmedia.co.jp/js/news/ad.
+||itmedia.co.jp/js/news/ad.js
 ||dlv.itmedia.jp/adsv/
 ||adserver.cxad.cxense.com^
 www.itmedia.co.jp##.colBox.colBoxArtTopRcm
@@ -1694,8 +1694,8 @@ www.itmedia.co.jp##.colBox.colBoxArtTopRcm
 !itmedia検索時の広告
 ||google.com/afs/ads?
 itmedia.co.jp###ads_content_top
-||itmedia.co.jp/js/pcuser/ad.
-||itmedia.co.jp/css/pcuser/ad.
+||itmedia.co.jp/js/pcuser/ad.js
+||itmedia.co.jp/css/pcuser/ad.css
 ||static.ads-twitter.com/uwt.js
 www.itmedia.co.jp###body_insert_ad
 itmedia.co.jp##iframe[id^="cxWidget_"]
@@ -1710,10 +1710,10 @@ www.atmarkit.co.jp###body_insert_ad
 www.atmarkit.co.jp###rrec
 www.atmarkit.co.jp##.dmp-area
 www.atmarkit.co.jp###dmp
-||cse.google.com/adsense/search/async-ads.
-||atmarkit.co.jp/js/ait/ex_adRequest.
+||cse.google.com/adsense/search/async-ads.js
+||atmarkit.co.jp/js/ait/ex_adRequest.js
 ||atmarkit.co.jp/js/ad.js
-||atmarkit.co.jp/js/ait/ad.
+||atmarkit.co.jp/js/ait/ad.js
 
 
 ! ぐるなび
@@ -1753,7 +1753,7 @@ wikiwiki.jp###menubar > div[style="width:240px;height:207px;margin: 5px auto;"]:
 wikiwiki.jp###menubar > div[style="width:240px;height:207px;margin: 5px auto;"]:first-child + p
 
 !msn
-||msn.com/advertisement.ad.
+||msn.com/advertisement.ad.js
 ||aolcdn.com/ads/
 ||ads.linkedin.com^
 !誤爆
@@ -1862,7 +1862,7 @@ ign.com##.preShell
 jp.ign.com###adkit_billboard
 
 !Tumblr
-||tumblr.com/assets/src/scripts/tumblr/dashboard/showads.
+||tumblr.com/assets/src/scripts/tumblr/dashboard/showads.js
 www.tumblr.com##.dfp-ad-container
 www.tumblr.com###sidebar-ad
 
@@ -1922,8 +1922,8 @@ tenki.jp##.tenki-ad-pc-ct
 
 !navitime
 www.navitime.co.jp###under-advertisement
-||navitime.co.jp/static/pc/l/3.2.9/js/lib/jquery.adcount.
-||navitime.co.jp/static/pc/l/3.2.9/js/view/transfer/resultAd.
+||navitime.co.jp/static/pc/l/3.2.9/js/lib/jquery.adcount.js
+||navitime.co.jp/static/pc/l/3.2.9/js/view/transfer/resultAd.js
 ||navitime.co.jp/naviad/
 ||api-pc-img.cld.navitime.jp/images/http://www.navitime.co.jp/advertize_image/
 www.navitime.co.jp##.ad-frame
@@ -1964,7 +1964,7 @@ news.biglobe.ne.jp###SPbanner
 ||deliver.ads2.iid.jp^
 !beacon
 ||widget.iid-network.jp^
-||gamespark.jp/base/scripts/infinite_scroll_article_cxense_ad_tracking.
+||gamespark.jp/base/scripts/infinite_scroll_article_cxense_ad_tracking.js
 ||gamespark.jp/feature/jackAD/
 ||gamespark.jp/feature/advertising/
 www.gamespark.jp###danglingList
@@ -2079,7 +2079,7 @@ exblog.jp##a[href^="http://www.dmm.co.jp/pr/dc/pcgame/"]
 
 !テレビドラマデータベース
 !||tvdrama-db.com/cgi-bin/Amazon/amzCastNameAsin.pl?code=
-!||tvdrama-db.com/cgi-bin/Amazon/js/amz.
+!||tvdrama-db.com/cgi-bin/Amazon/js/amz.js
 !||tvdrama-db.com/cgi-bin/Amazon/amzext1.pl?id=
 !||tvdrama-db.com/cgi-bin/Amazon/amzCastName.pl?keyword=
 ||tvdrama-db.com/cgi-bin/Amazon/
@@ -2239,7 +2239,7 @@ pastebin.com##div[class^="banner_"]
 
 
 !下記三つはページ内の関連リンクなのであってよい、なくてもよい
-||google.com/adsense/domains/caf.
+||google.com/adsense/domains/caf.js
 ||google.com/dp/ads?
 ||gstatic.com/domainads/
 
