@@ -2027,7 +2027,7 @@ www.reddit.com##.XPromoPopup
 matometanews.com###jp-matome
 
 !note
-note.com##.p-article__share
+note.com,note.jp,note.yamap.com##.p-article__share
 
 
 
