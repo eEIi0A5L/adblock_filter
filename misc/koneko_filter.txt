@@ -21,6 +21,8 @@ top-banner.gif|$domain=video.9tsu.com
 video.9tsu.com###modal-9-8
 !https://egg.5ch.net/test/read.cgi/android/1592890183/566-591
 ||opsoomet.net^
+!https://egg.5ch.net/test/read.cgi/android/1592890183/633
+||inkornesto.com^
 
 
 !miomio
