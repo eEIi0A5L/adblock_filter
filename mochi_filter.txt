@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 03 Jul 2020 00:00 JST
+! Last modified: 08 Jul 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -1959,6 +1959,9 @@ www.biglobe.ne.jp##.bl-top-square
 news.biglobe.ne.jp##.news-ad-square-a
 news.biglobe.ne.jp##.news-ad-square-box
 news.biglobe.ne.jp###SPbanner
+||news.biglobe.ne.jp/img/ad/
+news.biglobe.ne.jp###anchor_ad
+
 
 !gamespark
 ||deliver.ads2.iid.jp^

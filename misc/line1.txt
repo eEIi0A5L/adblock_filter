@@ -12,7 +12,8 @@
 !https://egg.5ch.net/test/read.cgi/android/1592890183/92
 ||appresource.line-scdn.net^
 ||crs-event.line.me^
-||gw.line.naver.jp^
+!https://fate.5ch.net/test/read.cgi/ios/1593848248/34
+!||gw.line.naver.jp^
 ||lap-click.tr.line.me^
 ||nelo2-col.linecorp.com^
 !https://egg.5ch.net/test/read.cgi/android/1592890183/94

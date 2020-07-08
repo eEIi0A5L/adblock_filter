@@ -19,7 +19,8 @@
 ||ga2x.line.naver.jp^
 ||gs2.line.naver.jp^
 ||gs2x.line.naver.jp^
-||gw.line.naver.jp^
+!https://fate.5ch.net/test/read.cgi/ios/1593848248/34
+!||gw.line.naver.jp^
 ||ns1.line.naver.jp^
 ||ns2.line.naver.jp^
 
@@ -28,16 +29,18 @@
 
 ||nelo2-col.linecorp.com^
 
-||d.line-scdn.net^
+!||d.line-scdn.net^
 !https://fate.5ch.net/test/read.cgi/ios/1592404142/525
 !||obs.line-scdn.net^
 ||appresource.line-scdn.net^
 ||vos.line-scdn.net^
-||static.line-scdn.net^
+!https://fate.5ch.net/test/read.cgi/ios/1593848248/34
+!||static.line-scdn.net^
 
 ||ci.line-apps.com^
 ||cix.line-apps.com^
-||scdn.line-apps.com^
+!https://fate.5ch.net/test/read.cgi/ios/1593848248/34
+!||scdn.line-apps.com^
 !https://fate.5ch.net/test/read.cgi/ios/1592404142/537
 !||ch-news.line-apps.com^
 ||torimochi.line-apps.com^
