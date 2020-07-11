@@ -23,6 +23,8 @@ video.9tsu.com###modal-9-8
 ||opsoomet.net^
 !https://egg.5ch.net/test/read.cgi/android/1592890183/633
 ||inkornesto.com^
+!https://fate.5ch.net/test/read.cgi/ios/1593848248/246
+||ptaughar.com^
 
 
 !miomio
