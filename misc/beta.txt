@@ -10,6 +10,8 @@
 ||fod.fujitv.co.jp/mz/AdJson4_ssl.aspx
 
 
+!google,広告,Android,Firefox,2020.7.12
+google.com,google.co.jp###main > div:has( > div > div > a > div > div > span:has-text(/^Ad$/) )
 
 
 
