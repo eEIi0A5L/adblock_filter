@@ -1554,6 +1554,7 @@ www.kahoku.co.jp##ul.bnr
 taishu.jp###ad01
 taishu.jp##.standard2
 taishu.jp##.toptxt
+taishu.jp##.ad-article-rectangle
 
 !日刊ゲンダイ
 www.nikkan-gendai.com##.ad-box
