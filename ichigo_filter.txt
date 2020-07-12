@@ -979,6 +979,7 @@ spankbang.com##.vjs-poster
 ||adtng.com^
 spankbang.com##+js(window.open-defuser)
 spankbang.com##+js(no-setTimeout-if, /document.location.assign/)
+spankbang.com##.video-list > ins:has( > iframe[height="250"][width="300"] )
 
 !380.cc
 ||adxpansion.com^
