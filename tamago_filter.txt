@@ -2386,7 +2386,7 @@ kinisuru.com##.a2a_floating_style
 ||cdn.liftoff.io^
 ||cdp.cloud.unity3d.com^
 ||control.smbeat.jp^
-||creatives.gunosy.com/images^
+||creatives.gunosy.com/images
 ||d1jh13j6azkbbi.cloudfront.net^
 ||d3py17yaayq4xi.cloudfront.net^
 ||delivery-asia-northeast-1.openx.net^
@@ -2403,7 +2403,6 @@ kinisuru.com##.a2a_floating_style
 ||graph.facebook.com/network_ads
 ||haggler-openx002-ap-ne1-ec2.liftoff.io^
 ||haggler-openx003-ap-ne1-ec2.liftoff.io^
-||haggler-supership00#-ap-ne1-ec2.liftoff.io^
 ||haggler-supership001-ap-ne1-ec2.liftoff.io^
 ||iasds01.com^
 ||img.applovin.com^
@@ -2419,10 +2418,10 @@ kinisuru.com##.a2a_floating_style
 !||microad.jp^
 ||moatads.com^
 ||mon.byteoversea.com^
-||mon.musical.ly/monitor/collect^
+||mon.musical.ly/monitor/collect
 ||nend.net^
 ||nrtprod-rtbwin.applovin.com^
-!||p.adsymptotic.com/d/px^
+!||p.adsymptotic.com/d/px
 ||pagead2.googleadservices.com^
 ||prod-a.applovin.com^
 ||res1.applovin.com^
@@ -2436,10 +2435,10 @@ kinisuru.com##.a2a_floating_style
 ||socdm.com^
 !||spad^
 ||spad.i-mobile.co.jp^
-||spnativeapi.i-mobile.co.jp/api/ad_imp_count.ashx^
-||spnativeapi.i-mobile.co.jp/api/ad_native.ashx^
-||ssp-bidapi.i-mobile.co.jp/ajax/imp/imp_count.ashx^
-||ssp-bidapi.i-mobile.co.jp/jsonp/imp/imp_spot.ashx^
+||spnativeapi.i-mobile.co.jp/api/ad_imp_count.ashx
+||spnativeapi.i-mobile.co.jp/api/ad_native.ashx
+||ssp-bidapi.i-mobile.co.jp/ajax/imp/imp_count.ashx
+||ssp-bidapi.i-mobile.co.jp/jsonp/imp/imp_spot.ashx
 ||stage-a.applovin.com^
 ||svz-v.tlnk.io^
 ||tag.ladsp.com^
