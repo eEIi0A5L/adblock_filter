@@ -1,0 +1,4 @@
+/amp-ad-0.1.js
+/prebid*.js
+||ad.ettoday.net
+||ettoday.net/ad/
