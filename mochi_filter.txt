@@ -74,7 +74,8 @@ youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAd
 !https://www.reddit.com/r/uBlockOrigin/comments/gzxzv4/youtube_on_firefox_broken/
 !https://www.reddit.com/r/uBlockOrigin/comments/h05jmq/ublockorigin_not_blocking_some_ads_before_youtube/
 !https://www.reddit.com/r/uBlockOrigin/comments/h0h05l/youtube_ads_getting_through_chromefirefox/
-!youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+! →ON 2020.7.17
+youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 
 !Youtubeトップバナー
 youtube.com###masthead-ad
