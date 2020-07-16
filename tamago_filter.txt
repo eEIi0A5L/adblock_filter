@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 14 Jul 2020 00:00 JST
+! Last modified: 17 Jul 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
 ! 
@@ -706,6 +706,9 @@ tenki.jp##div[class^="_taxel_ad_article_"]
 tenki.jp###tenki-ad-SM_PD
 tenki.jp###tenki-ad-SM_north
 tenki.jp###tenki-ad-SM_mid
+||c.amazon-adsystem.com/aax2/apstag.js
+||api.primecaster.net/adlogue/
+tenki.jp##div[id$="SM_overlay_1_ad_container"]
 
 !モデルプレス
 ||spnativeapi-tls.i-mobile.co.jp^

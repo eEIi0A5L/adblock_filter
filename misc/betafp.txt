@@ -100,7 +100,7 @@
 ||gecko-sg.byteoversea.com^
 ||global.albtls.t.co^
 ||global.glbtls.t.co^
-||goldspotmedia^
+||goldspotmedia.com^
 ||googleads.g.doubleclick.net^$third-party
 ||growth-pa.googleapis.com^
 ||gum.criteo.com^
