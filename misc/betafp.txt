@@ -14,7 +14,8 @@
 ||ad.crwdcntrl.net^
 ||ad.doubleclick.net^$third-party
 ||ade.googlesyndication.com^
-||adforce^
+||adforce.com^
+||adforce.ru^
 ||adjust.com^
 ||adntokyo.gunosy.com^
 ||ads-delivery.gameforge.com^
