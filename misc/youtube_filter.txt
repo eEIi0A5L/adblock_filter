@@ -30,3 +30,4 @@ youtube.com###video-masthead
 ||googletagservices.com^
 ||google-analytics.com^
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
