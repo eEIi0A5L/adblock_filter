@@ -25,6 +25,7 @@
 ||adsafeprotected.com^
 ||adsrvr.org^
 ||adswizz.com^
+||adtools-a.akamaihd.net^
 ||adx.g.doubleclick.net^$third-party
 ||alxc.addlv.smt.docomo.ne.jp^
 ||amoad.com^
@@ -46,6 +47,7 @@
 ||assets.remerge.io^
 ||assets.ucontent.net^
 ||au79nt5wic4x.com^
+||b.de.inmobi.com^
 ||bam.nr-data.net^
 ||banner.dspcdn.com^
 ||bcp.crwdcntrl.net^
@@ -108,6 +110,7 @@
 ||haggler-openx003-ap-ne1-ec2.liftoff.io^
 ||haggler-supership001-ap-ne1-ec2.liftoff.io^
 ||hotapi-va.isnssdk.com^
+||i.l.inmobicdn.net^
 ||iasds01.com^
 ||img-proxy.ca-conv.jp^
 ||img.applovin.com^
@@ -116,6 +119,7 @@
 ||img.mmp.smt.docomo.ne.jp^
 ||img.oct-pass.net^
 ||imp-adedge.i-mobile.co.jp^
+||imp.ebis.ne.jp^
 ||imp.oct-pass.net^
 ||impression-asia.liftoff.io^
 ||impression.appsflyer.com^
