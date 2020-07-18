@@ -192,6 +192,7 @@ pornhub.com##.premiumPromoBannerWrapper
 pornhub.com##.sniperModeEngaged.alpha
 !モバイル用
 pornhub.com##.adContainer
+||pornhub.com/_xa/ads?zone_id=
 
 !bobx.com
 ||img.bobx.com/x_images/vids4.jpg
