@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 12 Jul 2020 00:00 JST
+! Last modified: 22 Jul 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
 ! 
@@ -674,6 +674,10 @@ hpjav.tv##div[id^="ts_ad_native_"]
 ||addtoany.com^$3p
 ||vd.7vid.net/O8cHpg7.js
 hpjav.tv##+js(nostif, _0x)
+asianclub.tv##+js(window.open-defuser)
+asianclub.tv##+js(addEventListener-defuser, click, window.open)
+||fmax.xyz^
+||coolcpms.com^
 
 !javmost
 ||pussl48.com^
@@ -966,6 +970,8 @@ ero-nuki.net###movie_ad
 kissjav.com##+js(popads-dummy.js)
 ||webgekeniuos.com^$third-party
 kissjav.com###player-advertising
+kissjav.com##+js(nobab)
+||pgl.yoyo.org/adservers/
 
 !av.movie
 ||i.imgur.com/Oz4G3br.gif
