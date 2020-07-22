@@ -25,6 +25,7 @@
 ||ads.nicovideo.jp^
 ||adsafeprotected.com^
 ||adservice.google.com^
+||adservice.google.co.jp^
 ||adsrvr.org^
 ||adswizz.com^
 ||adtools-a.akamaihd.net^
