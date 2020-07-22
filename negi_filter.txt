@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2020/5/6 00:00 JST
+! Last modified: 2020/7/22 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/negi.html
 
@@ -171,6 +171,8 @@ yahoo.co.jp###yjSearchPop
 !uBOで、Yahooニュースの記事の中の勝手な検索リンクを抹殺したい
 !https://egg.5ch.net/test/read.cgi/software/1562160518/464-466
 !||slink-search.yahooapis.jp/v1/link/highlight_words$domain=news.yahoo.co.jp
+!今日の感染者数
+!www.yahoo.co.jp###Covid19Banner
 
 !Yahooショッピング
 shopping.yahoo.co.jp##.uiStickyCrm
