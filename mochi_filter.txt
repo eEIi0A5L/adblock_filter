@@ -2392,6 +2392,26 @@ pastebin.com##div[class^="banner_"]
 /^https:\/\/takeyourhere[0-9]+\.live\//
 
 
+!https://egg.5ch.net/test/read.cgi/android/1594882598/170
+!https://kjonesj301.cocolog-nifty.com/blog/2020/07/post-0459b3.html
+||mediamodern.biz^
+!cocolog-nifty.com##+js(window.open-defuser)
+!||cocolog-nifty.com$script
+||cocolog-nifty.com$inline-script
+!||in.treasuredata.com^
+!cocolog-nifty.com##+js(abort-on-property-read.js, CocologFPA)
+!cocolog-nifty.com##+js(abort-on-property-read.js, document)
+!cocolog-nifty.com##+js(abort-on-property-write, document)
+!cocolog-nifty.com##+js(abort-current-inline-script, document)
+!cocolog-nifty.com##+js(abort-current-inline-script, CocologFPA)
+!cocolog-nifty.com##+js(abort-current-inline-script, instance)
+
+
+
+
+
+
+
 
 
 

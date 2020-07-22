@@ -6,7 +6,7 @@
 ||ad.sxp.smartclip.net^
 ||adform.net^
 ||dsp.adfarm1.adition.com^
-||fod.fujitv.co.jp/ad/^
+||fod.fujitv.co.jp/ad/
 ||fod.fujitv.co.jp/mz/AdJson4_ssl.aspx
 
 

@@ -20,9 +20,11 @@
 ||adntokyo.gunosy.com^
 ||ads-delivery.gameforge.com^
 ||ads.as.criteo.com^
+||ads.inmobi.com^
 ||ads.mopub.com^
 ||ads.nicovideo.jp^
 ||adsafeprotected.com^
+||adservice.google.com^
 ||adsrvr.org^
 ||adswizz.com^
 ||adtools-a.akamaihd.net^
@@ -125,14 +127,13 @@
 ||impression.appsflyer.com^
 ||in.appcenter.ms^
 ||j.microad.net/js/compass.js
-||jlab.work^
 ||js.mediams.mb.softbank.jp^
+||js.w.inmobi.com^
 ||jsb-sg.byteoversea.com^
 ||k.smartcanvas.net^
 ||lap-click.tr.line.me^
 ||launches.appsflyer.com^
 ||liftoff.io^
-||localhost:57439/smile
 ||log.byteoversea.com^
 ||log16.byteoversea.com^
 ||media.admob.com^
@@ -152,6 +153,7 @@
 ||pagead2.googleadservices.com^
 ||pagead2.googlesyndication.com^
 ||ppasns.profilepassport.jp^
+||prg.smartadserver.com^
 ||prod-a.applovin.com^
 ||prod-asia-spoz1-google.spotad.co^
 ||properatersch.fun^
