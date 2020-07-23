@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 09 Jul 2020 00:00 JST
+! Last modified: 23 Jul 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -1927,6 +1927,7 @@ greasyfork.org###codefund
 !tenki.jp
 tenki.jp##.tenki-ad-pd
 tenki.jp##.tenki-ad-pc-ct
+tenki.jp###tenki-ad-3rd_PD
 
 !navitime
 www.navitime.co.jp###under-advertisement
