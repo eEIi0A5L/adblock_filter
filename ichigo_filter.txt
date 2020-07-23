@@ -160,14 +160,13 @@ imgflare.com##div[style^="width:604px; height:250px;"]
 ||trafficjunky.net^$third-party
 @@||media.trafficjunky.net/__js/test.js$domain=pornhub.com
 pornhub.com##iframe[style="width: 326px; height: 311px;"]
-pornhub.com##+js(window.open-defuser)
-pornhub.com##+js(aopr, smpop)
-pornhub.com##+js(set, HTMLElement.prototype.attachShadow, null)
-pornhub.com##+js(aopw, isAdblockOn)
-pornhub.com##+js(aopw, UAParser)
-pornhub.com##+js(aeld, DOMContentLoaded, [native code])
-pornhub.com##+js(aopw, rAb)
-pornhub.com##+js(abort-on-property-write, AdDelivery)
+pornhub.*##+js(aopw, rAb)
+pornhub.*##+js(aeld, DOMContentLoaded, [native code])
+pornhub.*##+js(aopw, UAParser)
+pornhub.*##+js(aopw, isAdblockOn)
+pornhub.*##+js(set, HTMLElement.prototype.attachShadow, null)
+pornhub.*##+js(aopr, smpop)
+pornhub.*##+js(window.open-defuser)
 ||google-analytics.com/analytics.js$important,script,domain=pornhub.com
 ||phncdn.com/iframe
 pornhub.com##.playerFlvContainer > div#pb_template[style]:style(position: absolute!important; left: -3000px!important;)
