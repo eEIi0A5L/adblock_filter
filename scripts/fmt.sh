@@ -78,6 +78,15 @@ function network_filter_check()
 {
     LINE="$1"
     #echo "[N]$LINE"
+
+
+    # /^
+    #echo "$LINE"
+    if [[ $LINE =~ \/\^$ ]]; then
+        echo "match1: LINE=[$LINE]"
+        return 1 # error
+    fi
+
     is_regexp_filter "$LINE"
     result=$?
     if [ $result -eq 0 ]; then
@@ -177,7 +186,7 @@ function main()
 
 if [ "$1" = "" ]; then
     # 無指定の場合はカレントディレクトリの全.txtをチェックする
-    LIST=*.txt
+    LIST="*.txt */[a-z]*.txt"
 else
     # 指定されたファイルをチェックする
     LIST=$*

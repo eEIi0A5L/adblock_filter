@@ -3,6 +3,9 @@ test:
 	./scripts/js.sh
 	./scripts/check_merge.sh
 
+fmt:
+	./scripts/fmt.sh
+
 maint:
 	./scripts/maint.sh
 
