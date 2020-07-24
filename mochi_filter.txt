@@ -2014,6 +2014,14 @@ dailynewsonline.jp##.adArea
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tver.jp
 tver.jp###ADoverlay
 
+!tver,fod,fuji,2020.05.16
+!https://tver.jp/episode/72014325
+||ad.sxp.smartclip.net^
+||adform.net^
+||dsp.adfarm1.adition.com^
+||fod.fujitv.co.jp/ad/
+||fod.fujitv.co.jp/mz/AdJson4_ssl.aspx
+
 !TVerでテレ東だけが見れない
 @@||pubads.g.doubleclick.net^$domain=tver.jp
 

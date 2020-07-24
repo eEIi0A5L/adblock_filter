@@ -1,19 +1,5 @@
 ! beta.txt
 
 
-!tver,fod,fuji,2020.05.16
-!https://tver.jp/episode/72014325
-||ad.sxp.smartclip.net^
-||adform.net^
-||dsp.adfarm1.adition.com^
-||fod.fujitv.co.jp/ad/
-||fod.fujitv.co.jp/mz/AdJson4_ssl.aspx
-
-
-!google,広告,Android,Firefox,2020.7.12
-google.com,google.co.jp###main > div:has( > div > div > a > div > div > span:has-text(/^Ad$/) )
-
-
-
 
 !END
