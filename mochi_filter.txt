@@ -337,6 +337,7 @@ www.yahoo.co.jp###Shopping
 www.yahoo.co.jp##dl.item:has( > dd > p:has-text(PR) )
 www.yahoo.co.jp##dl.item:has( > dd > cite:has-text(Yahoo!ズバトク＜PR＞) )
 
+www.yahoo.co.jp###GoToBanner
 
 
 !その他ネットワーク通信ログからad関連の通信をブロック
