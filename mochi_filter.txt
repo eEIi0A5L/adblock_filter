@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 25 Jul 2020 00:00 JST
+! Last modified: 27 Jul 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -557,6 +557,7 @@ weather.yahoo.co.jp###ad-ysp
 weather.yahoo.co.jp###ad-ct
 !weather.yahoo.co.jp##video
 !weather.yahoo.co.jp##source[src$=".mp4"]
+weather.yahoo.co.jp###ad-new-ysp
 
 
 !広告消した後の空白
@@ -1470,6 +1471,7 @@ www.sponichi.co.jp###annex_pc_entertainment_mid_rect
 www.sponichi.co.jp##.banner03
 www.sponichi.co.jp###annex_pc_baseball_mid_rect
 www.sponichi.co.jp###annex_pc_baseball_foot_rect
+sponichi.co.jp##div[data-component="ad-basic"]
 
 !デイリー
 www.daily.co.jp##aside.add
