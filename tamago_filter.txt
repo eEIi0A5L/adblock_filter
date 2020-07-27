@@ -2035,10 +2035,11 @@ www.reddit.com##.XPromoPopup
 matometanews.com###jp-matome
 
 !note
-note.com,note.jp,note.yamap.com##.p-article__share
+diehardtales.com,note.com,note.kagg.jp,note.jp,note.yamap.com##.p-article__share
 
-
-
+! wazap
+sp.jp.wazap.com##.gmoam_outer_wrapper
+sp.jp.wazap.com##body[style="position: fixed;"]:style(position:static !important)
 
 
 
