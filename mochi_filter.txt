@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 27 Jul 2020 00:00 JST
+! Last modified: 29 Jul 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -943,6 +943,8 @@ jbbs.shitaraba.net##table:has( > tbody > tr > td > div > center > table > tbody 
 jbbs.shitaraba.net##.jbbsCustomHeader > table + br + table
 rentalbbs.shitaraba.com##.banner-300_250
 jbbs.shitaraba.net##div[id$="_INSERT_SLOT_ID_HERE"]:upward(1)
+!https://egg.5ch.net/test/read.cgi/software/1562160518/627
+jbbs.shitaraba.net###recommend_ad
 
 !ログ速
 ||ads.logsoku.com^
