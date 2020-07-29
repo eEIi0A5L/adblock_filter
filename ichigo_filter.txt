@@ -87,8 +87,8 @@ xhamster.com##.wid-spot-container
 
 
 !99files.net
-!||wx2.sinaimg.cn/large/
-||wx2.sinaimg.cn/large/$third-party
+!||wx2.sinaimg.cn/large/$domain=99files.net
+||wx2.sinaimg.cn/large/$third-party,domain=99files.net
 99files.net##.ad1
 ||www.fhyl02.com^
 
@@ -128,8 +128,8 @@ imgflare.com##div[style^="width:604px; height:250px;"]
 88files.net##.ad1
 ||bmw999888.com^
 ||jxf0088.com^
-!||wx1.sinaimg.cn^
-||wx1.sinaimg.cn^$third-party
+!||wx1.sinaimg.cn^$domain=88files.net
+||wx1.sinaimg.cn^$third-party,domain=88files.net
 ||www.fhyl04.com^
 ||dioimg.net^$domain=88files.net
 ||shen2211.com^$popup
@@ -140,8 +140,8 @@ imgflare.com##div[style^="width:604px; height:250px;"]
 !rocks
 !||wx3.sinaimg.cn/large/*.gif$domain=rocks
 ||wx3.sinaimg.cn/large/*.gif$third-party,domain=rocks
-!||wx3.sinaimg.cn^
-||wx3.sinaimg.cn^$third-party
+!||wx3.sinaimg.cn^$domain=rocks
+||wx3.sinaimg.cn^$third-party,domain=rocks
 ||www.7893com.com/img/amdc.gif
 ||www.7893com.com^
 ||dh.10242016.com^
