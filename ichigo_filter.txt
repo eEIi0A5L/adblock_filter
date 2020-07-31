@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 26 Jul 2020 00:00 JST
+! Last modified: 31 Jul 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
 ! 
@@ -192,6 +192,7 @@ pornhub.com##.sniperModeEngaged.alpha
 !モバイル用
 pornhub.com##.adContainer
 ||pornhub.com/_xa/ads?zone_id=
+||ci.phncdn.com/pics/skins/000/002/361/2361_large.png
 
 !bobx.com
 ||img.bobx.com/x_images/vids4.jpg
