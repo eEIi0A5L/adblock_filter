@@ -785,6 +785,12 @@ twitter.com##div[data-testid="trend"]:has( span:has-text(によるプロモー�
 twitter.com##aside[aria-label="おすすめユーザー"] > div > div[data-testid="UserCell"]:has( > div > div > div > svg + div:has-text(プロモーション))
 twitter.com##div[aria-label^="タイムライン:"] > div > div > div:has( svg[viewBox] + div:has-text(プロモーション) )
 
+!なんか広告が出るようになった。2020.8.4
+twitter.com##div[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|プロモーション|Реклама|Uitgelicht|sponsorluğunda|Mainostettu|推廣|推广/)
+twitter.com##div[data-testid="UserCell"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|プロモーション|Реклама|Uitgelicht|Sponsorlu|Mainostettu|推廣|推广/)
+twitter.com##[data-testid="trend"]:has-text(/推荐|Promoted|Gesponsert|Реклама|Promocionado|Sponsorisé|Uitgelicht|プロモーション/):upward(1)
+twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐' or text()='プロモーション')]/../../../../..)
+
 !https://twitter.com/okkinapanda
 twitter.com##div:has( > div > div > div > h2 > div > span:has-text(/Promoted Tweet|プロモツイート/) )
 
