@@ -204,7 +204,6 @@
 ||www.5ch.tedbuy.com^
 ||www.ampugi334f.com^
 ||www.google-analytics.com^
-||www.jlab.work^
 ||yads.c.yimg.jp^
 ||yads.yahoo.co.jp^
 ||yt.moatads.com^
