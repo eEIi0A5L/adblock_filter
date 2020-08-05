@@ -132,6 +132,8 @@ abema.tv##:xpath(//span[contains(text(), "詳細をみる")]/parent::p/parent::a
 abema.tv##:xpath(//span[contains(text(), "詳細を見る")]/parent::p/parent::a)
 !Abema次のビデオ
 !abema.tv##div[class]:has(> div > a[href$="?next=true"])
+!Abemaのトップバナー
+!abema.tv##.c-tv-TVTopContainer-jumbotron-banner
 
 !次の動画の自動遷移をオフる
 !→オフが効かないのでコメント化。2020.6.24
