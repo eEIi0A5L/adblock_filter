@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 31 Jul 2020 00:00 JST
+! Last modified: 08 Aug 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
 ! 
@@ -1301,6 +1301,25 @@ jable.tv##img[src="https://assets.jable.tv/assets/images/252/427-240-3.gif"]:upw
 !javhihi
 ||www1.javhihi.me/Cms_Data/Sites/admin/Files/ads.js
 ||qqqwes.com^
+
+!jav380
+||www.520click.com/ad.php
+||track.sitetag.us^
+||realsrv.com^
+||remarketingpixel.com^
+520call.me##+js(set, all520dddaaa222, undefined)
+||socialbars-web1.com^
+||video.520call.me/ad/
+||tracker.520call.me^
+520call.me###inplayer
+
+
+
+
+
+
+
+
 
 
 

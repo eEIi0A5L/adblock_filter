@@ -1,0 +1,32 @@
+https://egg.5ch.net/test/read.cgi/software/1562160518/
+700名無しさん＠お腹いっぱい。 (ﾜｯﾁｮｲ 130d-e++8)2020/08/08(土) 01:17:49.66ID:P912x2PD0>>701
+tverの動画再生するのに「tver.jp doubleclick.net * allow」を登録してるけど
+日テレの動画だけPR動画が再生される
+このPR動画を表示しないようにできないかな
+
+701名無しさん＠お腹いっぱい。 (ﾌﾟﾁﾌﾟﾁ 9b63-Ea0s)2020/08/08(土) 09:17:45.96ID:AOem1TJS00808>>702
+>>700
+出ません
+してるけどじゃなくてそもそもallowなんて使わないで
+Tverのアンチ広告ブロックは
+@@/adspace.css$stylesheet,domain=tver.jp
+tver.jp#@#.adspace
+だし一部動画の再生不具合は
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tver.jp
+@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=tver.jp
+どうしても出るなら後者を一時的に切るorフィルタ再考
+
+702名無しさん＠お腹いっぱい。 (ﾌﾟﾁﾌﾟﾁ 130d-e++8)2020/08/08(土) 12:46:07.11ID:P912x2PD00808
+>>701
+ありがとう、日テレ出なくなりました
+テレ東系が再生できないんだけどどうすればいいですかね
+
+703名無しさん＠お腹いっぱい。 (ﾌﾟﾁﾌﾟﾁ 130d-e++8)2020/08/08(土) 12:59:39.14ID:P912x2PD00808
+* doubleclick.net * block
+昔、Myルールにこれ登録してたのがダメだったようで削除したら見れました 
+
+704名無しさん＠お腹いっぱい。 (ﾌﾟﾁﾌﾟﾁ 13dc-e++8)2020/08/08(土) 13:59:12.97ID:a5Dp882B00808
+||doubleclick.net^$third-party
+としたうえで、
+@@||doubleclick.net/gampad/ads?$xmlhttprequest,domain=tver.jp|video.tv-tokyo.co.jp
+これで、TVerは問題なし 
