@@ -193,6 +193,7 @@ pornhub.com##.sniperModeEngaged.alpha
 pornhub.com##.adContainer
 ||pornhub.com/_xa/ads?zone_id=
 ||ci.phncdn.com/pics/skins/000/002/361/2361_large.png
+pornhub.com##.sectionWrapper > .videos[id] > li[class^="sniper"]:not(.videoblock):not(.videobox):not([id^="playlist_"])
 
 !bobx.com
 ||img.bobx.com/x_images/vids4.jpg
@@ -964,6 +965,7 @@ embed.share-videos.se###ad_html
 ero-nuki.net###movie_ad
 !↓いらないかも
 !@@||phncdn.com^$domain=ero-nuki.net|hmk-temp.com
+||cdn-images.net/ad/
 
 !kissjav
 ||hgub2polye.com^$third-party
