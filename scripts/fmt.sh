@@ -176,6 +176,9 @@ function sub()
 function main()
 {
     for i in $*; do
+        if [ "$i" = "misc/tver.txt" ]; then
+            continue
+        fi
         sub $i
         result=$?
         if [ $result -ne 0 ]; then
