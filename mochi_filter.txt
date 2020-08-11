@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 07 Aug 2020 00:00 JST
+! Last modified: 12 Aug 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -791,6 +791,9 @@ twitter.com##div[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado
 twitter.com##div[data-testid="UserCell"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|プロモーション|Реклама|Uitgelicht|Sponsorlu|Mainostettu|推廣|推广/)
 twitter.com##[data-testid="trend"]:has-text(/推荐|Promoted|Gesponsert|Реклама|Promocionado|Sponsorisé|Uitgelicht|プロモーション/):upward(1)
 twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐' or text()='プロモーション')]/../../../../..)
+||app.link^$3p
+||twitter.com/i/csp_report?
+twitter.com##[data-testid="placementTracking"]
 
 !https://twitter.com/okkinapanda
 twitter.com##div:has( > div > div > div > h2 > div > span:has-text(/Promoted Tweet|プロモツイート/) )
