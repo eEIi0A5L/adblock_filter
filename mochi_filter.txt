@@ -787,6 +787,7 @@ twitter.com##div[aria-label^="タイムライン:"] > div > div > div:has( svg[v
 
 !なんか広告が出るようになった。2020.8.4
 !→言語を英語にすると出る、日本語にすると出ない
+!→ツイッターオープン時初回のみ広告がでる人は、uBO上級者詳細設定でsuspendTabsUntilReady yesにしてみてください
 twitter.com##div[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|プロモーション|Реклама|Uitgelicht|sponsorluğunda|Mainostettu|推廣|推广/)
 twitter.com##div[data-testid="UserCell"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|プロモーション|Реклама|Uitgelicht|Sponsorlu|Mainostettu|推廣|推广/)
 twitter.com##[data-testid="trend"]:has-text(/推荐|Promoted|Gesponsert|Реклама|Promocionado|Sponsorisé|Uitgelicht|プロモーション/):upward(1)
@@ -795,13 +796,12 @@ twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='
 ||twitter.com/i/csp_report?
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/251-252
 !twitter.com##[data-testid="placementTracking"]
-twitter.com##article > div > div > div> div[testid="tweet"] > div > div > div > div > span:has-text(/Promoted|プロモーション/)
+twitter.com##article:has( > div > div > div > div[testid="tweet"] > div > div > div > div > span:has-text(/Promoted|プロモーション/) )
 ||ads-api.twitter.com^
 ||twitter.com/1.1/promoted_content/log.json
 ||google-analytics.com^$domain=twitter.com
 twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐' or text()='プロモーション')]/../../../../..)
-
-
+twitter.com##div[testid="tweet"]:has( > div > div > div > div > span:has-text(/Promoted|プロモーション/) )
 
 
 
