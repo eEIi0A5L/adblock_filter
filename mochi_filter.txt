@@ -796,6 +796,19 @@ twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/251-252
 !twitter.com##[data-testid="placementTracking"]
 twitter.com##article > div > div > div> div[testid="tweet"] > div > div > div > div > span:has-text(/Promoted|プロモーション/)
+||ads-api.twitter.com^
+||twitter.com/1.1/promoted_content/log.json
+||google-analytics.com^$domain=twitter.com
+twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐' or text()='プロモーション')]/../../../../..)
+
+
+
+
+
+
+
+
+
 
 !https://twitter.com/okkinapanda
 twitter.com##div:has( > div > div > div > h2 > div > span:has-text(/Promoted Tweet|プロモツイート/) )
