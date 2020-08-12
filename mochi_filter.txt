@@ -793,7 +793,8 @@ twitter.com##[data-testid="trend"]:has-text(/推荐|Promoted|Gesponsert|Рекл
 twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐' or text()='プロモーション')]/../../../../..)
 ||app.link^$3p
 ||twitter.com/i/csp_report?
-twitter.com##[data-testid="placementTracking"]
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/251-252
+!twitter.com##[data-testid="placementTracking"]
 
 !https://twitter.com/okkinapanda
 twitter.com##div:has( > div > div > div > h2 > div > span:has-text(/Promoted Tweet|プロモツイート/) )
