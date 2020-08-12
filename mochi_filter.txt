@@ -795,6 +795,7 @@ twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='
 ||twitter.com/i/csp_report?
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/251-252
 !twitter.com##[data-testid="placementTracking"]
+twitter.com##article > div > div > div> div[testid="tweet"] > div > div > div > div > span:has-text(/Promoted|プロモーション/)
 
 !https://twitter.com/okkinapanda
 twitter.com##div:has( > div > div > div > h2 > div > span:has-text(/Promoted Tweet|プロモツイート/) )
