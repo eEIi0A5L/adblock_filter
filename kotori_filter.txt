@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ことりフィルタ（SNSボタンブロック）
-! Last modified: Jan 22, 2020 00:00 JST
+! Last modified: Aug 16, 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/kotori.html
 ! 
@@ -70,6 +70,11 @@
 ||b.st-hatena.com/js/bookmark_button.js
 !はてな
 ||b.hatena.ne.jp/entry.count?url=
+!https://tofukko.blog.fc2.com/blog-entry-405.html#comment754
+||b.st-hatena.com/js/bookmark_button.js
+@@||b.st-hatena.com/js/bookmark_button.js$domain=hatelabo.jp
+@@||googletagmanager.com/gtm.js$script,domain=hatelabo.jp
+@@||www.google-analytics.com^$domain=hatelabo.jp
 
 !google+の数字をブロック
 !||apis.google.com/js/platform.js$third-party

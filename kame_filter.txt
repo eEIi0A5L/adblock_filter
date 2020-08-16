@@ -2,7 +2,7 @@
 ! Title: 亀フィルタ（ウイルスサイトブロック）
 ! Description: ウイルスサイトをブロックする
 !
-! Last modified: 2020/06/26 00:00 JST
+! Last modified: 2020/08/16 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/kame.html
 
@@ -180,6 +180,11 @@
 !不在通知を装った詐欺サイトへの誘導
 !https://twitter.com/BTEC_Bodyguard/status/1275614706506424320
 .duckdns.org
+
+!ダイソン公式サイトそっくりの詐欺サイトがgoogleトップに出現　やばすぎると話題に [372775825] 
+!https://leia.5ch.net/test/read.cgi/poverty/1597301244/
+||yodyson.com^
+
 
 
 !５ちゃんねるの荒らしが誘導しているサイト---------------------
