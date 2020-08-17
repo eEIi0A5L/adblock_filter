@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2020/7/22 00:00 JST
+! Last modified: 2020/8/17 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/negi.html
 
@@ -14,6 +14,9 @@ www.youtube.com###ticker-content
 !www.youtube.com##.ytp-ce-element.ytp-ce-video
 !画面右下のチャンネルサムネ
 youtube.com##.branding-img-container
+!YouTubeの生配信見てるとクソ重くなるのがどうにかならないのかね
+!https://egg.5ch.net/test/read.cgi/software/1562160518/739-740
+!youtube.com##yt-live-chat-ticker-renderer
 
 
 !ニコ生＋ニコ動（く）2018.6.28
@@ -294,6 +297,16 @@ twitter.com##.LiveVideoHomePageModuleContainer
 !https://egg.5ch.net/test/read.cgi/software/1562160518/366-372
 !twitter.com##article:has( > div > div > div > div > div > div > div > div:has-text(Pinned Tweet) ):upward(1)
 !twitter.com##article:has( > div > div > div > div > div > div > div > div:has-text(固定されたツイート) ):upward(1)
+
+
+!固定されたツイート, リツイート
+!https://egg.5ch.net/test/read.cgi/software/1562160518/729
+!twitter.com##span:has-text(固定されたツイート):upward(10)
+!twitter.com##span:has-text(さんがリツイート):upward(11)
+!
+!>>728
+!twitter.com##span:has-text(プロモツイート):upward(3)
+
 
 !TL上の～さんがリツイート
 !https://egg.5ch.net/test/read.cgi/software/1562160518/366-372
