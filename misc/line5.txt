@@ -1,0 +1,5 @@
+!https://egg.5ch.net/test/read.cgi/android/1596440216/442
+!LINEの広告はobs.line-scdn.netで消えた
+!ただし、ニュースタブとかクーポンの画像とかが読み込めなくなる
+!トーク機能のメッセージ、スタンプ、画像の送受信は一応問題なく利用できてる
+||obs.line-scdn.net^
