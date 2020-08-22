@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 12 Aug 2020 00:00 JST
+! Last modified: 22 Aug 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -180,11 +180,9 @@ www.yahoo.co.jp###windowShade
 !上部いい買物の日
 !www.yahoo.co.jp###Peron
 !www.yahoo.co.jp##img[alt="いい買物の日"][src="https://s.yimg.jp/images/evt/kaimono/2019/ytop/pc/ws_1980_70.png"]:upward(1)
-!#if !env_firefox
 www.yahoo.co.jp##img[alt="いい買物の日"][src^="https://s.yimg.jp/images/evt/kaimono/"]:upward(1)
-!#endif
-!#if env_firefox
-www.yahoo.co.jp##^img[alt="いい買物の日"][src^="https://s.yimg.jp/images/evt/kaimono/"]:upward(1)
+!#if adguard
+www.yahoo.co.jp#?#img[alt="いい買物の日"][src^="https://s.yimg.jp/images/evt/kaimono/"]:nth-ancestor(1)
 !#endif
 !「背景を閉じる」
 !→もういらないような気がする
@@ -804,6 +802,10 @@ twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='
 !twitter.com##div[data-testid="tweet"]:has( > div > div > div > div > span:has-text(/Promoted|プロモーション/) )
 !twitter.com##div[data-testid="tweet"]:has-text(/Promoted|プロモーション/)
 twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐' or contains(text(), 'プロモーション'))]/../../../../..)
+
+twitter.com##div[data-testid="placementTracking"]:has(svg + div[dir="auto"] > span:has-text(/Promoted|プロモーション/))
+twitter.com##div[data-testid="trend"]:has-text(/Promoted|プロモーション/)
+twitter.com##div[data-testid="UserCell"]:has-text(/Promoted|プロモーション/)
 
 
 
