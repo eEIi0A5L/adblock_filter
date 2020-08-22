@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 22 Jan 2019 00:00 JST
+! Last modified: 22 Aug 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
-! Homepage: https://pokapoka.shoooter.net/mochi.html
+! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
 ! 
 
 !共通
 ||google.com/pagead/
-||clients5.google.com/pagead/drt/dn/
+!||clients5.google.com/pagead/drt/dn/
 ##div[id^="div-gpt-ad"]
 ##.adsbygoogle
 ||ad-api-v01.uliza.jp^
@@ -22,28 +22,60 @@
 !.jp,.net,.com,.org,.me,.tv,.biz,.info##^div[id^="div-gpt-ad"]
 !.jp,.net,.com,.org,.me,.tv,.biz,.info##^.adsbygoogle
 
+!ページを開いたときにひっかかる感じがするので下記を共通にいれとく。2019.12.6
+! ひっかかる問題が発生するサイト、www.cinra.net, ニコニコニュース、大百科、
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js
+
+
+
+! 共通ルールで問題（エラーやアンチ広告ブロック）の出るサイト
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/174-175
+k05.biz,kakomonn.com,nazolog.com,server-setting.info,z0i.net#@#.adsbygoogle
+www.saitama-np.co.jp#@#div[id^="div-gpt-ad"]
+
+!画像が見れない
+!https://egg.5ch.net/test/read.cgi/android/1556760647/776
+hs-exp.jp#@#.adsbygoogle
+hs-exp.jp##.dfad
+
 
 !Youtube
 !一旦全面見直した。2017.10.31
-||www.youtube.com/yts/jsbin/www-pagead-id-
-||googleads.g.doubleclick.net^
+||youtube.com/yts/jsbin/www-pagead-id-
+!||googleads.g.doubleclick.net^
 ||youtube.com/get_midroll_
 ||pagead2.googlesyndication.com^
 youtube.com##.ad-container
 youtube.com##.video-ads
 youtube.com##.ytp-ad-progress-list
-||www.google.co.jp/pagead/lvz?
-||static.doubleclick.net/instream/ad_status.js
+||google.co.jp/pagead/lvz?
+!||static.doubleclick.net/instream/ad_status.js
 youtube.com###player-ads
-||pubads.g.doubleclick.net^
+!||pubads.g.doubleclick.net^
 ||youtube.com/pagead/
-||www.youtube.com/ads/$image
-||securepubads.g.doubleclick.net
+||youtube.com/ads/$image
+!||securepubads.g.doubleclick.net
 =adunit&$domain=youtube.com
 !Peter Lowe’s Ad and tracking server listで一括ブロックされている
 ||doubleclick.net^$third-party
 ||2mdn.net^$domain=youtube.com
-||s0.2mdn.net/ads$domain=youtube.com
+!右の広告
+!https://www.youtube.com/watch?v=tj9UwKQKE3A
+www.youtube.com##ytd-promoted-sparkles-web-renderer
+!検索結果上部の広告
+www.youtube.com##ytd-carousel-ad-renderer
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+
+!Youtubeで広告がでる 2020.6.10
+!https://egg.5ch.net/test/read.cgi/software/1556480002/206
+!https://egg.5ch.net/test/read.cgi/software/1556480002/210
+!https://egg.5ch.net/test/read.cgi/software/1556480002/249
+!→フィルタありでおかしくなる環境もありコメント化
+!https://www.reddit.com/r/uBlockOrigin/comments/gzxzv4/youtube_on_firefox_broken/
+!https://www.reddit.com/r/uBlockOrigin/comments/h05jmq/ublockorigin_not_blocking_some_ads_before_youtube/
+!https://www.reddit.com/r/uBlockOrigin/comments/h0h05l/youtube_ads_getting_through_chromefirefox/
+! →ON 2020.7.17
+youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 
 !Youtubeトップバナー
 youtube.com###masthead-ad
@@ -52,6 +84,7 @@ www.youtube.com###video-masthead
 !Youtube検索結果の広告
 youtube.com##.ytd-search-pyv-renderer
 youtube.com##.pyv-afc-ads-container
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has( > div#contents > ytd-promoted-sparkles-text-search-renderer )
 
 !Youtubeの横から出てくるアノテーション
 www.youtube.com##.iv-promo
@@ -62,23 +95,32 @@ www.youtube.com##.iv-promo
 !google, githubで検索すると広告が表示される
 !→Google画像検索で上部のタグが表示されない
 !www.google.co.jp,www.google.com###taw
-www.google.co.jp,www.google.com##.commercial-unit-desktop-top
+!www.google.co.jp,www.google.com##.commercial-unit-desktop-top
 www.google.co.jp,www.google.com##:xpath(//div[@id="tads"]/parent::div/parent::div)
 www.google.co.jp,www.google.com###bottomads
 !下に書いてある
 !||google.co.jp/gen_204?$other
-google.co.jp,www.google.com##.commercial-unit-desktop-rhs
-||www.google.com/ads/
+!google.co.jp,www.google.com##.commercial-unit-desktop-rhs
+||google.com/ads/
 ||google.co.jp/gen_204?$other
 ||google.com/gen_204?$other
 !下記で画像の遷移が動作しない
 !http://natgeo.nikkeibp.co.jp/atcl/gallery/013000131/
 !||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js
-||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,domain=nikkeibp.co.jp
+!||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,domain=nikkeibp.co.jp
 ||adservice.google.co.jp^
+!検索結果右の広告
+!表示されても邪魔にならないのでコメント化。
+!google.co.jp##div[class="mod"][data-md="40"][data-ved]:has( > div > div > span:has-text(Ads))
+!右上の広告
+google.co.jp,google.com##.cu-container:has( > div > span > div > div > div > span:has-text(/^(Sponsored|スポンサー)/) )
 
 !gmail
 mail.google.com##.aKB
+!下に統合
+!||mail-ads.google.com/mail/u/0/ads/main_jspb
+||mail-ads.google.com^
+
 
 
 
@@ -116,6 +158,17 @@ yahoo.co.jp###mhd_text_pc
 @@||s.yimg.jp/bdv/$script,domain=box.yahoo.co.jp
 
 
+! ヤフー系トラッカー
+!Yahooメールで多数のアカウントをログインしなおした時に出るYahooからの大切なお知らせが表示されないのでコメント化。2019.12.7
+!||mempf.yahoo.co.jp/offer?$script
+||s.yimg.jp/images/approach/jslib/clear.gif?$subdocument
+!||s.yimg.jp/images/clear.gif|
+||s.yimg.jp/images/jpnews/cre/bylines/js/chartbeat.js|
+! huffingtonpost.jp
+||s.yimg.com/av/yap/ga/yap.js|
+! localplace.jp
+||s.yimg.jp/images/listing/tool/cv/conversion_async.js|
+
 !END------------------------------------------------
 
 
@@ -124,7 +177,13 @@ yahoo.co.jp###mhd_text_pc
 ||s.yimg.jp/images/shp_edit/cms/promotion/softbankhawks/
 www.yahoo.co.jp###windowShade
 
-
+!上部いい買物の日
+!www.yahoo.co.jp###Peron
+!www.yahoo.co.jp##img[alt="いい買物の日"][src="https://s.yimg.jp/images/evt/kaimono/2019/ytop/pc/ws_1980_70.png"]:upward(1)
+www.yahoo.co.jp##img[alt="いい買物の日"][src^="https://s.yimg.jp/images/evt/kaimono/"]:upward(1)
+!#if adguard
+www.yahoo.co.jp#?#img[alt="いい買物の日"][src^="https://s.yimg.jp/images/evt/kaimono/"]:nth-ancestor(1)
+!#endif
 !「背景を閉じる」
 !→もういらないような気がする
 !www.yahoo.co.jp###windowShade
@@ -158,13 +217,16 @@ www.yahoo.co.jp###pickupservice
 www.yahoo.co.jp###PopHead
 
 !検索枠と本体の間の一行広告
-www.yahoo.co.jp###toptxt
+!www.yahoo.co.jp###toptxt
+www.yahoo.co.jp###TopLink
 
 !右上の広告
 !→/bdv/全体をブロックした
 !||s.yimg.jp/bdv/prem/
 ||s.yimg.jp/images/listing/tool/yads/
 www.yahoo.co.jp###brandpanel
+!Yahoo右上の広告、brandpanelの代わりのやつが最近でる
+www.yahoo.co.jp###sub > div[style="height:240px; margin:0px auto 10px;"]
 www.yahoo.co.jp##div[class^="yjads"]
 !セミコロン有りと無しの２パターンある
 !www.yahoo.co.jp###sub > div[style="margin: 0px auto 10px;"]
@@ -178,6 +240,9 @@ www.yahoo.co.jp##:xpath(//img[@id="multilink-image"]/parent::div)
 www.yahoo.co.jp###multilink-image
 !www.yahoo.co.jp##div[style^="position: absolute; width: 950px; height: 600px"]
 
+!右上の広告 2020.4.26
+www.yahoo.co.jp##iframe[id$="_ad_frame"]
+www.yahoo.co.jp###TBP
 
 !Yahooトップ全画面の左右の大きなバックグラウンド広告
 !→/bdv/全体をブロックした
@@ -204,6 +269,16 @@ www.yahoo.co.jp###multilink-image
 !いい買い物の日くじ
 www.yahoo.co.jp##.Kuji
 
+!PayPayモールの
+www.yahoo.co.jp###Kaimono2019
+
+!中央ビデオ
+!→幻覚だったか？必要なビデオを誤爆する可能性があるので、一旦コメント化する。2019.11.3
+!www.yahoo.co.jp###Video:upward(1)
+
+!PayPayくじ
+www.yahoo.co.jp###CenterBanner
+
 !中段のPR
 yahoo.co.jp##div[id^="yads"]
 
@@ -217,6 +292,9 @@ www.yahoo.co.jp###tct
 
 !話題なう←これはあっていい
 !www.yahoo.co.jp###realtime
+
+!Yahooトップ中央下部のおすすめ記事内のPR削除（PayPay, カードなど）
+www.yahoo.co.jp###Stream > div > div > article:has( > a > div > div > div > span:has-text(/^PR$/) )
 
 
 !Yahooプレミアムの広告バナー
@@ -246,6 +324,18 @@ www.yahoo.co.jp###yjidbox
 !たまに出てくる。ログインした直後一回だけとか
 www.yahoo.co.jp###js-Commerce
 
+!右のピックアップ
+!→Yahooショッピングの宣伝っぽいからいらないっぽい
+www.yahoo.co.jp###Service
+
+!あなたにおすすめの商品
+www.yahoo.co.jp###Shopping
+
+!あなたへのおすすめでPayPayのPR
+www.yahoo.co.jp##dl.item:has( > dd > p:has-text(PR) )
+www.yahoo.co.jp##dl.item:has( > dd > cite:has-text(Yahoo!ズバトク＜PR＞) )
+
+www.yahoo.co.jp###GoToBanner
 
 
 !その他ネットワーク通信ログからad関連の通信をブロック
@@ -253,12 +343,11 @@ www.yahoo.co.jp###js-Commerce
 ||s.yimg.jp/images/advertising/
 !||s.yimg.jp/images/advertising/common/js/iicon.min.js
 ||yads.c.yimg.jp/js/yads-async.js
-||yj.p.adnxs.com^
+!||yj.p.adnxs.com^
 ||yjtag.yahoo.co.jp/tag?
 !||giwiz-quriosity.c.yimg.jp^
 
 !これは全部広告っぽい
-||adx.adnxs.com^
 ||adnxs.com^
 
 !ビーコン
@@ -296,7 +385,7 @@ videotopics.yahoo.co.jp##.banner
 
 
 !動画開始時の動画広告ブロック
-||adserver-apne.tidaltv.com^
+!||adserver-apne.tidaltv.com^
 
 
 !END--------------------------------------------------------
@@ -346,17 +435,17 @@ headlines.yahoo.co.jp,news.yahoo.co.jp##div[id^="spocon"]
 !俺もヤフーニュースのページが激しくお漏らしするようになった
 !これはおまかんなのか・・・それとも何らかの変更か・・・
 !フィルターに造詣が深い方からのサポートを希望いたします
-!http://egg.5ch.net/test/read.cgi/software/1540428057/142
-!http://egg.5ch.net/test/read.cgi/software/1540428057/150
+!https://egg.5ch.net/test/read.cgi/software/1540428057/142
+!https://egg.5ch.net/test/read.cgi/software/1540428057/150
 !||yimg.*/images/media/video/player/
 
 
 
 !その他ネットワーク通信ログからad関連の通信をブロック
-||ib.adnxs.com^
+!||ib.adnxs.com^
 
 !ビーコン
-||sb.scorecardresearch.com/b?
+!||sb.scorecardresearch.com/b?
 
 
 !Yahooニュース高速化
@@ -367,7 +456,7 @@ headlines.yahoo.co.jp,news.yahoo.co.jp##div[id^="spocon"]
 
 
 !ページ下部のおすすめ記事
-!http://egg.5ch.net/test/read.cgi/software/1540428057/89-94
+!https://egg.5ch.net/test/read.cgi/software/1540428057/89-94
 !news.yahoo.co.jp##.topicsTl
 !headlines.yahoo.co.jp##.stream_title
 !headlines.yahoo.co.jp##.listFeed
@@ -415,8 +504,8 @@ shopping.yahoo.co.jp##.uiDialogCrm
 
 
 !その他ネットワーク通信ログからad関連の通信をブロック
-||yj.adnxs.com^
-||acdn.adnxs.com^
+!||yj.adnxs.com^
+!||acdn.adnxs.com^
 
 
 !END----------------------------------------------
@@ -426,13 +515,21 @@ shopping.yahoo.co.jp##.uiDialogCrm
 search.yahoo.co.jp###So1
 
 !Yahooニュースの宣伝
-||amd.c.yimg.jp^$domain=search.yahoo.co.jp
+!||amd.c.yimg.jp^$domain=search.yahoo.co.jp
 search.yahoo.co.jp##.cmm
 
+!"UQ"で検索すると広告が出る
+search.yahoo.co.jp###yfa_psp_wrap
 
 !Naverまとめの宣伝
-||iwiz-search-matome.c.yimg.jp^$domain=search.yahoo.co.jp
+!||iwiz-search-matome.c.yimg.jp^$domain=search.yahoo.co.jp
 
+!検索結果上部の広告
+!https://dic.nicovideo.jp/b/a/adblock%20plus/1591-
+search.yahoo.co.jp##div.sw-CardBase:has( > div.sw-Card.Ad )
+search.yahoo.co.jp##div.sw-CardBase:has( > div.sw-Card.AnswerSPRO )
+search.yahoo.co.jp##div.sw-CardBase:has( > div.sw-Card.AnswerTable )
+search.yahoo.co.jp##div.sw-CardBase:has( > div.sw-Card.AnswerChiebukuro )
 
 
 !Yahooショッピングの宣伝
@@ -459,14 +556,15 @@ weather.yahoo.co.jp###ad-ysp
 weather.yahoo.co.jp###ad-ct
 !weather.yahoo.co.jp##video
 !weather.yahoo.co.jp##source[src$=".mp4"]
+weather.yahoo.co.jp###ad-new-ysp
 
 
 !広告消した後の空白
-typhoon.yahoo.co.jp###pos-lrec
+weather.yahoo.co.jp###pos-lrec
 
 !ヤフー天気の今日明日の指数情報（洗濯～風邪注意）
-!http://egg.5ch.net/test/read.cgi/software/1540428057/133
-!http://egg.5ch.net/test/read.cgi/software/1540428057/135
+!https://egg.5ch.net/test/read.cgi/software/1540428057/133
+!https://egg.5ch.net/test/read.cgi/software/1540428057/135
 !weather.yahoo.co.jp###index2days
 !weather.yahoo.co.jp##.indexList
 
@@ -507,6 +605,9 @@ finance.yahoo.co.jp###top_promo
 !finance.yahoo.co.jp###sub > .marB10
 finance.yahoo.co.jp###sub > .marB10 > a > img
 
+!中央バナー
+||s.yimg.jp/images/finance/kawasetop_2/yjfx/201612/634_60.png
+
 !END----------------------------------------------
 
 
@@ -530,8 +631,16 @@ map.yahoo.co.jp###So2
 
 
 !右上の広告
-detail.chiebukuro.yahoo.co.jp###sub-top
+!ヤフー知恵袋の右側が一番下までスクロールした後トップに戻ってくるとバグります
+!https://egg.5ch.net/test/read.cgi/software/1554721271/737
+!detail.chiebukuro.yahoo.co.jp###sub-top
 
+!アイテム広告
+chiebukuro.yahoo.co.jp##.SSContainer:has( > div > div.listItemSS > cite  )
+
+! https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/258
+! https://github.com/AdguardTeam/AdguardFilters/issues/55823
+@@||s.yimg.jp/images/listing/tool/yads/yads-timeline-ex.$script,domain=chiebukuro.yahoo.co.jp|sports.yahoo.co.jp
 
 !END----------------------------------------------
 
@@ -539,6 +648,8 @@ detail.chiebukuro.yahoo.co.jp###sub-top
 
 !Yahooログイン画面--------------------------------
 
+!ログアウト画面のテキスト広告
+login.yahoo.co.jp##.ads
 
 !広告
 !→/bdv/全体をブロックした
@@ -597,26 +708,26 @@ mail.yahoo.co.jp###slot_MON_sent
 
 
 
-!Yahooジオシティーズ----------------------------------------------
-!2019年3月にサービス終了予定
-!https://info-geocities.yahoo.co.jp/p/close/index.html
 
-
-||bc-geocities.yahoo.co.jp/bc/uad?
-||bc-geocities.yahoo.co.jp/bc/gg?
-
-!ジオシティの右側の広告欄
-!http://www.geocities.jp/tama_weather/text14-1.html
-||bc-geocities.yahoo.co.jp/js/sq.js
-||bc-geocities.yahoo.co.jp/js/sq.css
-
-!END----------------------------------------------
 
 !Yahoo路線--------------------------------
 !Yahoo路線
 transit.yahoo.co.jp##div[class^="yjads_priority_"]
 ||s.yimg.jp/images/yjcard/campaign/bnr/20171130/transit_600_200.png
 
+!END----------------------------------------
+
+
+!Yahooスポーツナビ--------------------------------
+!Yahooスポーツナビ
+sports.yahoo.co.jp###ad-lrec
+sports.yahoo.co.jp###ad-prmb
+baseball.yahoo.co.jp###ad-lrec
+baseball.yahoo.co.jp###ad-prmb
+soccer.yahoo.co.jp###ad-lrec
+soccer.yahoo.co.jp###ad-prmb
+keiba.yahoo.co.jp###ad-lrec
+keiba.yahoo.co.jp###ad-prmb
 !END----------------------------------------
 
 
@@ -637,9 +748,9 @@ outlook.live.com##:xpath(//div[contains(@class, 'fbAdLink')]/parent::div/parent:
 !Gyao動画上の広告ブロック------------------------------
 ||ad.auditude.com/adserver/
 ||metrics.brightcove.com/tracker?
-||static.doubleclick.net/instream/ad_status.js
-||www.youtube.com/ad_data_
-||doubleclick.net/gampad/ads?
+!||static.doubleclick.net/instream/ad_status.js
+||youtube.com/ad_data_
+!||doubleclick.net/gampad/ads?
 !END-------------------------------------------------
 gyao.yahoo.co.jp##.adPV
 gyao.yahoo.co.jp###cam1001
@@ -651,50 +762,89 @@ gyao.yahoo.co.jp###bnr
 !||s.yimg.jp/images/streaming/gyao-store/special/2017_1111campaign/promotion/peron.jpg
 streaming.yahoo.co.jp##.con_btm
 ||s.yimg.jp/images/gyao/common/images/bnr_store_promotion_
+gyao.yahoo.co.jp##.ad
+||sync.search.spotxchange.com/partner?adv_id=
+||interactive-circle.jp^$3p
+||imasdk.googleapis.com^$domain=gyao.yahoo.co.jp
+||pvtag.yahoo.co.jp^
 
 !Twitter
-twitter.com##.promoted-tweet
-twitter.com##.promoted-trend
-!Twitterで"Who to follow"（おすすめのユーザー）を消す場合
-!twitter.com##li[data-item-type="who_to_follow_entry"]
-!下記、広告かと思ったけどEasyListでわざわざ@@を付けて例外にされている。。。余計なことはしないでおこう。
-!||pbs.twimg.com/ad_img/
-!||twitter.com/i/cards/tfw/v1/
-!?advertiser_name=$domain=twitter.com
-twitter.com##li.has-profile-promoted-tweet
-!Twitter新レイアウトβ 2019.1.16
-twitter.com##div[aria-label="タイムライン: ホームタイムライン"] > div > div > div:if( svg[viewBox] + div:has-text(プロモーション) )
-twitter.com##div[aria-label="Timeline: Your Home Timeline"] > div > div > div:if( svg[viewBox] + div:has-text(Promoted) )
+||twitter.com/1.1/promoted_content/log.json
+
+!英語版
+twitter.com##[data-testid="trend"]:has-text(Promoted):xpath(..)
+twitter.com##div[data-testid="trend"]:has( span:has-text(Promoted by) ):xpath(..)
+!ツイッターを見てるとなんかカクツクのでコメント化。2020.4.12
+!→やっぱり生きに。
+twitter.com##aside[aria-label="Who to follow"] > div > div[data-testid="UserCell"]:has(:scope  > div > div > div > svg + div:has-text(Promoted))
+twitter.com##div[aria-label^="Timeline:"] > div > div > div:has( svg[viewBox] + div:has-text(Promoted) )
+
+!日本語版
+twitter.com##[data-testid="trend"]:has-text(プロモーション):xpath(..)
+twitter.com##div[data-testid="trend"]:has( span:has-text(によるプロモーション) ):xpath(..)
+!ツイッターを見てるとなんかカクツクのでコメント化。2020.4.12
+!→やっぱり生きに。
+twitter.com##aside[aria-label="おすすめユーザー"] > div > div[data-testid="UserCell"]:has( > div > div > div > svg + div:has-text(プロモーション))
+twitter.com##div[aria-label^="タイムライン:"] > div > div > div:has( svg[viewBox] + div:has-text(プロモーション) )
+
+!なんか広告が出るようになった。2020.8.4
+!→言語を英語にすると出る、日本語にすると出ない
+!→ツイッターオープン時初回のみ広告がでる人は、uBO上級者詳細設定でsuspendTabsUntilReady yesにしてみてください
+!twitter.com##div[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|プロモーション|Реклама|Uitgelicht|sponsorluğunda|Mainostettu|推廣|推广/)
+!twitter.com##div[data-testid="UserCell"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|プロモーション|Реклама|Uitgelicht|Sponsorlu|Mainostettu|推廣|推广/)
+!twitter.com##[data-testid="trend"]:has-text(/推荐|Promoted|Gesponsert|Реклама|Promocionado|Sponsorisé|Uitgelicht|プロモーション/):upward(1)
+twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐' or text()='プロモーション')]/../../../../..)
+||app.link^$3p
+||twitter.com/i/csp_report?
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/251-252
+!twitter.com##[data-testid="placementTracking"]
+!twitter.com##article:has( > div > div > div > div[data-testid="tweet"] > div > div > div > div > span:has-text(/Promoted|プロモーション/) )
+||ads-api.twitter.com^
+||twitter.com/1.1/promoted_content/log.json
+||google-analytics.com^$domain=twitter.com
+!twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐' or text()='プロモーション')]/../../../../..)
+!twitter.com##div[data-testid="tweet"]:has( > div > div > div > div > span:has-text(/Promoted|プロモーション/) )
+!twitter.com##div[data-testid="tweet"]:has-text(/Promoted|プロモーション/)
+twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐' or contains(text(), 'プロモーション'))]/../../../../..)
+
+!どうもツイッターでの餅フィルタが誤爆したりブロックしきれていないという状況にあるようです
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/261-262
+twitter.com##div[data-testid="placementTracking"]:has(svg + div[dir="auto"] > span:has-text(/Promoted|プロモーション/))
+twitter.com##div[data-testid="trend"]:has-text(/Promoted|プロモーション/)
+twitter.com##div[data-testid="UserCell"]:has-text(/Promoted|プロモーション/)
+
+
+
+
+
+
+
+
+!https://twitter.com/okkinapanda
+twitter.com##div:has( > div > div > div > h2 > div > span:has-text(/Promoted Tweet|プロモツイート/) )
+
+! Twitterトラッカー
+!ブロック数が延々と増えるのでやめた。2019.10.23
+!||api.twitter.com/1.1/jot/client_event.json|$xmlhttprequest
+||api.twitter.com/1.1/jot/external_referer.json|$xmlhttprequest
+||api.twitter.com/1.1/onboarding/referrer.json|$xmlhttprequest
+||platform.twitter.com/oct.js|
+||twitter.com/etc/clientlibs/dtm/*/satelliteLib-$script
+
 
 !facebook
-||pixel.facebook.com^
-facebook.com##div[id^="substream_"] > div > div[id] div[id^="hyperfeed_story_id_"]:has(div._5pcp._5lel > span > div > div > a[href="#"])
-facebook.com##div[id^="hyperfeed_story_id_"]:has(span._4dcu)
-facebook.com##div[id^="hyperfeed_story_id_"]:has(a[href*="is_sponsored"])
-facebook.com##div[data-testid="fbfeed_story"]:has(a[href*="[is_sponsored]"])
-facebook.com###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
-facebook.com##div[data-testid="fbfeed_story"]:has(a[href*="[is_sponsored]"])
-||facebook.com/common/scribe_endpoint.php
-facebook.com##.AdBox
-||www.facebook.com/sem_campaigns/sem_pixel_test/?
-||www.facebook.com/react_composer/sprouts/promotions/update/?promotion_
 ||scontent.xx.fbcdn.net/hads-
-@@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
-facebook.com##.userContentWrapper:has-text(Suggested)
 facebook.com###stream_pagelet > #pagelet_megaphone
-facebook.com##div[id^="hyperfeed_story_id_"]:has(div[id^="feed_subtitle_"] > span > div > a[class*="_"][href="#"])
-facebook.com##div[id^="substream_"] div[id^="hyperfeed_story_id"]:has(a.uiStreamSponsoredLink)
-facebook.com##.userContentWrapper:has(a[href*="/ads/"])
-facebook.com###stream_pagelet div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
-facebook.com##div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has([id^="feed_subtitle_"] > span[class][role=presentation] + span[class]:matches-css(display: none))
-facebook.com##div[id^="hyperfeed_story_id_"]:has(div[id*="feed_subtitle_"] > span:matches-css(display: none):has(abbr .timestampContent))
-www.facebook.com##.post-ads
+!facebook.com##.AdBox
+!facebook.com##.post-ads
+facebook.com##body > .AdBox.Ad.advert:style(display:block!important;)
+
 
 !ニコ動＋ニコ生（く）2018.6.28
 ||ads.adjust-net.jp^
 ||ads.nicovideo.jp^
 !ニコニコ動画のサムネイルが全て真っ黒になってしまう
-!http://egg.5ch.net/test/read.cgi/software/1524667609/595-596
+!https://egg.5ch.net/test/read.cgi/software/1524667609/595-596
 @@||ads.nicovideo.jp/assets/js/ads-2.29.0.min.js$domain=www.nicovideo.jp
 ||res.nimg.jp/scripts/pages/watch/assets/uad.mp3
 ||res.nimg.jp/js/ads.js?
@@ -723,6 +873,10 @@ blog.nicovideo.jp###web_pc_prime
 ch.nicovideo.jp##.ads_list_area
 !上部巨大な広告欄
 live2.nicovideo.jp##aside[class^="___billboard-ad___"]
+!ニコ生番組上部の広告
+live2.nicovideo.jp##aside[class^="___billboard-banner___"]
+!https://img.cdn.nimg.jp/s/nicolive/program-pictures/prod-lv320767845/billboard_1561628724331.jpg/r970x250l.jpg?key=6a28c72838837b81645fb9b044bcf7aa8094a269df939fdaa1c1013d5c9a2060
+/^https\:\/\/img\.cdn\.nimg\.jp\/s\/nicolive\/program-pictures\/prod-lv[0-9]*\/billboard_/$image
 
 !ニコニコ大百科
 dic.nicovideo.jp##.ad-bannar-maincolumn-top
@@ -734,6 +888,24 @@ dic.nicovideo.jp##div[style="text-align:center; height:250px; width:300px; margi
 !Twitch
 !twitchでカウントが増え続ける問題の解法
 @@||sb.scorecardresearch.com/p?$image,domain=twitch.tv
+twitch.tv##+js(twitch-videoad.js)
+||c.amazon-adsystem.com/aax2/apstag.js$important,domain=twitch.tv
+||s0.2mdn.net^$important,domain=twitch.tv
+
+!Abema
+||ad.abema.io^
+||abema-adx.ameba.jp^
+!Allからの抜粋
+!サムネが表示されないのでコメント化。2020.6.24
+!||hayabusa.io/adcross/adx/abm/
+||theoplayer.com/t?
+||d2wy8f7a9ursnm.cloudfront.net^
+!abema.tv##.com-m-media-SNSShare__share
+||api.bucketeer.jp^
+abema.tv###videoAdContainer
+abema.tv##.theoplayer-ad-nonlinear
+abema.tv##.com-tv-top-CommercialBannerCarousel-banner
+abema.tv##.com-tv-top-CommercialBannerCarousel
 
 !Abema Fresh
 !下記をブロックするとGyaoが見れない
@@ -744,116 +916,76 @@ dic.nicovideo.jp##div[style="text-align:center; height:250px; width:300px; margi
 !埋め込みインスタが消えてしまう
 !abematimes.com##iframe
 
-!dailymotion（2017.11月リニューアル後用）-----------
-||ads.stickyadstv.com^
-||pebed.dm.gg^
-!||cdn.taboola.com^
-||cdn.taboola.com^$domain=~afpbb.com
-||dsp.adfarm1.adition.com^
-||sync.mathtag.com^
-||sync.adotmob.com^
-||dyntrk.com^
-||www.google.co.jp/ads/
-||sync.adaptv.advertising.com^
-||de17a.com^
-||sync-tm.everesttech.net^
-||dmx.sync.yume.com^
-||l2.visiblemeasures.com^
-||a.tribalfusion.com^
-||sync.ipredictive.com^
+
+!dailymotion（2019.10月一旦見直し）-----------
 ||scorecardresearch.com^
-||logger-04.vty.dailymotion.com^
-||doubleclick.net^$third-party
-||beacon.krxd.net^
-||sync.tidaltv.com^
-!http://egg.5ch.net/test/read.cgi/software/1510382303/625
-||dailymotion.com/vast/video/*.xml$xmlhttprequest,domain=dailymotion.com
-||deployads.com^
-||tags-cdn.deployads.com^
-||c.us1.dyntrk.com^
-||webed.dm.gg^$third-party
 ||dmxleo.dailymotion.com^
-||c.eu1.dyntrk.com^
-!dailymotionでカウントが増え続ける問題の解法
-@@||logger-04.vty.dailymotion.com/dm/desktop-windows/player_data/a/$image,domain=www.dailymotion.com
-@@||b.scorecardresearch.com/p?c1=2&$image,domain=www.dailymotion.com
+||doubleclick.net^$third-party
+||sync-tm.everesttech.net^
+||sync.adotmob.com^
+||sync.mathtag.com^
 
-!５ちゃんねる、２ちゃんねる
-/bannar/$domain=5ch.net|2ch.net|bbspink.com
-5ch.net,2ch.net##.ADVERTISE_AREA
-5ch.net,2ch.net##.ADVERTISE_AREA + div
-||google.com/pagead/
-||i2ad.jp^
-||microad.net^
-||spdeliver.i-mobile.co.jp^
-||gmossp-sp.jp/ads/
-||microad.jp^
-||cdn.ad.maist.jp/ad/
-||2ch.net/css/ad.css
-||2ch.net/js/ad.js
-!||2ch.net/snow/index.js
-!||2ch.net/snow/bebe.js
-!||2ch.net/snow/2chtop.js
-||5ch.net/css/ad.css
-||5ch.net/js/ad.js
-!beメニューが消えてた
-!http://matsuri.5ch.net/campus/
-!||5ch.net/snow/index.js
-!||5ch.net/snow/bebe.js
-!||5ch.net/snow/2chtop.js
-||bbspink.com/js/ad.js?
-||bbspink.com/css/ad.css
-||headline.bbspink.com/newsbbspink/marquee/marqueepele.php
-||stimgc.iand2ch.net/bbs-ad/
-||stimgc.iand5ch.net/bbs-ad/
-||switch-app.net/images/bnr/
-||stab.thench.net/jump/line_
-||stab.thench.net/jump/bottom_
-||img.bbchat.tv/images/bannar/
-||stab.thench.net/threads/thread_top_left_
-||stab.thench.net/threads/thread_top_right_
-||stab.thench.net/threads/rightside_top_
-||stab.thench.net/threads/rightside_bottom_
-||stab.thench.net/threads/thread_bottom_left_
-||stab.thench.net/threads/thread_bottom_right_
-||stimg.iand2ch.net/bbs-ad/
-||stimg.iand5ch.net/bbs-ad/
-||stbp.thench.net/subback/mercury/banner
-||stbp.thench.net/toppage/common-
-!5ch, 2ch携帯
-||stimg.iand2ch.net^
-||stimg.iand5ch.net^
+
+
+
+!５ちゃんねる、２ちゃんねる 全面見直し2019年10月
 ||stab.thench.net^
-!奇妙なjsをブロックしておく（なんとなく）
-||proparm.jp/ssp/p/js1?
-||proparm.jp/ssp/p/js?
-!||stimg.thench.net/bbs-ad/
-||contents.purelovers.com/banner/ad/
-bbspink.com###top_banner
-bbspink.com##.ranking_banner
-bbspink.com##.loading
-bbspink.com##div[class^="banner_area_"]
+||img.bbchat.tv/images/bannar/
+5ch.net##.ADVERTISE_AREA
+5ch.net##.ADVERTISE_AREA + div
+5ch.net##div[id^="horizontalbanners"]
+||ad.maist.jp^
+||spcdnpc.i-mobile.co.jp/ad_creative.ashx
+||spsvcpc-tls.i-mobile.co.jp/ad_spot.aspx
+||stimg.thench.net/bbs-ad/
+||spdeliver.i-mobile.co.jp^
+||5ch.net/css/ad.css
+||softserve.bbspink.com/gichin/stim/$image
+bbspink.com##.sidemenu_banner
 bbspink.com##.ticker
-5ch.net,2ch.net###js--banners--thread
-||sync-dsp.ad-m.asia^
-!||stimgc.thench.net/bbs-ad/
-||thench.net/bbs-ad/
+bbspink.com##div[class^="banner_area_"]
 bbspink.com###bbspink-bottom-ads
-
-!したらば
-||spad.i-mobile.co.jp^
-||a.adimg.net^
-jbbs.shitaraba.net##iframe[id^="ox_"]
-jbbs.shitaraba.net##.ad-320_50
-||blog.seesaa.jp/oem_contents/popular_article_ads/jbbs.js
+bbspink.com###top_banner
 ||aktrack.pubmatic.com/AdServer/
 ||ads.pubmatic.com^
-||oxjapan-d.openx.net^
+!すすコインの広告
+5ch.net##p[style="margin: 0.75em 30% 0 30%; padding: 0.5em; border-radius: 0.50em / 0.50em; background: #FFF; color: #666;"]
+5ch.net##.ad--bottom
+||5ch.net/js/ad.js
+||bbspink.com/js/ad.js
+||bbspink.com/css/ad.css
+||5ch.net/_ads/
+5ch.net##.ads_conten_main
+bbspink.com##.bbspink-top-ads
+||banpro.in.coocan.jp/mcban/banner/2chban/
+||stimgc.thench.net/bbs-ad/
+
+
+
+!したらば
+!||spad.i-mobile.co.jp^
+jbbs.shitaraba.net##iframe[id^="ox_"]
+jbbs.shitaraba.net##.ad-320_50
+!||blog.seesaa.jp/oem_contents/popular_article_ads/jbbs.js
+!||aktrack.pubmatic.com/AdServer/
+!||ads.pubmatic.com^
+!||oxjapan-d.openx.net^
+||aegate-d.openx.net/w/1.0/jstag
+||dmp.im-apps.net/js/1002437/0001/itm.js
 !下部広告
 jbbs.shitaraba.net###footer-menu + br + table + hr + table[width="640"]
 !したらばおすすめアイテム
 jbbs.shitaraba.net##table[cellspacing="2"][cellpadding="2"][width="640"]
 ||icon.creativecarrer.com^
+jbbs.shitaraba.net##table:has( > tbody > tr > td > div > center > table > tbody > tr > td > div[id$="_INSERT_SLOT_ID_HERE"] )
+jbbs.shitaraba.net##.jbbsCustomHeader > table + br + table
+rentalbbs.shitaraba.com##.banner-300_250
+jbbs.shitaraba.net##div[id$="_INSERT_SLOT_ID_HERE"]:upward(1)
+!#if adguard
+jbbs.shitaraba.net#?#div[id$="_INSERT_SLOT_ID_HERE"]:nth-ancestor(1)
+!#endif
+!https://egg.5ch.net/test/read.cgi/software/1562160518/627
+jbbs.shitaraba.net###recommend_ad
 
 !ログ速
 ||ads.logsoku.com^
@@ -865,6 +997,9 @@ www.logsoku.com###fixed_area
 www.logsoku.com##div[style="text-align:left;margin:10px;min-height:90px;"]
 www.logsoku.com##div[style="text-align:center;margin:5px;min-height:90px;"]
 
+!なろう
+||microad.jp^
+||microad.net^
 
 !Ameba, ameblo
 ameblo.jp##.subAdBannerHeader
@@ -890,6 +1025,16 @@ ameblo.jp##.skin-entryAd
 !Amebloが直っているみたいだ。2018.3.30
 ||ssl-stat.amebame.com/pub/ads/
 ||ad.pr.ameba.jp^
+!https://ameblo.jp/でピックアップブログが表示されない
+@@||ad.pr.ameba.jp/tpc/list/ameblo-atp-br-pctpcs?$xmlhttprequest,domain=ameblo.jp
+@@||ad.pr.ameba.jp/tpc/clk/$domain=ameblo.jp|ameba.jp
+@@||ssl-stat.amebame.com/pub/ads/adx/$image,domain=ameblo.jp
+!https://www.ameba.jp/でサムネが出ない
+!@@https://ssl-stat.amebame.com/pub/ads/adx/
+@@option=crop&width=200&height=134|$image,domain=www.ameba.jp
+
+! アメブロトラッカー
+||ameblo.jp/_api/collectStats;data=$image
 
 !Amebaニュース
 ||apvdr.com/v2/cs.php
@@ -906,11 +1051,26 @@ settings/ad.js$domain=lineblog.me
 blog.fc2.com###fc2_bottom_bnr
 blog.fc2.com##.pankuzu + h2
 blog.fc2.com##.pankuzu + h2 + .mainbox
-||ad.ad-arata.com^
+!||ad.ad-arata.com^
 ||img.shinobi.jp/analyze/dumbo/ads2/ad_1_left_0.gif
 fc2.com###fc2_bottom_bnr
 blog.fc2.com###sh_fc2blogheadbar_link_box
 web.fc2.com###fc2_ad_box
+! fc2トラッカー
+||media.fc2.com/counter_img.php?
+||media.fc2.com/blank.gif?
+||a.realsrv.com/ads.js
+||vip.chps-api.fc2.com/apis/footer/
+
+
+! ピア
+||ub.pia.jp/images/pt.gif?
+
+! ローチケ
+||lhe-beacon.team-rec.jp/beacon.gif?
+
+! ドミノとか
+/i?stm=$image
 
 !fc2blog
 !右上のぐるぐる回るチッカー
@@ -921,12 +1081,25 @@ fc2.com###sh_fc2blogheadbar_link_box
 !一か月広告
 !→本文も消えてしまう
 !fc2.com##.entry_table:has(iframe)
+!https://mevius.5ch.net/test/read.cgi/esite/1548897768/306
+admin.blog.fc2.com###ad_sidebody
+admin.blog.fc2.com###ad_sidebar
+
 
 !はてな
 www.hatena.ne.jp###pc-billboard-ad
+! はてブロトラッカー
+||blog.hatena.ne.jp/api/log?$xmlhttprequest
+||s.st-hatena.com/entry.count.image?uri=$image
 
 !hatenablog.com
 hatenablog.com##.sleeping-ads
+
+!hatenadiary.org
+hatenadiary.org##.sleeping-ads
+!||ad.as.amanad.adtdp.com^
+||adtdp.com^
+
 
 !価格.com
 kakaku.com###mainLeft > script
@@ -954,12 +1127,15 @@ kakaku.com##.c-ad
 !価格ドットコムのDELLのバナー
 ||i.dell.com/images/jp/banners/banners_l/kakaku_180_60.gif
 !トラッキング
-||bigminging.com^
+!||bigminging.com^
 ||cdn.bigmining.com^
 ||jp-u.openx.net^
 ||kakakucom-d.openx.net^
 ||fp.kakaku.com/tracker.py/
 news.kakaku.com##.pr-bnr
+! 価格コムトラッカー
+||script1-s.kakaku.k-img.com/script/analytics/s_code$script
+!||fp.kakaku.com/tracker.py/beacon?$script
 
 !価格.comマガジン
 kakakumag.com##.side-ad-top
@@ -992,15 +1168,27 @@ kakakumag.com##.fixedRightAdContainer
 !https://yamahack.com/503
 !やっぱりONで。広告が出てうざいサイトが多すぎる。2018.2.6
 !http://kodomofukutuuhan.web.fc2.com/category3/kyowakaban-10000740.html
-||thumbnail.image.rakuten.co.jp/@0_mall/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
+!→www.e-zakkamania.comでサムネが消える
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/123
+!||thumbnail.image.rakuten.co.jp/@0_mall/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
 ||thumbnail.image.rakuten.co.jp/@0_gold/$domain=~rakuten.co.jp|~rakuten.ne.jp|~kakaku.com
 !楽天の広告がhttp://hktdouga.blog.jp/で出る
 ||afl.rakuten.co.jp^$domain=~kakaku.com,third-party
 ||hbb.afl.rakuten.co.jp^$third-party
 ||hb.afl.rakuten.co.jp^$third-party
+! 楽天トラッカー
+!/akam/11/*
+!楽天以外のサイトもいろいろあるので汎用化2019.9.27
+!||rakuten.co.jp/akam/11/
+^akam^11^
+||r.r10s.jp/com/js/omniture/plugin/sc_trackingid.js|
+||ias.rakuten.co.jp/gw.js?$subdocument
 
 !楽天サイト自体の広告ブロック
 rakuten.co.jp###footer-floating-bnr
+!楽天の検索結果のPR枠
+!https://egg.5ch.net/test/read.cgi/software/1580196388/768-774
+!search.rakuten.co.jp##.searchresultitem:has(span.-pr)
 
 !Amazon（他サイトに出る広告のブロック）
 ||amazon.co.jp^$domain=~amazon.co.jp
@@ -1010,100 +1198,55 @@ rakuten.co.jp###footer-floating-bnr
 !||ssl-images-amazon.com^$domain=~amazon.com|~amazon.co.jp
 ||amazon-adsystem.com^$third-party,domain=~amazon.co.jp
 
+!ublockで尼の-22アフィリンク踏んだ時に厳格なブロックの警告出してほしいんだけどどう設定すればいい？
+!https://egg.5ch.net/test/read.cgi/software/1556498678/616
+!||amazon.co.jp/exec/obidos/ASIN/*/*-22/*$document,1p
+
+
+
 !ファミ通
-||www.famitsu.com/ad/
+||famitsu.com/ad/
 !Youtube埋め込み動画までブロックされてしまう
 !www.famitsu.com##iframe
 www.famitsu.com###adTop
 ||ssl.webtracker.jp/ad/
 www.famitsu.com##.ad-header-video
-||www.famitsu.com/js/1411/ad.js
+||famitsu.com/js/1411/ad.js
 www.famitsu.com##.adArticleBottomWrap
 www.famitsu.com##.adTc
 ||ssl.webtracker.jp
 www.famitsu.com##.adNative
+www.famitsu.com##.banner-top-header
 
 !ファミ通APP
 app.famitsu.com###widget-ad-rect
 
 !電撃オンライン
 dengekionline.com###rectangleBanner
+@@||googletagmanager.com/gtm.js$script,domain=dengekionline.com
 
 !impress
 !watch.impress.co.jp##.ad
 watch.impress.co.jp##.ad.billboard
 
-!weblio
-weblio.jp##.topic + .subMenuTop + .mainBlock
-weblio.jp##.hideDictPrs > .mainBlock:nth-child(2)
-||www.westatic.com/img/icons/ads.png
-||www.westatic.com/img/icons/hideAd.png
-||www.westatic.com/jsad/
-||www.westatic.com/img/ad/
-weblio.jp###contentModuleEikaiwaColumnRanking
-weblio.jp##.slfAdsBox
-||bannerfarm.ace.advertising.com^
-||www.westatic.com/img/eikaiwa_business_recent_default
-ejje.weblio.jp##.prmmSrvc + .mainBlock + .mainBlock
-ejje.weblio.jp##.exclusive-benefits-banner
-weblio.jp###numberLimitCntdwn
-weblio.jp##.sideAd
-||weblio.hs.llnwd.net/e7/img/ad/
-!Weblioをちょっとでも早くしようともがいた結果-----------------
-||cdn.optimizely.com/js/$domain=weblio.jp
-||www.facebook.com/plugins/like.php?$domain=weblio.jp
-||connect.facebook.net^$domain=weblio.jp
-||syndication.twitter.com/i/jot$domain=weblio.jp
-||platform.twitter.com^$domain=weblio.jp
-||vid-io.springserve.com^
-||vid.springserve.com^
-||googleads.g.doubleclick.net^$domain=weblio.jp
-||storage.selectmedia.asia^
-||cdn.syndication.twimg.com^$domain=weblio.jp
-||sdk.streamrail.com^
-||pagead2.googlesyndication.com^
-||ads.creative-serving.com^
-||googlesyndication.com/pagead/
-||securepubads.g.doubleclick.net^
-||ads.rubiconproject.com^
-||pbs.twimg.com^$domain=weblio.jp
-||cdn.syndication.twimg.com^$domain=weblio.jp
-||ton.twimg.com^$domain=weblio.jp
-||apis.google.com/js/platform.js$domain=weblio.jp
-||apis.google.com^$domain=weblio.jp
-||www.googleadservices.com/pagead/
-||mediaforge.com^$domain=weblio.jp
-||www.google-analytics.com^$domain=weblio.jp
-||cloudfront.net/recentPosts?$domain=weblio.jp
-||cloudfront.net/popularPosts?$domain=weblio.jp
-||yahoo.co.jp/search/?$domain=weblio.jp
-!What is the 'GPT'?
-!https://support.google.com/dfp_premium/answer/181073?hl=ja
-||www.googletagservices.com/tag/js/gpt.js$domain=weblio.jp
-||yahoo.co.jp/js/s_retargeting.js$domain=weblio.jp
-||www.googletagmanager.com/gtm.js?$domain=weblio.jp
+!weblio 一旦見直し2019.10月
+||googletagservices.com/tag/js/gpt.js$domain=weblio.jp
+||cloudfront.net/recentposts?$domain=weblio.jp
 ||yjtag.jp/tag.js$domain=weblio.jp
-||www.googletagservices.com/tag/js/gpt.js$domain=weblio.jp
-!END------------------------------------------------------------
-!小窓モード高速化
-||www.google.com/recaptcha/api.js$domain=weblio.jp
-||weblio.hs.llnwd.net/e7/jsad/cp824.js
-||weblio.hs.llnwd.net/e7/img/icons/userinfo-non-member-button.png
-ejje.weblio.jp##.premium-service-button
-!||weblio.hs.llnwd.net/e7/img/icons/hideAd.png
-!全面プレミアム広告
-weblio.jp###simplemodal-overlay
-weblio.jp###premium-house-ad-on-load-modal-container
-!広告を消すボタン
+||connect.facebook.net^$domain=weblio.jp
+||googleadservices.com/pagead/
+||google-analytics.com^$domain=weblio.jp
+weblio.jp##.flex-rectangle-ads-frame
+weblio.jp##.premium-service-button
+||facebook.com/plugins/like.php?$domain=weblio.jp
+||platform.twitter.com^$domain=weblio.jp
+||googlesyndication.com/pagead/
+||weblio.hs.llnwd.net/e7/img/ad/
+weblio.jp##.hideDictPrs > .mainBlock:nth-child(2)
+weblio.jp##.mainBlock:has(:scope > .flex-rectangle-ads-frame)
 weblio.jp##td.linkTagRClrAd
-uwl.weblio.jp###induction-to-premium-member-for-vt-area
-||weblio.hs.llnwd.net/e7/script/include/house_ad_on_load_modal_pc.js
-!プレミア
-uwl.weblio.jp##.take_cnt_mid_v2
-||weblio.hs.llnwd.net/e7/img/theme_learning_banner1.png
-ejje.weblio.jp###leadToVocabIndexBtnWrp
-ejje.weblio.jp###leadToSpeakingTestIndexBtnWrp
-||weblio.hs.llnwd.net/e7/img/muryo_banner_
+
+
 
 !alc
 eow.alc.co.jp###AreaUpperRight
@@ -1111,7 +1254,7 @@ eow.alc.co.jp###AreaHeaderRight
 eow.alc.co.jp###AreaUpperLeftInner > p
 eow.alc.co.jp##.pr_text
 eow.alc.co.jp##.mb_0
-||www.google.com/ads/
+||google.com/ads/
 ||ds.advg.jp^
 eow.alc.co.jp###introduceEowp
 ||eow.alc.co.jp/content/img/btn_eijiro_pro.gif$image
@@ -1123,7 +1266,7 @@ news.goo.ne.jp##.NR-pr
 news.goo.ne.jp##div[id^="gooad-"]
 ||adcdn.goo.ne.jp^
 ||l.logly.co.jp/lift_widget.js?adspot_id=
-||www.google.com/adsense/search/ads.js
+||google.com/adsense/search/ads.js
 oshiete.goo.ne.jp##.pr-unit
 oshiete.goo.ne.jp###gooad-long
 oshiete.goo.ne.jp###gheader
@@ -1132,31 +1275,44 @@ dictionary.goo.ne.jp##.NR-ad
 ||pulsar.xlisting.jp^
 blog.goo.ne.jp###top_app
 blog.goo.ne.jp##div[style="height: 70px; position: fixed; z-index: 998; bottom: 0; width:100%; display: block; text-align: center; background-color:rgba(59,88,152,0.5);"]
+!gooマップ
+||map.goo.ne.jp/glbs/ad/
 
 !livedoor
 ||news.livedoor.com/js/ads.0.5.js
 !http://www.afpbb.com/であわせて読みたいが消えてしまう
 !||popin.cc^
 ||js.cocoad.jp^
+news.livedoor.com##.mainSec:has( > .adsW )
+
+!まいじつ
+myjitsu.jp##article[id^="related-post-ad"]
+||popin.cc^$third-party
+||advertising.com^
+||rubiconproject.com^
 
 !ZAKZAK
-||www.zakzak.co.jp/common/js/popin/loadPopIn.js
+||zakzak.co.jp/common/js/popin/loadPopIn.js
 !ビーコン
 ||b.ranking.apis.sankei-digital.co.jp/zak/ranking/img/beacon.gif
 
 
 !日経新聞
 ||nikkei.com/fh/showad_
-||adprivcache.nikkei.com^
+!||adprivcache.nikkei.com^
 
 !nikkeibp
 ||bizad.nikkeibp.co.jp/NBP_AD/itpro/parts/itp_welcome_schedule.js?
+! 日経BPトラッカー
+!/js/bpcommon/onetag/bpTrackVars$script
+!||nikkeibp.co.jp/js/bpcommon/onetag/bpTrackVars$script
+/js/bpcommon/onetag/bpTrackVars$script
 
 !-----------------------------------------------------------------------
 !https://natgeo.nikkeibp.co.jp
 !下記動画の先頭に動画広告の空白秒１０秒が入る
 !https://natgeo.nikkeibp.co.jp/atcl/news/18/021600072/?P=2
-||ads.freewheel.tv^
+!||ads.freewheel.tv^
 ||demdex.net^
 /b/ss/*&aqe=$domain=nikkeibp.co.jp
 !下記行がないと会員登録のボタンが押せない2018.10.28
@@ -1171,148 +1327,167 @@ blog.goo.ne.jp##div[style="height: 70px; position: fixed; z-index: 998; bottom: 
 !-----------------------------------------------------------------------
 
 !産経
-||www.sankei.com/apr_news/js/others/adGpt.js
-||www.sankei.com/apr_west/js/others/adEx_display1.js
-||www.sankei.com/apr_west/js/others/adsense_m3.js
-||www.sankei.com/apr_west/css/v1/common/ad.css
+||sankei.com/apr_news/js/others/adGpt.js
+||sankei.com/apr_west/js/others/adEx_display1.js
+||sankei.com/apr_west/js/others/adsense_m3.js
+||sankei.com/apr_west/css/v1/common/ad.css
 ||sankei2ad.durasite.net^
 !記事の右上の広告
 www.sankei.com###adToprectangle
 !popin（モバイル広告）
-||www.sankei.com/apr_common/js/others/popin.js
+||sankei.com/apr_common/js/others/popin.js
 !広告
-||www.sankei.com/apr_news/js/others/adEx_display1.js
-||www.sankei.com/apr_news/js/others/adsense_m3.js
+||sankei.com/apr_news/js/others/adEx_display1.js
+||sankei.com/apr_news/js/others/adsense_m3.js
+www.sankei.com##div[style="width:300px;height:600px;"]
+www.sankei.com##.module_ad
+www.sankei.com##.module secondary
 
 !サンケイビジネス
 www.sankeibiz.jp###adRectangleBanner01
 
 
 !時事ドットコム
-!列挙してみたが、数が多いので別の道を考える
-!www.jiji.com###v04-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###v04-2
-!www.jiji.com###v04-3
-!www.jiji.com###eco-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###eco-2
-!www.jiji.com###eco-3
-!www.jiji.com###pol-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###pol-2
-!www.jiji.com###pol-3
-!www.jiji.com###soc-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###soc-2
-!www.jiji.com###soc-3
-!www.jiji.com###int-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###int-2
-!www.jiji.com###int-3
-!www.jiji.com###afp-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###afp-2
-!www.jiji.com###afp-3
-!www.jiji.com###obt-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###obt-2
-!www.jiji.com###obt-3
-!www.jiji.com###etc-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###etc-2
-!www.jiji.com###etc-3
-!www.jiji.com###spo-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###spo-2
-!www.jiji.com###spo-3
-!www.jiji.com###pho-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###pho-2
-!www.jiji.com###pho-3
-!www.jiji.com###phl-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###phl-2
-!www.jiji.com###phl-3
-!www.jiji.com###movie-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###movie-2
-!www.jiji.com###movie-3
-!www.jiji.com###spe01-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###spe01-2
-!www.jiji.com###spe01-3
-!www.jiji.com###spe02-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###spe02-2
-!www.jiji.com###spe02-3
-!www.jiji.com###spe03-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###spe03-2
-!www.jiji.com###spe03-3
-!www.jiji.com###spe04-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###spe04-2
-!www.jiji.com###spe04-3
-!www.jiji.com###ent-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###ent-2
-!www.jiji.com###ent-3
-!www.jiji.com###akb-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###akb-2
-!www.jiji.com###akb-3
-!www.jiji.com###jfn-0 + script + div[style="width:300px;height:600px;"]
-!www.jiji.com###jfn-2
-!www.jiji.com###jfn-3
-!別の道
 www.jiji.com##div[style="width:300px;height:600px;"]
 www.jiji.com##div[style="width:300px; height:250px;"]
 
+!東洋経済
+toyokeizai.net##.ad-bnr
+toyokeizai.net###information
+toyokeizai.net###topic-board
+toyokeizai.net###trend-library
+toyokeizai.net###adexchange
 
 !朝日
 www.asahi.com##.AdMod
 ||ad.yieldlab.net^
-||www.asahi.com/ad/
-||www.asahicom.jp/ad/
+||asahi.com/ad/
+||asahicom.jp/ad/
 www.asahi.com##.Pr
 www.asahi.com##.OutbrainAdMod
 www.asahi.com##.PrTextMod
+www.asahi.com##.RectAdArea
+www.asahi.com##.AdArea
+www.asahi.com###HometopAdOuter
+!Chromeで朝日新聞の記事を開くとBraveブラウザの広告が出る
+!https://egg.5ch.net/test/read.cgi/software/1585819901/367
+||asahi.com/brave/modal-dist/index.js
 
 !読売
-!||www.yomiuri.co.jp/cont2/ad/js/ad_world.js
+!||yomiuri.co.jp/cont2/ad/js/ad_world.js
 ||impact-ad.jp^
 ||adserver.adtechjp.com^
-||www.yomiuri.co.jp/cont2/ad/
+||yomiuri.co.jp/cont2/ad/
 !文字列選択したときのポップアップ？
 !http://www.afpbb.com/であわせて読みたいが消えてしまう
 !||api.popin.cc^
-!||www.yomiuri.co.jp/cont2/ad/js/ad_home.js
-||www.yomiuri.co.jp/adv/
-||www.yomiuri.co.jp/cont2/ad/
+!||yomiuri.co.jp/cont2/ad/js/ad_home.js
+||yomiuri.co.jp/adv/
+!||yomiuri.co.jp/cont2/ad/
 www.yomiuri.co.jp##.subhead
-||smrtpxl.advertising.com^
+!||smrtpxl.advertising.com^
 !gif動画がちらついてうざい
-!||www.yomiuri.co.jp/cont2/g2/m_pr_chuo.gif
-!||www.yomiuri.co.jp/cont2/g2/m_pr_gakushuin.gif
+!||yomiuri.co.jp/cont2/g2/m_pr_chuo.gif
+!||yomiuri.co.jp/cont2/g2/m_pr_gakushuin.gif
 !www.yomiuri.co.jp##a[href^="http://www.yomiuri.co.jp/adv/"]
-!||www.yomiuri.co.jp/cont2/g2/m_pr_waseda.gif
-!||www.yomiuri.co.jp/cont2/g2/m_pr_sophia.gif
-!||www.yomiuri.co.jp/cont2/g2/m_pr_hosei.gif
-||www.yomiuri.co.jp/cont2/g2/m_pr_
+!||yomiuri.co.jp/cont2/g2/m_pr_waseda.gif
+!||yomiuri.co.jp/cont2/g2/m_pr_sophia.gif
+!||yomiuri.co.jp/cont2/g2/m_pr_hosei.gif
+||yomiuri.co.jp/cont2/g2/m_pr_
+!読売、下から出てくるフッター
+www.yomiuri.co.jp##.layout-footer
+www.yomiuri.co.jp###ad_dfp_premiumrec
 
 !NHK
 !広告じゃなかった
 !||nhk.or.jp/news/gad/
+! NHKトラッカー
+||bc.nhk.jp/*/bc.gif?
+||nhk.or.jp/*/js/bc.js|
+||movie-a.nhk.or.jp/movie/api/lib/VisitorAPI.js|
+||player-inhouse.pikselpalette.com/static/components/adobe-heartbeat/2.0.1/VisitorAPI.js|
+||player-inhouse.pikselpalette.com/static/components/adobe-analytics/$script
+
+! メディア系ビーコンども。誤爆怖いのでまとめてない
+!||bunshun.jp/oo/bs/m.gif?
+!||gendai.ismedia.jp/oo/im/m.gif?
+!||diamond.jp/oo/d/m.gif?
+!||dhbr.net/oo/d/m.gif?
+!! メディア系ビーコン追加
+!||mikiki.tokyo.jp/oo/mk/m.gif?
+!||toyokeizai.net/oo/tk/m.gif?
+!||ure.pia.co.jp/oo/pia/m.gif?
+!||afpbb.com/oo/afp/m.gif?
+!||fsight.jp/oo/other/m.gif?
+!||jprime.jp/oo/other/m.gif?
+||bunshun.jp/oo/
+||gendai.ismedia.jp/oo/
+||diamond.jp/oo/
+||dhbr.net/oo/
+!! メディア系ビーコン追加
+||mikiki.tokyo.jp/oo/
+||toyokeizai.net/oo/
+||ure.pia.co.jp/oo/
+||afpbb.com/oo/
+||fsight.jp/oo/
+||jprime.jp/oo/
 
 
 !日テレNews24
 !http://www.ntv.co.jp/fcwc/index.htmlが見れない
-!||www.ntv.co.jp/ad-navi/
-||www.news24.jp/css/adjust.css
+!||ntv.co.jp/ad-navi/
+||news24.jp/css/adjust.css
 www.news24.jp###adText01
 
+!MBS動画イズム
+@@||connect.facebook.net/en_us/sdk.js$domain=dizm.mbs.jp
+@@||www.facebook.com/tr/?id=$domain=dizm.mbs.jp
+@@||www.facebook.com^$domain=dizm.mbs.jp
+
 !TBS
-||web-jp.ad-v.jp^
+!||web-jp.ad-v.jp^
 news.tbs.co.jp##.md-banner300x250
 ||aka-cdn-ns.adtechus.com^
-@@imasdk.googleapis.com/js/sdkloader/ima3.js$domain=www.tbs.co.jp
+!@@imasdk.googleapis.com/js/sdkloader/ima3.js$domain=www.tbs.co.jp
 @@||2mdn.net^$domain=www.tbs.co.jp
 ||ad.auditude.com^
 !||vo.ad-v.jp^
 ||ad-v.jp^
-||www.tbs.co.jp/muryou-douga/setting/cuAdControl_v8_utf8.js
+||tbs.co.jp/muryou-douga/setting/cuAdControl_v8_utf8.js
+www.tbs.co.jp##.over:has( > .wrap > .recta_bg )
+
+!フジテレビ
+www.fujitv.co.jp###cx_gbheader_sb:upward(1)
+!#if adguard
+www.fujitv.co.jp#?##cx_gbheader_sb:nth-ancestor(1)
+!#endif
 
 !テレ東
-!http://egg.5ch.net/test/read.cgi/software/1524667609/33
+!https://egg.5ch.net/test/read.cgi/software/1524667609/33
 @@||pubads.g.doubleclick.net/gampad/ads$domain=video.tv-tokyo.co.jp
+www.tv-tokyo.co.jp###txcms_cms_headerBanner
+www.tv-tokyo.co.jp##.tbcms_ad-block
+
+!BSテレ東
+||bs-tvtokyo.co.jp/tbcms/javascripts/ad.js
+www.bs-tvtokyo.co.jp###txcms_cms_headerBanner
+www.bs-tvtokyo.co.jp##.tbcms_ad-block
 
 !テレビ朝日
 !tv-asahi.co.jp##.init-ad-wrapper
 tv-asahi.co.jp##.init-ad
-||www.tv-asahi.co.jp/Top16/pc/scripts/adtech-desktop.js
+||tv-asahi.co.jp/Top16/pc/scripts/adtech-desktop.js
+!Chromeでこれ見られなくない？
+!https://cu.tv-asahi.co.jp/watch/1271
+!https://egg.5ch.net/test/read.cgi/software/1551423520/345
+@@||pubads.g.doubleclick.net/gampad/ads?output=$domain=tv-asahi.co.jp
+www.tv-asahi.co.jp##.newHeaderBanner
+www.tv-asahi.co.jp##.analytics_pr_rect
+!トップからアナウンサーズが開けない
+@@||googletagmanager.com/gtm.js$script,domain=tv-asahi.co.jp
+!検索ボタンが効かない
+@@||googletagservices.com/tag/js/gpt.js$script,domain=tv-asahi.co.jp
+@@||www.google-analytics.com^$domain=tv-asahi.co.jp
 
 !毎日
 ||cdn.mainichi.jp/vol1/ad/
@@ -1321,19 +1496,23 @@ mainichi.jp##.ad
 mainichi.jp##.fixbtm-banner
 !毎日新聞の記事のタイトルが消える
 !mainichi.jp##.header-box
-||cf.ad-v.jp^
+!||cf.ad-v.jp^
 ||a.teads.tv^
 mainichi.jp##.ads
 ||s-adserver.cxad.cxense.com^
 !ページ表示が遅い
-!http://egg.5ch.net/test/read.cgi/software/1524667609/424-428
+!https://egg.5ch.net/test/read.cgi/software/1524667609/424-428
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js
+!誤爆が多いのでコメント化 2019.10.19
+!||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js
+mainichi.jp###cxPageBottomBnr
+mainichi.jp###cxArticleBnrcce
+mainichi.jp###cxPageModalBnr
 
 !スポニチ
-||www.sponichi.co.jp/ad_new/
-||www.sponichi.co.jp/css/ad.css
-||www.sponichi.co.jp/css/common/ad_freepage.css
+||sponichi.co.jp/ad_new/
+||sponichi.co.jp/css/ad.css
+||sponichi.co.jp/css/common/ad_freepage.css
 ||ad.jp.ap.valuecommerce.com^
 www.sponichi.co.jp###ad
 www.sponichi.co.jp##div[id^="crt"]
@@ -1342,6 +1521,7 @@ www.sponichi.co.jp###annex_pc_entertainment_mid_rect
 www.sponichi.co.jp##.banner03
 www.sponichi.co.jp###annex_pc_baseball_mid_rect
 www.sponichi.co.jp###annex_pc_baseball_foot_rect
+sponichi.co.jp##div[data-component="ad-basic"]
 
 !デイリー
 www.daily.co.jp##aside.add
@@ -1351,26 +1531,38 @@ www.nikkansports.com###sideAd1
 www.nikkansports.com###sideAd2
 ||beacon.nikkansports.com^
 www.nikkansports.com##.ad-area
-||www.nikkansports.com/advertising/
+||nikkansports.com/advertising/
 
 !スポーツ報知
 www.hochi.co.jp##.ad_rectangle + script + div
-||www.hochi.co.jp/h_common/img/ad/nsk_banner_2017.gif
+||hochi.co.jp/h_common/img/ad/nsk_banner_2017.gif
+hochi.news##.ad
+hochi.news##amp-ad
 
 !東スポ
 !gif広告がちかちかしてうざい
-||www.tokyo-sports.co.jp/wp-content/themes/tospo/images/common/banner_reqruit_140526.gif
-||www.tokyo-sports.co.jp/wp-content/uploads/2012/02/003.gif
-www.tokyo-sports.co.jp##.adsbygoogle
-||www.tokyo-sports.co.jp/wp-content/themes/tospo/images/common/miyasaka.gif
+!||tokyo-sports.co.jp/wp-content/themes/tospo/images/common/banner_reqruit_140526.gif
+!||tokyo-sports.co.jp/wp-content/uploads/2012/02/003.gif
+!www.tokyo-sports.co.jp##.adsbygoogle
+!||tokyo-sports.co.jp/wp-content/themes/tospo/images/common/miyasaka.gif
+||img.tokyo-sports.co.jp/wp-content/uploads/2019/07/banner.gif|
+||img.tokyo-sports.co.jp/wp-content/uploads/2019/09/t-spo_300-100.gif|
+www.tokyo-sports.co.jp##.side-bnr 
+www.tokyo-sports.co.jp##.recommend-box.post-list-box
 
 !NEWSポストセブン
 !gifアニメがうざい
 www.news-postseven.com##.banner
 www.news-postseven.com##.inner-ad
 !www.news-postseven.com###mailmag2
-||www.news-postseven.com/img3_renew/common/blomaga_20160131.gif
-||www.news-postseven.com/img3_renew/banner/
+||news-postseven.com/img3_renew/banner/
+www.news-postseven.com##a[href$="?_from=sidebanner"]
+
+!dwango
+||adn-d.sp.gmossp-sp.jp^
+||adn-i.sp.gmossp-sp.jp^
+news.dwango.jp##.bnrs
+news.dwango.jp##div[id^="gmossp_ad_"]
 
 !女性自身
 !あなたにオススメ全部広告
@@ -1378,24 +1570,38 @@ jisin.jp##.rmd_reccomend
 
 !J-Cast
 www.j-cast.com##.adunit
+www.j-cast.com##.ad_entry_toptext
 
 !サンスポ
 www.sanspo.com##.adRectangleBanner
+!sanspo.comで検索が機能しない
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/226
+@@||popin.cc^$3p,domain=sanspo.com
+||google.co.jp/afs/ads
+www.sanspo.com###ads_content_top
+
 
 !ロイター
-||www.reuters.com/reuters_ads_framework.js
+||reuters.com/reuters_ads_framework.js
 !トラッキング
 ||qsearch.media.net/log?
+||async01.admantx.com^
+reuters.com###spacerElement
+
+!investing.com
+i-invdn-com.akamaized.net/js/n/promotion-popup-1.06.min.js
+investing.com###PromoteSignUpPopUp
 
 !西日本新聞
 ||luxa.sslcs.cdngc.net/dynimg/
 !www.nishinippon.co.jp##.NP-subContentsSection
 ||s3-ap-northeast-1.amazonaws.com/luxa/banner/nnp_widget.html
-||www.nishinippon.co.jp/bn/images/bn_epaper_billboard.jpg
-||www.nishinippon.co.jp/mobile/common/img/bn_eppaper_header.jpg
+||nishinippon.co.jp/bn/images/bn_epaper_billboard.jpg
+||nishinippon.co.jp/mobile/common/img/bn_eppaper_header.jpg
 
 !神戸新聞
 www.kobe-np.co.jp##.newsfeedList_new > .native
+www.kobe-np.co.jp##.ad
 
 !河北新聞
 www.kahoku.co.jp##ul.bnr
@@ -1404,12 +1610,20 @@ www.kahoku.co.jp##ul.bnr
 taishu.jp###ad01
 taishu.jp##.standard2
 taishu.jp##.toptxt
+taishu.jp##.ad-article-rectangle
 
 !日刊ゲンダイ
 www.nikkan-gendai.com##.ad-box
 www.nikkan-gendai.com###_pr_1st
 www.nikkan-gendai.com##.pr
+||cdnext.stream.ne.jp/img/common/gendai_online.png|
+||cdnext.stream.ne.jp/img/pr/
 
+!現代ビジネス
+gendai.ismedia.jp###GB_pc_under_right_Rectangle:upward(2)
+!#if adguard
+gendai.ismedia.jp#?##GB_pc_under_right_Rectangle:nth-ancestor(2)
+!#endif
 
 !IZA
 www.iza.ne.jp##.ad-rectangle-banner
@@ -1425,23 +1639,36 @@ the-ans.jp##div[class="box box-center side-box side-box-top"]
 
 !Engadget 日本版
 japanese.engadget.com###ldrBoardAd
-||advertising.com^
+!||advertising.com^
 ||s.yimg.com/av/curveball/ads/
 ||ads.yap.yahoo.com^
-||b.aol.com/ping?
-||b.aol.com/vanity/?ts=
+!||b.aol.com/ping?
+!||b.aol.com/vanity/?ts=
 !EasyListから
 @@||aolcdn.com^*/adswrapper.$domain=aol.com|engadget.com|games.com|huffingtonpost.com|mapquest.com|stylelist.ca
+||aka-cdn.adtechus.com^
+||jp.at.atwola.com/adcount/
+||adserver-as.adtech.advertising.com^
+japanese.engadget.com###atwAdFrame0
+@@||guce.advertising.com/collectIdentifiers
+
+!Wired
+wired.jp##.ad-background-holder
+wired.jp##.banner-pc-banner-wsky
+
+!ギズモード
+www.gizmodo.jp##.ad-banner
+www.gizmodo.jp##.s-body-ad
 
 !聯合ニュース
 m.yna.co.kr##.foreign-ad01
 m.yna.co.kr##.foreign-ad02
 
 !京都新聞
-||www.kyoto-np.co.jp/koukoku/adlist_article.js
-||www.kyoto-np.co.jp/koukoku/image/ad_citykyoto0910.gif
-||www.kyoto-np.co.jp/koukoku/banner.php
-||www.kyoto-np.co.jp/koukoku/image/kcg-edu.gif
+||kyoto-np.co.jp/koukoku/adlist_article.js
+||kyoto-np.co.jp/koukoku/image/ad_citykyoto0910.gif
+||kyoto-np.co.jp/koukoku/banner.php
+||kyoto-np.co.jp/koukoku/image/kcg-edu.gif
 www.kyoto-np.co.jp##.headerAdArea
 www.kyoto-np.co.jp##.BnrLnkSbs
 
@@ -1460,57 +1687,34 @@ srad.jp###ads-index-text
 srad.jp###ads-article-left
 srad.jp###tophat
 srad.jp###gpt-sd_index_rec
+||srad.jp/advertising/ad_banner.png
+srad.jp##.srad-contentad-banner
 
-!Slashdot
-!slashdot.org##article[class*='sponsored']
-slashdot.org##.adwrap
-slashdot.org##.ad-blocked-newsletter
-slashdot.org##.advertisement
-slashdot.org###slashdot_deals
-!slashdot.org##article:has(div[class*='sponsored'])
-slashdot.org###firehose iframe
-||m.xp1.ru4.com^
-!||a.fsdn.com^
+!Slashdot 全面見直し2019.10月
+||d3tglifpd8whs6.cloudfront.net^
 ||a.fsdn.com/sd/js/scripts/ad.js?
-||fastlane.rubiconproject.com
-||adserver-us.adtech.advertising.com
-||ap.lijit.com/rtb/bid?
-||as-sec.casalemedia.com/cygnus?
-||tag.contextweb.com/getjs.static.js
-||tag.crsspxl.com/s1.js?
-||d3ezl4ajpp2zy8.cloudfront.net/sourceforgemedia-computing_tag.js
-||widgets.stackcommerce.com/js-deal-feed/0.1/widget.js
 ||cdn-social.janrain.com^
-||a.fsdn.com/sd/js/scripts/min/deals-min.js?
-||analytics.slashdotmedia.com/sd.php?
-||ado.pro-market.net/ads/scripts/
-!下記をブロックするとアカウント設定でパスワード画面に遷移できなくなる
-!||a.fsdn.com/sd/all-minified.js?
 ||ads.pro-market.net/ads/scripts/site-
-||d3tglifpd8whs6.cloudfront.net/pb-data
-!||ml314.com/tag.aspx?
-||consent-st.truste.com/get?
-!||ml314.com/utsync.ashx?
 ||ml314.com^
+||stack-sonar.com/ping.js
+||tag.crsspxl.com/s1.js?
 ||rpxnow.com/js/lib/login.slashdot.org/engage.js
-||a.fsdn.com/sd/font/sdicon.woff?
+||a.fsdn.com/sd/js/scripts/min/deals-min.js?
 ||ssl.google-analytics.com/ga.js
 ||analytics.slashdotmedia.com/sd.js
-||slashdot.org/images/js.gif?
-!下記で動画が見れない
-!https://www.zdnet.com/article/ubuntu-18-04-lts-the-linux-for-ai-clouds-and-containers/
-!||www.googletagservices.com/tag/js/gpt.js
-!注：:has()を使う場合は、ドメインを指定しないと機能しない
-slashdot.org##article:has(div[class="ntv-sponsored-disclaimer"])
-||um2.eqads.com^
-||www.stack-sonar.com/ping.js
-||slashdot.org/adbanner.gif
-||d3tglifpd8whs6.cloudfront.net^
-||slashdot.org/purple.gif
 ||licdn.com/li.lms-analytics/
+||slashdot.org/images/js.gif?
+slashdot.org##.adwrap
+slashdot.org##article:has(div[class="ntv-sponsored-disclaimer"])
+slashdot.org###slashdot_deals
+slashdot.org##.ad-blocked-newsletter
+slashdot.org##.advertisement
+||a.fsdn.com/sd/font/sdicon.woff?
+
+
+
 
 !Naverまとめ
-||api.unthem.com/js/pcad.js?
 ||cdn-matome.line-apps.com/n/matome/js/nj.matome.ad.yahooim.floating_
 matome.naver.jp###yads_pc_overlay
 
@@ -1543,45 +1747,26 @@ www.itmedia.co.jp###ITRR
 www.itmedia.co.jp###ITR
 www.itmedia.co.jp###ITN
 www.itmedia.co.jp###ITT
-||www.itmedia.co.jp/css/news/ad.css
-||www.itmedia.co.jp/js/ad.js
-||www.itmedia.co.jp/js/news/ad.js
+||itmedia.co.jp/css/news/ad.css
+||itmedia.co.jp/js/ad.js
+||itmedia.co.jp/js/news/ad.js
 ||dlv.itmedia.jp/adsv/
 ||adserver.cxad.cxense.com^
-||www.itmedia.co.jp/news/files/20160914/file_bit_article_bottom_ad.html
 www.itmedia.co.jp##.colBox.colBoxArtTopRcm
 ||widgets.outbrain.com/outbrain.js
 !http://www.afpbb.comで、話題の記事が消えてしまう
 !||cdn.cxense.com/cx.js
 ||beacon.watch.impress.co.jp/measure
 !itmedia検索時の広告
-||www.google.com/afs/ads?
+||google.com/afs/ads?
 itmedia.co.jp###ads_content_top
-||www.itmedia.co.jp/js/pcuser/ad.js
-||www.itmedia.co.jp/css/pcuser/ad.css
+||itmedia.co.jp/js/pcuser/ad.js
+||itmedia.co.jp/css/pcuser/ad.css
 ||static.ads-twitter.com/uwt.js
 www.itmedia.co.jp###body_insert_ad
 itmedia.co.jp##iframe[id^="cxWidget_"]
 www.itmedia.co.jp##.colBoxR50:has(> div[id^="div-gpt-ad-"])
 
-!@IT
-!www.atmarkit.co.jp###cxensereRectangle
-!www.atmarkit.co.jp##.dmp-area
-!www.atmarkit.co.jp###rrec
-!www.atmarkit.co.jp###body_insert_ad
-!#body_insert_adでiframeで読み込まれる広告
-!||cdn.cxpublic.com^$domain=www.atmarkit.co.jp
-!||api.popin.cc^$domain=www.atmarkit.co.jp
-!||cse.google.com/adsense/search/async-ads.js
-!||www.atmarkit.co.jp/js/ait/ex_adRequest.js
-!||www.atmarkit.co.jp/js/ad.js
-!||www.atmarkit.co.jp/js/ait/ad.js
-!||comcluster.cxense.com^$domain=www.atmarkit.co.jp
-!www.atmarkit.co.jp###dmp
-!www.atmarkit.co.jp###ISALC
-!www.atmarkit.co.jp###header_ad
-!||cdn.cxense.com/cx.js$domain=www.atmarkit.co.jp
-!@@||dlv.itmedia.jp/adsv/$domain=www.atmarkit.co.jp
 
 !やり直し
 !まず@IT Specialは消す。PRなので
@@ -1592,36 +1777,19 @@ www.atmarkit.co.jp###rrec
 www.atmarkit.co.jp##.dmp-area
 www.atmarkit.co.jp###dmp
 ||cse.google.com/adsense/search/async-ads.js
-||www.atmarkit.co.jp/js/ait/ex_adRequest.js
-||www.atmarkit.co.jp/js/ad.js
-||www.atmarkit.co.jp/js/ait/ad.js
+||atmarkit.co.jp/js/ait/ex_adRequest.js
+||atmarkit.co.jp/js/ad.js
+||atmarkit.co.jp/js/ait/ad.js
 
 
-!wikia
-wikia.com###WikiaArticleBottomAd
-wikia.com###WikiaRailWrapper
-wikia.com###recirculation-footer-index-container
-_analytics_$domain=wikia.com
--beacon.$domain=wikia.com
-||b.scorecardresearch.com/beacon.js
-||quantserve.com^
-||fandommetrics.com^$third-party
-wikia.com###PREFOOTER_LEFT_BOXAD
-wikia.com###PREFOOTER_RIGHT_BOXAD
-wikia.com###TOP_LEADERBOARD
-wikia.com###TOP_RIGHT_BOXAD
-wikia.com###WikiaTopAds
-wikia.com###ad-skin
-wikia.com##.ad
-wikia.com##.home-top-right-ads
-wikia.com##.wikia-ad
-||rpts.org^$third-party
-||amazonaws.com/ki.js/
-wikia.com###LEFT_SKYSCRAPER_2
-!トラッキング
-||petametrics.com^
-!ビデオ
-!wikia.com##div[itemprop="video"]
+! ぐるなび
+||site.gnavi.co.jp/analysis/$script
+
+
+! DMMトラッカー
+||trac.i3.dmm.com/analytics/$xmlhttprequest
+||stat.i3.dmm.com/latest/js/dmm.tracking.min.js|
+/js/common/set_tracking.js|
 
 !fandom
 !Wikiaからfandomへ移行された
@@ -1647,9 +1815,11 @@ wikiwiki.jp###title + br + br
 wikiwiki.jp###title + br + br + div[id^="div-gpt-ad"]
 wikiwiki.jp###title + br + br + div[id^="div-gpt-ad"] + br 
 wikiwiki.jp###title + br + br + div[id^="div-gpt-ad"] + br + br
+wikiwiki.jp###menubar > div[style="width:240px;height:207px;margin: 5px auto;"]:first-child
+wikiwiki.jp###menubar > div[style="width:240px;height:207px;margin: 5px auto;"]:first-child + p
 
 !msn
-||www.msn.com/advertisement.ad.js
+||msn.com/advertisement.ad.js
 ||aolcdn.com/ads/
 ||ads.linkedin.com^
 !誤爆
@@ -1664,6 +1834,12 @@ www.msn.com###eubanner
 !ボックスが詰めてくれないので消さなくても同じ
 !www.msn.com##.rc-item-js.rc-item.show:has( > div[data-provider="taboola"] )
 !www.msn.com##.rc-item-js.rc-item.show:has( > div[data-provider="outbrain"] )
+www.msn.com##div[data-ad]
+www.msn.com##div[adjs]
+msn.com##div.rc-item-js:has( > .nativeadserversidecontentmodule )
+msn.com##.dynamicRRWrapper
+msn.com##.sameoab_ad_container
+msn.com##iframe[id^="_mN_main_"]
 
 !shinobi
 ||shinobi.jp/encount
@@ -1704,7 +1880,7 @@ downdetector.com##.ad
 gigazine.net###EndFooter
 ||i.gzn.jp/images/
 gigazine.net###G_EF2ND
-gigazine.net###G_EF
+!gigazine.net###G_EF
 !gigazine
 !関連コンテンツの広告BOX、下記で消えるが表示がずれてしまう
 !gigazine.net##li.rl-list-item:has(> div[id^="div-gpt-ad-"])
@@ -1718,6 +1894,18 @@ excite.co.jp##div[class^='ad']
 excite.co.jp##.ex-crt-wrapper
 excite.co.jp###pageFeatures
 www.excite.co.jp###gpt_pc_news_banner
+www.excite.co.jp###exad_top_1st_rec
+www.excite.co.jp###exad_top_2nd_rec
+
+!exciteニュース
+www.excite.co.jp###gpt_pc_news_1st_rec
+www.excite.co.jp###gpt_pc_news_2nd_rec
+www.excite.co.jp##div[id^="gpt_pc_news_rightcolumn_ranking_infeed"]:upward(1)
+www.excite.co.jp##div[id^="gpt_pc_news_infeed"]:upward(1)
+!#if adguard
+www.excite.co.jp#?#div[id^="gpt_pc_news_rightcolumn_ranking_infeed"]:nth-ancestor(1)
+www.excite.co.jp#?#div[id^="gpt_pc_news_infeed"]:nth-ancestor(1)
+!#endif
 
 !Asciiデジタル
 ||i.t.webtracker.jp^
@@ -1744,7 +1932,7 @@ ign.com##.preShell
 jp.ign.com###adkit_billboard
 
 !Tumblr
-||www.tumblr.com/assets/src/scripts/tumblr/dashboard/showads.js
+||tumblr.com/assets/src/scripts/tumblr/dashboard/showads.js
 www.tumblr.com##.dfp-ad-container
 www.tumblr.com###sidebar-ad
 
@@ -1755,18 +1943,29 @@ www.tumblr.com###sidebar-ad
 accuweather.com###header-davek
 ||vortex.accuweather.com/adc2010/images/misc/Ad_
 www.accuweather.com##.column-2-world
+www.accuweather.com##.ad
 
 !weathernews
 ||mwsgvs.weathernews.jp/weekend-explorer/banner.jpg
+@@||googletagmanager.com/gtm.js$domain=weathernews.jp
 
 !atwiki
-||img.atwikiimg.com/common/_js/atheadbar.js
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/166
+!||img.atwikiimg.com/common/_js/atheadbar.js
 
 !bing
 bing.com##.b_ad
-
+www.bing.com##li:has( > ul > li > div > h2.b_ads1line )
+bing.com##.b_algo:has( > div.b_caption > p:matches-css-before(content: "Ad"))
+bing.com##.b_algo:has( > div.b_caption > p:matches-css-before(content: "広告"))
+!#if !env_firefox
+bing.com###b_results > .b_ad
+!#endif
+!#if env_firefox
+bing.com##^#b_results > .b_ad
+!#endif
 !ちくわニコ生ランキング
-||www.chikuwachan.com/live/img/ad/
+||chikuwachan.com/live/img/ad/
 !www.chikuwachan.com##.c
 www.chikuwachan.com###live_index > .c
 
@@ -1778,22 +1977,25 @@ xrea.com###vdbanner
 
 !4gamer 右上広告
 www.4gamer.net##.sidetop
+www.4gamer.net##.ad_top
 
 !greasyfork
 greasyfork.org###script-show-info-ad
 greasyfork.org##.ad
 !多分トラッキング
 ||js-agent.newrelic.com/nr-1044.min.js
+greasyfork.org###codefund
 
 !tenki.jp
 tenki.jp##.tenki-ad-pd
 tenki.jp##.tenki-ad-pc-ct
+tenki.jp###tenki-ad-3rd_PD
 
 !navitime
 www.navitime.co.jp###under-advertisement
-||www.navitime.co.jp/static/pc/l/3.2.9/js/lib/jquery.adcount.js
-||www.navitime.co.jp/static/pc/l/3.2.9/js/view/transfer/resultAd.js
-||www.navitime.co.jp/naviad/
+||navitime.co.jp/static/pc/l/3.2.9/js/lib/jquery.adcount.js
+||navitime.co.jp/static/pc/l/3.2.9/js/view/transfer/resultAd.js
+||navitime.co.jp/naviad/
 ||api-pc-img.cld.navitime.jp/images/http://www.navitime.co.jp/advertize_image/
 www.navitime.co.jp##.ad-frame
 
@@ -1804,18 +2006,24 @@ www.pixiv.net##.multi-ads-area
 ||ads.doko.jp^
 ||d.pixiv.org/file?format=default&ad_group_id=
 www.pixiv.net##section.ad
-!http://egg.5ch.net/test/read.cgi/software/1540428057/307-313
+!https://egg.5ch.net/test/read.cgi/software/1540428057/307-313
 !www.pixiv.net##a[target="premium_noads"]:has-text(広告を消す)
 www.pixiv.net##a[href="/premium/lead/lp?g=anchor&i=work_detail_remove_ads"]
 ||pixon.ads-pixiv.net^
-!http://egg.5ch.net/test/read.cgi/software/1540428057/314-315
+!https://egg.5ch.net/test/read.cgi/software/1540428057/314-315
 !www.pixiv.net##section + a[rel="noopener"][class^="sc-"][href^="/member_illust.php?"]
-!http://egg.5ch.net/test/read.cgi/software/1540428057/316-317
+!https://egg.5ch.net/test/read.cgi/software/1540428057/316-317
 !www.pixiv.net###root > div > div > div > div > div[class^="sc-"]:first-child
-
+!右サイドの広告
+www.pixiv.net##iframe[name="300x250"]:upward(1)
+!#if adguard
+www.pixiv.net#?#iframe[name="300x250"]:nth-ancestor(1)
+!#endif
 
 !imgur
 ||s.imgur.com/min/advertising.js
+imgur.com###div-ad-top_banner
+||s.imgur.com/images/house-cta/ad-free/
 
 
 !BIGLOBE
@@ -1825,20 +2033,56 @@ www.biglobe.ne.jp##.bl-top-square
 news.biglobe.ne.jp##.news-ad-square-a
 news.biglobe.ne.jp##.news-ad-square-box
 news.biglobe.ne.jp###SPbanner
+||news.biglobe.ne.jp/img/ad/
+news.biglobe.ne.jp###anchor_ad
+
 
 !gamespark
 ||deliver.ads2.iid.jp^
 !beacon
 ||widget.iid-network.jp^
-||www.gamespark.jp/base/scripts/infinite_scroll_article_cxense_ad_tracking.js
-||www.gamespark.jp/feature/jackAD/
-||www.gamespark.jp/feature/advertising/
+||gamespark.jp/base/scripts/infinite_scroll_article_cxense_ad_tracking.js
+||gamespark.jp/feature/jackAD/
+||gamespark.jp/feature/advertising/
 www.gamespark.jp###danglingList
+www.gamespark.jp##li.item:has(> a > article > img[alt^="【PR】"])
+www.gamespark.jp##section.item:has(> a > img[alt^="【PR】"])
 
 !モデルプレス
 ||g2.gumgum.com^
 mdpr.jp##span[id^="ad_is_"]
 ||moatads.com^
+
+!ナタリー
+natalie.mu###rectanglebanner
+natalie.mu##.NA_ad300x250
+
+!DailyNews
+dailynewsonline.jp###adSideA
+dailynewsonline.jp###adSideB
+dailynewsonline.jp##.adArea
+
+!TVer
+!https://tver.jp/episode/65967672
+!→ima3ありだと広告流れない動画も再生される→OK
+!→ima3なしで広告でる
+!https://tver.jp/corner/f0043665
+!→ima3ありだと広告流れない動画も再生される→OK
+!→ima3なしで広告でる
+!https://tver.jp/corner/f0043541
+!→ima3ありだと広告流れないが動画が再生されない音は聞こえる
+!→ima3なしで広告でない
+!→この現象が起きたときは、@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tver.jpでオフにしてください
+||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tver.jp
+tver.jp###ADoverlay
+
+!tver,fod,fuji,2020.05.16
+!https://tver.jp/episode/72014325
+||ad.sxp.smartclip.net^
+||adform.net^
+||dsp.adfarm1.adition.com^
+||fod.fujitv.co.jp/ad/
+||fod.fujitv.co.jp/mz/AdJson4_ssl.aspx
 
 !TVerでテレ東だけが見れない
 @@||pubads.g.doubleclick.net^$domain=tver.jp
@@ -1857,22 +2101,26 @@ spotify.com##.ads-container__inner
 !||open.spotify.com/log/pageview
 
 !Buzzfeed
-||www.buzzfeed.com/static/js/advertiser/
-||abeagle-public.buzzfeed.com^
+||buzzfeed.com/static/js/advertiser/
+!SNSが点滅する
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/221
+!||abeagle-public.buzzfeed.com^
 
 !Nifty
 !検索結果の広告
 search.nifty.com###lst1
 search.nifty.com###lst2
+news.nifty.com##li:has( > ._popIn_recommend_article_ad )
 
 
 !スクエニのサイトでニュースが表示されない
-!http://egg.5ch.net/test/read.cgi/software/1518498170/338
+!https://egg.5ch.net/test/read.cgi/software/1518498170/338
 @@||www.googleadservices.com/pagead/conversion_async.js$domain=www.jp.square-enix.com
 
 !popinについて
 !おすすめ記事をつけるシステム
 !不愉快ではないのでそのままにする
+!→やっぱり消した。まいじつで。2019.10.25
 !taboolaについて
 !popinと同じ感じ
 !Yahooについては特別に速度を重視するので切った
@@ -1897,7 +2145,7 @@ japan.cnet.com###content-top-block
 
 !食べログ
 !||inrecsys.popin.cc/PopinService/Logs/ad
-||popin.cc^$domain=tabelog.com
+!||popin.cc^$domain=tabelog.com
 
 !exblog.jp
 exblog.jp###yads_pc_overlay
@@ -1906,6 +2154,346 @@ exblog.jp##a[href^="http://www.dmm.co.jp/pr/dc/pcgame/"]
 
 !xdomain
 ||ad.xdomain.ne.jp/js/server-php.js
+
+!wordpress
+!上からぴょこっと出てくる広告
+!https://inouetetsurou.wordpress.com/
+||pubpress.net/houseads/
+||pubmine.com/adjr
+||pubmine.com/adve
+
+!テレビドラマデータベース
+!||tvdrama-db.com/cgi-bin/Amazon/amzCastNameAsin.pl?code=
+!||tvdrama-db.com/cgi-bin/Amazon/js/amz.js
+!||tvdrama-db.com/cgi-bin/Amazon/amzext1.pl?id=
+!||tvdrama-db.com/cgi-bin/Amazon/amzCastName.pl?keyword=
+||tvdrama-db.com/cgi-bin/Amazon/
+
+!朝鮮日報
+www.chosunonline.com##.in_ad
+www.chosunonline.com###sidebar > iframe[src="http://www.chosunonline.com/common/ifr01/google_newsright0.html"]
+www.chosunonline.com###sidebar > iframe[src="http://www.chosunonline.com/common/ifr01/criteo_article_300_250.html"]
+!左上の天気
+www.chosunonline.com##.sec_date_weather
+www.chosunonline.com##ul._popIn_infinite_page > li:has( > a._popIn_recommend_article_ad )
+
+!中央日報
+japanese.joins.com##.sponsor_link
+
+! TripadvisorとExpedia
+||tripadvisor.jp/GARecord|$xmlhttprequest
+||static.tacdn.com/js3crawlable/build/concat/taevents-$script
+||tripadvisor.jp/BALinkImpressionTracking/$xmlhttprequest
+||expedia.co.jp/cl/$xmlhttprequest
+||expedia.co.jp/userHistory/count?$xmlhttprequest
+||b.travel-assets.com/travel-pixel-js/$script
+||expedia.co.jp/api/datacapture/track|$xmlhttprequest
+
+! ぐるなび
+||c-r.gnst.jp/r/campaign/banner_point_outside.png?
+||c-www.gnst.jp/home/img/ftb_
+www.gnavi.co.jp##.ftb
+
+! techmemo.biz
+||image-rentracks.com^
+
+!pastebin
+pastebin.com##.OUTBRAIN
+||aj2073.online^
+pastebin.com##div[class^="banner_"]
+||ledgerwallet.com/images/promo/banners/
+
+
+
+
+
+
+
+
+
+
+
+!---------------------------------------------------------------
+!ビーコン
+!メディア系ビーコン
+!||president.jp/oo/p/m.gif?
+||president.jp/oo/
+
+! エキテン
+||s.ekiten.jp/js/static/VisitorAPI.js?
+
+! Pathee
+||pathee.com/static/assets/js/newrelic.js|
+
+! タワレコ
+||beacon-recommend.tower.jp/beacon.gif?
+||tower.jp/layouts/system/VisitorIdentification.js|
+||tower.jp/rcm/RcmWebSvc.svc/?tracking_id=$xmlhttprequest
+
+! ヨドバシ
+||tagmanager.yodobashi.com/ukan/__ukclr.gif?Log=
+
+! ツタヤ
+||store-tsutaya.tsite.jp/library/media/tsutaya/js/base/ga$script
+
+! DHC,カタログハウス,クラブツーリズム
+/js/baynote.js|
+/baynote-$script
+||dhc.co.jp/script/sitecatalyst/VisitorAPI.js?
+||smetrics.dhc.co.jp/id?$script
+! ファンケル,カタログハウス
+||aucollector.tealeaf.ibmcloud.com/collector/$xmlhttprequest
+
+! Spice
+||spice.eplus.jp/api/*/track.gif|
+
+! PRタイムズ
+||prtimes.jp/common/js/googleana.js|
+!---------------------------------------------------------------
+
+!----------------------------------------------------------------
+!トラッカー
+! ヤフー
+!||ybx.yahoo.co.jp^
+
+! じゃらん
+||jalan.net/hacci_beacon/sp_yad_search_list.min.js?
+
+! 日刊スポーツ
+||cache1.nipc.jp/js/beacon.js|
+
+! LINEブログ
+||parts.lineblog.me/js/lite2/line-click-count.js?
+
+! boxil.jp他
+/ahoy/events|$xmlhttprequest
+
+! Shopserve製サイト
+||a.shopserve.jp/tracking/tracking.php?$image
+
+
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/174-175
+! トラッキングその他。/js/analytics.jsも誤爆あるようなのでまとめてない
+! エアトリ
+||cdn.airtrip.jp/js/frontend/sp/ga_event_tracking.js?
+! 電撃
+||dengeki.com/js/ga.js|
+! Bookwalker
+||eventapi.bookwalker.jp^
+! Sharp
+||jp.sharp/cms/generalBtoC/js/analysis.js|
+! 経営プロ
+||keiei.proweb.jp/js/analytics.js|
+! コナミ
+||konami.net/js/analytics.js?
+! NEC
+||nec-lavie.jp/shop/js/gtm.js|
+! テレ朝
+||news.tv-asahi.co.jp/js/analytics.js|
+! livedoorブログ (Not Found)
+||parts.blog.livedoor.jp/js/analytics.js|
+||parts.blog.livedoor.jp/js/c2.js?
+! Canon
+||rtbcx.canon.jp/bcx/rt_tag.js|
+! RBB Today
+||s.rbbtoday.com/feature/cxense/js/cx-scrolldepth.js|
+! Business Insider
+||businessinsider.jp/asset/common/app/pv_count.js|
+! マカフィー
+||mcafee.com/japan/home/common/js/analytics.js|
+! NHK
+||www3.nhk.or.jp/news/json16/sdc.json?$xmlhttprequest
+||www3.nhk.or.jp/news/parts16/js/chartbeat_config.js|
+!-----------------------------------------------------------------
+
+!----------------------------------------------------
+!2019.7.8
+!ドメインがない時の広告
+
+
+!--------
+! まとめたやつ
+! https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/204
+/^https?:\/\/(apps?|competition|game|mobile|prize|reward|sweeps)[0-9]{4}\.(noname|smmhck|tutonhamon)[-a-z0-9]+\.live/$document,domain=live
+!--------
+
+
+!http://marketcapitalizations.com/historical-data/historical-components-sp-100/
+!||google.com/adsense/domains/caf.js
+!||google.com/adsense/
+
+
+!下記三つはページ内の関連リンクなのであってよい、なくてもよい
+||google.com/adsense/domains/caf.js
+||google.com/dp/ads?
+||gstatic.com/domainads/
+
+
+||parking.parklogic.com/page/enhance.js
+||clk.rtpdn10.com/click?
+||maroola.aditms.me/click?
+
+!http://www.odoroku.tv/idol/tenki2/
+!||i.cdnpark.com/registrar/v3/loader.js
+!||d1lxhc4jvstzrp.cloudfront.net/registrar/v3/content/717207
+!||js.parkingcrew.net/jsparkcaf.php?
+!||js.parkingcrew.net/assets/scripts/jsparkcaf.js
+!||js.parkingcrew.net/track.php?domain=
+!||js.parkingcrew.net/assets/scripts/registrar-caf/717207.js
+
+!http://umaizoo.com/
+||tracking.bodis.com/tlpv?
+||usa.odysseus-nua.com/zcvisitor/
+
+!http://www.kansai-shogi.com/webmagazine/diary.htm
+!ブラウザアンケのやつ
+||get-prize-snow2.life^
+||clk.rtpdn10.com^
+/glp?r=*&rw=*&rh=*&ww=*&wh=$first-party,script
+
+!http://tanabata.org/
+!http://reward6075.bh5645tfggfd25.agency/6034758834/?utm_campaign=bKMuT7EMVXU5Z6UvvSHONGlfu-yV43iC8T8uYixAFxs1&t=main9_c809045a27046e2a3b&f=1
+/^https?\:\/\/reward[0-9]*\.[a-z0-9]*\.agency\//$document,domain=agency
+
+
+!http://shakkin-idol.com/index.html
+^fp=*&prvtof=
+
+
+
+!http://www.janjan.jp/
+!http://epson-supply.jp/
+!http://umaizoo.com/
+
+!http://www.philip-reeve.com/mortal_engines.html
+/media/mainstream/alert.mp3|
+^wap^mobsurvey^$script
+||wurfl.io/wurfl.js
+!/^https?\:\/\/app[0-9]{4}\.tutonhamon[0-9]{2}\.live/
+
+!http://www.senmaike.net/toide/
+||usd.ezekiel-sam.com/zcvisitor/
+||usd.ezekiel-sam.com/zcredirect?visitid=
+/^https:\/\/[0-9]+\.redirect[0-9]+-[0-9]+\.space/$document,domain=space
+/^http:\/\/www\.jps[0-9]+-update\.club/$document,domain=club
+
+!https://topernews.me/?p=he4deyjrmm5gi3bpg4zq
+||topernews.me^
+!apps4651.pingtopingsrv136.life
+/^http:\/\/apps[0-9]+\.pingtopingsrv[0-9]+\.life/$document,domain=life
+
+!業者に買われたドメイン
+!詐欺サイトに誘導される
+!http://www.andrejapejic.com/
+||usa.mohini-ger.com^
+
+!animate.tv
+||restonovius.com^
+||data.ad-score.com^
+||tq.adventurefeeds.com^
+||track.tkbo.com^
+||usa.odysseus-nua.com^
+||thusfun9.live^
+||central-messages.com^
+||clk.rtpdn11.com^
+/search/tsc.php?
+||animate.tv^
+
+!http://www.ldandk.com/gollbetty/gollbetty.html
+!/^http:\/\/mobile[0-9]+\.stydbui[0-9]+\.live/
+
+
+!ict119.com
+!http://prize4904.smmhck69.live/?utm_campaign=bKMuT7EMVXU5Z6UvvSHONGlfu-yV43iC8T8uYixAFxs1&t=main9_8303ff02313139fd&f=1
+!https://fate.5ch.net/test/read.cgi/ios/1524080618/347
+/^http:\/\/prize[0-9]+\.smmhck[0-9]+\.live/
+!https://fate.5ch.net/test/read.cgi/ios/1524080618/349
+||tdsjsext1.com^
+!/^http:\/\/competition[0-9]+\.nonamesrv[0-9]+\.live/
+
+!http://www.ramsar.org/
+!/^http:\/\/mobile[0-9]+\.nonamefbr[0-9]+\.live/
+
+!http://www.kokochiyu.com/
+||sarah.trktnc.com^
+||tel-kod.ru^
+||tudocasamento.com^
+
+!http://shintanya.com
+||rsalchk.com/performance/bdv_rd.dbm?
+||antiviruschimp.blogspot.com^
+
+
+
+!http://www.ffkr.kg/
+!/^http:\/\/prize[0-9]+\.nonamehxr1\.live/
+
+!https://vazzapp.com/gamearticle1/
+||vazzapp.com^
+||xn--581-9la.biz^
+||xn--3389-poa.biz^
+||best2019-games-web4.com^
+
+!http://osharoneiyn.dip.jp/link252.html
+||turbonews.biz^
+
+
+!こういうのはワードプレスがクラッキングされているらしい
+!http://www.dhzqj.co/18/blogram-%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF-adblock-plus-%E6%97%A5%E6%9C%AC%E5%90%91%E3%81%91%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF/
+||jjtiao.xyz^
+||rdzwry.xyz^
+||dmgdelivery20.live^
+
+
+!http://akb48taimuzu.livedoor.biz/archives/24220321.html
+||lowaihoo15.live^
+||wosemdesy.site^
+
+!http://page.freett.com/wagainochi/page1/page.html
+!||mifttreppels14.live^
+/^https:\/\/mifttreppels[0-9]+\.live\//
+||all-best-prize2020.com^
+||fast.superlinks.org^
+||rsalcau.com^
+||usa.khurshid-sus.com^
+||ww1.freett.com^
+
+!http://www.candy-av.com/
+/^https:\/\/ram[0-9]+\.proasdf\.com\//
+||sarah.ttnrd.com^
+||usd.appius-dae.com^
+||thebig-prizebox3.life^
+/^https:\/\/takeyourhere[0-9]+\.live\//
+
+
+!https://egg.5ch.net/test/read.cgi/android/1594882598/170
+!https://kjonesj301.cocolog-nifty.com/blog/2020/07/post-0459b3.html
+||mediamodern.biz^
+!cocolog-nifty.com##+js(window.open-defuser)
+!||cocolog-nifty.com$script
+||cocolog-nifty.com$inline-script
+!||in.treasuredata.com^
+!cocolog-nifty.com##+js(abort-on-property-read.js, CocologFPA)
+!cocolog-nifty.com##+js(abort-on-property-read.js, document)
+!cocolog-nifty.com##+js(abort-on-property-write, document)
+!cocolog-nifty.com##+js(abort-current-inline-script, document)
+!cocolog-nifty.com##+js(abort-current-inline-script, CocologFPA)
+!cocolog-nifty.com##+js(abort-current-inline-script, instance)
+
+
+
+
+
+
+
+
+
+
+
+
+!----------------------------------------------------
+
+
 
 
 !その他
