@@ -795,9 +795,9 @@ twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='
 
 !どうもツイッターでの餅フィルタが誤爆したりブロックしきれていないという状況にあるようです
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/261-262
-twitter.com##div[data-testid="placementTracking"]:has(svg + div[dir="auto"] > span:has-text(/Promoted|プロモーション/))
-twitter.com##div[data-testid="trend"]:has-text(/Promoted|プロモーション/)
-twitter.com##div[data-testid="UserCell"]:has-text(/Promoted|プロモーション/)
+!twitter.com##div[data-testid="placementTracking"]:has(svg + div[dir="auto"] > span:has-text(/Promoted|プロモーション/))
+!twitter.com##div[data-testid="trend"]:has-text(/Promoted|プロモーション/)
+!twitter.com##div[data-testid="UserCell"]:has-text(/Promoted|プロモーション/)
 
 
 
