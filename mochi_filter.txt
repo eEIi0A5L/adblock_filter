@@ -640,6 +640,10 @@ map.yahoo.co.jp###So2
 !アイテム広告
 chiebukuro.yahoo.co.jp##.SSContainer:has( > div > div.listItemSS > cite  )
 
+! https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/258
+! https://github.com/AdguardTeam/AdguardFilters/issues/55823
+@@||s.yimg.jp/images/listing/tool/yads/yads-timeline-ex.$script,domain=chiebukuro.yahoo.co.jp|sports.yahoo.co.jp
+
 !END----------------------------------------------
 
 
