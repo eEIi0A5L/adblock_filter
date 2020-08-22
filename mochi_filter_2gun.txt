@@ -473,7 +473,7 @@ blog.livedoor.jp##.article-body-more > div > blockquote
 !majikichi.com##.main:has( > a[href^="https://www.dlsite.com/"] )
 majikichi.com##a[href^="https://www.dlsite.com/"]:upward(1)
 !#if adguard
-majikichi.com##a[href^="https://www.dlsite.com/"]:nth-ancestor(1)
+majikichi.com#?#a[href^="https://www.dlsite.com/"]:nth-ancestor(1)
 !#endif
 
 !かすてら速報

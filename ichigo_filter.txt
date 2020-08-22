@@ -1313,7 +1313,7 @@ wav.tv##.adframe
 ||jable.tv/assets/images/252/lg-728-90.gif
 jable.tv##img[src="https://assets.jable.tv/assets/images/252/427-240-3.gif"]:upward(4)
 !#if adguard
-jable.tv##img[src="https://assets.jable.tv/assets/images/252/427-240-3.gif"]:nth-ancestor(4)
+jable.tv#?#img[src="https://assets.jable.tv/assets/images/252/427-240-3.gif"]:nth-ancestor(4)
 !#endif
 
 !javhihi

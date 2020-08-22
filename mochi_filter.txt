@@ -982,7 +982,7 @@ jbbs.shitaraba.net##.jbbsCustomHeader > table + br + table
 rentalbbs.shitaraba.com##.banner-300_250
 jbbs.shitaraba.net##div[id$="_INSERT_SLOT_ID_HERE"]:upward(1)
 !#if adguard
-jbbs.shitaraba.net##div[id$="_INSERT_SLOT_ID_HERE"]:nth-ancestor(1)
+jbbs.shitaraba.net#?#div[id$="_INSERT_SLOT_ID_HERE"]:nth-ancestor(1)
 !#endif
 !https://egg.5ch.net/test/read.cgi/software/1562160518/627
 jbbs.shitaraba.net###recommend_ad
@@ -1459,7 +1459,7 @@ www.tbs.co.jp##.over:has( > .wrap > .recta_bg )
 !フジテレビ
 www.fujitv.co.jp###cx_gbheader_sb:upward(1)
 !#if adguard
-www.fujitv.co.jp###cx_gbheader_sb:nth-ancestor(1)
+www.fujitv.co.jp#?##cx_gbheader_sb:nth-ancestor(1)
 !#endif
 
 !テレ東
@@ -1622,7 +1622,7 @@ www.nikkan-gendai.com##.pr
 !現代ビジネス
 gendai.ismedia.jp###GB_pc_under_right_Rectangle:upward(2)
 !#if adguard
-gendai.ismedia.jp###GB_pc_under_right_Rectangle:nth-ancestor(2)
+gendai.ismedia.jp#?##GB_pc_under_right_Rectangle:nth-ancestor(2)
 !#endif
 
 !IZA
@@ -1903,8 +1903,8 @@ www.excite.co.jp###gpt_pc_news_2nd_rec
 www.excite.co.jp##div[id^="gpt_pc_news_rightcolumn_ranking_infeed"]:upward(1)
 www.excite.co.jp##div[id^="gpt_pc_news_infeed"]:upward(1)
 !#if adguard
-www.excite.co.jp##div[id^="gpt_pc_news_rightcolumn_ranking_infeed"]:nth-ancestor(1)
-www.excite.co.jp##div[id^="gpt_pc_news_infeed"]:nth-ancestor(1)
+www.excite.co.jp#?#div[id^="gpt_pc_news_rightcolumn_ranking_infeed"]:nth-ancestor(1)
+www.excite.co.jp#?#div[id^="gpt_pc_news_infeed"]:nth-ancestor(1)
 !#endif
 
 !Asciiデジタル
@@ -2017,7 +2017,7 @@ www.pixiv.net##a[href="/premium/lead/lp?g=anchor&i=work_detail_remove_ads"]
 !右サイドの広告
 www.pixiv.net##iframe[name="300x250"]:upward(1)
 !#if adguard
-www.pixiv.net##iframe[name="300x250"]:nth-ancestor(1)
+www.pixiv.net#?#iframe[name="300x250"]:nth-ancestor(1)
 !#endif
 
 !imgur
