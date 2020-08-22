@@ -769,35 +769,25 @@ gyao.yahoo.co.jp##.ad
 ||pvtag.yahoo.co.jp^
 
 !Twitter
-||twitter.com/1.1/promoted_content/log.json
-
-
-
-!なんか広告が出るようになった。2020.8.4
-!→言語を英語にすると出る、日本語にすると出ない
-!→ツイッターオープン時初回のみ広告がでる人は、uBO上級者詳細設定でsuspendTabsUntilReady yesにしてみてください
-
-
-
-
 ||app.link^$3p
 ||twitter.com/i/csp_report?
-
 ||ads-api.twitter.com^
 ||twitter.com/1.1/promoted_content/log.json
 !||google-analytics.com^$domain=twitter.com
 
+!タイムラインの広告
 twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐' or contains(text(), 'プロモーション'))]/../../../../..)
 
+!右欄いまどうしてるの広告
 twitter.com##[data-testid="trend"]:has-text(/推荐|Promoted|Gesponsert|Реклама|Promocionado|Sponsorisé|Uitgelicht|プロモーション/):upward(1)
-
-
-
-
-
 
 !https://twitter.com/okkinapanda
 twitter.com##div:has( > div > div > div > h2 > div > span:has-text(/Promoted Tweet|プロモツイート/) )
+
+
+
+
+
 
 ! Twitterトラッカー
 !ブロック数が延々と増えるのでやめた。2019.10.23
