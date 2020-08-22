@@ -1,0 +1,9 @@
+! beta.txt
+
+
+twitter.com##div[data-testid="placementTracking"]:has(svg + div[dir="auto"] > span:has-text(/Promoted|プロモーション/))
+twitter.com##div[data-testid="trend"]:has-text(/Promoted|プロモーション/)
+twitter.com##div[data-testid="UserCell"]:has-text(/Promoted|プロモーション/)
+
+
+!END
