@@ -114,6 +114,8 @@ www.google.co.jp,www.google.com###bottomads
 !google.co.jp##div[class="mod"][data-md="40"][data-ved]:has( > div > div > span:has-text(Ads))
 !右上の広告
 google.co.jp,google.com##.cu-container:has( > div > span > div > div > div > span:has-text(/^(Sponsored|スポンサー)/) )
+!右上の広告
+google.co.jp,google.com##.commercial-unit-desktop-rhs
 
 !gmail
 mail.google.com##.aKB
