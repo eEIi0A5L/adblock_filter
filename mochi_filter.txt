@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 22 Aug 2020 00:00 JST
+! Last modified: 26 Aug 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -807,6 +807,8 @@ facebook.com###stream_pagelet > #pagelet_megaphone
 !facebook.com##.AdBox
 !facebook.com##.post-ads
 facebook.com##body > .AdBox.Ad.advert:style(display:block!important;)
+facebook.com##a[aria-label="Advertiser link"]
+facebook.com##div[id^="mount_"] div[data-pagelet="RightRail"] > div:not([data-vc-ignore-dynamic]) > div:not([class])
 
 
 !ニコ動＋ニコ生（く）2018.6.28
