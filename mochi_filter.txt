@@ -790,6 +790,10 @@ twitter.com##[data-testid="trend"]:has-text(/推荐|Promoted|Gesponsert|Рекл
 !https://twitter.com/okkinapanda
 twitter.com##div:has( > div > div > div > h2 > div > span:has-text(/Promoted Tweet|プロモツイート/) )
 
+!話題を検索上部の広告
+twitter.com##a[href*="src=promoted_trend_click"]
+twitter.com##a[href*="src=promoted_trend_click"] + div
+
 
 
 
