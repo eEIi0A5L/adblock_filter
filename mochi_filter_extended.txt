@@ -19,7 +19,9 @@ ustream.tv##.banner-wrapper
 ustream.tv##.adHolder
 
 !cnn.co.jp
-||treasuredata.com^
+!三井住友銀行のアプリでログインする時と残高表示する時に異常に時間がかかるようになってる
+!https://fate.5ch.net/test/read.cgi/ios/1597539325/216
+||treasuredata.com^$domain=cnn.co.jp
 ||widgets.outbrain.com^
 www.cnn.co.jp###ad-large-header
 www.cnn.co.jp###ad-rect
@@ -35,7 +37,9 @@ www.cnn.co.jp###ad-text-bottom
 
 !cnn.com
 ||widgets.outbrain.com^
-||treasuredata.com^
+!三井住友銀行のアプリでログインする時と残高表示する時に異常に時間がかかるようになってる
+!https://fate.5ch.net/test/read.cgi/ios/1597539325/216
+||treasuredata.com^$domain=cnn.com
 ||click.speee-ad.jp^
 cnn.com###ad-large-header
 cnn.com###ad-rect

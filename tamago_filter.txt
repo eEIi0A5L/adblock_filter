@@ -204,7 +204,9 @@ news.dwango.jp##.overlay-footer_ad
 !impress.co.jp##^#sp-floating-layer
 !impress.co.jp###floating-social-buttons
 !impress.co.jp##^#floating-social-buttons
-||in.treasuredata.com^
+!三井住友銀行のアプリでログインする時と残高表示する時に異常に時間がかかるようになってる
+!https://fate.5ch.net/test/read.cgi/ios/1597539325/216
+||in.treasuredata.com^$domain=impress.co.jp
 !||microad.jp^
 watch.impress.co.jp##.ad
 ||cdn.cxense.com/cx.js
