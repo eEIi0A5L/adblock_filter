@@ -2,3 +2,6 @@
 /prebid*.js
 ||ad.ettoday.net
 ||ettoday.net/ad/
+||criteo.net^$script
+||trvdp.com^$script
+@@||s.yimg.com^$script,domain=tw.mobi.yahoo.com
