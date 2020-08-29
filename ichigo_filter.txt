@@ -295,6 +295,7 @@ tube8.com##.footerBanner
 ||dbbp1.net^$popup
 ||etahub.com^
 ||smpop.icfcdn.com/smpop-stable.js$script
+www.tube8.com##.cat-fish-banner-wrapper
 
 !babycondom.com
 babycondom.com###overlay-advertising
