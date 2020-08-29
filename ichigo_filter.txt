@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 22 Aug 2020 00:00 JST
+! Last modified: 29 Aug 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
 ! 
@@ -915,6 +915,10 @@ japanhub.net###wrapper > .container > .row > .col-12
 japanhub.net##.row.banner-a
 ||wpush.org^$3p
 ||defutohy.pro^
+||addthis.com^
+||asgclickkl.com^$3p
+||adxadserv.com^
+
 
 
 !redtube
