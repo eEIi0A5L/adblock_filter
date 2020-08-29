@@ -1336,6 +1336,12 @@ jable.tv#?#img[src="https://assets.jable.tv/assets/images/252/427-240-3.gif"]:nt
 ||tracker.520call.me^
 520call.me###inplayer
 
+!jav.direct
+||pc-adroute.focas.jp^
+||static.pc-adroute.focas.jp^
+||js.boost-next.co.jp^
+jav.direct##.__isboostOverContent
+
 
 
 
