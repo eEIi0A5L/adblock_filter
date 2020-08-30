@@ -1342,6 +1342,16 @@ jable.tv#?#img[src="https://assets.jable.tv/assets/images/252/427-240-3.gif"]:nt
 ||js.boost-next.co.jp^
 jav.direct##.__isboostOverContent
 
+!yavtube
+yavtube.com##+js(no-setTimeout-if, _0x)
+yavtube.com##+js(abort-on-property-read, open)
+
+!javhdporn
+javmvp.com##+js(addEventListener-defuser, , _blank)
+javmvp.com##+js(abort-on-property-read, pop)
+
+
+
 
 
 
