@@ -1061,6 +1061,10 @@ thatav.net##.col-12 > div > iframe
 ||trackingpro.pro^
 thatav.net##.ad-body
 ||b3z29k1uxb.com^$third-party
+digjav.com##+js(addEventListener-defuser, , Pop)
+digjav.com##+js(window.open-defuser)
+thatav.net##+js(abort-on-property-read, decodeURI)
+thatav.net##+js(abort-current-inline-script, document.querySelectorAll, popMagic)
 
 
 
