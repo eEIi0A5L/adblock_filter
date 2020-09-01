@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 26 Aug 2020 00:00 JST
+! Last modified: 01 Sep 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -778,11 +778,20 @@ gyao.yahoo.co.jp##.ad
 ||ads-api.twitter.com^
 ||twitter.com/1.1/promoted_content/log.json
 !||google-analytics.com^$domain=twitter.com
+||api.twitter.com/1.1/videoads/v2/prerolls.json
+
 
 !タイムラインの広告
+!「Promoted」とだけでるやつ
 !twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐' or contains(text(), 'プロモーション'))]/../../../../..)
 !上記だとhttps://twitter.com/ogurayuka_0905でプロフィールが消える
 twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐' or text()='プロモーション')]/../../../../..)
+
+!タイムラインの広告２
+!「Promoted by 〇〇」とでるやつ
+twitter.com##div[data-testid="placementTracking"]:has(svg + div[dir="auto"] > span:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Mainostettu|推廣|推广|推薦|推荐|プロモーション/))
+
+
 
 !右欄いまどうしてるの広告
 twitter.com##[data-testid="trend"]:has-text(/推荐|Promoted|Gesponsert|Реклама|Promocionado|Sponsorisé|Uitgelicht|プロモーション/):upward(1)
