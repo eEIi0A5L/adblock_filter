@@ -1355,8 +1355,30 @@ yavtube.com##+js(abort-on-property-read, open)
 javmvp.com##+js(addEventListener-defuser, , _blank)
 javmvp.com##+js(abort-on-property-read, pop)
 
-
-
+!javfull
+javfull.net##+js(abort-on-property-read, Z4EE)
+||d2klx87bgzngce.cloudfront.net^$script,redirect=noopjs
+feurl.com##+js(window.open-defuser)
+feurl.com##+js(abort-on-property-read, jwplayer.utils.Timer)
+feurl.com##+js(abort-on-property-read, __Y)
+feurl.com##+js(abort-on-property-write, adcashMacros)
+feurl.com##+js(abort-on-property-read, AaDetector)
+feurl.com##+js(abort-on-property-read, glxopen)
+feurl.com##+js(set-constant, globalThis, null)
+feurl.com##+js(abort-on-property-read, popjs)
+feurl.com##+js(addEventListener-defuser, click, window.open)
+*$script,3p,domain=feurl.com
+||mrddz.xyz^
+@@||feurl.com^$generichide
+||ahqpqpdjpj.com^
+||olkrzytv.com^
+||intelligenceadx.com^
+||ad.doubleclick.net^
+fembed.com##+js(abort-on-property-read, __Y)
+fembed.com##+js(abort-on-property-write, adcashMacros)
+fembed.com##+js(abort-on-property-read, glxopen)
+fembed.com##+js(set-constant, globalThis, null)
+fembed.com##+js(window.open-defuser)
 
 
 
