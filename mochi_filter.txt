@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 03 Sep 2020 00:00 JST
+! Last modified: 10 Sep 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -338,6 +338,11 @@ www.yahoo.co.jp##dl.item:has( > dd > p:has-text(PR) )
 www.yahoo.co.jp##dl.item:has( > dd > cite:has-text(Yahoo!ズバトク＜PR＞) )
 
 www.yahoo.co.jp###GoToBanner
+
+
+!あなたへのおすすめ記事でPR
+www.yahoo.co.jp###qurireco > article:has( > a > div > div > p > span )
+
 
 
 !その他ネットワーク通信ログからad関連の通信をブロック
