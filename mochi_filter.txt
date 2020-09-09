@@ -2021,6 +2021,7 @@ news.biglobe.ne.jp##.news-ad-square-box
 news.biglobe.ne.jp###SPbanner
 ||news.biglobe.ne.jp/img/ad/
 news.biglobe.ne.jp###anchor_ad
+news.biglobe.ne.jp###gadsOverlayUnit
 
 
 !gamespark
