@@ -923,6 +923,7 @@ japanhub.net##.row.banner-a
 ||addthis.com^
 ||asgclickkl.com^$3p
 ||adxadserv.com^
+||jutyledu.pro^
 
 
 
