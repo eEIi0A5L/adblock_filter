@@ -694,6 +694,9 @@ asianclub.tv##+js(window.open-defuser)
 ||e2wysbacctt1.com^
 ||y2020ad.xyz^
 ||theniceads.com^
+vidoza.net##+js(abort-current-inline-script, Math, zfgloaded)
+||vd.7vid.net/*.js$domain=vidoza.net|vidoza.org
+||o333o.com^
 
 !javmost
 ||pussl48.com^
