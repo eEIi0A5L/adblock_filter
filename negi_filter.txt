@@ -562,6 +562,7 @@ www.windy.com###articles
 
 !imgur
 imgur.com##.EmeraldButton
+imgur.com##.emerald-button
 
 
 
