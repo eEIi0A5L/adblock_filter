@@ -752,6 +752,14 @@ cookpad.com##.pro_recipes_wrapper
 !広告
 cookpad.com##.tieup_links
 
+!気象庁
+jma.go.jp##.jma_ad_space
+jma.go.jp##div[id^="jma_ad"]
+!||www.jma.go.jp/jma/com/ad_js/production/gptslots3.js
+!||www.jma.go.jp/jma/com/ad_js/production/jma-ga.js
+||www.jma.go.jp/jma/com/ad_js/
+jma.go.jp###jma_ad_config_button
+
 
 !huffpost
 !||a.teads.tv^

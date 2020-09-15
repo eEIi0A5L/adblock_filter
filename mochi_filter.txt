@@ -1287,6 +1287,14 @@ myjitsu.jp##article[id^="related-post-ad"]
 !ビーコン
 ||b.ranking.apis.sankei-digital.co.jp/zak/ranking/img/beacon.gif
 
+!気象庁
+jma.go.jp##.jma_ad_space
+jma.go.jp##div[id^="jma_ad"]
+!||www.jma.go.jp/jma/com/ad_js/production/gptslots3.js
+!||www.jma.go.jp/jma/com/ad_js/production/jma-ga.js
+||www.jma.go.jp/jma/com/ad_js/
+jma.go.jp###jma_ad_config_button
+
 
 !日経新聞
 ||nikkei.com/fh/showad_
@@ -1642,6 +1650,7 @@ japanese.engadget.com###ldrBoardAd
 ||adserver-as.adtech.advertising.com^
 japanese.engadget.com###atwAdFrame0
 @@||guce.advertising.com/collectIdentifiers
+
 
 !Wired
 wired.jp##.ad-background-holder
