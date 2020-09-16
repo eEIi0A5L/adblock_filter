@@ -184,7 +184,7 @@ yahoo.co.jp###yjSearchPop
 !www.yahoo.co.jp###Covid19Banner
 !スポナビのページ右上方にあるピックアップ動画を消すことできないでしょうか
 !https://egg.5ch.net/test/read.cgi/software/1584753386/246
-sports.yahoo.co.jp##.yvpub-player.yjads_priority_3
+!sports.yahoo.co.jp##.yvpub-player.yjads_priority_3
 
 
 !Yahooショッピング
