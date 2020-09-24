@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 29 Aug 2020 00:00 JST
+! Last modified: 24 Sep 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
 ! 
@@ -190,6 +190,7 @@ pornhub.com##.adWrapper
 pornhub.com##.premiumPromoBannerWrapper
 pornhub.com##.sniperModeEngaged.alpha
 pornhub.com##iframe[width="300px"][height="250px"]
+pornhub.com##.underplayerAd
 !モバイル用
 pornhub.com##.adContainer
 ||pornhub.com/_xa/ads?zone_id=
@@ -1224,6 +1225,16 @@ fbjav.net##.glyphicon-arrow-up
 ||86a6b542l7.com^
 ||www.svpri.xyz/asset/default/player/plugins/vast-8.4.13.js
 www.svpri.xyz##.afs_ads
+||paishuno.net^$3p
+streamtape.*##+js(abort-current-inline-script, document.createElement, 'script')
+streamtape.*##+js(abort-current-inline-script, Math, XMLHttpRequest)
+streamtape.*##+js(addEventListener-defuser, contextmenu)
+streamtape.com##+js(window.open-defuser)
+streamtape.com##+js(abort-on-property-write, _pop)
+streamtape.com##+js(set-constant, googleAd, true)
+||vipicmou.net^
+||fhgh9sd.com^
+||honeycshfferufrew.com^
 
 !85videos
 ||www.av-yoyo.com/images/top700_
