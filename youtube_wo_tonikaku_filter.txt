@@ -27,3 +27,4 @@ youtube.com###video-masthead
 ||2mdn.net^$domain=youtube.com
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com##ytd-rich-item-renderer:has( > div > ytd-display-ad-renderer )

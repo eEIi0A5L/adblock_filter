@@ -119,6 +119,7 @@ youtube.com##ytd-promoted-sparkles-web-renderer
 !検索結果上部の広告
 youtube.com##ytd-carousel-ad-renderer
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com##ytd-rich-item-renderer:has( > div > ytd-display-ad-renderer )
 
 
 !google検索結果の広告
