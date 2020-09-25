@@ -66,6 +66,7 @@ www.youtube.com##ytd-promoted-sparkles-web-renderer
 www.youtube.com##ytd-carousel-ad-renderer
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##ytd-rich-item-renderer:has( > div > ytd-display-ad-renderer )
+youtube.com##ytd-display-ad-renderer
 
 !Youtubeで広告がでる 2020.6.10
 !https://egg.5ch.net/test/read.cgi/software/1556480002/206

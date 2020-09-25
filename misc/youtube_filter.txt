@@ -33,3 +33,5 @@ youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAd
 youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 ||adservice.google.*^
 ||googletagmanager.com^
+youtube.com##ytd-rich-item-renderer:has( > div > ytd-display-ad-renderer )
+youtube.com##ytd-display-ad-renderer
