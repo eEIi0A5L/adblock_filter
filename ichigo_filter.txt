@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 24 Sep 2020 00:00 JST
+! Last modified: 03 Oct 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
 ! 
@@ -1369,6 +1369,13 @@ yavtube.com##+js(abort-on-property-read, open)
 !javhdporn
 javmvp.com##+js(addEventListener-defuser, , _blank)
 javmvp.com##+js(abort-on-property-read, pop)
+javhdporn.net##+js(set-constant, clientSide.adbDetect, null)
+javmvp.com##+js(addEventListener-defuser, click, window.open)
+javhdporn.net##+js(set-constant, clientSide.adbDetect, null)
+||urtirepor.com^
+||javmvp.com/asset/default/player/plugins/vast-8.4.13.js
+||ddmax20.xyz^
+javhdporn.net##.header-ad-desktop
 
 !javfull
 javfull.net##+js(abort-on-property-read, Z4EE)
@@ -1395,9 +1402,12 @@ fembed.com##+js(abort-on-property-read, glxopen)
 fembed.com##+js(set-constant, globalThis, null)
 fembed.com##+js(window.open-defuser)
 
+!freejavporn
+||bngpt.com/*.php
+||yadro.ru^
 
-
-
+!javtheater
+javtheater.com##.__isboostOverContent:has( > .__isboostOverContentCloseBtn ) 
 
 
 
