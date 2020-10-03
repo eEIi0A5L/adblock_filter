@@ -68,6 +68,11 @@ youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAd
 youtube.com##ytd-rich-item-renderer:has( > div > ytd-display-ad-renderer )
 youtube.com##ytd-display-ad-renderer
 
+
+!youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+!youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
+!youtube.com##+js(json-prune, adPlacements playerAds)
+
 !Youtubeで広告がでる 2020.6.10
 !https://egg.5ch.net/test/read.cgi/software/1556480002/206
 !https://egg.5ch.net/test/read.cgi/software/1556480002/210
