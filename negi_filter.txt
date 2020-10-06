@@ -185,6 +185,9 @@ yahoo.co.jp###yjSearchPop
 !スポナビのページ右上方にあるピックアップ動画を消すことできないでしょうか
 !https://egg.5ch.net/test/read.cgi/software/1584753386/246
 !sports.yahoo.co.jp##.yvpub-player.yjads_priority_3
+!今日からヤフートップのヘッドラインにコメント数が表示されるようになったんだが
+!https://egg.5ch.net/test/read.cgi/software/1562160518/940
+!www.yahoo.co.jp##a[href^="https://news.yahoo.co.jp/pickup/"]> div > div > span:has(span[style*="10px;"])
 
 
 !Yahooショッピング
@@ -305,7 +308,9 @@ twitter.com##.LiveVideoHomePageModuleContainer
 !https://egg.5ch.net/test/read.cgi/software/1562160518/366-372
 !twitter.com##article:has( > div > div > div > div > div > div > div > div:has-text(Pinned Tweet) ):upward(1)
 !twitter.com##article:has( > div > div > div > div > div > div > div > div:has-text(固定されたツイート) ):upward(1)
-
+!ツイッターの「固定されたツイート」を非表示にするフィルタを教えてもらいたいです
+!https://egg.5ch.net/test/read.cgi/software/1562160518/945
+!twitter.com##div[data-testid=socialContext]:has-text(固定されたツイート):upward(article)
 
 !固定されたツイート, リツイート
 !https://egg.5ch.net/test/read.cgi/software/1562160518/729
