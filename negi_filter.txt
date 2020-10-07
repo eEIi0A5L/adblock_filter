@@ -245,6 +245,11 @@ videotopics.yahoo.co.jp##^#nvideo
 
 !ヤフオクでページを開くたびに全面表示される毎日くじ
 page.auctions.yahoo.co.jp###js-prMdl
+!ヤフオクを開いた時に定期的にお知らせが表示されるので
+!https://egg.5ch.net/test/read.cgi/software/1562160518/923
+!auctions.yahoo.co.jp###topPageArea > section[class^=Component-sc-]:has(> a[data-ylk^="rsec:prmdl"])
+
+
 !weather
 weather.yahoo.co.jp###appbnr
 weather.yahoo.co.jp###ydn-bot
