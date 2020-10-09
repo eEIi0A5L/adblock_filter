@@ -2331,7 +2331,8 @@ www.crank-in.net###bannerin
 !--------
 ! まとめたやつ
 ! https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/204
-/^https?:\/\/(apps?|competition|game|mobile|prize|reward|sweeps)[0-9]{4}\.(noname|smmhck|tutonhamon)[-a-z0-9]+\.live/$document,domain=live
+!/^https?:\/\/(apps?|competition|game|mobile|prize|reward|sweeps)[0-9]{4}\.(noname|smmhck|tutonhamon)[-a-z0-9]+\.live/$document,domain=live
+/^https:\/\/[a-z]{6,}[0-9]{1,2}\.live\/[0-9]{10}\/$document,domain=live
 !--------
 
 
@@ -2423,7 +2424,7 @@ www.crank-in.net###bannerin
 !ict119.com
 !http://prize4904.smmhck69.live/?utm_campaign=bKMuT7EMVXU5Z6UvvSHONGlfu-yV43iC8T8uYixAFxs1&t=main9_8303ff02313139fd&f=1
 !https://fate.5ch.net/test/read.cgi/ios/1524080618/347
-/^http:\/\/prize[0-9]+\.smmhck[0-9]+\.live/
+!/^http:\/\/prize[0-9]+\.smmhck[0-9]+\.live/
 !https://fate.5ch.net/test/read.cgi/ios/1524080618/349
 ||tdsjsext1.com^
 !/^http:\/\/competition[0-9]+\.nonamesrv[0-9]+\.live/
@@ -2459,16 +2460,16 @@ www.crank-in.net###bannerin
 !http://www.dhzqj.co/18/blogram-%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF-adblock-plus-%E6%97%A5%E6%9C%AC%E5%90%91%E3%81%91%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF/
 ||jjtiao.xyz^
 ||rdzwry.xyz^
-||dmgdelivery20.live^
+!||dmgdelivery20.live^
 
 
 !http://akb48taimuzu.livedoor.biz/archives/24220321.html
-||lowaihoo15.live^
+!||lowaihoo15.live^
 ||wosemdesy.site^
 
 !http://page.freett.com/wagainochi/page1/page.html
 !||mifttreppels14.live^
-/^https:\/\/mifttreppels[0-9]+\.live\//
+!/^https:\/\/mifttreppels[0-9]+\.live\//
 ||all-best-prize2020.com^
 ||fast.superlinks.org^
 ||rsalcau.com^
@@ -2480,7 +2481,7 @@ www.crank-in.net###bannerin
 ||sarah.ttnrd.com^
 ||usd.appius-dae.com^
 ||thebig-prizebox3.life^
-/^https:\/\/takeyourhere[0-9]+\.live\//
+!/^https:\/\/takeyourhere[0-9]+\.live\//
 
 
 !https://egg.5ch.net/test/read.cgi/android/1594882598/170
