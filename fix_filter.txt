@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: FIXフィルタ（各種フィルタの対策）
-! Last modified: Nov 20, 2019 00:00 JST
+! Last modified: Oct 09, 2020 21:45 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/fix.html
 ! 
@@ -61,18 +61,6 @@
 @@||gyao.yahooapis.jp/rio/checkVisible?appid=$third-party,domain=gyao.yahoo.co.jp
 
 
-
-
-
-
-
-
-
-!http://www.ntv.co.jp/fcwc/index.htmlが見れない
-@@||www.ntv.co.jp/ad-navi/$domain=ntv.co.jp
-
-
-
 !http://iroyaku.livedoor.biz/archives/73473612.html#commentsでコメントが見れない
 livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 
@@ -92,10 +80,6 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 @@||edge.api.brightcove.com/playback/v1/accounts/$xmlhttprequest
 @@||secure.brightcove.com/services/mobile/streaming/index/$xmlhttprequest
 !@@||imasdk.googleapis.com/js/sdkloader/ima3.js
-
-!TVerでテレ東が見れない
-!https://egg.5ch.net/test/read.cgi/software/1515404854/569,570,571
-@@||pubads.g.doubleclick.net/gampad/ads$xmlhttprequest,domain=tver.jp
 
 !スクエニのサイトでニュースが表示されない
 !https://egg.5ch.net/test/read.cgi/software/1518498170/338
@@ -134,17 +118,6 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 !W杯の動画が見れない
 !@@||imasdk.googleapis.com/js/sdkloader/ima3.js
 
-!Radikoが聞けない
-!→もういらないかも。2019.2.18
-!https://egg.5ch.net/test/read.cgi/software/1529720783/723
-!https://egg.5ch.net/test/read.cgi/software/1524667609/438
-@@||adobedtm.com^*/satelliteLib-$script,domain=radiko.jp
-@@||adobedtm.com^*/s-code-$script,domain=radiko.jp
-
-!radikoが聞けない
-!→もういらないかも。2019.2.18
-@@||assets.adobedtm.com^$domain=radiko.jp
-
 !楽天にログインできない
 !https://egg.5ch.net/test/read.cgi/software/1524667609/978
 !https://forums.lanik.us/viewtopic.php?f=64&t=42018
@@ -170,27 +143,15 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 @@||doubleclick.net^$domain=doubleclick.net
 @@_campaign=$document,first-party
 
-!JRAでレース結果の動画が見れない
-!https://egg.5ch.net/test/read.cgi/software/1549557317/152
-@@||jra.webcdn.stream.ne.jp/web/jra/onetag_design2018/referrer.js
-
 !Twitterの日刊スポーツ公式アカの記事を開こうとするとブロックされる
 !https://egg.5ch.net/test/read.cgi/software/1540428057/626
 @@_campaign=$document,domain=nikkansports.com
-
-!EasyPrivacy入れてたらアットウィキの添付画像消えるンゴねぇ・・・
-@@img.atwikiimg.com/common/_img/spacer.gif?$domain=atwiki.jp
 
 !uBlock Originで、4sharedに入ることすらできないんだけど何か問題でもある？
 !https://egg.5ch.net/test/read.cgi/software/1556498678/590
 !参考までに、MVPS hostsに該当ルールあり。uBOデフォでは未チェックのはず
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/178
 @@||www.4shared.com^
-
-!EasyPrivacyの||analytics.edgekey.net^が原因でNHKニュースの動画が再生されなくなった
-!https://egg.5ch.net/test/read.cgi/software/1562160518/136
-@@||analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js$script,domain=nhk.or.jp
-
 
 !https://egg.5ch.net/test/read.cgi/software/1556498678/665
 !NHKで、
@@ -202,8 +163,6 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 ! 豆腐、EasyList: 3Dセキュア対応サイトとクレジットの組合せで決済エラー
 @@||pay.veritrans.co.jp/pop/v1/javascripts/pop.js$script
 
-! uBlock Unbreak: 神戸新聞の動画が再生されない
-@@||aka-secure-img.uliza.jp/Player/js/ulizahtml5-google-analytics.min.$script,domain=www.kobe-np.co.jp
 
 ! Easylist スマホ版5chで検索ができない
 @@||itest.5ch.net/rect/special_ads.json|$xhr
