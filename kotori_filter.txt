@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ことりフィルタ（SNSボタンブロック）
-! Last modified: Aug 16, 2020 00:00 JST
+! Last modified: Oct 09, 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/kotori.html
 ! 
@@ -55,7 +55,9 @@
 
 !Twitter
 ||syndication.twitter.com/i/jot
-||syndication.twitter.com/settings
+!記事に関連していると思われるtwitterの投稿が見られない
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/275
+!||syndication.twitter.com/settings
 !Redditのツイッター埋め込み画像が表示されない
 !https://www.reddit.com/r/firefox/comments/eqf6a6/continuing_a_tradition_cake_from_firefox_to_edge/
 !||platform.twitter.com/widgets/widget_iframe
