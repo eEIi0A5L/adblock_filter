@@ -42,6 +42,17 @@ function cosmetic_filter_check()
         fi
         return 0
     fi
+
+    # 括弧の数は同じであること
+    num1=`perl scripts/count.pl "$LINE" "\("`
+    num2=`perl scripts/count.pl "$LINE" "\)"`
+    if [ $num1 -ne $num2 ]; then
+        echo "count: LINE=[$LINE]"
+        echo "num1=$num1"
+        echo "num2=$num2"
+        return 1 # error
+    fi
+
     return 0
 }
 function regexp_check()

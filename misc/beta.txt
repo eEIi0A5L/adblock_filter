@@ -1,5 +1,6 @@
 ! beta.txt
 
+!a.com##div:has( > div:has-text(abc)
 
 
 !END
