@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 8 Oct 2020 21:55 JST
+! Last modified: 10 Oct 2020 21:55 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -24,7 +24,14 @@
 
 !ページを開いたときにひっかかる感じがするので下記を共通にいれとく。2019.12.6
 ! ひっかかる問題が発生するサイト、www.cinra.net, ニコニコニュース、大百科、
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js
+!→誤爆が多いのでコメント化。
+!||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js,domain=www.cinra.net
+
+
+!文章の途中にある埋め込みツイッターが見えなくなる
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/277
+@@||googletagmanager.com/gtm.js$script,domain=insideevs.com
 
 
 
