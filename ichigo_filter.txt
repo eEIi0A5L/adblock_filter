@@ -548,7 +548,7 @@ javfinder.la##+js(no-setTimeout-if.js, _0x)
 ||zarlomgog.com/get/1551789?zoneid=
 embed.media##.afs_ads
 javfinder.la##+js(window.open-defuser)
-streamsb.net​##+js(window.open-defuser)
+streamsb.net##+js(window.open-defuser)
 ||riverhit.com^$third-party
 !||streamsb.net^$popup
 ||exofrwe.com^

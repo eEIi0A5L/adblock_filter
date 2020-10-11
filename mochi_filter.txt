@@ -439,7 +439,7 @@ headlines.yahoo.co.jp,news.yahoo.co.jp##div[id^="spocon"]
 
 
 
-!https://news.yahoo.co.jp/pickup/6264266とかでたまにtaboolaが接続重くなって映像が見れないのではじいておく。Peter Lowe’s Ad and tracking server list​​​​​​​​​でブロック済。
+!https://news.yahoo.co.jp/pickup/6264266とかでたまにtaboolaが接続重くなって映像が見れないのではじいておく。Peter Lowe’s Ad and tracking server listでブロック済。
 !http://www.afpbb.comで→こんな記事も読まれていますが消えてしまう
 !→$domain=yahoo.co.jpをつけてヤフーでだけブロックすればいいのでは？
 !→taboolaでおすすめ管理されているのでブロックするかどうかは考える

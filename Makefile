@@ -26,3 +26,6 @@ count:
 
 cm:
 	./scripts/cm.sh
+
+ic:
+	./scripts/ic.sh
