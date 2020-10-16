@@ -21,6 +21,8 @@ youtube.com##.branding-img-container
 !https://egg.5ch.net/test/read.cgi/software/1562160518/757
 !https://egg.5ch.net/test/read.cgi/software/1562160518/768
 !youtube.com##ytd-thumbnail-overlay-endorsement-renderer
+!サムネ下部に出る白帯の"also watched"のやつ 2020.10.16 ～
+!www.youtube.com###hover-overlays
 
 
 !ニコ生＋ニコ動（く）2018.6.28

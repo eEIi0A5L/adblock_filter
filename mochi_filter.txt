@@ -1263,6 +1263,7 @@ ejje.weblio.jp##div:has( > span:has-text(PR!) )
 !ejje.weblio.jp##div[style="margin:10px 0 10px 5px;"]
 !ejje.weblio.jp##div[style="margin:10px 0 10px 5px;"]:has( > span + a )
 ejje.weblio.jp##div[style="margin:10px 0 10px 5px;"]:has-text(/PR/)
+ejje.weblio.jp##div[style="margin:0 0 10px 5px;"]:has-text(/PR/)
 ejje.weblio.jp##div[style="padding: 2px 2px 15px 2px;width: 726px;"]:has-text(Weblio英和・和英辞典をお使いの皆さま)
 ||weblio.hs.llnwd.net/e7/script/include/speed/ejje_ads_manager_pc.js
 
