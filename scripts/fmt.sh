@@ -109,6 +109,18 @@ function network_filter_check()
         fi
     fi
 
+    # 'u'だけ書くと誤爆する
+    #https://egg.5ch.net/test/read.cgi/software/1562160518/990
+    #https://github.com/easylist/easylist/issues/6123
+    #https://github.com/easylist/easylist/commit/e743258656e35c2369b0f3bd155472c973dbe544
+    len=${#LINE}
+    if [ $len -lt 5 ]; then
+        # 文字数が少なすぎるのでエラーの可能性がある
+        echo "len short: len=[$len]"
+        echo "len short: LINE=[$LINE]"
+        return 1 # error
+    fi
+
     return 0
 }
 
