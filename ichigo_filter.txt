@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 03 Oct 2020 00:00 JST
+! Last modified: 13 Oct 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
 ! 
@@ -698,6 +698,8 @@ asianclub.tv##+js(window.open-defuser)
 vidoza.net##+js(abort-current-inline-script, Math, zfgloaded)
 ||vd.7vid.net/*.js$domain=vidoza.net|vidoza.org
 ||o333o.com^
+asianclub.*##+js(abort-on-property-read, jwplayer.utils.Timer)
+asianclub.tv##+js(window.open-defuser)
 
 !javmost
 ||pussl48.com^
@@ -754,24 +756,24 @@ www.minnano-av.com##.leftbottom_bn
 ||cdn.viglink.com^
 ||disqus.com/api/*/listrelated.json?
 ||google-analytics.com/ga.js$important,script
-javout.net##.adsbox
-javout.net###toTop
+javout.co##.adsbox
+javout.co###toTop
 !||widgets.amung.us^
 @@||ajax.cloudflare.com/cdn-cgi/scripts/$third-party,script
 ||feeds.feedburner.com/~fc/
 ||d3oep4gb91kpuv.cloudfront.net^
 ||d3al52d8cojds7.cloudfront.net^
 !||r18.com^$third-party,domain=~japanhub.net
-javout.net##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display:block!important;)
-javout.net##.addthis_native_toolbox
+javout.co##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display:block!important;)
+javout.co##.addthis_native_toolbox
 /\:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$third-party,xmlhttprequest,domain=~amazon.com
-||google-analytics.com/analytics.js$important,script,domain=javout.net
-javout.net##.banner-bottom
-player.javout.net###nuevoa
-player.javout.net##.vjs-scroll
-player.javout.net###invideo_wrapper
-javout.net##.social
-!javout.net##.banner-bottom
+||google-analytics.com/analytics.js$important,script,domain=javout.co
+javout.co##.banner-bottom
+player.javout.co###nuevoa
+player.javout.co##.vjs-scroll
+player.javout.co###invideo_wrapper
+javout.co##.social
+!javout.co##.banner-bottom
 ||boudja.com^
 ||charmour.club^
 ||charmour.club^$popup
@@ -944,6 +946,8 @@ redtube.com###content_container > .show_page_modals + div
 redtube.com###content_container > div[class]:not(.show_page_modals):not([id]):not([style])
 redtube.com###pb_block
 ||static.trafficjunky.com/invocation/popunder/production/popunder.min.js
+redtube.*##+js(window.open-defuser)
+||www.redtube.com/_xa/ads_batch
 
 !bejav
 bejav.net##.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display:block!important;)
