@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 08 Oct 2020 21:55 JST
+! Last modified: 23 Oct 2020 21:55 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
 ! 
@@ -842,6 +842,15 @@ ejje.weblio.jp###adHeadAdDfpBannerId
 ! Weblio
 ||weblio.hs.llnwd.net/e7/img/ejje-android-app-install-banner-not-installed.png|
 ||weblio.hs.llnwd.net/e7/script/include/speed/ejje_ads_manager_smp.js?
+ejje.weblio.jp##.adSmpQkBnr
+ejje.weblio.jp##.XremoveAds
+ejje.weblio.jp###eikaiwa-ejje-content-omonnaimi-sp
+ejje.weblio.jp##.division2:has( > .subDivision > h3:has-text(オンライン英会話) )
+ejje.weblio.jp###ejje-kiji-sp-omonaimi-toeic-list
+ejje.weblio.jp##.division2:has( > .subDivision > h3:has-text(英語でどう言うか知ってる？) )
+||d3fr49y3ejekk5.cloudfront.net/column/wp-content/uploads/2020/08/03090603/eikaiwa_ad_bannar_320_50_0731.png
+||d3fr49y3ejekk5.cloudfront.net/column/wp-content/uploads/2020/08/03090602/eikaiwa_ad_bannar__stident_320_50_0731.png
+eikaiwa_ad_bannar$domain=ejje.weblio.jp
 
 !共同通信
 this.kiji.is##.page__ad
