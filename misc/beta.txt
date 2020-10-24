@@ -3,4 +3,32 @@
 !a.com##div:has( > div:has-text(abc)
 
 
+
+!------------------------------------------------------------------------
+!https://egg.5ch.net/test/read.cgi/software/1556480002/396
+
+!①白画面に青ボタン
+youtube.com##.ytp-ad-module, .video-ads
+
+!②新しいタブで開いたときに広告動画
+youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+!をuboに追加
+!ただし、Youtubeの表示がおかしくなる場合がある
+
+!③同じタブで次の動画に広告動画
+youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+!をuboに追加
+!ただしubo1.28.0以降が必要
+
+!豆腐やもちなどに入ってる
+!youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+!だと、ブラウザの戻る・進むで広告出ちゃうね
+!------------------------------------------------------------------------
+
+
+
+
+
+
+
 !END
