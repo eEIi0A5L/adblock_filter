@@ -1937,6 +1937,10 @@ www.excite.co.jp#?#div[id^="gpt_pc_news_rightcolumn_ranking_infeed"]:nth-ancesto
 www.excite.co.jp#?#div[id^="gpt_pc_news_infeed"]:nth-ancestor(1)
 !#endif
 
+!exciteブログ
+blog.excite.co.jp###gpt_pc_blog_header
+
+
 !Asciiデジタル
 ||i.t.webtracker.jp^
 ascii.jp##div[class^="ad"]
