@@ -71,7 +71,8 @@
 ||cf.im-apps.net^
 ||choices.trustarc.com^
 ||choices.trustarc.com/cap
-||clients4.google.com^
+!googleマップが見れない
+!||clients4.google.com^
 ||cnt.rec1.smt.docomo.ne.jp^
 ||conductor.clicktale.net^
 ||control.smbeat.jp^
