@@ -17,7 +17,10 @@ youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 !ただし、Youtubeの表示がおかしくなる場合がある
 
 !③同じタブで次の動画に広告動画
-youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+!→Adguardでコメントぐるぐるになる
+!https://egg.5ch.net/test/read.cgi/software/1556480002/597
+!https://github.com/tofukko/filter/commit/14856f013a9512550e46717fda67e0cf82d666a6
+!youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 !をuboに追加
 !ただしubo1.28.0以降が必要
 
