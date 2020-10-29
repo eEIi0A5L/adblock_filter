@@ -2070,6 +2070,13 @@ sp.jp.wazap.com##body[style="position: fixed;"]:style(position:static !important
 www.postfun.com##.ad-widget-wrapper
 www.postfun.com###anchory
 
+!osdn
+mag.osdn.jp###div-gpt-osdn_mag_header
+mag.osdn.jp###head-ad-text
+mag.osdn.jp###div-gpt-osdn_mag_rec-article-middle
+
+
+
 
 
 
