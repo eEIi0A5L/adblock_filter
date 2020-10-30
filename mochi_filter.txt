@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 29 Oct 2020 00:00 JST
+! Last modified: 30 Oct 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -739,6 +739,9 @@ mail.yahoo.co.jp###slot_MON_sent
 !Yahoo路線
 transit.yahoo.co.jp##div[class^="yjads_priority_"]
 ||s.yimg.jp/images/yjcard/campaign/bnr/20171130/transit_600_200.png
+
+!右上の広告
+transit.yahoo.co.jp###ad_sale
 
 !END----------------------------------------
 
