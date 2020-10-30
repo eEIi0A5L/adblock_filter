@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 29 Oct 2020 00:00 JST
+! Last modified: 30 Oct 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
 ! 
@@ -2074,6 +2074,12 @@ www.postfun.com###anchory
 mag.osdn.jp###div-gpt-osdn_mag_header
 mag.osdn.jp###head-ad-text
 mag.osdn.jp###div-gpt-osdn_mag_rec-article-middle
+
+!gizmode
+www.gizmodo.jp##.p-post-ad
+
+
+
 
 
 
