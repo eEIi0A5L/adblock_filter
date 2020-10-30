@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 30 Oct 2020 00:00 JST
+! Last modified: 31 Oct 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi_2gun.html
 ! 
@@ -136,7 +136,9 @@ blog.livedoor.jp##.google-user-ad
 ||pics.dmm.com/af/dmmad/pure_ads/
 ||aqua.dmm.co.jp/dmmad/
 ||blog.livelog.biz/script/js/yon_adsense.js
-||accesstrade.net^
+!https://tofukko.blog.fc2.com/blog-entry-405.html#comment812
+!||accesstrade.net^
+||accesstrade.net^$domain=yaraon-blog.com
 ||mmmzy.jp^
 yaraon-blog.com##a[href^="http://ad.dmm.com/ad/"]
 yaraon-blog.com##a[href^="https://ad.dmm.com/ad/"]
