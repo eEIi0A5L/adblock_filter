@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2020/9/15 00:00 JST
+! Last modified: 2020/10/31 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/negi.html
 
@@ -583,6 +583,10 @@ www.windy.com###articles
 !imgur
 imgur.com##.EmeraldButton
 imgur.com##.emerald-button
+
+!4Gamer
+!右下のRecommendsポップアップ
+www.4gamer.net##.live_alert_popup
 
 
 
