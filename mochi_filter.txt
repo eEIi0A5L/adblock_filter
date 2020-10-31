@@ -1203,7 +1203,8 @@ rakuten.co.jp###footer-floating-bnr
 !search.rakuten.co.jp##.searchresultitem:has(span.-pr)
 
 !Amazon（他サイトに出る広告のブロック）
-||amazon.co.jp^$domain=~amazon.co.jp
+!||amazon.co.jp^$domain=~amazon.co.jp
+||amazon.co.jp^$domain=~www.amazon.co.jp
 !google検索結果のタイトルも消えてしまう
 !~amazon.co.jp##a[href^="http://www.amazon.co.jp"]
 !imdb.comの画像も消えてしまう
