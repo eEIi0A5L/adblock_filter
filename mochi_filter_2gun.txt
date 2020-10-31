@@ -1706,6 +1706,7 @@ qiita.com##.p-items_main > div[style="text-align: center; margin-right: -12px; m
 qiita.com##.it-Ads_afterBodyContainer
 qiita.com##div[id^="logly-lift-"]
 qiita.com##.p-home_aside > a[href^="https://jobs.qiita.com/"]
+||cdn.qiita.com/assets/public/qiita_jobs_qiita_ni_kiita/banner-300x250-
 
 
 
