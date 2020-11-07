@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 19 Oct 2020 00:00 JST
+! Last modified: 07 Nov 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
 ! 
@@ -1214,7 +1214,8 @@ extremetube.com##.attentionMsg
 ||vjav.com/images/ads/
 ||mysmokingmistress.com/saber/vjav/dutti/
 ||asiangfsex.com/saber/vjav/dutti/
-vjav.com##.player-wrap
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/287
+!vjav.com##.player-wrap
 !vjav.com##div[style="width: 100%; height: 0; padding-bottom: 55.555555555556%"]
 vjav.com##td[style="transform: scale(0.99);"] > div
 vjav.com##span > table
