@@ -1234,6 +1234,14 @@ vjav.com##+js(acis, vdaVars)
 ||visitstats.com^$popunder,domain=vjav.com
 vjav.com##.footer-margin
 !vjav.com##.box.box-padding
+vjav.com##+js(addEventListener-defuser, , window.open)
+vjav.com##+js(set-constant, adver, noopFunc)
+vjav.com##+js(no-setInterval-if, document.readyState)
+vjav.com##+js(abort-on-property-read, vertis.popunder.neverblock)
+vjav.com##+js(set-constant, JsvISiNc.neverblock.loaderUrl, undefined)
+vjav.com##.adv.movable-top
+vjav.com##.box.fad
+vjav.com##.afs_ads
 
 !fbjav
 fbjav.net##.ads-sidebar
