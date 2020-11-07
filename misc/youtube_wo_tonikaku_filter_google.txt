@@ -27,7 +27,8 @@ youtube.com###video-masthead
 ||googlesyndication.com^
 ##div[id^="div-gpt-ad"]
 ##.adsbygoogle
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##ytd-rich-item-renderer:has( > div > ytd-display-ad-renderer )
 youtube.com##ytd-display-ad-renderer
+youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
+youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
