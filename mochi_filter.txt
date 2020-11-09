@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 07 Nov 2020 00:00 JST
+! Last modified: 09 Nov 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -793,7 +793,10 @@ streaming.yahoo.co.jp##.con_btm
 gyao.yahoo.co.jp##.ad
 ||sync.search.spotxchange.com/partner?adv_id=
 ||interactive-circle.jp^$3p
+!Gyaoで動画プレイヤーのボタン(一時停止とかボリュームとか)が表示されなくなってしまいました
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/290
 ||imasdk.googleapis.com^$domain=gyao.yahoo.co.jp
+@@||imasdk.googleapis.com/js/core/bridge$domain=gyao.yahoo.co.jp
 ||pvtag.yahoo.co.jp^
 
 
