@@ -30,7 +30,8 @@ youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 !------------------------------------------------------------------------
 
 
-
+!TubeというFirefoxのアドオンを切ったら先頭の広告が出なくなった
+!https://egg.5ch.net/test/read.cgi/software/1602052066/299
 
 
 
