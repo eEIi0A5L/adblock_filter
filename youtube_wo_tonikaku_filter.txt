@@ -18,9 +18,8 @@ youtube.com##.iv-promo
 youtube.com###player-ads
 youtube.com###masthead-ad
 youtube.com###video-masthead 
-youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 =adunit&$domain=youtube.com
 ||www.youtube.com/ads/$image
 ||www.youtube.com/yts/jsbin/www-pagead-id-
