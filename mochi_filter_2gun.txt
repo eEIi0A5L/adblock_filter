@@ -191,7 +191,6 @@ exawarosu.net,heartlife-matome.com,kijyomatome-ch.com,kitizawa.com,mojomojo-lica
 
 !ゲハ速
 ||js.adnico.jp^
-||adc.shinobi.jp^
 !||www.antennash.com/etc/comvote/ad_pc_ft.html?
 !ranking
 ||ziyu.net^
@@ -520,7 +519,6 @@ hosyusokuhou.jp##article.entrybox > section > a:has-text(/^【PR】/):upward(2)
 ||luyuan-sp.com/wp-content/themes/sp_shenron/js/modalConfirm.js
 
 !芸能人の気になる噂"
-||vis1.shinobi.jp^
 ||zenback.jp^
 
 

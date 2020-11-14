@@ -1522,9 +1522,6 @@ jin115.com##table:has( img[src^="https://images-fe.ssl-images-amazon.com"])
 !まとめサイト速報＋
 matome-plus.com##.amazontotalboxtest
 
-!ゲハ速
-||adc.shinobi.jp^
-
 !トレンドニュース速報
 !（なし）
 
