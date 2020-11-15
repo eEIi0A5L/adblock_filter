@@ -1766,6 +1766,12 @@ mixi.jp##.adsense02
 !download
 ||iclickcdn.com^
 
+!point.i2i.jp
+@@||j-a-net.jp^$domain=i2i.jp
+@@||ad.jp.ap.valuecommerce.com^$domain=i2i.jp
+@@||a8.net^$domain=i2i.jp
+
+
 
 
 
