@@ -1034,7 +1034,8 @@ baseballdays.officialblog.jp##span[style="font-weight: bold; font-size: 16px; te
 
 !サッカーまとめ---------------------------------------------------------
 !サッカーコラム J3 Plus+　
-||i2i.jp^
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/297
+!||i2i.jp^
 ||gejigeji.jp^
 ||counter1-cdn.fc2.com^
 ||st.shinobi.jp/img/analyze/s.gif

@@ -1339,7 +1339,8 @@ javhay.net##+js(addEventListener-defuser, load, 2000)
 
 !wav.tv
 wav.tv##.adframe
-||i2i.jp^
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/297
+!||i2i.jp^
 ||pokoran.com^
 ||wav.tv/support/adframe?
 ||ero-video.net/advert/
