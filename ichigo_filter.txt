@@ -1344,6 +1344,7 @@ wav.tv##.adframe
 ||pokoran.com^
 ||wav.tv/support/adframe?
 ||ero-video.net/advert/
+wav.tv##+js(remove-attr, data-popup-url)
 
 !jable
 ||jable.tv/assets/images/tap/sda9b-728-90-4.gif
