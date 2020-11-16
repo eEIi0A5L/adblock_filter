@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 14 Nov 2020 00:00 JST
+! Last modified: 16 Nov 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -1786,6 +1786,7 @@ www.oricon.co.jp##:xpath(//div[@class='wrap-text pr']/parent::a/parent::li)
 www.oricon.co.jp##:xpath(//div[@class='wrap-text pr']/parent::a/parent::article)
 !人気のフォトギャラリーがくるくる変わるのがうざい
 www.oricon.co.jp##.block-sub-gallery
+www.oricon.co.jp##.gmossp_ad_frame
 
 
 !itmedia
