@@ -191,6 +191,14 @@ www.instagram.com##body:style(overflow: auto !important)
 !Instagramのトップの下部の「無料アプリを入手する」のちらつき防止
 instagram.com###react-root > section > nav > div > div > section.xZ2Xk
 
+
+!Amazon
+!Amazon下部スポンサー広告
+www.amazon.co.jp##div[id^="ad_"]
+www.amazon.co.jp##.aw-campaigns:has( > #ape_detail_btf2_mweb_wrapper > #ape_detail_btf2_mweb_placement > div[id^="ad_"])
+
+
+
 !ニコ動
 sp.ch.nicovideo.jp###appBanner
 
@@ -2081,6 +2089,17 @@ mag.osdn.jp###div-gpt-osdn_mag_rec-article-middle
 
 !gizmode
 www.gizmodo.jp##.p-post-ad
+
+!WackoJaco
+jp.wackojaco.com##.verboseads-mob-container
+
+
+
+
+
+
+
+
 
 
 
