@@ -433,10 +433,13 @@ lifehack2ch.livedoor.biz##a[href^="https://www.amazon.co.jp/"]
 !チラ速
 !http://blog.livedoor.jp/nichmatomerunn/
 ||pics.dmm.com/digital/video/$domain=blog.livedoor.jp
-blog.livedoor.jp##a[href^="http://www.dmm.com/"]
-blog.livedoor.jp##a[href^="https://www.dmm.com/"]
-blog.livedoor.jp##a[href^="http://www.amazon.co.jp/"]
-blog.livedoor.jp##a[href^="https://www.amazon.co.jp/"]
+!下記はブロックしすぎ
+! →下記で「タイムセール」リンクでない
+! http://blog.livedoor.jp/tokkataro/archives/57397855.html
+!blog.livedoor.jp##a[href^="http://www.dmm.com/"]
+!blog.livedoor.jp##a[href^="https://www.dmm.com/"]
+!blog.livedoor.jp##a[href^="http://www.amazon.co.jp/"]
+!blog.livedoor.jp##a[href^="https://www.amazon.co.jp/"]
 
 !ニコニコVIP2ch
 !http://blog.livedoor.jp/nicovip2ch/
