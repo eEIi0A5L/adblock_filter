@@ -339,6 +339,10 @@ twitter.com##.LiveVideoHomePageModuleContainer
 !twitter.com##span:has-text(Retweet):upward(11)
 !twitter.com##span:has-text(さんがリツイート):upward(11)
 
+!ツイッター右上トレンドのニュース記事削除
+!twitter.com##div[aria-label="Timeline: Trending now"] > div > div:has( > div > div > div > div > div > div > div > div > div > svg[aria-label="Verified account"] )
+!twitter.com##div[aria-label="タイムライン: トレンド"] > div > div:has( > div > div > div > div > div > div > div > div > div > svg[aria-label="認証済みアカウント"] )
+
 
 
 !Wikipedia
