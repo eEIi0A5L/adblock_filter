@@ -830,8 +830,7 @@ twitter.com##div[data-testid="placementTracking"]:has(svg + div[dir="auto"] > sp
 
 
 !#話題を検索ページの右上おすすめユーザのプロモーション
-twitter.com##span:has-text(/^Promoted$/):upward(div[data-testid="UserCell"])
-twitter.com##span:has-text(/^プロモーション$/):upward(div[data-testid="UserCell"])
+twitter.com##span:has-text(/^(Promoted|プロモーション)$/):upward(div[data-testid="UserCell"])
 
 
 
