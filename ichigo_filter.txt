@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 07 Nov 2020 00:00 JST
+! Last modified: 21 Nov 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
 ! 
@@ -713,6 +713,9 @@ vidoza.net##+js(abort-current-inline-script, Math, zfgloaded)
 ||o333o.com^
 asianclub.*##+js(abort-on-property-read, jwplayer.utils.Timer)
 asianclub.tv##+js(window.open-defuser)
+hpjav.tv##+js(addEventListener-defuser, , _0x)
+hpjav.tv##+js(set-constant, checkdom, 0)
+*$script,redirect-rule=noopjs,domain=hpjav.tv
 
 !javmost
 ||pussl48.com^
