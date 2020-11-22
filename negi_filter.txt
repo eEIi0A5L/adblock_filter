@@ -301,6 +301,7 @@ support.microsoft.com##.survey-background
 ||www.msn.com/ja-jp/homepage/irisbannerajax?
 ||www.msn.com/ja-jp/news/irisbannerajax?
 
+
 !twitter
 !ツイートポップアップ時にこれがあると右クリックで画像表示できないので消す
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/46
@@ -342,6 +343,23 @@ twitter.com##.LiveVideoHomePageModuleContainer
 !ツイッター右上トレンドのニュース記事削除
 !twitter.com##div[aria-label="Timeline: Trending now"] > div > div:has( > div > div > div > div > div > div > div > div > div > svg[aria-label="Verified account"] )
 !twitter.com##div[aria-label="タイムライン: トレンド"] > div > div:has( > div > div > div > div > div > div > div > div > div > svg[aria-label="認証済みアカウント"] )
+
+!ツイッターのおすすめトピックを消す
+!twitter.com##span:has-text(/^おすすめトピック$/):upward(div[style^="position: absolute; width: 100%;"])
+!twitter.com##a[aria-labelledby^="topic"]:upward(div[style^="position: absolute; width: 100%;"])
+!twitter.com##span:has-text(/^その他のトピック$/):upward(div[style^="position: absolute; width: 100%;"])
+
+
+!ツイッターのおすすめユーザーを消す
+!twitter.com##span:has-text(/^おすすめユーザー$/):upward(div[style^="position: absolute; width: 100%;"])
+!twitter.com##div[aria-label^="タイムライン:"]:not([aria-label$="タイムラインを検索"] ) > div > div > div > div[data-testid="UserCell"]
+!twitter.com##span:has-text(/^さらに表示$/):upward(div[style^="position: absolute; width: 100%;"])
+
+
+
+
+
+
 
 
 
