@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 18 Nov 2020 00:00 JST
+! Last modified: 23 Nov 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -845,6 +845,8 @@ twitter.com##a[href*="src=promoted_trend_click"]
 twitter.com##a[href*="src=promoted_trend_click"] + div
 
 
+!プロモツイート
+twitter.com##span:has-text(/^プロモツイート$/):upward( div[aria-label^="タイムライン:"] > div > div )
 
 
 
