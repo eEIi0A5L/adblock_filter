@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 24 Nov 2020 00:00 JST
+! Last modified: 26 Nov 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -182,7 +182,8 @@ yahoo.co.jp###mhd_text_pc
 
 !Yahooトップ---------------------------------------
 !Yahooトップの最上部に「日本一福岡ソフトバンクホークスSALE」と出る2018.11.04
-||s.yimg.jp/images/shp_edit/cms/promotion/softbankhawks/
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/301
+!||s.yimg.jp/images/shp_edit/cms/promotion/softbankhawks/
 www.yahoo.co.jp###windowShade
 
 !上部いい買物の日
