@@ -411,6 +411,7 @@ itest.5ch.net##.ad
 ||js.sprout-ad.com^
 itest.5ch.net###res_ad
 itest.5ch.net##.sproutad_frame
+itest.5ch.net##.sproutad_frame-description
 ||itest.5ch.net/assets/img/ronin_premium_640x100.png
 itest.5ch.net###js-header-320x50
 !itest.5ch.net###js-last_comment_ad_1
@@ -452,6 +453,7 @@ itest.5ch.net##.js-ads-content-top_news
 itest.5ch.net##.js-ads-content-top_popular
 itest.5ch.net##.js-ads-content-top_rectangle
 itest.5ch.net###js-bottom-ad-300x250
+itest.5ch.net###js-bottom-ad-320x250
 itest.5ch.net###instant_ad
 itest.5ch.net###ads
 
