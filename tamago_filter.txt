@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 30 Oct 2020 00:00 JST
+! Last modified: 26 Nov 2020 21:30 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
 ! 
@@ -93,7 +93,6 @@ ameblo.jp##div[role="navigation"]
 !###koya_child_6
 youtube.com##ytm-promoted-video-renderer
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
-youtube.com##ytm-promoted-sparkles-web-renderer
 
 !Youtubeパソコン用からのコピペ
 ||youtube.com/yts/jsbin/www-pagead-id-
@@ -107,7 +106,7 @@ youtube.com##.ytp-ad-progress-list
 !||static.doubleclick.net/instream/ad_status.js
 youtube.com###player-ads
 !||pubads.g.doubleclick.net^
-||youtube.com/pagead/
+!||youtube.com/pagead/
 ||youtube.com/ads/$image
 !||securepubads.g.doubleclick.net
 =adunit&$domain=youtube.com
@@ -201,6 +200,8 @@ www.amazon.co.jp##.aw-campaigns:has( > #ape_detail_btf2_mweb_wrapper > #ape_deta
 
 !ニコ動
 sp.ch.nicovideo.jp###appBanner
+!ニコニコブロマガ
+!sp.ch.nicovideo.jp###appBanner
 
 !ニコ生
 !||nicolive.cdn.nimg.jp/relive/sp/app.bc79576574.js
@@ -373,15 +374,11 @@ creators.yahoo.co.jp##.FixedButtons
 ! 楽天トラベル
 ||img.travel.rakuten.co.jp/camp/app-always/bnr/bn_Android.jpg|
 
-!ニコニコブロマガ
-sp.ch.nicovideo.jp###appBanner
-
 !goo
 goo.ne.jp##div[id^="gooad"]
 ||adcdn.goo.ne.jp^
 ||yads.c.yimg.jp^
 !||lodeo-adnw.adtdp.com^
-||adcdn.goo.ne.jp/images/js/smarttag-news-news.js
 !news.goo.ne.jp##div[style*="fixed"]
 !news.goo.ne.jp##div[style^="height: 50px; position: fixed;"]
 oshiete.goo.ne.jp##.theAppLink
@@ -536,7 +533,7 @@ enechange.jp##.e__float_try
 !Buzzfeed下部のSNS枠
 www.buzzfeed.com##.action-bar--position-floating
 ||taboola.com^
-||doubleclick.net^$third-party
+!||doubleclick.net^$third-party
 buzzfeed.com###mod-action-bar-1
 ||scorecardresearch.com^
 ||google-analytics.com^
@@ -619,7 +616,7 @@ style.nikkei.com##.ad_inview
 ||b97.yahoo.co.jp/pagead/conversion_async.js
 ||s-adserver.cxad.cxense.com^
 !||yads.yahoo.co.jp/js/yads.js
-||sp.gmossp-sp.jp^
+!||sp.gmossp-sp.jp^
 mainichi.jp###bottom-share
 !下部SNS
 ||cdn.mainichi.jp/vol1/js/sp/share.js
@@ -754,7 +751,7 @@ kakaku.com###headerAd
 
 !共同通信
 !||cast-cs-j.adtdp.com^
-||rs.adapf.com^
+!||rs.adapf.com^
 ||p.adsymptotic.com^
 
 !クックパッド
@@ -899,8 +896,8 @@ this.kiji.is##.page__brandModule
 
 !はてなブックマーク
 !||ad.as.amanad.adtdp.com^
-||microad.jp^
-||microad.net^
+!||microad.jp^
+!||microad.net^
 b.hatena.ne.jp##.entry-ad-sp-text
 b.hatena.ne.jp##.entry-ad-sp-rectangle
 !はてブのアプリバナーがウザいのでシェア
@@ -1309,7 +1306,6 @@ japanese.engadget.com##div[class^="js-"]:has( iframe[src^="//rcm-fe.amazon-adsys
 ||images-fe.ssl-images-amazon.com/images/I/$domain=japanese.engadget.com
 japanese.engadget.com##iframe[src^="//rcm-fe.amazon-adsystem.com"]
 www.engadget.com##.o-mobile-share-footer
-||o.aolcdn.com/ads/adsWrapper.js
 japanese.engadget.com##.engadget-share
 
 
@@ -1928,7 +1924,7 @@ ouroboros.hamazo.tv###meerkat-wrap
 www.hanamonogatari.com##.floatingBn
 
 !belcy.jp
-||adapf.com
+||adapf.com^
 
 !All About
 ||primead.jp^
@@ -2142,7 +2138,7 @@ jp.wackojaco.com##.verboseads-mob-container
 
 
 ||parking.parklogic.com/page/enhance.js
-||clk.rtpdn10.com/click?
+!||clk.rtpdn10.com/click?
 ||maroola.aditms.me/click?
 
 !http://www.odoroku.tv/idol/tenki2/
@@ -2155,7 +2151,7 @@ jp.wackojaco.com##.verboseads-mob-container
 
 !http://umaizoo.com/
 ||tracking.bodis.com/tlpv?
-||usa.odysseus-nua.com/zcvisitor/
+!||usa.odysseus-nua.com/zcvisitor/
 
 !http://www.kansai-shogi.com/webmagazine/diary.htm
 !ブラウザアンケのやつ
@@ -2446,7 +2442,6 @@ kinisuru.com##.a2a_floating_style
 ||outbrain.com^
 ||w55c.net^
 !||zucks.net.zimg.jp^
-||ad-stir.com^
 ||ad.appier.net^
 ||ad.ca-conv.jp^
 !||ad.caprofitx.adtdp.com^
@@ -2454,9 +2449,7 @@ kinisuru.com##.a2a_floating_style
 !||adforce^
 !||adid^
 ||adjust.com^
-||adntokyo.gunosy.com^
 ||ads.mopub.com^
-||ads.nicovideo.jp^
 ||adsafeprotected.com^
 !||adsrvr.org^
 ||adswizz.com^
@@ -2484,7 +2477,6 @@ kinisuru.com##.a2a_floating_style
 ||delivery-asia-northeast-1.openx.net^
 ||dev.appboy.com^
 ||dl61.y2mate.com^
-||ds.adapf.com^
 ||e.crashlytics.com^
 ||frontier.byteoversea.com^
 ||gce-jp.bidswitch.net^
@@ -2499,8 +2491,6 @@ kinisuru.com##.a2a_floating_style
 ||iasds01.com^
 ||img.applovin.com^
 ||img.macromill.com^
-||img.oct-pass.net^
-||imp-adedge.i-mobile.co.jp^
 ||imp.oct-pass.net^
 ||impression-asia.liftoff.io^
 ||k.smartcanvas.net^
@@ -2525,8 +2515,6 @@ kinisuru.com##.a2a_floating_style
 !||sh.adingo.jp^
 ||sift-campaign-creatives.sift.co^
 ||socdm.com^
-!||spad^
-||spad.i-mobile.co.jp^
 ||spnativeapi.i-mobile.co.jp/api/ad_imp_count.ashx
 ||spnativeapi.i-mobile.co.jp/api/ad_native.ashx
 ||ssp-bidapi.i-mobile.co.jp/ajax/imp/imp_count.ashx
@@ -2542,7 +2530,6 @@ kinisuru.com##.a2a_floating_style
 !||tunein.deliveryengine.adswizz.com^
 ||txn.ingest.crittercism.com^
 ||uncn.jp^
-||yads.c.yimg.jp^
 ||yads.yahoo.co.jp^
 !||yt.moatads.com^
 !||zucks^
