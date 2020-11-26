@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 26 Nov 2020 00:00 JST
+! Last modified: 26 Nov 2020 21:30 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -687,7 +687,7 @@ login.yahoo.co.jp##.ads
 !広告
 !→/bdv/全体をブロックした
 !||s.yimg.jp/bdv/wqp_ijq1pd_vopdneies/
-||s.yimg.jp/bdv/$image,domain=login.yahoo.co.jp
+!||s.yimg.jp/bdv/$image,domain=login.yahoo.co.jp
 login.yahoo.co.jp##img[src^="https://s.yimg.jp/bdv/"]
 
 !広告を消した後の空白がaのままなのでクリックしたらジャンプしていた
@@ -709,7 +709,7 @@ login.yahoo.co.jp##a[href^="https://ard.yahoo.co.jp/SIG="]
 
 
 !右側の広告
-||s.yimg.jp/bdv/$image,domain=mail.yahoo.co.jp
+!||s.yimg.jp/bdv/$image,domain=mail.yahoo.co.jp
 !mail.yahoo.co.jp##iframe
 !#@#iframe
 !↓これはいいか？Yahoomailには埋め込み動画あるのか？
@@ -782,8 +782,8 @@ outlook.live.com##:xpath(//div[contains(@class, 'fbAdLink')]/parent::div/parent:
 
 !Gyao
 !Gyao動画上の広告ブロック------------------------------
-||ad.auditude.com/adserver/
-||metrics.brightcove.com/tracker?
+!||ad.auditude.com/adserver/
+!||metrics.brightcove.com/tracker?
 !||static.doubleclick.net/instream/ad_status.js
 ||youtube.com/ad_data_
 !||doubleclick.net/gampad/ads?
@@ -950,7 +950,7 @@ abema.tv##.com-tv-top-CommercialBannerCarousel
 !dailymotion（2019.10月一旦見直し）-----------
 ||scorecardresearch.com^
 ||dmxleo.dailymotion.com^
-||doubleclick.net^$third-party
+!||doubleclick.net^$third-party
 ||sync-tm.everesttech.net^
 ||sync.adotmob.com^
 ||sync.mathtag.com^
@@ -965,7 +965,7 @@ abema.tv##.com-tv-top-CommercialBannerCarousel
 5ch.net##.ADVERTISE_AREA + div
 5ch.net##div[id^="horizontalbanners"]
 ||ad.maist.jp^
-||spcdnpc.i-mobile.co.jp/ad_creative.ashx
+!||spcdnpc.i-mobile.co.jp/ad_creative.ashx
 ||spsvcpc-tls.i-mobile.co.jp/ad_spot.aspx
 ||stimg.thench.net/bbs-ad/
 ||spdeliver.i-mobile.co.jp^
@@ -1047,7 +1047,7 @@ ameblo.jp##div[amb-component="entryAd"]
 ||js.fout.jp/beacon.html
 ||aff.i-mobile.co.jp^
 ||stat100.ameba.jp/adwords/adwords.js
-||cdn.amanad.adtdp.com^
+!||cdn.amanad.adtdp.com^
 ameblo.jp##.bfl-snews__outer
 !なんか白くなる
 !||ssl-stat.amebame.com/pub/ads/
@@ -1069,7 +1069,7 @@ ameblo.jp##.skin-entryAd
 !Amebaニュース
 ||apvdr.com/v2/cs.php
 ||socdm.com^
-||cdn.as.amanad.adtdp.com^
+!||cdn.as.amanad.adtdp.com^
 
 !LINE blog
 settings/ad.js$domain=lineblog.me
@@ -1078,13 +1078,13 @@ settings/ad.js$domain=lineblog.me
 !fc2.com
 !Youtube埋め込み動画までブロックされてしまう
 !fc2.com##iframe
-blog.fc2.com###fc2_bottom_bnr
+!blog.fc2.com###fc2_bottom_bnr
 blog.fc2.com##.pankuzu + h2
 blog.fc2.com##.pankuzu + h2 + .mainbox
 !||ad.ad-arata.com^
 ||img.shinobi.jp/analyze/dumbo/ads2/ad_1_left_0.gif
 fc2.com###fc2_bottom_bnr
-blog.fc2.com###sh_fc2blogheadbar_link_box
+!blog.fc2.com###sh_fc2blogheadbar_link_box
 web.fc2.com###fc2_ad_box
 ! fc2トラッカー
 ||media.fc2.com/counter_img.php?
@@ -1148,7 +1148,7 @@ kakaku.com##.mTop10.mBtm10
 ||kakaku.k-img.com/images/ad/
 kakaku.com##.fixedRightAdContainer
 !アコム枠
-review.kakaku.com##.mTop10.mBtm10.alignC
+!review.kakaku.com##.mTop10.mBtm10.alignC
 !他サイトで出る価格.comの広告
 ||static.criteo.net^
 ||cas.criteo.com^
@@ -1189,7 +1189,7 @@ jp,net,com,org,me,tv,biz,info##iframe[id^="rakuten"]
 ||log.affiliate.rakuten.co.jp/mw/imp/
 ||static.affiliate.rakuten.co.jp/widget/ranking/0.xml?
 ||dynamic.rakuten.co.jp/rcm/1.0/i/json?developerId=
-||mtwidget04.affiliate.rakuten.co.jp/?rakuten_design=slide&
+!||mtwidget04.affiliate.rakuten.co.jp/?rakuten_design=slide&
 ||static.affiliate.rakuten.co.jp/widget/html/javascripts/front_merged.js?
 ||xml.affiliate.rakuten.co.jp/widget/conf/getMWConf.php?time=
 ||static.affiliate.rakuten.co.jp/widget/html/pc_pcview_all.html?rakuten_design=slide&
@@ -1241,12 +1241,12 @@ rakuten.co.jp###footer-floating-bnr
 !Youtube埋め込み動画までブロックされてしまう
 !www.famitsu.com##iframe
 www.famitsu.com###adTop
-||ssl.webtracker.jp/ad/
+!||ssl.webtracker.jp/ad/
 www.famitsu.com##.ad-header-video
 ||famitsu.com/js/1411/ad.js
 www.famitsu.com##.adArticleBottomWrap
 www.famitsu.com##.adTc
-||ssl.webtracker.jp
+||ssl.webtracker.jp^
 www.famitsu.com##.adNative
 www.famitsu.com##.banner-top-header
 
@@ -1301,7 +1301,7 @@ eow.alc.co.jp###AreaHeaderRight
 eow.alc.co.jp###AreaUpperLeftInner > p
 eow.alc.co.jp##.pr_text
 eow.alc.co.jp##.mb_0
-||google.com/ads/
+!||google.com/ads/
 ||ds.advg.jp^
 eow.alc.co.jp###introduceEowp
 ||eow.alc.co.jp/content/img/btn_eijiro_pro.gif$image
@@ -1377,7 +1377,7 @@ jma.go.jp###jma_ad_config_button
 ||b92.yahoo.co.jp/search/?
 ||s.yimg.jp/images/listing/tool/cv/conversion.js
 ||imrworldwide.com^
-||1c6e2.v.fwmrm.net/ad/
+!||1c6e2.v.fwmrm.net/ad/
 @@||adm.fwmrm.net^*/admanager.js$script,domain=nikkeibp.co.jp
 !-----------------------------------------------------------------------
 
@@ -1499,7 +1499,6 @@ www.news24.jp###adText01
 
 !MBS動画イズム
 @@||connect.facebook.net/en_us/sdk.js$domain=dizm.mbs.jp
-@@||www.facebook.com/tr/?id=$domain=dizm.mbs.jp
 @@||www.facebook.com^$domain=dizm.mbs.jp
 
 !TBS
@@ -1706,7 +1705,7 @@ japanese.engadget.com###ldrBoardAd
 @@||aolcdn.com^*/adswrapper.$domain=aol.com|engadget.com|games.com|huffingtonpost.com|mapquest.com|stylelist.ca
 ||aka-cdn.adtechus.com^
 ||jp.at.atwola.com/adcount/
-||adserver-as.adtech.advertising.com^
+!||adserver-as.adtech.advertising.com^
 japanese.engadget.com###atwAdFrame0
 @@||guce.advertising.com/collectIdentifiers
 
@@ -1869,10 +1868,8 @@ stackoverflow.com###dfp-tlb
 stackoverflow.com###clc-tlb
 
 !wikiwiki.jp
-wikiwiki.jp##div[id^="div-gpt-ad"]
 wikiwiki.jp###title + br
 wikiwiki.jp###title + br + br
-wikiwiki.jp###title + br + br + div[id^="div-gpt-ad"]
 wikiwiki.jp###title + br + br + div[id^="div-gpt-ad"] + br 
 wikiwiki.jp###title + br + br + div[id^="div-gpt-ad"] + br + br
 wikiwiki.jp###menubar > div[style="width:240px;height:207px;margin: 5px auto;"]:first-child
@@ -1984,7 +1981,6 @@ ascii.jp##div[class^="ad"]
 www.m-on.press##.webbanner_display_pc
 
 !kotobank
-kotobank.jp##div[id^='div-gpt-ad']
 kotobank.jp##.pc-iframe-ad
 
 !imepic
@@ -2409,7 +2405,7 @@ www.crank-in.net###bannerin
 
 
 ||parking.parklogic.com/page/enhance.js
-||clk.rtpdn10.com/click?
+!||clk.rtpdn10.com/click?
 ||maroola.aditms.me/click?
 
 !http://www.odoroku.tv/idol/tenki2/
@@ -2422,7 +2418,7 @@ www.crank-in.net###bannerin
 
 !http://umaizoo.com/
 ||tracking.bodis.com/tlpv?
-||usa.odysseus-nua.com/zcvisitor/
+!||usa.odysseus-nua.com/zcvisitor/
 
 !http://www.kansai-shogi.com/webmagazine/diary.htm
 !ブラウザアンケのやつ
