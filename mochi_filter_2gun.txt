@@ -501,7 +501,7 @@ hosyusokuhou.jp##.abox
 hosyusokuhou.jp##.kikin
 !PR
 !https://egg.5ch.net/test/read.cgi/android/1589767928/901
-hosyusokuhou.jp##article.entrybox:has( > .entryheader > a:has-text(/^【PR】/) )
+!hosyusokuhou.jp##article.entrybox:has( > .entryheader > a:has-text(/^【PR】/) )
 hosyusokuhou.jp##article.entrybox > section > a:has-text(/^【PR】/):upward(2)
 
 

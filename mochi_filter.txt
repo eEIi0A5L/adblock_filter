@@ -119,7 +119,8 @@ www.google.co.jp,www.google.com###bottomads
 !表示されても邪魔にならないのでコメント化。
 !google.co.jp##div[class="mod"][data-md="40"][data-ved]:has( > div > div > span:has-text(Ads))
 !右上の広告
-google.co.jp,google.com##.cu-container:has( > div > span > div > div > div > span:has-text(/^(Sponsored|スポンサー)/) )
+!↓構文エラー
+!google.co.jp,google.com##.cu-container:has( > div > span > div > div > div > span:has-text(/^(Sponsored|スポンサー)/) )
 !右上の広告
 google.co.jp,google.com##.commercial-unit-desktop-rhs
 
@@ -307,7 +308,8 @@ www.yahoo.co.jp###tct
 !www.yahoo.co.jp###realtime
 
 !Yahooトップ中央下部のおすすめ記事内のPR削除（PayPay, カードなど）
-www.yahoo.co.jp###Stream > div > div > article:has( > a > div > div > div > span:has-text(/^PR$/) )
+!www.yahoo.co.jp###Stream > div > div > article:has( > a > div > div > div > span:has-text(/^PR$/) )
+www.yahoo.co.jp###span:has-text(/^PR$/):upward( #Stream > div > div > article )
 
 
 !Yahooプレミアムの広告バナー
@@ -345,8 +347,10 @@ www.yahoo.co.jp###Service
 www.yahoo.co.jp###Shopping
 
 !あなたへのおすすめでPayPayのPR
-www.yahoo.co.jp##dl.item:has( > dd > p:has-text(PR) )
-www.yahoo.co.jp##dl.item:has( > dd > cite:has-text(Yahoo!ズバトク＜PR＞) )
+!www.yahoo.co.jp##dl.item:has( > dd > p:has-text(PR) )
+www.yahoo.co.jp##p:has-text(PR):upward(2)
+!www.yahoo.co.jp##dl.item:has( > dd > cite:has-text(Yahoo!ズバトク＜PR＞) )
+www.yahoo.co.jp##cite:has-text(Yahoo!ズバトク＜PR＞):upward(2)
 
 www.yahoo.co.jp###GoToBanner
 
@@ -839,7 +843,8 @@ twitter.com##span:has-text(/^(Promoted|プロモーション)$/):upward(div[data
 twitter.com##[data-testid="trend"]:has-text(/推荐|Promoted|Gesponsert|Реклама|Promocionado|Sponsorisé|Uitgelicht|プロモーション/):upward(1)
 
 !https://twitter.com/okkinapanda
-twitter.com##div:has( > div > div > div > h2 > div > span:has-text(/Promoted Tweet|プロモツイート/) )
+!↓構文エラー
+!twitter.com##div:has( > div > div > div > h2 > div > span:has-text(/Promoted Tweet|プロモツイート/) )
 
 !話題を検索上部の広告
 twitter.com##a[href*="src=promoted_trend_click"]
@@ -1282,8 +1287,10 @@ ejje.weblio.jp##.sideBlock:has-text(オンライン英会話)
 !||d3fr49y3ejekk5.cloudfront.net/column/wp-content/uploads/2020/08/03091849/eikaiwa_ad_bannar_730_300-0731.png
 !||d3fr49y3ejekk5.cloudfront.net/column/wp-content/uploads/2020/08/03092019/eikaiwa_ad_bannar_730_300_sabisi-ie-sabishi-0731.png
 ||d3fr49y3ejekk5.cloudfront.net/column/wp-content/uploads/*/eikaiwa_ad_bannar_730_300_$domain=ejje.weblio.jp
-ejje.weblio.jp##div[style="margin:0 0 10px 5px;"]:has( > span:has-text(PR) )
-ejje.weblio.jp##div:has( > span:has-text(PR!) )
+!ejje.weblio.jp##div[style="margin:0 0 10px 5px;"]:has( > span:has-text(PR) )
+ejje.weblio.jp##span:has-text(PR):upward(1)
+!ejje.weblio.jp##div:has( > span:has-text(PR!) )
+ejje.weblio.jp##span:has-text(PR!):upward(1)
 !ejje.weblio.jp##div[style="margin:10px 0 10px 5px;"]:has( > span:has-text(/^PR/) )
 !ejje.weblio.jp##div[style="margin:10px 0 10px 5px;"]:has( > span:has-text(PR) )
 !ejje.weblio.jp##div[style="margin:10px 0 10px 5px;"]
@@ -2389,7 +2396,7 @@ www.crank-in.net###bannerin
 ! まとめたやつ
 ! https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/204
 !/^https?:\/\/(apps?|competition|game|mobile|prize|reward|sweeps)[0-9]{4}\.(noname|smmhck|tutonhamon)[-a-z0-9]+\.live/$document,domain=live
-/^https:\/\/[a-z]{6,}[0-9]{1,2}\.live\/[0-9]{10}\/$document,domain=live
+/^https:\/\/[a-z]{6,}[0-9]{1,2}\.live\/[0-9]{10}\//$document,domain=live
 !--------
 
 
