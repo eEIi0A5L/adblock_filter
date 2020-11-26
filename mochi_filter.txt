@@ -309,7 +309,7 @@ www.yahoo.co.jp###tct
 
 !Yahooトップ中央下部のおすすめ記事内のPR削除（PayPay, カードなど）
 !www.yahoo.co.jp###Stream > div > div > article:has( > a > div > div > div > span:has-text(/^PR$/) )
-www.yahoo.co.jp###span:has-text(/^PR$/):upward( #Stream > div > div > article )
+www.yahoo.co.jp##span:has-text(/^PR$/):upward( #Stream > div > div > article )
 
 
 !Yahooプレミアムの広告バナー
@@ -831,7 +831,8 @@ gyao.yahoo.co.jp##.ad
 
 !タイムラインの広告２
 !「Promoted by 〇〇」とでるやつ
-twitter.com##div[data-testid="placementTracking"]:has(svg + div[dir="auto"] > span:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Mainostettu|推廣|推广|推薦|推荐|プロモーション/))
+!twitter.com##div[data-testid="placementTracking"]:has(svg + div[dir="auto"] > span:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Mainostettu|推廣|推广|推薦|推荐|プロモーション/))
+twitter.com##span:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Mainostettu|推廣|推广|推薦|推荐|プロモーション/):upward(div[data-testid="placementTracking"])
 
 
 !#話題を検索ページの右上おすすめユーザのプロモーション

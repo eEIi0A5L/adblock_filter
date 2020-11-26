@@ -163,15 +163,20 @@ google.com,google.co.jp###main > div:has( > div > div > a > div > div > span:has
 !Twitter
 !英語版
 twitter.com##[data-testid="trend"]:has-text(Promoted):xpath(..)
-twitter.com##div[data-testid="trend"]:has( span:has-text(Promoted by) ):xpath(..)
+!twitter.com##div[data-testid="trend"]:has( span:has-text(Promoted by) ):xpath(..)
+twitter.com##span:has-text(Promoted by):upward( div[data-testid="trend"] ):xpath(..)
 !twitter.com##aside[aria-label="Who to follow"] > div > div[data-testid="UserCell"]:has(:scope  > div > div > div > svg + div:has-text(Promoted))
-twitter.com##div[aria-label^="Timeline:"] > div > div > div:has( svg[viewBox] + div:has-text(Promoted) )
+!twitter.com##div[aria-label^="Timeline:"] > div > div > div:has( svg[viewBox] + div:has-text(Promoted) )
+twitter.com##svg[viewBox] + div:has-text(Promoted):upward( div[aria-label^="Timeline:"] > div > div > div )
 
 !日本語版
 twitter.com##[data-testid="trend"]:has-text(プロモーション):xpath(..)
-twitter.com##div[data-testid="trend"]:has( span:has-text(によるプロモーション) ):xpath(..)
+!twitter.com##div[data-testid="trend"]:has( span:has-text(によるプロモーション) ):xpath(..)
+twitter.com##span:has-text(によるプロモーション):upward( div[data-testid="trend"] ):xpath(..)
 !twitter.com##aside[aria-label="おすすめユーザー"] > div > div[data-testid="UserCell"]:has( > div > div > div > svg + div:has-text(プロモーション))
-twitter.com##div[aria-label^="タイムライン:"] > div > div > div:has( svg[viewBox] + div:has-text(プロモーション) )
+!twitter.com##div[aria-label^="タイムライン:"] > div > div > div:has( svg[viewBox] + div:has-text(プロモーション) )
+twitter.com##svg[viewBox] + div:has-text(プロモーション):upward( div[aria-label^="タイムライン:"] > div > div > div )
+
 
 ! Twitterトラッカー
 !ブロック数が延々と増えるのでやめた。2019.10.23
@@ -185,7 +190,8 @@ twitter.com##div[aria-label^="タイムライン:"] > div > div > div:has( svg[v
 !アプリ誘導BOX
 www.instagram.com##section:has( > div > div > button )
 ! 下にスクロールしていくと出てくるログインダイアログボックス
-www.instagram.com##[role="presentation"]:has(div:has-text(/^\s*(?:Log in to continue|ログインする)\s*$/))
+!www.instagram.com##[role="presentation"]:has(div:has-text(/^\s*(?:Log in to continue|ログインする)\s*$/))
+www.instagram.com##div:has-text(/^\s*(?:Log in to continue|ログインする)\s*$/):upward([role="presentation"])
 www.instagram.com##body:style(overflow: auto !important)
 !Instagramのトップの下部の「無料アプリを入手する」のちらつき防止
 instagram.com###react-root > section > nav > div > div > section.xZ2Xk
@@ -858,9 +864,11 @@ ejje.weblio.jp###adHeadAdDfpBannerId
 ejje.weblio.jp##.adSmpQkBnr
 ejje.weblio.jp##.XremoveAds
 ejje.weblio.jp###eikaiwa-ejje-content-omonnaimi-sp
-ejje.weblio.jp##.division2:has( > .subDivision > h3:has-text(オンライン英会話) )
+!ejje.weblio.jp##.division2:has( > .subDivision > h3:has-text(オンライン英会話) )
+ejje.weblio.jp##.subDivision > h3:has-text(オンライン英会話):upward( .division2 )
 ejje.weblio.jp###ejje-kiji-sp-omonaimi-toeic-list
-ejje.weblio.jp##.division2:has( > .subDivision > h3:has-text(英語でどう言うか知ってる？) )
+!ejje.weblio.jp##.division2:has( > .subDivision > h3:has-text(英語でどう言うか知ってる？) )
+ejje.weblio.jp##.subDivision > h3:has-text(英語でどう言うか知ってる？):upward( .division2 )
 ||d3fr49y3ejekk5.cloudfront.net/column/wp-content/uploads/2020/08/03090603/eikaiwa_ad_bannar_320_50_0731.png
 ||d3fr49y3ejekk5.cloudfront.net/column/wp-content/uploads/2020/08/03090602/eikaiwa_ad_bannar__stident_320_50_0731.png
 eikaiwa_ad_bannar$domain=ejje.weblio.jp
@@ -1505,7 +1513,8 @@ hosyusokuhou.jp##.abox
 hosyusokuhou.jp###ovrss
 !PR
 !https://egg.5ch.net/test/read.cgi/android/1589767928/901-920
-hosyusokuhou.jp##article.entrybox:has( > h2 > a:has-text(/^【PR】/) )
+!hosyusokuhou.jp##article.entrybox:has( > h2 > a:has-text(/^【PR】/) )
+hosyusokuhou.jp##h2 > a:has-text(/^【PR】/):upward( article.entrybox )
 hosyusokuhou.jp##.rankbox
 !新着ヘッドライン
 !hosyusokuhou.jp###top
@@ -2124,7 +2133,7 @@ jp.wackojaco.com##.verboseads-mob-container
 ! まとめたやつ
 ! https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/204
 !/^https?:\/\/(apps?|competition|game|mobile|prize|reward|sweeps)[0-9]{4}\.(noname|smmhck|tutonhamon)[-a-z0-9]+\.live/$document,domain=live
-/^https:\/\/[a-z]{6,}[0-9]{1,2}\.live\/[0-9]{10}\/$document,domain=live
+/^https:\/\/[a-z]{6,}[0-9]{1,2}\.live\/[0-9]{10}\//$document,domain=live
 !--------
 
 

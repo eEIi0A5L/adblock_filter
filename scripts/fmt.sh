@@ -53,6 +53,15 @@ function cosmetic_filter_check()
         return 1 # error
     fi
 
+    # :has()と:has-text()は同時に使用できない
+    if [[ $LINE =~ :has\( ]]; then
+        if [[ $LINE =~ :has-text\( ]]; then
+            echo ":has() + :has-text()"
+            echo "$LINE"
+            return 1 # error
+        fi
+    fi
+
     return 0
 }
 function regexp_check()
@@ -200,6 +209,9 @@ function main()
 {
     for i in $*; do
         if [ "$i" = "misc/tver.txt" ]; then
+            continue
+        fi
+        if [ "$i" = "misc/tmp.txt" ]; then
             continue
         fi
         sub $i
