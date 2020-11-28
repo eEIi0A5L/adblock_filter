@@ -54,13 +54,15 @@ function cosmetic_filter_check()
     fi
 
     # :has()と:has-text()は同時に使用できない
-    if [[ $LINE =~ :has\( ]]; then
-        if [[ $LINE =~ :has-text\( ]]; then
-            echo ":has() + :has-text()"
-            echo "$LINE"
-            return 1 # error
-        fi
-    fi
+    # → 同時使用できる。2020.11.28
+    # https://github.com/eEIi0A5L/adblock_filter/commit/4b7da1f653dcdca0c6a40b4abe54e9d4f49a29ce#comments
+    #if [[ $LINE =~ :has\( ]]; then
+    #    if [[ $LINE =~ :has-text\( ]]; then
+    #        echo ":has() + :has-text()"
+    #        echo "$LINE"
+    #        return 1 # error
+    #    fi
+    #fi
 
     return 0
 }
