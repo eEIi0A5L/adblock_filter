@@ -1292,7 +1292,7 @@ ejje.weblio.jp##.sideBlock:has-text(オンライン英会話)
 !ejje.weblio.jp##div[style="margin:0 0 10px 5px;"]:has( > span:has-text(PR) )
 ejje.weblio.jp##span:has-text(PR):upward(1)
 !ejje.weblio.jp##div:has( > span:has-text(PR!) )
-ejje.weblio.jp##span:has-text(PR!):upward(1)
+!ejje.weblio.jp##span:has-text(PR!):upward(1)
 !ejje.weblio.jp##div[style="margin:10px 0 10px 5px;"]:has( > span:has-text(/^PR/) )
 !ejje.weblio.jp##div[style="margin:10px 0 10px 5px;"]:has( > span:has-text(PR) )
 !ejje.weblio.jp##div[style="margin:10px 0 10px 5px;"]
