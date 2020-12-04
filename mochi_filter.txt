@@ -2151,7 +2151,9 @@ dailynewsonline.jp##.adArea
 !→ima3ありだと広告流れないが動画が再生されない音は聞こえる
 !→ima3なしで広告でない
 !→この現象が起きたときは、@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tver.jpでオフにしてください
-||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tver.jp
+!ABCテレビのみ画面真っ暗になり音声のみ再生される 2020.12.5
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/318
+!||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tver.jp
 tver.jp###ADoverlay
 
 !tver,fod,fuji,2020.05.16
