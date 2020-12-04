@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 26 Nov 2020 21:30 JST
+! Last modified: 04 Dec 2020 21:30 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -2052,6 +2052,9 @@ xrea.com###vdbanner
 !4gamer 右上広告
 www.4gamer.net##.sidetop
 www.4gamer.net##.ad_top
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/313
+4gamer.net##.banner_left_4g
+4gamer.net##.satellite_banner
 
 !greasyfork
 greasyfork.org###script-show-info-ad
