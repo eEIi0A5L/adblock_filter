@@ -2560,7 +2560,8 @@ www.crank-in.net###bannerin
 ||mediamodern.biz^
 !cocolog-nifty.com##+js(window.open-defuser)
 !||cocolog-nifty.com$script
-||cocolog-nifty.com$inline-script
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/321
+!||cocolog-nifty.com$inline-script
 !||in.treasuredata.com^
 !cocolog-nifty.com##+js(abort-on-property-read.js, CocologFPA)
 !cocolog-nifty.com##+js(abort-on-property-read.js, document)
