@@ -1393,6 +1393,7 @@ jable.tv#?#img[src="https://assets.jable.tv/assets/images/252/427-240-3.gif"]:nt
 ||static.pc-adroute.focas.jp^
 ||js.boost-next.co.jp^
 jav.direct##.__isboostOverContent
+jav.direct###iframe > img
 
 !yavtube
 yavtube.com##+js(no-setTimeout-if, _0x)
