@@ -1396,8 +1396,11 @@ jav.direct##.__isboostOverContent
 jav.direct###iframe > img
 
 !yavtube
-yavtube.com##+js(no-setTimeout-if, _0x)
+!yavtube.com##+js(no-setTimeout-if, _0x)
 yavtube.com##+js(abort-on-property-read, open)
+yavtube.com##+js(remove-attr, href, .player-mask)
+yavtube.com##+js(no-setTimeout-if, _0x, !200)
+
 
 !javhdporn
 javmvp.com##+js(addEventListener-defuser, , _blank)
@@ -1446,8 +1449,8 @@ javtheater.com##.__isboostOverContent:has( > .__isboostOverContentCloseBtn )
 !vimv
 vimv.site##.boxzilla-container
 
-
-
+!javfan
+javfan.one##.__isboostOverContent
 
 
 
