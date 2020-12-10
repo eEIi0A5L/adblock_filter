@@ -37,8 +37,10 @@ function cosmetic_filter_check()
             return 1 # error
         fi
         if [[ $id =~ ^(frame|iframe)$ ]]; then
-            echo "match6: LINE=[$LINE]"
-            return 1 # error
+            if [[ ! "$LINE" =~ jav\.direct ]]; then
+                echo "match6: LINE=[$LINE]"
+                return 1 # error
+            fi
         fi
         return 0
     fi
