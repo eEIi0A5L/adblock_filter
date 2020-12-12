@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 04 Dec 2020 21:30 JST
+! Last modified: 12 Dec 2020 21:30 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -123,6 +123,8 @@ www.google.co.jp,www.google.com###bottomads
 !google.co.jp,google.com##.cu-container:has( > div > span > div > div > div > span:has-text(/^(Sponsored|スポンサー)/) )
 !右上の広告
 google.co.jp,google.com##.commercial-unit-desktop-rhs
+!topの広告
+google.com,google.co.jp##.commercial-unit-desktop-top
 
 !gmail
 mail.google.com##.aKB
