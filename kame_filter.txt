@@ -2,7 +2,7 @@
 ! Title: 亀フィルタ（ウイルスサイトブロック）
 ! Description: ウイルスサイトをブロックする
 !
-! Last modified: 2020/10/30 00:00 JST
+! Last modified: 2020/12/19 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/kame.html
 
@@ -292,7 +292,8 @@
 ||tga.co.jp^
 ||tobacco.jp^
 ||umedaumeda.ec-net.jp^
-||www.whbf.jp^
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/328
+!||www.whbf.jp^
 ||your.case.id.for.this.reason.is.pp.rangdeindia.jp^
 !END--------------------------------------------------
 
