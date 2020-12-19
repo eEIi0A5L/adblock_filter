@@ -161,6 +161,9 @@
 !マルウェアアラート
 ||ktechguardiansrn.site^
 
+!詐欺サイトに飛ばされる
+||www.audazweb.com^
+
 !www.twipu.com
 ||herepackagine.info^
 ||dc5k8fg5ioc8s.cloudfront.net^
