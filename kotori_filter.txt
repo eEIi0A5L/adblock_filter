@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ことりフィルタ（SNSボタンブロック）
-! Last modified: Oct 09, 2020 00:00 JST
+! Last modified: Dec 19, 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/kotori.html
 ! 
@@ -211,7 +211,8 @@ news.mynavi.jp##^.sns-list
 note.mu##.p-article__share
 r25.jp##.SnsShareFooter
 thehackernews.com###mobile-share
-www.jiji.com##^.SnsBtn
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/326
+!www.jiji.com##^.SnsBtn
 !------------------------------------------------------------
 
 
