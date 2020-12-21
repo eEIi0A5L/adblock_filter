@@ -194,7 +194,8 @@ yahoo.co.jp###yjSearchPop
 !今日からヤフートップのヘッドラインにコメント数が表示されるようになったんだが
 !https://egg.5ch.net/test/read.cgi/software/1562160518/940
 !www.yahoo.co.jp##a[href^="https://news.yahoo.co.jp/pickup/"]> div > div > span:has(span[style*="10px;"])
-
+!宝くじ
+!www.yahoo.co.jp###Takarabako
 
 !Yahooショッピング
 shopping.yahoo.co.jp##.uiStickyCrm
