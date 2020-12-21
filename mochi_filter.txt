@@ -1305,7 +1305,9 @@ ejje.weblio.jp##div[style="padding: 2px 2px 15px 2px;width: 726px;"]:has-text(We
 ||weblio.hs.llnwd.net/e7/script/include/speed/ejje_ads_manager_pc.js
 ejje.weblio.jp##.mainBlock:has-text(/(英会話コラム|ビジネス英語コラム)/)
 eikaiwa_ad_bannar_730_300.png$domain=ejje.weblio.jp
-
+!ejje.weblio.jp##.intrstR > div:has( > a#gogaku )
+!ejje.weblio.jp##.intrstR > div:has( > a#ginko )
+ejje.weblio.jp##.intrstR > div[style="margin:10px 0 10px 5px;"]
 
 !alc
 eow.alc.co.jp###AreaUpperRight
