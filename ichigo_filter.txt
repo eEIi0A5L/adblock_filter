@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 03 Dec 2020 00:00 JST
+! Last modified: 22 Dec 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
 ! 
@@ -978,6 +978,14 @@ fembed.com##+js(abort-on-property-read.js, decodeURI)
 fembed.com##+js(addEventListener-defuser.js, /^(?:click|mousedown)$/, _0x)
 fembed.com##+js(disable-newtab-links.js)
 fembed.com##+js(no-setInterval-if.js, (), 500)
+bejav.net##+js(nofab)
+||gumbolersgthb.com^
+||popads.net/pop.js$script,redirect-rule=popads.net.js
+||arasyqslwmfat.com^
+ffem.club##+js(abort-on-property-read, open)
+||in-page-push.com^
+||nappybedcandid.com^
+||pinkpig2le8tt09.com^
 
 !xvideo-jp.com
 ||muryouav.avximg.com/2019-01/upload/b0b430c31430a5bca89e175b91f28e8861812745.gif
