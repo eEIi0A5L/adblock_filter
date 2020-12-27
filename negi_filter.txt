@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2020/10/31 00:00 JST
+! Last modified: 2020/12/27 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/negi.html
 
@@ -24,6 +24,9 @@ youtube.com##.branding-img-container
 !サムネ下部に出る白帯の"also watched"のやつ 2020.10.16 ～
 !www.youtube.com###hover-overlays
 
+!Youtube Music
+!トライアル
+music.youtube.com##ytmusic-popup-container:has( > paper-dialog > ytmusic-mealbar-promo-renderer )
 
 !ニコ生＋ニコ動（く）2018.6.28
 ||enquete.nicovideo.jp^$domain=~enquete.nicovideo.jp
