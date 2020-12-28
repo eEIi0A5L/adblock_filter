@@ -929,6 +929,11 @@ dic.nicovideo.jp##div[style="text-align:center; height:250px; width:300px; margi
 twitch.tv##+js(twitch-videoad.js)
 ||c.amazon-adsystem.com/aax2/apstag.js$important,domain=twitch.tv
 ||s0.2mdn.net^$important,domain=twitch.tv
+||d2v02itv0y9u9t.cloudfront.net^
+||googletagservices.com/tag/js/gpt.js$script,important,domain=twitch.tv
+||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js
+||countess.twitch.tv^
+||amazon-adsystem.com^
 
 !Abema
 ||ad.abema.io^
