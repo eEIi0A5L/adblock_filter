@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 22 Dec 2020 00:00 JST
+! Last modified: 29 Dec 2020 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
 ! 
@@ -1042,6 +1042,8 @@ spankbang.com##.vjs-poster
 spankbang.com##+js(window.open-defuser)
 spankbang.com##+js(no-setTimeout-if, /document.location.assign/)
 spankbang.com##.video-list > ins:has( > iframe[height="250"][width="300"] )
+||jp.spankbang.com/cdn-cgi/bm/cv/$script
+||deliver.ptgncdn.com^
 
 !380.cc
 ||adxpansion.com^
