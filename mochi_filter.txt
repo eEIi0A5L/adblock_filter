@@ -1313,6 +1313,7 @@ eikaiwa_ad_bannar_730_300.png$domain=ejje.weblio.jp
 !ejje.weblio.jp##.intrstR > div:has( > a#gogaku )
 !ejje.weblio.jp##.intrstR > div:has( > a#ginko )
 ejje.weblio.jp##.intrstR > div[style="margin:10px 0 10px 5px;"]
+ejje.weblio.jp###main > div[style="margin-bottom:20px;"]
 
 !alc
 eow.alc.co.jp###AreaUpperRight
