@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 28 Dec 2020 21:30 JST
+! Last modified: 03 Jan 2021 21:30 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -726,7 +726,10 @@ mail.yahoo.co.jp###tgtMON
 !||jp.mg5.mail.yahoo.co.jp/darla/php/fc.php?trace=
 !||s.yimg.jp/bdv/yahoo/darla/2-2-4_7/js/darla-secure-beacons-min.js
 mail.yahoo.co.jp###theAd
-
+!豆腐フィルタより
+!広告表示エリア自体を消す
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/331
+mail.yahoo.co.jp###shellcontent:style(right: 0 !important;)
 
 !Yahooメールのスレッド一覧上部の広告を消した後の空白を消す
 !→Yahooメール→画面レイアウト設定→ページスクロールなしでレイアウトがくずれるのでやめた。
