@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 25 Dec 2020 21:30 JST
+! Last modified: 04 Jan 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
 ! 
@@ -784,6 +784,7 @@ cookpad.com##.ps_adm_banner_original
 cookpad.com##.pro_recipes_wrapper
 !広告
 cookpad.com##.tieup_links
+cookpad.com##div[data-ad-slot]
 
 !気象庁
 jma.go.jp##.jma_ad_space
