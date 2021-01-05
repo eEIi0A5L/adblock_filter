@@ -2,7 +2,7 @@
 ! Title: 亀フィルタ（ウイルスサイトブロック）
 ! Description: ウイルスサイトをブロックする
 !
-! Last modified: 2020/12/19 00:00 JST
+! Last modified: 2021/1/5 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/kame.html
 
@@ -188,6 +188,9 @@
 !https://leia.5ch.net/test/read.cgi/poverty/1597301244/
 ||yodyson.com^
 
+!詐欺メール
+||amazon.co.jp.chuyipay.net^
+||amazon.co.jp.
 
 
 !５ちゃんねるの荒らしが誘導しているサイト---------------------
