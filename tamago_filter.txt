@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 04 Jan 2021 00:00 JST
+! Last modified: 07 Jan 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
 ! 
@@ -60,7 +60,10 @@ hs-exp.jp##.dfad
 !ameblo.jp##div[data-amn-unit]
 !ameblo.jp##^div[data-amn-unit]
 ||btstatic.com^
-||yjtag.yahoo.co.jp^
+!Yahooファイナンスで不具合
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/340
+!||yjtag.yahoo.co.jp^
+||yads.yjtag.yahoo.co.jp^
 !https://ln.ameba.jp/v2/
 !https://ameblo.jp/_api
 ||rapi.blogtag.ameba.jp/hashtag/api/v2/article/tag/
