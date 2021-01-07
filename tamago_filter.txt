@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 07 Jan 2021 00:00 JST
+! Last modified: 08 Jan 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
 ! 
@@ -348,6 +348,8 @@ transit.yahoo.co.jp###posNM
 ||s.yimg.jp/images/finance/card-loan/bnr/$image
 ||s.yimg.jp/images/finance/bnr/$image
 ||s.yimg.jp/images/finance/smp/promotion/img/financeApp/bnr/w2a/$image
+m.finance.yahoo.co.jp##.vipGuideBnr
+m.finance.yahoo.co.jp###w2aBnr
 
 ! Yahoo地図の全画面広告
 ||s.yimg.jp/images/map/sp/js/promo.js?
@@ -1511,6 +1513,12 @@ news4vip.livedoor.biz###article-contents > b a
 
 !VIPPERな俺
 !（なし）
+
+!VIPPER速報
+vippers.jp##.article_mid_v2 > .include1 > .res_content
+vippers.jp##.include1 > .res_content
+vippers.jp##.include3 > .res_content
+vippers.jp##.only-sp
 
 !やらおん
 !（なし）
