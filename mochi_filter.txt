@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 08 Jan 2021 00:00 JST
+! Last modified: 09 Jan 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -1705,6 +1705,7 @@ gendai.ismedia.jp###GB_pc_under_right_Rectangle:upward(2)
 !#if adguard
 gendai.ismedia.jp#?##GB_pc_under_right_Rectangle:nth-ancestor(2)
 !#endif
+gendai.ismedia.jp###MG_pc_inArticle
 
 !IZA
 www.iza.ne.jp##.ad-rectangle-banner
