@@ -452,7 +452,7 @@ www.instagram.com##div:has-text(/^\s*(?:Log In to Instagram|Instagramにログ�
 www.instagram.com##div:has-text(/^\s*(?:Log in to continue|ログインする)\s*$/):upward([role="presentation"])
 www.instagram.com##body:style(overflow: auto !important)
 !おすすめユーザ
-!www.instagram.com##div:has( > div > span:has-text(Suggestions For You) )
+!www.instagram.com##div:has( > div > span:has-text(Suggestions For You))
 
 !cnn.jp
 www.cnn.co.jp###right-column > div:last-child
