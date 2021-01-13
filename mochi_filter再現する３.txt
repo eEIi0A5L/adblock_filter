@@ -1,0 +1,75 @@
+[Adblock Plus 2.0]
+! Title: もちフィルタ（広告ブロック）
+! Last modified: 22 Aug 2020 00:00 JST
+! Expires: 6 hours (update frequency)
+! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
+! 
+! 
+
+
+!Twitter
+||twitter.com/1.1/promoted_content/log.json
+
+!英語版
+twitter.com##[data-testid="trend"]:has-text(Promoted):xpath(..)
+twitter.com##div[data-testid="trend"]:has( span:has-text(Promoted by) ):xpath(..)
+!ツイッターを見てるとなんかカクツクのでコメント化。2020.4.12
+!→やっぱり生きに。
+twitter.com##aside[aria-label="Who to follow"] > div > div[data-testid="UserCell"]:has(:scope  > div > div > div > svg + div:has-text(Promoted))
+twitter.com##div[aria-label^="Timeline:"] > div > div > div:has( svg[viewBox] + div:has-text(Promoted) )
+
+!日本語版
+twitter.com##[data-testid="trend"]:has-text(プロモーション):xpath(..)
+twitter.com##div[data-testid="trend"]:has( span:has-text(によるプロモーション) ):xpath(..)
+!ツイッターを見てるとなんかカクツクのでコメント化。2020.4.12
+!→やっぱり生きに。
+twitter.com##aside[aria-label="おすすめユーザー"] > div > div[data-testid="UserCell"]:has( > div > div > div > svg + div:has-text(プロモーション))
+twitter.com##div[aria-label^="タイムライン:"] > div > div > div:has( svg[viewBox] + div:has-text(プロモーション) )
+
+!なんか広告が出るようになった。2020.8.4
+!→言語を英語にすると出る、日本語にすると出ない
+!→ツイッターオープン時初回のみ広告がでる人は、uBO上級者詳細設定でsuspendTabsUntilReady yesにしてみてください
+!twitter.com##div[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|プロモーション|Реклама|Uitgelicht|sponsorluğunda|Mainostettu|推廣|推广/)
+!twitter.com##div[data-testid="UserCell"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|プロモーション|Реклама|Uitgelicht|Sponsorlu|Mainostettu|推廣|推广/)
+!twitter.com##[data-testid="trend"]:has-text(/推荐|Promoted|Gesponsert|Реклама|Promocionado|Sponsorisé|Uitgelicht|プロモーション/):upward(1)
+twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐' or text()='プロモーション')]/../../../../..)
+||app.link^$3p
+||twitter.com/i/csp_report?
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/251-252
+!twitter.com##[data-testid="placementTracking"]
+!twitter.com##article:has( > div > div > div > div[data-testid="tweet"] > div > div > div > div > span:has-text(/Promoted|プロモーション/) )
+||ads-api.twitter.com^
+||twitter.com/1.1/promoted_content/log.json
+||google-analytics.com^$domain=twitter.com
+!twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐' or text()='プロモーション')]/../../../../..)
+!twitter.com##div[data-testid="tweet"]:has( > div > div > div > div > span:has-text(/Promoted|プロモーション/) )
+!twitter.com##div[data-testid="tweet"]:has-text(/Promoted|プロモーション/)
+twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐' or contains(text(), 'プロモーション'))]/../../../../..)
+
+!どうもツイッターでの餅フィルタが誤爆したりブロックしきれていないという状況にあるようです
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/261-262
+twitter.com##div[data-testid="placementTracking"]:has(svg + div[dir="auto"] > span:has-text(/Promoted|プロモーション/))
+twitter.com##div[data-testid="trend"]:has-text(/Promoted|プロモーション/)
+twitter.com##div[data-testid="UserCell"]:has-text(/Promoted|プロモーション/)
+
+
+
+
+
+
+
+
+!https://twitter.com/okkinapanda
+twitter.com##div:has( > div > div > div > h2 > div > span:has-text(/Promoted Tweet|プロモツイート/) )
+
+! Twitterトラッカー
+!ブロック数が延々と増えるのでやめた。2019.10.23
+!||api.twitter.com/1.1/jot/client_event.json|$xmlhttprequest
+||api.twitter.com/1.1/jot/external_referer.json|$xmlhttprequest
+||api.twitter.com/1.1/onboarding/referrer.json|$xmlhttprequest
+||platform.twitter.com/oct.js|
+||twitter.com/etc/clientlibs/dtm/*/satelliteLib-$script
+
+
+
+! END
