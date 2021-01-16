@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 14 Jan 2021 00:00 JST
+! Last modified: 17 Jan 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
 ! 
@@ -1030,6 +1030,14 @@ kissjav.com##+js(popads-dummy.js)
 ||webgekeniuos.com^$third-party
 kissjav.com###player-advertising
 kissjav.com##+js(nobab)
+||bngpt.com^
+kissjav.com##.adv-container
+||addthis.com^$3p,important,domain=~missingkids.com|~missingkids.org|~sainsburys.jobs|~sitecore.com|~amd.com
+||s3t3d2y7.ackcdn.net^
+kissjav.com###fluid_nonLinear_ID0
+kissjav.com###fluid_nonLinear_ID1
+kissjav.com###fluid_nonLinear_ID2
+kissjav.com###fluid_nonLinear_ID3
 
 !av.movie
 ||i.imgur.com/Oz4G3br.gif
