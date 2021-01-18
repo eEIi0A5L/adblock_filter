@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 12 Jan 2021 00:00 JST
+! Last modified: 18 Jan 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -2204,6 +2204,7 @@ spotify.com##.ads-container__inner
 ||adeventtracker.spotify.com^
 ||audio-ak*-spotify-com.akamaized.net/audio/$media,redirect=noopmp4-1s,domain=spotify.com
 ||audio-ak*-spotify-com.akamaized.net/audio/$media,domain=spotify.com
+open.spotify.com##div[data-testid="test-ref-div"]:upward(1)
 
 
 !Buzzfeed
