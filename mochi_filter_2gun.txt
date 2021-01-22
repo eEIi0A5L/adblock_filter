@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 9 Nov 2020 00:00 JST
+! Last modified: 22 Jan 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi_2gun.html
 ! 
@@ -1715,6 +1715,7 @@ qiita.com##^.p-home_aside > div[style="margin-bottom: 16px;"]:has( > a > img )
 qiita.com##.ac-CampaignLink
 qiita.com##div[id^="HomeSidebarAdvertisement-react-component"]
 qiita.com##^div[id^="HomeSidebarAdvertisement-react-component"]
+qiita.com##.wb-CampaignLink
 
 
 
