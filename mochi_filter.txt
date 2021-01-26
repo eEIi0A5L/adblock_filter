@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 18 Jan 2021 00:00 JST
+! Last modified: 26 Jan 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -1321,6 +1321,9 @@ eikaiwa_ad_bannar_730_300.png$domain=ejje.weblio.jp
 !ejje.weblio.jp##.intrstR > div:has( > a#ginko )
 ejje.weblio.jp##.intrstR > div[style="margin:10px 0 10px 5px;"]
 ejje.weblio.jp###main > div[style="margin-bottom:20px;"]
+ejje.weblio.jp###executive:upward(1)
+ejje.weblio.jp##span[style="background-color:#f00;color:#fff;font-size:10px;padding:0 3px;font-weight:bold;border-radius:2px;letter-spacing:0;"]:upward(1)
+
 
 !alc
 eow.alc.co.jp###AreaUpperRight
