@@ -529,7 +529,9 @@ headlines.yahoo.co.jp,news.yahoo.co.jp##div[id^="spocon"]
 
 !Yahooニュース検索結果の広告
 !news.yahoo.co.jp##li:has( > a > cite > span:has-text(広告) )
-news.yahoo.co.jp##span:has-text(広告):upward(3)
+!Yahooトップコロナ情報で、グラフが表示されない
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/344
+!news.yahoo.co.jp##span:has-text(広告):upward(3)
 
 
 !END----------------------------------------------
