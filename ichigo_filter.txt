@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 17 Jan 2021 00:00 JST
+! Last modified: 31 Jan 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
 ! 
@@ -1472,6 +1472,40 @@ vimv.site##.boxzilla-container
 
 !javfan
 javfan.one##.__isboostOverContent
+
+
+!eporner
+eporner.com##+js(abort-on-property-write, EPeventFire)
+eporner.com##+js(no-setTimeout-if, additional_src, 300)
+eporner.com##+js(popads-dummy)
+eporner.com##+js(abort-on-property-read, ExoLoader)
+eporner.com##+js(addEventListener-defuser, getexoloader)
+eporner.com##+js(abort-on-property-read, BetterJsPop)
+||eporner.com/dot/$script
+||www.eporner.com/i/piwik.js
+eporner.com###admobiletop
+eporner.com##.adstext
+||bestcontentfood.top^$3p
+eporner.com##iframe[width="300"][height="250"]
+!eporner.com###movieplayer-box-adv
+eporner.com##.hptab
+eporner.com###btasd
+/www.eporner.com\/[^xhr][^comment][1-9]{0,3}[a-z]{0,3}/$script,domain=eporner.com
+eporner.com##.vjs-inplayer-container
+eporner.com##.ad300px
+eporner.com###movieplayer-box-adv-iframe
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
