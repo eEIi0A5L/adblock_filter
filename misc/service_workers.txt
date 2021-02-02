@@ -21,7 +21,7 @@
 ||watch-video.net^
 ||findmedia.biz^
 ||pan-pan.co/push7-worker.js
-https://freebitco.in/service-worker.js
+||freebitco.in/service-worker.js
 
 
 
