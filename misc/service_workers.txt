@@ -22,6 +22,7 @@
 ||findmedia.biz^
 ||pan-pan.co/push7-worker.js
 ||freebitco.in/service-worker.js
+||callhimnamerstone.ga/w_15.js
 
 
 
