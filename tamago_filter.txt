@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 24 Jan 2021 00:00 JST
+! Last modified: 06 Feb 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
 ! 
@@ -2125,7 +2125,11 @@ www.gizmodo.jp##.p-post-ad
 jp.wackojaco.com##.verboseads-mob-container
 
 !IGN
-jp.ign.com##.zad
+!記事タイトルがトップのバーとかぶって見えなくなっている。
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/347
+!jp.ign.com##.zad
+jp.ign.com##.mobileArticleAds
+jp.ign.com##.ad-wrapper
 
 
 
