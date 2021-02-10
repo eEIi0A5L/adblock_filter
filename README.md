@@ -10,3 +10,5 @@
 
 Homepage https://eeii0a5l.github.io/mochifilter_homepage/
 
+# LICENSE
+*  CC0 (Public Domain), free to use.
