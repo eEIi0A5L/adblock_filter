@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 01 Feb 2021 00:00 JST
+! Last modified: 12 Feb 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -1011,6 +1011,9 @@ bbspink.com###top_banner
 bbspink.com##.bbspink-top-ads
 ||banpro.in.coocan.jp/mcban/banner/2chban/
 ||stimgc.thench.net/bbs-ad/
+!５ちゃんねるのスレの下の部分に、広告が出ます
+!https://egg.5ch.net/test/read.cgi/software/1602052066/740
+5ch.net##body > div[style^="position: fixed;bottom:"]
 
 
 
