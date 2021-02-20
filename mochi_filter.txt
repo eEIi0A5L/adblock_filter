@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 12 Feb 2021 00:00 JST
+! Last modified: 21 Feb 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -102,7 +102,8 @@ www.youtube.com##.iv-promo
 !→Google画像検索で上部のタグが表示されない
 !www.google.co.jp,www.google.com###taw
 !www.google.co.jp,www.google.com##.commercial-unit-desktop-top
-www.google.co.jp,www.google.com##:xpath(//div[@id="tads"]/parent::div/parent::div)
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/361
+!www.google.co.jp,www.google.com##:xpath(//div[@id="tads"]/parent::div/parent::div)
 www.google.co.jp,www.google.com###bottomads
 !下に書いてある
 !||google.co.jp/gen_204?$other
