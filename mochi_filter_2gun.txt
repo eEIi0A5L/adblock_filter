@@ -541,7 +541,8 @@ hosyusokuhou.jp##article.entrybox > section > a:has-text(/^【PR】/):upward(2)
 !ブログランキングの応援クリック要素だけ表示したい
 !https://egg.5ch.net/test/read.cgi/android/1554363290/690
 !||with2.net^
-||d2p8taqyjofgrq.cloudfront.net^
+!ZAIFで表示が崩れる。2021.2.21
+!||d2p8taqyjofgrq.cloudfront.net^
 ||fx-on.com^$third-party
 ||gogojungle.co.jp^
 !blog.livedoor.jp##.article-body-more > a
