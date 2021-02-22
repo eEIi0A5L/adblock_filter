@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 11 Feb 2021 00:00 JST
+! Last modified: 23 Feb 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
 ! 
@@ -942,6 +942,7 @@ b.hatena.ne.jp##.js-smart-app-banner-container::before:style(height: 0px !import
 ||gendai.ismedia.jp/list/v3-ad-inArticle/
 ||comcluster.cxense.com^
 gendai.ismedia.jp##.ad-in-article
+gendai.ismedia.jp##.ad-container
 
 !FNN
 ||fnn-news.com/sp/news/data/uliza/ad_exclude_sitejack.json
