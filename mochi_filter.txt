@@ -127,6 +127,7 @@ google.co.jp,google.com##.commercial-unit-desktop-rhs
 !topの広告
 google.com,google.co.jp##.commercial-unit-desktop-top
 google.co.jp,google.com###tads[aria-label="Ads"]
+google.co.jp,google.com###tads[aria-label="広告"]
 
 !gmail
 mail.google.com##.aKB
