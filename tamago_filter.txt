@@ -2168,7 +2168,7 @@ jp.ign.com##.ad-wrapper
 ! まとめたやつ
 ! https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/204
 !/^https?:\/\/(apps?|competition|game|mobile|prize|reward|sweeps)[0-9]{4}\.(noname|smmhck|tutonhamon)[-a-z0-9]+\.live/$document,domain=live
-/^https:\/\/[a-z]{6,}[0-9]{1,2}\.live\/[0-9]{10}\//$document,domain=live
+/^https:\/\/[-a-z]{6,}\d{1,2}\.li[fv]e\/\d{10}/$document,domain=life|live
 !--------
 
 
@@ -2234,7 +2234,7 @@ jp.ign.com##.ad-wrapper
 !https://topernews.me/?p=he4deyjrmm5gi3bpg4zq
 ||topernews.me^
 !apps4651.pingtopingsrv136.life
-/^http:\/\/apps[0-9]+\.pingtopingsrv[0-9]+\.life/$document,domain=life
+!/^http:\/\/apps[0-9]+\.pingtopingsrv[0-9]+\.life/$document,domain=life
 
 !業者に買われたドメイン
 !詐欺サイトに誘導される
@@ -2312,10 +2312,10 @@ jp.ign.com##.ad-wrapper
 ||ww1.freett.com^
 
 !http://www.candy-av.com/
-/^https:\/\/ram[0-9]+\.proasdf\.com\//
+/^https:\/\/ram[0-9]+\.proasdf\.com\//$document,domain=com
 ||sarah.ttnrd.com^
 ||usd.appius-dae.com^
-||thebig-prizebox3.life^
+!||thebig-prizebox3.life^
 !/^https:\/\/takeyourhere[0-9]+\.live\//
 
 !https://egg.5ch.net/test/read.cgi/android/1594882598/170
