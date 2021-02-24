@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 23 Feb 2021 00:00 JST
+! Last modified: 25 Feb 2021 01:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -196,9 +196,6 @@ www.yahoo.co.jp###windowShade
 !www.yahoo.co.jp###Peron
 !www.yahoo.co.jp##img[alt="いい買物の日"][src="https://s.yimg.jp/images/evt/kaimono/2019/ytop/pc/ws_1980_70.png"]:upward(1)
 www.yahoo.co.jp##img[alt="いい買物の日"][src^="https://s.yimg.jp/images/evt/kaimono/"]:upward(1)
-!#if adguard
-www.yahoo.co.jp#?#img[alt="いい買物の日"][src^="https://s.yimg.jp/images/evt/kaimono/"]:nth-ancestor(1)
-!#endif
 !「背景を閉じる」
 !→もういらないような気がする
 !www.yahoo.co.jp###windowShade
@@ -938,7 +935,6 @@ dic.nicovideo.jp##div[style="text-align:center; height:250px; width:300px; margi
 !Twitch
 !twitchでカウントが増え続ける問題の解法
 @@||sb.scorecardresearch.com/p?$image,domain=twitch.tv
-twitch.tv##+js(twitch-videoad.js)
 ||c.amazon-adsystem.com/aax2/apstag.js$important,domain=twitch.tv
 ||s0.2mdn.net^$important,domain=twitch.tv
 ||d2v02itv0y9u9t.cloudfront.net^
@@ -989,7 +985,6 @@ abema.tv##.com-tv-top-CommercialBannerCarousel
 5ch.net##.ADVERTISE_AREA
 5ch.net##.ADVERTISE_AREA + div
 5ch.net##div[id^="horizontalbanners"]
-||ad.maist.jp^
 !||spcdnpc.i-mobile.co.jp/ad_creative.ashx
 ||spsvcpc-tls.i-mobile.co.jp/ad_spot.aspx
 ||stimg.thench.net/bbs-ad/
@@ -1039,21 +1034,18 @@ jbbs.shitaraba.net##table:has( > tbody > tr > td > div > center > table > tbody 
 jbbs.shitaraba.net##.jbbsCustomHeader > table + br + table
 rentalbbs.shitaraba.com##.banner-300_250
 jbbs.shitaraba.net##div[id$="_INSERT_SLOT_ID_HERE"]:upward(1)
-!#if adguard
-jbbs.shitaraba.net#?#div[id$="_INSERT_SLOT_ID_HERE"]:nth-ancestor(1)
-!#endif
 !https://egg.5ch.net/test/read.cgi/software/1562160518/627
 jbbs.shitaraba.net###recommend_ad
 
 !ログ速
 ||ads.logsoku.com^
-www.logsoku.com##.ad_area
-www.logsoku.com##.thread_header_view + .thread-box
-www.logsoku.com##dl[id="1"] > div
-www.logsoku.com##.ad_bottom_space
-www.logsoku.com###fixed_area
-www.logsoku.com##div[style="text-align:left;margin:10px;min-height:90px;"]
-www.logsoku.com##div[style="text-align:center;margin:5px;min-height:90px;"]
+logsoku.com##.ad_area
+logsoku.com##.thread_header_view + .thread-box
+logsoku.com##dl[id="1"] > div
+logsoku.com##.ad_bottom_space
+logsoku.com###fixed_area
+logsoku.com##div[style="text-align:left;margin:10px;min-height:90px;"]
+logsoku.com##div[style="text-align:center;margin:5px;min-height:90px;"]
 
 !なろう
 ||microad.jp^
@@ -1555,9 +1547,6 @@ www.tbs.co.jp##.over:has( > .wrap > .recta_bg )
 
 !フジテレビ
 www.fujitv.co.jp###cx_gbheader_sb:upward(1)
-!#if adguard
-www.fujitv.co.jp#?##cx_gbheader_sb:nth-ancestor(1)
-!#endif
 
 !テレ東
 !https://egg.5ch.net/test/read.cgi/software/1524667609/33
@@ -1611,13 +1600,13 @@ mainichi.jp###cxPageModalBnr
 ||sponichi.co.jp/css/ad.css
 ||sponichi.co.jp/css/common/ad_freepage.css
 ||ad.jp.ap.valuecommerce.com^
-www.sponichi.co.jp###ad
-www.sponichi.co.jp##div[id^="crt"]
-www.sponichi.co.jp###content-sub > p + div[style="width:300px;height:600px;"]
-www.sponichi.co.jp###annex_pc_entertainment_mid_rect
-www.sponichi.co.jp##.banner03
-www.sponichi.co.jp###annex_pc_baseball_mid_rect
-www.sponichi.co.jp###annex_pc_baseball_foot_rect
+sponichi.co.jp###ad
+sponichi.co.jp##div[id^="crt"]
+sponichi.co.jp###content-sub > p + div[style="width:300px;height:600px;"]
+sponichi.co.jp###annex_pc_entertainment_mid_rect
+sponichi.co.jp##.banner03
+sponichi.co.jp###annex_pc_baseball_mid_rect
+sponichi.co.jp###annex_pc_baseball_foot_rect
 sponichi.co.jp##div[data-component="ad-basic"]
 
 !デイリー
@@ -1649,11 +1638,11 @@ www.tokyo-sports.co.jp##.recommend-box.post-list-box
 
 !NEWSポストセブン
 !gifアニメがうざい
-www.news-postseven.com##.banner
-www.news-postseven.com##.inner-ad
-!www.news-postseven.com###mailmag2
+news-postseven.com##.banner
+news-postseven.com##.inner-ad
+!news-postseven.com###mailmag2
 ||news-postseven.com/img3_renew/banner/
-www.news-postseven.com##a[href$="?_from=sidebanner"]
+news-postseven.com##a[href$="?_from=sidebanner"]
 
 !dwango
 ||adn-d.sp.gmossp-sp.jp^
@@ -1668,8 +1657,8 @@ jisin.jp##.ad_area
 jisin.jp##.gmossp_ad_frame
 
 !J-Cast
-www.j-cast.com##.adunit
-www.j-cast.com##.ad_entry_toptext
+j-cast.com##.adunit
+j-cast.com##.ad_entry_toptext
 
 !サンスポ
 www.sanspo.com##.adRectangleBanner
@@ -1712,22 +1701,19 @@ taishu.jp##.toptxt
 taishu.jp##.ad-article-rectangle
 
 !日刊ゲンダイ
-www.nikkan-gendai.com##.ad-box
-www.nikkan-gendai.com###_pr_1st
-www.nikkan-gendai.com##.pr
+nikkan-gendai.com##.ad-box
+nikkan-gendai.com###_pr_1st
+nikkan-gendai.com##.pr
 ||cdnext.stream.ne.jp/img/common/gendai_online.png|
 ||cdnext.stream.ne.jp/img/pr/
 
 !現代ビジネス
 gendai.ismedia.jp###GB_pc_under_right_Rectangle:upward(2)
-!#if adguard
-gendai.ismedia.jp#?##GB_pc_under_right_Rectangle:nth-ancestor(2)
-!#endif
 gendai.ismedia.jp###MG_pc_inArticle
 
 !IZA
-www.iza.ne.jp##.ad-rectangle-banner
-www.iza.ne.jp##div[style="width:300px;height:600px;"]
+iza.ne.jp##.ad-rectangle-banner
+iza.ne.jp##div[style="width:300px;height:600px;"]
 
 
 !リアルライブ
@@ -1758,8 +1744,8 @@ wired.jp##.ad-background-holder
 wired.jp##.banner-pc-banner-wsky
 
 !ギズモード
-www.gizmodo.jp##.ad-banner
-www.gizmodo.jp##.s-body-ad
+gizmodo.jp##.ad-banner
+gizmodo.jp##.s-body-ad
 
 !聯合ニュース
 m.yna.co.kr##.foreign-ad01
@@ -1770,8 +1756,8 @@ m.yna.co.kr##.foreign-ad02
 ||kyoto-np.co.jp/koukoku/image/ad_citykyoto0910.gif
 ||kyoto-np.co.jp/koukoku/banner.php
 ||kyoto-np.co.jp/koukoku/image/kcg-edu.gif
-www.kyoto-np.co.jp##.headerAdArea
-www.kyoto-np.co.jp##.BnrLnkSbs
+kyoto-np.co.jp##.headerAdArea
+kyoto-np.co.jp##.BnrLnkSbs
 
 !まんたんウェブ
 mantan-web.jp##.ad-rec
@@ -1872,12 +1858,12 @@ www.itmedia.co.jp##.colBoxR50:has(> div[id^="div-gpt-ad-"])
 
 !やり直し
 !まず@IT Specialは消す。PRなので
-www.atmarkit.co.jp###ISALC
-www.atmarkit.co.jp###cxensereRectangle
-www.atmarkit.co.jp###body_insert_ad
-www.atmarkit.co.jp###rrec
-www.atmarkit.co.jp##.dmp-area
-www.atmarkit.co.jp###dmp
+atmarkit.co.jp###ISALC
+atmarkit.co.jp###cxensereRectangle
+atmarkit.co.jp###body_insert_ad
+atmarkit.co.jp###rrec
+atmarkit.co.jp##.dmp-area
+atmarkit.co.jp###dmp
 ||cse.google.com/adsense/search/async-ads.js
 ||atmarkit.co.jp/js/ait/ex_adRequest.js
 ||atmarkit.co.jp/js/ad.js
@@ -1965,10 +1951,9 @@ seesaawiki.jp###seesaa-bnr
 ||a8.net^$third-party
 
 !斧
-||bn.maist.jp^
 ||cd.ladsp.com^
-www.axfc.net##a[href^="http://click.ad-stir.com/"]
-www.axfc.net##.bnf
+axfc.net##a[href^="http://click.ad-stir.com/"]
+axfc.net##.bnf
 ||js.ad-stir.com^
 ||d.href.asia/nw/d/ajs.php?zoneid=
 
@@ -2005,10 +1990,6 @@ www.excite.co.jp###gpt_pc_news_1st_rec
 www.excite.co.jp###gpt_pc_news_2nd_rec
 www.excite.co.jp##div[id^="gpt_pc_news_rightcolumn_ranking_infeed"]:upward(1)
 www.excite.co.jp##div[id^="gpt_pc_news_infeed"]:upward(1)
-!#if adguard
-www.excite.co.jp#?#div[id^="gpt_pc_news_rightcolumn_ranking_infeed"]:nth-ancestor(1)
-www.excite.co.jp#?#div[id^="gpt_pc_news_infeed"]:nth-ancestor(1)
-!#endif
 www.excite.co.jp##.box-img:has( > .img-extra > #gpt_pc_news_inarticle )
 
 !exciteブログ
@@ -2128,9 +2109,6 @@ www.pixiv.net##a[href="/premium/lead/lp?g=anchor&i=work_detail_remove_ads"]
 !www.pixiv.net###root > div > div > div > div > div[class^="sc-"]:first-child
 !右サイドの広告
 www.pixiv.net##iframe[name="300x250"]:upward(1)
-!#if adguard
-www.pixiv.net#?#iframe[name="300x250"]:nth-ancestor(1)
-!#endif
 
 !imgur
 ||s.imgur.com/min/advertising.js
@@ -2151,15 +2129,14 @@ news.biglobe.ne.jp###gadsOverlayUnit
 
 
 !gamespark
-||deliver.ads2.iid.jp^
 !beacon
 ||widget.iid-network.jp^
 ||gamespark.jp/base/scripts/infinite_scroll_article_cxense_ad_tracking.js
 ||gamespark.jp/feature/jackAD/
 ||gamespark.jp/feature/advertising/
-www.gamespark.jp###danglingList
-www.gamespark.jp##li.item:has(> a > article > img[alt^="【PR】"])
-www.gamespark.jp##section.item:has(> a > img[alt^="【PR】"])
+gamespark.jp###danglingList
+gamespark.jp##li.item:has(> a > article > img[alt^="【PR】"])
+gamespark.jp##section.item:has(> a > img[alt^="【PR】"])
 
 !モデルプレス
 ||g2.gumgum.com^
@@ -2440,7 +2417,7 @@ www.crank-in.net###bannerin
 ! まとめたやつ
 ! https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/204
 !/^https?:\/\/(apps?|competition|game|mobile|prize|reward|sweeps)[0-9]{4}\.(noname|smmhck|tutonhamon)[-a-z0-9]+\.live/$document,domain=live
-/^https:\/\/[a-z]{6,}[0-9]{1,2}\.live\/[0-9]{10}\//$document,domain=live
+/^https:\/\/[-a-z]{6,}\d{1,2}\.li[fv]e\/\d{10}/$document,domain=life|live
 !--------
 
 
@@ -2475,7 +2452,7 @@ www.crank-in.net###bannerin
 !ブラウザアンケのやつ
 ||get-prize-snow2.life^
 ||clk.rtpdn10.com^
-/glp?r=*&rw=*&rh=*&ww=*&wh=$first-party,script
+/glp?r=*&rw=*&rh=*&ww=*&wh=$~third-party,script
 
 !http://tanabata.org/
 !http://reward6075.bh5645tfggfd25.agency/6034758834/?utm_campaign=bKMuT7EMVXU5Z6UvvSHONGlfu-yV43iC8T8uYixAFxs1&t=main9_c809045a27046e2a3b&f=1
@@ -2506,7 +2483,7 @@ www.crank-in.net###bannerin
 !https://topernews.me/?p=he4deyjrmm5gi3bpg4zq
 ||topernews.me^
 !apps4651.pingtopingsrv136.life
-/^http:\/\/apps[0-9]+\.pingtopingsrv[0-9]+\.life/$document,domain=life
+!/^http:\/\/apps[0-9]+\.pingtopingsrv[0-9]+\.life/$document,domain=life
 
 !業者に買われたドメイン
 !詐欺サイトに誘導される
@@ -2519,7 +2496,6 @@ www.crank-in.net###bannerin
 ||tq.adventurefeeds.com^
 ||track.tkbo.com^
 ||usa.odysseus-nua.com^
-||thusfun9.live^
 ||central-messages.com^
 ||clk.rtpdn11.com^
 /search/tsc.php?
@@ -2534,14 +2510,12 @@ www.crank-in.net###bannerin
 !https://fate.5ch.net/test/read.cgi/ios/1524080618/347
 !/^http:\/\/prize[0-9]+\.smmhck[0-9]+\.live/
 !https://fate.5ch.net/test/read.cgi/ios/1524080618/349
-||tdsjsext1.com^
 !/^http:\/\/competition[0-9]+\.nonamesrv[0-9]+\.live/
 
 !http://www.ramsar.org/
 !/^http:\/\/mobile[0-9]+\.nonamefbr[0-9]+\.live/
 
 !http://www.kokochiyu.com/
-||sarah.trktnc.com^
 ||tel-kod.ru^
 ||tudocasamento.com^
 
@@ -2556,7 +2530,6 @@ www.crank-in.net###bannerin
 
 !https://vazzapp.com/gamearticle1/
 ||vazzapp.com^
-||xn--581-9la.biz^
 ||xn--3389-poa.biz^
 ||best2019-games-web4.com^
 
@@ -2585,10 +2558,10 @@ www.crank-in.net###bannerin
 ||ww1.freett.com^
 
 !http://www.candy-av.com/
-/^https:\/\/ram[0-9]+\.proasdf\.com\//
+/^https:\/\/ram[0-9]+\.proasdf\.com\//$document,domain=com
 ||sarah.ttnrd.com^
 ||usd.appius-dae.com^
-||thebig-prizebox3.life^
+!||thebig-prizebox3.life^
 !/^https:\/\/takeyourhere[0-9]+\.live\//
 
 

@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: クジラフィルタ（コインマイニングブロック）
-! Last modified: 2019/10/07 00:00 JST
+! Last modified: 2021/02/25 01:00 JST
 ! Expires: 6 hours (update frequency)
 
 !【下記の購読も必要】
@@ -28,18 +28,9 @@
 ||crypto-loot.com^$third-party
 ||camillesanz.com^$third-party
 !||oinblind.com^$third-party
-||jquerystatistics.org^$third-party
 ||etacontent.com^$third-party
 ||cazala.github.io^$third-party
 ||eruuludam.mn^$third-party
-||playerhd2.pw^$third-party
-
-!https://egg.5ch.net/test/read.cgi/software/1515404854/802
-!ttp://www.ztemobile.jp/っていうスマホ販売会社のサイト開くと
-!www.jqcdn.download/ってのがCPU使用率を300%ほど食うから開かいないほうがいいぞ
-!http://forums.cgsociety.org/showthread.php?f=2&t=1492892
-||www.jqcdn.download^$third-party
-
 
 !やたらCMがうざい
 ||sun-mining.com^$third-party
