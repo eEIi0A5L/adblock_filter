@@ -161,7 +161,7 @@ www.google.co.jp,www.google.com##.commercial-unit-mobile-bottom
 www.google.com##div#main > div.D1fz0e
 
 !google,広告,Android,Firefox,2020.7.12
-google.com,google.co.jp###main > div:has( > div > div > a > div > div > span:has-text(/^Ad$/) )
+google.com,google.co.jp###main > div:has(> div > div > a > div > div > span:has-text(/^Ad$/))
 
 !Twitter
 !英語版
