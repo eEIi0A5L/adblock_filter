@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 23 Feb 2021 00:00 JST
+! Last modified: 25 Feb 2021 01:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -985,7 +985,6 @@ abema.tv##.com-tv-top-CommercialBannerCarousel
 5ch.net##.ADVERTISE_AREA
 5ch.net##.ADVERTISE_AREA + div
 5ch.net##div[id^="horizontalbanners"]
-||ad.maist.jp^
 !||spcdnpc.i-mobile.co.jp/ad_creative.ashx
 ||spsvcpc-tls.i-mobile.co.jp/ad_spot.aspx
 ||stimg.thench.net/bbs-ad/
@@ -1952,7 +1951,6 @@ seesaawiki.jp###seesaa-bnr
 ||a8.net^$third-party
 
 !斧
-||bn.maist.jp^
 ||cd.ladsp.com^
 axfc.net##a[href^="http://click.ad-stir.com/"]
 axfc.net##.bnf
@@ -2131,7 +2129,6 @@ news.biglobe.ne.jp###gadsOverlayUnit
 
 
 !gamespark
-||deliver.ads2.iid.jp^
 !beacon
 ||widget.iid-network.jp^
 ||gamespark.jp/base/scripts/infinite_scroll_article_cxense_ad_tracking.js
@@ -2499,7 +2496,6 @@ www.crank-in.net###bannerin
 ||tq.adventurefeeds.com^
 ||track.tkbo.com^
 ||usa.odysseus-nua.com^
-||thusfun9.live^
 ||central-messages.com^
 ||clk.rtpdn11.com^
 /search/tsc.php?
@@ -2514,14 +2510,12 @@ www.crank-in.net###bannerin
 !https://fate.5ch.net/test/read.cgi/ios/1524080618/347
 !/^http:\/\/prize[0-9]+\.smmhck[0-9]+\.live/
 !https://fate.5ch.net/test/read.cgi/ios/1524080618/349
-||tdsjsext1.com^
 !/^http:\/\/competition[0-9]+\.nonamesrv[0-9]+\.live/
 
 !http://www.ramsar.org/
 !/^http:\/\/mobile[0-9]+\.nonamefbr[0-9]+\.live/
 
 !http://www.kokochiyu.com/
-||sarah.trktnc.com^
 ||tel-kod.ru^
 ||tudocasamento.com^
 
@@ -2536,7 +2530,6 @@ www.crank-in.net###bannerin
 
 !https://vazzapp.com/gamearticle1/
 ||vazzapp.com^
-||xn--581-9la.biz^
 ||xn--3389-poa.biz^
 ||best2019-games-web4.com^
 

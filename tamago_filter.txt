@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 23 Feb 2021 00:00 JST
+! Last modified: 25 Feb 2021 01:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
 ! 
@@ -487,7 +487,6 @@ itest.bbspink.com##div[style="height: 250px; position: relative; text-align: cen
 5ch.net##.ADVERTISE_AREA
 5ch.net##.ADVERTISE_AREA + div
 5ch.net##div[id^="horizontalbanners"]
-||ad.maist.jp^
 ||spcdnpc.i-mobile.co.jp/ad_creative.ashx
 ||spsvcpc-tls.i-mobile.co.jp/ad_spot.aspx
 ||stimg.thench.net/bbs-ad/
@@ -556,7 +555,6 @@ buzzfeed.com###mod-action-bar-1
 ||buzzfeed.com/static/js/advertiser/ads.js
 
 !斧
-||bn.maist.jp^
 ||cd.ladsp.com^
 axfc.net##a[href^="http://click.ad-stir.com/"]
 axfc.net##.bnf
@@ -634,9 +632,7 @@ style.nikkei.com##.SnsBox
 style.nikkei.com##.ad_inview
 
 !Mainichi
-||cf.ad-v.jp^
 !||i.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js
-||web-jp.ad-v.jp^
 ||b97.yahoo.co.jp/pagead/conversion_async.js
 ||s-adserver.cxad.cxense.com^
 !||yads.yahoo.co.jp/js/yads.js
@@ -1094,11 +1090,6 @@ jp.sputniknews.com###smartbanner
 !jp.sputniknews.com##html:style(margin-top: 0px;)
 ||jp.sputniknews.com/min/js/plugins/jquery.smartbanner.js
 
-
-!carnnyマガジン
-||carnny.jp/wp-content/themes/carnny_jp_pc/images/f_banner_02.png
-carnny.jp##.footer_menu
-
 !オール５
 www.all5.jp###fixBanner
 
@@ -1129,7 +1120,6 @@ eiga.com##.adBox-a
 eiga.com###rect_ad
 
 !Gamer
-||recocro.xseed-digital.jp^
 gamer.ne.jp##.jackBanner
 gamer.ne.jp##.background
 
@@ -1154,10 +1144,6 @@ www.afpbb.com###common-nav-foot
 
 !Oricon
 www.oricon.co.jp##.top-inline-banner
-
-!NewsWeek
-||trc.pitadtag.jp^
-
 
 !funny-c.com
 ||ads.yahoo.com^
@@ -1218,7 +1204,6 @@ urbandictionary.com##.new-mug-ad
 !||v6.advg.jp^
 ||cdn.vt.open8.com/ad-server
 ||wpcontents.weddingpark.net/image/ad
-||ads.weddingpark.net^
 ||advg.jp^
 !||js.mtburn.com^
 ||video-log.vt.open8.com/img/advideo.gif
@@ -1587,11 +1572,6 @@ negisoku.com###id_5
 !全力疾走
 !（なし）
 
-!魔王ブログ
-!→とてつもない量の広告が読み込まれる
-!アダルトサイト
-||imadoko.xyz/_common.js
-
 !ゲハを斬る
 !（なし）
 
@@ -1880,7 +1860,6 @@ employment.en-japan.com##.entry-footer
 
 !GameSpark
 ||s.gamespark.jp/feature/advertising/
-||ads2.iid.jp^
 
 !gamewith
 ||gamewith.jp/ad/
@@ -2247,7 +2226,6 @@ jp.ign.com##.ad-wrapper
 ||tq.adventurefeeds.com^
 ||track.tkbo.com^
 ||usa.odysseus-nua.com^
-||thusfun9.live^
 ||central-messages.com^
 ||clk.rtpdn11.com^
 /search/tsc.php?
@@ -2262,14 +2240,12 @@ jp.ign.com##.ad-wrapper
 !https://fate.5ch.net/test/read.cgi/ios/1524080618/347
 !/^http:\/\/prize[0-9]+\.smmhck[0-9]+\.live/
 !https://fate.5ch.net/test/read.cgi/ios/1524080618/349
-||tdsjsext1.com^
 !/^http:\/\/competition[0-9]+\.nonamesrv[0-9]+\.live/
 
 !http://www.ramsar.org/
 !/^http:\/\/mobile[0-9]+\.nonamefbr[0-9]+\.live/
 
 !http://www.kokochiyu.com/
-||sarah.trktnc.com^
 ||tel-kod.ru^
 ||tudocasamento.com^
 
@@ -2284,7 +2260,6 @@ jp.ign.com##.ad-wrapper
 
 !https://vazzapp.com/gamearticle1/
 ||vazzapp.com^
-||xn--581-9la.biz^
 ||xn--3389-poa.biz^
 ||best2019-games-web4.com^
 
@@ -2360,7 +2335,6 @@ jp.ign.com##.ad-wrapper
 !---------------------------------------------------------------
 !フィッシング広告／ウイルス対策ソフト偽装広告のURL
 !https://egg.5ch.net/test/read.cgi/android/1577026126/136
-||claim-your-prizes.life/
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/204
 !||sweeps4048.nonamevmmaw97.live/
 !||reward2143.nonamevmmaw60.live/
@@ -2521,10 +2495,8 @@ kinisuru.com##.a2a_floating_style
 ||creatives.gunosy.com/images
 ||d1jh13j6azkbbi.cloudfront.net^
 ||d3py17yaayq4xi.cloudfront.net^
-||delivery-asia-northeast-1.openx.net^
 ||dev.appboy.com^
 ||dl61.y2mate.com^
-||e.crashlytics.com^
 ||frontier.byteoversea.com^
 ||gce-jp.bidswitch.net^
 ||gecko-sg.byteoversea.com^
@@ -2532,9 +2504,6 @@ kinisuru.com##.a2a_floating_style
 !https://egg.5ch.net/test/read.cgi/android/1577026126/820
 !||graph.facebook.com^
 ||graph.facebook.com/network_ads
-||haggler-openx002-ap-ne1-ec2.liftoff.io^
-||haggler-openx003-ap-ne1-ec2.liftoff.io^
-||haggler-supership001-ap-ne1-ec2.liftoff.io^
 ||iasds01.com^
 ||img.applovin.com^
 ||img.macromill.com^
