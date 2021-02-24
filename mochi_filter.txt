@@ -1047,13 +1047,13 @@ jbbs.shitaraba.net###recommend_ad
 
 !ログ速
 ||ads.logsoku.com^
-www.logsoku.com##.ad_area
-www.logsoku.com##.thread_header_view + .thread-box
-www.logsoku.com##dl[id="1"] > div
-www.logsoku.com##.ad_bottom_space
-www.logsoku.com###fixed_area
-www.logsoku.com##div[style="text-align:left;margin:10px;min-height:90px;"]
-www.logsoku.com##div[style="text-align:center;margin:5px;min-height:90px;"]
+logsoku.com##.ad_area
+logsoku.com##.thread_header_view + .thread-box
+logsoku.com##dl[id="1"] > div
+logsoku.com##.ad_bottom_space
+logsoku.com###fixed_area
+logsoku.com##div[style="text-align:left;margin:10px;min-height:90px;"]
+logsoku.com##div[style="text-align:center;margin:5px;min-height:90px;"]
 
 !なろう
 ||microad.jp^
@@ -1611,13 +1611,13 @@ mainichi.jp###cxPageModalBnr
 ||sponichi.co.jp/css/ad.css
 ||sponichi.co.jp/css/common/ad_freepage.css
 ||ad.jp.ap.valuecommerce.com^
-www.sponichi.co.jp###ad
-www.sponichi.co.jp##div[id^="crt"]
-www.sponichi.co.jp###content-sub > p + div[style="width:300px;height:600px;"]
-www.sponichi.co.jp###annex_pc_entertainment_mid_rect
-www.sponichi.co.jp##.banner03
-www.sponichi.co.jp###annex_pc_baseball_mid_rect
-www.sponichi.co.jp###annex_pc_baseball_foot_rect
+sponichi.co.jp###ad
+sponichi.co.jp##div[id^="crt"]
+sponichi.co.jp###content-sub > p + div[style="width:300px;height:600px;"]
+sponichi.co.jp###annex_pc_entertainment_mid_rect
+sponichi.co.jp##.banner03
+sponichi.co.jp###annex_pc_baseball_mid_rect
+sponichi.co.jp###annex_pc_baseball_foot_rect
 sponichi.co.jp##div[data-component="ad-basic"]
 
 !デイリー
@@ -1649,11 +1649,11 @@ www.tokyo-sports.co.jp##.recommend-box.post-list-box
 
 !NEWSポストセブン
 !gifアニメがうざい
-www.news-postseven.com##.banner
-www.news-postseven.com##.inner-ad
-!www.news-postseven.com###mailmag2
+news-postseven.com##.banner
+news-postseven.com##.inner-ad
+!news-postseven.com###mailmag2
 ||news-postseven.com/img3_renew/banner/
-www.news-postseven.com##a[href$="?_from=sidebanner"]
+news-postseven.com##a[href$="?_from=sidebanner"]
 
 !dwango
 ||adn-d.sp.gmossp-sp.jp^
@@ -1668,8 +1668,8 @@ jisin.jp##.ad_area
 jisin.jp##.gmossp_ad_frame
 
 !J-Cast
-www.j-cast.com##.adunit
-www.j-cast.com##.ad_entry_toptext
+j-cast.com##.adunit
+j-cast.com##.ad_entry_toptext
 
 !サンスポ
 www.sanspo.com##.adRectangleBanner
@@ -1712,9 +1712,9 @@ taishu.jp##.toptxt
 taishu.jp##.ad-article-rectangle
 
 !日刊ゲンダイ
-www.nikkan-gendai.com##.ad-box
-www.nikkan-gendai.com###_pr_1st
-www.nikkan-gendai.com##.pr
+nikkan-gendai.com##.ad-box
+nikkan-gendai.com###_pr_1st
+nikkan-gendai.com##.pr
 ||cdnext.stream.ne.jp/img/common/gendai_online.png|
 ||cdnext.stream.ne.jp/img/pr/
 
@@ -1726,8 +1726,8 @@ gendai.ismedia.jp#?##GB_pc_under_right_Rectangle:nth-ancestor(2)
 gendai.ismedia.jp###MG_pc_inArticle
 
 !IZA
-www.iza.ne.jp##.ad-rectangle-banner
-www.iza.ne.jp##div[style="width:300px;height:600px;"]
+iza.ne.jp##.ad-rectangle-banner
+iza.ne.jp##div[style="width:300px;height:600px;"]
 
 
 !リアルライブ
@@ -1758,8 +1758,8 @@ wired.jp##.ad-background-holder
 wired.jp##.banner-pc-banner-wsky
 
 !ギズモード
-www.gizmodo.jp##.ad-banner
-www.gizmodo.jp##.s-body-ad
+gizmodo.jp##.ad-banner
+gizmodo.jp##.s-body-ad
 
 !聯合ニュース
 m.yna.co.kr##.foreign-ad01
@@ -1770,8 +1770,8 @@ m.yna.co.kr##.foreign-ad02
 ||kyoto-np.co.jp/koukoku/image/ad_citykyoto0910.gif
 ||kyoto-np.co.jp/koukoku/banner.php
 ||kyoto-np.co.jp/koukoku/image/kcg-edu.gif
-www.kyoto-np.co.jp##.headerAdArea
-www.kyoto-np.co.jp##.BnrLnkSbs
+kyoto-np.co.jp##.headerAdArea
+kyoto-np.co.jp##.BnrLnkSbs
 
 !まんたんウェブ
 mantan-web.jp##.ad-rec
@@ -1872,12 +1872,12 @@ www.itmedia.co.jp##.colBoxR50:has(> div[id^="div-gpt-ad-"])
 
 !やり直し
 !まず@IT Specialは消す。PRなので
-www.atmarkit.co.jp###ISALC
-www.atmarkit.co.jp###cxensereRectangle
-www.atmarkit.co.jp###body_insert_ad
-www.atmarkit.co.jp###rrec
-www.atmarkit.co.jp##.dmp-area
-www.atmarkit.co.jp###dmp
+atmarkit.co.jp###ISALC
+atmarkit.co.jp###cxensereRectangle
+atmarkit.co.jp###body_insert_ad
+atmarkit.co.jp###rrec
+atmarkit.co.jp##.dmp-area
+atmarkit.co.jp###dmp
 ||cse.google.com/adsense/search/async-ads.js
 ||atmarkit.co.jp/js/ait/ex_adRequest.js
 ||atmarkit.co.jp/js/ad.js
@@ -1967,8 +1967,8 @@ seesaawiki.jp###seesaa-bnr
 !斧
 ||bn.maist.jp^
 ||cd.ladsp.com^
-www.axfc.net##a[href^="http://click.ad-stir.com/"]
-www.axfc.net##.bnf
+axfc.net##a[href^="http://click.ad-stir.com/"]
+axfc.net##.bnf
 ||js.ad-stir.com^
 ||d.href.asia/nw/d/ajs.php?zoneid=
 
@@ -2157,9 +2157,9 @@ news.biglobe.ne.jp###gadsOverlayUnit
 ||gamespark.jp/base/scripts/infinite_scroll_article_cxense_ad_tracking.js
 ||gamespark.jp/feature/jackAD/
 ||gamespark.jp/feature/advertising/
-www.gamespark.jp###danglingList
-www.gamespark.jp##li.item:has(> a > article > img[alt^="【PR】"])
-www.gamespark.jp##section.item:has(> a > img[alt^="【PR】"])
+gamespark.jp###danglingList
+gamespark.jp##li.item:has(> a > article > img[alt^="【PR】"])
+gamespark.jp##section.item:has(> a > img[alt^="【PR】"])
 
 !モデルプレス
 ||g2.gumgum.com^

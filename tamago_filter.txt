@@ -545,7 +545,7 @@ enechange.jp##.e__float_try
 
 !Buzzfeed
 !Buzzfeed下部のSNS枠
-www.buzzfeed.com##.action-bar--position-floating
+buzzfeed.com##.action-bar--position-floating
 ||taboola.com^
 !||doubleclick.net^$third-party
 buzzfeed.com###mod-action-bar-1
@@ -558,8 +558,8 @@ buzzfeed.com###mod-action-bar-1
 !斧
 ||bn.maist.jp^
 ||cd.ladsp.com^
-www.axfc.net##a[href^="http://click.ad-stir.com/"]
-www.axfc.net##.bnf
+axfc.net##a[href^="http://click.ad-stir.com/"]
+axfc.net##.bnf
 !||js.ad-stir.com^
 ||d.href.asia/nw/d/ajs.php?zoneid=
 
@@ -695,9 +695,9 @@ bunshun.jp##.horizontal-sns-bar
 japan.zdnet.com##.ad-text
 
 !zdnet.com
-www.zdnet.com##.sharebar
-www.zdnet.com##.amp-ad
-www.zdnet.com##.preloaded_lightbox
+zdnet.com##.sharebar
+zdnet.com##.amp-ad
+zdnet.com##.preloaded_lightbox
 
 !SPA
 !||yads.yahoo.co.jp/js/yads.js
@@ -709,8 +709,8 @@ nikkan-spa.jp##.top_post
 !https://www.nikkansports.com/m/entertainment/news/amp/201807310000179.html
 !cdn.ampproject.org/rtv/011531800879103/v0/amp-ad-0.1.js
 amp-ad-0.1.js|
-www.nikkansports.com##amp-ad
-www.nikkansports.com##.article__ad
+nikkansports.com##amp-ad
+nikkansports.com##.article__ad
 
 !techcrunch
 !||o.aolcdn.com^$domain=techcrunch.com
@@ -834,9 +834,9 @@ news.biglobe.ne.jp##.yahoo_nad_list
 !||jp.popin.cc^
 
 !朝日芸能
-www.asagei.com##.pearAd
-www.asagei.com###for-nonred-frame
-www.asagei.com##div[class^="pfxAd_"]
+asagei.com##.pearAd
+asagei.com###for-nonred-frame
+asagei.com##div[class^="pfxAd_"]
 asajo.jp##div[class^="pfxAd_"]
 asajo.jp##li[class^="pfxAd_"]
 asajo.jp##.ad-area-upper
@@ -948,10 +948,10 @@ gendai.ismedia.jp##.ad-container
 ||fnn-news.com/sp/news/data/uliza/ad_exclude_sitejack.json
 ||aka-secure-img.uliza.jp/html5/fnn/ad/
 ||fistag2.fis.fujitv.co.jp/pc/space.gif
-www.fnn-news.com###footAd
-www.fnn-news.com###overLay
+fnn-news.com###footAd
+fnn-news.com###overLay
 ||fnn-news.com/material/img/downloadnow.png
-www.fnn-news.com##.appinfo
+fnn-news.com##.appinfo
 fnn.jp##.Ad
 ||amazon-adsystem.com^$domain=fnn.jp
 !||sp.fnn.jp/js/ulizahtml5_1.4.10/ulizahtml5-advertising.min.js
@@ -1034,9 +1034,9 @@ tokyograffiti.grfft.jp##.fixbtn
 !||z.moatads.com^
 ||smetrics.cnn.com/b/ss/cnn-adbp-offsite-domestic/
 !||bea4.v.fwmrm.net/ad/
-www.cnn.co.jp##.ad
-www.cnn.co.jp###ad-large-header
-www.cnn.co.jp###ad-text-top
+cnn.co.jp##.ad
+cnn.co.jp###ad-large-header
+cnn.co.jp###ad-text-top
 
 !cnn.com
 edition-m.cnn.com###social-share
@@ -1076,8 +1076,8 @@ solomon-review.net##.heateor_sss_sharing_container
 ||site.gnavi.co.jp/analysis/$script
 
 !bloomberg
-www.bloomberg.com##amp-ad
-www.bloomberg.com##.page-ad
+bloomberg.com##amp-ad
+bloomberg.com##.page-ad
 
 !wordpress.com
 linuxnorth.wordpress.com##.wpcnt
@@ -1130,13 +1130,13 @@ eiga.com###rect_ad
 
 !Gamer
 ||recocro.xseed-digital.jp^
-www.gamer.ne.jp##.jackBanner
-www.gamer.ne.jp##.background
+gamer.ne.jp##.jackBanner
+gamer.ne.jp##.background
 
 ! 4Gamer
-www.4gamer.net##.large_banner
-www.4gamer.net##.pr_box
-www.4gamer.net##.top_ad
+4gamer.net##.large_banner
+4gamer.net##.pr_box
+4gamer.net##.top_ad
 
 !マイクロソフト
 support.microsoft.com##.survey-background
@@ -1205,10 +1205,10 @@ jbbs.shitaraba.net##.ad-300_250
 greasyfork.org##.ad
 
 !UrbanDictionary
-www.urbandictionary.com##.ad-panel
-www.urbandictionary.com##.dfp
+urbandictionary.com##.ad-panel
+urbandictionary.com##.dfp
 ||d2gatte9o95jao.cloudfront.net/assets/mug-ad-
-www.urbandictionary.com##.new-mug-ad
+urbandictionary.com##.new-mug-ad
 
 !ログ速
 ||js.passaro-de-fogo.biz^
@@ -1245,11 +1245,11 @@ mdpr.jp##.ath-container
 
 
 !日刊現代
-www.nikkan-gendai.com##.gunosy-ads-spot
-www.nikkan-gendai.com###rect_ad_01
-www.nikkan-gendai.com##.banner
-www.nikkan-gendai.com###_popIn_recommend
-www.nikkan-gendai.com###_popIn_recommend_2
+nikkan-gendai.com##.gunosy-ads-spot
+nikkan-gendai.com###rect_ad_01
+nikkan-gendai.com##.banner
+nikkan-gendai.com###_popIn_recommend
+nikkan-gendai.com###_popIn_recommend_2
 
 
 !Slashdot
@@ -1268,7 +1268,7 @@ m.slashdot.org##.ad-on
 www.phileweb.com###sp_article_undertitle_wrapper
 
 !Bloomberg
-www.bloomberg.co.jp##.page-ad
+bloomberg.co.jp##.page-ad
 ||assets.bwbx.io/s3/javelin/public/javelin/css/body/basic/outstream_ad-
 !||adservice.google.co.jp^
 ||nav.bloomberg.com/public/images/ad_choices-
@@ -1472,7 +1472,7 @@ m.scmp.com##.share-buttons-fixed-container
 
 !西日本新聞
 ||nishinippon.co.jp/mobile/common/img/bn_eppaper_header.jpg
-www.nishinippon.co.jp##a[href^="http://ac.ebis.ne.jp/tr_set.php?argument="]
+nishinippon.co.jp##a[href^="http://ac.ebis.ne.jp/tr_set.php?argument="]
 
 
 !タウンワークマガジン
@@ -1576,13 +1576,13 @@ blog.esuteru.com##.amazlet-box
 ||mcgm.sakura.ne.jp/sp_300x250.
 
 !ねぎ速
-www.negisoku.com###id_1
+negisoku.com###id_1
 ||genieesspv.jp^
-www.negisoku.com###id_0
-www.negisoku.com###id_2
-www.negisoku.com###id_3
-www.negisoku.com###id_4
-www.negisoku.com###id_5
+negisoku.com###id_0
+negisoku.com###id_2
+negisoku.com###id_3
+negisoku.com###id_4
+negisoku.com###id_5
 
 !全力疾走
 !（なし）
@@ -1619,13 +1619,13 @@ www.negisoku.com###id_5
 
 !無題のドキュメント
 !||marticleimage.nicoblomaga.jp/$third-party,image
-www.mudainodocument.com##a[href="https://recott.me/about/"]
+mudainodocument.com##a[href="https://recott.me/about/"]
 ||images-na.ssl-images-amazon.com/images/$domain=www.mudainodocument.com
-www.mudainodocument.com##.adset-Cleft
-www.mudainodocument.com##.adset-Cover
-www.mudainodocument.com##a[href^="http://s.liveads.jp/cc.php"]
-www.mudainodocument.com##a[href^="https://s.liveads.jp/cc.php"]
-www.mudainodocument.com##a[href="https://recott.me/"]
+mudainodocument.com##.adset-Cleft
+mudainodocument.com##.adset-Cover
+mudainodocument.com##a[href^="http://s.liveads.jp/cc.php"]
+mudainodocument.com##a[href^="https://s.liveads.jp/cc.php"]
+mudainodocument.com##a[href="https://recott.me/"]
 ||octopuspop.com^
 ||blogmaterial.nicoblomaga.jp/material/258/sp-adchange.js
 ||blogmaterial.nicoblomaga.jp/material/258/bromaga_AdTimer_SP.js
@@ -1707,8 +1707,8 @@ gossip1.net##iframe[src^="http://sda.seesaa.jp/"]
 otakumix.doorblog.jp##.t_r
 
 !http://www.akb48matomemory.com
-www.akb48matomemory.com##span[style="font-size: medium;"] > a
-www.akb48matomemory.com##span[style="font-size: medium;"] > br
+akb48matomemory.com##span[style="font-size: medium;"] > a
+akb48matomemory.com##span[style="font-size: medium;"] > br
 
 
 !ニコニコVIP2ch
@@ -1865,10 +1865,10 @@ cinematoday.jp##.ct-ad-banner
 
 !男子ハック
 !www.danshihack.com
-www.danshihack.com##.p-ad__container--single
+danshihack.com##.p-ad__container--single
 ||danshihack.com/wp-content/uploads/2018/05/kindle-sale-1.jpg
-www.danshihack.com##.c-banner
-www.danshihack.com##.p-ranking
+danshihack.com##.c-banner
+danshihack.com##.p-ranking
 
 !エンジニアHub
 employment.en-japan.com##.entry-footer
@@ -1930,7 +1930,7 @@ kotobank.jp##.sp-iframe-ad
 
 !@IT
 ||image.itmedia.co.jp/spv/images/career_en_320x50.png
-www.atmarkit.co.jp##div[style="width:320px;height:50px;border:1px solid #CCC;margin:10px auto 0;"]
+atmarkit.co.jp##div[style="width:320px;height:50px;border:1px solid #CCC;margin:10px auto 0;"]
 
 !Pandora
 ||prism.pandora.tv^
@@ -1950,7 +1950,7 @@ channel.pandora.tv##.pm_wrap
 pandora.tv###nx_pause_area > .stopbtn
 
 !http://www.copiapoa.jp/
-www.copiapoa.jp###fixBanner
+copiapoa.jp###fixBanner
 
 !http://ouroboros.hamazo.tv
 ||ouroboros.hamazo.tv/js/archive-sp-ad.js
@@ -1961,7 +1961,7 @@ ouroboros.hamazo.tv###meerkat-wrap
 
 !www.hanamonogatari.com
 ||hanamonogatari.com/blog/wp-content/themes/hana_thema/images/floating-banner-sp.png
-www.hanamonogatari.com##.floatingBn
+hanamonogatari.com##.floatingBn
 
 !belcy.jp
 ||adapf.com^
@@ -1975,8 +1975,8 @@ allabout.co.jp###sys-anchor
 ||adpon-prd-asset.sslcs.cdngc.net^
 
 !サイゾー
-www.cyzo.com##.adsenseArea
-www.cyzo.com##div[id^="ad_"]
+cyzo.com##.adsenseArea
+cyzo.com##div[id^="ad_"]
 
 !これはエロい速報
 !http://korewaeroi.com/
@@ -2116,8 +2116,8 @@ sp.jp.wazap.com##.gmoam_outer_wrapper
 sp.jp.wazap.com##body[style="position: fixed;"]:style(position:static !important)
 
 !postfun
-www.postfun.com##.ad-widget-wrapper
-www.postfun.com###anchory
+postfun.com##.ad-widget-wrapper
+postfun.com###anchory
 
 !osdn
 mag.osdn.jp###div-gpt-osdn_mag_header
@@ -2125,7 +2125,7 @@ mag.osdn.jp###head-ad-text
 mag.osdn.jp###div-gpt-osdn_mag_rec-article-middle
 
 !gizmode
-www.gizmodo.jp##.p-post-ad
+gizmodo.jp##.p-post-ad
 
 !WackoJaco
 jp.wackojaco.com##.verboseads-mob-container
