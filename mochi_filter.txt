@@ -938,7 +938,6 @@ dic.nicovideo.jp##div[style="text-align:center; height:250px; width:300px; margi
 !Twitch
 !twitchでカウントが増え続ける問題の解法
 @@||sb.scorecardresearch.com/p?$image,domain=twitch.tv
-twitch.tv##+js(twitch-videoad.js)
 ||c.amazon-adsystem.com/aax2/apstag.js$important,domain=twitch.tv
 ||s0.2mdn.net^$important,domain=twitch.tv
 ||d2v02itv0y9u9t.cloudfront.net^
