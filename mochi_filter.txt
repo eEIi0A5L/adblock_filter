@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 27 Feb 2021 00:00 JST
+! Last modified: 28 Feb 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
@@ -1325,6 +1325,9 @@ ejje.weblio.jp##.intrstR > div[style="margin:10px 0 10px 5px;"]
 ejje.weblio.jp###main > div[style="margin-bottom:20px;"]
 ejje.weblio.jp###executive:upward(1)
 ejje.weblio.jp##span[style="background-color:#f00;color:#fff;font-size:10px;padding:0 3px;font-weight:bold;border-radius:2px;letter-spacing:0;"]:upward(1)
+ejje.weblio.jp###main > div[style="width:730px;hight:548;margin-bottom:20px;"]:has( > a[href^="https://peraichi.com/landing_pages/view/"])
+||d3fr49y3ejekk5.cloudfront.net/column/wp-content/uploads/2021/02/26171714/3.jpg
+||d3fr49y3ejekk5.cloudfront.net/column/$image,domain=ejje.weblio.jp
 
 
 !alc
