@@ -1716,7 +1716,9 @@ blog.livedoor.jp###article-contents > .link2
 geinoukame.blog.fc2.com##.appollo-big
 
 
-
+!例の
+||waqool.com^
+!||j.zucks.net.zimg.jp^
 
 
 
