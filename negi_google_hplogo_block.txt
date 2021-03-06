@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎ：Googleのロゴを消すフィルタ
-! Last modified: 23 May 2020 00:00 JST
+! Last modified: 07 Mar 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/google_hplogo_block.html
 ! 
@@ -17,6 +17,9 @@ google.co.jp,google.com###prm
 ||www.google.co.jp/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
 ||www.google.com/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png
 ||www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
+
+!shareボタン 2021.3.7
+google.co.jp,google.com##button[title="Share"]
 
 !Google
 !I feel luckボタン上のたまご 2019.4.21
