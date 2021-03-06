@@ -1512,11 +1512,11 @@ see.xxx##div.vda-x2.vda-item
 
 !upornia.com
 upornia.com##+js(abort-current-inline-script, adver)
-upornia.com##+js(no-setInterval-if, readyState)
+!upornia.com##+js(no-setInterval-if, readyState)
 upornia.com##+js(no-setInterval-if, undefined)
 upornia.com##+js(window.open-defuser)
 upornia.com##+js(abort-current-inline-script, skipPop, /.*/)
-|upornia.com/script/
+||upornia.com/script/
 /rass7.$script,1p,domain=upornia.com
 
 
