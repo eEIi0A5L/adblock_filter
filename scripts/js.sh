@@ -23,9 +23,9 @@ function sub()
         fi
 
         #echo "result=[$result]"
-        if [ ! $result -eq 0 ]; then
-            return $result
-        fi
+        #if [ ! $result -eq 0 ]; then
+        #    return $result
+        #fi
     done < $FILE
     return 0
 }

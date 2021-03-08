@@ -134,6 +134,12 @@ function network_filter_check()
         return 1 # error
     fi
 
+    # 縦バー一本は基本的に使用しない 2021.3.8
+    if [[ $LINE =~ ^\|[^\|] ]]; then
+        echo "one vbar: LINE=[$LINE]"
+        return 1 # error
+    fi
+
     return 0
 }
 
