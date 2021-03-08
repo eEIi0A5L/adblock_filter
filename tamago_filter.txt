@@ -2,7 +2,7 @@
 ! Title: たまごフィルタ（mobile filter）
 ! Last modified: 02 Mar 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
-! Licence: https://github.com/eEIi0A5L/adblock_filter
+! License: https://github.com/eEIi0A5L/adblock_filter
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
 ! 
 ! 

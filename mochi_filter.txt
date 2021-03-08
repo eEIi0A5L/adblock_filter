@@ -2,7 +2,7 @@
 ! Title: もちフィルタ（広告ブロック）
 ! Last modified: 28 Feb 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
-! Licence: https://github.com/eEIi0A5L/adblock_filter
+! License: https://github.com/eEIi0A5L/adblock_filter
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
 ! 
 ! 
