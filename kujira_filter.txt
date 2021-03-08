@@ -2,6 +2,9 @@
 ! Title: クジラフィルタ（コインマイニングブロック）
 ! Last modified: 2021/02/25 01:00 JST
 ! Expires: 6 hours (update frequency)
+! Licence: https://github.com/eEIi0A5L/adblock_filter
+! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/kujira.html
+
 
 !【下記の購読も必要】
 ! https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
