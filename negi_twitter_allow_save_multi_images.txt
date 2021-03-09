@@ -2,7 +2,7 @@
 ! Title: ねぎ：Twitterの複数画像で画像保存を許可する（GalleryNavの削除）
 ! Last modified: 22 Apr 2018 00:00 JST
 ! Expires: 6 hours (update frequency)
-! License: https://github.com/eEIi0A5L/adblock_filter
+! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/negi_twitter_allow_save_multi_images.html
 ! 
 ! 

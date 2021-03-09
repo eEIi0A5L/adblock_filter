@@ -2,7 +2,7 @@
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
 ! Last modified: 2020/12/27 00:00 JST
 ! Expires: 6 hours (update frequency)
-! License: https://github.com/eEIi0A5L/adblock_filter
+! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/negi.html
 
 

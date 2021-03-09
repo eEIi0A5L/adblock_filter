@@ -2,7 +2,7 @@
 ! Title: もち系全フィルタ（全部入り）
 ! Last modified: 09 Feb 2018 00:00 JST
 ! Expires: 6 hours (update frequency)
-! License: https://github.com/eEIi0A5L/adblock_filter
+! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/
 
 
