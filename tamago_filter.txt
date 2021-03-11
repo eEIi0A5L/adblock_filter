@@ -2497,7 +2497,6 @@ kinisuru.com##.a2a_floating_style
 ||cdn.caprofitx.com^
 ||cdn.liftoff.io^
 ||cdp.cloud.unity3d.com^
-||control.smbeat.jp^
 ||creatives.gunosy.com/images
 ||d1jh13j6azkbbi.cloudfront.net^
 ||d3py17yaayq4xi.cloudfront.net^
