@@ -1,7 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 02 Mar 2021 00:00 JST
+! Last modified: 19 Mar 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
+! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
 ! 
 ! 
@@ -1865,6 +1866,7 @@ employment.en-japan.com##.entry-footer
 
 !GameSpark
 ||s.gamespark.jp/feature/advertising/
+||deliver.ads2.iid.jp^
 
 !gamewith
 ||gamewith.jp/ad/
@@ -2496,7 +2498,6 @@ kinisuru.com##.a2a_floating_style
 ||cdn.caprofitx.com^
 ||cdn.liftoff.io^
 ||cdp.cloud.unity3d.com^
-||control.smbeat.jp^
 ||creatives.gunosy.com/images
 ||d1jh13j6azkbbi.cloudfront.net^
 ||d3py17yaayq4xi.cloudfront.net^

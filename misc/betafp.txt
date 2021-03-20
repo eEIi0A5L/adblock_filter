@@ -75,7 +75,6 @@
 !||clients4.google.com^
 ||cnt.rec1.smt.docomo.ne.jp^
 ||conductor.clicktale.net^
-||control.smbeat.jp^
 ||cr2-p21.ladsp.com^
 ||creativecdn.com^
 ||creatives.gunosy.com/images

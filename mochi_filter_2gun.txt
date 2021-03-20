@@ -2,6 +2,7 @@
 ! Title: もち２軍フィルタ - Supplement
 ! Last modified: 22 Jan 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
+! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi_2gun.html
 ! 
 ! 

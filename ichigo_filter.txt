@@ -1,7 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 02 Mar 2021 00:00 JST
+! Last modified: 13 Mar 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
+! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
 ! 
 ! 
@@ -1519,6 +1520,27 @@ upornia.com##+js(abort-current-inline-script, skipPop, /.*/)
 ||upornia.com/script/
 /rass7.$script,1p,domain=upornia.com
 
+!erogazoufactory
+||img-ad-nex.com^
+||img.erogazoufactory.com/AD/
+||dis.hogei.info/adslct/
+||img.gsspat.jp^
+||rt.gsspat.jp^
+||ad.dmm.com^
+||ad.dmm.co.jp^
+||blog.livelog.biz/script/js/adnex/
+||erogazoufactory.com/AD/
+||img.ad-nex.com^
+erogazoufactory.com###i_frame
+erogazoufactory.com###active_overlay_1328734
+erogazoufactory.com##iframe[src^="http://edayo.boost-next.co.jp/yie/ld/ifk?zoneid="]
+||pr.hogei.info/p/2686_soh_600x500.jpg
+erogazoufactory.com###quads-ad1
+erogazoufactory.com###quads-ad2
+erogazoufactory.com###quads-ad3
+||pr.hogei.info/p/3935_tpi_600x500.gif
+||pr.hogei.info^
+erogazoufactory.com##.header_android
 
 
 
