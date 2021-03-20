@@ -240,7 +240,9 @@ www.yahoo.co.jp###TopLink
 !右上の広告
 !→/bdv/全体をブロックした
 !||s.yimg.jp/bdv/prem/
-||s.yimg.jp/images/listing/tool/yads/
+!スポーツナビJリーグの新着記事が見れない 2021.3.21
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/369
+!||s.yimg.jp/images/listing/tool/yads/
 www.yahoo.co.jp###brandpanel
 !Yahoo右上の広告、brandpanelの代わりのやつが最近でる
 www.yahoo.co.jp###sub > div[style="height:240px; margin:0px auto 10px;"]
@@ -651,6 +653,11 @@ finance.yahoo.co.jp###sub > .marB10 > a > img
 !中央バナー
 ||s.yimg.jp/images/finance/kawasetop_2/yjfx/201612/634_60.png
 
+!ニュースの広告
+finance.yahoo.co.jp##div:has( > #mainAdTop)
+finance.yahoo.co.jp##div:has( > #subAdTop)
+
+
 !END----------------------------------------------
 
 
@@ -777,6 +784,10 @@ soccer.yahoo.co.jp###ad-lrec
 soccer.yahoo.co.jp###ad-prmb
 keiba.yahoo.co.jp###ad-lrec
 keiba.yahoo.co.jp###ad-prmb
+
+!スポーツナビのJリーグの新着記事が見れない 2021.3.21
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/369
+@@||s.yimg.jp/images/listing/tool/yads/yads-timeline-ex.$script,domain=chiebukuro.yahoo.co.jp|sports.yahoo.co.jp
 !END----------------------------------------
 
 
