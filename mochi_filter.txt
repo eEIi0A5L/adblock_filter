@@ -2439,7 +2439,7 @@ www.crank-in.net###bannerin
 ! まとめたやつ
 ! https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/204
 !/^https?:\/\/(apps?|competition|game|mobile|prize|reward|sweeps)[0-9]{4}\.(noname|smmhck|tutonhamon)[-a-z0-9]+\.live/$document,domain=live
-/^https:\/\/[-a-z]{6,}\d{1,2}\.li[fv]e\/\d{10}/$document,domain=life|live
+/^https:\/\/[a-z]{4,}\d{3}[a-z]{4,}\.li[fv]e\/(?:\d{10}|[a-z]{8})\/\?/$document,domain=life|live
 !--------
 
 
