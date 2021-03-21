@@ -2095,7 +2095,7 @@ www.reddit.com##.XPromoPopup
 matometanews.com###jp-matome
 
 !note
-diehardtales.com,note.bcnretail.com,note.com,note.kagg.jp,note.jp,note.yamap.com##.p-article__share
+diehardtales.com,note.bcnretail.com,note.com,note.kagg.jp,note.jp,note.minne.com,note.yamap.com##.p-article__share
 
 ! wazap
 sp.jp.wazap.com##.gmoam_outer_wrapper
