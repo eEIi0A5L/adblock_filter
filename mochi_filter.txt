@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 13 Mar 2021 00:00 JST
+! Last modified: 23 Mar 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -874,6 +874,12 @@ twitter.com##a[href*="src=promoted_trend_click"] + div
 
 !プロモツイート
 twitter.com##span:has-text(/^プロモツイート$/):upward( div[aria-label^="タイムライン:"] > div > div )
+
+
+!探索上部の広告(たまに出る)
+twitter.com##div[data-testid="UserCell"]:has(svg + div[dir="auto"] > span:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션 중|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/))
+
+
 
 
 
