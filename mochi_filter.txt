@@ -1998,6 +1998,8 @@ gigazine.net###G_EF2ND
 
 !QuickTimes
 this.kiji.is###hindsight-ads-iframe-1
+!しらべえ
+this.kiji.is###hindsight-ads-iframe
 
 !excite
 excite.co.jp##.yadsOverlay
