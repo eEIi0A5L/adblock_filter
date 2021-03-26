@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 23 Mar 2021 00:00 JST
+! Last modified: 27 Mar 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -497,20 +497,20 @@ openload.co##+js(window.open-defuser.js)
 ||openload.co/cdn-cgi/apps/head/
 ||cdn.acloudvideos.com/video_ads/
 
-!javfinder
+!javfinder->javtrust
 ||aoredi.com/apu.php?
 !||whos.amung.us^
 ||traffic-media.co.uk^$third-party
 fembed.com##+js(abort-on-property-write.js, _pop)
-javfinder.la##.to-top
-javfinder.la##.row > .col-xs-12:first-child
+javtrust.com##.to-top
+javtrust.com##.row > .col-xs-12:first-child
 ||b54m4qbmt0b9.com^
-javfinder.la##[id*="ScriptRoot"]
-javfinder.la##div[id*="ScriptRootC"]
-.com/?zoneid=$popup,domain=javfinder.la
-||trafficjunky.com^$third-party,domain=javfinder.la
+javtrust.com##[id*="ScriptRoot"]
+javtrust.com##div[id*="ScriptRootC"]
+.com/?zoneid=$popup,domain=javtrust.com
+||trafficjunky.com^$third-party,domain=javtrust.com
 ||k77hof1z7k.com^$third-party
-||google-analytics.com/analytics.js$important,script,domain=javfinder.la
+||google-analytics.com/analytics.js$important,script,domain=javtrust.com
 !AnimeFLVでプレイヤーの一時停止アイコンが出ない
 !||jwpcdn.com^
 ||mc.yandex.ru^
@@ -526,47 +526,56 @@ javfinder.la##div[id*="ScriptRootC"]
 !@@||rapidvideo.com^$script,domain=rapidvideo.com
 @@||rapidvideo.com/tube-skin-retina-for-videojs-6/bin/video-js-*/video.min.js$script
 @@||rapidvideo.com/js/videojs.hotkeys.min.js$script
-javfinder.la###pauseroll
-javfinder.la###preroll
-javfinder.la##.afs_ads
+javtrust.com###pauseroll
+javtrust.com###preroll
+javtrust.com##.afs_ads
 !||cdn.onesignal.com^
 ||mn1nm.com^$third-party
 ||clcknads.pro^$third-party
-javfinder.la##+js(abort-on-property-read.js, AaDetector)
+javtrust.com##+js(abort-on-property-read.js, AaDetector)
 ||jsc.adskeeper.co.uk^
-javfinder.la###external-embed:style(display: block!important;)
+javtrust.com###external-embed:style(display: block!important;)
 ||a.o333o.com^
 ||cdnfast.me/img/movie/20181016/fc2-ppv-
 ||javwide.com/underpl.js
-javfinder.la###preroll_ads
+javtrust.com###preroll_ads
 !||keqi7dh3df.com^
 ||fabrkrup.com^$third-party
 ||cdn.o333o.com^
-!javfinder.la##.afs_ads
-javfinder.la##iframe[src="https://avsex.me/js/pc.html"]
+!javtrust.com##.afs_ads
+javtrust.com##iframe[src="https://avsex.me/js/pc.html"]
 ||amung.us^
 ||k77hof1z7k.com^
-javfinder.la##iframe[width="300"][height="250"]
+javtrust.com##iframe[width="300"][height="250"]
 ||ssdsylfzav.com^$third-party
-javfinder.la##iframe[width="728"][height="90"]
-/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=javfinder.la|embed.media
-!javfinder.la##.afs_ads
-javfinder.la##img[width="728"][height="90"]
+javtrust.com##iframe[width="728"][height="90"]
+/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=javtrust.com|embed.media
+!javtrust.com##.afs_ads
+javtrust.com##img[width="728"][height="90"]
 ||rlomrjxrpsev.com^$third-party
-@@/js/ads.js$script,domain=javfinder.la
-javfinder.la##+js(no-setTimeout-if.js, _0x)
-/^https?:\/\/[a-z0-9]{5,14}\.(com|bid|online|top|club)\/[0-9a-f]{32}\/invoke.js$/$third-party,script,domain=javfinder.la
-!javfinder.la##.afs_ads
-||google-analytics.com/analytics.js$important,script,domain=javfinder.la
-||googletagmanager.com^$domain=javfinder.la
+@@/js/ads.js$script,domain=javtrust.com
+javtrust.com##+js(no-setTimeout-if.js, _0x)
+/^https?:\/\/[a-z0-9]{5,14}\.(com|bid|online|top|club)\/[0-9a-f]{32}\/invoke.js$/$third-party,script,domain=javtrust.com
+!javtrust.com##.afs_ads
+||google-analytics.com/analytics.js$important,script,domain=javtrust.com
+||googletagmanager.com^$domain=javtrust.com
 ||zarlomgog.com/get/1551789?zoneid=
 embed.media##.afs_ads
-javfinder.la##+js(window.open-defuser)
+javtrust.com##+js(window.open-defuser)
 streamsb.net##+js(window.open-defuser)
 ||riverhit.com^$third-party
 !||streamsb.net^$popup
 ||exofrwe.com^
 @@||jwpltx.com^
+||playwrightglancing.com^
+streamsb.net##+js(abort-current-inline-script, check, debugger)
+streamsb.net##+js(abort-on-property-read, DoodPop)
+streamsb.net##+js(abort-on-property-read, __Y.adsterra)
+||maphuahin.com^
+javtrust.com###preroll_ads
+cdnfinder.xyz###poster
+cdnfinder.xyz###preroll
+javtrust.com##iframe[width="300"][height="250"]
 
 
 
