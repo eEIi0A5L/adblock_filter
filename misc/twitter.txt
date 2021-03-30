@@ -1,0 +1,40 @@
+!2021.3.31
+!おすすめトピック（１件ツイート）のブロック
+!英語
+twitter.com##div:has( > div > div > div > div > div > div > div > div > a > span[aria-label^="Recommended Topic:"])
+twitter.com##div:has( > div > div > div > div > div > div > div > div > a > span[aria-label^="Recommended Topic:"]) + div[data-testid="tweet"]
+!日本語
+twitter.com##div:has( > div > div > div > div > div > div > div > div > a > span[aria-label^="おすすめトピック:"])
+twitter.com##div:has( > div > div > div > div > div > div > div > div > a > span[aria-label^="おすすめトピック:"]) + div[data-testid="tweet"]
+
+
+
+!おすすめトピック（６つのトピックリスト）
+!英語
+twitter.com##div:has( > div > div > h2 > div > span:has-text(Topics to follow))
+twitter.com##div:has( > div > div > h2 > div > span:has-text(Topics to follow)) + div 
+twitter.com##div:has( > div > div > h2 > div > span:has-text(Topics to follow)) + div + div
+!日本語
+twitter.com##div:has( > div > div > h2 > div > span:has-text(おすすめトピック))
+twitter.com##div:has( > div > div > h2 > div > span:has-text(おすすめトピック)) + div 
+twitter.com##div:has( > div > div > h2 > div > span:has-text(おすすめトピック)) + div + div
+
+
+
+!おすすめユーザーブロック
+!英語--------------------------------
+!「おすすめユーザー」行
+twitter.com##div[aria-label^="Timeline:"] > div > div:has( > div > div > h2 > div > span:has-text(Who to follow))
+!ユーザツイート
+twitter.com##div[aria-label^="Timeline:"] > div > div:has( > div > div > div > div > div > div > div[data-testid$="-follow"] > div > span > span:has-text(Follow))
+!「さらに表示」行
+twitter.com##div[aria-label^="Timeline:"] > div > div:has( > div > a > div > span:has-text(Show more))
+!--------------------------------------
+!日本語--------------------------------
+!「おすすめユーザー」行
+twitter.com##div[aria-label^="タイムライン:"] > div > div:has( > div > div > h2 > div > span:has-text(おすすめユーザー))
+!ユーザツイート
+twitter.com##div[aria-label^="タイムライン:"] > div > div:has( > div > div > div > div > div > div > div[data-testid$="-follow"] > div > span > span:has-text(フォロー))
+!「さらに表示」行
+twitter.com##div[aria-label^="タイムライン:"] > div > div:has( > div > a > div > span:has-text(さらに表示))
+!--------------------------------------
