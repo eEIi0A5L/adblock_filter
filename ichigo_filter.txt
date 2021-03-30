@@ -20,7 +20,6 @@ xvideos.com##.subscribe-feed
 ||www.mmaaxx.com^
 xvideos.com##+js(abort-on-property-write.js, openpop)
 xvideos.com##+js(nowebrtc.js)
-xvideos.com##+js(xvideos.com.js)
 @@||xvideos-cdn.com^$xmlhttprequest,domain=xvideos.com
 xvideos.com##+js(window.open-defuser.js)
 !https://www.reddit.com/r/uBlockOrigin/comments/8ehkjc/xvideos_dont_show_anything/
@@ -1275,8 +1274,6 @@ vjav.com##.footer-margin
 vjav.com##+js(addEventListener-defuser, , window.open)
 vjav.com##+js(set-constant, adver, noopFunc)
 vjav.com##+js(no-setInterval-if, document.readyState)
-vjav.com##+js(abort-on-property-read, vertis.popunder.neverblock)
-vjav.com##+js(set-constant, JsvISiNc.neverblock.loaderUrl, undefined)
 vjav.com##.adv.movable-top
 vjav.com##.box.fad
 vjav.com##.afs_ads
