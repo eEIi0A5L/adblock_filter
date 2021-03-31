@@ -26,6 +26,7 @@ twitter.com##div:has( > div > div > h2 > div > span:has-text(おすすめトピ�
 !「おすすめユーザー」行
 twitter.com##div[aria-label^="Timeline:"] > div > div:has( > div > div > h2 > div > span:has-text(Who to follow))
 !ユーザツイート
+!:not()で検索結果のユーザBOXを除外している
 twitter.com##div[aria-label^="Timeline:"]:not([aria-label="Timeline: Search timeline"]) > div > div:has( > div > div > div > div > div > div > div[data-testid$="-follow"] > div > span > span:has-text(Follow))
 !「さらに表示」行
 twitter.com##div[aria-label^="Timeline:"] > div > div:has( > div > a > div > span:has-text(Show more))
@@ -34,6 +35,7 @@ twitter.com##div[aria-label^="Timeline:"] > div > div:has( > div > a > div > spa
 !「おすすめユーザー」行
 twitter.com##div[aria-label^="タイムライン:"] > div > div:has( > div > div > h2 > div > span:has-text(おすすめユーザー))
 !ユーザツイート
+!:not()で検索結果のユーザBOXを除外している
 twitter.com##div[aria-label^="タイムライン:"]:not([aria-label="タイムライン: タイムラインを検索"]) > div > div:has( > div > div > div > div > div > div > div[data-testid$="-follow"] > div > span > span:has-text(フォロー))
 !「さらに表示」行
 twitter.com##div[aria-label^="タイムライン:"] > div > div:has( > div > a > div > span:has-text(さらに表示))
