@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 27 Mar 2021 00:00 JST
+! Last modified: 06 Apr 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
@@ -1427,6 +1427,8 @@ www.traicy.com##.floating_banner
 @@||www.googletagmanager.com^$domain=excite.co.jp
 a.excite.co.jp##li.list_item:has(> .ex_TL-area)
 a.excite.co.jp###gpt_sp_news_inarticle
+excite.co.jp##.ad-aside-billboard
+excite.co.jp##.ad-aside-rectangle
 
 !jcast
 !www.j-cast.com##iframe[data-kiosked-adframe="outer"]
