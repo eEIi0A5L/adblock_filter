@@ -1462,6 +1462,7 @@ www.sankeibiz.jp###adRectangleBanner01
 !時事ドットコム
 www.jiji.com##div[style="width:300px;height:600px;"]
 www.jiji.com##div[style="width:300px; height:250px;"]
+jiji.com##aside.ArticleInnerAD
 
 !東洋経済
 toyokeizai.net##.ad-bnr
