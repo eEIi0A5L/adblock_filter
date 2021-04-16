@@ -15,9 +15,9 @@ twitter.com##div:has( > div > div > h2 > div > span:has-text(Topics to follow))
 twitter.com##div:has( > div > div > h2 > div > span:has-text(Topics to follow)) + div 
 twitter.com##div:has( > div > div > h2 > div > span:has-text(Topics to follow)) + div + div
 !日本語
-twitter.com##div:has( > div > div > h2 > div > span:has-text(/(おすすめトピック|タイムラインにトピックも表示しましょう)/))
-twitter.com##div:has( > div > div > h2 > div > span:has-text(/(おすすめトピック|タイムラインにトピックも表示しましょう)/)) + div 
-twitter.com##div:has( > div > div > h2 > div > span:has-text(/(おすすめトピック|タイムラインにトピックも表示しましょう)/)) + div + div
+twitter.com##div:has( > div > div > h2 > div > span:has-text(/^(おすすめトピック|タイムラインにトピックも表示しましょう)/))
+twitter.com##div:has( > div > div > h2 > div > span:has-text(/^(おすすめトピック|タイムラインにトピックも表示しましょう)/)) + div 
+twitter.com##div:has( > div > div > h2 > div > span:has-text(/^(おすすめトピック|タイムラインにトピックも表示しましょう)/)) + div + div
 
 
 
