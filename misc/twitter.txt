@@ -11,9 +11,9 @@ twitter.com##div:has( > div > div > div > div > div > div > div > div > a > span
 
 !おすすめトピック（６つのトピックリスト）
 !英語
-twitter.com##div:has( > div > div > h2 > div > span:has-text(Topics to follow))
-twitter.com##div:has( > div > div > h2 > div > span:has-text(Topics to follow)) + div 
-twitter.com##div:has( > div > div > h2 > div > span:has-text(Topics to follow)) + div + div
+twitter.com##div:has( > div > div > h2 > div > span:has-text(/^Topics to follow/))
+twitter.com##div:has( > div > div > h2 > div > span:has-text(/^Topics to follow/)) + div 
+twitter.com##div:has( > div > div > h2 > div > span:has-text(/^Topics to follow/)) + div + div
 !日本語
 twitter.com##div:has( > div > div > h2 > div > span:has-text(/^(おすすめトピック|タイムラインにトピックも表示しましょう)/))
 twitter.com##div:has( > div > div > h2 > div > span:has-text(/^(おすすめトピック|タイムラインにトピックも表示しましょう)/)) + div 
@@ -24,18 +24,18 @@ twitter.com##div:has( > div > div > h2 > div > span:has-text(/^(おすすめト�
 !おすすめユーザーブロック
 !英語--------------------------------
 !「おすすめユーザー」行
-twitter.com##div[aria-label^="Timeline:"][aria-label$="s Tweets"] > div > div:has( > div > div > h2 > div > span:has-text(Who to follow))
+twitter.com##div[aria-label^="Timeline:"][aria-label$="s Tweets"] > div > div:has( > div > div > h2 > div > span:has-text(/^Who to follow/))
 !ユーザツイート
-twitter.com##div[aria-label^="Timeline:"][aria-label$="s Tweets"] > div > div:has( > div > div > div > div > div > div > div[data-testid$="-follow"] > div > span > span:has-text(Follow))
+twitter.com##div[aria-label^="Timeline:"][aria-label$="s Tweets"] > div > div:has( > div > div > div > div > div > div > div[data-testid$="-follow"] > div > span > span:has-text(/^Follow/))
 !「さらに表示」行
-twitter.com##div[aria-label^="Timeline:"][aria-label$="s Tweets"] > div > div:has( > div > a > div > span:has-text(Show more))
+twitter.com##div[aria-label^="Timeline:"][aria-label$="s Tweets"] > div > div:has( > div > a > div > span:has-text(/^Show more/))
 !--------------------------------------
 !日本語--------------------------------
 !「おすすめユーザー」行
-twitter.com##div[aria-label^="タイムライン:"][aria-label$="さんのツイート"] > div > div:has( > div > div > h2 > div > span:has-text(おすすめユーザー))
+twitter.com##div[aria-label^="タイムライン:"][aria-label$="さんのツイート"] > div > div:has( > div > div > h2 > div > span:has-text(/^おすすめユーザー/))
 !ユーザツイート
 !:not()で検索結果のユーザBOXを除外している
-twitter.com##div[aria-label^="タイムライン:"][aria-label$="さんのツイート"] > div > div:has( > div > div > div > div > div > div > div[data-testid$="-follow"] > div > span > span:has-text(フォロー))
+twitter.com##div[aria-label^="タイムライン:"][aria-label$="さんのツイート"] > div > div:has( > div > div > div > div > div > div > div[data-testid$="-follow"] > div > span > span:has-text(/^フォロー/))
 !「さらに表示」行
-twitter.com##div[aria-label^="タイムライン:"][aria-label$="さんのツイート"] > div > div:has( > div > a > div > span:has-text(さらに表示))
+twitter.com##div[aria-label^="タイムライン:"][aria-label$="さんのツイート"] > div > div:has( > div > a > div > span:has-text(/^さらに表示/))
 !--------------------------------------
