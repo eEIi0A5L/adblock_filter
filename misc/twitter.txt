@@ -39,3 +39,12 @@ twitter.com##div[aria-label^="タイムライン:"][aria-label$="さんのツイ
 !「さらに表示」行
 twitter.com##div[aria-label^="タイムライン:"][aria-label$="さんのツイート"] > div > div:has( > div > a > div > span:has-text(/^さらに表示/))
 !--------------------------------------
+
+
+
+!新しいリストを見つける
+twitter.com##div:has( > div > div > h2 > div > span:has-text(/^新しいリストを見つける/))
+twitter.com##div:has( > div > a[href^="/i/lists/"] > div[data-testid="listCell"])
+
+
+
