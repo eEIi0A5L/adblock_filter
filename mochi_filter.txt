@@ -2284,6 +2284,8 @@ japan.cnet.com###content-top-block
 !食べログ
 !||inrecsys.popin.cc/PopinService/Logs/ad
 !||popin.cc^$domain=tabelog.com
+tabelog.com##div[class^="ad-min-size-"]
+tabelog.com###div-gpt-ad-t-shop-1st300x250
 
 !exblog.jp
 exblog.jp###yads_pc_overlay
