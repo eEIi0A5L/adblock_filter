@@ -328,6 +328,11 @@ baseball.yahoo.co.jp,soccer.yahoo.co.jp##^script:has-text(instUrl)
 ||s.yimg.jp/images/sports/promo/sp/npb/banner/rsab/$image
 ||s.yimg.jp/images/sports/all_device/app/sportsnavi/rsab/img/$image
 
+!Yahooニュース
+news.yahoo.co.jp##.adWrap
+news.yahoo.co.jp##.adWrap-articleHead
+||s.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js
+
 !Yahoo天気
 !||logql.yahoo.co.jp/p?s=
 !||logql.yahoo.co.jp/v1/public/yql?
