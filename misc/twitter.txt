@@ -43,6 +43,10 @@ twitter.com##div[aria-label^="タイムライン:"][aria-label$="さんのツイ
 
 
 !新しいリストを見つける
+!英語
+twitter.com##div:has( > div > div > h2 > div > span:has-text(/^Discover new Lists/))
+twitter.com##div:has( > div > a[href^="/i/lists/"] > div[data-testid="listCell"])
+!日本語
 twitter.com##div:has( > div > div > h2 > div > span:has-text(/^新しいリストを見つける/))
 twitter.com##div:has( > div > a[href^="/i/lists/"] > div[data-testid="listCell"])
 
