@@ -2149,6 +2149,7 @@ www.pixiv.net##a[href="/premium/lead/lp?g=anchor&i=work_detail_remove_ads"]
 !www.pixiv.net###root > div > div > div > div > div[class^="sc-"]:first-child
 !右サイドの広告
 www.pixiv.net##iframe[name="300x250"]:upward(1)
+dic.pixiv.net##.d_header
 
 !imgur
 ||s.imgur.com/min/advertising.js
