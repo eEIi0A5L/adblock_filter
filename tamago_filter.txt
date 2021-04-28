@@ -17,17 +17,21 @@
 !共通
 ||google.com/pagead/
 !||clients5.google.com/pagead/drt/dn/
-##div[id^="div-gpt-ad"]
-!##^div[id^="div-gpt-ad"]
+!#if adguard
+##[id^="div-gpt-ad"]
 ##.adsbygoogle
-!##^.adsbygoogle
+!#endif
+!#if ext_ublock
+*##[id^="div-gpt-ad"]
+*##.adsbygoogle
+!#endif
 ||ad-api-v01.uliza.jp^
 ||jp-ads.mediaforge.com^
 
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/174-175
 ! 共通ルールで問題（エラーやアンチ広告ブロック）の出るサイト
 k05.biz,kakomonn.com,nazolog.com,server-setting.info,z0i.net#@#.adsbygoogle
-www.saitama-np.co.jp#@#div[id^="div-gpt-ad"]
+saitama-np.co.jp#@#[id^="div-gpt-ad"]
 
 !画像が見れない
 !https://egg.5ch.net/test/read.cgi/android/1556760647/776
@@ -2158,7 +2162,7 @@ jp.ign.com##.ad-wrapper
 ! まとめたやつ
 ! https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/204
 !/^https?:\/\/(apps?|competition|game|mobile|prize|reward|sweeps)[0-9]{4}\.(noname|smmhck|tutonhamon)[-a-z0-9]+\.live/$document,domain=live
-/^https:\/\/[a-z]{4,}\d{3}[a-z]{4,}\.li[fv]e\/(?:\d{10}|[a-z]{8})\/\?/$document,domain=life|live
+/^https:\/\/[a-z]{7,}\.li[fv]e\/[a-z]{8}\/\?/$document,popup,domain=life|live
 !--------
 
 
