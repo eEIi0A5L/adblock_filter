@@ -10,7 +10,7 @@
 !共通
 ||google.com/pagead/
 !||clients5.google.com/pagead/drt/dn/
-##div[id^="div-gpt-ad"]
+##[id^="div-gpt-ad"]
 ##.adsbygoogle
 ||ad-api-v01.uliza.jp^
 ||jp-ads.mediaforge.com^
@@ -39,7 +39,7 @@
 ! 共通ルールで問題（エラーやアンチ広告ブロック）の出るサイト
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/174-175
 k05.biz,kakomonn.com,nazolog.com,server-setting.info,z0i.net#@#.adsbygoogle
-www.saitama-np.co.jp#@#div[id^="div-gpt-ad"]
+www.saitama-np.co.jp#@#[id^="div-gpt-ad"]
 
 !画像が見れない
 !https://egg.5ch.net/test/read.cgi/android/1556760647/776
