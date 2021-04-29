@@ -2351,6 +2351,12 @@ pastebin.com##div[class^="banner_"]
 www.crank-in.net###bannerin
 
 
+!investing.com
+investing.com##.generalOverlay
+!||i-invdn-com.akamaized.net/js/ads.js
+
+
+
 
 
 
