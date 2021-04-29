@@ -740,6 +740,7 @@ jp.techcrunch.com###stcky-footer
 mynavi.jp##.l-header-ad
 ||mynv.jp/img/bear_header_T.gif
 news.mynavi.jp##.c-sideBanner_articleBottom
+news.mynavi.jp##.headerBillboard
 
 !tenki.jp
 tenki.jp##.tenki-ad-lite-north
