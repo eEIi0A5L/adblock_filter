@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 28 Apr 2021 00:00 JST
+! Last modified: 01 May 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1668,6 +1668,7 @@ hochi.news###float-bnr
 ||img.tokyo-sports.co.jp/wp-content/uploads/2019/09/t-spo_300-100.gif|
 www.tokyo-sports.co.jp##.side-bnr 
 www.tokyo-sports.co.jp##.recommend-box.post-list-box
+tokyo-sports.co.jp##.head-bnr-area
 
 !NEWSポストセブン
 !gifアニメがうざい
