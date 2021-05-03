@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 01 May 2021 00:00 JST
+! Last modified: 03 May 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1292,6 +1292,7 @@ www.famitsu.com##.adTc
 ||ssl.webtracker.jp^
 www.famitsu.com##.adNative
 www.famitsu.com##.banner-top-header
+www.famitsu.com##.banner-pc
 
 !ファミ通APP
 app.famitsu.com###widget-ad-rect
