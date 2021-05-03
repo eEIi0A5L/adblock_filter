@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 30 Apr 2021 00:00 JST
+! Last modified: 03 May 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
@@ -339,6 +339,7 @@ baseball.yahoo.co.jp,soccer.yahoo.co.jp##^script:has-text(instUrl)
 news.yahoo.co.jp##.adWrap
 news.yahoo.co.jp##.adWrap-articleHead
 ||s.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js
+news.yahoo.co.jp###mhd_prem_header_sp
 
 !Yahoo天気
 !||logql.yahoo.co.jp/p?s=
