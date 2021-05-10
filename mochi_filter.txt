@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 03 May 2021 00:00 JST
+! Last modified: 10 May 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -465,6 +465,11 @@ headlines.yahoo.co.jp,news.yahoo.co.jp##div[id^="spocon"]
 !ここで本編前に広告動画が表示された
 !https://headlines.yahoo.co.jp/videonews/jnn?a=20180219-00000025-jnn-soci
 ||headlines.yahoo.co.jp/adframe?
+
+!動画前に広告が出た。これで一旦様子見。2021.5.10
+!https://news.yahoo.co.jp/articles/a054a1f39352f15a50e0cdb0b42406073d22f43e
+||s.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js
+
 
 !https://news.yahoo.co.jp/pickup/6272803
 ||tidaltv.com^
@@ -1300,6 +1305,9 @@ app.famitsu.com###widget-ad-rect
 !電撃オンライン
 dengekionline.com###rectangleBanner
 @@||googletagmanager.com/gtm.js$script,domain=dengekionline.com
+
+!automaton
+automaton-media.com##.td-banner-wrap-full
 
 !impress
 !watch.impress.co.jp##.ad
