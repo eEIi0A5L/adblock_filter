@@ -2084,6 +2084,7 @@ www.accuweather.com##.ad
 !atwiki
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/166
 !||img.atwikiimg.com/common/_js/atheadbar.js
+w.atwiki.jp##.atwiki-ads-margin
 
 !bing
 bing.com##.b_ad
