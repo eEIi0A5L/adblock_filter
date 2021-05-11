@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 25 Feb 2021 00:00 JST
+! Last modified: 11 May 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi_extended.html
@@ -503,6 +503,9 @@ uesp.net###siteNotice
 tunein.com###div[component="Wizard"]
 ||ad.crwdcntrl.net^
 ||adadvisor.net^
+
+!cnet
+www.cnet.com###nav-ad-plus-leader
 
 !www.lyricsfreak.com:歌詞表示して30秒後に不快画像を全画面に出す悪質サイト
 /prebid_$script,domain=lyricsfreak.com
