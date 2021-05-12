@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 10 May 2021 00:00 JST
+! Last modified: 13 May 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2265,6 +2265,8 @@ search.nifty.com###lst1
 search.nifty.com###lst2
 news.nifty.com##li:has( > ._popIn_recommend_article_ad )
 
+!MovieWalker
+moviewalker.jp##div:has( > #mw_all_bb_gam )
 
 !スクエニのサイトでニュースが表示されない
 !https://egg.5ch.net/test/read.cgi/software/1518498170/338
