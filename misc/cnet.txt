@@ -1,0 +1,19 @@
+!https://www.reddit.com/r/uBlockOrigin/comments/b69vmo/block_cnet_annoying_videos/
+! Block annoying CNet auto-play videos.
+
+! Tried to make it targeted so that if you actually wanted to watch a video, you could...
+
+! Tested/works with uBlock Origin
+
+
+! Block the playlist
+
+www.cnet.com/videos/manifest/*.m3u8?device=ott*
+
+! Block the script that loads the playlists
+
+*.cbsistatic.com/fly/js/pages/desktop/article_video_test*.js
+
+! Element hiding: hide the now-useless placeholder
+
+www.cnet.com##.entered.dock.inviewElement
