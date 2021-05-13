@@ -1,39 +1,11 @@
 ! beta.txt
 
-!a.com##div:has( > div:has-text(abc)
 
-
-
-!------------------------------------------------------------------------
-!2020.10.25
-!https://egg.5ch.net/test/read.cgi/software/1556480002/396
-
-!①白画面に青ボタン
-youtube.com##.ytp-ad-module, .video-ads
-
-!②新しいタブで開いたときに広告動画
-youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-!をuboに追加
-!ただし、Youtubeの表示がおかしくなる場合がある
-
-!③同じタブで次の動画に広告動画
-!→Adguardでコメントぐるぐるになる
-!https://egg.5ch.net/test/read.cgi/software/1556480002/597
-!https://github.com/tofukko/filter/commit/14856f013a9512550e46717fda67e0cf82d666a6
-!youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-!をuboに追加
-!ただしubo1.28.0以降が必要
-
-!豆腐やもちなどに入ってる
-!youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-!だと、ブラウザの戻る・進むで広告出ちゃうね
-!------------------------------------------------------------------------
-
-
-!TubeというFirefoxのアドオンを切ったら先頭の広告が出なくなった
-!https://egg.5ch.net/test/read.cgi/software/1602052066/299
-
-
+!googleトップのロゴ
+!https://www.google.co.jp/logos/doodles/2021/151st-anniversary-of-the-metropolitan-museum-of-art-6753651837108733-law.gif
+||www.google.co.jp/logos/doodles/20
+www.google.co.jp##^.logo.doodle
+www.google.co.jp##g-img:has( > img[src^="/logos/doodles/"] )
 
 
 !END
