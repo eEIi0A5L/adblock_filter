@@ -951,6 +951,7 @@ this.kiji.is##.page__listPageAd
 ! はてブロ
 ||blog.hatena.ne.jp/api/log?$xmlhttprequest
 ||s.st-hatena.com/entry.count.image?uri=$image
+hatenablog.com##.ad-online-afc.ad
 
 !はてなブックマーク
 !||ad.as.amanad.adtdp.com^
