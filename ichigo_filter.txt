@@ -1584,7 +1584,7 @@ chaturbate.com##.ad
 mythisav.com##.adsright
 mythisav.com###return-to-top
 ||mythisav.com/wp-content/themes/popcorn/awpt/js/post-like/post-like.min.js
-||googletagmanager.com^
+||googletagmanager.com^$domain=mythisav.com
 ||d2kk0o3fr7ed01.cloudfront.net^
 ||betteradsystem.com^
 
