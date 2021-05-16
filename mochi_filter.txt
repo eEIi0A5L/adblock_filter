@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 13 May 2021 00:00 JST
+! Last modified: 16 May 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2367,6 +2367,31 @@ www.crank-in.net###bannerin
 !investing.com
 investing.com##.generalOverlay
 !||i-invdn-com.akamaized.net/js/ads.js
+
+!発言小町
+komachi.yomiuri.co.jp###ad_gam_banner
+komachi.yomiuri.co.jp##.p-ads-flex
+komachi.yomiuri.co.jp##.topi-ad-rec
+komachi.yomiuri.co.jp##.p-ads-center
+komachi.yomiuri.co.jp##.sidebar-ad-rec
+komachi.yomiuri.co.jp##.ads
+komachi.yomiuri.co.jp##.topi-ad-rec1
+@@||popin.cc^$3p,domain=komachi.yomiuri.co.jp
+!@@||api.popin.cc/popIn_custom_search-min_v2.js
+!@@||api.popin.cc/partner/popin_komachi_new.js
+!@@||api.popin.cc/searchbox/komachi_yomiuri_new.js
+!@@||search.popin.cc/news/select
+!komachi.yomiuri.co.jp###_popIn_recommend_otekomachi
+!komachi.yomiuri.co.jp###_popIn_recommend
+komachi.yomiuri.co.jp##._popIn_recommend_ad_section_articles
+
+
+
+
+
+
+
+
 
 
 
