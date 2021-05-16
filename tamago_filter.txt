@@ -390,6 +390,9 @@ page.auctions.yahoo.co.jp##^[id^=js-BannerFrame]
 !Yahooクリエイターズ
 creators.yahoo.co.jp##.FixedButtons 
 
+!知恵袋
+detail.chiebukuro.yahoo.co.jp##aside[class^="ClapLv3SubList_Chie"]
+
 ! 楽天
 !/akam/11/*
 !||rakuten.co.jp/akam/11/
