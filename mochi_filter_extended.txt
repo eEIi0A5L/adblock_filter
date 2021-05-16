@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 11 May 2021 00:00 JST
+! Last modified: 17 May 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi_extended.html
@@ -242,6 +242,11 @@ www.reddit.com##.ads-area
 www.reddit.com##.adsense-ad
 www.reddit.com##.box_ad
 www.reddit.com##.googad
+
+!reddit Top livestream suggestions
+!||watch.redd.it/hls/*/segment*.ts
+||watch.redd.it/hls/
+www.reddit.com##div.scrollerItem:has( > div > div > div > a > h3:has-text(/^Top livestream/))
 
 !gfycat
 ||assets.gfycat.com/prebid2.8.0.js
