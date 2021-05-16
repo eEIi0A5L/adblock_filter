@@ -729,6 +729,8 @@ hpjav.tv##+js(set-constant, checkdom, 0)
 ||dailyinterventioncongestion.com^
 ||chapsartore.com^
 ||disparagethence.com^
+||digitalpimpnetwork.com^
+||s4.histats.com^
 
 
 !javmost
