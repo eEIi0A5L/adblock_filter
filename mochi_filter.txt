@@ -2264,6 +2264,7 @@ open.spotify.com##div[data-testid="CoverSlotExpanded__container"]
 search.nifty.com###lst1
 search.nifty.com###lst2
 news.nifty.com##li:has( > ._popIn_recommend_article_ad )
+news.nifty.com###float-bnr
 
 !MovieWalker
 moviewalker.jp##div:has( > #mw_all_bb_gam )
