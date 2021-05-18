@@ -1809,6 +1809,7 @@ mantan-web.jp##.ad-rec--right
 mantan-web.jp##.ad-fb
 ||adresult.jp^
 ||adresult.genieesspv.jp^
+mantan-web.jp##.conteiner__head:has( > .ad-billboard)
 
 
 !すらど
@@ -2228,6 +2229,8 @@ tver.jp###ADoverlay
 ||dsp.adfarm1.adition.com^
 ||fod.fujitv.co.jp/ad/
 ||fod.fujitv.co.jp/mz/AdJson4_ssl.aspx
+||fod-cm-ad-v.webcdn.stream.ne.jp^
+||tokyo.in.treasuredata.com/postback/v3/event/010_fod_dl_spotx/ad_log
 
 !TVerでテレ東だけが見れない
 @@||pubads.g.doubleclick.net^$domain=tver.jp
