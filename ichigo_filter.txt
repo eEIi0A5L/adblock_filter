@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 07 May 2021 00:00 JST
+! Last modified: 20 May 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -886,6 +886,8 @@ avgle.com##.alert-danger
 ||static.adxadserv.com^
 avgle.com##.hidden-xs > a > img[src$=".gif"]
 avgle.com##.video-banner
+||olmsoneenh.info^
+||digitalpimpnetwork.com^
 !モバイル用
 ||top-battery-asia.info^
 ||trupir-asia.info^
@@ -1591,6 +1593,10 @@ mythisav.com###return-to-top
 ||betteradsystem.com^
 
 
+!javarchive
+!||img.javstore.net/images/2
+javarchive.com##.box_right_exlogo_banner
+javarchive.com##.topbanner
 
 
 
