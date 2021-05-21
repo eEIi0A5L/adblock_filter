@@ -1446,10 +1446,11 @@ jav.direct##.__isboostOverContent
 jav.direct###iframe > img
 
 !yavtube
-!yavtube.com##+js(no-setTimeout-if, _0x)
+yavtube.com##+js(no-setTimeout-if, _0x)
 yavtube.com##+js(abort-on-property-read, open)
 yavtube.com##+js(remove-attr, href, .player-mask)
 yavtube.com##+js(no-setTimeout-if, _0x, !200)
+||cdn.r18hub.com/assets/videos/strip.mp4
 
 
 !javhdporn
