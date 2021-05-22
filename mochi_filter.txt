@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 16 May 2021 00:00 JST
+! Last modified: 22 May 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2085,6 +2085,7 @@ accuweather.com###header-davek
 ||vortex.accuweather.com/adc2010/images/misc/Ad_
 www.accuweather.com##.column-2-world
 www.accuweather.com##.ad
+www.accuweather.com###connatix
 
 !weathernews
 ||mwsgvs.weathernews.jp/weekend-explorer/banner.jpg
