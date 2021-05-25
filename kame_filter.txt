@@ -197,6 +197,9 @@
 ||freegogpcgames.com^
 ||system-update-new-2021.com^
 ||system-update-new-2022.com^
+||alderbridge.studio42sound.com^
+||acc.pp.ua^
+||1.ne02.biz^
 
 !------------------------------------------
 !ランダムなホスト名の詐欺サーバー
