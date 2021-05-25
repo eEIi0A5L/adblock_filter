@@ -1551,8 +1551,8 @@ upornia.com##+js(abort-current-inline-script, skipPop, /.*/)
 ||dis.hogei.info/adslct/
 ||img.gsspat.jp^
 ||rt.gsspat.jp^
-||ad.dmm.com^
-||ad.dmm.co.jp^
+||ad.dmm.com^$third-party
+||ad.dmm.co.jp^$third-party
 ||blog.livelog.biz/script/js/adnex/
 ||erogazoufactory.com/AD/
 ||img.ad-nex.com^
