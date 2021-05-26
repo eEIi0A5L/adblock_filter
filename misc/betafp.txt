@@ -16,7 +16,7 @@
 ||ade.googlesyndication.com^
 ||adforce.com^
 ||adforce.ru^
-||adjust.com^
+||adjust.com^$third-party
 ||adntokyo.gunosy.com^
 ||ads-delivery.gameforge.com^
 ||ads.as.criteo.com^

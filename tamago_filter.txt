@@ -2520,7 +2520,7 @@ kinisuru.com##.a2a_floating_style
 ||ade.googlesyndication.com^
 !||adforce^
 !||adid^
-||adjust.com^
+||adjust.com^$third-party
 ||ads.mopub.com^
 ||adsafeprotected.com^
 !||adsrvr.org^
