@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 20 May 2021 00:00 JST
+! Last modified: 07 Jun 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -731,6 +731,17 @@ hpjav.tv##+js(set-constant, checkdom, 0)
 ||disparagethence.com^
 ||digitalpimpnetwork.com^
 ||s4.histats.com^
+hpjav.tv##+js(window.open-defuser)
+ninjastream.to##.video-fake
+||ninjastream.to/js/lib.js
+ninjastream.to##+js(window.open-defuser, 0, ninjastream.to)
+ninjastream.to##+js(set-constant, _NinjaJS.add, noopFunc)
+ninjastream.to##+js(set-constant, NinjaSmartPop.make, noopFunc)
+ninjastream.to##+js(abort-on-property-read, NinjaJsPop)
+ninjastream.to##+js(nano-setTimeout-booster, -=0x1, , 0.02)
+ninjastream.to##+js(abort-on-property-read, SmartPopunder)
+ninjastream.to##+js(addEventListener-defuser, , 0x)
+ninjastream.to##^script:has-text(debugger)
 
 
 !javmost
@@ -1600,9 +1611,18 @@ javarchive.com##.box_right_exlogo_banner
 javarchive.com##.topbanner
 
 
+!javmobile
+javembed.*##+js(window.open-defuser)
+||javembed.com/asset/default/player/plugins/vast-8.4.13.js
 
-
-
+!supjav
+||supjav.com/cdn-cgi/bm/cv/669835187/api.js
+||member.javtvnow.xyz/api/spots/
+javstream.top##+js(set-constant, clientSide.adbDetect, noopFunc)
+javstream.top##+js(window.open-defuser)
+||javstream.top/asset/bann.js
+||javstream.top/asset/default/player/plugins/vast-8.4.13.js
+||blastcahs.com^
 
 
 
