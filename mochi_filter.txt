@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 22 May 2021 00:00 JST
+! Last modified: 07 Jun 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1386,6 +1386,7 @@ oshiete.goo.ne.jp###gooad-long
 oshiete.goo.ne.jp###gheader
 ||goo.ne.jp/oshiete/ad_loader.js
 dictionary.goo.ne.jp##.NR-ad
+dictionary.goo.ne.jp###gooad-long
 ||pulsar.xlisting.jp^
 blog.goo.ne.jp###top_app
 blog.goo.ne.jp##div[style="height: 70px; position: fixed; z-index: 998; bottom: 0; width:100%; display: block; text-align: center; background-color:rgba(59,88,152,0.5);"]
@@ -1482,6 +1483,16 @@ toyokeizai.net###information
 toyokeizai.net###topic-board
 toyokeizai.net###trend-library
 toyokeizai.net###adexchange
+
+!共同 KYODO
+!nordot.app
+!@@||popin.cc^$3p
+!@@||www.google-analytics.com^
+||nordot.app/images/newsnor/kiji/js/pc/ads.js
+||log.nordot.jp^$ping
+||livelylaugh.com^
+||storage.googleapis.com/didna-prod/latest/didna_prebid.js.gz
+||static.solutionshindsight.net/hindsightipads/hindsightipads.min.js
 
 !朝日
 www.asahi.com##.AdMod
