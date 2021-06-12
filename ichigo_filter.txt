@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 07 Jun 2021 00:00 JST
+! Last modified: 13 Jun 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -418,6 +418,11 @@ lovechat777.blog.fc2.com##.eroterest_partsv2
 lovechat777.blog.fc2.com##.contentsboxin a
 lovechat777.blog.fc2.com###leftside
 lovechat777.blog.fc2.com###rightside
+javynow.com##+js(window.open-defuser)
+||mmaaxx.com^
+javynow.com##iframe[width="300"][height="250"]
+||javynow.com/images/caribian.jpg
+javynow.com##a[href^="https://click.dtiserv2.com/Click"]
 
 !http://kaikangakuen.xyz/
 ||for-ward.jp^
@@ -1462,6 +1467,13 @@ yavtube.com##+js(abort-on-property-read, open)
 yavtube.com##+js(remove-attr, href, .player-mask)
 yavtube.com##+js(no-setTimeout-if, _0x, !200)
 ||cdn.r18hub.com/assets/videos/strip.mp4
+yavtube.com##.player-mask
+yavtube.com##.fluid_initial_play.transform-active
+!||i.bongacash.com/pre_roll/
+!yavtube.com##+js(no-setTimeout-if, _0x, !200)
+!yavtube.com##+js(remove-attr, href, .player-mask)
+||bongacash.com^
+
 
 
 !javhdporn
