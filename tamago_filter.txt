@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 07 Jun 2021 00:00 JST
+! Last modified: 11 Jun 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
@@ -152,6 +152,7 @@ www.google.co.jp,www.google.com##div[id]:has(> ol > li.ads-ad)
 www.google.co.jp,www.google.com###tads
 www.google.co.jp,www.google.com###tadsb
 www.google.co.jp,www.google.com##.ads-ad
+www.google.co.jp,www.google.com##.commercial-unit-mobile-top
 !↓Google検索結果の広告が消えない。最後の神頼み（ニュースも消えます）
 !www.google.co.jp,www.google.com###main > div[data-hveid]
 !google.*###main > div[data-hveid]:has(a[data-al])
@@ -934,7 +935,7 @@ this.kiji.is###js-ur
 this.kiji.is##.page__listPageAd
 
 !共同 KYODO nordot.app
-!@@||popin.cc^$3p
+!@@||popin.cc^$third-party
 !@@||www.google-analytics.com^
 ||nordot.app/images/newsnor/kiji/js/mobile/ads.js
 ||log.nordot.jp^$ping
@@ -1096,7 +1097,7 @@ mobile.nytimes.com##div[class^="Dock-dock"]
 mobile.nytimes.com##.ad
 
 !nbc
-||vilynx.com^$3p
+||vilynx.com^$third-party
 ||ndassets.s-nbcnews.com/ads-
 nbcnews.com##+js(aopr, googletag)
 

@@ -604,7 +604,7 @@ asianclub.tv##+js(abort-on-property-read, AaDetector)
 @@||asianclub.tv^$generichide
 ||ad.pornimg.xyz^
 ||asianclub.tv/asset/default/player/plugins/vast-$script
-||stunninglover.com^$subdocument,3p
+||stunninglover.com^$subdocument,third-party
 !Googleカレンダーでフォントアイコンが読めない
 !||gstaticadssl.l.google.com^
 popjav.tv##+js(nostif, debugger)
@@ -645,7 +645,7 @@ dood.watch##+js(aopw, _pop)
 dood.watch##+js(acis, Math, zfgloaded)
 dood.watch##+js(set, xPoPAdS, false)
 ||moneymakercdn.com^
-||theonecdn.com^$3p
+||theonecdn.com^$third-party
 !MD server
 mixdrop.*##+js(acis, $, String.fromCharCode)
 mixdrop.*##+js(window.open-defuser)
@@ -654,7 +654,7 @@ mixdrop.*##+js(set, MDCore.adblock, 0)
 mixdrop.co##+js(aopw, _pop)
 !VO server
 vidoza.net##+js(nofab)
-||bcd.h-l.icu^$3p
+||bcd.h-l.icu^$third-party
 ||passeseuro.com^
 @@||asianclub.*/asset/default/player/plugins/vast$script,1p
 asianclub.*##+js(window.open-defuser)
@@ -702,9 +702,9 @@ asianclub.tv##+js(aeld, click, open)
 hpjav.tv##+js(aopr, VAST)
 hpjav.tv##+js(aopr, AaDetector)
 hpjav.tv##div[id^="ts_ad_native_"]
-||rekovers.ru^$3p
+||rekovers.ru^$third-party
 ||mobbahjug.com^
-||addtoany.com^$3p
+||addtoany.com^$third-party
 ||vd.7vid.net/O8cHpg7.js
 hpjav.tv##+js(nostif, _0x)
 asianclub.tv##+js(window.open-defuser)
@@ -783,7 +783,7 @@ www.av01.tv##.ad-body
 www.av01.tv##a[href^="http://www.suncityad.com"]
 ||greedseed.world^
 ||r.trwl1.com/s1/$subdocument
-||movcpm.com^$3p
+||movcpm.com^$third-party
 www.av01.tv##iframe[width="728"][height="90"]
 
 !http://www.minnano-av.com/
@@ -972,10 +972,10 @@ japanhub.net###wrapper > .container > .row > .col-12
 @@||syndication.exosrv.com/splash.php
 ||counevan.pro^
 japanhub.net##.row.banner-a
-||wpush.org^$3p
+||wpush.org^$third-party
 ||defutohy.pro^
 ||addthis.com^
-||asgclickkl.com^$3p
+||asgclickkl.com^$third-party
 ||adxadserv.com^
 ||jutyledu.pro^
 
@@ -1071,7 +1071,7 @@ kissjav.com###player-advertising
 kissjav.com##+js(nobab)
 ||bngpt.com^
 kissjav.com##.adv-container
-||addthis.com^$3p,important,domain=~missingkids.com|~missingkids.org|~sainsburys.jobs|~sitecore.com|~amd.com
+||addthis.com^$third-party,important,domain=~missingkids.com|~missingkids.org|~sainsburys.jobs|~sitecore.com|~amd.com
 ||s3t3d2y7.ackcdn.net^
 kissjav.com###fluid_nonLinear_ID0
 kissjav.com###fluid_nonLinear_ID1
@@ -1216,11 +1216,11 @@ txxx.com##^script:has-text(ad_sub)
 ||cradver.livejasmin.com^$popunder
 txxx.com##.underplayer_banner
 txxx.com##.afs_ads
-||bangdom.com^$3p
+||bangdom.com^$third-party
 ||txxx.com/saber/txxx_fel/dutti/
-||asiangfsex.com^$3p
+||asiangfsex.com^$third-party
 /^https?:\/\/.*\/.*sw[0-9(.|_)].*/$script,domain=txxx.com
-||wpu.sh^$3p
+||wpu.sh^$third-party
 txxx.com##.adsBox
 
 !javmec
@@ -1315,7 +1315,7 @@ fbjav.net##.glyphicon-arrow-up
 ||86a6b542l7.com^
 ||www.svpri.xyz/asset/default/player/plugins/vast-8.4.13.js
 www.svpri.xyz##.afs_ads
-||paishuno.net^$3p
+||paishuno.net^$third-party
 streamtape.*##+js(abort-current-inline-script, document.createElement, 'script')
 streamtape.*##+js(abort-current-inline-script, Math, XMLHttpRequest)
 streamtape.*##+js(addEventListener-defuser, contextmenu)
@@ -1374,7 +1374,7 @@ javmix.tv##.__isboostOverContent
 myhdjav.net##+js(aopr, exoJsPop101)
 myhdjav.net###preroll
 ||www.bitporno.com/assets/js/videojs-contrib-ads.js
-||wpnjs.com^$3p
+||wpnjs.com^$third-party
 
 !すもも
 ||admin.blog.fc2.com/dctanalyzer.php
@@ -1416,7 +1416,7 @@ wav.tv##+js(remove-attr, data-popup-url)
 ||ad-tag.biz^
 ||octopuspop.com^
 ||ytms.one/js/adv/ads.js
-||advinci.co^$3p
+||advinci.co^$third-party
 ||d3v3bqdndm4erx.cloudfront.net^
 ||vkcdnservice.com^$third-party
 
@@ -1487,7 +1487,7 @@ feurl.com##+js(abort-on-property-read, glxopen)
 feurl.com##+js(set-constant, globalThis, null)
 feurl.com##+js(abort-on-property-read, popjs)
 feurl.com##+js(addEventListener-defuser, click, window.open)
-*$script,3p,domain=feurl.com
+*$script,third-party,domain=feurl.com
 ||mrddz.xyz^
 @@||feurl.com^$generichide
 ||ahqpqpdjpj.com^
@@ -1526,7 +1526,7 @@ eporner.com##+js(abort-on-property-read, BetterJsPop)
 ||www.eporner.com/i/piwik.js
 eporner.com###admobiletop
 eporner.com##.adstext
-||bestcontentfood.top^$3p
+||bestcontentfood.top^$third-party
 eporner.com##iframe[width="300"][height="250"]
 !eporner.com###movieplayer-box-adv
 eporner.com##.hptab
@@ -1542,7 +1542,7 @@ see.xxx##+js(addEventListener-defuser, , pop)
 /poppy^$script,domain=pornq.com|see.xxx
 ||see.xxx/sw.js$script,1p
 ||wpu.sh^
-||clickadilla.com^$3p
+||clickadilla.com^$third-party
 see.xxx##div.vda-x2.vda-item
 ||adv-links.com^
 
@@ -1587,14 +1587,14 @@ tktube.com##.fp-player > div[style*="z-index:"]
 ||smac-ad.com^
 
 !chaturbate
-||exoticads.com^$3p
+||exoticads.com^$third-party
 ||ja.chaturbate.com/cdn-cgi/bm/cv/
 ||highwebmedia.com/cache/js/output.ed5f5a28fb27.js
-||exoticads.com^$3p
+||exoticads.com^$third-party
 chaturbate.com##.ad
 
 !mythisav
-||betteradsystem.com^$script,3p,redirect-rule=noopjs
+||betteradsystem.com^$script,third-party,redirect-rule=noopjs
 ||d2kk0o3fr7ed01.cloudfront.net^$script,redirect-rule=noopjs
 ||mythisav.com/wp-content/themes/popcorn/awpt/js/back-to-top.js
 mythisav.com##.adsright

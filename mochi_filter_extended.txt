@@ -167,7 +167,7 @@ time.com##.ad-wrapper
 forbesjapan.com###boxer
 
 !nbc
-||vilynx.com^$3p
+||vilynx.com^$third-party
 ||ndassets.s-nbcnews.com/ads-
 nbcnews.com##+js(aopr, googletag)
 
@@ -702,9 +702,9 @@ investing.com##.midHeader
 www.nba.com###block-globalheaderadblock
 
 !akinator
-||ezoic.net^$3p
-||firstimpression.io^$3p
-||ezojs.com^$3p
+||ezoic.net^$third-party
+||firstimpression.io^$third-party
+||ezojs.com^$third-party
 akinator.com##+js(abort-on-property-read, loadAds)
 
 !postfun

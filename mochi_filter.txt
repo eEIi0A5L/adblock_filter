@@ -829,7 +829,7 @@ streaming.yahoo.co.jp##.con_btm
 ||s.yimg.jp/images/gyao/common/images/bnr_store_promotion_
 gyao.yahoo.co.jp##.ad
 ||sync.search.spotxchange.com/partner?adv_id=
-||interactive-circle.jp^$3p
+||interactive-circle.jp^$third-party
 !Gyaoで動画プレイヤーのボタン(一時停止とかボリュームとか)が表示されなくなってしまいました
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/290
 ||imasdk.googleapis.com^$domain=gyao.yahoo.co.jp
@@ -839,7 +839,7 @@ gyao.yahoo.co.jp##.ad
 
 
 !Twitter
-||app.link^$3p
+||app.link^$third-party
 ||twitter.com/i/csp_report?
 ||ads-api.twitter.com^
 ||twitter.com/1.1/promoted_content/log.json
@@ -1486,7 +1486,7 @@ toyokeizai.net###adexchange
 
 !共同 KYODO
 !nordot.app
-!@@||popin.cc^$3p
+!@@||popin.cc^$third-party
 !@@||www.google-analytics.com^
 ||nordot.app/images/newsnor/kiji/js/pc/ads.js
 ||log.nordot.jp^$ping
@@ -1718,7 +1718,7 @@ j-cast.com##.ad_entry_toptext
 www.sanspo.com##.adRectangleBanner
 !sanspo.comで検索が機能しない
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/226
-@@||popin.cc^$3p,domain=sanspo.com
+@@||popin.cc^$third-party,domain=sanspo.com
 ||google.co.jp/afs/ads
 www.sanspo.com###ads_content_top
 
@@ -2392,7 +2392,7 @@ komachi.yomiuri.co.jp##.p-ads-center
 komachi.yomiuri.co.jp##.sidebar-ad-rec
 komachi.yomiuri.co.jp##.ads
 komachi.yomiuri.co.jp##.topi-ad-rec1
-@@||popin.cc^$3p,domain=komachi.yomiuri.co.jp
+@@||popin.cc^$third-party,domain=komachi.yomiuri.co.jp
 !@@||api.popin.cc/popIn_custom_search-min_v2.js
 !@@||api.popin.cc/partner/popin_komachi_new.js
 !@@||api.popin.cc/searchbox/komachi_yomiuri_new.js
