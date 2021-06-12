@@ -140,6 +140,12 @@ function network_filter_check()
         return 1 # error
     fi
 
+    # $3pは汎用性がないので$third-partyを使う 2021.6.13
+    if [[ $LINE =~ \$3p ]] ||
+        [[ $LINE =~ ,3p ]]; then
+        echo "3p: LINE=[$LINE]"
+        return 1 # error
+    fi
     return 0
 }
 
