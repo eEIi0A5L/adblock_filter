@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 11 Jun 2021 00:00 JST
+! Last modified: 16 Jun 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
@@ -260,6 +260,7 @@ watch.impress.co.jp##.ad
 watch.impress.co.jp###amp-floating-area
 !下部SNSバーの消し方がやっとわかった。。。→悲報：suspendTabsUntilReadyが効かない。。。
 watch.impress.co.jp##+js(no-setTimeout-if.js, sp-floating-layer)
+game.watch.impress.co.jp###contents-section-1 > div:has( > div[id^="gpt-div-ipc-gmw-sp-rect"] )
 
 !下記で消えるが画像も消えてしまった
 !$script,domain=pc.watch.impress.co.jp

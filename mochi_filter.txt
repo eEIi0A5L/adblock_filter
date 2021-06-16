@@ -1122,6 +1122,7 @@ profile.ameba.jp##.ad
 settings/ad.js$domain=lineblog.me
 !||hayabusa.io^
 
+
 !fc2.com
 !Youtube埋め込み動画までブロックされてしまう
 !fc2.com##iframe
