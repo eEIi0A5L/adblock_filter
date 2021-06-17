@@ -168,7 +168,6 @@
 ||s0.2mdn.net^
 ||s1.2mdn.net^
 ||s2.2mdn.net^
-||scdn.line-apps.com^
 ||service.cmp.oath.com^
 ||service.smt.docomo.ne.jp^
 ||settings.crashlytics.com^
