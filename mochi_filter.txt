@@ -2269,7 +2269,6 @@ spotify.com##.ads-container__inner
 open.spotify.com##div[data-testid="test-ref-div"]:upward(1)
 !プレイリスト内次の曲で左下にぴょこっと出るやつ
 open.spotify.com##div[data-testid="CoverSlotExpanded__container"]
-open.spotify.com##.GenericModal
 
 
 !Buzzfeed
