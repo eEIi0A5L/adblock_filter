@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 18 Jun 2021 00:00 JST
+! Last modified: 23 Jun 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2250,6 +2250,7 @@ tver.jp###ADoverlay
 @@||pubads.g.doubleclick.net^$domain=tver.jp
 
 !Spotify
+open.spotify.com##.GenericModal
 open.spotify.com##.ads-container
 !https://www.reddit.com/r/uBlockOrigin/comments/8kfyb6/spotifys_web_player_return_of_ads/
 ||audio-akp-spotify-com.akamaized.net/audio/*$media,redirect=noopmp3-0.1s,domain=open.spotify.com
