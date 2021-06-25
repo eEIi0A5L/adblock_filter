@@ -457,6 +457,8 @@ headlines.yahoo.co.jp,news.yahoo.co.jp##div[id^="spocon"]
 !中央の広告欄
 news.yahoo.co.jp###contentsWrap > div:has( > .adWrap )
 
+!右サイドの広告
+news.yahoo.co.jp##.adWrap
 
 
 !https://news.yahoo.co.jp/pickup/6264266とかでたまにtaboolaが接続重くなって映像が見れないのではじいておく。Peter Lowe’s Ad and tracking server listでブロック済。
