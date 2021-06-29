@@ -1386,6 +1386,9 @@ www.goo.ne.jp##.NR-pr
 news.goo.ne.jp##.NR-pr
 news.goo.ne.jp##div[id^="gooad-"]
 ||adcdn.goo.ne.jp^
+!https://tofukko.blog.fc2.com/blog-entry-405.html#comment845
+!NTTドコモログイン後において料金詳細等が表示されない
+@@||adcdn.goo.ne.jp^$domain=www.nttdocomo.co.jp
 ||l.logly.co.jp/lift_widget.js?adspot_id=
 ||google.com/adsense/search/ads.js
 oshiete.goo.ne.jp##.pr-unit

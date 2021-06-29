@@ -411,6 +411,9 @@ detail.chiebukuro.yahoo.co.jp##aside[class^="ClapLv3SubList_Chie"]
 !goo
 goo.ne.jp##div[id^="gooad"]
 ||adcdn.goo.ne.jp^
+!https://tofukko.blog.fc2.com/blog-entry-405.html#comment845
+!NTTドコモログイン後において料金詳細等が表示されない
+@@||adcdn.goo.ne.jp^$domain=www.nttdocomo.co.jp
 ||yads.c.yimg.jp^
 !||lodeo-adnw.adtdp.com^
 !news.goo.ne.jp##div[style*="fixed"]
