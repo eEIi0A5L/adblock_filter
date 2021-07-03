@@ -649,6 +649,8 @@ auctions.yahoo.co.jp###ASu3
 
 !Yahooファイナンス--------------------------------
 
+!上部の広告欄
+finance.yahoo.co.jp##div:has( > div > div[id^="ad_"])
 
 !右上のバナー
 !チャートが見れなくなった
