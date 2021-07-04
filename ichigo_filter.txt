@@ -1350,10 +1350,10 @@ mixdrop.co##+js(aopw, _pop)
 fembed.com##+js(abort-on-property-read, AaDetector)
 fembed.com##+js(aopr, jwplayer.utils.Timer)
 ||d2glav2919q4cw.cloudfront.net^
-||vk.com/js/api/share.js$3p
-||adxplay.com^$3p
+||vk.com/js/api/share.js$third-party
+||adxplay.com^$third-party
 ||creativeformatsnetwork.com^
-||adxplay.com^$3p
+||adxplay.com^$third-party
 javfull.pro##.happy-sidebar
 ||javfull.pro/wp-content/uploads/2021/03/sod-create.6c236cd.mp4
 javfull.pro##.close
