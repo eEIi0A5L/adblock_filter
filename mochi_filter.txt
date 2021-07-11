@@ -2416,7 +2416,11 @@ komachi.yomiuri.co.jp##.topi-ad-rec1
 !komachi.yomiuri.co.jp###_popIn_recommend_otekomachi
 !komachi.yomiuri.co.jp###_popIn_recommend
 komachi.yomiuri.co.jp##._popIn_recommend_ad_section_articles
-
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/25463/1598352715/220
+komachi.yomiuri.co.jp##.p-ad_gamBanner
+komachi.yomiuri.co.jp##.p-ad__middleRectangles
+komachi.yomiuri.co.jp##.p-ad__middleRectangleArticle
+komachi.yomiuri.co.jp##.p-ad__gamTexts
 
 
 
