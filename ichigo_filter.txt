@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 20 Jun 2021 00:00 JST
+! Last modified: 17 Jul 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -987,6 +987,9 @@ javhub.*##+js(window.open-defuser)
 javhub.*##+js(no-setInterval-if, _0x)
 javhub.*##+js(no-setTimeout-if, _0x)
 javhub.net##.fel-playclose
+||widow5blackfr.com^$third-party
+||leojmp.com^
+||js.wpadmngr.com/static/admanager.js
 
 
 
@@ -1367,6 +1370,16 @@ javhd.today##.ads
 javhd.today##.ads-footer
 ||d2glav2919q4cw.cloudfront.net^
 javhd.today##.afs_ads
+/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9-]{5,}\.(com|bid|link|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js/$script,third-party
+||yiopse.com^
+/[0-9a-f]{32}\/invoke\.js$/$script,3p
+javhd.*##+js(abort-current-inline-script, document.querySelectorAll, popMagic)
+||adxplay.com^
+femax20.com##+js(window.open-defuser)
+femax20.com##+js(set-constant, clientSide.adbDetect, noopFunc)
+femax20.com##+js(addEventListener-defuser, click, window.open)
+||femax20.com/asset/*.min.js?*=*&
+||pre4sentre8dhf.com^
 
 
 !javlibrary
@@ -1501,6 +1514,12 @@ javhdporn.net##+js(set-constant, clientSide.adbDetect, null)
 ||javmvp.com/asset/default/player/plugins/vast-8.4.13.js
 ||ddmax20.xyz^
 javhdporn.net##.header-ad-desktop
+||impactserving.com/preroll.engine$xmlhttprequest,redirect-rule=noop.txt
+javhdporn.net##+js(set-constant, clientSide.adbDetect, noopFunc)
+javhdporn.net##+js(set-constant, clientSide.adbDetect, null)
+||msgose.com^
+javhdporn.net##iframe[title="jfd"]
+
 
 !javfull
 javfull.net##+js(abort-on-property-read, Z4EE)
@@ -1526,6 +1545,7 @@ fembed.com##+js(abort-on-property-write, adcashMacros)
 fembed.com##+js(abort-on-property-read, glxopen)
 fembed.com##+js(set-constant, globalThis, null)
 fembed.com##+js(window.open-defuser)
+||javfull.pro/adx/ads.js
 
 !freejavporn
 ||bngpt.com/*.php
