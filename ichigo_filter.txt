@@ -1372,7 +1372,7 @@ javhd.today##.ads-footer
 javhd.today##.afs_ads
 /^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9-]{5,}\.(com|bid|link|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js/$script,third-party
 ||yiopse.com^
-/[0-9a-f]{32}\/invoke\.js$/$script,3p
+/[0-9a-f]{32}\/invoke\.js$/$script,third-party
 javhd.*##+js(abort-current-inline-script, document.querySelectorAll, popMagic)
 ||adxplay.com^
 femax20.com##+js(window.open-defuser)

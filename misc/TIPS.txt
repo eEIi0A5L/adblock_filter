@@ -1,0 +1,2 @@
+!内部スクリプトを削除する方法
+example.com##^script:has-text(7c9e3a5d51cdacfc)
