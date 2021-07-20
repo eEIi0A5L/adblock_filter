@@ -1432,6 +1432,13 @@ jma.go.jp##div[id^="jma_ad"]
 jma.go.jp###jma_ad_config_button
 ||www.gstatic.com/prose/brandjs.js$domain=jma.go.jp
 ||www.google.com/cse/static/images/1x/ja/branding.png$domain=jma.go.jp
+www.jma.go.jp###jma-common-adsarea
+||www.jma.go.jp/bosai/ad/js/KST_specificAd_script_afterExecute_writeActionOnly.min.js
+||www.jma.go.jp/bosai/information/data/ad_flag.txt
+||www.jma.go.jp/bosai/warning/data/ad_flag.txt
+||www.jma.go.jp/bosai/volcano/data/ad_flag.txt
+||www.data.jma.go.jp/hp_message/data/ad_stop_flag.txt
+||www.data.jma.go.jp/hp_message/data/ad_start_flag.txt
 
 
 !日経新聞
