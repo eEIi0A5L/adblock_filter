@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 28 Jun 2021 00:00 JST
+! Last modified: 23 Jul 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2430,7 +2430,13 @@ komachi.yomiuri.co.jp##.p-ad__middleRectangleArticle
 komachi.yomiuri.co.jp##.p-ad__gamTexts
 
 
-
+!gorin.jp
+gorin.jp###entranceAD
+||interactive-circle.jp^
+||doubleclick.net^
+||imasdk.googleapis.com^$domain=gorin.jp
+||spotxchange.com^
+gorin.jp##.vjs-ima3-ad-container
 
 
 
