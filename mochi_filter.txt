@@ -1514,7 +1514,8 @@ toyokeizai.net###adexchange
 ||storage.googleapis.com/didna-prod/latest/didna_prebid.js.gz
 ||static.solutionshindsight.net/hindsightipads/hindsightipads.min.js
 nordot.app##.adFooterDFPMobile
-nordot.app##div[style^="background-color: rgba(51, 51, 51, 0.4);"]
+!nordot.app##div[style^="background-color: rgba(51, 51, 51, 0.4);"]
+nordot.app##+js(abort-current-inline-script, document.createElement, admiral)
 
 !朝日
 www.asahi.com##.AdMod
