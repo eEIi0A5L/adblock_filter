@@ -1632,7 +1632,7 @@ erogazoufactory.com##.header_android
 
 !tktube
 tktube.com##.fp-player > div[style*="z-index:"]
-www.tktube.com##iframe[id$="_bnr"]
+tktube.com##iframe[id$="_bnr"]
 
 !javfor
 ||dmmzkfd82wayn.cloudfront.net^
