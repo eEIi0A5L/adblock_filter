@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 20 Jul 2021 00:00 JST
+! Last modified: 30 Jul 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -1238,6 +1238,15 @@ txxx.com##.afs_ads
 /^https?:\/\/.*\/.*sw[0-9(.|_)].*/$script,domain=txxx.com
 ||wpu.sh^$third-party
 txxx.com##.adsBox
+txxx.com##+js(set-constant, adver, noopFunc)
+txxx.com##+js(addEventListener-defuser, click, pop.beforeOpen)
+txxx.*##+js(abort-on-property-read, localStorage)
+txxx.*##+js(no-setTimeout-if, t()?n())
+txxx.*##+js(abort-on-property-read, jwplayer.utils.Timer)
+txxx.*##+js(abort-current-inline-script, setTimeout, hommy.mutation.mutation)
+||txxx.com/burstyourbuble/nofa7.
+||txxx.*^$document,csp=script-src  'self' 'unsafe-eval' 'unsafe-inline' blob:
+txxx.*##.jw-wrapper + div[id][style="display:flex !important"]
 
 !javmec
 ||muqson0kgr.com^
@@ -1676,6 +1685,14 @@ javstream.top##+js(window.open-defuser)
 ||javstream.top/asset/default/player/plugins/vast-8.4.13.js
 ||blastcahs.com^
 
+!hdzog
+hdzog.com##+js(abort-current-inline-script, adver)
+hdzog.com##+js(no-setInterval-if, document.readyState))
+hdzog.com##+js(addEventListener-defuser, , pop)
+hdzog.com##+js(set-constant, adver.abEnable, false)
+hdzog.com##+js(abort-on-property-read, vertis.popunder.neverblock)
+hdzog.com##+js(set-constant, mygosh.neverblock.loaderUrl, undefined)
+||hdzog.com/afon/rass7.
 
 
 
