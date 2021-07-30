@@ -653,6 +653,11 @@ auctions.yahoo.co.jp###ASu3
 !もちフィルタを適用すると、Yahoo!ファイナンスの掲示板が消えてしまいます
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/401
 !finance.yahoo.co.jp##div:has( > div > div[id^="ad_"])
+finance.yahoo.co.jp##div[id="root"] > main > div > div > div > div:has( > div > div > div[id^="ad_"])
+
+
+!右上の広告欄
+finance.yahoo.co.jp##div[id="root"] > main > div > div > div > div:has( > div[id^="ad_"])
 
 !右上のバナー
 !チャートが見れなくなった
