@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 23 Jul 2021 00:00 JST
+! Last modified: 30 Jul 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -650,7 +650,9 @@ auctions.yahoo.co.jp###ASu3
 !Yahooファイナンス--------------------------------
 
 !上部の広告欄
-finance.yahoo.co.jp##div:has( > div > div[id^="ad_"])
+!もちフィルタを適用すると、Yahoo!ファイナンスの掲示板が消えてしまいます
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/401
+!finance.yahoo.co.jp##div:has( > div > div[id^="ad_"])
 
 !右上のバナー
 !チャートが見れなくなった
