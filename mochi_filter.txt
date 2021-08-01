@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 30 Jul 2021 00:00 JST
+! Last modified: 01 Aug 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -369,7 +369,9 @@ www.yahoo.co.jp###qurireco > article:has( > a > div > div > p > span )
 ||yads.c.yimg.jp/js/yads.js
 ||s.yimg.jp/images/advertising/
 !||s.yimg.jp/images/advertising/common/js/iicon.min.js
-||yads.c.yimg.jp/js/yads-async.js
+!スポーツナビ https://sports.yahoo.co.jp/ 下部の「もっと見る」ボタンが機能しない
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/403
+!||yads.c.yimg.jp/js/yads-async.js
 !||yj.p.adnxs.com^
 ||yjtag.yahoo.co.jp/tag?
 !||giwiz-quriosity.c.yimg.jp^

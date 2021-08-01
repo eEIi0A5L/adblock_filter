@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Yahoo!Japanトップの広告をとにかくブロックするフィルタ
-! Last modified: 26 Feb 2019 00:00 JST
+! Last modified: 01 Aug 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/
@@ -30,7 +30,7 @@ www.yahoo.co.jp###yjidbox
 ||s.yimg.jp/images/advertising/
 ||bs.serving-sys.com/serving/adServer.bs
 ||yads.c.yimg.jp/js/yads.js
-||yads.c.yimg.jp/js/yads-async.js
+!||yads.c.yimg.jp/js/yads-async.js
 !||yj.p.adnxs.com^
 ||yjtag.yahoo.co.jp/tag?
 !||adx.adnxs.com^
