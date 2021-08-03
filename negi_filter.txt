@@ -181,6 +181,8 @@ www.yahoo.co.jp###yjidbox
 www.yahoo.co.jp###eventPromo
 www.yahoo.co.jp###event
 www.yahoo.co.jp###ultra
+!Yahooトップ右欄青いクーポンの吹き出しバルーン
+!www.yahoo.co.jp###Balloon
 !初回右上「Yahoo!Japanをホームページにしよう」
 www.yahoo.co.jp###PopHead
 www.yahoo.co.jp###Perorin
