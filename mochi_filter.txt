@@ -2460,7 +2460,8 @@ rankingoo.net###bottom_overlay_area
 rankingoo.net##.ADD300_250
 rankingoo.net##.ADD728_90
 
-
+!ザテレビジョン
+thetv.jp##.ad
 
 
 
