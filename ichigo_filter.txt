@@ -1687,7 +1687,7 @@ javstream.top##+js(window.open-defuser)
 
 !hdzog
 hdzog.com##+js(abort-current-inline-script, adver)
-hdzog.com##+js(no-setInterval-if, document.readyState))
+hdzog.com##+js(no-setInterval-if, document.readyState)
 hdzog.com##+js(addEventListener-defuser, , pop)
 hdzog.com##+js(set-constant, adver.abEnable, false)
 hdzog.com##+js(abort-on-property-read, vertis.popunder.neverblock)
