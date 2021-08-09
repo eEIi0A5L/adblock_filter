@@ -1701,6 +1701,7 @@ sponichi.co.jp##div[data-component="ad-basic"]
 
 !デイリー
 www.daily.co.jp##aside.add
+www.daily.co.jp##.pageAd
 
 !日刊スポーツ
 www.nikkansports.com###sideAd1
