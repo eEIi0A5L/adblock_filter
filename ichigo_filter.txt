@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 30 Jul 2021 00:00 JST
+! Last modified: 12 Aug 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -1412,7 +1412,15 @@ www.javlibrary.com###topbanner11
 ||ad999.biz^
 ||js.isboost.co.jp^
 javmix.tv##.__isboostOverContent
-
+||golden-gateway.com/ad/$image,3p
+asianclub.*##+js(set-constant, clientSide.adbDetect, noopFunc)
+asianclub.tv##+js(remove-attr, href, a.fakeplaybutton[href])
+asianclub.tv##+js(window.open-defuser)
+||asianclub.tv/asset/jquery/slim-3.2.min.js
+javmix.tv##div[style^="width: 728px; height: 90px"]
+!javmix.tv##iframe[src^="https://asianclub.tv/v/"]
+||asianclub.tv/asset/vue.min.js
+javmix.tv##iframe[style^="width: 100%"]
 
 
 
