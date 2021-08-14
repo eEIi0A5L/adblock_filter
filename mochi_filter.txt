@@ -906,7 +906,8 @@ twitter.com##span:has-text(/^プロモツイート$/):upward( div[aria-label^="�
 !探索上部の広告(たまに出る)
 twitter.com##div[data-testid="eventHero"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션 중|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
 
-
+!「雨 川」で検索した時のウェザーニュースでadが出る
+||twitter.com/i/api/1.1/videoads/v2/prerolls.json
 
 
 
