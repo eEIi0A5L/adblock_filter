@@ -1421,7 +1421,9 @@ javmix.tv##div[style^="width: 728px; height: 90px"]
 !javmix.tv##iframe[src^="https://asianclub.tv/v/"]
 ||asianclub.tv/asset/vue.min.js
 javmix.tv##iframe[style^="width: 100%"]
-
+javstream.top##+js(set-constant, globalThis, null)
+javstream.top##+js(abort-on-property-read, __Y)
+javstream.top##+js(abort-on-property-read, jwplayer.utils.Timer)
 
 
 !myhdjav
