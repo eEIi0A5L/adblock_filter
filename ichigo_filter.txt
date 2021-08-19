@@ -1412,7 +1412,7 @@ www.javlibrary.com###topbanner11
 ||ad999.biz^
 ||js.isboost.co.jp^
 javmix.tv##.__isboostOverContent
-||golden-gateway.com/ad/$image,3p
+||golden-gateway.com/ad/$image,third-party
 asianclub.*##+js(set-constant, clientSide.adbDetect, noopFunc)
 asianclub.tv##+js(remove-attr, href, a.fakeplaybutton[href])
 asianclub.tv##+js(window.open-defuser)
