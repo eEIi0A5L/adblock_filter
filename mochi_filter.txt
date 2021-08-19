@@ -2294,7 +2294,9 @@ tver.jp###ADoverlay
 @@||pubads.g.doubleclick.net^$domain=tver.jp
 
 !Spotify
-open.spotify.com##.GenericModal
+!Spotifyの「楽曲クレジット表示」を押してもクレジットが表示されません
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/410
+!open.spotify.com##.GenericModal
 open.spotify.com##.ads-container
 !https://www.reddit.com/r/uBlockOrigin/comments/8kfyb6/spotifys_web_player_return_of_ads/
 ||audio-akp-spotify-com.akamaized.net/audio/*$media,redirect=noopmp3-0.1s,domain=open.spotify.com
