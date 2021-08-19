@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 23 Jul 2021 00:00 JST
+! Last modified: 19 Aug 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
@@ -740,6 +740,7 @@ nikkan-spa.jp##.top_post
 amp-ad-0.1.js|
 nikkansports.com##amp-ad
 nikkansports.com##.article__ad
+nikkansports.com###TopAD
 
 !techcrunch
 !||o.aolcdn.com^$domain=techcrunch.com
