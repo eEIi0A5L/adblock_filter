@@ -574,7 +574,10 @@ shopping.yahoo.co.jp##.uiDialogCrm
 !検索結果上部の広告
 search.yahoo.co.jp###So1
 
-!検索結果上部の広告
+!画像タブ
+search.yahoo.co.jp##.sw-AdSection
+
+!検索結果上部の広告：リアルタイム
 search.yahoo.co.jp##div.main > div:has( > ul > li > article > a > span:matches-css-before(content: "広告"))
 
 
