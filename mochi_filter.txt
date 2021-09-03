@@ -2330,6 +2330,7 @@ open.spotify.com##div[data-testid="CoverSlotExpanded__container"]
 !SNSが点滅する
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/221
 !||abeagle-public.buzzfeed.com^
+www.buzzfeed.com##.Ad
 
 !Nifty
 !検索結果の広告
