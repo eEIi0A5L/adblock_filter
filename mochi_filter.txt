@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 02 Sep 2021 00:00 JST
+! Last modified: 09 Sep 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1712,6 +1712,10 @@ sponichi.co.jp##.banner03
 sponichi.co.jp###annex_pc_baseball_mid_rect
 sponichi.co.jp###annex_pc_baseball_foot_rect
 sponichi.co.jp##div[data-component="ad-basic"]
+www.sponichi.co.jp##div[class^="gmossp_adnw_"]
+www.sponichi.co.jp##.mb30:has( > div > img[src="/shopping/images/title_a.gif"])
+||www.sponichi.co.jp/gamble/auto/images/charilotobanner005_pc.jpg
+www.sponichi.co.jp##div[data-hide-at-compact="data-hide-at-compact"]
 
 !デイリー
 www.daily.co.jp##aside.add
