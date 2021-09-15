@@ -214,6 +214,18 @@
 ||katie.v4.omgtnc.com^
 ||clk.rtpdn14.com^
 
+!フィッシングサイト
+||terratopi.roflclub.asia^
+||1redirb.com^
+||www.o-uccino.top^
+||getflexsafe.io^
+
+
+
+
+
+
+
 
 
 
