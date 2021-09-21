@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 01 Sep 2021 00:00 JST
+! Last modified: 21 Sep 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -429,6 +429,7 @@ javynow.com##+js(window.open-defuser)
 javynow.com##iframe[width="300"][height="250"]
 ||javynow.com/images/caribian.jpg
 javynow.com##a[href^="https://click.dtiserv2.com/Click"]
+javynow.com##.banner-player
 
 !http://kaikangakuen.xyz/
 ||for-ward.jp^
@@ -1706,8 +1707,10 @@ hdzog.com##+js(abort-on-property-read, vertis.popunder.neverblock)
 hdzog.com##+js(set-constant, mygosh.neverblock.loaderUrl, undefined)
 ||hdzog.com/afon/rass7.
 
-
-
+!shabulism
+||d2zgd5orehvssg.cloudfront.net/thumbnail/
+shabulism.com###span_ARROWBannerAD_1
+shabulism.com###ARROWBannerAD_1
 
 
 
