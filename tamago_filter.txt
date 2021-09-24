@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 17 Sep 2021 00:00 JST
+! Last modified: 25 Sep 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
@@ -866,6 +866,7 @@ www.tokyo-sports.co.jp##:xpath(//div[contains(@class, '_taxel_ad_article_')]/par
 news.biglobe.ne.jp###footer
 news.biglobe.ne.jp###cto_w
 news.biglobe.ne.jp##.yahoo_nad_list
+news.biglobe.ne.jp##.adsense
 
 !日刊スポーツ
 !||jp.popin.cc^
