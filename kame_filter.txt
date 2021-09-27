@@ -217,7 +217,8 @@
 !フィッシングサイト
 ||terratopi.roflclub.asia^
 ||1redirb.com^
-||www.o-uccino.top^
+!https://github.com/eEIi0A5L/adblock_filter/commit/dcd18396b5492d1be80c0912ac18d0a9a9ed1ef4#commitcomment-57107999
+!||www.o-uccino.top^
 ||getflexsafe.io^
 
 
