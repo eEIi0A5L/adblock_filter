@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 12 Sep 2021 00:00 JST
+! Last modified: 30 Sep 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1591,6 +1591,8 @@ www.yomiuri.co.jp##.subhead
 !読売、下から出てくるフッター
 www.yomiuri.co.jp##.layout-footer
 www.yomiuri.co.jp###ad_dfp_premiumrec
+www.yomiuri.co.jp###ad_dfp_banner
+www.yomiuri.co.jp##.home-2020-ad-wide
 
 !NHK
 !広告じゃなかった
