@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 21 Sep 2021 00:00 JST
+! Last modified: 30 Sep 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -1711,6 +1711,16 @@ hdzog.com##+js(set-constant, mygosh.neverblock.loaderUrl, undefined)
 ||d2zgd5orehvssg.cloudfront.net/thumbnail/
 shabulism.com###span_ARROWBannerAD_1
 shabulism.com###ARROWBannerAD_1
+
+
+!buzzav
+||www.buzzav.com/images/fun/SC_826_4.gif
+www.buzzav.com##.ad-content
+||poppaybestonlockuut.tk
+||cloudflareinsights.com^
+||analy.fin.ovh/matomo.js
+/get/*?zoneid=$script,domain=www.buzzav.com
+www.buzzav.com##.ad-content
 
 
 
