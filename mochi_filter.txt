@@ -1659,6 +1659,7 @@ www.fujitv.co.jp###cx_gbheader_sb:upward(1)
 @@||pubads.g.doubleclick.net/gampad/ads$domain=video.tv-tokyo.co.jp
 www.tv-tokyo.co.jp###txcms_cms_headerBanner
 www.tv-tokyo.co.jp##.tbcms_ad-block
+www.tv-tokyo.co.jp##amp-ad
 
 !BSテレ東
 ||bs-tvtokyo.co.jp/tbcms/javascripts/ad.js
