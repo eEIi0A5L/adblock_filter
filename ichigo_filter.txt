@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 30 Sep 2021 00:00 JST
+! Last modified: 06 Oct 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -922,6 +922,7 @@ avgle.com##+js(set, showBlockIf, noopFunc)
 ||sub2.avgle.com^$script,domain=avgle.com
 ||sub2.avgle.com/67/1d/ba/671dbadbf37814e321f252eac8aa2500.js
 avgle.com###exo-native
+avgle.com###nft
 
 
 !http://nukitomo.me
@@ -1722,7 +1723,18 @@ www.buzzav.com##.ad-content
 /get/*?zoneid=$script,domain=www.buzzav.com
 www.buzzav.com##.ad-content
 
-
+!jav giga
+javlove.club##+js(set-constant, clientSide.adbDetect, noopFunc)
+javlove.club##+js(window.open-defuser)
+javlove.club##+js(abort-on-property-read, Object.prototype.getAdBlock)
+javgiga.com##iframe[width="300"][height="250"]
+javgiga.com##iframe[width="728"][height="90"]
+javgiga.com##.happy-under-player
+javgiga.com##.sidebar-ads
+||outsliggooa.com/400/3077508
+||javlove.club/asset/jquery/slim-3.2.min.js
+||javlove.club/asset/default/player/plugins/vast-8.4.13.js
+||midpopedge.com^
 
 
 
