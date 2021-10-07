@@ -1737,7 +1737,9 @@ javgiga.com##.sidebar-ads
 ||midpopedge.com^
 
 
-
+!pornbest
+||www.pornbest.org/images/friend/0/
+www.pornbest.org##div.row:has( > div > div.card > div > a > img[src^="/images/friend/0/"])
 
 
 
