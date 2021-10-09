@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 25 Sep 2021 00:00 JST
+! Last modified: 09 Oct 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
@@ -249,6 +249,7 @@ news.dwango.jp##.overlay-footer_ad
 watch.impress.co.jp##.ad
 ||cdn.cxense.com/cx.js
 ||adservice.google.co.jp^
+www.watch.impress.co.jp###gpt-div-ipc-ipw-sp-rect001:upward(1)
 !------------------------------------------------------
 !impress下部のソーシャルの消し方がマジでわからない
 !#floating-social-buttons
@@ -755,6 +756,7 @@ jp.techcrunch.com###stcky-footer
 !itmedia
 ||dlv.itmedia.jp/adsv/
 ||image.itmedia.co.jp/images/ad/
+nlab.itmedia.co.jp##.contents_bannar
 
 !mynavi
 !||microad.net^
