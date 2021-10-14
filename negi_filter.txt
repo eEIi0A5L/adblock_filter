@@ -364,7 +364,9 @@ twitter.com##.LiveVideoHomePageModuleContainer
 !twitter.com##div[aria-label^="タイムライン:"]:not([aria-label$="タイムラインを検索"] ) > div > div > div > div[data-testid="UserCell"]
 !twitter.com##span:has-text(/^さらに表示$/):upward(div[style^="position: absolute; width: 100%;"])
 
-
+!「「いま」起きていることを見つけよう」を消す
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/422
+!twitter.com###layers > div:has( div[dir="auto"]:has-text(「いま」起きていることを見つけよう))
 
 
 
