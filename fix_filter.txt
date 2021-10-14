@@ -142,7 +142,8 @@ livedoor.biz#@#[class$="-ads"]:not(html):not(body)
 @@^adinfo^$domain=www.google.co.jp
 @@||afl.rakuten.co.jp^$domain=rakuten.co.jp
 @@||doubleclick.net^$domain=doubleclick.net
-@@_campaign=$document,first-party
+!https://github.com/AdguardTeam/AdguardFilters/issues/45369
+@@_campaign=$document,first-party,domain=shopping.google.com
 
 !Twitterの日刊スポーツ公式アカの記事を開こうとするとブロックされる
 !https://egg.5ch.net/test/read.cgi/software/1540428057/626

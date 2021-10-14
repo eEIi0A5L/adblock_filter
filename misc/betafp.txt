@@ -98,7 +98,6 @@
 ||dynalyst-ad.adtdp.com^
 ||dynalyst-imp.adtdp.com^
 ||e.crashlytics.com^
-||encrypted-tbn1.gstatic.com^
 ||et.docomo-analytics.com^
 ||frontier.byteoversea.com^
 ||gce-jp.bidswitch.net^
