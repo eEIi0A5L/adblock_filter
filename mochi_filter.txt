@@ -1863,6 +1863,7 @@ wired.jp##.banner-pc-banner-wsky
 !ギズモード
 gizmodo.jp##.ad-banner
 gizmodo.jp##.s-body-ad
+gizmodo.jp##.p-post-ad
 
 !聯合ニュース
 m.yna.co.kr##.foreign-ad01
