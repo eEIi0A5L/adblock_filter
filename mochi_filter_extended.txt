@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 17 May 2021 00:00 JST
+! Last modified: 28 Oct 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi_extended.html
@@ -150,6 +150,10 @@ www.afpbb.com##.bnr
 www.imdb.com###ape_top_ad_iframe
 www.imdb.com###top_ad_wrapper
 www.imdb.com###top_rhs_wrapper
+www.imdb.com###ad
+||images-na.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/
+www.imdb.com###inline20
+www.imdb.com###inline20_wrapper
 
 !TIME
 !imdbでAround The Webが空白になる
