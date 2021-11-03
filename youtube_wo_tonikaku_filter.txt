@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Youtubeの広告をとにかくブロックするフィルタ
-! Last modified: 08 Nov 2020 00:00 JST
+! Last modified: 03 Nov 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/
@@ -18,7 +18,8 @@ youtube.com##.ytd-search-pyv-renderer
 youtube.com##.iv-promo
 youtube.com###player-ads
 youtube.com###masthead-ad
-youtube.com###video-masthead 
+youtube.com###video-masthead
+youtube.com##ytd-rich-section-renderer:has( > #content > ytd-statement-banner-renderer)
 youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)

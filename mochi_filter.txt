@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 01 Nov 2021 00:00 JST
+! Last modified: 03 Nov 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -61,6 +61,8 @@ youtube.com##.ytp-ad-progress-list
 youtube.com###player-ads
 !||pubads.g.doubleclick.net^
 ||youtube.com/pagead/
+!Youtubeトップの中央の「Youtube注目」欄
+www.youtube.com##ytd-rich-section-renderer:has( > #content > ytd-statement-banner-renderer)
 ||youtube.com/ads/$image
 !||securepubads.g.doubleclick.net
 =adunit&$domain=youtube.com
