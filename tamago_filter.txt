@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 15 Oct 2021 00:00 JST
+! Last modified: 17 Nov 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
@@ -2195,6 +2195,10 @@ jp.wackojaco.com##.verboseads-mob-container
 !jp.ign.com##.zad
 jp.ign.com##.mobileArticleAds
 jp.ign.com##.ad-wrapper
+
+!fandom
+fandom.com##.top-ads-container
+fandom.com##.ad-slot-placeholder
 
 
 
