@@ -1699,7 +1699,7 @@ javstream.top##+js(window.open-defuser)
 ||javstream.top/asset/default/player/plugins/vast-8.4.13.js
 ||blastcahs.com^
 ||id.fc2-ppv.live^
-/^https?:\/\/(?:www\.|[a-z0-9]{7,10}\.)?[-a-z0-9]{5,}\.(?:com?|bid|cl(?:ick|ub)|li(?:nk|ve)|net|online|top)\/(?:[a-z0-9]{2}\/){2,3}[a-f0-9]{32}\.js/$script,3p
+/^https?:\/\/(?:www\.|[a-z0-9]{7,10}\.)?[-a-z0-9]{5,}\.(?:com?|bid|cl(?:ick|ub)|li(?:nk|ve)|net|online|top)\/(?:[a-z0-9]{2}\/){2,3}[a-f0-9]{32}\.js/$script,third-party
 supjav.com##.movv-ad
 supjav.com##.video-wrap > div.right
 streamtape.com##+js(set-constant, towait, 0)
