@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 12 Oct 2021 00:00 JST
+! Last modified: 03 Dec 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -1698,6 +1698,36 @@ javstream.top##+js(window.open-defuser)
 ||javstream.top/asset/bann.js
 ||javstream.top/asset/default/player/plugins/vast-8.4.13.js
 ||blastcahs.com^
+||id.fc2-ppv.live^
+/^https?:\/\/(?:www\.|[a-z0-9]{7,10}\.)?[-a-z0-9]{5,}\.(?:com?|bid|cl(?:ick|ub)|li(?:nk|ve)|net|online|top)\/(?:[a-z0-9]{2}\/){2,3}[a-f0-9]{32}\.js/$script,3p
+supjav.com##.movv-ad
+supjav.com##.video-wrap > div.right
+streamtape.com##+js(set-constant, towait, 0)
+streamtape.com##+js(addEventListener-defuser, contextmenu, event.dispatch.apply)
+streamtape.com##+js(abort-current-script, document.createElement, adblock)
+streamtape.com##+js(no-setInterval-if, adblock, 700)
+streamtape.com##+js(no-setInterval-if, adblock, 700)
+streamtape.com##+js(abort-current-script, Math, /emZnbG9hZGVk|break;case \$\./)
+streamtape.*##+js(abort-on-stack-trace, Math.random, /\st\.[a-zA-Z]*\s/)
+streamtape.*##+js(no-setInterval-if, adblock)
+streamtape.*##+js(remove-attr, target, #downloadvideo)
+streamtape.*##.ad-placement
+videovard.sx##+js(window.open-defuser)
+videovard.sx##+js(addEventListener-defuser, mouseup, catch)
+videovard.sx##+js(no-setInterval-if, 0x)
+videovard.sx##+js(abort-on-property-read, FuckAdBlock)
+videovard.sx##+js(set-constant, Lavidaloca.add, noopFunc)
+videovard.sx##.is-player-page #nux > div:not([class]):not([id]) > div:not([class]):not([id]) > div[id]:empty
+supjav.com##.grecaptcha-badge
+www.google.*##+js(remove-attr, ping, div[id="search"] a[data-ved][ping])
+www.google.*##+js(set-constant, rwt, noopFunc)
+streamtape.*##[class*="bn-container"], div[style*="z-index: 300000;"]
+supjav.com##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
+||betotodilea.com^
+emturbovid.com##+js(window.open-defuser)
+supjav.com##.ad-placement
+||xxxjmp.com^
+
 
 !hdzog
 hdzog.com##+js(abort-current-inline-script, adver)
