@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 05 Dec 2021 00:00 JST
+! Last modified: 25 Dec 2021 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2278,6 +2278,7 @@ news.biglobe.ne.jp###gadsOverlayUnit
 gamespark.jp###danglingList
 gamespark.jp##li.item:has(> a > article > img[alt^="【PR】"])
 gamespark.jp##section.item:has(> a > img[alt^="【PR】"])
+www.gamespark.jp##.jackad
 
 !モデルプレス
 ||g2.gumgum.com^
