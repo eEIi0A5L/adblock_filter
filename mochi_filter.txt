@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 28 Dec 2021 00:00 JST
+! Last modified: 04 Jan 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1425,6 +1425,9 @@ eow.alc.co.jp###introduceEowp
 
 !goo
 oshiete.goo.ne.jp##.businessanswer
+oshiete.goo.ne.jp###gooad-long_1
+oshiete.goo.ne.jp###gooad-long_2
+oshiete.goo.ne.jp###gooad-long_3
 www.goo.ne.jp##.NR-pr
 news.goo.ne.jp##.NR-pr
 news.goo.ne.jp##div[id^="gooad-"]
