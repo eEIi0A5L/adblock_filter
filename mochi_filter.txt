@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 08 Jan 2022 00:00 JST
+! Last modified: 19 Jan 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2038,6 +2038,7 @@ wikiwiki.jp###title + br + br + div[id^="div-gpt-ad"] + br
 wikiwiki.jp###title + br + br + div[id^="div-gpt-ad"] + br + br
 wikiwiki.jp###menubar > div[style="width:240px;height:207px;margin: 5px auto;"]:first-child
 wikiwiki.jp###menubar > div[style="width:240px;height:207px;margin: 5px auto;"]:first-child + p
+wikiwiki.jp###inbound-ad-container
 
 !msn
 ||msn.com/advertisement.ad.js
