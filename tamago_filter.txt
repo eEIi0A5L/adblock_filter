@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 17 Nov 2021 00:00 JST
+! Last modified: 27 jan 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
@@ -770,6 +770,7 @@ mynavi.jp##.l-header-ad
 ||mynv.jp/img/bear_header_T.gif
 news.mynavi.jp##.c-sideBanner_articleBottom
 news.mynavi.jp##.headerBillboard
+news.mynavi.jp###iframeContent
 
 !tenki.jp
 tenki.jp##.tenki-ad-lite-north
