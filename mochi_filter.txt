@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 02 Feb 2022 00:00 JST
+! Last modified: 14 Feb 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -323,6 +323,11 @@ www.yahoo.co.jp###tct
 !Yahooトップ中央下部のおすすめ記事内のPR削除（PayPay, カードなど）
 !www.yahoo.co.jp###Stream > div > div > article:has( > a > div > div > div > span:has-text(/^PR$/) )
 www.yahoo.co.jp##span:has-text(/^PR$/):upward( #Stream > div > div > article )
+
+!なんか忘れた
+!||s.yimg.jp/images/yjtop-common/extension/promo/202111/new/banner/pctop_timelinebanner_02_c.png
+!||s.yimg.jp/images/yjtop-common/extension/promo/202111/new/banner/pctop_timelinebanner.png
+||s.yimg.jp/images/yjtop-common/extension/promo/
 
 
 !Yahooプレミアムの広告バナー
