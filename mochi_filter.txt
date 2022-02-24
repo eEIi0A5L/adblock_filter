@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 14 Feb 2022 00:00 JST
+! Last modified: 24 Feb 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -274,6 +274,11 @@ www.yahoo.co.jp###TBP
 !www.yahoo.co.jp###topImpact
 !www.yahoo.co.jp##div[style^="position: absolute; width: 100%;"]
 
+!Yahooトップの左右のバナー
+www.yahoo.co.jp##div[style="box-sizing: content-box; background-color: transparent; position: absolute; width: 100%; top: 0px; left: 0px; pointer-events: none;"]
+
+!中央の入会金無料
+www.yahoo.co.jp###TCBX
 
 !いい買い物の日
 !→/bdv/全体をブロックした
