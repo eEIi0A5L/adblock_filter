@@ -131,6 +131,8 @@ google.co.jp,google.com##.commercial-unit-desktop-rhs
 google.com,google.co.jp##.commercial-unit-desktop-top
 google.co.jp,google.com###tads[aria-label="Ads"]
 google.co.jp,google.com###tads[aria-label="広告"]
+!Celebrate International Woman's Day
+www.youtube.com##.ytd-statement-banner-renderer
 
 !gmail
 mail.google.com##.aKB
