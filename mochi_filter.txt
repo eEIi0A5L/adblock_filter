@@ -640,6 +640,8 @@ search.yahoo.co.jp###WS2aj
 
 
 !Yahoo天気--------------------------------
+!上部のPayPay新規登録
+weather.yahoo.co.jp###msthdPointDetailTxtPaypay
 
 !中央の広告
 weather.yahoo.co.jp##.ad-frame-fix
