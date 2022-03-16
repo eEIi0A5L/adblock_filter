@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 10 Mar 2022 00:00 JST
+! Last modified: 16 Mar 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -208,6 +208,8 @@ www.yahoo.co.jp##img[alt="いい買物の日"][src^="https://s.yimg.jp/images/ev
 !いい買い物の日（１１月１１日）の背景画像
 www.yahoo.co.jp##.KaimonoBackground
 
+!上部広告
+www.yahoo.co.jp###rma-pdv
 
 !左上のピックアップ
 !→もういらないような気がする
