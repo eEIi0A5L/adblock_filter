@@ -1267,6 +1267,8 @@ kakaku.com##.mTop10.mBtm10
 kakaku.com##.fixedRightAdContainer
 !アコム枠
 !review.kakaku.com##.mTop10.mBtm10.alignC
+!左右の広告
+kakaku.com##.s-jack_img
 !他サイトで出る価格.comの広告
 ||static.criteo.net^
 ||cas.criteo.com^
