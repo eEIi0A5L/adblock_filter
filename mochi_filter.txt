@@ -158,7 +158,8 @@ yahoo.co.jp###msthdtp > span > .compo > p
 
 !カードの勧誘
 !yahoo.co.jp###msthdPrBox
-yahoo.co.jp###mhd_text_pc
+!↓要る https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/440
+!yahoo.co.jp###mhd_text_pc
 
 
 
