@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 19 Mar 2022 00:00 JST
+! Last modified: 24 Mar 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -458,7 +458,8 @@ videotopics.yahoo.co.jp##.banner
 !Yahooニュース------------------------------------
 
 !ニュース記事上部のPayPay新規登録
-news.yahoo.co.jp###msthdPointDetailTxtPaypay
+!→要る https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/438
+!news.yahoo.co.jp###msthdPointDetailTxtPaypay
 
 !右上の広告
 headlines.yahoo.co.jp###lrec
@@ -1340,6 +1341,10 @@ rakuten.co.jp###footer-floating-bnr
 !楽天の検索結果のPR枠
 !https://egg.5ch.net/test/read.cgi/software/1580196388/768-774
 !search.rakuten.co.jp##.searchresultitem:has(span.-pr)
+
+!楽天レシピ
+recipe.rakuten.co.jp##.overlay_ad
+
 
 !Amazon（他サイトに出る広告のブロック）
 !||amazon.co.jp^$domain=~amazon.co.jp
