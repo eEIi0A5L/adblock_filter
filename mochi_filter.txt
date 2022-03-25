@@ -1345,6 +1345,7 @@ rakuten.co.jp###footer-floating-bnr
 
 !楽天レシピ
 recipe.rakuten.co.jp##.overlay_ad
+recipe.rakuten.co.jp##.section_footer_overlay
 
 
 !Amazon（他サイトに出る広告のブロック）
