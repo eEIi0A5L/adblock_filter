@@ -1150,6 +1150,8 @@ mm9842.com##+js(window.open-defuser)
 mm9844.cc##+js(abort-on-property-read, __Y)
 7mmtv.tv##div[id^="mvspan_"][id$="s_k_i_p"]
 7mmtv.tv###mvspan_2_s_k_i_p
+_728x90.$domain=7mmtv.tv
+7mmtv.tv###player-container[style="width:300px;height:250px"]
 
 !jav321
 www.jav321.com###popup-container
