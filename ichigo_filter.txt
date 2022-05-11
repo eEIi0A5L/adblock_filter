@@ -946,24 +946,24 @@ share-videos.se##div[style="margin-left:120px;"]
 !JavTube
 javtb.se##.pc_main
 
-!javpm.com to javsun.net
+!javpm.com to javsun.cc
 !||syndication.exosrv.com^$popup
 !https://ads.exosrv.com/nativeads.js
 !https://ads.exosrv.com/ads.js
 !https://www.javwide.com
-javsun.net##[id$="_ads"]
-javsun.net##.fa-pinterest-p
-javsun.net##.fa-share
+javsun.cc##[id$="_ads"]
+javsun.cc##.fa-pinterest-p
+javsun.cc##.fa-share
 ||jsc.mgid.com^
-javsun.net##[id*="ScriptRoot"]
-javsun.net##div[id*="ScriptRootC"]
+javsun.cc##[id*="ScriptRoot"]
+javsun.cc##div[id*="ScriptRootC"]
 ||fabrkrup.com/get/1551789?zoneid=
 ||www.embed.media/asset/default/player/plugins/vast-
-javsun.net##.afs_ads
+javsun.cc##.afs_ads
 ||log.vcdn.io^
 ||pub.javwide.com/un4dlq5.js
 javsun.net###preroll_ads
-javsun.net##iframe[width="300"][height="250"]
+javsun.cc##iframe[width="300"][height="250"]
 ||embed.best/asset/default/player/plugins/vast-*.js
 
 
@@ -1197,8 +1197,8 @@ javwhores.com##+js(no-setInterval-if.js, (), 500)
 !javtc
 ||engine.phn.doublepimp.com/Redirect.eng?MediaSegmentId=$popup,domain=javtc.com
 embed.media##.afs_ads
-javtc.tv##iframe[width="300"][height="250"]
-/^https?:\/\/[a-z0-9]{5,14}\.(com|bid|online|top|club)\/[0-9a-f]{32}\/invoke.js$/$third-party,script,domain=javtc.tv
+javtc.fun##iframe[width="300"][height="250"]
+/^https?:\/\/[a-z0-9]{5,14}\.(com|bid|online|top|club)\/[0-9a-f]{32}\/invoke.js$/$third-party,script,domain=javtc.fun
 ||adservme.com^
 !||menhv.com/api/direct
 !https://1.menhv.com/api/direct/66545
@@ -1439,8 +1439,8 @@ javstream.top##+js(abort-on-property-read, jwplayer.utils.Timer)
 
 
 !myhdjav
-myhdjav.net##+js(aopr, exoJsPop101)
-myhdjav.net###preroll
+tojav.net##+js(aopr, exoJsPop101)
+tojav.net###preroll
 ||www.bitporno.com/assets/js/videojs-contrib-ads.js
 ||wpnjs.com^$third-party
 
