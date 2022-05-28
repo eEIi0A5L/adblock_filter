@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 10 May 2022 00:00 JST
+! Last modified: 28 May 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1444,6 +1444,8 @@ ejje.weblio.jp###main > div[style="width:730px;hight:548;margin-bottom:20px;"]:h
 ejje.weblio.jp##div.mainBlock:has( > div:has-text(/^Weblio英会話$/))
 ||eikaiwa.weblio.jp/information/media/img/chrome728x90.png
 ||eikaiwa.weblio.jp/information/media/img/chrome300x250.png
+www.weblio.jp##.firstDictBnr
+www.weblio.jp##.thirdDictBnr
 
 !alc
 eow.alc.co.jp###AreaUpperRight
