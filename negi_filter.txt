@@ -44,6 +44,8 @@ www.nicovideo.jp##.Marquee-item
 !https://egg.5ch.net/test/read.cgi/software/1524667609/106
 !||api.nicoad.nicovideo.jp/v1/contents/video/*/thanks
 !||nicovideo.cdn.nimg.jp/web/scripts/pages/watch/assets/uad.mp3
+!https://egg.5ch.net/test/read.cgi/software/1645487573/121
+!||secure-dcdn.cdn.nimg.jp/nicoad/res/supporters/credit/voice.mp3
 !ニコ生ザッピング欄
 !live2.nicovideo.jp##div[class^="___player-foot-area"]
 !マイページのバナー
