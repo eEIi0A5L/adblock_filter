@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 01 Jun 2022 00:00 JST
+! Last modified: 10 Jun 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -1091,18 +1091,18 @@ ero-nuki.net###movie_ad
 
 !kissjav
 ||hgub2polye.com^$third-party
-kissjav.com##+js(popads-dummy.js)
+kissjav.li##+js(popads-dummy.js)
 ||webgekeniuos.com^$third-party
-kissjav.com###player-advertising
-kissjav.com##+js(nobab)
+kissjav.li###player-advertising
+kissjav.li##+js(nobab)
 ||bngpt.com^
-kissjav.com##.adv-container
+kissjav.li##.adv-container
 ||addthis.com^$third-party,important,domain=~missingkids.com|~missingkids.org|~sainsburys.jobs|~sitecore.com|~amd.com
 ||s3t3d2y7.ackcdn.net^
-kissjav.com###fluid_nonLinear_ID0
-kissjav.com###fluid_nonLinear_ID1
-kissjav.com###fluid_nonLinear_ID2
-kissjav.com###fluid_nonLinear_ID3
+kissjav.li###fluid_nonLinear_ID0
+kissjav.li###fluid_nonLinear_ID1
+kissjav.li###fluid_nonLinear_ID2
+kissjav.li###fluid_nonLinear_ID3
 
 !av.movie
 ||i.imgur.com/Oz4G3br.gif
