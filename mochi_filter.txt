@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 10 Jun 2022 00:00 JST
+! Last modified: 12 Jun 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2146,6 +2146,7 @@ gigazine.net###G_EF2ND
 !gigazine
 !関連コンテンツの広告BOX、下記で消えるが表示がずれてしまう
 !gigazine.net##li.rl-list-item:has(> div[id^="div-gpt-ad-"])
+gigazine.net###Google_TC
 
 !QuickTimes
 this.kiji.is###hindsight-ads-iframe-1
