@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 10 Jun 2022 00:00 JST
+! Last modified: 15 Jun 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -797,6 +797,13 @@ www.av01.tv##a[href^="http://www.suncityad.com"]
 ||r.trwl1.com/s1/$subdocument
 ||movcpm.com^$third-party
 www.av01.tv##iframe[width="728"][height="90"]
+||trwl1.com^
+||yqmxfz.com^
+av01.tv##+js(remove-class, vjs-hidden, .vjs-control-bar)
+av01.tv##+js(remove-attr, onclick, a[href^="/video/"][onclick^="setTimeout"])
+av01.tv##+js(remove-class, vjs-hidden, .vjs-control-bar, stay)
+av01.tv##+js(remove-attr, onclick, a[onclick^="setTimeout"])
+av01.tv##+js(window.open-defuser)
 
 !http://www.minnano-av.com/
 ||www.minnano-av.com/top_center_bn/pc_new_ban/sidebar_bn.html
