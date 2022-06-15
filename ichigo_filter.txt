@@ -918,6 +918,8 @@ avgle.com##.hidden-xs > a > img[src$=".gif"]
 avgle.com##.video-banner
 ||olmsoneenh.info^
 ||digitalpimpnetwork.com^
+||go.xlviirdr.com/smartpop/
+avgle.com##.kr-ad
 !モバイル用
 ||top-battery-asia.info^
 ||trupir-asia.info^
