@@ -2396,8 +2396,8 @@ spotify.com##.ads-container__inner
 ||audio-ak*-spotify-com.akamaized.net/audio/$media,domain=spotify.com
 open.spotify.com##div[data-testid="test-ref-div"]:upward(1)
 open.spotify.com##span[dir="auto"][draggable="true"]:style(user-select: auto!important;-webkit-touch-callout: default!important;-webkit-user-select: auto!important;-moz-user-select: auto!important;-ms-user-select: auto!important;)
-||cookielaw.org^$3p
-||sentry.io^$3p
+||cookielaw.org^$third-party
+||sentry.io^$third-party
 !プレイリスト内次の曲で左下にぴょこっと出るやつ
 open.spotify.com##div[data-testid="CoverSlotExpanded__container"]
 
