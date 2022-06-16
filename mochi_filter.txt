@@ -2400,7 +2400,14 @@ open.spotify.com##span[dir="auto"][draggable="true"]:style(user-select: auto!imp
 ||sentry.io^$third-party
 !プレイリスト内次の曲で左下にぴょこっと出るやつ
 open.spotify.com##div[data-testid="CoverSlotExpanded__container"]
-
+www.google.*##+js(set-constant, rwt, noopFunc)
+www.google.*##+js(remove-attr, ping, div[id="search"] a[data-ved][ping])
+spotify.com##div > div[aria-live="polite"]:not([data-testid="top-result-card"])
+!Modal start--------------<
+open.spotify.com##.GenericModal__overlay
+spotify.com##iframe[data-testid="inAppMessageIframe"]
+spotify.com##.GenericModal
+!end-------------------->
 
 !Buzzfeed
 ||buzzfeed.com/static/js/advertiser/
