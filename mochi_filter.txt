@@ -2223,6 +2223,7 @@ accuweather.com###header-davek
 www.accuweather.com##.column-2-world
 www.accuweather.com##.ad
 www.accuweather.com###connatix
+www.accuweather.com##.glacier-ad
 
 !weathernews
 ||mwsgvs.weathernews.jp/weekend-explorer/banner.jpg
