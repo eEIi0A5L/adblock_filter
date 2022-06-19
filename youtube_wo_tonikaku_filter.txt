@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Youtubeの広告をとにかくブロックするフィルタ
-! Last modified: 03 Nov 2021 00:00 JST
+! Last modified: 20 Jun 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/
@@ -36,3 +36,8 @@ youtube-nocookie.com,youtube.com#%#//scriptlet('json-prune', '0.playerResponse.a
 ||youtube.com/pagead/
 ||doubleclick.net^
 ||2mdn.net^$domain=youtube.com
+!youtube新規広告2022.6.20
+youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, null)
+youtube.com##+js(json-prune, playerResponse.playerAds)
+youtube.com##+js(json-prune, 2.playerResponse.adPlacements)
+youtube.com##+js(json-prune, 2.playerResponse.adPlacements playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
