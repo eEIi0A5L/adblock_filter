@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 15 Jun 2022 00:00 JST
+! Last modified: 23 Jun 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -196,6 +196,10 @@ pornhub.com##.adContainer
 ||pornhub.com/_xa/ads?zone_id=
 ||ci.phncdn.com/pics/skins/000/002/361/2361_large.png
 pornhub.com##.sectionWrapper > .videos[id] > li[class^="sniper"]:not(.videoblock):not(.videobox):not([id^="playlist_"])
+pornhub.*##+js(remove-class, hasAdAlert, header)
+pornhub.*##+js(cookie-remover, views)
+pornhub.*##+js(abort-current-script, Object.defineProperty, trafficjunky)
+pornhub.com##+js(set-constant, page_params.holiday_promo, true)
 
 !bobx.com
 ||img.bobx.com/x_images/vids4.jpg
@@ -1007,6 +1011,7 @@ javhub.net##.fel-playclose
 ||widow5blackfr.com^$third-party
 ||leojmp.com^
 ||js.wpadmngr.com/static/admanager.js
+javhub.net##.col-md-4
 
 
 
