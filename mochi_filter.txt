@@ -1206,6 +1206,9 @@ profile.ameba.jp##.ad
 settings/ad.js$domain=lineblog.me
 !||hayabusa.io^
 
+!allabout
+allabout.co.jp##.large-super-banner
+
 
 !fc2.com
 !Youtube埋め込み動画までブロックされてしまう
