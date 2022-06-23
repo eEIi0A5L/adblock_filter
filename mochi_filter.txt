@@ -1040,6 +1040,8 @@ dic.nicovideo.jp##div[style="text-align:center; height:250px; width:300px; margi
 ||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js
 ||countess.twitch.tv^
 ||amazon-adsystem.com^
+twitch.tv##+js(twitch-videoad)
+twitch.tv##+js(window.open-defuser, amazon-adsystem)
 
 !Abema
 ||ad.abema.io^
