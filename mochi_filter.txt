@@ -2425,9 +2425,10 @@ www.google.*##+js(set-constant, rwt, noopFunc)
 www.google.*##+js(remove-attr, ping, div[id="search"] a[data-ved][ping])
 spotify.com##div > div[aria-live="polite"]:not([data-testid="top-result-card"])
 !Modal start--------------<
-open.spotify.com##.GenericModal__overlay
-spotify.com##iframe[data-testid="inAppMessageIframe"]
-spotify.com##.GenericModal
+!→show creditが見れなくなるのでやめた。2022.6.29
+!open.spotify.com##.GenericModal__overlay
+!spotify.com##iframe[data-testid="inAppMessageIframe"]
+!spotify.com##.GenericModal
 !end-------------------->
 
 !Buzzfeed
