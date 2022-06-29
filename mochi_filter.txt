@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 24 Jun 2022 00:00 JST
+! Last modified: 30 Jun 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1210,6 +1210,7 @@ settings/ad.js$domain=lineblog.me
 
 !allabout
 allabout.co.jp##.large-super-banner
+allabout.co.jp###sys-ac265-target
 
 
 !fc2.com
