@@ -594,28 +594,28 @@ javtrust.com##iframe[width="300"][height="250"]
 
 
 
-!popjav
+!popjav -> hpav.tv
 ||adexchangecloud.com^
 rapidvideo.com##+js(abort-current-inline-script.js, atob, tabunder)
 rapidvideo.com##+js(abort-current-inline-script.js, parseInt, tabunder)
 rapidvideo.com##+js(abort-on-property-write.js, executed)
 rapidvideo.com##+js(noeval.js)
 rapidvideo.com##+js(popads.net.js)
-popjav.com##.video_ad
-popjav.com###right_ad
-popjav.com###left_ad
+hpav.tv##.video_ad
+hpav.tv###right_ad
+hpav.tv###left_ad
 !||ujlpbcsx.com^$third-party
 !||mvvecbfomk.com^$third-party
 ||go.onclasrv.com/apu.php?$important
-/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=popjav.tv
+/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=hpav.tv
 ||wjevvjxwg.com^$third-party
-popjav.tv##.bottomad
-popjav.tv###preroll_ads
-popjav.tv##.video_ad
-popjav.tv##iframe[src^="https://syndication.exosrv.com/ads-iframe-display.php"]
-popjav.tv##.poplayer
-popjav.tv##.video-boxad
-||popjav.tv/basset/js/vast.js
+hpav.tv##.bottomad
+hpav.tv###preroll_ads
+hpav.tv##.video_ad
+hpav.tv##iframe[src^="https://syndication.exosrv.com/ads-iframe-display.php"]
+hpav.tv##.poplayer
+hpav.tvv##.video-boxad
+||hpav.tv/basset/js/vast.js
 asianclub.tv##+js(abort-on-property-read, AaDetector)
 @@||asianclub.tv^$generichide
 ||ad.pornimg.xyz^
@@ -623,24 +623,24 @@ asianclub.tv##+js(abort-on-property-read, AaDetector)
 ||stunninglover.com^$subdocument,third-party
 !Googleカレンダーでフォントアイコンが読めない
 !||gstaticadssl.l.google.com^
-popjav.tv##+js(nostif, debugger)
-popjav.tv##li.releated_video:has-text(AD)
+hpav.tv##+js(nostif, debugger)
+hpav.tv##li.releated_video:has-text(AD)
 asianclub.*##+js(set, clientSide.adbDetect, null)
 asianclub.*##+js(aopr, AaDetector)
 asianclub.*##+js(aopw, _pop)
 @@||asianclub.*^$generichide
-@@||popjav.tv^$generichide
-!popjav.tv#@#.poplayer
-!popjav.tv#@#.video-boxad
-!popjav.tv#@#.video_ad
-@@||cdn.tsyndicate.com/sdk/v*/n.js$domain=popjav.tv
+@@||hpav.tv^$generichide
+!hpav.tv#@#.poplayer
+!hpav.tv#@#.video-boxad
+!hpav.tv#@#.video_ad
+@@||cdn.tsyndicate.com/sdk/v*/n.js$domain=hpav.tv
 ||ofphanpytor.com^
 ||www.xmtrading.com^
 ||tsyndicate.com^$popup
 asianclub.*##+js(window.open-defuser)
 ||asianclub.nl/asset/playerrvn.js
 ||8xkr.xyz^
-popjav.tv##.releatedadsholder
+hpav.tv##.releatedadsholder
 ##+js(no-setTimeout-if, J3M)
 ||asianclub.nl/asset/default/player/plugins/vast-$script
 !FO server
@@ -674,6 +674,22 @@ vidoza.net##+js(nofab)
 ||passeseuro.com^
 @@||asianclub.*/asset/default/player/plugins/vast$script,1p
 asianclub.*##+js(window.open-defuser)
+||wpncdn.com^
+/vast3.js$domain=hpav.tv|hpjav.tv
+||hpav.tv/a720.html
+hpav.tv##+js(no-setTimeout-if, _0x)
+hpav.tv##+js(window.open-defuser)
+hpav.tv##+js(abort-current-script, document.querySelectorAll, popMagic)
+hpav.tv##+js(set-constant, checkdom, 0)
+hpav.tv##+js(abort-on-property-read, VAST)
+hpav.tv##+js(abort-on-property-read, AaDetector)
+hpav.tv##+js(no-setTimeout-if, debugger)
+||allvideometrika.com^
+||vidoza.net/sw.js$important
+||overdonereciprocalimpure.com^
+||terciogouge.com^
+||vz.7vid.net^
+
 
 
 
