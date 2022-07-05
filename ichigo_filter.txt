@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 04 Jul 2022 00:00 JST
+! Last modified: 06 Jul 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -1310,6 +1310,14 @@ www.embed.media##.jw-settings-sharing
 ||dotuate.pro^$popup
 ||contextrio.pro^$script
 ||dotuate.pro^$script
+highporn.net##+js(abort-current-script, EventTarget.prototype.addEventListener, 0x)
+highporn.net##+js(addEventListener-defuser, click, popMagic)
+highporn.net##+js(abort-on-property-read, jsUnda)
+highporn.net##+js(abort-current-script, addEventListener, -0x)
+highporn.net##+js(abort-current-script, document.querySelectorAll, popMagic)
+||smac-ad.com^$3p
+||mt34iofvjay.com^
+highporn.net##.banner-a
 
 !xxjav
 ||pornvideocdn.xyz/static/tmp/$image
