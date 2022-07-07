@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 30 Jun 2022 00:00 JST
+! Last modified: 08 Jul 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1824,6 +1824,16 @@ news-postseven.com##.inner-ad
 !news-postseven.com###mailmag2
 ||news-postseven.com/img3_renew/banner/
 news-postseven.com##a[href$="?_from=sidebanner"]
+https://www.news-postseven.com/wp-content/plugins/shogakukan-utility/static/ad-pulse-sgk.js
+||news-postseven.com/uploads/*/banner_300x300.png
+news-postseven.com##.su-modal
+news-postseven.com##body[style^="overflow:"]:style(overflow: auto !important;)
+news-postseven.com###ad-pc-top-3
+news-postseven.com###ad-pc-top-2
+news-postseven.com###ad-pc-top-1
+news-postseven.com##[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
+
+
 
 !dwango
 ||adn-d.sp.gmossp-sp.jp^
