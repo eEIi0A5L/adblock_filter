@@ -1315,7 +1315,7 @@ highporn.net##+js(addEventListener-defuser, click, popMagic)
 highporn.net##+js(abort-on-property-read, jsUnda)
 highporn.net##+js(abort-current-script, addEventListener, -0x)
 highporn.net##+js(abort-current-script, document.querySelectorAll, popMagic)
-||smac-ad.com^$3p
+||smac-ad.com^$third-party
 ||mt34iofvjay.com^
 highporn.net##.banner-a
 
