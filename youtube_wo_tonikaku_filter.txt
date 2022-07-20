@@ -19,6 +19,7 @@ youtube.com##.iv-promo
 youtube.com###player-ads
 youtube.com###masthead-ad
 youtube.com##ytd-ad-slot-renderer
+youtube.com##ytd-rich-item-renderer:has( > div > ytd-ad-slot-renderer)
 youtube.com###video-masthead
 youtube.com##ytd-rich-section-renderer:has( > #content > ytd-statement-banner-renderer)
 youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)

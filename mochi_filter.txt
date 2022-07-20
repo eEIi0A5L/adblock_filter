@@ -85,6 +85,7 @@ youtube.com##+js(json-prune, playerResponse.playerAds)
 youtube.com##+js(json-prune, 2.playerResponse.adPlacements)
 youtube.com##+js(json-prune, 2.playerResponse.adPlacements playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 www.youtube.com##ytd-ad-slot-renderer
+www.youtube.com##ytd-rich-item-renderer:has( > div > ytd-ad-slot-renderer)
 
 !#if adguard
 youtube.com,youtube-nocookie.com#@#+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
