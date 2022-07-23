@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 20 Jul 2022 00:00 JST
+! Last modified: 23 Jul 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2434,7 +2434,9 @@ spotify.com##.ads-container__inner
 ||audio-ak*-spotify-com.akamaized.net/audio/$media,domain=spotify.com
 open.spotify.com##div[data-testid="test-ref-div"]:upward(1)
 open.spotify.com##span[dir="auto"][draggable="true"]:style(user-select: auto!important;-webkit-touch-callout: default!important;-webkit-user-select: auto!important;-moz-user-select: auto!important;-ms-user-select: auto!important;)
-||cookielaw.org^$third-party
+!vmwareで真っ白になる 2022.7.23
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/453
+!||cookielaw.org^$third-party
 ||sentry.io^$third-party
 !プレイリスト内次の曲で左下にぴょこっと出るやつ
 open.spotify.com##div[data-testid="CoverSlotExpanded__container"]
