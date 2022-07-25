@@ -1470,6 +1470,13 @@ femax20.com##+js(set-constant, clientSide.adbDetect, noopFunc)
 femax20.com##+js(addEventListener-defuser, click, window.open)
 ||femax20.com/asset/*.min.js?*=*&
 ||pre4sentre8dhf.com^
+streamsb.*##+js(abort-on-property-read, mm)
+streamsb.net##+js(abort-on-property-read, __Y)
+streamsb.net##+js(set-constant, isadb, false)
+tojav.net##.adsbyexoclick
+tojav.net###preroll_ads
+tojav.net##+js(abort-on-property-write, _pop)
+tojav.net##+js(abort-current-script, document.querySelectorAll, popMagic)
 
 
 !javlibrary
