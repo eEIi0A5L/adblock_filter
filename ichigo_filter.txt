@@ -1422,6 +1422,13 @@ mixdrop.co##+js(addEventListener-defuser, click, dtnoppu)
 mixdrop.co##+js(abort-on-property-read, popjs)
 !mixdrop.co##+js(window.open-defuser)
 mixdrop.co##+js(aopw, _pop)
+||zap.buzz^$subdocument
+||cuddlethehyena.com^
+85videos.com##+js(abort-on-property-write, _pop)
+||heaplap.com^
+||shukriya90.com^
+||img.mipic.cc/upload/files/gy_300c.gif
+85videos.com##.col-md-4
 
 !javfull
 ||redlele.com^$third-party
