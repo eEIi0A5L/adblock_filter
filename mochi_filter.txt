@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 27 Jul 2022 00:00 JST
+! Last modified: 29 Jul 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2215,6 +2215,8 @@ www.excite.co.jp##div[id^="gpt_pc_news_rightcolumn_ranking_infeed"]:upward(1)
 www.excite.co.jp##div[id^="gpt_pc_news_infeed"]:upward(1)
 www.excite.co.jp##.box-img:has( > .img-extra > #gpt_pc_news_inarticle )
 www.excite.co.jp###gpt_pc_news_footer_overlay
+www.excite.co.jp##.OUTBRAIN
+www.excite.co.jp###gpt_pc_news_top_1st_rec
 
 !exciteブログ
 blog.excite.co.jp###gpt_pc_blog_header
