@@ -7,6 +7,13 @@
 ! 
 ! 
 
+
+!システム
+||doubleclick.net^
+
+
+
+
 !chmate
 ||socdm.com^
 ||amazon-adsystem.com^
