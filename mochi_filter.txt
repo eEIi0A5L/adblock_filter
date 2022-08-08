@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 29 Jul 2022 00:00 JST
+! Last modified: 08 Aug 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2002,6 +2002,7 @@ slashdot.org###slashdot_deals
 slashdot.org##.ad-blocked-newsletter
 slashdot.org##.advertisement
 ||a.fsdn.com/sd/font/sdicon.woff?
+slashdot.org##.deals-rail
 
 
 
