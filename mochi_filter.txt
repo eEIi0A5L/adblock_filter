@@ -983,6 +983,12 @@ facebook.com##a[aria-label="Advertiser link"]
 facebook.com##div[id^="mount_"] div[data-pagelet="RightRail"] > div:not([data-vc-ignore-dynamic]) > div:not([class])
 
 
+!Instagram
+www.instagram.com##article > div:has( > div > div > header > div > div > div > div > span:has-text(Sponsored))
+
+
+
+
 !ニコ動＋ニコ生（く）2018.6.28
 ||ads.adjust-net.jp^
 ||ads.nicovideo.jp^
