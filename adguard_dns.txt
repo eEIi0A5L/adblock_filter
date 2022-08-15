@@ -19,5 +19,15 @@
 ||amazon-adsystem.com^
 
 
+!yahoo
+||yads.yahoo.co.jp^
+
+
+!niconico
+||ads.nicovideo.jp^
+
+
+
+
 
 ! END
