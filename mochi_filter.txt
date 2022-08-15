@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 08 Aug 2022 00:00 JST
+! Last modified: 15 Aug 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2347,6 +2347,10 @@ dic.pixiv.net##.d_header
 ||s.imgur.com/min/advertising.js
 imgur.com###div-ad-top_banner
 ||s.imgur.com/images/house-cta/ad-free/
+||apps.media-lab.ai^
+imgur.com##+js(nano-setTimeout-booster, /function\(\)\{try\{|adBegan/, 5000, 0.02)
+imgur.com##+js(set-constant, ADBLOCKED, false)
+imgur.com##.ad-slot
 
 
 !BIGLOBE
