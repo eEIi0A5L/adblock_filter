@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 16 Aug 2022 00:00 JST
+! Last modified: 18 Aug 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -1195,6 +1195,21 @@ mm9844.cc##+js(abort-on-property-read, __Y)
 7mmtv.tv###mvspan_2_s_k_i_p
 _728x90.$domain=7mmtv.tv
 7mmtv.tv###player-container[style="width:300px;height:250px"]
+||mm9842.com/asset/angular.min.js?t=3&
+mm9842.com##+js(abort-on-property-read, __Y)
+||xxxiijmp.com^
+||7mmtv.tv/hgame/
+7mmtv.tv##iframe[width="300"][height="250"]
+||mm9842.com/asset/jquery/slim-3.2.min.js?c=JP&
+||xlrdr.com^
+||s10.histats.com^
+||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager_gtm.js:5
+filemoon.sx​##div[style^="position: fixed; display: block"][style*="inset: 0px;"][style*="background-color: rgba(0, 0, 0, 0)"][style*="z-index"][style*="height: 100%"][style*="width: 100%"]
+||filemoon.sx/adrotate
+filemoon.sx##+js(nano-setInterval-booster, .download, , 0.02)
+filemoon.sx##+js(abort-current-script, navigator, popunder)
+filemoon.sx##+js(window.open-defuser)
+
 
 !jav321
 www.jav321.com###popup-container
