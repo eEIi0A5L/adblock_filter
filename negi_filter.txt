@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2022/6/23 00:00 JST
+! Last modified: 2022/8/22 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/negi.html
@@ -459,7 +459,8 @@ www.instagram.com##div:has-text(/^\s*(?:Log In to Instagram|Instagramにログ�
 ! 下にスクロールしていくと出てくるログインダイアログボックス
 !www.instagram.com##[role="presentation"]:has(div:has-text(/^\s*(?:Log in to continue|ログインする)\s*$/))
 www.instagram.com##div:has-text(/^\s*(?:Log in to continue|ログインする)\s*$/):upward([role="presentation"])
-www.instagram.com##body:style(overflow: auto !important)
+! スクロールバーがおかしくなる 2022.8.22
+!www.instagram.com##body:style(overflow: auto !important)
 !おすすめユーザ
 !www.instagram.com##div:has( > div > span:has-text(Suggestions For You))
 !www.instagram.com##div:has( > span > div:has-text(/(Suggestions for you|おすすめ)/))
