@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 24 Aug 2022 00:00 JST
+! Last modified: 27 Aug 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -867,6 +867,24 @@ keiba.yahoo.co.jp###ad-prmb
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/369
 @@||s.yimg.jp/images/listing/tool/yads/yads-timeline-ex.$script,domain=chiebukuro.yahoo.co.jp|sports.yahoo.co.jp
 !END----------------------------------------
+
+!Yahooムービー--------------------------------
+movies.yahoo.co.jp##div[class^="overlay-ad_ad"]
+!END----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
