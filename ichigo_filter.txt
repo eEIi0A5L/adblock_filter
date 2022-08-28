@@ -1527,6 +1527,15 @@ javmix.tv##iframe[style^="width: 100%"]
 javstream.top##+js(set-constant, globalThis, null)
 javstream.top##+js(abort-on-property-read, __Y)
 javstream.top##+js(abort-on-property-read, jwplayer.utils.Timer)
+javmix.top##.__isboostOverContent
+||isboost.co.jp^
+||boost-next.co.jp^
+||aaacompany.net^
+||xlrdr.com^
+||golden-gateway.com^
+xvideostream.net##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
+||jwpcdn.com^
+||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager_gtm.js,domain=javmix.top
 
 
 !myhdjav
