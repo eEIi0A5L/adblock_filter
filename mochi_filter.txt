@@ -2626,7 +2626,8 @@ komachi.yomiuri.co.jp##.p-ad__gamTexts
 !gorin.jp
 gorin.jp###entranceAD
 ||interactive-circle.jp^
-||doubleclick.net^
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/455
+!||doubleclick.net^
 ||imasdk.googleapis.com^$domain=gorin.jp
 ||spotxchange.com^
 gorin.jp##.vjs-ima3-ad-container
