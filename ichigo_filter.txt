@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 18 Aug 2022 00:00 JST
+! Last modified: 11 Sep 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -226,7 +226,7 @@ pornhub.com##+js(set-constant, page_params.holiday_promo, true)
 ||en.ero-video.net/advert/bannerFrame.html?id=
 ||en.ero-video.net/advert
 
-!www5.javmost.com
+!javmost.cx
 ||popmyads.com^
 ||adsco.re^
 !||adserver.juicyads.com^
@@ -236,11 +236,11 @@ syndication.exosrv.com##body
 ||vebadu.com^
 avgle.com##.grecaptcha-badge
 avgle.com##.vjs-poster
-||www5.javmost.com/assets/img/50-750.gif
+||javmost.cx/assets/img/50-750.gif
 ||newsatads.com^
 ||popads.net^$popup,third-party
 ||terrapsps.com^
-javmost.com###divExoLayerWrapper
+javmost.cx###divExoLayerWrapper
 ||promo-bc.com^
 embed.media##+js(abort-on-property-read, popjs)
 embed.media##+js(window.open-defuser)
@@ -249,7 +249,7 @@ embed.media##+js(abort-on-property-read, glxopen)
 embed.media##+js(abort-on-property-write, adcashMacros)
 embed.media##+js(abort-on-property-read, __Y)
 embed.media##+js(abort-on-property-read, jwplayer.utils.Timer)
-javmost.com##+js(abort-on-property-write, _pop)
+javmost.cx##+js(abort-on-property-write, _pop)
 ||tmjhdyghjm.com^
 ||frhbrkjgerikm2f8mjek09.com^
 
@@ -796,7 +796,7 @@ avgle.com##+js(abort-on-property-write.js, Fingerprint2)
 avgle.com##+js(set-constant.js, checkThings, trueFunc)
 ||aoredi.com/apu.php?$important
 ||static.hotjar.com^
-javmost.com##div[style="width:100%; height: 100px;overflow: hidden !important;"]
+javmost.cx##div[style="width:100%; height: 100px;overflow: hidden !important;"]
 !fembedの埋め込み動画が見れない
 !https://tofukko.blog.fc2.com/blog-entry-405.html#comment699
 @@||www.fembed.com/v/$subdocument,domain=javpost.net|jav.guru
