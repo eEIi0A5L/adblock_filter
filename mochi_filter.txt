@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 27 Aug 2022 00:00 JST
+! Last modified: 11 Sep 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1055,6 +1055,8 @@ dic.nicovideo.jp##.box + img + div
 !広告を消した後の跡地
 dic.nicovideo.jp##div[style="text-align:center; height:250px; width:300px; margin:0 0 4px 0;"]
 ||dic.nicovideo.jp/ad-bannar-maincolumn-top.css
+dic.nicovideo.jp##div[id^="crt-"]
+
 
 !Twitch
 !twitchでカウントが増え続ける問題の解法
