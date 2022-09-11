@@ -690,7 +690,9 @@ auctions.yahoo.co.jp###So2
 
 !ヤフオク右上の広告
 auctions.yahoo.co.jp##.acMdAdPr
-auctions.yahoo.co.jp###adTopLREC:upward(1)
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/458
+!auctions.yahoo.co.jp###adTopLREC:upward(1)
+auctions.yahoo.co.jp##div[class^="Component-sc-"]:has( > div#adTopLREC)
 
 !ヤフオク
 !検索結果下部のYahoo!ショッピングストアのイチオシ！
