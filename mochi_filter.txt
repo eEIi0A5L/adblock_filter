@@ -2487,7 +2487,7 @@ spotify.com##div > div[aria-live="polite"]:not([data-testid="top-result-card"])
 !spotify.com##.GenericModal
 !end-------------------->
 !Spotifyモーダル2022.8.27
-open.spotify.com##.GenericModal__overlay
+!open.spotify.com##.GenericModal__overlay
 
 
 !Buzzfeed
