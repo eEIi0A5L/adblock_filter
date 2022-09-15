@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 11 Sep 2022 00:00 JST
+! Last modified: 15 Sep 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2298,6 +2298,8 @@ www.accuweather.com##.glacier-ad
 !weathernews
 ||mwsgvs.weathernews.jp/weekend-explorer/banner.jpg
 @@||googletagmanager.com/gtm.js$domain=weathernews.jp
+weathernews.jp##section.block > div:has( > div[id^="div-gpt-ad-"])
+
 
 !atwiki
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/166
