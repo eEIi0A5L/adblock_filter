@@ -1572,6 +1572,9 @@ www.jma.go.jp###jma-common-adsarea
 ||www.data.jma.go.jp/hp_message/data/ad_stop_flag.txt
 ||www.data.jma.go.jp/hp_message/data/ad_start_flag.txt
 
+!withnews
+withnews.jp###pickupNewsModal_gallary
+
 
 !日経新聞
 ||nikkei.com/fh/showad_
