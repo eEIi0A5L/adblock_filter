@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 13 Sep 2022 00:00 JST
+! Last modified: 21 Sep 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -351,6 +351,8 @@ video.fc2.com##.ad_panelAR
 ||fc2.com/video/img/u/b/
 ||fc2.com/video/img/b/
 video.fc2.com##[class^="c-ad"]
+video.fc2.com##.banner
+video.fc2.com##.ads-container
 
 
 !youav.com
