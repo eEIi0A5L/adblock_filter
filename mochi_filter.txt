@@ -386,6 +386,7 @@ www.yahoo.co.jp###Shopping
 www.yahoo.co.jp##div:has( > article > div > header > h1:has-text(あなたにおすすめの商品))
 
 
+
 !あなたへのおすすめでPayPayのPR
 !www.yahoo.co.jp##dl.item:has( > dd > p:has-text(PR) )
 www.yahoo.co.jp##p:has-text(PR):upward(2)
