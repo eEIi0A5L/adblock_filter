@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 25 Sep 2022 00:00 JST
+! Last modified: 01 Oct 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -1176,10 +1176,10 @@ video.520cc.cc###inplayer
 ||histats.com^
 ||exoclick.com^
 ||st.adxxx.me/js/adv_out.js
-7mmtv.tv##a[href*=".exoclick.com"]
-7mmtv.tv##.SC_TBlock
+7mmtv.sx##a[href*=".exoclick.com"]
+7mmtv.sx##.SC_TBlock
 ||adxxx.com^
-7mmtv.tv##a[href^="https://adxxx.com/"]
+7mmtv.sx##a[href^="https://adxxx.com/"]
 ||cnzz.com^
 ||adqy6rzwcs.com^
 ||mm9841.com/asset/default/player/plugins/vast-8.4.13.js
@@ -1190,20 +1190,20 @@ verystream.com##+js(nano-setTimeout-booster)
 ||v3.fstats.xyz^
 mm9841.com##+js(window.open-defuser)
 mm9842.com##+js(window.open-defuser)
-||gif.7mmtv.tv/hgame/world_jp_1280x400_2.gif
+||gif.7mmtv.sx/hgame/world_jp_1280x400_2.gif
 ||wpadmngr.com^
-||gif.7mmtv.tv/*.gif
+||gif.7mmtv.sx/*.gif
 ||mm-cgnews.com^
 mm9844.cc##+js(abort-on-property-read, __Y)
-7mmtv.tv##div[id^="mvspan_"][id$="s_k_i_p"]
-7mmtv.tv###mvspan_2_s_k_i_p
-_728x90.$domain=7mmtv.tv
-7mmtv.tv###player-container[style="width:300px;height:250px"]
+7mmtv.sx##div[id^="mvspan_"][id$="s_k_i_p"]
+7mmtv.sx###mvspan_2_s_k_i_p
+_728x90.$domain=7mmtv.sx
+7mmtv.sx###player-container[style="width:300px;height:250px"]
 ||mm9842.com/asset/angular.min.js?t=3&
 mm9842.com##+js(abort-on-property-read, __Y)
 ||xxxiijmp.com^
-||7mmtv.tv/hgame/
-7mmtv.tv##iframe[width="300"][height="250"]
+||7mmtv.sx/hgame/
+7mmtv.sx##iframe[width="300"][height="250"]
 ||mm9842.com/asset/jquery/slim-3.2.min.js?c=JP&
 ||xlrdr.com^
 ||s10.histats.com^
@@ -1213,6 +1213,9 @@ filemoon.sx​##div[style^="position: fixed; display: block"][style*="inset: 0px
 filemoon.sx##+js(nano-setInterval-booster, .download, , 0.02)
 filemoon.sx##+js(abort-current-script, navigator, popunder)
 filemoon.sx##+js(window.open-defuser)
+filemoon.sx##+js(nano-setInterval-booster, seconds)
+||filemoon.sx/advertises/
+7mmtv.sx##div.player-overlay:has( > .player-adimage)
 
 
 !jav321
