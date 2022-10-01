@@ -1919,6 +1919,10 @@ missav.com##.banner-300
 missav.com##+js(set-constant, absda, noopFunc)
 missav.com##+js(window.open-defuser)
 ||mc7clurd09pla4nrtat7ion.com^
+||e67repidwnfu7gcha.com^
+||wuzbhjpvsf.com^
+missav.com##a[rel^="sponsored"]
+missav.com##div[class^="root--"]:has( > div > a[id^="model-"])
 
 !javidol
 javidol.org##.adsbyexoclick
