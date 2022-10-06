@@ -1629,6 +1629,7 @@ www.sankei.com###adToprectangle
 www.sankei.com##div[style="width:300px;height:600px;"]
 www.sankei.com##.module_ad
 www.sankei.com##.module secondary
+www.sankei.com###crt-Rec_Article
 
 !サンケイビジネス
 www.sankeibiz.jp###adRectangleBanner01
