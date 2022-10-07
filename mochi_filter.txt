@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 06 Oct 2022 00:00 JST
+! Last modified: 07 Oct 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1554,7 +1554,9 @@ news.livedoor.com##.mainSec:has( > .adsW )
 
 !まいじつ
 myjitsu.jp##article[id^="related-post-ad"]
-||popin.cc^$third-party
+!下記で検索フォームが出ない
+!https://mantan-web.jp/search/
+!||popin.cc^$third-party
 ||advertising.com^
 ||rubiconproject.com^
 
@@ -2534,6 +2536,7 @@ moviewalker.jp##div:has( > #mw_all_bb_gam )
 !おすすめ記事をつけるシステム
 !不愉快ではないのでそのままにする
 !→やっぱり消した。まいじつで。2019.10.25
+!→まんたんwebで検索フォームが出ないのでブロック解除 2022.10.7
 !taboolaについて
 !popinと同じ感じ
 !Yahooについては特別に速度を重視するので切った
