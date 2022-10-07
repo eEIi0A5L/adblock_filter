@@ -2088,6 +2088,7 @@ www.oricon.co.jp##.gmossp_ad_frame
 !https://www.oricon.co.jp/photo/7147/313618/
 @@||doubleclick.net^$domain=www.oricon.co.jp
 www.oricon.co.jp##.block-header-banner-wrapper
+www.oricon.co.jp##._popIn_recommend_article:has( > ._popIn_recommend_art_media:has-text(/^AD/))
 
 
 
