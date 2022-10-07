@@ -1071,6 +1071,13 @@ dic.nicovideo.jp##div[style="text-align:center; height:250px; width:300px; margi
 ||dic.nicovideo.jp/ad-bannar-maincolumn-top.css
 dic.nicovideo.jp##div[id^="crt-"]
 
+!ニコニコニュース
+news.nicovideo.jp###billboard_container
+news.nicovideo.jp##.column > div[style="width:auto;height:90px;margin:0 0 15px 0"]
+news.nicovideo.jp##.column > div > div[style="width:300px;height:250px;margin:0"]
+news.nicovideo.jp##.ad-container
+
+
 
 !Twitch
 !twitchでカウントが増え続ける問題の解法
