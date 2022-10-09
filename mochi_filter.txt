@@ -1166,6 +1166,7 @@ bbspink.com##.bbspink-top-ads
 !古いログを見たときの下部広告
 !https://piza.5ch.net/test/read.cgi/comic/964631820/
 5ch.net##div[style^="position: fixed;bottom:"]
+||5ch.net/js/ad_on_mango.js
 
 
 !したらば
