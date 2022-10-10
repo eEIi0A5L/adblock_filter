@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ことりフィルタ（SNSボタンブロック）
-! Last modified: Dec 19, 2020 00:00 JST
+! Last modified: Oct 10, 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/kotori.html
@@ -88,7 +88,7 @@
 !line
 /iineButton-$domain=ameblo.jp
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/160
-||line.me^$domain=~line.me
+!||line.me^$domain=~line.me
 
 !ameblo
 ameblo.jp##ul[amb-component="entryShare"]
