@@ -2254,6 +2254,10 @@ this.kiji.is###hindsight-ads-iframe
 ||tatic.solutionshindsight.net/hindsightipads/hindsightipads.min.js
 
 
+!東京ニュース通信社
+nordot.app##.main__ad
+
+
 !excite
 excite.co.jp##.yadsOverlay
 ||image.excite.co.jp/jp/ox/ad.js
