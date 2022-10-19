@@ -244,6 +244,10 @@
 !https://www.computips.org/ja/remove-freecaptcha-top/
 ||freecaptcha.top^
 
+!えきねっと.ru
+!https://twitter.com/yanyanZC2/status/1582314675714547713
+||eki-net.ru^
+
 
 
 
