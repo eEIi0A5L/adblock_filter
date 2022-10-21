@@ -406,6 +406,8 @@ www.yahoo.co.jp###qurireco > article:has( > a > div > div > p > span )
 ||s.yimg.jp/images/advertising/
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/466
 @@||s.yimg.jp/images/advertising/$domain=baseball.yahoo.co.jp
+@@||yjtag.yahoo.co.jp/tag?$domain=baseball.yahoo.co.jp
+baseball.yahoo.co.jp##iframe[id^="yads_"]
 !||s.yimg.jp/images/advertising/common/js/iicon.min.js
 !スポーツナビ https://sports.yahoo.co.jp/ 下部の「もっと見る」ボタンが機能しない
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/403
