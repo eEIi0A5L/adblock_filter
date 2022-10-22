@@ -1136,6 +1136,7 @@ abema.tv##.com-tv-top-CommercialBannerCarousel
 
 
 !５ちゃんねる、２ちゃんねる 全面見直し2019年10月
+||5ch.net/js/top_ad.js
 ||stab.thench.net^
 ||img.bbchat.tv/images/bannar/
 5ch.net##.ADVERTISE_AREA
