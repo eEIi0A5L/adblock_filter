@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 20 Oct 2022 00:00 JST
+! Last modified: 22 Oct 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1047,6 +1047,9 @@ live.nicovideo.jp##.kokoku
 live.nicovideo.jp###header-ad
 live.nicovideo.jp###middle-ad
 live.nicovideo.jp###footer-ad
+live.nicovideo.jp##aside[class^="___ad-billboard"]
+live.nicovideo.jp##div[class^="___comment-area___"]
+live.nicovideo.jp##aside[class^="___ad-banner"]
 www.nicovideo.jp###head_ads
 www.nicovideo.jp###web_pc_prime
 live.nicovideo.jp##.billboard-ad
