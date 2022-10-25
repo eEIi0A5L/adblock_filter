@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち２軍フィルタ - Supplement
-! Last modified: 25 Oct 2022 00:00 JST
+! Last modified: 26 Oct 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi_2gun.html
@@ -988,7 +988,8 @@ www.anige-sokuhouvip.com##div[style="margin-left:-15px;"]
 www.anige-sokuhouvip.com##.relate_dl
 !www.anige-sokuhouvip.com##.entry-body3
 www.anige-sokuhouvip.com##.komentitiran
-www.anige-sokuhouvip.com###modernentryrank
+!https://egg.5ch.net/test/read.cgi/software/1622785619/648
+!www.anige-sokuhouvip.com###modernentryrank
 
 !デジタルニューススレッド
 digital-thread.com##.google-2ad
