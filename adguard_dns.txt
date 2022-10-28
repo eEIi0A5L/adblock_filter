@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちのアドガ用DNSフィルタ
-! Last modified: 31 Aug 2022 00:00 JST
+! Last modified: 29 Oct 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/index.html
@@ -31,6 +31,15 @@
 ||applovin.com^
 ||s.ad.smaato.net^
 ||ads.assemblyexchange.com^
+
+
+!itest.5ch.net
+||microad.net^
+!||thench.net^
+||adpon.jp^
+||adingo.jp^
+||genieesspv.jp^
+
 
 
 
