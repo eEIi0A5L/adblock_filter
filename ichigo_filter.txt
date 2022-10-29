@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 01 Oct 2022 00:00 JST
+! Last modified: 30 Oct 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -1848,6 +1848,10 @@ supjav.com##.ad-placement
 ||member.javtvnow.xyz^
 ||support.streamjav.top^
 ||xlviirdr.com^
+||0i0i0i0.com^
+||xlivrdr.com^
+||monkeysloveyou.com^
+
 
 
 
@@ -1893,6 +1897,15 @@ javgiga.com##.sidebar-ads
 ||javlove.club/asset/jquery/slim-3.2.min.js
 ||javlove.club/asset/default/player/plugins/vast-8.4.13.js
 ||midpopedge.com^
+||dxmjyxksvc.com^
+||aso1.net^
+||superheroparticularitaly.com^
+||ca4psell23a4bur.com^
+javgiga.com##+js(set-constant, absda, noopFunc)
+||riotousgrit.com^
+javlove.club##+js(abort-on-property-read, __Y)
+javlove.club##+js(abort-on-property-read, jwplayer.utils.Timer)
+javlove.club##+js(abort-current-script, globalThis, break;case)
 
 
 !pornbest
