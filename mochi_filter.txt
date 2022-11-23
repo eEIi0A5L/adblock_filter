@@ -1069,6 +1069,10 @@ live2.nicovideo.jp##aside[class^="___billboard-banner___"]
 !https://dic.nicovideo.jp/b/a/adblock%20plus/1711-#1727
 nicovideo.jp##.AnimatorContainer
 live.nicovideo.jp##div[class^="___player-ad-panel___"]
+!プレミアム会員に誘導するメッセージ
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/473
+www.nicovideo.jp##.PreVideoStartPremiumLinkOnEconomyTimeContainer
+
 
 !ニコニコ大百科
 dic.nicovideo.jp##.ad-bannar-maincolumn-top
