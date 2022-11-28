@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 23 Nov 2022 00:00 JST
+! Last modified: 28 Nov 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1427,6 +1427,10 @@ rakuten.co.jp###footer-floating-bnr
 !楽天レシピ
 recipe.rakuten.co.jp##.overlay_ad
 recipe.rakuten.co.jp##.section_footer_overlay
+
+!Amazon(本家)
+!ブラックフライデーの商品がuBOでブロックされてしまう対策
+@@||aax-fe.amazon-adsystem.com^$domain=amazon.co.jp|aax-fe.amazon-adsystem.com|amazon.com
 
 
 !Amazon（他サイトに出る広告のブロック）
