@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 28 Nov 2022 00:00 JST
+! Last modified: 01 Dec 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2577,6 +2577,12 @@ duckduckgo.com###ads
 duckduckgo.com##.js-sidebar-ads
 duckduckgo.com##.results--ads
 ||duckduckgo.com/t/ad_amazon
+
+!startpage.com
+||startpage.com/sp/adsense/
+startpage.com###ads-1:not([style^="position: absolute; left: -5000px"])
+startpage.com##.ad.widget
+
 
 !マイナビ
 news.mynavi.jp##.ad-text
