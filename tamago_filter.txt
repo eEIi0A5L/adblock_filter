@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 27 jan 2022 00:00 JST
+! Last modified: 01 Dec 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
@@ -436,6 +436,14 @@ mantan-web.jp##.ad-rec
 lineblog.me##footer
 lineblog.me##.extlink
 lineblog.me##.lineblog_ad
+
+
+
+!startpage.com
+||startpage.com/sp/adsense/
+startpage.com###ads-1:not([style^="position: absolute; left: -5000px"])
+startpage.com##.ad.widget
+
 
 !Wikipedia
 ||meta.wikimedia.org/w/index.php?title=Special:BannerLoader&campaign=
