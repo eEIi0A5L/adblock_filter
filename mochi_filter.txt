@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 04 Dec 2022 00:00 JST
+! Last modified: 05 Dec 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -737,6 +737,12 @@ finance.yahoo.co.jp##p.cafxBanner
 finance.yahoo.co.jp###top_promo
 !finance.yahoo.co.jp###sub > .marB10
 finance.yahoo.co.jp###sub > .marB10 > a > img
+
+!上部バナー
+||s.yimg.jp/images/finance/mt/promotion/
+finance.yahoo.co.jp###pr_main1
+finance.yahoo.co.jp###pr_main2
+finance.yahoo.co.jp##div[id^="ad_"]
 
 !中央バナー
 ||s.yimg.jp/images/finance/kawasetop_2/yjfx/201612/634_60.png
