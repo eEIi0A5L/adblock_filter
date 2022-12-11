@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 01 Dec 2022 00:00 JST
+! Last modified: 11 Dec 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
@@ -286,6 +286,9 @@ watch.impress.co.jp###sp-floating-layer
 !------------------------------------------------------------
 
 !Yahoo!Japan
+!m.yahoo.co.jpを開いた時にyahooアプリを入れてないと表示される広告(このページをよく見る～)
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/485
+m.yahoo.co.jp###log-rsab
 !動画が見れない
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/269
 !||s.yimg.jp/images/listing/tool/yads/
