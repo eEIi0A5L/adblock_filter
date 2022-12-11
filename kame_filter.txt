@@ -2,7 +2,7 @@
 ! Title: 亀フィルタ（ウイルスサイトブロック）
 ! Description: ウイルスサイトをブロックする
 !
-! Last modified: 2022/11/20 00:00 JST
+! Last modified: 2022/12/12 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/kame.html
@@ -96,6 +96,7 @@
 ||dcard-kmnuc.com^
 ||trk.elasticemail.com^
 ||elasticemail.com/tracking/click
+||www.eki-net.su^
 
 
 
