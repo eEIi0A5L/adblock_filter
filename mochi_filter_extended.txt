@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 09 Dec 2022 00:00 JST
+! Last modified: 15 Dec 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi_extended.html
@@ -82,6 +82,8 @@ cnn.com##.m-share
 ||sharethrough.com^$third-party
 ^affiliate.linker^$domain=cnn.com
 ||cdn.optimizely.com/js/
+cnn.com##.ad-slot-header
+
 
 !BBC
 !BBCで下記映像が再生されない
