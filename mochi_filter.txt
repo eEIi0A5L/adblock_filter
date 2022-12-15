@@ -1998,6 +1998,11 @@ gendai.ismedia.jp###MG_pc_inArticle
 gendai.ismedia.jp##.ad-in-article
 gendai.ismedia.jp###FR_PC_inArticle
 
+!Cyzo
+cyzo.com##div[class^="gmossp_ad"]
+cyzo.com###ad_rB
+cyzo.com###ad_rC
+
 !IZA
 iza.ne.jp##.ad-rectangle-banner
 iza.ne.jp##div[style="width:300px;height:600px;"]
