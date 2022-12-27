@@ -98,6 +98,8 @@
 ||elasticemail.com/tracking/click
 ||www.eki-net.su^
 ||qa-card.com^
+||dcarid-iutar.com^
+
 
 
 
