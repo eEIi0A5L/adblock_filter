@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 06 Nov 2022 00:00 JST
+! Last modified: 28 Nov 2022 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -1774,6 +1774,12 @@ erogazoufactory.com##.header_android
 tktube.com##.fp-player > div[style*="z-index:"]
 tktube.com##iframe[id$="_bnr"]
 tktube.com##+js(abort-current-script, document.querySelectorAll, popMagic)
+||zatnoh.com^
+||ktkjmp.com^
+tktube.com##[href^="https://go.xlrdr.com"]
+tktube.com##.bottom-adv
+||tktube.com/cdn-cgi/rum?
+||creative.live.tktube.com/widgets/
 
 
 !javfor
