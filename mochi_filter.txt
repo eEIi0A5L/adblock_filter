@@ -2731,8 +2731,33 @@ thetv.jp##.ad
 !IPアドレス
 ||www.cman.jp/network/imageAd/
 
-
-
+! https://github.com/AdguardTeam/AdguardFilters/issues/132525
+! https://github.com/AdguardTeam/AdguardFilters/issues/132814
+rocketnews24.com,youpouch.com###div-gpt-ad-entrybottom
+rocketnews24.com,youpouch.com##.ads-relatedbottom:not(.ad300x250)
+rocketnews24.com,youpouch.com##amp-ad-exit + div[class*="-banner"]
+rocketnews24.com,youpouch.com##.widget_custom_html:not(#custom_html-2)
+rocketnews24.com,youpouch.com###aw0[onclick="ha('aw0')"]
+rocketnews24.com,youpouch.com###aw0[on="tap:exit-api.exit(target='landingPage',_googClickLocation='2')"]
+rocketnews24.com,youpouch.com##.misc > #div-gpt-ad-header
+youpouch.com###header-main > div.ad
+youpouch.com##.widget_text:first-child
+rocketnews24.com,youpouch.com##+js(no-fetch-if, tpc.googlesyndication.com)
+rocketnews24.com,youpouch.com##+js(ra, id, #div-gpt-ad-sidebottom)
+rocketnews24.com,youpouch.com##+js(ra, id, #div-gpt-ad-footer)
+rocketnews24.com,youpouch.com##+js(ra, id, #div-gpt-ad-pagebottom)
+rocketnews24.com,youpouch.com##+js(ra, id, #div-gpt-ad-relatedbottom-1)
+||pagead2.googlesyndication.com/pagead/$script,redirect=googlesyndication_adsbygoogle.js,domain=rocketnews24.com|youpouch.com
+||googlesyndication.com/safeframe/$subdocument,redirect=noopframe,domain=rocketnews24.com|youpouch.com
+||tpc.googlesyndication.com/simgad/$image,redirect=1x1.gif,important,domain=rocketnews24.com|youpouch.com
+@@||youpouch.com^$generichide
+@@||rocketnews24.com^$generichide
+@@||tpc.googlesyndication.com/simgad/$xmlhttprequest,domain=rocketnews24.com|youpouch.com
+@@||g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=rocketnews24.com|youpouch.com
+@@||sst.rocketnews24.com/gtm.js$script,~third-party
+@@||g.doubleclick.net/tag/js/gpt.js$domain=rocketnews24.com|youpouch.com
+@@||g.doubleclick.net/gpt/pubads_impl_$script,domain=rocketnews24.com|youpouch.com
+@@||fundingchoicesmessages.google.com^$script,domain=rocketnews24.com|youpouch.com
 
 
 
