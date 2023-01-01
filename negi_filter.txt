@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2022/10/08 00:00 JST
+! Last modified: 2023/01/02 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/negi.html
@@ -97,6 +97,8 @@ google.co.jp,google.com##div[aria-label="promo"]
 !→ロゴは出た方がいいのでブロックはやめた
 !google.co.jp,google.com###hplogo
 !google.co.jp,google.com##^#hplogo
+!doodle共有ボタン
+!www.google.co.jp,www.google.com##button[data-async-trigger="ddlshare"]
 !下記をブロックするとChrome新規タブの表示がくずれる
 !www.google.co.jp,google.com###lga
 !下記は出ていい 2018.3.8
