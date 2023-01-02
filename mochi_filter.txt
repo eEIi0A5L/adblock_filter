@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 15 Dec 2022 00:00 JST
+! Last modified: 02 Jan 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2159,6 +2159,12 @@ www.itmedia.co.jp###body_insert_ad
 itmedia.co.jp##iframe[id^="cxWidget_"]
 www.itmedia.co.jp##.colBoxR50:has(> div[id^="div-gpt-ad-"])
 nlab.itmedia.co.jp##.bannar
+!スクロールすると左からぴょっと出てくるvideo
+||anymind360.com^
+||flux-cdn.com^$3p
+||geniee.jp^$3p
+||logly.co.jp/lift_widget.js?adspot_id=
+nlab.itmedia.co.jp##.admsg
 
 
 !やり直し
