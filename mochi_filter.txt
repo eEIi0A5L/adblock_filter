@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 02 Jan 2023 00:00 JST
+! Last modified: 04 Jan 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2410,6 +2410,16 @@ www.4gamer.net##.ad_top
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/313
 4gamer.net##.banner_left_4g
 4gamer.net##.satellite_banner
+!たまにアクセスすると初めに表示される全画面の広告。右上にスキップボタンあり。
+||polymorphicads.jp^
+||www.4gamer.net/image/tag_affiliate_ad.gif
+||ad.poly.admatrix.jp^
+4gamer.net##.ad_container
+4gamer.net##div[data-banner-framename$="AD_01"]
+4gamer.net##body:style(background:none!important)
+4gamer.net###NOTIFY_EVENT
+4gamer.net###NOTIFY_EVENT_BAR
+
 
 !greasyfork
 greasyfork.org###script-show-info-ad
