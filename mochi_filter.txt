@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 04 Jan 2023 00:00 JST
+! Last modified: 13 Jan 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1719,6 +1719,12 @@ www.asahi.com###HometopAdOuter
 !Chromeで朝日新聞の記事を開くとBraveブラウザの広告が出る
 !https://egg.5ch.net/test/read.cgi/software/1585819901/367
 ||asahi.com/brave/modal-dist/index.js
+!朝日新聞の有料バナー
+||www.asahicom.jp/plasma/assets/0yen2023_970_60_bfee0f.png
+www.asahi.com##.dugPC
+||digital.asahi.com/pr/cp/2023/wtr/images/muryo_980_160.png
+www.asahi.com##a[href="https://digital.asahi.com/pr/cp/2023/wtr/?iref=cp2023wtr_own_arti_bnr"]
+
 
 !読売
 !||yomiuri.co.jp/cont2/ad/js/ad_world.js
