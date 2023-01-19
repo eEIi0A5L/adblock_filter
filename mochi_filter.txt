@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 13 Jan 2023 00:00 JST
+! Last modified: 19 Jan 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1914,6 +1914,21 @@ hochi.news###new-register-button:before:style(animation:none !important)
 www.tokyo-sports.co.jp##.side-bnr 
 www.tokyo-sports.co.jp##.recommend-box.post-list-box
 tokyo-sports.co.jp##.head-bnr-area
+
+!東スポWebのような 広告ブロック外して的なモーダルレイヤーはどうやって消してます？
+!https://egg.5ch.net/test/read.cgi/software/1659697272/491
+tokyo-sports.co.jp##+js(remove-attr, oncontextmenu, body)
+||gmossp-sp.jp^
+tokyo-sports.co.jp##.ad
+||piano.io^$ping
+||widgets.outbrain.com/outbrain.js
+||npttech.com^
+@@||cm-beacon.nakanohito.jp/cm/comment$xhr
+@@||cxense.com/cx.cce.js$script
+||taxel.jp^
+||www.tokyo-sports.co.jp/oo/life/lsync.js
+||npttech.com/advertising.js$script,important,redirect-rule=noop.js,domain=~vijesti.me
+
 
 !NEWSポストセブン
 !gifアニメがうざい
