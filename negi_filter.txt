@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: ねぎフィルタ（広告以外の不要要素ブロック）
-! Last modified: 2023/01/02 00:00 JST
+! Last modified: 2023/01/20 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/negi.html
@@ -372,7 +372,9 @@ twitter.com##.LiveVideoHomePageModuleContainer
 !https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/422
 !twitter.com###layers > div:has( div[dir="auto"]:has-text(「いま」起きていることを見つけよう))
 
-
+!Twitterを閲覧してる時に特定のアカウントを非表示するフィルターの書き方を教えてください
+!https://egg.5ch.net/test/read.cgi/software/1659969958/323
+!twitter.com##div:matches-attr(data-testid="cellInnerDiv"):has(div:matches-attr(data-testid="User-Names"):has(span:has-text(/@userid1|@userid2/)))
 
 
 
