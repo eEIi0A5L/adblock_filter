@@ -2597,6 +2597,9 @@ spotify.com##div > div[aria-live="polite"]:not([data-testid="top-result-card"])
 !end-------------------->
 !Spotifyモーダル2022.8.27
 !open.spotify.com##.GenericModal__overlay
+!Spotifyで広告が入るとそこで停止してしまう問題の対策。2023.2.4
+||akamaized.net/audio/$media,redirect-rule=noop-0.5s.mp3,domain=open.spotify.com
+
 
 
 !Buzzfeed
