@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 15 Dec 2022 00:00 JST
+! Last modified: 11 Feb 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi_extended.html
@@ -217,6 +217,12 @@ www.huffingtonpost.com##.advertisement
 ||yimg.com/wi/ytc.js
 ||plugin.mediavoice.com^
 huffingtonpost.com##+js(abort-on-property-write.js, _sp_)
+www.huffpost.com##.advertisement
+www.huffpost.com##.top-ad-recirc
+www.huffpost.com##.cli-advertisement
+www.huffpost.com##.advertisement-holder
+www.huffpost.com##.openweb-container
+
 
 !JAMA
 ||jamanetwork.com/AMA/AdTag
