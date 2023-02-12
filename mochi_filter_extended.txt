@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 11 Feb 2023 00:00 JST
+! Last modified: 12 Feb 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi_extended.html
@@ -704,6 +704,11 @@ www.allmovie.com##.advertising
 ||ads.avocet.io^
 ||asset.pagefair.net/ads.min.js
 ||saambaa.com/widget/va/jw/assets/smb-vidad.js
+www.allmovie.com##.header-leaderboard
+
+!rottentomatoes
+www.rottentomatoes.com###header_and_leaderboard
+
 
 !distrowatch.com
 ||adserver.adtech.de^
