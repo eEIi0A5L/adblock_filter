@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 13 Feb 2023 00:00 JST
+! Last modified: 18 Feb 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2409,6 +2409,7 @@ bing.com##.b_ad
 www.bing.com##li:has( > ul > li > div > h2.b_ads1line )
 bing.com##.b_algo:has( > div.b_caption > p:matches-css-before(content: "Ad"))
 bing.com##.b_algo:has( > div.b_caption > p:matches-css-before(content: "広告"))
+bing.com##.b_algo:has( > div.b_caption > p:matches-css-before(border-radius: 6px))
 !#if !env_firefox
 bing.com###b_results > .b_ad
 !#endif
