@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 24 Feb 2023 00:00 JST
+! Last modified: 25 Feb 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1289,6 +1289,8 @@ settings/ad.js$domain=lineblog.me
 !allabout
 allabout.co.jp##.large-super-banner
 allabout.co.jp###sys-ac265-target
+allabout.co.jp###browsi_adWrapper_ai_0_ati_1_rc_0
+allabout.co.jp###sys-article-upper-afc
 
 
 !fc2.com
@@ -1446,6 +1448,9 @@ recipe.rakuten.co.jp##.section_footer_overlay
 !Amazon(本家)
 !ブラックフライデーの商品がuBOでブロックされてしまう対策
 @@||aax-fe.amazon-adsystem.com^$domain=amazon.co.jp|aax-fe.amazon-adsystem.com|amazon.com
+!ISBN検索したときに左に出る広告
+www.amazon.co.jp###ad-placements_inner-frame
+
 
 
 !Amazon（他サイトに出る広告のブロック）
