@@ -1774,7 +1774,7 @@ www.yomiuri.co.jp##.article-related-link
 
 ! メディア系ビーコンども。誤爆怖いのでまとめてない
 !||bunshun.jp/oo/bs/m.gif?
-!||gendai.ismedia.jp/oo/im/m.gif?
+!||gendai.media/oo/im/m.gif?
 !||diamond.jp/oo/d/m.gif?
 !||dhbr.net/oo/d/m.gif?
 !! メディア系ビーコン追加
@@ -1785,7 +1785,7 @@ www.yomiuri.co.jp##.article-related-link
 !||fsight.jp/oo/other/m.gif?
 !||jprime.jp/oo/other/m.gif?
 ||bunshun.jp/oo/
-||gendai.ismedia.jp/oo/
+||gendai.media/oo/
 ||diamond.jp/oo/
 ||dhbr.net/oo/
 !! メディア系ビーコン追加
@@ -2022,10 +2022,13 @@ nikkan-gendai.com##.pr
 ||cdnext.stream.ne.jp/img/pr/
 
 !現代ビジネス
-gendai.ismedia.jp###GB_pc_under_right_Rectangle:upward(2)
-gendai.ismedia.jp###MG_pc_inArticle
-gendai.ismedia.jp##.ad-in-article
-gendai.ismedia.jp###FR_PC_inArticle
+gendai.media###GB_pc_under_right_Rectangle:upward(2)
+gendai.media###MG_pc_inArticle
+gendai.media##.ad-in-article
+gendai.media###FR_PC_inArticle
+gendai.media##.blockContainer:has( > .dontprint > #GB_PC_Billboard )
+gendai.media##.reduce-CLS
+
 
 !Cyzo
 cyzo.com##div[class^="gmossp_ad"]
