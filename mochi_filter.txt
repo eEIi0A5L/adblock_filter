@@ -1902,8 +1902,8 @@ www.nikkansports.com###headerAdBnr2022
 www.nikkansports.com###adUnit32
 
 !スポーツ報知
-www.hochi.co.jp##.ad_rectangle + script + div
-||hochi.co.jp/h_common/img/ad/nsk_banner_2017.gif
+!www.hochi.co.jp##.ad_rectangle + script + div
+!||hochi.co.jp/h_common/img/ad/nsk_banner_2017.gif
 hochi.news##.ad
 hochi.news##amp-ad
 hochi.news###float-bnr
