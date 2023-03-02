@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 01 Mar 2023 00:00 JST
+! Last modified: 02 Mar 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -678,6 +678,13 @@ weather.yahoo.co.jp###ad-new-ysp
 
 !広告消した後の空白
 weather.yahoo.co.jp###pos-lrec
+
+
+!Yahoo天気右サイドバー中の広告
+||s.yimg.jp/images/carview/promotion/
+||s.yimg.jp/images/evt/hinan/sphinan
+weather.yahoo.co.jp###rbnr > p[style="margin:0px 0px 20px 0px;text-align:center;"]
+
 
 !ヤフー天気の今日明日の指数情報（洗濯～風邪注意）
 !https://egg.5ch.net/test/read.cgi/software/1540428057/133
@@ -1967,6 +1974,10 @@ news.dwango.jp##div[id^="gmossp_ad_"]
 jisin.jp##.rmd_reccomend
 jisin.jp##.ad_area
 jisin.jp##.gmossp_ad_frame
+
+!週刊女性PRIME
+www.jprime.jp###pc_billboard:upward(1)
+
 
 !J-Cast
 j-cast.com##.adunit
