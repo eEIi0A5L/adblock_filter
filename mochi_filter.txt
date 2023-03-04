@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 02 Mar 2023 00:00 JST
+! Last modified: 05 Mar 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2295,6 +2295,10 @@ msn.com##iframe[id^="_mN_main_"]
 
 !so-net
 blog.so-net.ne.jp###seesaa-bnr
+
+!cinematoday
+www.cinematoday.jp###ct-ad-super-banner
+www.cinematoday.jp##.ct-ad
 
 !seesaa
 seesaa.jp,seesaa.net###seesaa-bnr
