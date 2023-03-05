@@ -2241,6 +2241,14 @@ fandom.com###WikiaTopAds
 fandom.com###WikiaBar
 fandom.com##.top-ads-container
 fandom.com##.bottom-ads-container
+!右バーちらつき
+doubleclick.net^$xhr,redirect-rule=noop.txt
+fandom.com##.ad-slot
+||ad.gt^
+static.wikia.nocookie.net/fandom-ae-assets/prebid.js$from=~prebid.org
+||quantserve.com^
+fandom.com##+js(set-constant, wgAffiliateEnabled, false)
+
 
 !StackOverflow
 ||ssum-sec.casalemedia.com^
