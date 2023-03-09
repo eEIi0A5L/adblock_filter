@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 07 Mar 2023 00:00 JST
+! Last modified: 09 Mar 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2697,6 +2697,8 @@ japan.cnet.com###content-top-block
 !||popin.cc^$domain=tabelog.com
 tabelog.com##div[class^="ad-min-size-"]
 tabelog.com###div-gpt-ad-t-shop-1st300x250
+tabelog.com##.rstdtl-cmad--middle
+
 
 !exblog.jp
 exblog.jp###yads_pc_overlay
