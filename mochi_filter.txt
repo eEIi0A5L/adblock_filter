@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 11 Mar 2023 00:00 JST
+! Last modified: 13 Mar 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2636,7 +2636,9 @@ spotify.com##div > div[aria-live="polite"]:not([data-testid="top-result-card"])
 !Spotifyモーダル2022.8.27
 !open.spotify.com##.GenericModal__overlay
 !Spotifyで広告が入るとそこで停止してしまう問題の対策。2023.2.4
-||akamaized.net/audio/$media,redirect-rule=noop-0.5s.mp3,domain=open.spotify.com
+||akamaized.net/audio/*$media,redirect=noop-0.5s.mp3,domain=open.spotify.com
+!Spotifyで広告が入るとそこで停止してしまう問題の対策。2023.3.13
+||scdn.co/audio/*$media,redirect=noop-0.5s.mp3,domain=open.spotify.com
 
 
 
