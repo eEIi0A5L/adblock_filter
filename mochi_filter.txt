@@ -1862,6 +1862,11 @@ www.tv-asahi.co.jp##.analytics_pr_rect
 @@||googletagservices.com/tag/js/gpt.js$script,domain=tv-asahi.co.jp
 @@||www.google-analytics.com^$domain=tv-asahi.co.jp
 
+!JOQR
+www.joqr.co.jp##.ad
+www.joqr.co.jp##.ad_full
+
+
 !毎日
 ||cdn.mainichi.jp/vol1/ad/
 ||adgm.mainichi.jp^
