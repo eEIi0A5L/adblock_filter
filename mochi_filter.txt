@@ -1245,6 +1245,8 @@ logsoku.com##div[style="text-align:center;margin:5px;min-height:90px;"]
 !Ameba, ameblo
 ameblo.jp##.subAdBannerHeader
 ameblo.jp##div[data-slot="injected"]
+!右サイドAd
+ameblo.jp##.subAdBannerArea
 ||ameba.jp/ad/
 ||ameba.jp/adsense/
 ||adt.measure.ameblo.jp^
