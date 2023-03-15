@@ -2000,6 +2000,8 @@ www.sanspo.com##.adRectangleBanner
 @@||popin.cc^$third-party,domain=sanspo.com
 ||google.co.jp/afs/ads
 www.sanspo.com###ads_content_top
+www.sanspo.com##.gptAd
+www.sanspo.com##.article__inline-gptAd
 
 
 !ロイター
