@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 16 Mar 2023 00:00 JST
+! Last modified: 17 Mar 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1583,6 +1583,8 @@ oshiete.goo.ne.jp###gooad-long_3
 www.goo.ne.jp##.NR-pr
 news.goo.ne.jp##.NR-pr
 news.goo.ne.jp##div[id^="gooad-"]
+news.goo.ne.jp##.gooad_side2nd_pc
+news.goo.ne.jp##.gooad_side1st_pc
 ||adcdn.goo.ne.jp^
 !https://tofukko.blog.fc2.com/blog-entry-405.html#comment845
 !NTTドコモログイン後において料金詳細等が表示されない
