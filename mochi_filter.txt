@@ -2055,6 +2055,9 @@ gendai.media##.ad-in-article
 gendai.media###FR_PC_inArticle
 gendai.media##.blockContainer:has( > .dontprint > #GB_PC_Billboard )
 gendai.media##.reduce-CLS
+gendai.media###PA_pc_inArticle
+gendai.media###GB_pc_inArticle
+gendai.media###pc_ad1
 
 
 !Cyzo
