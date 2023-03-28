@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 17 Mar 2023 00:00 JST
+! Last modified: 28 Mar 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1746,6 +1746,8 @@ www.asahi.com###HometopAdOuter
 www.asahi.com##.dugPC
 ||digital.asahi.com/pr/cp/2023/wtr/images/muryo_980_160.png
 www.asahi.com##a[href="https://digital.asahi.com/pr/cp/2023/wtr/?iref=cp2023wtr_own_arti_bnr"]
+!上部登録広告
+www.asahi.com##a[href^="https://digital.asahi.com/pr/"]
 
 
 !読売
