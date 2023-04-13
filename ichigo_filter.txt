@@ -684,7 +684,7 @@ vidoza.net##+js(nofab)
 @@||asianclub.*/asset/default/player/plugins/vast$script,1p
 asianclub.*##+js(window.open-defuser)
 ||wpncdn.com^
-/vast3.js$domain=hpav.tv|hpjav.tv
+/vast3.js$domain=hpav.tv|hpav.tv
 ||hpav.tv/a720.html
 hpav.tv##+js(no-setTimeout-if, _0x)
 hpav.tv##+js(window.open-defuser)
@@ -702,31 +702,31 @@ hpav.tv##+js(no-setTimeout-if, debugger)
 
 
 
-!hpjav
+!hpjav to jpav.tv
 !||adserver.juicyads.com^
 ||pvclouds.com^
 !||mvvecbfomk.com^$third-party
 !||ujlpbcsx.com^$third-party
-!hpjav.tv###artdv98
-!hpjav.tv##div:has(> a[href^="http://cl96rwprue.com/"])
-hpjav.tv##div[style^="position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px;"]
+!hpav.tv###artdv98
+!hpav.tv##div:has(> a[href^="http://cl96rwprue.com/"])
+hpav.tv##div[style^="position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px;"]
 ||fkbwtoopwg.com^
-hpjav.tv##+js(abort-on-property-read.js, AaDetector)
-/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=hpjav.tv
-hpjav.tv##.poplayer
-hpjav.tv##.video-boxad
-hpjav.tv##.center-ad
-hpjav.tv##.bottom-ad
-hpjav.tv###preroll_ads
-hpjav.tv##iframe[width="728"][height="90"]
-hpjav.tv##iframe[width="300"][height="250"]
-!hpjav.tv##+js(abort-on-property-read.js, AaDetector)
-!/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=hpjav.tv
-!hpjav.tv##.bottom-ad
-!hpjav.tv##.center-ad
-hpjav.tv##.home-ad
-||hpjav.tv/asset/js/vast.js
-@@||tsyndicate.com^$third-party,domain=hpjav.tv
+hpav.tv##+js(abort-on-property-read.js, AaDetector)
+/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=hpav.tv
+hpav.tv##.poplayer
+hpav.tv##.video-boxad
+hpav.tv##.center-ad
+hpav.tv##.bottom-ad
+hpav.tv###preroll_ads
+hpav.tv##iframe[width="728"][height="90"]
+hpav.tv##iframe[width="300"][height="250"]
+!hpav.tv##+js(abort-on-property-read.js, AaDetector)
+!/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=hpav.tv
+!hpav.tv##.bottom-ad
+!hpav.tv##.center-ad
+hpav.tv##.home-ad
+||hpav.tv/asset/js/vast.js
+@@||tsyndicate.com^$third-party,domain=hpav.tv
 tsyndicate.com##a[href*="/ad/"]
 ||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads
 verystream.com##+js(abort-on-property-read.js, adblock)
@@ -740,14 +740,14 @@ asianclub.*##+js(aopr, AaDetector)
 asianclub.*##+js(set, clientSide.adbDetect, null)
 asianclub.tv##+js(window.open-defuser)
 asianclub.tv##+js(aeld, click, open)
-hpjav.tv##+js(aopr, VAST)
-hpjav.tv##+js(aopr, AaDetector)
-hpjav.tv##div[id^="ts_ad_native_"]
+hpav.tv##+js(aopr, VAST)
+hpav.tv##+js(aopr, AaDetector)
+hpav.tv##div[id^="ts_ad_native_"]
 ||rekovers.ru^$third-party
 ||mobbahjug.com^
 ||addtoany.com^$third-party
 ||vd.7vid.net/O8cHpg7.js
-hpjav.tv##+js(nostif, _0x)
+hpav.tv##+js(nostif, _0x)
 asianclub.tv##+js(window.open-defuser)
 asianclub.tv##+js(addEventListener-defuser, click, window.open)
 ||fmax.xyz^
@@ -763,16 +763,16 @@ vidoza.net##+js(abort-current-inline-script, Math, zfgloaded)
 ||o333o.com^
 asianclub.*##+js(abort-on-property-read, jwplayer.utils.Timer)
 asianclub.tv##+js(window.open-defuser)
-hpjav.tv##+js(addEventListener-defuser, , _0x)
-hpjav.tv##+js(set-constant, checkdom, 0)
-*$script,redirect-rule=noopjs,domain=hpjav.tv
+hpav.tv##+js(addEventListener-defuser, , _0x)
+hpav.tv##+js(set-constant, checkdom, 0)
+*$script,redirect-rule=noopjs,domain=hpav.tv
 ||dita6jhhqwoiz.cloudfront.net^
 ||dailyinterventioncongestion.com^
 ||chapsartore.com^
 ||disparagethence.com^
 ||digitalpimpnetwork.com^
 ||s4.histats.com^
-hpjav.tv##+js(window.open-defuser)
+hpav.tv##+js(window.open-defuser)
 ninjastream.to##.video-fake
 ||ninjastream.to/js/lib.js
 ninjastream.to##+js(window.open-defuser, 0, ninjastream.to)
