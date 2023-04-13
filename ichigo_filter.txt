@@ -1633,17 +1633,17 @@ jable.tv##.right-sidebar
 jav.direct##.__isboostOverContent
 jav.direct###iframe > img
 
-!yavtube
-yavtube.com##+js(no-setTimeout-if, _0x)
-yavtube.com##+js(abort-on-property-read, open)
-yavtube.com##+js(remove-attr, href, .player-mask)
-yavtube.com##+js(no-setTimeout-if, _0x, !200)
+!yavtube to javcup.com
+javcup.com##+js(no-setTimeout-if, _0x)
+javcup.com##+js(abort-on-property-read, open)
+javcup.com##+js(remove-attr, href, .player-mask)
+javcup.com##+js(no-setTimeout-if, _0x, !200)
 ||cdn.r18hub.com/assets/videos/strip.mp4
-yavtube.com##.player-mask
-yavtube.com##.fluid_initial_play.transform-active
+javcup.com##.player-mask
+javcup.com##.fluid_initial_play.transform-active
 !||i.bongacash.com/pre_roll/
-!yavtube.com##+js(no-setTimeout-if, _0x, !200)
-!yavtube.com##+js(remove-attr, href, .player-mask)
+!javcup.com##+js(no-setTimeout-if, _0x, !200)
+!javcup.com##+js(remove-attr, href, .player-mask)
 ||bongacash.com^
 
 
