@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 28 Nov 2022 00:00 JST
+! Last modified: 13 Apr 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -984,24 +984,24 @@ share-videos.se##div[style="margin-left:120px;"]
 !JavTube
 javtb.se##.pc_main
 
-!javpm.com to javsun.cc
+!javpm.com to javsun.cc to javlare.com
 !||syndication.exosrv.com^$popup
 !https://ads.exosrv.com/nativeads.js
 !https://ads.exosrv.com/ads.js
 !https://www.javwide.com
-javsun.cc##[id$="_ads"]
-javsun.cc##.fa-pinterest-p
-javsun.cc##.fa-share
+javlare.com##[id$="_ads"]
+javlare.com##.fa-pinterest-p
+javlare.com##.fa-share
 ||jsc.mgid.com^
-javsun.cc##[id*="ScriptRoot"]
-javsun.cc##div[id*="ScriptRootC"]
+javlare.com##[id*="ScriptRoot"]
+javlare.com##div[id*="ScriptRootC"]
 ||fabrkrup.com/get/1551789?zoneid=
 ||www.embed.media/asset/default/player/plugins/vast-
-javsun.cc##.afs_ads
+javlare.com##.afs_ads
 ||log.vcdn.io^
 ||pub.javwide.com/un4dlq5.js
 javsun.net###preroll_ads
-javsun.cc##iframe[width="300"][height="250"]
+javlare.com##iframe[width="300"][height="250"]
 ||embed.best/asset/default/player/plugins/vast-*.js
 
 
