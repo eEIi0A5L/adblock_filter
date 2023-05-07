@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 07 May 2023 00:00 JST
+! Last modified: 08 May 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2077,6 +2077,12 @@ iza.ne.jp##div[style="width:300px;height:600px;"]
 
 !日刊SPA
 nikkan-spa.jp###SPA_PC_all_header
+
+!realsound
+realsound.jp###gStickyAd
+realsound.jp###ad_entryBottom
+realsound.jp##.entryBottomAd
+realsound.jp##.ad
 
 
 !リアルライブ
