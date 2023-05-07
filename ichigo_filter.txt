@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 13 Apr 2023 00:00 JST
+! Last modified: 08 May 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -1944,10 +1944,35 @@ missav.com##+js(window.open-defuser)
 ||wuzbhjpvsf.com^
 missav.com##a[rel^="sponsored"]
 missav.com##div[class^="root--"]:has( > div > a[id^="model-"])
+missav.com##^script:has-text(htmlAds)
+missav.com##+js(abort-current-script, document.createElement, htmlAds)
+||rxeosevsso.com^
+missav.com##iframe[id$="_bnr"]
+
 
 !javidol
 javidol.org##.adsbyexoclick
 ||nomorepecans.com^
+
+
+!javdock
+||xlviiirdr.com^
+mm9841.cc##+js(set-constant, devtoolsDetector, undefined)
+mm9841.cc##+js(abort-current-script, document.oncontextmenu)
+video.javdock.com##.video-container
+/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,3p
+||weednewspro.com^
+||js.wpadmngr.com/static/admanager.js$script,important,redirect-rule=noop.js
+
+
+
+
+
+
+
+
+
+
 
 
 
