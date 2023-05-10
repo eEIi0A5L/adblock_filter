@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もち拡張フィルタ（広告ブロック拡張）
-! Last modified: 16 Mar 2023 00:00 JST
+! Last modified: 10 May 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi_extended.html
@@ -589,7 +589,8 @@ wear.jp###gbl_ad
 !Flickr
 www.flickr.com##.ad-iframe-shim
 !||y-flickr.yahoo.com/ad?
-www.flickr.com##a[href^="/account/upgrade/pro"]:upward(2)
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/505
+!www.flickr.com##a[href^="/account/upgrade/pro"]:upward(2)
 www.flickr.com##.ad-rail-card-view:upward(1)
 
 
