@@ -1182,7 +1182,7 @@ llabtooflatot.blog.fc2.com##center:has(> ins.adsbygoogle)
 !芸能裏ネタばらしをします
 ||felmat.net^
 !||www.infotop.jp/img/banner1_
-||www.infotop.jp^
+!||www.infotop.jp^
 ||www.image-rentracks.com^
 ||rentracks.jp^
 ||monetrack.com:8000/banner/
