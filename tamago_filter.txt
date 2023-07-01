@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 11 Dec 2022 00:00 JST
+! Last modified: 01 Jul 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
@@ -419,7 +419,9 @@ goo.ne.jp##div[id^="gooad"]
 !https://tofukko.blog.fc2.com/blog-entry-405.html#comment845
 !NTTドコモログイン後において料金詳細等が表示されない
 @@||adcdn.goo.ne.jp^$domain=www.nttdocomo.co.jp
-||yads.c.yimg.jp^
+!モバイル版yahooトップの雨雲レーダーが表示されない不具合あり。2023.7.1
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/508
+!||yads.c.yimg.jp^
 !||lodeo-adnw.adtdp.com^
 !news.goo.ne.jp##div[style*="fixed"]
 !news.goo.ne.jp##div[style^="height: 50px; position: fixed;"]
