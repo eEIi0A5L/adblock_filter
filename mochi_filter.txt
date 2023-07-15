@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 30 Jun 2023 00:00 JST
+! Last modified: 16 Jul 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2283,6 +2283,13 @@ fandom.com##.ad-slot
 static.wikia.nocookie.net/fandom-ae-assets/prebid.js$from=~prebid.org
 ||quantserve.com^
 fandom.com##+js(set-constant, wgAffiliateEnabled, false)
+fandom.com##+js(trusted-set-cookie, addtl_consent, 1~, 1year)
+fandom.com##+js(trusted-set-cookie, tracking-opt-in-status, rejected, 1year)
+fandom.com##+js(trusted-set-cookie, euconsent-v2, CPt3fQAPt3fQACNAFAENDLCgAAAAAAAAACiQAAAOCgDAB-AIsAZ8A6QDBAHBAAAA.YAAAAAAAAAAA, 1year)
+fandom.com##+js(set-constant, optimizely, {})
+fandom.com##+js(set-constant, optimizely.initialized, true)
+fandom.com##+js(set-cookie, Geo, OK)
+fandom.com##.notifications-placeholder
 
 
 !StackOverflow
