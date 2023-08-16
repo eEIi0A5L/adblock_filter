@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 01 Jul 2023 00:00 JST
+! Last modified: 16 Aug 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
@@ -187,7 +187,7 @@ twitter.com##[data-testid="trend"]:has-text(プロモーション):xpath(..)
 twitter.com##span:has-text(によるプロモーション):upward( div[data-testid="trend"] ):xpath(..)
 !twitter.com##aside[aria-label="おすすめユーザー"] > div > div[data-testid="UserCell"]:has( > div > div > div > svg + div:has-text(プロモーション))
 !twitter.com##div[aria-label^="タイムライン:"] > div > div > div:has( svg[viewBox] + div:has-text(プロモーション) )
-twitter.com##svg[viewBox] + div:has-text(プロモーション):upward( div[aria-label^="タイムライン:"] > div > div > div )
+!twitter.com##svg[viewBox] + div:has-text(プロモーション):upward( div[aria-label^="タイムライン:"] > div > div > div )
 
 
 ! Twitterトラッカー
