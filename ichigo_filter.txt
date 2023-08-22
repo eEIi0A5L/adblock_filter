@@ -1952,6 +1952,10 @@ shabulism.com​##.diver_widget_adarea
 ||widgets.getpocket.com^$third-party
 ||ad-arrow.com^
 ||ad-nex.com^
+youjizz.com##+js(abort-on-property-read, ExoLoader)
+||orbsrv.com^
+
+
 
 !missav
 missav.com##.adsbyexoclick
