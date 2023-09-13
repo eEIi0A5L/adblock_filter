@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 10 Sep 2023 00:00 JST
+! Last modified: 13 Sep 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -1862,7 +1862,8 @@ streamtape.com##+js(abort-current-script, document.createElement, adblock)
 streamtape.com##+js(no-setInterval-if, adblock, 700)
 streamtape.com##+js(no-setInterval-if, adblock, 700)
 streamtape.com##+js(abort-current-script, Math, /emZnbG9hZGVk|break;case \$\./)
-streamtape.*##+js(abort-on-stack-trace, Math.random, /\st\.[a-zA-Z]*\s/)
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1694611876/2
+!streamtape.*##+js(abort-on-stack-trace, Math.random, /\st\.[a-zA-Z]*\s/)
 streamtape.*##+js(no-setInterval-if, adblock)
 streamtape.*##+js(remove-attr, target, #downloadvideo)
 streamtape.*##.ad-placement
