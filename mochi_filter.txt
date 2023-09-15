@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 19 Aug 2023 00:00 JST
+! Last modified: 15 Sep 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2114,6 +2114,18 @@ japanese.engadget.com###ldrBoardAd
 !||adserver-as.adtech.advertising.com^
 japanese.engadget.com###atwAdFrame0
 @@||guce.advertising.com/collectIdentifiers
+
+
+!trilltrill
+trilltrill.jp##div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+trilltrill.jp##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+trilltrill.jp##.sideBar-GAM_Middle
+trilltrill.jp##.sideBar-GAM
+trilltrill.jp##.main-bottom__container
+||adingo.jp^
+||flux-cdn.com/client/$script
+||anymind360.com^
+||browsiprod.com^
 
 
 !Wired
