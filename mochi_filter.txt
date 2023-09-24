@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 21 Sep 2023 00:00 JST
+! Last modified: 25 Sep 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1622,6 +1622,9 @@ blog.goo.ne.jp##div[style="height: 70px; position: fixed; z-index: 998; bottom: 
 !||popin.cc^
 ||js.cocoad.jp^
 news.livedoor.com##.mainSec:has( > .adsW )
+news.livedoor.com##.ad-wrapper
+!news.livedoor.com##.subSec:has( > div[id^="div-gpt-ad-"])
+
 
 !まいじつ
 myjitsu.jp##article[id^="related-post-ad"]
