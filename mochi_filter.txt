@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 28 Sep 2023 00:00 JST
+! Last modified: 29 Sep 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1218,6 +1218,8 @@ bbspink.com##.bbspink-top-ads
 agree.5ch.net/v/go-to-uplift.png
 5ch.net##.adbanners
 5ch.net###adoverlay
+5ch.net##div[style="background-color:white;width: 728px; height: 90px; z-index: 2; position: fixed; bottom: 0; left: 50%; transform: translate(-50%, 0);"]
+
 
 
 !したらば
