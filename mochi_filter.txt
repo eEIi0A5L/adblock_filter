@@ -1194,6 +1194,11 @@ bbspink.com###bbspink-bottom-ads
 bbspink.com###top_banner
 ||bbspink.com/_gichin/js/ads.js
 bbspink.com##.js--ad--bottom
+bbspink.com###float-bnr
+bbspink.com###topleft
+bbspink.com###topright
+pinktower.com##ul
+pinktower.com##div[style="width:100%;text-align:right"]
 ||aktrack.pubmatic.com/AdServer/
 ||ads.pubmatic.com^
 !すすコインの広告
@@ -1219,6 +1224,9 @@ agree.5ch.net/v/go-to-uplift.png
 5ch.net##.adbanners
 5ch.net###adoverlay
 5ch.net##div[style="background-color:white;width: 728px; height: 90px; z-index: 2; position: fixed; bottom: 0; left: 50%; transform: translate(-50%, 0);"]
+jump.5ch.net###top-ads
+jump.5ch.net###main-content-box
+jump.5ch.net###navbarResponsive
 
 
 
