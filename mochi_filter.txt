@@ -1958,6 +1958,7 @@ hochi.news###float-bnr
 !右上新規会員登録のちらちらするアニメーションOFF
 hochi.news###new-register-button::before:style(animation:none !important)
 hochi.news##div[style^="width:600px; height:200px"]
+hochi.news##.header__ad
 
 
 !東スポ
