@@ -1227,6 +1227,7 @@ agree.5ch.net/v/go-to-uplift.png
 jump.5ch.net###top-ads
 jump.5ch.net###main-content-box
 jump.5ch.net###navbarResponsive
+5ch.net##div[style="width: 728px;width: 93%; margin: 0.5em auto 0.75em auto; padding: 0.75em; min-height: 272px; border: 1px solid black; background-color: #ccffcc; border-radius: 0.75em / 0.75em;"]
 
 
 
