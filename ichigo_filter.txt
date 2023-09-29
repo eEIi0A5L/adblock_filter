@@ -1826,7 +1826,7 @@ tktube.com##.bottom-adv
 ||creative.live.tktube.com/widgets/
 ||orbsrv.com^
 ||jads.co^
-/^https?:\/\/(?:www\.|[a-z0-9]{7,10}\.)?[a-z0-9-]{5,}\.(?:com|bid|link|live|online|top|club)\/\/?(?:[a-z0-9]{2}\/){2,3}[a-f0-9]{32}\.js/$script,3p,redirect-rule=noop.js
+/^https?:\/\/(?:www\.|[a-z0-9]{7,10}\.)?[a-z0-9-]{5,}\.(?:com|bid|link|live|online|top|club)\/\/?(?:[a-z0-9]{2}\/){2,3}[a-f0-9]{32}\.js/$script,third-party,redirect-rule=noop.js
 tktube.com##+js(addEventListener-defuser, , popMagic)
 tktube.com##+js(set-constant, flashvars.adv_pre_vast, )
 tktube.com##+js(addEventListener-defuser, click, popMagic)
