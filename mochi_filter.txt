@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 29 Sep 2023 00:00 JST
+! Last modified: 01 Dec 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2843,6 +2843,10 @@ pastebin.com##.adsbyvli:upward(div)
 
 !crank-in
 www.crank-in.net###bannerin
+www.crank-in.net##.head-banner
+www.crank-in.net##.ad-area
+www.crank-in.net##.ad-list-m
+www.crank-in.net##.ad-area-list
 
 
 !investing.com
