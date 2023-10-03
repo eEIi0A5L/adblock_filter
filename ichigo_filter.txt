@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 28 Sep 2023 00:00 JST
+! Last modified: 04 Dec 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -1361,6 +1361,15 @@ txxx.*##+js(abort-current-inline-script, setTimeout, hommy.mutation.mutation)
 ||txxx.com/burstyourbuble/nofa7.
 ||txxx.*^$document,csp=script-src  'self' 'unsafe-eval' 'unsafe-inline' blob:
 txxx.*##.jw-wrapper + div[id][style="display:flex !important"]
+||txxx.com/api/input.php?
+/assets/jwplayer-*/vast.js$script,1p,domain=txxx.com
+txxx.*##.video-videos-slider
+txxx.*##.video-content > div:first-child > div[class]:has(> div > a[href="#"])
+txxx.*##.page-video > div.video-videos-slider ~ div[class]:matches-css(justify-content: center)
+txxx.*##.content.page.page-video .video-content > div[class] > div > div[class] > div[class][style^="background-image:"]:style(background-image: none !important;)
+txxx.com##.ad-title
+txxx.*##+js(abort-current-script, setTimeout, hommy.mutation.mutation)
+txxx.*##+js(abort-on-property-read, jwplayer.utils.Timer)
 
 !javmec
 ||muqson0kgr.com^
