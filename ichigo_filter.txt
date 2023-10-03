@@ -1063,6 +1063,16 @@ javhub.net##.fel-playclose
 ||leojmp.com^
 ||js.wpadmngr.com/static/admanager.js
 javhub.net##.col-md-4
+||wpu.sh^
+||fvcwqkkqmuv.com^
+||wpadmngr.com^
+||mt34iofvjay.com^
+||smac-ad.com^
+japanhub.net##.ad-body
+japanhub.net##.ad-title
+japanhub.net##.banner-a
+||js.wpadmngr.com/static/admanager.js$script,redirect-rule=noopjs
+/aas/r45d/vki/*$script,redirect-rule=noop.js
 
 
 
