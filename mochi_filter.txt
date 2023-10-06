@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 01 Dec 2023 00:00 JST
+! Last modified: 06 Oct 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1847,6 +1847,15 @@ www.yomiuri.co.jp##.article-related-link
 !||ntv.co.jp/ad-navi/
 ||news24.jp/css/adjust.css
 www.news24.jp###adText01
+news.ntv.co.jp##.overlay-publicity:has( > #div-gpt-news24_pc_overlay )
+news.ntv.co.jp##.publicity-contents:has( > #div-gpt-news24_pc_bnr )
+news.ntv.co.jp##.publicity-contents:has( > #div-gpt-news24_pc_1st_rec )
+news.ntv.co.jp##.publicity-contents:has( > #div-gpt-news24_pc_2nd_rec )
+news.ntv.co.jp###div-gpt-news24_pc_6th_rec
+news.ntv.co.jp###div-gpt-news24_pc_5th_rec
+news.ntv.co.jp##li:has( a._popIn_recommend_article_ad )
+news.ntv.co.jp##.publicity-contents:has( > #div-gpt-news24_pc_ydn_bnr )
+
 
 !MBS動画イズム
 @@||connect.facebook.net/en_us/sdk.js$domain=dizm.mbs.jp
