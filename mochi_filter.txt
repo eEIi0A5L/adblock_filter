@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 06 Oct 2023 00:00 JST
+! Last modified: 08 Oct 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -48,7 +48,7 @@ hs-exp.jp##.dfad
 
 
 !Youtube
-!一旦全面見直した。2017.10.31
+!一旦全面見直した。2023.10.08
 ||youtube.com/yts/jsbin/www-pagead-id-
 !||googleads.g.doubleclick.net^
 ||youtube.com/get_midroll_
@@ -75,22 +75,31 @@ www.youtube.com##ytd-promoted-sparkles-web-renderer
 !検索結果上部の広告
 www.youtube.com##ytd-carousel-ad-renderer
 youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##ytd-rich-item-renderer:has( > div > ytd-display-ad-renderer )
 youtube.com##ytd-display-ad-renderer
-!youtube新規広告2022.6.20
-youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, null)
-youtube.com##+js(json-prune, playerResponse.playerAds)
-youtube.com##+js(json-prune, 2.playerResponse.adPlacements)
-youtube.com##+js(json-prune, 2.playerResponse.adPlacements playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+playerResponse.playerAds adPlacements playerAds)
 www.youtube.com##ytd-ad-slot-renderer
 www.youtube.com##ytd-rich-item-renderer:has( > div > ytd-ad-slot-renderer)
+!2023/10/4
+!from uBO
+youtube.com##+js(json-prune-fetch-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:player?key=)
+youtube.com##+js(json-prune-xhr-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:/player\?key=|watch\?v=|youtubei\/v1\/player/)
+youtube.com##+js(trusted-replace-fetch-response, /\"adPlacements.*?\"\}\}\}\]\,/, , player?key=)
+youtube.com##+js(trusted-replace-fetch-response, /\"adSlots.*?\}\]\}\}\]\,/, , player?key=)
+youtube.com##+js(trusted-replace-fetch-response, /\"playerAds.*?\}\}\]\,/, , player?key=)
+youtube.com##+js(set-constant, ytInitialPlayerResponse.playerAds, undefined)
+youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com##+js(set-constant, ytInitialPlayerResponse.adSlots, undefined)
+youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
+||doubleclick.net^$xhr,redirect-rule=noop.txt
+||youtube.com/pagead/
+/pagead/lvz?
+||doubleclick.net/instream/ad_status.js$script,redirect-rule=doubleclick_instream_ad_status.js
+||doubleclick.net^
+youtube.com##.ytp-ad-progress-list
 
-!#if adguard
-youtube.com,youtube-nocookie.com#@#+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube-nocookie.com,youtube.com#%#//scriptlet('json-prune', '0.playerResponse.adPlacements 0.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds')
-!#endif
+
+
 
 
 !Youtubeトップバナー
