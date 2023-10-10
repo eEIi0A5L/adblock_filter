@@ -81,21 +81,20 @@ www.youtube.com##ytd-ad-slot-renderer
 www.youtube.com##ytd-rich-item-renderer:has( > div > ytd-ad-slot-renderer)
 !2023/10/4
 !from uBO
-youtube.com##+js(json-prune-fetch-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:player?key=)
-youtube.com##+js(json-prune-xhr-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:/player\?key=|watch\?v=|youtubei\/v1\/player/)
-youtube.com##+js(trusted-replace-fetch-response, /\"adPlacements.*?\"\}\}\}\]\,/, , player?key=)
-youtube.com##+js(trusted-replace-fetch-response, /\"adSlots.*?\}\]\}\}\]\,/, , player?key=)
-youtube.com##+js(trusted-replace-fetch-response, /\"playerAds.*?\}\}\]\,/, , player?key=)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.playerAds, undefined)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.adSlots, undefined)
-youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
 ||doubleclick.net^$xhr,redirect-rule=noop.txt
 ||youtube.com/pagead/
 /pagead/lvz?
 ||doubleclick.net/instream/ad_status.js$script,redirect-rule=doubleclick_instream_ad_status.js
 ||doubleclick.net^
 youtube.com##.ytp-ad-progress-list
+!2023.10.11
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/516
+youtube.com##ytd-ad-slot-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
+
 
 
 
