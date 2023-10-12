@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 09 Oct 2023 00:00 JST
+! Last modified: 12 Oct 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -115,6 +115,13 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerRespon
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
+youtube.com##+js(trusted-replace-fetch-response, /"adSlots.*?SLOT_TRIGGER_EVENT_BEFORE_CONTENT.*?\}\]\}\}\]\,/, , url:player?key=)
+youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?AD_PLACEMENT_KIND_END.*?\"\}\}\}\]\,/, , url:player?key=)
+youtube.com##+js(trusted-replace-fetch-response, /"playerAds.*?gutParams":\{"tag":"\\.*?\}\}\]\,/, , url:player?key=)
+youtube.com##+js(trusted-set-cookie, SOCS, CAISNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMwODI5LjA3X3AxGgJlbiADGgYIgJnPpwY, , , reload, 1)
+youtube.com##+js(set-constant, google_ad_status, 1)
+
+
 
 
 
