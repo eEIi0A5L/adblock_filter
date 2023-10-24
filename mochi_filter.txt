@@ -2407,6 +2407,12 @@ www.cinematoday.jp##.ct-ad
 seesaa.jp,seesaa.net###seesaa-bnr
 seesaawiki.jp###seesaa-bnr
 
+!encount
+||yads.c.yimg.jp/js/yads-async.js
+encount.press###gmo_bb_recommend
+
+
+
 !窓の杜で検索したときのgoogle広告
 ||cse.google.com/cse_v2/ads?
 !forest.watch.impress.co.jp##.gsc-wrapper
