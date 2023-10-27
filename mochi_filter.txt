@@ -54,7 +54,9 @@ hs-exp.jp##.dfad
 ||youtube.com/get_midroll_
 ||pagead2.googlesyndication.com^
 youtube.com##.ad-container
-youtube.com##.video-ads
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/520
+!スキップボタン
+!youtube.com##.video-ads
 youtube.com##.ytp-ad-progress-list
 ||google.co.jp/pagead/lvz?
 !||static.doubleclick.net/instream/ad_status.js
