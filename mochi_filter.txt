@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 26 Oct 2023 00:00 JST
+! Last modified: 30 Oct 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2112,6 +2112,12 @@ gendai.media##.reduce-CLS
 gendai.media###PA_pc_inArticle
 gendai.media###GB_pc_inArticle
 gendai.media###pc_ad1
+gendai.media###BB_pc_inArticle
+||macro.adnami.io^
+||fireworkapi1.com^
+gendai.media##.ad-slider--list__ad
+gendai.media##.ad-slider
+gendai.media###BB_pc_under_left_Rectangle:upward(2)
 
 
 !Cyzo
