@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 30 Oct 2023 00:00 JST
+! Last modified: 31 Oct 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2267,6 +2267,7 @@ www.oricon.co.jp##.gmossp_ad_frame
 @@||doubleclick.net^$domain=www.oricon.co.jp
 www.oricon.co.jp##.block-header-banner-wrapper
 www.oricon.co.jp##._popIn_recommend_article:has( > ._popIn_recommend_art_media:has-text(/^AD/))
+oricon.co.jp##.break-ad-box
 
 
 
