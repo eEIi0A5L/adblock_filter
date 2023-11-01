@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 04 Dec 2023 00:00 JST
+! Last modified: 02 Nov 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -1772,6 +1772,7 @@ fembed.com##+js(window.open-defuser)
 
 !javtheater
 javtheater.com##.__isboostOverContent:has( > .__isboostOverContentCloseBtn ) 
+javtheater.com##.chatbanner
 
 
 !vimv
