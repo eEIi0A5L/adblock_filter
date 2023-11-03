@@ -2133,6 +2133,8 @@ iza.ne.jp##div[style="width:300px;height:600px;"]
 
 !日刊SPA
 nikkan-spa.jp###SPA_PC_all_header
+nikkan-spa.jp##.mainColumnBannerArea
+
 
 !realsound
 realsound.jp###gStickyAd
