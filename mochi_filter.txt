@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 04 Nov 2023 00:00 JST
+! Last modified: 08 Nov 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2013,6 +2013,14 @@ tokyo-sports.co.jp##.ad
 !右からぴょっとでてくるBOX
 www.tokyo-sports.co.jp###pianoj_slidein
 www.tokyo-sports.co.jp##iframe[id^="offer_"]
+
+
+!NewsWeekJapan
+www.newsweekjapan.jp##.ad-teads-nw-box
+www.newsweekjapan.jp###sideAdPanel
+||ad.primead.jp^
+||www.newsweekjapan.jp/brave/adbutler/ad-pulse.js
+
 
 
 !NEWSポストセブン
