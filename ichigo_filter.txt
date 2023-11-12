@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 03 Nov 2023 00:00 JST
+! Last modified: 13 Nov 2023 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -626,6 +626,15 @@ javfinder.sb##.happy-under-player
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$script,third-party,redirect-rule=noop.js,match-case
 javfinder.sb###back-to-top:not(html):not(body)
 /\/assets\/jquery\/jquery-\d\.\d\.(?:\d\.)?min\.js\?(?:v=2)?&?type=(?:adult|mainstream)$/$script,first-party
+!javfinder
+embedwish.com##+js(abort-on-property-read, __Y)
+embedwish.com##+js(remove-node-text, script, /$.*(css|oncontextmenu)/)
+embedwish.com##+js(set-constant, cRAds, true)
+||dalysv.com^
+javfinder.sb##.happy-under-player-mobile
+javfinder.sb##.sidebar-ads
+javfinder.sb##a[title="Back to top"]
+embedwish.com/assets/jquery/adult100.js
 
 
 
