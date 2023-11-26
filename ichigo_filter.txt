@@ -1876,7 +1876,7 @@ tktube.com##+js(addEventListener-defuser, click, popMagic)
 ||tktube.com/player/html.php?aid=*_html&video_id=*&referer
 ||grannyaudiblypriceless.com^
 tktube.com##+js(abort-on-property-read, StripchatSpot)
-||histats.com^$3p
+||histats.com^$third-party
 https://creative.stripchat.global/widgets/Spot/lib.js
 tktube.com##.top
 
