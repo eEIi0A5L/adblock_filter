@@ -2,7 +2,7 @@
 ! Title: 亀フィルタ（ウイルスサイトブロック）
 ! Description: ウイルスサイトをブロックする
 !
-! Last modified: 2023/11/28 frequency)
+! Last modified: 2024/01/29 frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/kame.html
 
@@ -102,6 +102,7 @@
 ||saison-lataier.com^
 ||sorrgbful66.cyou^
 ||okashik.atype.jp^
+||www.moneyket.link.itseaface.com^
 
 
 
