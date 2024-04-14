@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 26 Jan 2024 00:00 JST
+! Last modified: 14 Apr 2024 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1978,6 +1978,14 @@ www.nikkansports.com##.ad-area
 www.nikkansports.com###headerAdBnr2022
 www.nikkansports.com###adUnit32
 
+!日刊工業新聞
+!https://www.nikkan.co.jp/articles/view/524115
+||acceliaimg.durasite.net^
+||acceliaad.durasite.net^
+||www.nikkan.co.jp/images/article_detail_ad.png
+www.nikkan.co.jp##.articleAd
+
+
 !スポーツ報知
 !www.hochi.co.jp##.ad_rectangle + script + div
 !||hochi.co.jp/h_common/img/ad/nsk_banner_2017.gif
@@ -2287,6 +2295,9 @@ www.oricon.co.jp##.gmossp_ad_frame
 www.oricon.co.jp##.block-header-banner-wrapper
 www.oricon.co.jp##._popIn_recommend_article:has( > ._popIn_recommend_art_media:has-text(/^AD/))
 oricon.co.jp##.break-ad-box
+www.oricon.co.jp##.overlay-ad-area
+||player.gliacloud.com^$3p
+oricon.co.jp##+js(remove-attr, oncontextmenu|onmousedown|onselectstart, .all-lyrics)
 
 
 
