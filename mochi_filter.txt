@@ -2296,7 +2296,7 @@ www.oricon.co.jp##.block-header-banner-wrapper
 www.oricon.co.jp##._popIn_recommend_article:has( > ._popIn_recommend_art_media:has-text(/^AD/))
 oricon.co.jp##.break-ad-box
 www.oricon.co.jp##.overlay-ad-area
-||player.gliacloud.com^$3p
+||player.gliacloud.com^$third-party
 oricon.co.jp##+js(remove-attr, oncontextmenu|onmousedown|onselectstart, .all-lyrics)
 
 
