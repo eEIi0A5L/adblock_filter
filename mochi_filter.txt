@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 14 Apr 2024 00:00 JST
+! Last modified: 18 May 2024 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -985,8 +985,10 @@ gyao.yahoo.co.jp##.ad
 !Twitter
 ||app.link^$third-party
 ||twitter.com/i/csp_report?
+||x.com/i/csp_report?
 ||ads-api.twitter.com^
 ||twitter.com/1.1/promoted_content/log.json
+||x.com/1.1/promoted_content/log.json
 !||google-analytics.com^$domain=twitter.com
 ||api.twitter.com/1.1/videoads/v2/prerolls.json
 
@@ -1001,24 +1003,24 @@ gyao.yahoo.co.jp##.ad
 !タイムラインの広告２
 !「Promoted by 〇〇」とでるやつ
 !twitter.com##div[data-testid="placementTracking"]:has(svg + div[dir="auto"] > span:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Mainostettu|推廣|推广|推薦|推荐|プロモーション/))
-twitter.com##span:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Mainostettu|推廣|推广|推薦|推荐|プロモーション/):upward(div[data-testid="placementTracking"])
+twitter.com,x.com##span:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Mainostettu|推廣|推广|推薦|推荐|プロモーション/):upward(div[data-testid="placementTracking"])
 
 
 !#話題を検索ページの右上おすすめユーザのプロモーション
-twitter.com##span:has-text(/^(Promoted|プロモーション)$/):upward(div[data-testid="UserCell"])
+twitter.com,x.com##span:has-text(/^(Promoted|プロモーション)$/):upward(div[data-testid="UserCell"])
 
 
 
 !右欄いまどうしてるの広告
-twitter.com##[data-testid="trend"]:has-text(/推荐|Promoted|Gesponsert|Реклама|Promocionado|Sponsorisé|Uitgelicht|プロモーション/):upward(1)
+twitter.com,x.com##[data-testid="trend"]:has-text(/推荐|Promoted|Gesponsert|Реклама|Promocionado|Sponsorisé|Uitgelicht|プロモーション/):upward(1)
 
 !https://twitter.com/okkinapanda
 !↓構文エラー
 !twitter.com##div:has( > div > div > div > h2 > div > span:has-text(/Promoted Tweet|プロモツイート/) )
 
 !話題を検索上部の広告
-twitter.com##a[href*="src=promoted_trend_click"]
-twitter.com##a[href*="src=promoted_trend_click"] + div
+twitter.com,x.com##a[href*="src=promoted_trend_click"]
+twitter.com,x.com##a[href*="src=promoted_trend_click"] + div
 
 
 !プロモツイート
@@ -1028,7 +1030,7 @@ twitter.com##a[href*="src=promoted_trend_click"] + div
 
 
 !探索上部の広告(たまに出る)
-twitter.com##div[data-testid="eventHero"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션 중|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
+twitter.com,x.com##div[data-testid="eventHero"]:has-text(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션 중|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
 
 !「雨 川」で検索した時のウェザーニュースでadが出る
 ||twitter.com/i/api/1.1/videoads/v2/prerolls.json
@@ -1042,6 +1044,7 @@ twitter.com##div[data-testid="eventHero"]:has-text(/Promoted|Gesponsert|Promocio
 ||api.twitter.com/1.1/onboarding/referrer.json|$xmlhttprequest
 ||platform.twitter.com/oct.js|
 ||twitter.com/etc/clientlibs/dtm/*/satelliteLib-$script
+||x.com/etc/clientlibs/dtm/*/satelliteLib-$script
 
 
 !facebook

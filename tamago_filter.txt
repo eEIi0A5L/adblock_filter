@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: たまごフィルタ（mobile filter）
-! Last modified: 16 Aug 2023 00:00 JST
+! Last modified: 18 May 2024 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
@@ -174,17 +174,17 @@ google.com,google.co.jp###main > div:has(> div > div > a > div > div > span:has-
 
 !Twitter
 !英語版
-twitter.com##[data-testid="trend"]:has-text(Promoted):xpath(..)
+twitter.com,x.com##[data-testid="trend"]:has-text(Promoted):xpath(..)
 !twitter.com##div[data-testid="trend"]:has( span:has-text(Promoted by) ):xpath(..)
-twitter.com##span:has-text(Promoted by):upward( div[data-testid="trend"] ):xpath(..)
+twitter.com,x.com##span:has-text(Promoted by):upward( div[data-testid="trend"] ):xpath(..)
 !twitter.com##aside[aria-label="Who to follow"] > div > div[data-testid="UserCell"]:has(:scope  > div > div > div > svg + div:has-text(Promoted))
 !twitter.com##div[aria-label^="Timeline:"] > div > div > div:has( svg[viewBox] + div:has-text(Promoted) )
-twitter.com##svg[viewBox] + div:has-text(Promoted):upward( div[aria-label^="Timeline:"] > div > div > div )
+twitter.com,x.com##svg[viewBox] + div:has-text(Promoted):upward( div[aria-label^="Timeline:"] > div > div > div )
 
 !日本語版
-twitter.com##[data-testid="trend"]:has-text(プロモーション):xpath(..)
+twitter.com,x.com##[data-testid="trend"]:has-text(プロモーション):xpath(..)
 !twitter.com##div[data-testid="trend"]:has( span:has-text(によるプロモーション) ):xpath(..)
-twitter.com##span:has-text(によるプロモーション):upward( div[data-testid="trend"] ):xpath(..)
+twitter.com,x.com##span:has-text(によるプロモーション):upward( div[data-testid="trend"] ):xpath(..)
 !twitter.com##aside[aria-label="おすすめユーザー"] > div > div[data-testid="UserCell"]:has( > div > div > div > svg + div:has-text(プロモーション))
 !twitter.com##div[aria-label^="タイムライン:"] > div > div > div:has( svg[viewBox] + div:has-text(プロモーション) )
 !twitter.com##svg[viewBox] + div:has-text(プロモーション):upward( div[aria-label^="タイムライン:"] > div > div > div )
@@ -197,6 +197,7 @@ twitter.com##span:has-text(によるプロモーション):upward( div[data-test
 ||api.twitter.com/1.1/onboarding/referrer.json|$xmlhttprequest
 ||platform.twitter.com/oct.js|
 ||twitter.com/etc/clientlibs/dtm/*/satelliteLib-$script
+||x.com/etc/clientlibs/dtm/*/satelliteLib-$script
 
 !Instagram
 !アプリ誘導BOX
