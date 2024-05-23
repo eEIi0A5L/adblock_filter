@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 18 May 2024 00:00 JST
+! Last modified: 23 May 2024 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -2538,6 +2538,7 @@ www.m-on.press##.webbanner_display_pc
 !kotobank
 kotobank.jp##.pc-iframe-ad
 kotobank.jp##.pc-word-ad
+kotobank.jp##+js(no-setTimeout-if, return, 7400)
 
 !imepic
 ||imepic.jp/img/adv/
@@ -2974,6 +2975,12 @@ thetv.jp##.ad
 !よろずー
 yorozoonews.jp##.module-ad-header
 yorozoonews.jp##.module-ad__item
+
+!President
+president.jp##.toggle-panel-ad
+president.jp##.area-billboard
+
+
 
 
 
