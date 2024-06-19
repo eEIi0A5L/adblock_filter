@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: もちフィルタ（広告ブロック）
-! Last modified: 23 May 2024 00:00 JST
+! Last modified: 19 Jun 2024 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/mochi.html
@@ -1243,6 +1243,18 @@ jump.5ch.net###main-content-box
 jump.5ch.net###navbarResponsive
 5ch.net##div[style="width: 728px;width: 93%; margin: 0.5em auto 0.75em auto; padding: 0.75em; min-height: 272px; border: 1px solid black; background-color: #ccffcc; border-radius: 0.75em / 0.75em;"]
 ||5ch.net/images/uplift-itest.png
+5ch.net##.ad_300x250
+5ch.net##a[href="//uplift.5ch.net"]:upward(1)
+5ch.net##.sproutad_frame-description
+5ch.net##.ad_320x100
+
+bbspink.com##.ad_subb_ft
+bbspink.com##.ad_subb
+||itest.bbspink.com/assets/img/uplift-itest.png
+bbspink.com##.ad_300x250
+bbspink.com##.ad_320x100
+bbspink.com##a[href="//uplift.5ch.net"]:upward(1)
+
 
 
 
