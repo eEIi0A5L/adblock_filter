@@ -1983,6 +1983,7 @@ www.sponichi.co.jp##div[data-hide-at-compact="data-hide-at-compact"]
 !デイリー
 www.daily.co.jp##aside.add
 www.daily.co.jp##.pageAd
+www.daily.co.jp##div[id^="mn_ovl_"]
 
 !日刊スポーツ
 www.nikkansports.com###sideAd1
@@ -2313,6 +2314,7 @@ oricon.co.jp##.break-ad-box
 www.oricon.co.jp##.overlay-ad-area
 ||player.gliacloud.com^$third-party
 oricon.co.jp##+js(remove-attr, oncontextmenu|onmousedown|onselectstart, .all-lyrics)
+www.oricon.co.jp##ins[id^="gpt_unit_/"]
 
 
 
