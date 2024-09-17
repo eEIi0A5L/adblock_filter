@@ -1390,7 +1390,8 @@ txxx.com##.adsBox
 !txxx.*##+js(abort-on-property-read, jwplayer.utils.Timer)
 !txxx.*##+js(abort-current-inline-script, setTimeout, hommy.mutation.mutation)
 ||txxx.com/burstyourbuble/nofa7.
-||txxx.*^$document,csp=script-src  'self' 'unsafe-eval' 'unsafe-inline' blob:
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1694611876/6
+!||txxx.*^$document,csp=script-src  'self' 'unsafe-eval' 'unsafe-inline' blob:
 txxx.*##.jw-wrapper + div[id][style="display:flex !important"]
 ||txxx.com/api/input.php?
 /assets/jwplayer-*/vast.js$script,1p,domain=txxx.com
