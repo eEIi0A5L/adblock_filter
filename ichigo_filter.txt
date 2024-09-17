@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: いちごフィルタ（Xサイト広告ブロック）
-! Last modified: 23 Nov 2023 00:00 JST
+! Last modified: 17 Sep 2024 00:00 JST
 ! Expires: 6 hours (update frequency)
 ! License: CC0 (Public Domain)
 ! Homepage: https://eeii0a5l.github.io/mochifilter_homepage/ichigo.html
@@ -1367,10 +1367,10 @@ openload.co##^script:has-text(popAdsLoaded)
 !txxx
 txxx.com###fel-udpl
 txxx.com##.player > span > table[style="transform: scale(1);"]
-txxx.com##+js(acis, vdaList)
-txxx.com##+js(abort-on-property-read, ExoLoader)
-txxx.com##+js(abort-on-property-write, ads_priv)
-txxx.com##+js(aopr, BetterJsPop)
+!txxx.com##+js(acis, vdaList)
+!txxx.com##+js(abort-on-property-read, ExoLoader)
+!txxx.com##+js(abort-on-property-write, ads_priv)
+!txxx.com##+js(aopr, BetterJsPop)
 ||sextoysgfs.com/saber/
 ||asiangfsex.com/saber/
 ||8nc8shot.txxx.com/saber/
@@ -1384,11 +1384,11 @@ txxx.com##.afs_ads
 /^https?:\/\/.*\/.*sw[0-9(.|_)].*/$script,domain=txxx.com
 ||wpu.sh^$third-party
 txxx.com##.adsBox
-txxx.com##+js(set-constant, adver, noopFunc)
-txxx.com##+js(addEventListener-defuser, click, pop.beforeOpen)
-txxx.*##+js(no-setTimeout-if, t()?n())
-txxx.*##+js(abort-on-property-read, jwplayer.utils.Timer)
-txxx.*##+js(abort-current-inline-script, setTimeout, hommy.mutation.mutation)
+!txxx.com##+js(set-constant, adver, noopFunc)
+!txxx.com##+js(addEventListener-defuser, click, pop.beforeOpen)
+!txxx.*##+js(no-setTimeout-if, t()?n())
+!txxx.*##+js(abort-on-property-read, jwplayer.utils.Timer)
+!txxx.*##+js(abort-current-inline-script, setTimeout, hommy.mutation.mutation)
 ||txxx.com/burstyourbuble/nofa7.
 ||txxx.*^$document,csp=script-src  'self' 'unsafe-eval' 'unsafe-inline' blob:
 txxx.*##.jw-wrapper + div[id][style="display:flex !important"]
@@ -1399,8 +1399,14 @@ txxx.*##.video-content > div:first-child > div[class]:has(> div > a[href="#"])
 txxx.*##.page-video > div.video-videos-slider ~ div[class]:matches-css(justify-content: center)
 txxx.*##.content.page.page-video .video-content > div[class] > div > div[class] > div[class][style^="background-image:"]:style(background-image: none !important;)
 txxx.com##.ad-title
-txxx.*##+js(abort-current-script, setTimeout, hommy.mutation.mutation)
+!txxx.*##+js(abort-current-script, setTimeout, hommy.mutation.mutation)
+!txxx.*##+js(abort-on-property-read, jwplayer.utils.Timer)
 txxx.*##+js(abort-on-property-read, jwplayer.utils.Timer)
+txxx.*##+js(abort-current-script, setTimeout, hommy.mutation.mutation)
+
+
+
+
 
 !javmec
 ||muqson0kgr.com^
