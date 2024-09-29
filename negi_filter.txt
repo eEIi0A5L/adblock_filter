@@ -647,6 +647,9 @@ imgur.com##.emerald-button
 !右下のRecommendsポップアップ
 www.4gamer.net##.live_alert_popup
 
-
+!Gigazine
+!一部記事のメンバー登録ウォールを削除
+gigazine.net###entry-text:style(display:block !important)
+gigazine.net###entry-form
 
 !END
