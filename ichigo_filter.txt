@@ -2046,26 +2046,26 @@ youjizz.com##+js(abort-on-property-read, ExoLoader)
 
 
 !missav
-missav.com##.adsbyexoclick
-missav.com##.banner-300
-missav.com##+js(set-constant, absda, noopFunc)
-missav.com##+js(window.open-defuser)
+missav.ws##.adsbyexoclick
+missav.ws##.banner-300
+missav.ws##+js(set-constant, absda, noopFunc)
+missav.ws##+js(window.open-defuser)
 ||mc7clurd09pla4nrtat7ion.com^
 ||e67repidwnfu7gcha.com^
 ||wuzbhjpvsf.com^
-missav.com##a[rel^="sponsored"]
-missav.com##div[class^="root--"]:has( > div > a[id^="model-"])
-missav.com##^script:has-text(htmlAds)
-missav.com##+js(abort-current-script, document.createElement, htmlAds)
+missav.ws##a[rel^="sponsored"]
+missav.ws##div[class^="root--"]:has( > div > a[id^="model-"])
+missav.ws##^script:has-text(htmlAds)
+missav.ws##+js(abort-current-script, document.createElement, htmlAds)
 ||rxeosevsso.com^
-missav.com##iframe[id$="_bnr"]
-missav.com##+js(window.open-defuser)
-missav.com##+js(abort-current-script, document.createElement, htmlAds)
-||creative.live.missav.com^
-missav.com##div[style="width: 300px; height: 250px;"]
-missav.com##a[href*="//bit.ly/"]
-missav.com##.lg\:block
-missav.com##.hidden > .mx-auto
+missav.ws##iframe[id$="_bnr"]
+missav.ws##+js(window.open-defuser)
+missav.ws##+js(abort-current-script, document.createElement, htmlAds)
+||creative.live.missav.ws^
+missav.ws##div[style="width: 300px; height: 250px;"]
+missav.ws##a[href*="//bit.ly/"]
+missav.ws##.lg\:block
+missav.ws##.hidden > .mx-auto
 
 
 
