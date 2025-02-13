@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@adguard/aglint": "^2.1.3"
+  }
+}
